@@ -264,7 +264,7 @@ Partial Class Herramientas
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(20, 13)
+        Me.Label4.Location = New System.Drawing.Point(49, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(189, 20)
         Me.Label4.TabIndex = 5
@@ -291,7 +291,7 @@ Partial Class Herramientas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(794, 711)
+        Me.ClientSize = New System.Drawing.Size(1354, 711)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
