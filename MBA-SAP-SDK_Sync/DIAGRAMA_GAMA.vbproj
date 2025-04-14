@@ -109,6 +109,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.vb" />
+    <Compile Include="DIAGRAMA GAMA JLMB\Herramientas.Designer.vb">
+      <DependentUpon>Herramientas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\Herramientas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT IMPRESION.Designer.vb">
+      <DependentUpon>OT IMPRESION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT IMPRESION.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\Frm_OTIMPRESION.Designer.vb">
       <DependentUpon>Frm_OTIMPRESION.vb</DependentUpon>
     </Compile>
@@ -134,6 +146,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\Herramientas.resx">
+      <DependentUpon>Herramientas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT IMPRESION.resx">
+      <DependentUpon>OT IMPRESION.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Frm_OTIMPRESION.resx">
       <DependentUpon>Frm_OTIMPRESION.vb</DependentUpon>
     </EmbeddedResource>
