@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\diagrama gama jlmb\\herramientas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|c:\\users\\josemondolo\\documents\\github\\diagrama_gama\\mba-sap-sdk_sync\\diagrama gama jlmb\\herramientas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\diagrama gama jlmb\\herramientas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|C:\\Users\\JoseMondolo\\Documents\\GitHub\\DIAGRAMA_GAMA\\mba-sap-sdk_sync\\diagrama gama jlmb\\ot impresion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\diagrama gama jlmb\\ot impresion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
@@ -22,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Herramientas.vb",
-              "DocumentMoniker": "C:\\Users\\JoseMondolo\\Documents\\GitHub\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\DIAGRAMA GAMA JLMB\\Herramientas.vb",
-              "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\DIAGRAMA GAMA JLMB\\Herramientas.vb",
-              "ToolTip": "C:\\Users\\JoseMondolo\\Documents\\GitHub\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\DIAGRAMA GAMA JLMB\\Herramientas.vb",
-              "RelativeToolTip": "MBA-SAP-SDK_Sync\\DIAGRAMA GAMA JLMB\\Herramientas.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAIA0wAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-04-14T17:21:43.378Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -51,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "OT IMPRESION.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\JoseMondolo\\Documents\\GitHub\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\DIAGRAMA GAMA JLMB\\OT IMPRESION.vb",
               "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\DIAGRAMA GAMA JLMB\\OT IMPRESION.vb",

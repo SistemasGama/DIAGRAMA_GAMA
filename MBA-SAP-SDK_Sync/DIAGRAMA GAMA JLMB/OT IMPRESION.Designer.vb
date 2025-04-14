@@ -26,11 +26,17 @@ Partial Class OT_IMPRESION
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Controls.Add(Me.TextBox2)
         Me.Panel1.Controls.Add(Me.TextBox1)
         Me.Panel1.Controls.Add(Me.Button1)
@@ -42,7 +48,7 @@ Partial Class OT_IMPRESION
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(524, 329)
+        Me.TextBox2.Location = New System.Drawing.Point(459, 209)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(176, 26)
         Me.TextBox2.TabIndex = 2
@@ -66,6 +72,35 @@ Partial Class OT_IMPRESION
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'Panel2
+        '
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.Panel3)
+        Me.Panel2.Location = New System.Drawing.Point(785, 125)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(307, 258)
+        Me.Panel2.TabIndex = 3
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel3.Controls.Add(Me.Label1)
+        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel3.Location = New System.Drawing.Point(0, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(305, 43)
+        Me.Panel3.TabIndex = 0
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(20, 13)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(189, 20)
+        Me.Label1.TabIndex = 5
+        Me.Label1.Text = "aaaaaaaaaaaaaaaaaaaa"
+        '
         'OT_IMPRESION
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -76,6 +111,9 @@ Partial Class OT_IMPRESION
         Me.Text = "OT_IMPRESION"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -84,4 +122,7 @@ Partial Class OT_IMPRESION
     Friend WithEvents Button1 As Button
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents Label1 As Label
 End Class

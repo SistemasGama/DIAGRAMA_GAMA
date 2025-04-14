@@ -42,12 +42,19 @@ Partial Class Herramientas
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -72,6 +79,7 @@ Partial Class Herramientas
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"aaa" & Global.Microsoft.VisualBasic.ChrW(9), "cc", "dd"})
         Me.ComboBox1.Location = New System.Drawing.Point(48, 191)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 28)
@@ -79,9 +87,10 @@ Partial Class Herramientas
         '
         'DateTimePicker1
         '
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DateTimePicker1.Location = New System.Drawing.Point(48, 239)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(321, 26)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(140, 26)
         Me.DateTimePicker1.TabIndex = 3
         '
         'Label1
@@ -96,9 +105,9 @@ Partial Class Herramientas
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Teal
-        Me.Panel1.Location = New System.Drawing.Point(442, 48)
+        Me.Panel1.Location = New System.Drawing.Point(324, 48)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(181, 145)
+        Me.Panel1.Size = New System.Drawing.Size(299, 145)
         Me.Panel1.TabIndex = 5
         '
         'PictureBox1
@@ -128,7 +137,7 @@ Partial Class Herramientas
         Me.TabControl1.Location = New System.Drawing.Point(48, 304)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(310, 248)
+        Me.TabControl1.Size = New System.Drawing.Size(245, 248)
         Me.TabControl1.TabIndex = 8
         '
         'TabPage1
@@ -137,7 +146,7 @@ Partial Class Herramientas
         Me.TabPage1.Location = New System.Drawing.Point(4, 29)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(302, 215)
+        Me.TabPage1.Size = New System.Drawing.Size(237, 215)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "TabPage1"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -145,7 +154,7 @@ Partial Class Herramientas
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(123, 97)
+        Me.Label2.Location = New System.Drawing.Point(78, 92)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(58, 20)
         Me.Label2.TabIndex = 5
@@ -193,7 +202,7 @@ Partial Class Herramientas
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(459, 454)
+        Me.RadioButton1.Location = New System.Drawing.Point(299, 451)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(133, 24)
         Me.RadioButton1.TabIndex = 11
@@ -204,7 +213,7 @@ Partial Class Herramientas
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(459, 484)
+        Me.RadioButton2.Location = New System.Drawing.Point(299, 481)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(133, 24)
         Me.RadioButton2.TabIndex = 12
@@ -215,7 +224,7 @@ Partial Class Herramientas
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(459, 514)
+        Me.RadioButton3.Location = New System.Drawing.Point(299, 511)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(133, 24)
         Me.RadioButton3.TabIndex = 13
@@ -231,11 +240,60 @@ Partial Class Herramientas
         Me.SplitContainer1.SplitterDistance = 103
         Me.SplitContainer1.TabIndex = 14
         '
+        'Panel2
+        '
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.Label5)
+        Me.Panel2.Controls.Add(Me.Panel3)
+        Me.Panel2.Location = New System.Drawing.Point(448, 433)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(307, 258)
+        Me.Panel2.TabIndex = 15
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel3.Controls.Add(Me.Label4)
+        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel3.Location = New System.Drawing.Point(0, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(305, 43)
+        Me.Panel3.TabIndex = 0
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(20, 13)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(189, 20)
+        Me.Label4.TabIndex = 5
+        Me.Label4.Text = "aaaaaaaaaaaaaaaaaaaa"
+        '
+        'DateTimePicker2
+        '
+        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.DateTimePicker2.Location = New System.Drawing.Point(206, 239)
+        Me.DateTimePicker2.Name = "DateTimePicker2"
+        Me.DateTimePicker2.Size = New System.Drawing.Size(114, 26)
+        Me.DateTimePicker2.TabIndex = 16
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(21, 58)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(129, 60)
+        Me.Label5.TabIndex = 5
+        Me.Label5.Text = "Label5hjjhjhjhjhjh" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "kjijkjkjkjkjkjk" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "klkjjkjkjkjk" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
         'Herramientas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(794, 711)
+        Me.Controls.Add(Me.DateTimePicker2)
+        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.SplitContainer1)
@@ -261,6 +319,10 @@ Partial Class Herramientas
         Me.TabPage2.PerformLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitContainer1.ResumeLayout(False)
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel3.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -285,4 +347,9 @@ Partial Class Herramientas
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton3 As RadioButton
     Friend WithEvents SplitContainer1 As SplitContainer
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents Label4 As Label
+    Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents Label5 As Label
 End Class
