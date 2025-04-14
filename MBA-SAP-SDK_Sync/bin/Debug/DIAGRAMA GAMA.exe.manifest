@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DIAGRAMA GAMA.exe" size="20504">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DIAGRAMA GAMA.exe" size="44056">
       <assemblyIdentity name="DIAGRAMA GAMA" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mFuMu6MnVom62sAxk3mMVf4ekIe9PRQFMkEoTBwJzqc=</dsig:DigestValue>
+        <dsig:DigestValue>EkUQvDqbKPPsiueCsTjIKH5wtA08hBhXUrPpEMgf2oE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -65,13 +65,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="DIAGRAMA GAMA.exe.config" size="2733">
+  <file name="DIAGRAMA GAMA.exe.config" size="2742">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>KMNzSPI4nzdEmGWNs8vDs+MRlq60cumw+r6uGByeB3U=</dsig:DigestValue>
+      <dsig:DigestValue>pyIp6IicdmGf07cLk5PsctA877iVlqUG47Z/RhOOo8M=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.DIAGRAMA_GAMA.Frm_OTIMPRESION
+            Me.MainForm = Global.DIAGRAMA_GAMA.Herramientas
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
