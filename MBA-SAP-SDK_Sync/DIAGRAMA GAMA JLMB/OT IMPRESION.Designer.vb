@@ -23,9 +23,9 @@ Partial Class OT_IMPRESION
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -40,16 +40,13 @@ Partial Class OT_IMPRESION
         Me.Panel1.Size = New System.Drawing.Size(1370, 684)
         Me.Panel1.TabIndex = 0
         '
-        'Button1
+        'TextBox2
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(263, 55)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(113, 51)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.TextBox2.Location = New System.Drawing.Point(524, 329)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(176, 26)
+        Me.TextBox2.TabIndex = 2
+        Me.TextBox2.Text = "AAAAA"
         '
         'TextBox1
         '
@@ -58,13 +55,16 @@ Partial Class OT_IMPRESION
         Me.TextBox1.Size = New System.Drawing.Size(323, 26)
         Me.TextBox1.TabIndex = 1
         '
-        'TextBox2
+        'Button1
         '
-        Me.TextBox2.Location = New System.Drawing.Point(524, 329)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(176, 26)
-        Me.TextBox2.TabIndex = 2
-        Me.TextBox2.Text = "AAAAA"
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Location = New System.Drawing.Point(263, 55)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(113, 51)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'OT_IMPRESION
         '
