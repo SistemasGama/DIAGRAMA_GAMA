@@ -22,5 +22,10 @@ DIAGRAMA GAMA
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
+<member name="P:DIAGRAMA_GAMA.My.Resources.Resources._0">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

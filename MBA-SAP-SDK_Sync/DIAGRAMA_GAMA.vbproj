@@ -87,6 +87,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -121,10 +122,58 @@
     <Compile Include="DIAGRAMA GAMA JLMB\OT IMPRESION.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Frm_OTIMPRESION.Designer.vb">
-      <DependentUpon>Frm_OTIMPRESION.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT TROQUEL.Designer.vb">
+      <DependentUpon>OT TROQUEL.vb</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\Frm_OTIMPRESION.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\OT TROQUEL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT1.Designer.vb">
+      <DependentUpon>OT1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT2.Designer.vb">
+      <DependentUpon>OT2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT3.Designer.vb">
+      <DependentUpon>OT3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT4.Designer.vb">
+      <DependentUpon>OT4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT5.Designer.vb">
+      <DependentUpon>OT5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT6.Designer.vb">
+      <DependentUpon>OT6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT7.Designer.vb">
+      <DependentUpon>OT7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT8.Designer.vb">
+      <DependentUpon>OT8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT8.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -152,8 +201,32 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT IMPRESION.resx">
       <DependentUpon>OT IMPRESION.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Frm_OTIMPRESION.resx">
-      <DependentUpon>Frm_OTIMPRESION.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT TROQUEL.resx">
+      <DependentUpon>OT TROQUEL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT1.resx">
+      <DependentUpon>OT1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT2.resx">
+      <DependentUpon>OT2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT3.resx">
+      <DependentUpon>OT3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT4.resx">
+      <DependentUpon>OT4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT5.resx">
+      <DependentUpon>OT5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT6.resx">
+      <DependentUpon>OT6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT7.resx">
+      <DependentUpon>OT7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT8.resx">
+      <DependentUpon>OT8.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -195,6 +268,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
