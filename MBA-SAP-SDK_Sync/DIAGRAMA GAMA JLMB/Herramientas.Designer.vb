@@ -42,6 +42,7 @@ Partial Class Herramientas
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
@@ -54,7 +55,9 @@ Partial Class Herramientas
         Me.Panel54 = New System.Windows.Forms.Panel()
         Me.Label97 = New System.Windows.Forms.Label()
         Me.Label100 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Panel69 = New System.Windows.Forms.Panel()
+        Me.Panel72 = New System.Windows.Forms.Panel()
+        Me.TextBox239 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -65,6 +68,8 @@ Partial Class Herramientas
         Me.Panel3.SuspendLayout()
         Me.Panel53.SuspendLayout()
         Me.Panel54.SuspendLayout()
+        Me.Panel69.SuspendLayout()
+        Me.Panel72.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -152,7 +157,7 @@ Partial Class Herramientas
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Location = New System.Drawing.Point(59, 441)
+        Me.TabControl1.Location = New System.Drawing.Point(58, 441)
         Me.TabControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
@@ -280,6 +285,17 @@ Partial Class Herramientas
         Me.Panel2.Size = New System.Drawing.Size(375, 373)
         Me.Panel2.TabIndex = 15
         '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label5.Location = New System.Drawing.Point(82, 163)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(238, 31)
+        Me.Label5.TabIndex = 27
+        Me.Label5.Text = "DSF SDAFASDFA FASD "
+        '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
@@ -374,9 +390,9 @@ Partial Class Herramientas
         Me.Panel53.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel53.Controls.Add(Me.Panel54)
-        Me.Panel53.Location = New System.Drawing.Point(972, 559)
+        Me.Panel53.Location = New System.Drawing.Point(987, 553)
         Me.Panel53.Name = "Panel53"
-        Me.Panel53.Size = New System.Drawing.Size(554, 308)
+        Me.Panel53.Size = New System.Drawing.Size(372, 134)
         Me.Panel53.TabIndex = 25
         '
         'Panel54
@@ -389,7 +405,7 @@ Partial Class Herramientas
         Me.Panel54.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel54.Location = New System.Drawing.Point(0, 0)
         Me.Panel54.Name = "Panel54"
-        Me.Panel54.Size = New System.Drawing.Size(552, 43)
+        Me.Panel54.Size = New System.Drawing.Size(370, 43)
         Me.Panel54.TabIndex = 0
         '
         'Label97
@@ -414,16 +430,35 @@ Partial Class Herramientas
         Me.Label100.TabIndex = 5
         Me.Label100.Text = "CLIENTE"
         '
-        'Label5
+        'Panel69
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label5.Location = New System.Drawing.Point(82, 163)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(238, 31)
-        Me.Label5.TabIndex = 27
-        Me.Label5.Text = "DSF SDAFASDFA FASD "
+        Me.Panel69.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel69.Controls.Add(Me.Panel72)
+        Me.Panel69.Location = New System.Drawing.Point(930, 712)
+        Me.Panel69.Name = "Panel69"
+        Me.Panel69.Size = New System.Drawing.Size(563, 289)
+        Me.Panel69.TabIndex = 26
+        '
+        'Panel72
+        '
+        Me.Panel72.AutoScroll = True
+        Me.Panel72.BackColor = System.Drawing.Color.Silver
+        Me.Panel72.Controls.Add(Me.TextBox239)
+        Me.Panel72.Location = New System.Drawing.Point(17, 54)
+        Me.Panel72.Name = "Panel72"
+        Me.Panel72.Size = New System.Drawing.Size(524, 208)
+        Me.Panel72.TabIndex = 1
+        '
+        'TextBox239
+        '
+        Me.TextBox239.Dock = System.Windows.Forms.DockStyle.Top
+        Me.TextBox239.Location = New System.Drawing.Point(0, 0)
+        Me.TextBox239.Multiline = True
+        Me.TextBox239.Name = "TextBox239"
+        Me.TextBox239.Size = New System.Drawing.Size(498, 245)
+        Me.TextBox239.TabIndex = 0
+        Me.TextBox239.Text = resources.GetString("TextBox239.Text")
         '
         'Herramientas
         '
@@ -432,6 +467,7 @@ Partial Class Herramientas
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.ClientSize = New System.Drawing.Size(1655, 1021)
+        Me.Controls.Add(Me.Panel69)
         Me.Controls.Add(Me.Panel53)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.DateTimePicker2)
@@ -474,6 +510,9 @@ Partial Class Herramientas
         Me.Panel53.ResumeLayout(False)
         Me.Panel54.ResumeLayout(False)
         Me.Panel54.PerformLayout()
+        Me.Panel69.ResumeLayout(False)
+        Me.Panel72.ResumeLayout(False)
+        Me.Panel72.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -511,4 +550,7 @@ Partial Class Herramientas
     Friend WithEvents Label97 As Label
     Friend WithEvents Label100 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents Panel69 As Panel
+    Friend WithEvents Panel72 As Panel
+    Friend WithEvents TextBox239 As TextBox
 End Class

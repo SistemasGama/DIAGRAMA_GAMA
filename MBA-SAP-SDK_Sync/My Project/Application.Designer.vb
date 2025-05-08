@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.DIAGRAMA_GAMA.OT_IMPRESION
+            Me.MainForm = Global.DIAGRAMA_GAMA.INSUMO
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
