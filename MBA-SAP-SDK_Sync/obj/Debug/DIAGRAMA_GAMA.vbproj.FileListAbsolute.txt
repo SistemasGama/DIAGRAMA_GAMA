@@ -41,11 +41,10 @@ C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\D
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.xml
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.pdb
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT_TROQUEL.resources
-C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT3.resources
-C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT4.resources
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT5.resources
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT6.resources
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT7.resources
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT8.resources
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.TROQUELADO.resources
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.INSUMO.resources
+C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.MP.resources

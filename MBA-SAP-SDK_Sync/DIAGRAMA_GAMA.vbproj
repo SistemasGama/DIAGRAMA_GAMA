@@ -119,9 +119,7 @@
     <Compile Include="DIAGRAMA GAMA JLMB\OT IMPRESION.Designer.vb">
       <DependentUpon>OT IMPRESION.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT IMPRESION.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT IMPRESION.vb" />
     <Compile Include="DIAGRAMA GAMA JLMB\OT PREPRENSA.Designer.vb">
       <DependentUpon>OT PREPRENSA.vb</DependentUpon>
     </Compile>
@@ -138,12 +136,6 @@
       <DependentUpon>INSUMO.vb</DependentUpon>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\INSUMO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT3.Designer.vb">
-      <DependentUpon>OT3.vb</DependentUpon>
-    </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT3.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\OT4.Designer.vb">
@@ -209,9 +201,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\INSUMO.resx">
       <DependentUpon>INSUMO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT3.resx">
-      <DependentUpon>OT3.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT4.resx">
       <DependentUpon>OT4.vb</DependentUpon>
