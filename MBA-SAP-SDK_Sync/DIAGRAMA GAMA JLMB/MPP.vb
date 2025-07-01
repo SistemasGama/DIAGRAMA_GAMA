@@ -6,4 +6,16 @@
     Private Sub TabPage20_Click(sender As Object, e As EventArgs) Handles TabPage20.Click
 
     End Sub
+
+    Private Sub TextBox97_TextChanged(sender As Object, e As EventArgs) Handles TextBox97.TextChanged, TextBox146.TextChanged, TextBox145.TextChanged, TextBox144.TextChanged, TextBox148.TextChanged, TextBox150.TextChanged, TextBox149.TextChanged, TextBox142.TextChanged, TextBox131.TextChanged
+
+    End Sub
+
+    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
+
+    End Sub
+
+    Private Sub Label368_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

@@ -28,6 +28,7 @@ Partial Class OT_IMPRESION
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.Panel225 = New System.Windows.Forms.Panel()
         Me.Panel49 = New System.Windows.Forms.Panel()
         Me.Label273 = New System.Windows.Forms.Label()
         Me.RadioButton134 = New System.Windows.Forms.RadioButton()
@@ -172,6 +173,9 @@ Partial Class OT_IMPRESION
         Me.Label86 = New System.Windows.Forms.Label()
         Me.Label87 = New System.Windows.Forms.Label()
         Me.Button20 = New System.Windows.Forms.Button()
+        Me.Panel226 = New System.Windows.Forms.Panel()
+        Me.Label531 = New System.Windows.Forms.Label()
+        Me.Label532 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Panel83 = New System.Windows.Forms.Panel()
         Me.CheckBox42 = New System.Windows.Forms.CheckBox()
@@ -360,6 +364,7 @@ Partial Class OT_IMPRESION
         Me.Label288 = New System.Windows.Forms.Label()
         Me.Label289 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.Panel223 = New System.Windows.Forms.Panel()
         Me.Panel89 = New System.Windows.Forms.Panel()
         Me.ComboBox192 = New System.Windows.Forms.ComboBox()
         Me.ComboBox181 = New System.Windows.Forms.ComboBox()
@@ -427,6 +432,9 @@ Partial Class OT_IMPRESION
         Me.Button62 = New System.Windows.Forms.Button()
         Me.Label328 = New System.Windows.Forms.Label()
         Me.Label333 = New System.Windows.Forms.Label()
+        Me.Panel224 = New System.Windows.Forms.Panel()
+        Me.Label278 = New System.Windows.Forms.Label()
+        Me.Label284 = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.Panel91 = New System.Windows.Forms.Panel()
         Me.Panel113 = New System.Windows.Forms.Panel()
@@ -1642,16 +1650,34 @@ Partial Class OT_IMPRESION
         Me.RadioButton22 = New System.Windows.Forms.RadioButton()
         Me.Panel65 = New System.Windows.Forms.Panel()
         Me.Panel81 = New System.Windows.Forms.Panel()
+        Me.CheckBox149 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox147 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox148 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox146 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox145 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox144 = New System.Windows.Forms.CheckBox()
+        Me.TextBox79 = New System.Windows.Forms.TextBox()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
         Me.Panel82 = New System.Windows.Forms.Panel()
         Me.Label281 = New System.Windows.Forms.Label()
         Me.Button45 = New System.Windows.Forms.Button()
         Me.Label282 = New System.Windows.Forms.Label()
+        Me.TextBox78 = New System.Windows.Forms.TextBox()
+        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.TextBox77 = New System.Windows.Forms.TextBox()
         Me.TextBox17 = New System.Windows.Forms.TextBox()
+        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.ComboBox266 = New System.Windows.Forms.ComboBox()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.ComboBox148 = New System.Windows.Forms.ComboBox()
         Me.TextBox16 = New System.Windows.Forms.TextBox()
         Me.ComboBox147 = New System.Windows.Forms.ComboBox()
+        Me.RadioButton142 = New System.Windows.Forms.RadioButton()
         Me.Label285 = New System.Windows.Forms.Label()
+        Me.RadioButton138 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton140 = New System.Windows.Forms.RadioButton()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.RadioButton136 = New System.Windows.Forms.RadioButton()
         Me.RadioButton146 = New System.Windows.Forms.RadioButton()
         Me.RadioButton144 = New System.Windows.Forms.RadioButton()
         Me.Label279 = New System.Windows.Forms.Label()
@@ -1708,6 +1734,8 @@ Partial Class OT_IMPRESION
         Me.Label162 = New System.Windows.Forms.Label()
         Me.ComboBox106 = New System.Windows.Forms.ComboBox()
         Me.ComboBox105 = New System.Windows.Forms.ComboBox()
+        Me.TextBox76 = New System.Windows.Forms.TextBox()
+        Me.TextBox75 = New System.Windows.Forms.TextBox()
         Me.TextBox176 = New System.Windows.Forms.TextBox()
         Me.TextBox147 = New System.Windows.Forms.TextBox()
         Me.TextBox145 = New System.Windows.Forms.TextBox()
@@ -1911,7 +1939,6 @@ Partial Class OT_IMPRESION
         Me.Label225 = New System.Windows.Forms.Label()
         Me.Label226 = New System.Windows.Forms.Label()
         Me.Label213 = New System.Windows.Forms.Label()
-        Me.CheckBox41 = New System.Windows.Forms.CheckBox()
         Me.CheckBox39 = New System.Windows.Forms.CheckBox()
         Me.CheckBox37 = New System.Windows.Forms.CheckBox()
         Me.CheckBox35 = New System.Windows.Forms.CheckBox()
@@ -2007,44 +2034,24 @@ Partial Class OT_IMPRESION
         Me.Label47 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.TextBox75 = New System.Windows.Forms.TextBox()
-        Me.TextBox76 = New System.Windows.Forms.TextBox()
-        Me.CheckBox144 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox145 = New System.Windows.Forms.CheckBox()
-        Me.RadioButton136 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton138 = New System.Windows.Forms.RadioButton()
-        Me.ComboBox148 = New System.Windows.Forms.ComboBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.CheckBox146 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox147 = New System.Windows.Forms.CheckBox()
-        Me.RadioButton140 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton142 = New System.Windows.Forms.RadioButton()
-        Me.ComboBox266 = New System.Windows.Forms.ComboBox()
-        Me.TextBox77 = New System.Windows.Forms.TextBox()
-        Me.TextBox78 = New System.Windows.Forms.TextBox()
-        Me.TextBox79 = New System.Windows.Forms.TextBox()
-        Me.CheckBox148 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox149 = New System.Windows.Forms.CheckBox()
-        Me.Panel223 = New System.Windows.Forms.Panel()
-        Me.Panel224 = New System.Windows.Forms.Panel()
-        Me.Label278 = New System.Windows.Forms.Label()
-        Me.Label284 = New System.Windows.Forms.Label()
-        Me.Panel225 = New System.Windows.Forms.Panel()
-        Me.Panel226 = New System.Windows.Forms.Panel()
-        Me.Label531 = New System.Windows.Forms.Label()
-        Me.Label532 = New System.Windows.Forms.Label()
+        Me.Label75 = New System.Windows.Forms.Label()
+        Me.CheckBox41 = New System.Windows.Forms.CheckBox()
+        Me.Label76 = New System.Windows.Forms.Label()
+        Me.CheckBox150 = New System.Windows.Forms.CheckBox()
+        Me.Label101 = New System.Windows.Forms.Label()
+        Me.CheckBox151 = New System.Windows.Forms.CheckBox()
         Me.Panel1.SuspendLayout
         Me.Panel2.SuspendLayout
         Me.TabControl1.SuspendLayout
         Me.TabPage1.SuspendLayout
+        Me.Panel225.SuspendLayout
         Me.Panel49.SuspendLayout
         Me.Panel123.SuspendLayout
         Me.Panel124.SuspendLayout
         Me.Panel121.SuspendLayout
         Me.Panel122.SuspendLayout
         Me.Panel50.SuspendLayout
+        Me.Panel226.SuspendLayout
         Me.TabPage2.SuspendLayout
         Me.Panel83.SuspendLayout
         Me.Panel87.SuspendLayout
@@ -2053,8 +2060,10 @@ Partial Class OT_IMPRESION
         Me.Panel86.SuspendLayout
         Me.Panel84.SuspendLayout
         Me.TabPage3.SuspendLayout
+        Me.Panel223.SuspendLayout
         Me.Panel89.SuspendLayout
         Me.Panel90.SuspendLayout
+        Me.Panel224.SuspendLayout
         Me.TabPage4.SuspendLayout
         Me.Panel91.SuspendLayout
         Me.Panel113.SuspendLayout
@@ -2261,10 +2270,6 @@ Partial Class OT_IMPRESION
         Me.Panel17.SuspendLayout
         Me.Panel18.SuspendLayout
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel223.SuspendLayout
-        Me.Panel224.SuspendLayout
-        Me.Panel225.SuspendLayout
-        Me.Panel226.SuspendLayout
         Me.SuspendLayout
         '
         'Panel1
@@ -2331,6 +2336,17 @@ Partial Class OT_IMPRESION
         Me.TabPage1.Size = New System.Drawing.Size(1845, 1208)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "FIN / "
+        '
+        'Panel225
+        '
+        Me.Panel225.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel225.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel225.Controls.Add(Me.Panel49)
+        Me.Panel225.Controls.Add(Me.Panel226)
+        Me.Panel225.Location = New System.Drawing.Point(5, 7)
+        Me.Panel225.Name = "Panel225"
+        Me.Panel225.Size = New System.Drawing.Size(1837, 927)
+        Me.Panel225.TabIndex = 171
         '
         'Panel49
         '
@@ -4304,6 +4320,41 @@ Partial Class OT_IMPRESION
         Me.Button20.Size = New System.Drawing.Size(54, 49)
         Me.Button20.TabIndex = 19
         Me.Button20.UseVisualStyleBackColor = False
+        '
+        'Panel226
+        '
+        Me.Panel226.BackColor = System.Drawing.Color.Green
+        Me.Panel226.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel226.Controls.Add(Me.Label531)
+        Me.Panel226.Controls.Add(Me.Label532)
+        Me.Panel226.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel226.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel226.Location = New System.Drawing.Point(0, 0)
+        Me.Panel226.Name = "Panel226"
+        Me.Panel226.Size = New System.Drawing.Size(1835, 43)
+        Me.Panel226.TabIndex = 0
+        '
+        'Label531
+        '
+        Me.Label531.AutoSize = True
+        Me.Label531.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label531.ForeColor = System.Drawing.Color.White
+        Me.Label531.Location = New System.Drawing.Point(845, 6)
+        Me.Label531.Name = "Label531"
+        Me.Label531.Size = New System.Drawing.Size(60, 33)
+        Me.Label531.TabIndex = 23
+        Me.Label531.Text = "FIN"
+        '
+        'Label532
+        '
+        Me.Label532.AutoSize = True
+        Me.Label532.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label532.ForeColor = System.Drawing.Color.White
+        Me.Label532.Location = New System.Drawing.Point(-124, 4)
+        Me.Label532.Name = "Label532"
+        Me.Label532.Size = New System.Drawing.Size(113, 33)
+        Me.Label532.TabIndex = 5
+        Me.Label532.Text = "CLIENTE"
         '
         'TabPage2
         '
@@ -6671,6 +6722,17 @@ Partial Class OT_IMPRESION
         Me.TabPage3.Text = "DOCUMENTO / "
         Me.TabPage3.UseVisualStyleBackColor = True
         '
+        'Panel223
+        '
+        Me.Panel223.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel223.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel223.Controls.Add(Me.Panel89)
+        Me.Panel223.Controls.Add(Me.Panel224)
+        Me.Panel223.Location = New System.Drawing.Point(8, 6)
+        Me.Panel223.Name = "Panel223"
+        Me.Panel223.Size = New System.Drawing.Size(1837, 927)
+        Me.Panel223.TabIndex = 170
+        '
         'Panel89
         '
         Me.Panel89.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -7579,6 +7641,41 @@ Partial Class OT_IMPRESION
         Me.Label333.Size = New System.Drawing.Size(100, 29)
         Me.Label333.TabIndex = 100
         Me.Label333.Text = "Cliente:"
+        '
+        'Panel224
+        '
+        Me.Panel224.BackColor = System.Drawing.Color.Green
+        Me.Panel224.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel224.Controls.Add(Me.Label278)
+        Me.Panel224.Controls.Add(Me.Label284)
+        Me.Panel224.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel224.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel224.Location = New System.Drawing.Point(0, 0)
+        Me.Panel224.Name = "Panel224"
+        Me.Panel224.Size = New System.Drawing.Size(1835, 43)
+        Me.Panel224.TabIndex = 0
+        '
+        'Label278
+        '
+        Me.Label278.AutoSize = True
+        Me.Label278.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label278.ForeColor = System.Drawing.Color.White
+        Me.Label278.Location = New System.Drawing.Point(797, 8)
+        Me.Label278.Name = "Label278"
+        Me.Label278.Size = New System.Drawing.Size(198, 33)
+        Me.Label278.TabIndex = 23
+        Me.Label278.Text = "DOCUMENTO"
+        '
+        'Label284
+        '
+        Me.Label284.AutoSize = True
+        Me.Label284.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label284.ForeColor = System.Drawing.Color.White
+        Me.Label284.Location = New System.Drawing.Point(-124, 4)
+        Me.Label284.Name = "Label284"
+        Me.Label284.Size = New System.Drawing.Size(113, 33)
+        Me.Label284.TabIndex = 5
+        Me.Label284.Text = "CLIENTE"
         '
         'TabPage4
         '
@@ -20209,7 +20306,7 @@ Partial Class OT_IMPRESION
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(189, 52)
+        Me.TextBox2.Location = New System.Drawing.Point(189, 49)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(126, 40)
         Me.TextBox2.TabIndex = 23
@@ -20251,7 +20348,7 @@ Partial Class OT_IMPRESION
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(13, 57)
+        Me.Label1.Location = New System.Drawing.Point(13, 55)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(172, 29)
         Me.Label1.TabIndex = 20
@@ -23636,6 +23733,102 @@ Partial Class OT_IMPRESION
         Me.Panel81.Size = New System.Drawing.Size(1249, 198)
         Me.Panel81.TabIndex = 29
         '
+        'CheckBox149
+        '
+        Me.CheckBox149.AutoSize = True
+        Me.CheckBox149.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox149.Location = New System.Drawing.Point(1131, 151)
+        Me.CheckBox149.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox149.Name = "CheckBox149"
+        Me.CheckBox149.Size = New System.Drawing.Size(108, 33)
+        Me.CheckBox149.TabIndex = 159
+        Me.CheckBox149.Text = "Dorso"
+        Me.CheckBox149.UseVisualStyleBackColor = True
+        '
+        'CheckBox147
+        '
+        Me.CheckBox147.AutoSize = True
+        Me.CheckBox147.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox147.Location = New System.Drawing.Point(1131, 115)
+        Me.CheckBox147.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox147.Name = "CheckBox147"
+        Me.CheckBox147.Size = New System.Drawing.Size(108, 33)
+        Me.CheckBox147.TabIndex = 159
+        Me.CheckBox147.Text = "Dorso"
+        Me.CheckBox147.UseVisualStyleBackColor = True
+        '
+        'CheckBox148
+        '
+        Me.CheckBox148.AutoSize = True
+        Me.CheckBox148.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox148.Location = New System.Drawing.Point(1012, 151)
+        Me.CheckBox148.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox148.Name = "CheckBox148"
+        Me.CheckBox148.Size = New System.Drawing.Size(112, 33)
+        Me.CheckBox148.TabIndex = 159
+        Me.CheckBox148.Text = "Frente"
+        Me.CheckBox148.UseVisualStyleBackColor = True
+        '
+        'CheckBox146
+        '
+        Me.CheckBox146.AutoSize = True
+        Me.CheckBox146.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox146.Location = New System.Drawing.Point(1012, 115)
+        Me.CheckBox146.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox146.Name = "CheckBox146"
+        Me.CheckBox146.Size = New System.Drawing.Size(112, 33)
+        Me.CheckBox146.TabIndex = 159
+        Me.CheckBox146.Text = "Frente"
+        Me.CheckBox146.UseVisualStyleBackColor = True
+        '
+        'CheckBox145
+        '
+        Me.CheckBox145.AutoSize = True
+        Me.CheckBox145.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox145.Location = New System.Drawing.Point(1131, 79)
+        Me.CheckBox145.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox145.Name = "CheckBox145"
+        Me.CheckBox145.Size = New System.Drawing.Size(108, 33)
+        Me.CheckBox145.TabIndex = 159
+        Me.CheckBox145.Text = "Dorso"
+        Me.CheckBox145.UseVisualStyleBackColor = True
+        '
+        'CheckBox144
+        '
+        Me.CheckBox144.AutoSize = True
+        Me.CheckBox144.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox144.Location = New System.Drawing.Point(1012, 79)
+        Me.CheckBox144.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox144.Name = "CheckBox144"
+        Me.CheckBox144.Size = New System.Drawing.Size(112, 33)
+        Me.CheckBox144.TabIndex = 159
+        Me.CheckBox144.Text = "Frente"
+        Me.CheckBox144.UseVisualStyleBackColor = True
+        '
+        'TextBox79
+        '
+        Me.TextBox79.BackColor = System.Drawing.Color.White
+        Me.TextBox79.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox79.ForeColor = System.Drawing.Color.Fuchsia
+        Me.TextBox79.Location = New System.Drawing.Point(744, 152)
+        Me.TextBox79.Name = "TextBox79"
+        Me.TextBox79.Size = New System.Drawing.Size(92, 30)
+        Me.TextBox79.TabIndex = 74
+        Me.TextBox79.Text = "000.000"
+        Me.TextBox79.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox20
+        '
+        Me.TextBox20.BackColor = System.Drawing.Color.White
+        Me.TextBox20.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox20.ForeColor = System.Drawing.Color.Fuchsia
+        Me.TextBox20.Location = New System.Drawing.Point(744, 116)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.Size = New System.Drawing.Size(92, 30)
+        Me.TextBox20.TabIndex = 74
+        Me.TextBox20.Text = "000.000"
+        Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Panel82
         '
         Me.Panel82.BackColor = System.Drawing.Color.Green
@@ -23692,6 +23885,42 @@ Partial Class OT_IMPRESION
         Me.Label282.TabIndex = 5
         Me.Label282.Text = "CLIENTE"
         '
+        'TextBox78
+        '
+        Me.TextBox78.BackColor = System.Drawing.Color.White
+        Me.TextBox78.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox78.ForeColor = System.Drawing.Color.Fuchsia
+        Me.TextBox78.Location = New System.Drawing.Point(554, 152)
+        Me.TextBox78.Name = "TextBox78"
+        Me.TextBox78.Size = New System.Drawing.Size(79, 30)
+        Me.TextBox78.TabIndex = 68
+        Me.TextBox78.Text = "000.000"
+        Me.TextBox78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox19
+        '
+        Me.TextBox19.BackColor = System.Drawing.Color.White
+        Me.TextBox19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox19.ForeColor = System.Drawing.Color.Fuchsia
+        Me.TextBox19.Location = New System.Drawing.Point(554, 116)
+        Me.TextBox19.Name = "TextBox19"
+        Me.TextBox19.Size = New System.Drawing.Size(79, 30)
+        Me.TextBox19.TabIndex = 68
+        Me.TextBox19.Text = "000.000"
+        Me.TextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox77
+        '
+        Me.TextBox77.BackColor = System.Drawing.Color.White
+        Me.TextBox77.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox77.ForeColor = System.Drawing.Color.Fuchsia
+        Me.TextBox77.Location = New System.Drawing.Point(646, 152)
+        Me.TextBox77.Name = "TextBox77"
+        Me.TextBox77.Size = New System.Drawing.Size(85, 30)
+        Me.TextBox77.TabIndex = 71
+        Me.TextBox77.Text = "000.000"
+        Me.TextBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'TextBox17
         '
         Me.TextBox17.BackColor = System.Drawing.Color.White
@@ -23704,6 +23933,32 @@ Partial Class OT_IMPRESION
         Me.TextBox17.Text = "000.000"
         Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'TextBox18
+        '
+        Me.TextBox18.BackColor = System.Drawing.Color.White
+        Me.TextBox18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox18.ForeColor = System.Drawing.Color.Fuchsia
+        Me.TextBox18.Location = New System.Drawing.Point(646, 116)
+        Me.TextBox18.Name = "TextBox18"
+        Me.TextBox18.Size = New System.Drawing.Size(85, 30)
+        Me.TextBox18.TabIndex = 71
+        Me.TextBox18.Text = "000.000"
+        Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox266
+        '
+        Me.ComboBox266.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox266.DropDownWidth = 272
+        Me.ComboBox266.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox266.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox266.FormattingEnabled = True
+        Me.ComboBox266.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "", "Codigo INSUMO", "A lado la totalidad insumo en el deposito", "Listado de insumos en el deposito.", "De acuerdo a lo cotizado aparece en este listado", "Aparece en cada uno de estos desplegado lo cotizado", "A su lado esta la cantidad existente deposito"})
+        Me.ComboBox266.Location = New System.Drawing.Point(14, 153)
+        Me.ComboBox266.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox266.Name = "ComboBox266"
+        Me.ComboBox266.Size = New System.Drawing.Size(522, 29)
+        Me.ComboBox266.TabIndex = 53
+        '
         'TextBox15
         '
         Me.TextBox15.BackColor = System.Drawing.Color.White
@@ -23715,6 +23970,20 @@ Partial Class OT_IMPRESION
         Me.TextBox15.TabIndex = 68
         Me.TextBox15.Text = "000.000"
         Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox148
+        '
+        Me.ComboBox148.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox148.DropDownWidth = 272
+        Me.ComboBox148.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox148.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox148.FormattingEnabled = True
+        Me.ComboBox148.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "", "Codigo INSUMO", "A lado la totalidad insumo en el deposito", "Listado de insumos en el deposito.", "De acuerdo a lo cotizado aparece en este listado", "Aparece en cada uno de estos desplegado lo cotizado", "A su lado esta la cantidad existente deposito"})
+        Me.ComboBox148.Location = New System.Drawing.Point(14, 117)
+        Me.ComboBox148.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox148.Name = "ComboBox148"
+        Me.ComboBox148.Size = New System.Drawing.Size(522, 29)
+        Me.ComboBox148.TabIndex = 53
         '
         'TextBox16
         '
@@ -23742,6 +24011,21 @@ Partial Class OT_IMPRESION
         Me.ComboBox147.Size = New System.Drawing.Size(522, 29)
         Me.ComboBox147.TabIndex = 53
         '
+        'RadioButton142
+        '
+        Me.RadioButton142.AutoSize = True
+        Me.RadioButton142.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton142.FlatAppearance.BorderColor = System.Drawing.Color.Magenta
+        Me.RadioButton142.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton142.Location = New System.Drawing.Point(862, 153)
+        Me.RadioButton142.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton142.Name = "RadioButton142"
+        Me.RadioButton142.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton142.TabIndex = 25
+        Me.RadioButton142.TabStop = True
+        Me.RadioButton142.Text = "No"
+        Me.RadioButton142.UseVisualStyleBackColor = False
+        '
         'Label285
         '
         Me.Label285.AutoSize = True
@@ -23754,6 +24038,36 @@ Partial Class OT_IMPRESION
         Me.Label285.TabIndex = 100
         Me.Label285.Text = "Calar Caucho"
         '
+        'RadioButton138
+        '
+        Me.RadioButton138.AutoSize = True
+        Me.RadioButton138.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton138.FlatAppearance.BorderColor = System.Drawing.Color.Magenta
+        Me.RadioButton138.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton138.Location = New System.Drawing.Point(862, 117)
+        Me.RadioButton138.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton138.Name = "RadioButton138"
+        Me.RadioButton138.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton138.TabIndex = 25
+        Me.RadioButton138.TabStop = True
+        Me.RadioButton138.Text = "No"
+        Me.RadioButton138.UseVisualStyleBackColor = False
+        '
+        'RadioButton140
+        '
+        Me.RadioButton140.AutoSize = True
+        Me.RadioButton140.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton140.FlatAppearance.BorderColor = System.Drawing.Color.Magenta
+        Me.RadioButton140.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton140.Location = New System.Drawing.Point(934, 153)
+        Me.RadioButton140.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton140.Name = "RadioButton140"
+        Me.RadioButton140.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton140.TabIndex = 24
+        Me.RadioButton140.TabStop = True
+        Me.RadioButton140.Text = "Si"
+        Me.RadioButton140.UseVisualStyleBackColor = False
+        '
         'Label11
         '
         Me.Label11.AutoSize = True
@@ -23765,6 +24079,21 @@ Partial Class OT_IMPRESION
         Me.Label11.Size = New System.Drawing.Size(179, 24)
         Me.Label11.TabIndex = 100
         Me.Label11.Text = "Insumo Cotizados"
+        '
+        'RadioButton136
+        '
+        Me.RadioButton136.AutoSize = True
+        Me.RadioButton136.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton136.FlatAppearance.BorderColor = System.Drawing.Color.Magenta
+        Me.RadioButton136.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton136.Location = New System.Drawing.Point(934, 117)
+        Me.RadioButton136.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton136.Name = "RadioButton136"
+        Me.RadioButton136.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton136.TabIndex = 24
+        Me.RadioButton136.TabStop = True
+        Me.RadioButton136.Text = "Si"
+        Me.RadioButton136.UseVisualStyleBackColor = False
         '
         'RadioButton146
         '
@@ -24493,6 +24822,30 @@ Partial Class OT_IMPRESION
         Me.ComboBox105.Name = "ComboBox105"
         Me.ComboBox105.Size = New System.Drawing.Size(487, 37)
         Me.ComboBox105.TabIndex = 33
+        '
+        'TextBox76
+        '
+        Me.TextBox76.BackColor = System.Drawing.Color.White
+        Me.TextBox76.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox76.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox76.Location = New System.Drawing.Point(1003, 167)
+        Me.TextBox76.Name = "TextBox76"
+        Me.TextBox76.Size = New System.Drawing.Size(63, 35)
+        Me.TextBox76.TabIndex = 26
+        Me.TextBox76.Text = "000 "
+        Me.TextBox76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox75
+        '
+        Me.TextBox75.BackColor = System.Drawing.Color.White
+        Me.TextBox75.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox75.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox75.Location = New System.Drawing.Point(933, 166)
+        Me.TextBox75.Name = "TextBox75"
+        Me.TextBox75.Size = New System.Drawing.Size(63, 35)
+        Me.TextBox75.TabIndex = 26
+        Me.TextBox75.Text = "000 "
+        Me.TextBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox176
         '
@@ -26361,6 +26714,12 @@ Partial Class OT_IMPRESION
         '
         Me.Panel111.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel111.Controls.Add(Me.CheckBox151)
+        Me.Panel111.Controls.Add(Me.CheckBox150)
+        Me.Panel111.Controls.Add(Me.CheckBox41)
+        Me.Panel111.Controls.Add(Me.Label76)
+        Me.Panel111.Controls.Add(Me.Label101)
+        Me.Panel111.Controls.Add(Me.Label75)
         Me.Panel111.Controls.Add(Me.Panel53)
         Me.Panel111.Controls.Add(Me.TextBox41)
         Me.Panel111.Controls.Add(Me.ComboBox133)
@@ -26391,7 +26750,7 @@ Partial Class OT_IMPRESION
         Me.Panel111.Controls.Add(Me.DateTimePicker15)
         Me.Panel111.Location = New System.Drawing.Point(12, 286)
         Me.Panel111.Name = "Panel111"
-        Me.Panel111.Size = New System.Drawing.Size(1099, 585)
+        Me.Panel111.Size = New System.Drawing.Size(1099, 635)
         Me.Panel111.TabIndex = 41
         '
         'Panel53
@@ -27065,9 +27424,9 @@ Partial Class OT_IMPRESION
         Me.Panel69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel69.Controls.Add(Me.Panel72)
         Me.Panel69.Controls.Add(Me.Panel70)
-        Me.Panel69.Location = New System.Drawing.Point(540, 893)
+        Me.Panel69.Location = New System.Drawing.Point(540, 927)
         Me.Panel69.Name = "Panel69"
-        Me.Panel69.Size = New System.Drawing.Size(563, 293)
+        Me.Panel69.Size = New System.Drawing.Size(563, 259)
         Me.Panel69.TabIndex = 18
         '
         'Panel72
@@ -27077,7 +27436,7 @@ Partial Class OT_IMPRESION
         Me.Panel72.Controls.Add(Me.TextBox239)
         Me.Panel72.Location = New System.Drawing.Point(11, 43)
         Me.Panel72.Name = "Panel72"
-        Me.Panel72.Size = New System.Drawing.Size(524, 243)
+        Me.Panel72.Size = New System.Drawing.Size(524, 206)
         Me.Panel72.TabIndex = 1
         '
         'TextBox239
@@ -27088,7 +27447,7 @@ Partial Class OT_IMPRESION
         Me.TextBox239.Location = New System.Drawing.Point(0, 0)
         Me.TextBox239.Multiline = True
         Me.TextBox239.Name = "TextBox239"
-        Me.TextBox239.Size = New System.Drawing.Size(498, 250)
+        Me.TextBox239.Size = New System.Drawing.Size(498, 209)
         Me.TextBox239.TabIndex = 0
         Me.TextBox239.Text = resources.GetString("TextBox239.Text")
         '
@@ -27171,7 +27530,6 @@ Partial Class OT_IMPRESION
         Me.Panel37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel37.Controls.Add(Me.Panel38)
         Me.Panel37.Controls.Add(Me.Label213)
-        Me.Panel37.Controls.Add(Me.CheckBox41)
         Me.Panel37.Controls.Add(Me.CheckBox39)
         Me.Panel37.Controls.Add(Me.CheckBox37)
         Me.Panel37.Controls.Add(Me.CheckBox35)
@@ -27185,9 +27543,9 @@ Partial Class OT_IMPRESION
         Me.Panel37.Controls.Add(Me.Label208)
         Me.Panel37.Controls.Add(Me.Label207)
         Me.Panel37.Controls.Add(Me.TextBox150)
-        Me.Panel37.Location = New System.Drawing.Point(23, 893)
+        Me.Panel37.Location = New System.Drawing.Point(23, 926)
         Me.Panel37.Name = "Panel37"
-        Me.Panel37.Size = New System.Drawing.Size(497, 293)
+        Me.Panel37.Size = New System.Drawing.Size(497, 260)
         Me.Panel37.TabIndex = 41
         '
         'Panel38
@@ -27235,18 +27593,6 @@ Partial Class OT_IMPRESION
         Me.Label213.Size = New System.Drawing.Size(47, 29)
         Me.Label213.TabIndex = 21
         Me.Label213.Text = "N°:"
-        '
-        'CheckBox41
-        '
-        Me.CheckBox41.AutoSize = True
-        Me.CheckBox41.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox41.Location = New System.Drawing.Point(253, 253)
-        Me.CheckBox41.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox41.Name = "CheckBox41"
-        Me.CheckBox41.Size = New System.Drawing.Size(62, 33)
-        Me.CheckBox41.TabIndex = 24
-        Me.CheckBox41.Text = "Si"
-        Me.CheckBox41.UseVisualStyleBackColor = True
         '
         'CheckBox39
         '
@@ -28471,353 +28817,77 @@ Partial Class OT_IMPRESION
         'BindingSource1
         '
         '
-        'TextBox75
+        'Label75
         '
-        Me.TextBox75.BackColor = System.Drawing.Color.White
-        Me.TextBox75.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox75.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox75.Location = New System.Drawing.Point(933, 166)
-        Me.TextBox75.Name = "TextBox75"
-        Me.TextBox75.Size = New System.Drawing.Size(63, 35)
-        Me.TextBox75.TabIndex = 26
-        Me.TextBox75.Text = "000 "
-        Me.TextBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label75.AutoSize = True
+        Me.Label75.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.ForeColor = System.Drawing.Color.Red
+        Me.Label75.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label75.Location = New System.Drawing.Point(11, 588)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(273, 29)
+        Me.Label75.TabIndex = 51
+        Me.Label75.Text = "Ajuste troquel Imagen:"
         '
-        'TextBox76
+        'CheckBox41
         '
-        Me.TextBox76.BackColor = System.Drawing.Color.White
-        Me.TextBox76.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox76.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox76.Location = New System.Drawing.Point(1003, 167)
-        Me.TextBox76.Name = "TextBox76"
-        Me.TextBox76.Size = New System.Drawing.Size(63, 35)
-        Me.TextBox76.TabIndex = 26
-        Me.TextBox76.Text = "000 "
-        Me.TextBox76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.CheckBox41.AutoSize = True
+        Me.CheckBox41.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox41.Location = New System.Drawing.Point(287, 586)
+        Me.CheckBox41.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox41.Name = "CheckBox41"
+        Me.CheckBox41.Size = New System.Drawing.Size(62, 33)
+        Me.CheckBox41.TabIndex = 52
+        Me.CheckBox41.Text = "Si"
+        Me.CheckBox41.UseVisualStyleBackColor = True
         '
-        'CheckBox144
+        'Label76
         '
-        Me.CheckBox144.AutoSize = True
-        Me.CheckBox144.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox144.Location = New System.Drawing.Point(1012, 79)
-        Me.CheckBox144.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox144.Name = "CheckBox144"
-        Me.CheckBox144.Size = New System.Drawing.Size(112, 33)
-        Me.CheckBox144.TabIndex = 159
-        Me.CheckBox144.Text = "Frente"
-        Me.CheckBox144.UseVisualStyleBackColor = True
+        Me.Label76.AutoSize = True
+        Me.Label76.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label76.ForeColor = System.Drawing.Color.Red
+        Me.Label76.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label76.Location = New System.Drawing.Point(342, 588)
+        Me.Label76.Name = "Label76"
+        Me.Label76.Size = New System.Drawing.Size(492, 29)
+        Me.Label76.TabIndex = 51
+        Me.Label76.Text = "Impremir FONDO / TRAZADO / UV PASAR:"
         '
-        'CheckBox145
+        'CheckBox150
         '
-        Me.CheckBox145.AutoSize = True
-        Me.CheckBox145.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox145.Location = New System.Drawing.Point(1131, 79)
-        Me.CheckBox145.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox145.Name = "CheckBox145"
-        Me.CheckBox145.Size = New System.Drawing.Size(108, 33)
-        Me.CheckBox145.TabIndex = 159
-        Me.CheckBox145.Text = "Dorso"
-        Me.CheckBox145.UseVisualStyleBackColor = True
+        Me.CheckBox150.AutoSize = True
+        Me.CheckBox150.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox150.Location = New System.Drawing.Point(838, 586)
+        Me.CheckBox150.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox150.Name = "CheckBox150"
+        Me.CheckBox150.Size = New System.Drawing.Size(62, 33)
+        Me.CheckBox150.TabIndex = 52
+        Me.CheckBox150.Text = "Si"
+        Me.CheckBox150.UseVisualStyleBackColor = True
         '
-        'RadioButton136
+        'Label101
         '
-        Me.RadioButton136.AutoSize = True
-        Me.RadioButton136.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.RadioButton136.FlatAppearance.BorderColor = System.Drawing.Color.Magenta
-        Me.RadioButton136.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton136.Location = New System.Drawing.Point(934, 117)
-        Me.RadioButton136.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton136.Name = "RadioButton136"
-        Me.RadioButton136.Size = New System.Drawing.Size(53, 28)
-        Me.RadioButton136.TabIndex = 24
-        Me.RadioButton136.TabStop = True
-        Me.RadioButton136.Text = "Si"
-        Me.RadioButton136.UseVisualStyleBackColor = False
+        Me.Label101.AutoSize = True
+        Me.Label101.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label101.ForeColor = System.Drawing.Color.Red
+        Me.Label101.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label101.Location = New System.Drawing.Point(897, 588)
+        Me.Label101.Name = "Label101"
+        Me.Label101.Size = New System.Drawing.Size(130, 29)
+        Me.Label101.TabIndex = 51
+        Me.Label101.Text = "Troquelar:"
         '
-        'RadioButton138
+        'CheckBox151
         '
-        Me.RadioButton138.AutoSize = True
-        Me.RadioButton138.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.RadioButton138.FlatAppearance.BorderColor = System.Drawing.Color.Magenta
-        Me.RadioButton138.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton138.Location = New System.Drawing.Point(862, 117)
-        Me.RadioButton138.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton138.Name = "RadioButton138"
-        Me.RadioButton138.Size = New System.Drawing.Size(61, 28)
-        Me.RadioButton138.TabIndex = 25
-        Me.RadioButton138.TabStop = True
-        Me.RadioButton138.Text = "No"
-        Me.RadioButton138.UseVisualStyleBackColor = False
-        '
-        'ComboBox148
-        '
-        Me.ComboBox148.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ComboBox148.DropDownWidth = 272
-        Me.ComboBox148.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox148.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox148.FormattingEnabled = True
-        Me.ComboBox148.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "", "Codigo INSUMO", "A lado la totalidad insumo en el deposito", "Listado de insumos en el deposito.", "De acuerdo a lo cotizado aparece en este listado", "Aparece en cada uno de estos desplegado lo cotizado", "A su lado esta la cantidad existente deposito"})
-        Me.ComboBox148.Location = New System.Drawing.Point(14, 117)
-        Me.ComboBox148.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox148.Name = "ComboBox148"
-        Me.ComboBox148.Size = New System.Drawing.Size(522, 29)
-        Me.ComboBox148.TabIndex = 53
-        '
-        'TextBox18
-        '
-        Me.TextBox18.BackColor = System.Drawing.Color.White
-        Me.TextBox18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox18.ForeColor = System.Drawing.Color.Fuchsia
-        Me.TextBox18.Location = New System.Drawing.Point(646, 116)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(85, 30)
-        Me.TextBox18.TabIndex = 71
-        Me.TextBox18.Text = "000.000"
-        Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox19
-        '
-        Me.TextBox19.BackColor = System.Drawing.Color.White
-        Me.TextBox19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox19.ForeColor = System.Drawing.Color.Fuchsia
-        Me.TextBox19.Location = New System.Drawing.Point(554, 116)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(79, 30)
-        Me.TextBox19.TabIndex = 68
-        Me.TextBox19.Text = "000.000"
-        Me.TextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox20
-        '
-        Me.TextBox20.BackColor = System.Drawing.Color.White
-        Me.TextBox20.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox20.ForeColor = System.Drawing.Color.Fuchsia
-        Me.TextBox20.Location = New System.Drawing.Point(744, 116)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(92, 30)
-        Me.TextBox20.TabIndex = 74
-        Me.TextBox20.Text = "000.000"
-        Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'CheckBox146
-        '
-        Me.CheckBox146.AutoSize = True
-        Me.CheckBox146.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox146.Location = New System.Drawing.Point(1012, 115)
-        Me.CheckBox146.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox146.Name = "CheckBox146"
-        Me.CheckBox146.Size = New System.Drawing.Size(112, 33)
-        Me.CheckBox146.TabIndex = 159
-        Me.CheckBox146.Text = "Frente"
-        Me.CheckBox146.UseVisualStyleBackColor = True
-        '
-        'CheckBox147
-        '
-        Me.CheckBox147.AutoSize = True
-        Me.CheckBox147.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox147.Location = New System.Drawing.Point(1131, 115)
-        Me.CheckBox147.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox147.Name = "CheckBox147"
-        Me.CheckBox147.Size = New System.Drawing.Size(108, 33)
-        Me.CheckBox147.TabIndex = 159
-        Me.CheckBox147.Text = "Dorso"
-        Me.CheckBox147.UseVisualStyleBackColor = True
-        '
-        'RadioButton140
-        '
-        Me.RadioButton140.AutoSize = True
-        Me.RadioButton140.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.RadioButton140.FlatAppearance.BorderColor = System.Drawing.Color.Magenta
-        Me.RadioButton140.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton140.Location = New System.Drawing.Point(934, 153)
-        Me.RadioButton140.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton140.Name = "RadioButton140"
-        Me.RadioButton140.Size = New System.Drawing.Size(53, 28)
-        Me.RadioButton140.TabIndex = 24
-        Me.RadioButton140.TabStop = True
-        Me.RadioButton140.Text = "Si"
-        Me.RadioButton140.UseVisualStyleBackColor = False
-        '
-        'RadioButton142
-        '
-        Me.RadioButton142.AutoSize = True
-        Me.RadioButton142.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.RadioButton142.FlatAppearance.BorderColor = System.Drawing.Color.Magenta
-        Me.RadioButton142.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton142.Location = New System.Drawing.Point(862, 153)
-        Me.RadioButton142.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton142.Name = "RadioButton142"
-        Me.RadioButton142.Size = New System.Drawing.Size(61, 28)
-        Me.RadioButton142.TabIndex = 25
-        Me.RadioButton142.TabStop = True
-        Me.RadioButton142.Text = "No"
-        Me.RadioButton142.UseVisualStyleBackColor = False
-        '
-        'ComboBox266
-        '
-        Me.ComboBox266.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ComboBox266.DropDownWidth = 272
-        Me.ComboBox266.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox266.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox266.FormattingEnabled = True
-        Me.ComboBox266.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X ", "", "Codigo INSUMO", "A lado la totalidad insumo en el deposito", "Listado de insumos en el deposito.", "De acuerdo a lo cotizado aparece en este listado", "Aparece en cada uno de estos desplegado lo cotizado", "A su lado esta la cantidad existente deposito"})
-        Me.ComboBox266.Location = New System.Drawing.Point(14, 153)
-        Me.ComboBox266.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox266.Name = "ComboBox266"
-        Me.ComboBox266.Size = New System.Drawing.Size(522, 29)
-        Me.ComboBox266.TabIndex = 53
-        '
-        'TextBox77
-        '
-        Me.TextBox77.BackColor = System.Drawing.Color.White
-        Me.TextBox77.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox77.ForeColor = System.Drawing.Color.Fuchsia
-        Me.TextBox77.Location = New System.Drawing.Point(646, 152)
-        Me.TextBox77.Name = "TextBox77"
-        Me.TextBox77.Size = New System.Drawing.Size(85, 30)
-        Me.TextBox77.TabIndex = 71
-        Me.TextBox77.Text = "000.000"
-        Me.TextBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox78
-        '
-        Me.TextBox78.BackColor = System.Drawing.Color.White
-        Me.TextBox78.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox78.ForeColor = System.Drawing.Color.Fuchsia
-        Me.TextBox78.Location = New System.Drawing.Point(554, 152)
-        Me.TextBox78.Name = "TextBox78"
-        Me.TextBox78.Size = New System.Drawing.Size(79, 30)
-        Me.TextBox78.TabIndex = 68
-        Me.TextBox78.Text = "000.000"
-        Me.TextBox78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox79
-        '
-        Me.TextBox79.BackColor = System.Drawing.Color.White
-        Me.TextBox79.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox79.ForeColor = System.Drawing.Color.Fuchsia
-        Me.TextBox79.Location = New System.Drawing.Point(744, 152)
-        Me.TextBox79.Name = "TextBox79"
-        Me.TextBox79.Size = New System.Drawing.Size(92, 30)
-        Me.TextBox79.TabIndex = 74
-        Me.TextBox79.Text = "000.000"
-        Me.TextBox79.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'CheckBox148
-        '
-        Me.CheckBox148.AutoSize = True
-        Me.CheckBox148.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox148.Location = New System.Drawing.Point(1012, 151)
-        Me.CheckBox148.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox148.Name = "CheckBox148"
-        Me.CheckBox148.Size = New System.Drawing.Size(112, 33)
-        Me.CheckBox148.TabIndex = 159
-        Me.CheckBox148.Text = "Frente"
-        Me.CheckBox148.UseVisualStyleBackColor = True
-        '
-        'CheckBox149
-        '
-        Me.CheckBox149.AutoSize = True
-        Me.CheckBox149.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox149.Location = New System.Drawing.Point(1131, 151)
-        Me.CheckBox149.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox149.Name = "CheckBox149"
-        Me.CheckBox149.Size = New System.Drawing.Size(108, 33)
-        Me.CheckBox149.TabIndex = 159
-        Me.CheckBox149.Text = "Dorso"
-        Me.CheckBox149.UseVisualStyleBackColor = True
-        '
-        'Panel223
-        '
-        Me.Panel223.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel223.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel223.Controls.Add(Me.Panel89)
-        Me.Panel223.Controls.Add(Me.Panel224)
-        Me.Panel223.Location = New System.Drawing.Point(8, 6)
-        Me.Panel223.Name = "Panel223"
-        Me.Panel223.Size = New System.Drawing.Size(1837, 927)
-        Me.Panel223.TabIndex = 170
-        '
-        'Panel224
-        '
-        Me.Panel224.BackColor = System.Drawing.Color.Green
-        Me.Panel224.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel224.Controls.Add(Me.Label278)
-        Me.Panel224.Controls.Add(Me.Label284)
-        Me.Panel224.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel224.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel224.Location = New System.Drawing.Point(0, 0)
-        Me.Panel224.Name = "Panel224"
-        Me.Panel224.Size = New System.Drawing.Size(1835, 43)
-        Me.Panel224.TabIndex = 0
-        '
-        'Label278
-        '
-        Me.Label278.AutoSize = True
-        Me.Label278.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label278.ForeColor = System.Drawing.Color.White
-        Me.Label278.Location = New System.Drawing.Point(797, 8)
-        Me.Label278.Name = "Label278"
-        Me.Label278.Size = New System.Drawing.Size(198, 33)
-        Me.Label278.TabIndex = 23
-        Me.Label278.Text = "DOCUMENTO"
-        '
-        'Label284
-        '
-        Me.Label284.AutoSize = True
-        Me.Label284.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label284.ForeColor = System.Drawing.Color.White
-        Me.Label284.Location = New System.Drawing.Point(-124, 4)
-        Me.Label284.Name = "Label284"
-        Me.Label284.Size = New System.Drawing.Size(113, 33)
-        Me.Label284.TabIndex = 5
-        Me.Label284.Text = "CLIENTE"
-        '
-        'Panel225
-        '
-        Me.Panel225.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel225.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel225.Controls.Add(Me.Panel49)
-        Me.Panel225.Controls.Add(Me.Panel226)
-        Me.Panel225.Location = New System.Drawing.Point(5, 7)
-        Me.Panel225.Name = "Panel225"
-        Me.Panel225.Size = New System.Drawing.Size(1837, 927)
-        Me.Panel225.TabIndex = 171
-        '
-        'Panel226
-        '
-        Me.Panel226.BackColor = System.Drawing.Color.Green
-        Me.Panel226.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel226.Controls.Add(Me.Label531)
-        Me.Panel226.Controls.Add(Me.Label532)
-        Me.Panel226.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel226.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel226.Location = New System.Drawing.Point(0, 0)
-        Me.Panel226.Name = "Panel226"
-        Me.Panel226.Size = New System.Drawing.Size(1835, 43)
-        Me.Panel226.TabIndex = 0
-        '
-        'Label531
-        '
-        Me.Label531.AutoSize = True
-        Me.Label531.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label531.ForeColor = System.Drawing.Color.White
-        Me.Label531.Location = New System.Drawing.Point(845, 6)
-        Me.Label531.Name = "Label531"
-        Me.Label531.Size = New System.Drawing.Size(60, 33)
-        Me.Label531.TabIndex = 23
-        Me.Label531.Text = "FIN"
-        '
-        'Label532
-        '
-        Me.Label532.AutoSize = True
-        Me.Label532.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label532.ForeColor = System.Drawing.Color.White
-        Me.Label532.Location = New System.Drawing.Point(-124, 4)
-        Me.Label532.Name = "Label532"
-        Me.Label532.Size = New System.Drawing.Size(113, 33)
-        Me.Label532.TabIndex = 5
-        Me.Label532.Text = "CLIENTE"
+        Me.CheckBox151.AutoSize = True
+        Me.CheckBox151.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox151.Location = New System.Drawing.Point(1028, 586)
+        Me.CheckBox151.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox151.Name = "CheckBox151"
+        Me.CheckBox151.Size = New System.Drawing.Size(62, 33)
+        Me.CheckBox151.TabIndex = 52
+        Me.CheckBox151.Text = "Si"
+        Me.CheckBox151.UseVisualStyleBackColor = True
         '
         'OT_IMPRESION
         '
@@ -28831,6 +28901,7 @@ Partial Class OT_IMPRESION
         Me.Panel2.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
+        Me.Panel225.ResumeLayout(False)
         Me.Panel49.ResumeLayout(False)
         Me.Panel49.PerformLayout
         Me.Panel123.ResumeLayout(False)
@@ -28843,6 +28914,8 @@ Partial Class OT_IMPRESION
         Me.Panel122.PerformLayout
         Me.Panel50.ResumeLayout(False)
         Me.Panel50.PerformLayout
+        Me.Panel226.ResumeLayout(False)
+        Me.Panel226.PerformLayout
         Me.TabPage2.ResumeLayout(False)
         Me.Panel83.ResumeLayout(False)
         Me.Panel83.PerformLayout
@@ -28857,10 +28930,13 @@ Partial Class OT_IMPRESION
         Me.Panel84.ResumeLayout(False)
         Me.Panel84.PerformLayout
         Me.TabPage3.ResumeLayout(False)
+        Me.Panel223.ResumeLayout(False)
         Me.Panel89.ResumeLayout(False)
         Me.Panel89.PerformLayout
         Me.Panel90.ResumeLayout(False)
         Me.Panel90.PerformLayout
+        Me.Panel224.ResumeLayout(False)
+        Me.Panel224.PerformLayout
         Me.TabPage4.ResumeLayout(False)
         Me.Panel91.ResumeLayout(False)
         Me.Panel113.ResumeLayout(False)
@@ -29232,12 +29308,6 @@ Partial Class OT_IMPRESION
         Me.Panel18.ResumeLayout(False)
         Me.Panel18.PerformLayout
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel223.ResumeLayout(False)
-        Me.Panel224.ResumeLayout(False)
-        Me.Panel224.PerformLayout
-        Me.Panel225.ResumeLayout(False)
-        Me.Panel226.ResumeLayout(False)
-        Me.Panel226.PerformLayout
         Me.ResumeLayout(False)
 
     End Sub
@@ -29862,7 +29932,6 @@ Partial Class OT_IMPRESION
     Friend WithEvents Label225 As Label
     Friend WithEvents Label226 As Label
     Friend WithEvents Label213 As Label
-    Friend WithEvents CheckBox41 As CheckBox
     Friend WithEvents CheckBox39 As CheckBox
     Friend WithEvents CheckBox37 As CheckBox
     Friend WithEvents CheckBox35 As CheckBox
@@ -31252,4 +31321,10 @@ Partial Class OT_IMPRESION
     Friend WithEvents Panel226 As Panel
     Friend WithEvents Label531 As Label
     Friend WithEvents Label532 As Label
+    Friend WithEvents Label75 As Label
+    Friend WithEvents CheckBox41 As CheckBox
+    Friend WithEvents Label76 As Label
+    Friend WithEvents CheckBox151 As CheckBox
+    Friend WithEvents CheckBox150 As CheckBox
+    Friend WithEvents Label101 As Label
 End Class

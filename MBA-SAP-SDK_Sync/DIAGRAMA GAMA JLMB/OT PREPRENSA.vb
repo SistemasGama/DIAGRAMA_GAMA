@@ -1,3 +1,3 @@
-﻿Public Class OT_TROQUEL
+﻿Public Class PREPRENSA
 
 End Class

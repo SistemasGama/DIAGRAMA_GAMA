@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class OT_TROQUEL
+Partial Class PREPRENSA
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -24,13 +24,13 @@ Partial Class OT_TROQUEL
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'OT_TROQUEL
+        'PREPRENSA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1356, 690)
         Me.ForeColor = System.Drawing.Color.Black
-        Me.Name = "OT_TROQUEL"
+        Me.Name = "PREPRENSA"
         Me.Text = "OT PREPRENSA"
         Me.ResumeLayout(False)
 

@@ -119,7 +119,9 @@
     <Compile Include="DIAGRAMA GAMA JLMB\OT IMPRESION.Designer.vb">
       <DependentUpon>OT IMPRESION.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT IMPRESION.vb" />
+    <Compile Include="DIAGRAMA GAMA JLMB\OT IMPRESION.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\OT PREPRENSA.Designer.vb">
       <DependentUpon>OT PREPRENSA.vb</DependentUpon>
     </Compile>
@@ -138,22 +140,22 @@
     <Compile Include="DIAGRAMA GAMA JLMB\INSUMO.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT4.Designer.vb">
-      <DependentUpon>OT4.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\MPP.Designer.vb">
+      <DependentUpon>MPP.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT4.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\MPP.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT5.Designer.vb">
-      <DependentUpon>OT5.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\TINTA.Designer.vb">
+      <DependentUpon>TINTA.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT5.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\TINTA.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT6.Designer.vb">
-      <DependentUpon>OT6.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\TROQUEL.Designer.vb">
+      <DependentUpon>TROQUEL.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT6.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\TROQUEL.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\OT7.Designer.vb">
@@ -202,14 +204,14 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\INSUMO.resx">
       <DependentUpon>INSUMO.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT4.resx">
-      <DependentUpon>OT4.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\MPP.resx">
+      <DependentUpon>MPP.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT5.resx">
-      <DependentUpon>OT5.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\TINTA.resx">
+      <DependentUpon>TINTA.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT6.resx">
-      <DependentUpon>OT6.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\TROQUEL.resx">
+      <DependentUpon>TROQUEL.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT7.resx">
       <DependentUpon>OT7.vb</DependentUpon>
