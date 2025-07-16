@@ -6,4 +6,12 @@
     Private Sub CheckBox7_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox7.CheckedChanged, CheckBox14.CheckedChanged
 
     End Sub
+
+    Private Sub Label52_Click(sender As Object, e As EventArgs) Handles Label52.Click
+
+    End Sub
+
+    Private Sub TextBox239_TextChanged(sender As Object, e As EventArgs) 
+
+    End Sub
 End Class

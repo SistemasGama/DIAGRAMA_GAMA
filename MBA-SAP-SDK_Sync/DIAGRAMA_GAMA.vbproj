@@ -12,7 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -146,6 +146,24 @@
     <Compile Include="DIAGRAMA GAMA JLMB\MPP.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT10.Designer.vb">
+      <DependentUpon>OT10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT11.Designer.vb">
+      <DependentUpon>OT11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT12.Designer.vb">
+      <DependentUpon>OT12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT12.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\TINTA.Designer.vb">
       <DependentUpon>TINTA.vb</DependentUpon>
     </Compile>
@@ -158,16 +176,10 @@
     <Compile Include="DIAGRAMA GAMA JLMB\TROQUEL.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT7.Designer.vb">
-      <DependentUpon>OT7.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\IMPRIMIR PTO.Designer.vb">
+      <DependentUpon>IMPRIMIR PTO.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT7.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT8.Designer.vb">
-      <DependentUpon>OT8.vb</DependentUpon>
-    </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT8.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\IMPRIMIR PTO.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -207,17 +219,23 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\MPP.resx">
       <DependentUpon>MPP.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT10.resx">
+      <DependentUpon>OT10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT11.resx">
+      <DependentUpon>OT11.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT12.resx">
+      <DependentUpon>OT12.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\TINTA.resx">
       <DependentUpon>TINTA.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\TROQUEL.resx">
       <DependentUpon>TROQUEL.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT7.resx">
-      <DependentUpon>OT7.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT8.resx">
-      <DependentUpon>OT8.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\IMPRIMIR PTO.resx">
+      <DependentUpon>IMPRIMIR PTO.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
