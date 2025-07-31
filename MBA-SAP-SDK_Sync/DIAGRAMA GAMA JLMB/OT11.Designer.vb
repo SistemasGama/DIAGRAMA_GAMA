@@ -376,6 +376,11 @@ Partial Class OT11
         Me.TextBox44 = New System.Windows.Forms.TextBox()
         Me.TextBox201 = New System.Windows.Forms.TextBox()
         Me.TabPage8 = New System.Windows.Forms.TabPage()
+        Me.Panel49 = New System.Windows.Forms.Panel()
+        Me.Panel50 = New System.Windows.Forms.Panel()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Label70 = New System.Windows.Forms.Label()
         Me.Label260 = New System.Windows.Forms.Label()
         Me.TextBox244 = New System.Windows.Forms.TextBox()
         Me.Panel56 = New System.Windows.Forms.Panel()
@@ -854,6 +859,11 @@ Partial Class OT11
         Me.Button44 = New System.Windows.Forms.Button()
         Me.Label287 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.Panel59 = New System.Windows.Forms.Panel()
+        Me.Panel60 = New System.Windows.Forms.Panel()
+        Me.Label82 = New System.Windows.Forms.Label()
+        Me.Button26 = New System.Windows.Forms.Button()
+        Me.Label83 = New System.Windows.Forms.Label()
         Me.Panel84 = New System.Windows.Forms.Panel()
         Me.Label286 = New System.Windows.Forms.Label()
         Me.Panel91 = New System.Windows.Forms.Panel()
@@ -865,86 +875,76 @@ Partial Class OT11
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Panel83 = New System.Windows.Forms.Panel()
-        Me.CheckBox42 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox36 = New System.Windows.Forms.CheckBox()
-        Me.TabPage5 = New System.Windows.Forms.TabPage()
-        Me.TabPage6 = New System.Windows.Forms.TabPage()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel39 = New System.Windows.Forms.Panel()
-        Me.Panel40 = New System.Windows.Forms.Panel()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Panel43 = New System.Windows.Forms.Panel()
-        Me.Panel44 = New System.Windows.Forms.Panel()
-        Me.Label64 = New System.Windows.Forms.Label()
-        Me.Button24 = New System.Windows.Forms.Button()
-        Me.Label65 = New System.Windows.Forms.Label()
-        Me.Panel49 = New System.Windows.Forms.Panel()
-        Me.Panel50 = New System.Windows.Forms.Panel()
-        Me.Label69 = New System.Windows.Forms.Label()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Label70 = New System.Windows.Forms.Label()
-        Me.TabPage7 = New System.Windows.Forms.TabPage()
-        Me.TabPage9 = New System.Windows.Forms.TabPage()
-        Me.TabPage10 = New System.Windows.Forms.TabPage()
-        Me.TabPage11 = New System.Windows.Forms.TabPage()
-        Me.TabPage12 = New System.Windows.Forms.TabPage()
-        Me.TabPage13 = New System.Windows.Forms.TabPage()
-        Me.TabPage14 = New System.Windows.Forms.TabPage()
-        Me.TabPage15 = New System.Windows.Forms.TabPage()
         Me.Panel57 = New System.Windows.Forms.Panel()
         Me.Panel58 = New System.Windows.Forms.Panel()
         Me.Label71 = New System.Windows.Forms.Label()
         Me.Button25 = New System.Windows.Forms.Button()
         Me.Label81 = New System.Windows.Forms.Label()
-        Me.Panel59 = New System.Windows.Forms.Panel()
-        Me.Panel60 = New System.Windows.Forms.Panel()
-        Me.Label82 = New System.Windows.Forms.Label()
-        Me.Button26 = New System.Windows.Forms.Button()
-        Me.Label83 = New System.Windows.Forms.Label()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Panel83 = New System.Windows.Forms.Panel()
+        Me.CheckBox42 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox36 = New System.Windows.Forms.CheckBox()
+        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.Panel39 = New System.Windows.Forms.Panel()
+        Me.Panel40 = New System.Windows.Forms.Panel()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.Panel43 = New System.Windows.Forms.Panel()
+        Me.Panel44 = New System.Windows.Forms.Panel()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Button24 = New System.Windows.Forms.Button()
+        Me.Label65 = New System.Windows.Forms.Label()
+        Me.TabPage7 = New System.Windows.Forms.TabPage()
         Me.Panel85 = New System.Windows.Forms.Panel()
         Me.Panel86 = New System.Windows.Forms.Panel()
         Me.Label86 = New System.Windows.Forms.Label()
         Me.Button27 = New System.Windows.Forms.Button()
         Me.Label87 = New System.Windows.Forms.Label()
+        Me.TabPage9 = New System.Windows.Forms.TabPage()
         Me.Panel87 = New System.Windows.Forms.Panel()
         Me.Panel88 = New System.Windows.Forms.Panel()
         Me.Label88 = New System.Windows.Forms.Label()
         Me.Button29 = New System.Windows.Forms.Button()
         Me.Label89 = New System.Windows.Forms.Label()
+        Me.TabPage10 = New System.Windows.Forms.TabPage()
         Me.Panel89 = New System.Windows.Forms.Panel()
         Me.Panel90 = New System.Windows.Forms.Panel()
         Me.Label90 = New System.Windows.Forms.Label()
         Me.Button31 = New System.Windows.Forms.Button()
         Me.Label91 = New System.Windows.Forms.Label()
+        Me.TabPage11 = New System.Windows.Forms.TabPage()
         Me.Panel93 = New System.Windows.Forms.Panel()
         Me.Panel94 = New System.Windows.Forms.Panel()
         Me.Label92 = New System.Windows.Forms.Label()
         Me.Button33 = New System.Windows.Forms.Button()
         Me.Label93 = New System.Windows.Forms.Label()
+        Me.TabPage12 = New System.Windows.Forms.TabPage()
         Me.Panel95 = New System.Windows.Forms.Panel()
         Me.Panel96 = New System.Windows.Forms.Panel()
         Me.Label94 = New System.Windows.Forms.Label()
         Me.Button36 = New System.Windows.Forms.Button()
         Me.Label95 = New System.Windows.Forms.Label()
+        Me.TabPage13 = New System.Windows.Forms.TabPage()
         Me.Panel97 = New System.Windows.Forms.Panel()
         Me.Panel98 = New System.Windows.Forms.Panel()
         Me.Label105 = New System.Windows.Forms.Label()
         Me.Button46 = New System.Windows.Forms.Button()
         Me.Label106 = New System.Windows.Forms.Label()
+        Me.TabPage14 = New System.Windows.Forms.TabPage()
         Me.Panel99 = New System.Windows.Forms.Panel()
         Me.Panel100 = New System.Windows.Forms.Panel()
         Me.Label108 = New System.Windows.Forms.Label()
         Me.Button50 = New System.Windows.Forms.Button()
         Me.Label109 = New System.Windows.Forms.Label()
+        Me.TabPage15 = New System.Windows.Forms.TabPage()
         Me.Panel101 = New System.Windows.Forms.Panel()
         Me.Panel102 = New System.Windows.Forms.Panel()
         Me.Label215 = New System.Windows.Forms.Label()
         Me.Button51 = New System.Windows.Forms.Button()
         Me.Label223 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel8.SuspendLayout
         Me.Panel3.SuspendLayout
         Me.Panel4.SuspendLayout
@@ -957,6 +957,8 @@ Partial Class OT11
         Me.Panel64.SuspendLayout
         Me.Panel63.SuspendLayout
         Me.TabPage8.SuspendLayout
+        Me.Panel49.SuspendLayout
+        Me.Panel50.SuspendLayout
         Me.Panel56.SuspendLayout
         Me.Panel55.SuspendLayout
         Me.Panel79.SuspendLayout
@@ -1027,6 +1029,8 @@ Partial Class OT11
         Me.Panel66.SuspendLayout
         Me.Panel71.SuspendLayout
         Me.TabPage3.SuspendLayout
+        Me.Panel59.SuspendLayout
+        Me.Panel60.SuspendLayout
         Me.Panel84.SuspendLayout
         Me.Panel91.SuspendLayout
         Me.Panel92.SuspendLayout
@@ -1034,45 +1038,41 @@ Partial Class OT11
         Me.Panel2.SuspendLayout
         Me.TabControl1.SuspendLayout
         Me.TabPage1.SuspendLayout
+        Me.Panel57.SuspendLayout
+        Me.Panel58.SuspendLayout
         Me.TabPage2.SuspendLayout
         Me.Panel83.SuspendLayout
         Me.TabPage5.SuspendLayout
-        Me.TabPage6.SuspendLayout
-        Me.Panel1.SuspendLayout
         Me.Panel39.SuspendLayout
         Me.Panel40.SuspendLayout
+        Me.TabPage6.SuspendLayout
         Me.Panel43.SuspendLayout
         Me.Panel44.SuspendLayout
-        Me.Panel49.SuspendLayout
-        Me.Panel50.SuspendLayout
         Me.TabPage7.SuspendLayout
-        Me.TabPage9.SuspendLayout
-        Me.TabPage10.SuspendLayout
-        Me.TabPage11.SuspendLayout
-        Me.TabPage12.SuspendLayout
-        Me.TabPage13.SuspendLayout
-        Me.TabPage14.SuspendLayout
-        Me.TabPage15.SuspendLayout
-        Me.Panel57.SuspendLayout
-        Me.Panel58.SuspendLayout
-        Me.Panel59.SuspendLayout
-        Me.Panel60.SuspendLayout
         Me.Panel85.SuspendLayout
         Me.Panel86.SuspendLayout
+        Me.TabPage9.SuspendLayout
         Me.Panel87.SuspendLayout
         Me.Panel88.SuspendLayout
+        Me.TabPage10.SuspendLayout
         Me.Panel89.SuspendLayout
         Me.Panel90.SuspendLayout
+        Me.TabPage11.SuspendLayout
         Me.Panel93.SuspendLayout
         Me.Panel94.SuspendLayout
+        Me.TabPage12.SuspendLayout
         Me.Panel95.SuspendLayout
         Me.Panel96.SuspendLayout
+        Me.TabPage13.SuspendLayout
         Me.Panel97.SuspendLayout
         Me.Panel98.SuspendLayout
+        Me.TabPage14.SuspendLayout
         Me.Panel99.SuspendLayout
         Me.Panel100.SuspendLayout
+        Me.TabPage15.SuspendLayout
         Me.Panel101.SuspendLayout
         Me.Panel102.SuspendLayout
+        Me.Panel1.SuspendLayout
         Me.SuspendLayout
         '
         'ComboBox145
@@ -5558,6 +5558,72 @@ Partial Class OT11
         Me.TabPage8.Size = New System.Drawing.Size(1845, 1208)
         Me.TabPage8.TabIndex = 7
         Me.TabPage8.Text = "UV /"
+        '
+        'Panel49
+        '
+        Me.Panel49.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel49.Controls.Add(Me.Panel50)
+        Me.Panel49.Location = New System.Drawing.Point(16, 19)
+        Me.Panel49.Name = "Panel49"
+        Me.Panel49.Size = New System.Drawing.Size(1813, 1171)
+        Me.Panel49.TabIndex = 33
+        '
+        'Panel50
+        '
+        Me.Panel50.BackColor = System.Drawing.Color.Green
+        Me.Panel50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel50.Controls.Add(Me.Label69)
+        Me.Panel50.Controls.Add(Me.Button22)
+        Me.Panel50.Controls.Add(Me.Label70)
+        Me.Panel50.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel50.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel50.Location = New System.Drawing.Point(0, 0)
+        Me.Panel50.Name = "Panel50"
+        Me.Panel50.Size = New System.Drawing.Size(1811, 43)
+        Me.Panel50.TabIndex = 0
+        '
+        'Label69
+        '
+        Me.Label69.AutoSize = True
+        Me.Label69.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.ForeColor = System.Drawing.Color.White
+        Me.Label69.Location = New System.Drawing.Point(658, 4)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(54, 33)
+        Me.Label69.TabIndex = 23
+        Me.Label69.Text = "UV"
+        '
+        'Button22
+        '
+        Me.Button22.AutoSize = True
+        Me.Button22.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button22.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button22.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button22.ForeColor = System.Drawing.Color.Transparent
+        Me.Button22.Image = CType(resources.GetObject("Button22.Image"), System.Drawing.Image)
+        Me.Button22.Location = New System.Drawing.Point(1740, -6)
+        Me.Button22.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button22.Name = "Button22"
+        Me.Button22.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button22.Size = New System.Drawing.Size(54, 49)
+        Me.Button22.TabIndex = 19
+        Me.Button22.UseVisualStyleBackColor = False
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label70.ForeColor = System.Drawing.Color.White
+        Me.Label70.Location = New System.Drawing.Point(-124, 4)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(113, 33)
+        Me.Label70.TabIndex = 5
+        Me.Label70.Text = "CLIENTE"
         '
         'Label260
         '
@@ -11920,6 +11986,72 @@ Partial Class OT11
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "PRE/ "
         '
+        'Panel59
+        '
+        Me.Panel59.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel59.Controls.Add(Me.Panel60)
+        Me.Panel59.Location = New System.Drawing.Point(16, 19)
+        Me.Panel59.Name = "Panel59"
+        Me.Panel59.Size = New System.Drawing.Size(1813, 1171)
+        Me.Panel59.TabIndex = 34
+        '
+        'Panel60
+        '
+        Me.Panel60.BackColor = System.Drawing.Color.Green
+        Me.Panel60.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel60.Controls.Add(Me.Label82)
+        Me.Panel60.Controls.Add(Me.Button26)
+        Me.Panel60.Controls.Add(Me.Label83)
+        Me.Panel60.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel60.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel60.Location = New System.Drawing.Point(0, 0)
+        Me.Panel60.Name = "Panel60"
+        Me.Panel60.Size = New System.Drawing.Size(1811, 43)
+        Me.Panel60.TabIndex = 0
+        '
+        'Label82
+        '
+        Me.Label82.AutoSize = True
+        Me.Label82.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label82.ForeColor = System.Drawing.Color.White
+        Me.Label82.Location = New System.Drawing.Point(658, 4)
+        Me.Label82.Name = "Label82"
+        Me.Label82.Size = New System.Drawing.Size(187, 33)
+        Me.Label82.TabIndex = 23
+        Me.Label82.Text = "PREPRENSA"
+        '
+        'Button26
+        '
+        Me.Button26.AutoSize = True
+        Me.Button26.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button26.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button26.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button26.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button26.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button26.ForeColor = System.Drawing.Color.Transparent
+        Me.Button26.Image = CType(resources.GetObject("Button26.Image"), System.Drawing.Image)
+        Me.Button26.Location = New System.Drawing.Point(1740, -6)
+        Me.Button26.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button26.Name = "Button26"
+        Me.Button26.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button26.Size = New System.Drawing.Size(54, 49)
+        Me.Button26.TabIndex = 19
+        Me.Button26.UseVisualStyleBackColor = False
+        '
+        'Label83
+        '
+        Me.Label83.AutoSize = True
+        Me.Label83.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label83.ForeColor = System.Drawing.Color.White
+        Me.Label83.Location = New System.Drawing.Point(-124, 4)
+        Me.Label83.Name = "Label83"
+        Me.Label83.Size = New System.Drawing.Size(113, 33)
+        Me.Label83.TabIndex = 5
+        Me.Label83.Text = "CLIENTE"
+        '
         'Panel84
         '
         Me.Panel84.BackColor = System.Drawing.Color.Green
@@ -12085,6 +12217,72 @@ Partial Class OT11
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "COM /"
         '
+        'Panel57
+        '
+        Me.Panel57.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel57.Controls.Add(Me.Panel58)
+        Me.Panel57.Location = New System.Drawing.Point(16, 19)
+        Me.Panel57.Name = "Panel57"
+        Me.Panel57.Size = New System.Drawing.Size(1813, 1171)
+        Me.Panel57.TabIndex = 34
+        '
+        'Panel58
+        '
+        Me.Panel58.BackColor = System.Drawing.Color.Green
+        Me.Panel58.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel58.Controls.Add(Me.Label71)
+        Me.Panel58.Controls.Add(Me.Button25)
+        Me.Panel58.Controls.Add(Me.Label81)
+        Me.Panel58.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel58.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel58.Location = New System.Drawing.Point(0, 0)
+        Me.Panel58.Name = "Panel58"
+        Me.Panel58.Size = New System.Drawing.Size(1811, 43)
+        Me.Panel58.TabIndex = 0
+        '
+        'Label71
+        '
+        Me.Label71.AutoSize = True
+        Me.Label71.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.ForeColor = System.Drawing.Color.White
+        Me.Label71.Location = New System.Drawing.Point(658, 4)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(184, 33)
+        Me.Label71.TabIndex = 23
+        Me.Label71.Text = "COMERCIAL"
+        '
+        'Button25
+        '
+        Me.Button25.AutoSize = True
+        Me.Button25.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button25.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button25.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button25.ForeColor = System.Drawing.Color.Transparent
+        Me.Button25.Image = CType(resources.GetObject("Button25.Image"), System.Drawing.Image)
+        Me.Button25.Location = New System.Drawing.Point(1740, -6)
+        Me.Button25.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button25.Name = "Button25"
+        Me.Button25.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button25.Size = New System.Drawing.Size(54, 49)
+        Me.Button25.TabIndex = 19
+        Me.Button25.UseVisualStyleBackColor = False
+        '
+        'Label81
+        '
+        Me.Label81.AutoSize = True
+        Me.Label81.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label81.ForeColor = System.Drawing.Color.White
+        Me.Label81.Location = New System.Drawing.Point(-124, 4)
+        Me.Label81.Name = "Label81"
+        Me.Label81.Size = New System.Drawing.Size(113, 33)
+        Me.Label81.TabIndex = 5
+        Me.Label81.Text = "CLIENTE"
+        '
         'TabPage2
         '
         Me.TabPage2.BackColor = System.Drawing.Color.LightGray
@@ -12143,26 +12341,6 @@ Partial Class OT11
         Me.TabPage5.Size = New System.Drawing.Size(1845, 1208)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "DEP /"
-        '
-        'TabPage6
-        '
-        Me.TabPage6.BackColor = System.Drawing.Color.LightGray
-        Me.TabPage6.Controls.Add(Me.Panel43)
-        Me.TabPage6.Location = New System.Drawing.Point(4, 42)
-        Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(1845, 1208)
-        Me.TabPage6.TabIndex = 5
-        Me.TabPage6.Text = "IMP /"
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.Panel2)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1371, 651)
-        Me.Panel1.TabIndex = 1
         '
         'Panel39
         '
@@ -12230,6 +12408,17 @@ Partial Class OT11
         Me.Label20.TabIndex = 5
         Me.Label20.Text = "CLIENTE"
         '
+        'TabPage6
+        '
+        Me.TabPage6.BackColor = System.Drawing.Color.LightGray
+        Me.TabPage6.Controls.Add(Me.Panel43)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage6.Name = "TabPage6"
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage6.Size = New System.Drawing.Size(1845, 1208)
+        Me.TabPage6.TabIndex = 5
+        Me.TabPage6.Text = "IMP /"
+        '
         'Panel43
         '
         Me.Panel43.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -12296,72 +12485,6 @@ Partial Class OT11
         Me.Label65.TabIndex = 5
         Me.Label65.Text = "CLIENTE"
         '
-        'Panel49
-        '
-        Me.Panel49.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel49.Controls.Add(Me.Panel50)
-        Me.Panel49.Location = New System.Drawing.Point(16, 19)
-        Me.Panel49.Name = "Panel49"
-        Me.Panel49.Size = New System.Drawing.Size(1813, 1171)
-        Me.Panel49.TabIndex = 33
-        '
-        'Panel50
-        '
-        Me.Panel50.BackColor = System.Drawing.Color.Green
-        Me.Panel50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel50.Controls.Add(Me.Label69)
-        Me.Panel50.Controls.Add(Me.Button22)
-        Me.Panel50.Controls.Add(Me.Label70)
-        Me.Panel50.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel50.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel50.Location = New System.Drawing.Point(0, 0)
-        Me.Panel50.Name = "Panel50"
-        Me.Panel50.Size = New System.Drawing.Size(1811, 43)
-        Me.Panel50.TabIndex = 0
-        '
-        'Label69
-        '
-        Me.Label69.AutoSize = True
-        Me.Label69.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label69.ForeColor = System.Drawing.Color.White
-        Me.Label69.Location = New System.Drawing.Point(658, 4)
-        Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(54, 33)
-        Me.Label69.TabIndex = 23
-        Me.Label69.Text = "UV"
-        '
-        'Button22
-        '
-        Me.Button22.AutoSize = True
-        Me.Button22.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button22.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button22.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button22.ForeColor = System.Drawing.Color.Transparent
-        Me.Button22.Image = CType(resources.GetObject("Button22.Image"), System.Drawing.Image)
-        Me.Button22.Location = New System.Drawing.Point(1740, -6)
-        Me.Button22.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button22.Name = "Button22"
-        Me.Button22.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button22.Size = New System.Drawing.Size(54, 49)
-        Me.Button22.TabIndex = 19
-        Me.Button22.UseVisualStyleBackColor = False
-        '
-        'Label70
-        '
-        Me.Label70.AutoSize = True
-        Me.Label70.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.ForeColor = System.Drawing.Color.White
-        Me.Label70.Location = New System.Drawing.Point(-124, 4)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(113, 33)
-        Me.Label70.TabIndex = 5
-        Me.Label70.Text = "CLIENTE"
-        '
         'TabPage7
         '
         Me.TabPage7.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
@@ -12372,215 +12495,6 @@ Partial Class OT11
         Me.TabPage7.Size = New System.Drawing.Size(1845, 1208)
         Me.TabPage7.TabIndex = 8
         Me.TabPage7.Text = "STA /"
-        '
-        'TabPage9
-        '
-        Me.TabPage9.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TabPage9.Controls.Add(Me.Panel87)
-        Me.TabPage9.Location = New System.Drawing.Point(4, 42)
-        Me.TabPage9.Name = "TabPage9"
-        Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage9.Size = New System.Drawing.Size(1845, 1208)
-        Me.TabPage9.TabIndex = 9
-        Me.TabPage9.Text = "TRO /"
-        '
-        'TabPage10
-        '
-        Me.TabPage10.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TabPage10.Controls.Add(Me.Panel89)
-        Me.TabPage10.Location = New System.Drawing.Point(4, 42)
-        Me.TabPage10.Name = "TabPage10"
-        Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage10.Size = New System.Drawing.Size(1845, 1208)
-        Me.TabPage10.TabIndex = 10
-        Me.TabPage10.Text = "TRL /"
-        '
-        'TabPage11
-        '
-        Me.TabPage11.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TabPage11.Controls.Add(Me.Panel93)
-        Me.TabPage11.Location = New System.Drawing.Point(4, 42)
-        Me.TabPage11.Name = "TabPage11"
-        Me.TabPage11.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage11.Size = New System.Drawing.Size(1845, 1208)
-        Me.TabPage11.TabIndex = 11
-        Me.TabPage11.Text = "DES / "
-        '
-        'TabPage12
-        '
-        Me.TabPage12.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TabPage12.Controls.Add(Me.Panel95)
-        Me.TabPage12.Location = New System.Drawing.Point(4, 42)
-        Me.TabPage12.Name = "TabPage12"
-        Me.TabPage12.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage12.Size = New System.Drawing.Size(1845, 1208)
-        Me.TabPage12.TabIndex = 12
-        Me.TabPage12.Text = "SEL /"
-        '
-        'TabPage13
-        '
-        Me.TabPage13.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TabPage13.Controls.Add(Me.Panel97)
-        Me.TabPage13.Location = New System.Drawing.Point(4, 42)
-        Me.TabPage13.Name = "TabPage13"
-        Me.TabPage13.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage13.Size = New System.Drawing.Size(1845, 1208)
-        Me.TabPage13.TabIndex = 13
-        Me.TabPage13.Text = "PEG /"
-        '
-        'TabPage14
-        '
-        Me.TabPage14.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TabPage14.Controls.Add(Me.Panel99)
-        Me.TabPage14.Location = New System.Drawing.Point(4, 42)
-        Me.TabPage14.Name = "TabPage14"
-        Me.TabPage14.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage14.Size = New System.Drawing.Size(1845, 1208)
-        Me.TabPage14.TabIndex = 14
-        Me.TabPage14.Text = "CC /"
-        '
-        'TabPage15
-        '
-        Me.TabPage15.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TabPage15.Controls.Add(Me.Panel101)
-        Me.TabPage15.Location = New System.Drawing.Point(4, 42)
-        Me.TabPage15.Name = "TabPage15"
-        Me.TabPage15.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage15.Size = New System.Drawing.Size(1845, 1208)
-        Me.TabPage15.TabIndex = 15
-        Me.TabPage15.Text = "EXP"
-        '
-        'Panel57
-        '
-        Me.Panel57.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel57.Controls.Add(Me.Panel58)
-        Me.Panel57.Location = New System.Drawing.Point(16, 19)
-        Me.Panel57.Name = "Panel57"
-        Me.Panel57.Size = New System.Drawing.Size(1813, 1171)
-        Me.Panel57.TabIndex = 34
-        '
-        'Panel58
-        '
-        Me.Panel58.BackColor = System.Drawing.Color.Green
-        Me.Panel58.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel58.Controls.Add(Me.Label71)
-        Me.Panel58.Controls.Add(Me.Button25)
-        Me.Panel58.Controls.Add(Me.Label81)
-        Me.Panel58.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel58.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel58.Location = New System.Drawing.Point(0, 0)
-        Me.Panel58.Name = "Panel58"
-        Me.Panel58.Size = New System.Drawing.Size(1811, 43)
-        Me.Panel58.TabIndex = 0
-        '
-        'Label71
-        '
-        Me.Label71.AutoSize = True
-        Me.Label71.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.ForeColor = System.Drawing.Color.White
-        Me.Label71.Location = New System.Drawing.Point(658, 4)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(184, 33)
-        Me.Label71.TabIndex = 23
-        Me.Label71.Text = "COMERCIAL"
-        '
-        'Button25
-        '
-        Me.Button25.AutoSize = True
-        Me.Button25.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button25.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button25.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button25.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button25.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button25.ForeColor = System.Drawing.Color.Transparent
-        Me.Button25.Image = CType(resources.GetObject("Button25.Image"), System.Drawing.Image)
-        Me.Button25.Location = New System.Drawing.Point(1740, -6)
-        Me.Button25.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button25.Name = "Button25"
-        Me.Button25.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button25.Size = New System.Drawing.Size(54, 49)
-        Me.Button25.TabIndex = 19
-        Me.Button25.UseVisualStyleBackColor = False
-        '
-        'Label81
-        '
-        Me.Label81.AutoSize = True
-        Me.Label81.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label81.ForeColor = System.Drawing.Color.White
-        Me.Label81.Location = New System.Drawing.Point(-124, 4)
-        Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(113, 33)
-        Me.Label81.TabIndex = 5
-        Me.Label81.Text = "CLIENTE"
-        '
-        'Panel59
-        '
-        Me.Panel59.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel59.Controls.Add(Me.Panel60)
-        Me.Panel59.Location = New System.Drawing.Point(16, 19)
-        Me.Panel59.Name = "Panel59"
-        Me.Panel59.Size = New System.Drawing.Size(1813, 1171)
-        Me.Panel59.TabIndex = 34
-        '
-        'Panel60
-        '
-        Me.Panel60.BackColor = System.Drawing.Color.Green
-        Me.Panel60.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel60.Controls.Add(Me.Label82)
-        Me.Panel60.Controls.Add(Me.Button26)
-        Me.Panel60.Controls.Add(Me.Label83)
-        Me.Panel60.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel60.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel60.Location = New System.Drawing.Point(0, 0)
-        Me.Panel60.Name = "Panel60"
-        Me.Panel60.Size = New System.Drawing.Size(1811, 43)
-        Me.Panel60.TabIndex = 0
-        '
-        'Label82
-        '
-        Me.Label82.AutoSize = True
-        Me.Label82.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label82.ForeColor = System.Drawing.Color.White
-        Me.Label82.Location = New System.Drawing.Point(658, 4)
-        Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(187, 33)
-        Me.Label82.TabIndex = 23
-        Me.Label82.Text = "PREPRENSA"
-        '
-        'Button26
-        '
-        Me.Button26.AutoSize = True
-        Me.Button26.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button26.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button26.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button26.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button26.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button26.ForeColor = System.Drawing.Color.Transparent
-        Me.Button26.Image = CType(resources.GetObject("Button26.Image"), System.Drawing.Image)
-        Me.Button26.Location = New System.Drawing.Point(1740, -6)
-        Me.Button26.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button26.Name = "Button26"
-        Me.Button26.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button26.Size = New System.Drawing.Size(54, 49)
-        Me.Button26.TabIndex = 19
-        Me.Button26.UseVisualStyleBackColor = False
-        '
-        'Label83
-        '
-        Me.Label83.AutoSize = True
-        Me.Label83.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label83.ForeColor = System.Drawing.Color.White
-        Me.Label83.Location = New System.Drawing.Point(-124, 4)
-        Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(113, 33)
-        Me.Label83.TabIndex = 5
-        Me.Label83.Text = "CLIENTE"
         '
         'Panel85
         '
@@ -12648,6 +12562,17 @@ Partial Class OT11
         Me.Label87.TabIndex = 5
         Me.Label87.Text = "CLIENTE"
         '
+        'TabPage9
+        '
+        Me.TabPage9.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TabPage9.Controls.Add(Me.Panel87)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage9.Name = "TabPage9"
+        Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage9.Size = New System.Drawing.Size(1845, 1208)
+        Me.TabPage9.TabIndex = 9
+        Me.TabPage9.Text = "TRO /"
+        '
         'Panel87
         '
         Me.Panel87.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -12713,6 +12638,17 @@ Partial Class OT11
         Me.Label89.Size = New System.Drawing.Size(113, 33)
         Me.Label89.TabIndex = 5
         Me.Label89.Text = "CLIENTE"
+        '
+        'TabPage10
+        '
+        Me.TabPage10.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TabPage10.Controls.Add(Me.Panel89)
+        Me.TabPage10.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage10.Name = "TabPage10"
+        Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage10.Size = New System.Drawing.Size(1845, 1208)
+        Me.TabPage10.TabIndex = 10
+        Me.TabPage10.Text = "TRL /"
         '
         'Panel89
         '
@@ -12780,6 +12716,17 @@ Partial Class OT11
         Me.Label91.TabIndex = 5
         Me.Label91.Text = "CLIENTE"
         '
+        'TabPage11
+        '
+        Me.TabPage11.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TabPage11.Controls.Add(Me.Panel93)
+        Me.TabPage11.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage11.Name = "TabPage11"
+        Me.TabPage11.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage11.Size = New System.Drawing.Size(1845, 1208)
+        Me.TabPage11.TabIndex = 11
+        Me.TabPage11.Text = "DES / "
+        '
         'Panel93
         '
         Me.Panel93.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -12845,6 +12792,17 @@ Partial Class OT11
         Me.Label93.Size = New System.Drawing.Size(113, 33)
         Me.Label93.TabIndex = 5
         Me.Label93.Text = "CLIENTE"
+        '
+        'TabPage12
+        '
+        Me.TabPage12.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TabPage12.Controls.Add(Me.Panel95)
+        Me.TabPage12.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage12.Name = "TabPage12"
+        Me.TabPage12.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage12.Size = New System.Drawing.Size(1845, 1208)
+        Me.TabPage12.TabIndex = 12
+        Me.TabPage12.Text = "SEL /"
         '
         'Panel95
         '
@@ -12912,6 +12870,17 @@ Partial Class OT11
         Me.Label95.TabIndex = 5
         Me.Label95.Text = "CLIENTE"
         '
+        'TabPage13
+        '
+        Me.TabPage13.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TabPage13.Controls.Add(Me.Panel97)
+        Me.TabPage13.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage13.Name = "TabPage13"
+        Me.TabPage13.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage13.Size = New System.Drawing.Size(1845, 1208)
+        Me.TabPage13.TabIndex = 13
+        Me.TabPage13.Text = "PEG /"
+        '
         'Panel97
         '
         Me.Panel97.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -12977,6 +12946,17 @@ Partial Class OT11
         Me.Label106.Size = New System.Drawing.Size(113, 33)
         Me.Label106.TabIndex = 5
         Me.Label106.Text = "CLIENTE"
+        '
+        'TabPage14
+        '
+        Me.TabPage14.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TabPage14.Controls.Add(Me.Panel99)
+        Me.TabPage14.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage14.Name = "TabPage14"
+        Me.TabPage14.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage14.Size = New System.Drawing.Size(1845, 1208)
+        Me.TabPage14.TabIndex = 14
+        Me.TabPage14.Text = "CC /"
         '
         'Panel99
         '
@@ -13044,6 +13024,17 @@ Partial Class OT11
         Me.Label109.TabIndex = 5
         Me.Label109.Text = "CLIENTE"
         '
+        'TabPage15
+        '
+        Me.TabPage15.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.TabPage15.Controls.Add(Me.Panel101)
+        Me.TabPage15.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage15.Name = "TabPage15"
+        Me.TabPage15.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage15.Size = New System.Drawing.Size(1845, 1208)
+        Me.TabPage15.TabIndex = 15
+        Me.TabPage15.Text = "EXP"
+        '
         'Panel101
         '
         Me.Panel101.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -13110,6 +13101,15 @@ Partial Class OT11
         Me.Label223.TabIndex = 5
         Me.Label223.Text = "CLIENTE"
         '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.Panel2)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1371, 651)
+        Me.Panel1.TabIndex = 1
+        '
         'OT11
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -13141,6 +13141,9 @@ Partial Class OT11
         Me.Panel63.ResumeLayout(False)
         Me.Panel63.PerformLayout
         Me.TabPage8.ResumeLayout(False)
+        Me.Panel49.ResumeLayout(False)
+        Me.Panel50.ResumeLayout(False)
+        Me.Panel50.PerformLayout
         Me.Panel56.ResumeLayout(False)
         Me.Panel56.PerformLayout
         Me.Panel55.ResumeLayout(False)
@@ -13272,6 +13275,9 @@ Partial Class OT11
         Me.Panel71.ResumeLayout(False)
         Me.Panel71.PerformLayout
         Me.TabPage3.ResumeLayout(False)
+        Me.Panel59.ResumeLayout(False)
+        Me.Panel60.ResumeLayout(False)
+        Me.Panel60.PerformLayout
         Me.Panel84.ResumeLayout(False)
         Me.Panel84.PerformLayout
         Me.Panel91.ResumeLayout(False)
@@ -13281,59 +13287,53 @@ Partial Class OT11
         Me.Panel2.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
+        Me.Panel57.ResumeLayout(False)
+        Me.Panel58.ResumeLayout(False)
+        Me.Panel58.PerformLayout
         Me.TabPage2.ResumeLayout(False)
         Me.Panel83.ResumeLayout(False)
         Me.Panel83.PerformLayout
         Me.TabPage5.ResumeLayout(False)
-        Me.TabPage6.ResumeLayout(False)
-        Me.Panel1.ResumeLayout(False)
         Me.Panel39.ResumeLayout(False)
         Me.Panel40.ResumeLayout(False)
         Me.Panel40.PerformLayout
+        Me.TabPage6.ResumeLayout(False)
         Me.Panel43.ResumeLayout(False)
         Me.Panel44.ResumeLayout(False)
         Me.Panel44.PerformLayout
-        Me.Panel49.ResumeLayout(False)
-        Me.Panel50.ResumeLayout(False)
-        Me.Panel50.PerformLayout
         Me.TabPage7.ResumeLayout(False)
-        Me.TabPage9.ResumeLayout(False)
-        Me.TabPage10.ResumeLayout(False)
-        Me.TabPage11.ResumeLayout(False)
-        Me.TabPage12.ResumeLayout(False)
-        Me.TabPage13.ResumeLayout(False)
-        Me.TabPage14.ResumeLayout(False)
-        Me.TabPage15.ResumeLayout(False)
-        Me.Panel57.ResumeLayout(False)
-        Me.Panel58.ResumeLayout(False)
-        Me.Panel58.PerformLayout
-        Me.Panel59.ResumeLayout(False)
-        Me.Panel60.ResumeLayout(False)
-        Me.Panel60.PerformLayout
         Me.Panel85.ResumeLayout(False)
         Me.Panel86.ResumeLayout(False)
         Me.Panel86.PerformLayout
+        Me.TabPage9.ResumeLayout(False)
         Me.Panel87.ResumeLayout(False)
         Me.Panel88.ResumeLayout(False)
         Me.Panel88.PerformLayout
+        Me.TabPage10.ResumeLayout(False)
         Me.Panel89.ResumeLayout(False)
         Me.Panel90.ResumeLayout(False)
         Me.Panel90.PerformLayout
+        Me.TabPage11.ResumeLayout(False)
         Me.Panel93.ResumeLayout(False)
         Me.Panel94.ResumeLayout(False)
         Me.Panel94.PerformLayout
+        Me.TabPage12.ResumeLayout(False)
         Me.Panel95.ResumeLayout(False)
         Me.Panel96.ResumeLayout(False)
         Me.Panel96.PerformLayout
+        Me.TabPage13.ResumeLayout(False)
         Me.Panel97.ResumeLayout(False)
         Me.Panel98.ResumeLayout(False)
         Me.Panel98.PerformLayout
+        Me.TabPage14.ResumeLayout(False)
         Me.Panel99.ResumeLayout(False)
         Me.Panel100.ResumeLayout(False)
         Me.Panel100.PerformLayout
+        Me.TabPage15.ResumeLayout(False)
         Me.Panel101.ResumeLayout(False)
         Me.Panel102.ResumeLayout(False)
         Me.Panel102.PerformLayout
+        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

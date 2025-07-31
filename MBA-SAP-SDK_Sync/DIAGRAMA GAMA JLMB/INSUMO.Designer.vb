@@ -330,6 +330,8 @@ Partial Class INSUMO
         Me.ComboBox53 = New System.Windows.Forms.ComboBox()
         Me.Label215 = New System.Windows.Forms.Label()
         Me.ComboBox54 = New System.Windows.Forms.ComboBox()
+        Me.Label341 = New System.Windows.Forms.Label()
+        Me.Label340 = New System.Windows.Forms.Label()
         Me.Label216 = New System.Windows.Forms.Label()
         Me.ComboBox55 = New System.Windows.Forms.ComboBox()
         Me.Label217 = New System.Windows.Forms.Label()
@@ -346,6 +348,7 @@ Partial Class INSUMO
         Me.Button24 = New System.Windows.Forms.Button()
         Me.Button22 = New System.Windows.Forms.Button()
         Me.TextBox34 = New System.Windows.Forms.TextBox()
+        Me.Button54 = New System.Windows.Forms.Button()
         Me.Button21 = New System.Windows.Forms.Button()
         Me.Button23 = New System.Windows.Forms.Button()
         Me.Button35 = New System.Windows.Forms.Button()
@@ -1221,9 +1224,6 @@ Partial Class INSUMO
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Label340 = New System.Windows.Forms.Label()
-        Me.Label341 = New System.Windows.Forms.Label()
-        Me.Button54 = New System.Windows.Forms.Button()
         Me.Panel4.SuspendLayout
         Me.TabPage1.SuspendLayout
         Me.Panel3.SuspendLayout
@@ -1509,7 +1509,7 @@ Partial Class INSUMO
         Me.Panel3.Controls.Add(Me.Label8)
         Me.Panel3.Controls.Add(Me.Label44)
         Me.Panel3.Controls.Add(Me.Label41)
-        Me.Panel3.Location = New System.Drawing.Point(8, 11)
+        Me.Panel3.Location = New System.Drawing.Point(7, 7)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(1858, 925)
         Me.Panel3.TabIndex = 155
@@ -5458,6 +5458,30 @@ Partial Class INSUMO
         Me.ComboBox54.Size = New System.Drawing.Size(104, 37)
         Me.ComboBox54.TabIndex = 167
         '
+        'Label341
+        '
+        Me.Label341.AutoSize = True
+        Me.Label341.BackColor = System.Drawing.Color.Transparent
+        Me.Label341.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label341.ForeColor = System.Drawing.Color.Red
+        Me.Label341.Location = New System.Drawing.Point(263, 41)
+        Me.Label341.Name = "Label341"
+        Me.Label341.Size = New System.Drawing.Size(591, 21)
+        Me.Label341.TabIndex = 21
+        Me.Label341.Text = "Amor/3pais/4esta/4provv/5cert/8insunomb/3colo/3unidad/8codprov"
+        '
+        'Label340
+        '
+        Me.Label340.AutoSize = True
+        Me.Label340.BackColor = System.Drawing.Color.Transparent
+        Me.Label340.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label340.ForeColor = System.Drawing.Color.Red
+        Me.Label340.Location = New System.Drawing.Point(907, 41)
+        Me.Label340.Name = "Label340"
+        Me.Label340.Size = New System.Drawing.Size(379, 21)
+        Me.Label340.TabIndex = 21
+        Me.Label340.Text = "Color/Pant/N proveedor/N Clien/Linea tinta"
+        '
         'Label216
         '
         Me.Label216.AutoSize = True
@@ -5686,6 +5710,25 @@ Partial Class INSUMO
         Me.TextBox34.TabIndex = 173
         Me.TextBox34.Text = "5 901234 123457"
         Me.TextBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Button54
+        '
+        Me.Button54.AutoSize = True
+        Me.Button54.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button54.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button54.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown
+        Me.Button54.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
+        Me.Button54.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button54.ForeColor = System.Drawing.Color.Black
+        Me.Button54.Location = New System.Drawing.Point(20, 595)
+        Me.Button54.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button54.Name = "Button54"
+        Me.Button54.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button54.Size = New System.Drawing.Size(492, 43)
+        Me.Button54.TabIndex = 162
+        Me.Button54.Text = "SGC Ficha Tecnica de insumo PDF"
+        Me.Button54.UseVisualStyleBackColor = False
         '
         'Button21
         '
@@ -17133,49 +17176,6 @@ Partial Class INSUMO
         Me.Button17.TabIndex = 19
         Me.Button17.Text = "0.000"
         Me.Button17.UseVisualStyleBackColor = True
-        '
-        'Label340
-        '
-        Me.Label340.AutoSize = True
-        Me.Label340.BackColor = System.Drawing.Color.Transparent
-        Me.Label340.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label340.ForeColor = System.Drawing.Color.Red
-        Me.Label340.Location = New System.Drawing.Point(907, 41)
-        Me.Label340.Name = "Label340"
-        Me.Label340.Size = New System.Drawing.Size(379, 21)
-        Me.Label340.TabIndex = 21
-        Me.Label340.Text = "Color/Pant/N proveedor/N Clien/Linea tinta"
-        '
-        'Label341
-        '
-        Me.Label341.AutoSize = True
-        Me.Label341.BackColor = System.Drawing.Color.Transparent
-        Me.Label341.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label341.ForeColor = System.Drawing.Color.Red
-        Me.Label341.Location = New System.Drawing.Point(263, 41)
-        Me.Label341.Name = "Label341"
-        Me.Label341.Size = New System.Drawing.Size(591, 21)
-        Me.Label341.TabIndex = 21
-        Me.Label341.Text = "Amor/3pais/4esta/4provv/5cert/8insunomb/3colo/3unidad/8codprov"
-        '
-        'Button54
-        '
-        Me.Button54.AutoSize = True
-        Me.Button54.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button54.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button54.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown
-        Me.Button54.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
-        Me.Button54.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button54.ForeColor = System.Drawing.Color.Black
-        Me.Button54.Location = New System.Drawing.Point(20, 595)
-        Me.Button54.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button54.Name = "Button54"
-        Me.Button54.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button54.Size = New System.Drawing.Size(492, 43)
-        Me.Button54.TabIndex = 162
-        Me.Button54.Text = "SGC Ficha Tecnica de insumo PDF"
-        Me.Button54.UseVisualStyleBackColor = False
         '
         'INSUMO
         '

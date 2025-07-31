@@ -2137,7 +2137,7 @@ Partial Class OT10
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel2)
         Me.Name = "OT10"
-        Me.Text = "OT10"
+        Me.Text = "IMPRIMIR CC"
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
         Me.Panel32.ResumeLayout(False)
