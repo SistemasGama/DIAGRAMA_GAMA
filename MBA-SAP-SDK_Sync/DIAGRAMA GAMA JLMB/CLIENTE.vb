@@ -1,4 +1,4 @@
-﻿Public Class OT12
+﻿Public Class CLIENTE
     Private Sub Label55_Click(sender As Object, e As EventArgs) Handles Label55.Click, Label21.Click, Label32.Click, Label25.Click, Label39.Click
 
     End Sub
@@ -56,6 +56,10 @@
     End Sub
 
     Private Sub Label151_Click(sender As Object, e As EventArgs) Handles Label151.Click, Label152.Click
+
+    End Sub
+
+    Private Sub Label48_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

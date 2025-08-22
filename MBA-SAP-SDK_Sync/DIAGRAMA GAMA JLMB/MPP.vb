@@ -18,4 +18,8 @@
     Private Sub Label368_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub Label396_Click(sender As Object, e As EventArgs) Handles Label396.Click
+
+    End Sub
 End Class

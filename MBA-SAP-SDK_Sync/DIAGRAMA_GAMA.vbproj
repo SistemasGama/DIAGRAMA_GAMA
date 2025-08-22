@@ -146,22 +146,40 @@
     <Compile Include="DIAGRAMA GAMA JLMB\MPP.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT10.Designer.vb">
-      <DependentUpon>OT10.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\IMPRIMIR_CC.Designer.vb">
+      <DependentUpon>IMPRIMIR_CC.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT10.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\IMPRIMIR_CC.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT11.Designer.vb">
-      <DependentUpon>OT11.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\FICHA TECNICA.Designer.vb">
+      <DependentUpon>FICHA TECNICA.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT11.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\FICHA TECNICA.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT12.Designer.vb">
-      <DependentUpon>OT12.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\CLIENTE.Designer.vb">
+      <DependentUpon>CLIENTE.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT12.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\CLIENTE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT13.Designer.vb">
+      <DependentUpon>OT13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT14.Designer.vb">
+      <DependentUpon>OT14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT14.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT15.Designer.vb">
+      <DependentUpon>OT15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT15.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\TINTA.Designer.vb">
@@ -219,14 +237,23 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\MPP.resx">
       <DependentUpon>MPP.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT10.resx">
-      <DependentUpon>OT10.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\IMPRIMIR_CC.resx">
+      <DependentUpon>IMPRIMIR_CC.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT11.resx">
-      <DependentUpon>OT11.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\FICHA TECNICA.resx">
+      <DependentUpon>FICHA TECNICA.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT12.resx">
-      <DependentUpon>OT12.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\CLIENTE.resx">
+      <DependentUpon>CLIENTE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT13.resx">
+      <DependentUpon>OT13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT14.resx">
+      <DependentUpon>OT14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT15.resx">
+      <DependentUpon>OT15.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\TINTA.resx">
       <DependentUpon>TINTA.vb</DependentUpon>

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class OT10
+Partial Class IMPRIMIR_CC
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -2128,7 +2128,7 @@ Partial Class OT10
         Me.Panel2.Size = New System.Drawing.Size(1397, 884)
         Me.Panel2.TabIndex = 11
         '
-        'OT10
+        'IMPRIMIR_CC
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -2136,7 +2136,7 @@ Partial Class OT10
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel2)
-        Me.Name = "OT10"
+        Me.Name = "IMPRIMIR_CC"
         Me.Text = "IMPRIMIR CC"
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()

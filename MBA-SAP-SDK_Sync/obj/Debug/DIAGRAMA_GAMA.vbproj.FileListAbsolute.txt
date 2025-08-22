@@ -47,6 +47,9 @@ C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\D
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.MP.resources
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.PREPRENSA.resources
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.TINTA.resources
-C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT10.resources
-C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT11.resources
-C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT12.resources
+C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.IMPRIMIR_CC.resources
+C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.FICHA_TECNICA.resources
+C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.CLIENTE.resources
+C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT13.resources
+C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT14.resources
+C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT15.resources
