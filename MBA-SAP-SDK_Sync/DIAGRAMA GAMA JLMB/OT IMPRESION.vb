@@ -19,7 +19,7 @@
 
     End Sub
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click, Label3.Click, Label7.Click, Label10.Click, Label8.Click, Label9.Click, Label22.Click, Label27.Click, Label26.Click, Label25.Click, Label24.Click, Label23.Click, Label28.Click, Label32.Click, Label33.Click, Label34.Click, Label39.Click, Label38.Click, Label37.Click, Label36.Click, Label113.Click, Label112.Click, Label111.Click, Label122.Click, Label142.Click, Label141.Click, Label140.Click, Label139.Click, Label138.Click, Label137.Click, Label136.Click, Label135.Click, Label134.Click, Label133.Click, Label132.Click, Label148.Click, Label147.Click, Label146.Click, Label145.Click, Label144.Click, Label143.Click, Label152.Click, Label151.Click, Label150.Click, Label168.Click, Label166.Click, Label164.Click, Label161.Click, Label159.Click, Label158.Click, Label157.Click, Label156.Click, Label155.Click, Label154.Click, Label153.Click, Label170.Click, Label196.Click, Label195.Click, Label192.Click, Label189.Click, Label187.Click, Label185.Click, Label183.Click, Label181.Click, Label179.Click, Label177.Click, Label175.Click, Label173.Click, Label172.Click, Label241.Click, Label242.Click, Label96.Click, Label275.Click, Label274.Click, Label248.Click, Label430.Click, Label434.Click, Label433.Click, Label432.Click, Label431.Click, Label455.Click, Label444.Click, Label481.Click, Label480.Click, Label478.Click, Label104.Click
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click, Label3.Click, Label7.Click, Label10.Click, Label8.Click, Label9.Click, Label22.Click, Label24.Click, Label23.Click, Label32.Click, Label33.Click, Label34.Click, Label39.Click, Label38.Click, Label37.Click, Label36.Click, Label113.Click, Label112.Click, Label111.Click, Label122.Click, Label142.Click, Label141.Click, Label140.Click, Label139.Click, Label138.Click, Label137.Click, Label136.Click, Label135.Click, Label134.Click, Label133.Click, Label132.Click, Label148.Click, Label147.Click, Label146.Click, Label145.Click, Label144.Click, Label143.Click, Label152.Click, Label151.Click, Label150.Click, Label168.Click, Label166.Click, Label164.Click, Label161.Click, Label159.Click, Label158.Click, Label157.Click, Label156.Click, Label155.Click, Label154.Click, Label153.Click, Label170.Click, Label196.Click, Label195.Click, Label192.Click, Label189.Click, Label187.Click, Label185.Click, Label183.Click, Label181.Click, Label179.Click, Label177.Click, Label175.Click, Label173.Click, Label172.Click, Label242.Click, Label96.Click, Label275.Click, Label604.Click, Label603.Click, Label602.Click, Label597.Click, Label25.Click, Label27.Click, Label444.Click, Label28.Click, Label274.Click
 
     End Sub
 
@@ -35,7 +35,7 @@
 
     End Sub
 
-    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click, Button21.Click, Button49.Click, Button91.Click, Button93.Click
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click, Button21.Click, Button49.Click
 
     End Sub
 
@@ -59,7 +59,7 @@
 
     End Sub
 
-    Private Sub TextBox41_TextChanged(sender As Object, e As EventArgs) Handles TextBox41.TextChanged, TextBox48.TextChanged, TextBox47.TextChanged, TextBox46.TextChanged, TextBox45.TextChanged, TextBox53.TextChanged, TextBox52.TextChanged, TextBox51.TextChanged, TextBox50.TextChanged, TextBox49.TextChanged, TextBox54.TextChanged, TextBox56.TextChanged, TextBox55.TextChanged, TextBox62.TextChanged, TextBox3.TextChanged, TextBox4.TextChanged, TextBox132.TextChanged, TextBox130.TextChanged, TextBox128.TextChanged, TextBox127.TextChanged, TextBox126.TextChanged, TextBox124.TextChanged, TextBox123.TextChanged, TextBox122.TextChanged, TextBox120.TextChanged, TextBox119.TextChanged, TextBox117.TextChanged, TextBox116.TextChanged, TextBox114.TextChanged, TextBox113.TextChanged, TextBox144.TextChanged, TextBox145.TextChanged, TextBox147.TextChanged, TextBox149.TextChanged, TextBox176.TextChanged, TextBox33.TextChanged, TextBox76.TextChanged, TextBox75.TextChanged
+    Private Sub TextBox41_TextChanged(sender As Object, e As EventArgs) Handles TextBox41.TextChanged, TextBox48.TextChanged, TextBox47.TextChanged, TextBox46.TextChanged, TextBox45.TextChanged, TextBox53.TextChanged, TextBox52.TextChanged, TextBox51.TextChanged, TextBox50.TextChanged, TextBox49.TextChanged, TextBox54.TextChanged, TextBox56.TextChanged, TextBox55.TextChanged, TextBox62.TextChanged, TextBox3.TextChanged, TextBox4.TextChanged, TextBox132.TextChanged, TextBox130.TextChanged, TextBox128.TextChanged, TextBox127.TextChanged, TextBox126.TextChanged, TextBox124.TextChanged, TextBox123.TextChanged, TextBox122.TextChanged, TextBox120.TextChanged, TextBox119.TextChanged, TextBox117.TextChanged, TextBox116.TextChanged, TextBox114.TextChanged, TextBox113.TextChanged, TextBox144.TextChanged, TextBox145.TextChanged, TextBox147.TextChanged, TextBox149.TextChanged, TextBox176.TextChanged, TextBox33.TextChanged, TextBox76.TextChanged, TextBox75.TextChanged, TextBox399.TextChanged, TextBox398.TextChanged
 
     End Sub
 
@@ -307,7 +307,7 @@
 
     End Sub
 
-    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click, Button43.Click
 
     End Sub
 
@@ -371,7 +371,7 @@
 
     End Sub
 
-    Private Sub TextBox25_TextChanged(sender As Object, e As EventArgs) Handles TextBox25.TextChanged
+    Private Sub TextBox25_TextChanged(sender As Object, e As EventArgs) Handles TextBox25.TextChanged, TextBox201.TextChanged
 
     End Sub
 
@@ -419,7 +419,7 @@
 
     End Sub
 
-    Private Sub TextBox31_TextChanged(sender As Object, e As EventArgs) Handles TextBox31.TextChanged, TextBox32.TextChanged, TextBox28.TextChanged, TextBox44.TextChanged, TextBox40.TextChanged, TextBox36.TextChanged, TextBox146.TextChanged, TextBox435.TextChanged, TextBox451.TextChanged, TextBox450.TextChanged, TextBox449.TextChanged
+    Private Sub TextBox31_TextChanged(sender As Object, e As EventArgs) Handles TextBox31.TextChanged
 
     End Sub
 
@@ -479,15 +479,15 @@
 
     End Sub
 
-    Private Sub ComboBox15_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox15.SelectedIndexChanged
+    Private Sub ComboBox15_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub ComboBox16_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox16.SelectedIndexChanged
+    Private Sub ComboBox16_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub ComboBox17_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox17.SelectedIndexChanged
+    Private Sub ComboBox17_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -519,7 +519,7 @@
 
     End Sub
 
-    Private Sub ComboBox26_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox26.SelectedIndexChanged, ComboBox25.SelectedIndexChanged, ComboBox223.SelectedIndexChanged
+    Private Sub ComboBox26_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox26.SelectedIndexChanged, ComboBox25.SelectedIndexChanged, ComboBox223.SelectedIndexChanged, ComboBox242.SelectedIndexChanged
 
     End Sub
 
@@ -543,19 +543,19 @@
 
     End Sub
 
-    Private Sub TextBox13_TextChanged(sender As Object, e As EventArgs) Handles TextBox13.TextChanged
+    Private Sub TextBox13_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub TextBox14_TextChanged(sender As Object, e As EventArgs) Handles TextBox14.TextChanged
+    Private Sub TextBox14_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub TextBox10_TextChanged(sender As Object, e As EventArgs) Handles TextBox10.TextChanged, TextBox209.TextChanged, TextBox208.TextChanged, TextBox207.TextChanged, TextBox206.TextChanged, TextBox205.TextChanged, TextBox58.TextChanged
+    Private Sub TextBox10_TextChanged(sender As Object, e As EventArgs) Handles TextBox10.TextChanged, TextBox209.TextChanged, TextBox208.TextChanged, TextBox206.TextChanged, TextBox205.TextChanged, TextBox58.TextChanged
 
     End Sub
 
-    Private Sub TextBox9_TextChanged(sender As Object, e As EventArgs) Handles TextBox201.TextChanged, TextBox204.TextChanged, TextBox203.TextChanged, TextBox12.TextChanged, TextBox11.TextChanged, TextBox263.TextChanged, TextBox262.TextChanged, TextBox261.TextChanged
+    Private Sub TextBox9_TextChanged(sender As Object, e As EventArgs) Handles TextBox263.TextChanged, TextBox262.TextChanged, TextBox261.TextChanged, TextBox491.TextChanged, TextBox490.TextChanged, TextBox489.TextChanged, TextBox494.TextChanged, TextBox493.TextChanged, TextBox492.TextChanged, TextBox13.TextChanged, TextBox12.TextChanged, TextBox11.TextChanged
 
     End Sub
 
@@ -783,7 +783,7 @@
 
     End Sub
 
-    Private Sub Label117_Click(sender As Object, e As EventArgs) Handles Label117.Click, Label129.Click, Label128.Click, Label127.Click, Label126.Click, Label125.Click, Label124.Click, Label123.Click, Label130.Click, Label131.Click, Label162.Click, Label163.Click, Label165.Click, Label167.Click, Label169.Click, Label234.Click
+    Private Sub Label117_Click(sender As Object, e As EventArgs) Handles Label117.Click, Label129.Click, Label128.Click, Label127.Click, Label126.Click, Label125.Click, Label124.Click, Label123.Click, Label130.Click, Label131.Click, Label162.Click, Label163.Click, Label165.Click, Label167.Click, Label169.Click, Label234.Click, Label75.Click
 
     End Sub
 
@@ -791,7 +791,7 @@
 
     End Sub
 
-    Private Sub Label197_Click(sender As Object, e As EventArgs) Handles Label203.Click, Label202.Click, Label201.Click
+    Private Sub Label197_Click(sender As Object, e As EventArgs) Handles Label203.Click
 
     End Sub
 
@@ -831,7 +831,7 @@
 
     End Sub
 
-    Private Sub Label290_Click(sender As Object, e As EventArgs) Handles Label290.Click, Label293.Click, Label292.Click, Label291.Click, Label300.Click, Label299.Click, Label298.Click, Label297.Click, Label306.Click, Label305.Click, Label304.Click, Label303.Click, Label302.Click, Label301.Click, Label313.Click, Label312.Click, Label311.Click, Label310.Click, Label309.Click, Label317.Click, Label316.Click, Label315.Click, Label314.Click, Label324.Click, Label323.Click, Label322.Click, Label321.Click, Label320.Click, Label319.Click, Label318.Click, Label326.Click, Label325.Click
+    Private Sub Label290_Click(sender As Object, e As EventArgs) Handles Label290.Click, Label293.Click, Label292.Click, Label291.Click, Label300.Click, Label299.Click, Label298.Click, Label297.Click, Label306.Click, Label305.Click, Label304.Click, Label303.Click, Label302.Click, Label301.Click, Label313.Click, Label312.Click, Label311.Click, Label310.Click, Label309.Click, Label317.Click, Label316.Click, Label315.Click, Label314.Click, Label324.Click, Label323.Click, Label322.Click, Label321.Click, Label320.Click, Label319.Click, Label318.Click, Label326.Click, Label325.Click, Label570.Click
 
     End Sub
 
@@ -903,7 +903,7 @@
 
     End Sub
 
-    Private Sub Label358_Click(sender As Object, e As EventArgs) Handles Label358.Click
+    Private Sub Label358_Click(sender As Object, e As EventArgs) Handles Label358.Click, Label607.Click, Label608.Click
 
     End Sub
 
@@ -919,7 +919,7 @@
 
     End Sub
 
-    Private Sub ComboBox192_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox192.SelectedIndexChanged
+    Private Sub ComboBox192_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox192.SelectedIndexChanged, ComboBox296.SelectedIndexChanged
 
     End Sub
 
@@ -927,11 +927,11 @@
 
     End Sub
 
-    Private Sub TextBox399_TextChanged(sender As Object, e As EventArgs) Handles TextBox399.TextChanged, TextBox400.TextChanged
+    Private Sub TextBox399_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub TextBox390_TextChanged(sender As Object, e As EventArgs) Handles TextBox390.TextChanged
+    Private Sub TextBox390_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -947,7 +947,43 @@
 
     End Sub
 
-    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label535.Click, Label536.Click, Label537.Click, Label6.Click, Label543.Click, Label549.Click
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label535.Click, Label549.Click
+
+    End Sub
+
+    Private Sub Label566_Click(sender As Object, e As EventArgs) Handles Label566.Click, Label601.Click
+
+    End Sub
+
+    Private Sub TextBox266_TextChanged(sender As Object, e As EventArgs) Handles TextBox266.TextChanged
+
+    End Sub
+
+    Private Sub Label584_Click(sender As Object, e As EventArgs) Handles Label584.Click, Label273.Click
+
+    End Sub
+
+    Private Sub Label585_Click(sender As Object, e As EventArgs) Handles Label585.Click
+
+    End Sub
+
+    Private Sub ComboBox53_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox53.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Label587_Click(sender As Object, e As EventArgs) Handles Label587.Click
+
+    End Sub
+
+    Private Sub ComboBox286_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox286.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Panel129_Paint(sender As Object, e As PaintEventArgs) Handles Panel129.Paint, Panel157.Paint
+
+    End Sub
+
+    Private Sub ComboBox245_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox245.SelectedIndexChanged
 
     End Sub
 End Class
