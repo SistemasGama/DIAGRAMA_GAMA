@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class OT6
+Partial Class TROQUEL
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -23,7 +23,7 @@ Partial Class OT6
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OT6))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TROQUEL))
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel75 = New System.Windows.Forms.Panel()
@@ -136,6 +136,7 @@ Partial Class OT6
         Me.Label60 = New System.Windows.Forms.Label()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button18 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.RadioButton38 = New System.Windows.Forms.RadioButton()
         Me.RadioButton39 = New System.Windows.Forms.RadioButton()
@@ -348,9 +349,8 @@ Partial Class OT6
         Me.Panel48 = New System.Windows.Forms.Panel()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
+        Me.Label703 = New System.Windows.Forms.Label()
+        Me.TextBox542 = New System.Windows.Forms.TextBox()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel75.SuspendLayout()
@@ -467,9 +467,10 @@ Partial Class OT6
         '
         Me.Panel31.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel31.Controls.Add(Me.TextBox542)
+        Me.Panel31.Controls.Add(Me.Label703)
         Me.Panel31.Controls.Add(Me.ComboBox8)
         Me.Panel31.Controls.Add(Me.Label77)
-        Me.Panel31.Controls.Add(Me.Button11)
         Me.Panel31.Controls.Add(Me.TextBox33)
         Me.Panel31.Controls.Add(Me.Label76)
         Me.Panel31.Controls.Add(Me.Label3)
@@ -554,11 +555,11 @@ Partial Class OT6
         Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.Button11.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button11.ForeColor = System.Drawing.Color.Black
-        Me.Button11.Location = New System.Drawing.Point(1626, 410)
+        Me.Button11.Location = New System.Drawing.Point(320, 43)
         Me.Button11.Margin = New System.Windows.Forms.Padding(4)
         Me.Button11.Name = "Button11"
         Me.Button11.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button11.Size = New System.Drawing.Size(197, 61)
+        Me.Button11.Size = New System.Drawing.Size(163, 50)
         Me.Button11.TabIndex = 234
         Me.Button11.Text = "Busca"
         Me.Button11.UseVisualStyleBackColor = False
@@ -1375,11 +1376,11 @@ Partial Class OT6
         '
         Me.Panel15.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel15.Controls.Add(Me.Button14)
         Me.Panel15.Controls.Add(Me.RadioButton29)
         Me.Panel15.Controls.Add(Me.RadioButton30)
         Me.Panel15.Controls.Add(Me.Button4)
         Me.Panel15.Controls.Add(Me.Button2)
+        Me.Panel15.Controls.Add(Me.Button11)
         Me.Panel15.Controls.Add(Me.Button1)
         Me.Panel15.Controls.Add(Me.Panel16)
         Me.Panel15.Controls.Add(Me.CheckBox14)
@@ -1427,11 +1428,11 @@ Partial Class OT6
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.Button4.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.Black
-        Me.Button4.Location = New System.Drawing.Point(238, 151)
+        Me.Button4.Location = New System.Drawing.Point(225, 151)
         Me.Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Button4.Name = "Button4"
         Me.Button4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button4.Size = New System.Drawing.Size(422, 50)
+        Me.Button4.Size = New System.Drawing.Size(435, 50)
         Me.Button4.TabIndex = 234
         Me.Button4.Text = "ENVIAR TROQUEL"
         Me.Button4.UseVisualStyleBackColor = False
@@ -1465,7 +1466,7 @@ Partial Class OT6
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.Button1.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(511, 43)
+        Me.Button1.Location = New System.Drawing.Point(491, 42)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -1860,6 +1861,25 @@ Partial Class OT6
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(1855, 854)
         Me.Panel4.TabIndex = 208
+        '
+        'Button18
+        '
+        Me.Button18.AutoSize = True
+        Me.Button18.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button18.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button18.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button18.ForeColor = System.Drawing.Color.Black
+        Me.Button18.Location = New System.Drawing.Point(960, 787)
+        Me.Button18.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button18.Name = "Button18"
+        Me.Button18.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button18.Size = New System.Drawing.Size(149, 50)
+        Me.Button18.TabIndex = 471
+        Me.Button18.Text = "Salir"
+        Me.Button18.UseVisualStyleBackColor = False
         '
         'Button3
         '
@@ -3106,7 +3126,7 @@ Partial Class OT6
         Me.RadioButton20.AutoSize = True
         Me.RadioButton20.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton20.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton20.Location = New System.Drawing.Point(624, 70)
+        Me.RadioButton20.Location = New System.Drawing.Point(568, 61)
         Me.RadioButton20.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton20.Name = "RadioButton20"
         Me.RadioButton20.Size = New System.Drawing.Size(131, 33)
@@ -3120,7 +3140,7 @@ Partial Class OT6
         Me.RadioButton23.AutoSize = True
         Me.RadioButton23.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton23.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton23.Location = New System.Drawing.Point(518, 70)
+        Me.RadioButton23.Location = New System.Drawing.Point(462, 61)
         Me.RadioButton23.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton23.Name = "RadioButton23"
         Me.RadioButton23.Size = New System.Drawing.Size(98, 33)
@@ -3153,7 +3173,7 @@ Partial Class OT6
         Me.TextBox31.BackColor = System.Drawing.Color.White
         Me.TextBox31.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox31.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox31.Location = New System.Drawing.Point(896, 307)
+        Me.TextBox31.Location = New System.Drawing.Point(914, 307)
         Me.TextBox31.Name = "TextBox31"
         Me.TextBox31.Size = New System.Drawing.Size(48, 35)
         Me.TextBox31.TabIndex = 463
@@ -3165,7 +3185,7 @@ Partial Class OT6
         Me.TextBox30.BackColor = System.Drawing.Color.White
         Me.TextBox30.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox30.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox30.Location = New System.Drawing.Point(809, 307)
+        Me.TextBox30.Location = New System.Drawing.Point(827, 307)
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.Size = New System.Drawing.Size(48, 35)
         Me.TextBox30.TabIndex = 464
@@ -3180,7 +3200,7 @@ Partial Class OT6
         Me.ComboBox1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"NOMBRE DEL TRABAJO"})
-        Me.ComboBox1.Location = New System.Drawing.Point(520, 115)
+        Me.ComboBox1.Location = New System.Drawing.Point(514, 115)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(458, 37)
@@ -3201,7 +3221,7 @@ Partial Class OT6
         Me.RadioButton75.AutoSize = True
         Me.RadioButton75.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton75.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton75.Location = New System.Drawing.Point(489, 308)
+        Me.RadioButton75.Location = New System.Drawing.Point(507, 308)
         Me.RadioButton75.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton75.Name = "RadioButton75"
         Me.RadioButton75.Size = New System.Drawing.Size(101, 33)
@@ -3215,7 +3235,7 @@ Partial Class OT6
         Me.RadioButton206.AutoSize = True
         Me.RadioButton206.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton206.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton206.Location = New System.Drawing.Point(251, 308)
+        Me.RadioButton206.Location = New System.Drawing.Point(269, 308)
         Me.RadioButton206.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton206.Name = "RadioButton206"
         Me.RadioButton206.Size = New System.Drawing.Size(101, 33)
@@ -3230,7 +3250,7 @@ Partial Class OT6
         Me.Label64.BackColor = System.Drawing.Color.Transparent
         Me.Label64.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label64.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label64.Location = New System.Drawing.Point(791, 310)
+        Me.Label64.Location = New System.Drawing.Point(809, 310)
         Me.Label64.Name = "Label64"
         Me.Label64.Size = New System.Drawing.Size(171, 29)
         Me.Label64.TabIndex = 455
@@ -3242,7 +3262,7 @@ Partial Class OT6
         Me.Label63.BackColor = System.Drawing.Color.Transparent
         Me.Label63.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label63.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label63.Location = New System.Drawing.Point(367, 310)
+        Me.Label63.Location = New System.Drawing.Point(385, 310)
         Me.Label63.Name = "Label63"
         Me.Label63.Size = New System.Drawing.Size(29, 29)
         Me.Label63.TabIndex = 455
@@ -3254,7 +3274,7 @@ Partial Class OT6
         Me.Label552.BackColor = System.Drawing.Color.Transparent
         Me.Label552.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label552.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label552.Location = New System.Drawing.Point(598, 310)
+        Me.Label552.Location = New System.Drawing.Point(616, 310)
         Me.Label552.Name = "Label552"
         Me.Label552.Size = New System.Drawing.Size(68, 29)
         Me.Label552.TabIndex = 455
@@ -3266,7 +3286,7 @@ Partial Class OT6
         Me.Label553.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label553.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label553.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label553.Location = New System.Drawing.Point(406, 310)
+        Me.Label553.Location = New System.Drawing.Point(424, 310)
         Me.Label553.Name = "Label553"
         Me.Label553.Size = New System.Drawing.Size(0, 29)
         Me.Label553.TabIndex = 456
@@ -3277,7 +3297,7 @@ Partial Class OT6
         Me.Label568.BackColor = System.Drawing.Color.Transparent
         Me.Label568.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label568.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label568.Location = New System.Drawing.Point(725, 310)
+        Me.Label568.Location = New System.Drawing.Point(743, 310)
         Me.Label568.Name = "Label568"
         Me.Label568.Size = New System.Drawing.Size(84, 29)
         Me.Label568.TabIndex = 457
@@ -3289,7 +3309,7 @@ Partial Class OT6
         Me.Label572.BackColor = System.Drawing.Color.Transparent
         Me.Label572.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label572.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label572.Location = New System.Drawing.Point(15, 313)
+        Me.Label572.Location = New System.Drawing.Point(33, 313)
         Me.Label572.Name = "Label572"
         Me.Label572.Size = New System.Drawing.Size(147, 29)
         Me.Label572.TabIndex = 458
@@ -3300,7 +3320,7 @@ Partial Class OT6
         Me.TextBox477.BackColor = System.Drawing.Color.White
         Me.TextBox477.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox477.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox477.Location = New System.Drawing.Point(672, 307)
+        Me.TextBox477.Location = New System.Drawing.Point(690, 307)
         Me.TextBox477.Name = "TextBox477"
         Me.TextBox477.Size = New System.Drawing.Size(48, 35)
         Me.TextBox477.TabIndex = 452
@@ -3312,7 +3332,7 @@ Partial Class OT6
         Me.TextBox478.BackColor = System.Drawing.Color.White
         Me.TextBox478.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox478.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox478.Location = New System.Drawing.Point(170, 307)
+        Me.TextBox478.Location = New System.Drawing.Point(188, 307)
         Me.TextBox478.Name = "TextBox478"
         Me.TextBox478.Size = New System.Drawing.Size(74, 35)
         Me.TextBox478.TabIndex = 453
@@ -3324,7 +3344,7 @@ Partial Class OT6
         Me.TextBox479.BackColor = System.Drawing.Color.White
         Me.TextBox479.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox479.ForeColor = System.Drawing.Color.Red
-        Me.TextBox479.Location = New System.Drawing.Point(406, 307)
+        Me.TextBox479.Location = New System.Drawing.Point(424, 307)
         Me.TextBox479.Name = "TextBox479"
         Me.TextBox479.Size = New System.Drawing.Size(74, 35)
         Me.TextBox479.TabIndex = 454
@@ -3341,7 +3361,7 @@ Partial Class OT6
         Me.Button26.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.Button26.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button26.ForeColor = System.Drawing.Color.White
-        Me.Button26.Location = New System.Drawing.Point(397, 296)
+        Me.Button26.Location = New System.Drawing.Point(415, 296)
         Me.Button26.Margin = New System.Windows.Forms.Padding(4)
         Me.Button26.Name = "Button26"
         Me.Button26.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -3359,7 +3379,7 @@ Partial Class OT6
         Me.Button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.Button24.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button24.ForeColor = System.Drawing.Color.White
-        Me.Button24.Location = New System.Drawing.Point(159, 296)
+        Me.Button24.Location = New System.Drawing.Point(177, 296)
         Me.Button24.Margin = New System.Windows.Forms.Padding(4)
         Me.Button24.Name = "Button24"
         Me.Button24.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -3459,7 +3479,6 @@ Partial Class OT6
         Me.Panel119.Controls.Add(Me.Label108)
         Me.Panel119.Controls.Add(Me.Label110)
         Me.Panel119.Controls.Add(Me.Label111)
-        Me.Panel119.Controls.Add(Me.Button13)
         Me.Panel119.Controls.Add(Me.Button12)
         Me.Panel119.Controls.Add(Me.Label67)
         Me.Panel119.Controls.Add(Me.Label68)
@@ -3557,7 +3576,7 @@ Partial Class OT6
         Me.RadioButton10.AutoSize = True
         Me.RadioButton10.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton10.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton10.Location = New System.Drawing.Point(266, 353)
+        Me.RadioButton10.Location = New System.Drawing.Point(266, 357)
         Me.RadioButton10.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton10.Name = "RadioButton10"
         Me.RadioButton10.Size = New System.Drawing.Size(101, 33)
@@ -3572,7 +3591,7 @@ Partial Class OT6
         Me.Label554.BackColor = System.Drawing.Color.Transparent
         Me.Label554.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label554.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label554.Location = New System.Drawing.Point(376, 358)
+        Me.Label554.Location = New System.Drawing.Point(376, 359)
         Me.Label554.Name = "Label554"
         Me.Label554.Size = New System.Drawing.Size(257, 29)
         Me.Label554.TabIndex = 492
@@ -3840,7 +3859,7 @@ Partial Class OT6
         '
         Me.Label115.AutoSize = True
         Me.Label115.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label115.Location = New System.Drawing.Point(37, 357)
+        Me.Label115.Location = New System.Drawing.Point(37, 359)
         Me.Label115.Name = "Label115"
         Me.Label115.Size = New System.Drawing.Size(128, 29)
         Me.Label115.TabIndex = 467
@@ -3984,7 +4003,7 @@ Partial Class OT6
         '
         Me.TextBox145.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox145.ForeColor = System.Drawing.Color.Red
-        Me.TextBox145.Location = New System.Drawing.Point(177, 354)
+        Me.TextBox145.Location = New System.Drawing.Point(177, 356)
         Me.TextBox145.Name = "TextBox145"
         Me.TextBox145.Size = New System.Drawing.Size(82, 35)
         Me.TextBox145.TabIndex = 457
@@ -4150,7 +4169,7 @@ Partial Class OT6
         '
         Me.DateTimePicker5.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker5.Location = New System.Drawing.Point(335, 67)
+        Me.DateTimePicker5.Location = New System.Drawing.Point(279, 58)
         Me.DateTimePicker5.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker5.Name = "DateTimePicker5"
         Me.DateTimePicker5.Size = New System.Drawing.Size(160, 35)
@@ -4188,7 +4207,7 @@ Partial Class OT6
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(83, 70)
+        Me.Label45.Location = New System.Drawing.Point(27, 61)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(142, 29)
         Me.Label45.TabIndex = 441
@@ -4198,7 +4217,7 @@ Partial Class OT6
         '
         Me.TextBox25.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox25.Location = New System.Drawing.Point(234, 67)
+        Me.TextBox25.Location = New System.Drawing.Point(178, 58)
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.Size = New System.Drawing.Size(82, 35)
         Me.TextBox25.TabIndex = 439
@@ -4209,7 +4228,7 @@ Partial Class OT6
         '
         Me.TextBox26.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TextBox26.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox26.Location = New System.Drawing.Point(292, 116)
+        Me.TextBox26.Location = New System.Drawing.Point(286, 116)
         Me.TextBox26.Name = "TextBox26"
         Me.TextBox26.Size = New System.Drawing.Size(206, 35)
         Me.TextBox26.TabIndex = 440
@@ -4219,7 +4238,7 @@ Partial Class OT6
         '
         Me.Label46.AutoSize = True
         Me.Label46.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(34, 119)
+        Me.Label46.Location = New System.Drawing.Point(28, 119)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(254, 29)
         Me.Label46.TabIndex = 438
@@ -4230,7 +4249,7 @@ Partial Class OT6
         Me.RadioButton35.AutoSize = True
         Me.RadioButton35.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton35.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton35.Location = New System.Drawing.Point(387, 436)
+        Me.RadioButton35.Location = New System.Drawing.Point(377, 436)
         Me.RadioButton35.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton35.Name = "RadioButton35"
         Me.RadioButton35.Size = New System.Drawing.Size(64, 33)
@@ -4244,7 +4263,7 @@ Partial Class OT6
         Me.RadioButton32.AutoSize = True
         Me.RadioButton32.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton32.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton32.Location = New System.Drawing.Point(321, 436)
+        Me.RadioButton32.Location = New System.Drawing.Point(311, 436)
         Me.RadioButton32.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton32.Name = "RadioButton32"
         Me.RadioButton32.Size = New System.Drawing.Size(56, 33)
@@ -4258,7 +4277,7 @@ Partial Class OT6
         Me.RadioButton31.AutoSize = True
         Me.RadioButton31.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton31.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton31.Location = New System.Drawing.Point(387, 400)
+        Me.RadioButton31.Location = New System.Drawing.Point(377, 400)
         Me.RadioButton31.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton31.Name = "RadioButton31"
         Me.RadioButton31.Size = New System.Drawing.Size(64, 33)
@@ -4272,7 +4291,7 @@ Partial Class OT6
         Me.RadioButton24.AutoSize = True
         Me.RadioButton24.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton24.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton24.Location = New System.Drawing.Point(321, 400)
+        Me.RadioButton24.Location = New System.Drawing.Point(311, 400)
         Me.RadioButton24.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton24.Name = "RadioButton24"
         Me.RadioButton24.Size = New System.Drawing.Size(56, 33)
@@ -4306,7 +4325,7 @@ Partial Class OT6
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(41, 438)
+        Me.Label28.Location = New System.Drawing.Point(31, 438)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(275, 29)
         Me.Label28.TabIndex = 20
@@ -4316,7 +4335,7 @@ Partial Class OT6
         '
         Me.Label61.AutoSize = True
         Me.Label61.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.Location = New System.Drawing.Point(165, 270)
+        Me.Label61.Location = New System.Drawing.Point(183, 270)
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(579, 29)
         Me.Label61.TabIndex = 20
@@ -4326,7 +4345,7 @@ Partial Class OT6
         '
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(44, 400)
+        Me.Label27.Location = New System.Drawing.Point(34, 400)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(268, 29)
         Me.Label27.TabIndex = 20
@@ -4416,70 +4435,36 @@ Partial Class OT6
         Me.Label22.TabIndex = 6
         Me.Label22.Text = "TROQUEL"
         '
-        'Button13
+        'Label703
         '
-        Me.Button13.AutoSize = True
-        Me.Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button13.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.ForeColor = System.Drawing.Color.Black
-        Me.Button13.Location = New System.Drawing.Point(461, 734)
-        Me.Button13.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button13.Name = "Button13"
-        Me.Button13.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button13.Size = New System.Drawing.Size(149, 50)
-        Me.Button13.TabIndex = 445
-        Me.Button13.Text = "Salir"
-        Me.Button13.UseVisualStyleBackColor = False
+        Me.Label703.AutoSize = True
+        Me.Label703.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label703.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label703.Location = New System.Drawing.Point(1449, 401)
+        Me.Label703.Name = "Label703"
+        Me.Label703.Size = New System.Drawing.Size(172, 29)
+        Me.Label703.TabIndex = 462
+        Me.Label703.Text = "Boca obsion.:"
         '
-        'Button14
+        'TextBox542
         '
-        Me.Button14.AutoSize = True
-        Me.Button14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button14.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.ForeColor = System.Drawing.Color.Black
-        Me.Button14.Location = New System.Drawing.Point(354, 43)
-        Me.Button14.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button14.Name = "Button14"
-        Me.Button14.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button14.Size = New System.Drawing.Size(149, 50)
-        Me.Button14.TabIndex = 470
-        Me.Button14.Text = "Salir"
-        Me.Button14.UseVisualStyleBackColor = False
+        Me.TextBox542.BackColor = System.Drawing.Color.White
+        Me.TextBox542.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox542.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox542.Location = New System.Drawing.Point(1448, 431)
+        Me.TextBox542.Name = "TextBox542"
+        Me.TextBox542.Size = New System.Drawing.Size(169, 35)
+        Me.TextBox542.TabIndex = 461
+        Me.TextBox542.Text = "2/6/8/20"
+        Me.TextBox542.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Button18
-        '
-        Me.Button18.AutoSize = True
-        Me.Button18.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button18.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button18.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.ForeColor = System.Drawing.Color.Black
-        Me.Button18.Location = New System.Drawing.Point(960, 787)
-        Me.Button18.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button18.Name = "Button18"
-        Me.Button18.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button18.Size = New System.Drawing.Size(149, 50)
-        Me.Button18.TabIndex = 471
-        Me.Button18.Text = "Salir"
-        Me.Button18.UseVisualStyleBackColor = False
-        '
-        'OT6
+        'TROQUEL
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1388, 702)
         Me.Controls.Add(Me.Panel2)
-        Me.Name = "OT6"
+        Me.Name = "TROQUEL"
         Me.Text = "TROQUEL"
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
@@ -4874,7 +4859,7 @@ Partial Class OT6
     Friend WithEvents RadioButton38 As RadioButton
     Friend WithEvents RadioButton39 As RadioButton
     Friend WithEvents Button3 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
     Friend WithEvents Button18 As Button
+    Friend WithEvents TextBox542 As TextBox
+    Friend WithEvents Label703 As Label
 End Class

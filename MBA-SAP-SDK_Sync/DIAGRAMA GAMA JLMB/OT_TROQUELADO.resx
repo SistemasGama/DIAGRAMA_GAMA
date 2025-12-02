@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Label43.Text" xml:space="preserve">
+    <value>Como protocolo normal de TROQUELADO DEBE VERIFICAR la primera partida de troquelado alimento
+Cuando hay 10 cm de troquelado debe sacar y pasar el SUPERVISOR QUE DESCARTONEN  a mano 
+verificando si no tiene pelusa por falta de filo
+puede seguir troquelado pero la verificacion paralela se debe hacer rapido con el encargado de descartonar a mano y
+el supervisor observando que no salga pelusas
+la descartonadora automatica debe el supervisor de troquelado debe verificar como va saliendo su trabajo y que el descartonador
+automatico limpie su mesada cada lote descartonado</value>
+  </data>
 </root>

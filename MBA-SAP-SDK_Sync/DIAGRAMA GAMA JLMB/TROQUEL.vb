@@ -1,4 +1,4 @@
-﻿Public Class OT6
+﻿Public Class TROQUEL
     Private Sub TextBox86_TextChanged(sender As Object, e As EventArgs) Handles TextBox86.TextChanged, TextBox90.TextChanged, TextBox89.TextChanged, TextBox88.TextChanged, TextBox87.TextChanged, TextBox3.TextChanged
 
     End Sub

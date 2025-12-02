@@ -62,4 +62,8 @@
     Private Sub Label48_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub TabPage3_Click(sender As Object, e As EventArgs) Handles TabPage3.Click
+
+    End Sub
 End Class

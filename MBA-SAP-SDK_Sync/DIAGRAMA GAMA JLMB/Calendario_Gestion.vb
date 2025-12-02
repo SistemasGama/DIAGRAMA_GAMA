@@ -1,4 +1,4 @@
-﻿Public Class OT13
+﻿Public Class Calendario_Gestion
     Private Sub ComboBox141_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox141.SelectedIndexChanged
 
     End Sub

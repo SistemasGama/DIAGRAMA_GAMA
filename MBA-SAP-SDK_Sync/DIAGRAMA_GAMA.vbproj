@@ -122,16 +122,16 @@
     <Compile Include="DIAGRAMA GAMA JLMB\OT IMPRESION.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT PREPRENSA.Designer.vb">
-      <DependentUpon>OT PREPRENSA.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT_PREPRENSA.Designer.vb">
+      <DependentUpon>OT_PREPRENSA.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT PREPRENSA.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\OT_PREPRENSA.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT TROQUELADO.Designer.vb">
-      <DependentUpon>OT TROQUELADO.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT_TROQUELADO.Designer.vb">
+      <DependentUpon>OT_TROQUELADO.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT TROQUELADO.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\OT_TROQUELADO.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\INSUMO.Designer.vb">
@@ -164,22 +164,22 @@
     <Compile Include="DIAGRAMA GAMA JLMB\CLIENTE.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT13.Designer.vb">
-      <DependentUpon>OT13.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\Calendario_Gestion.Designer.vb">
+      <DependentUpon>Calendario_Gestion.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT13.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\Calendario_Gestion.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT14.Designer.vb">
-      <DependentUpon>OT14.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\Calendario_Mantenimiento.Designer.vb">
+      <DependentUpon>Calendario_Mantenimiento.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT14.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\Calendario_Mantenimiento.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT15.Designer.vb">
-      <DependentUpon>OT15.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\Precio_Anterior.Designer.vb">
+      <DependentUpon>Precio_Anterior.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT15.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\Precio_Anterior.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\OT16.Designer.vb">
@@ -206,10 +206,10 @@
     <Compile Include="DIAGRAMA GAMA JLMB\OT19.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT20.Designer.vb">
-      <DependentUpon>OT20.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\Pto_Confirmado.Designer.vb">
+      <DependentUpon>Pto_Confirmado.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT20.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\Pto_Confirmado.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\TINTA.Designer.vb">
@@ -224,10 +224,10 @@
     <Compile Include="DIAGRAMA GAMA JLMB\TROQUEL.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\IMPRIMIR PTO.Designer.vb">
-      <DependentUpon>IMPRIMIR PTO.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT_IMPRIMIR.Designer.vb">
+      <DependentUpon>OT_IMPRIMIR.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\IMPRIMIR PTO.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\OT_IMPRIMIR.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -255,11 +255,11 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT IMPRESION.resx">
       <DependentUpon>OT IMPRESION.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT PREPRENSA.resx">
-      <DependentUpon>OT PREPRENSA.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT_PREPRENSA.resx">
+      <DependentUpon>OT_PREPRENSA.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT TROQUELADO.resx">
-      <DependentUpon>OT TROQUELADO.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT_TROQUELADO.resx">
+      <DependentUpon>OT_TROQUELADO.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\INSUMO.resx">
       <DependentUpon>INSUMO.vb</DependentUpon>
@@ -276,17 +276,17 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\CLIENTE.resx">
       <DependentUpon>CLIENTE.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT13.resx">
-      <DependentUpon>OT13.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\Calendario_Gestion.resx">
+      <DependentUpon>Calendario_Gestion.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT14.resx">
-      <DependentUpon>OT14.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\Calendario_Mantenimiento.resx">
+      <DependentUpon>Calendario_Mantenimiento.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT15.resx">
-      <DependentUpon>OT15.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\Precio_Anterior.resx">
+      <DependentUpon>Precio_Anterior.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT20.resx">
-      <DependentUpon>OT20.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\Pto_Confirmado.resx">
+      <DependentUpon>Pto_Confirmado.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\TINTA.resx">
       <DependentUpon>TINTA.vb</DependentUpon>
@@ -294,8 +294,8 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\TROQUEL.resx">
       <DependentUpon>TROQUEL.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\IMPRIMIR PTO.resx">
-      <DependentUpon>IMPRIMIR PTO.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT_IMPRIMIR.resx">
+      <DependentUpon>OT_IMPRIMIR.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

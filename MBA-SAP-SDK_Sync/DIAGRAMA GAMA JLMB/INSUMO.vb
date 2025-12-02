@@ -31,7 +31,7 @@
 
     End Sub
 
-    Private Sub Label173_Click(sender As Object, e As EventArgs) Handles Label175.Click, Label154.Click, Label153.Click, Label157.Click, Label156.Click, Label160.Click, Label159.Click, Label158.Click, Label161.Click, Label162.Click, Label164.Click, Label177.Click, Label176.Click, Label173.Click, Label64.Click
+    Private Sub Label173_Click(sender As Object, e As EventArgs) Handles Label175.Click, Label154.Click, Label153.Click, Label157.Click, Label156.Click, Label160.Click, Label159.Click, Label158.Click, Label177.Click, Label176.Click, Label173.Click
 
     End Sub
 
@@ -67,7 +67,7 @@
 
     End Sub
 
-    Private Sub TextBox86_TextChanged(sender As Object, e As EventArgs) Handles TextBox86.TextChanged
+    Private Sub TextBox86_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -80,6 +80,10 @@
     End Sub
 
     Private Sub Label354_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub ComboBox52_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
 End Class

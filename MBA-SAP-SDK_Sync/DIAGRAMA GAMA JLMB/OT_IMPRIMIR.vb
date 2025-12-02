@@ -1,4 +1,4 @@
-﻿Public Class OT7
+﻿Public Class OT_IMPRIMIR
     Private Sub CheckBox4_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox4.CheckedChanged, CheckBox5.CheckedChanged, CheckBox9.CheckedChanged, CheckBox8.CheckedChanged, CheckBox10.CheckedChanged, CheckBox11.CheckedChanged, CheckBox12.CheckedChanged, CheckBox13.CheckedChanged
 
     End Sub
