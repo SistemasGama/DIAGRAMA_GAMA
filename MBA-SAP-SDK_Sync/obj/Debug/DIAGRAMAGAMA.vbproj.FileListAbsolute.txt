@@ -1,0 +1,21 @@
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\bin\Debug\DIAGRAMA GAMA.exe.config
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\bin\Debug\DIAGRAMA GAMA.exe.manifest
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\bin\Debug\DIAGRAMA GAMA.application
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\bin\Debug\DIAGRAMA GAMA.exe
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\bin\Debug\DIAGRAMA GAMA.pdb
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\bin\Debug\DIAGRAMA GAMA.xml
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\bin\Debug\iAnywhere.Data.SQLAnywhere.v4.0.dll
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\bin\Debug\iAnywhere.Data.SQLAnywhere.v4.0.xml
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMAGAMA.vbproj.AssemblyReference.cache
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMAGAMA.vbproj.ResolveComReference.cache
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\MBA_SAP_SDK_Sync.Frm_OTIMPRESION.resources
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\MBA_SAP_SDK_Sync.Resources.resources
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMAGAMA.vbproj.GenerateResource.cache
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMAGAMA.vbproj.CoreCompileInputs.cache
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.exe.manifest
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.application
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMAGAMA.vbproj.CopyComplete
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.exe
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.xml
+C:\Users\INFORMATICA IT\Desktop\SAP_MBA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.pdb
