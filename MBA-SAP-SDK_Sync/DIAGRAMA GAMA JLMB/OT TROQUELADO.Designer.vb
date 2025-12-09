@@ -22,16 +22,32 @@ Partial Class TROQUELADO
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
+        '
+        'txtNroPresup1
+        '
+        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
+        Me.txtNroPresup1.Location = New System.Drawing.Point(23, 21)
+        Me.txtNroPresup1.Name = "txtNroPresup1"
+        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 26)
+        Me.txtNroPresup1.TabIndex = 204
         '
         'TROQUELADO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1349, 708)
+        Me.Controls.Add(Me.txtNroPresup1)
         Me.Name = "TROQUELADO"
         Me.Text = "OT TROQUELADO"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
+
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents txtNroPresup1 As TextBox
 End Class

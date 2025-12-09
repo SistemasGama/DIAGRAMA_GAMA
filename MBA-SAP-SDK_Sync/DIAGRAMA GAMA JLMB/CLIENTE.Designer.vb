@@ -480,6 +480,8 @@ Partial Class CLIENTE
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label22 = New System.Windows.Forms.Label()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
         Me.TabPage3.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel49.SuspendLayout()
@@ -6137,6 +6139,7 @@ Partial Class CLIENTE
         '
         Me.Panel4.BackColor = System.Drawing.Color.Green
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel4.Controls.Add(Me.txtNroPresup1)
         Me.Panel4.Controls.Add(Me.Label22)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
@@ -6154,6 +6157,14 @@ Partial Class CLIENTE
         Me.Label22.Size = New System.Drawing.Size(136, 33)
         Me.Label22.TabIndex = 6
         Me.Label22.Text = "CLIENTE"
+        '
+        'txtNroPresup1
+        '
+        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
+        Me.txtNroPresup1.Location = New System.Drawing.Point(11, 6)
+        Me.txtNroPresup1.Name = "txtNroPresup1"
+        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 26)
+        Me.txtNroPresup1.TabIndex = 204
         '
         'CLIENTE
         '
@@ -6722,4 +6733,6 @@ Partial Class CLIENTE
     Friend WithEvents TextBox100 As TextBox
     Friend WithEvents TextBox99 As TextBox
     Friend WithEvents Label143 As Label
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents txtNroPresup1 As TextBox
 End Class

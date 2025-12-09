@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class OT21
+Partial Class OT211
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,9 +22,32 @@ Partial Class OT21
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
+        Me.SuspendLayout()
+        '
+        'txtNroPresup1
+        '
+        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
+        Me.txtNroPresup1.Location = New System.Drawing.Point(12, 12)
+        Me.txtNroPresup1.Name = "txtNroPresup1"
+        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 26)
+        Me.txtNroPresup1.TabIndex = 204
+        '
+        'OT211
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.txtNroPresup1)
+        Me.Name = "OT211"
         Me.Text = "OT21"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
+
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents txtNroPresup1 As TextBox
 End Class

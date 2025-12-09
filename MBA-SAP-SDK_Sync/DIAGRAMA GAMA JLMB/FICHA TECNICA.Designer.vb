@@ -120,6 +120,8 @@ Partial Class FICHA_TECNICA
         Me.Button51 = New System.Windows.Forms.Button()
         Me.Label223 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
         Me.TabPage8.SuspendLayout()
         Me.Panel49.SuspendLayout()
         Me.Panel50.SuspendLayout()
@@ -463,6 +465,7 @@ Partial Class FICHA_TECNICA
         Me.Panel2.AllowDrop = True
         Me.Panel2.AutoScroll = True
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel2.Controls.Add(Me.txtNroPresup1)
         Me.Panel2.Controls.Add(Me.TabControl1)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1400,6 +1403,14 @@ Partial Class FICHA_TECNICA
         Me.Panel1.Size = New System.Drawing.Size(1371, 651)
         Me.Panel1.TabIndex = 1
         '
+        'txtNroPresup1
+        '
+        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
+        Me.txtNroPresup1.Location = New System.Drawing.Point(10, 10)
+        Me.txtNroPresup1.Name = "txtNroPresup1"
+        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 40)
+        Me.txtNroPresup1.TabIndex = 204
+        '
         'FICHA_TECNICA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -1424,6 +1435,7 @@ Partial Class FICHA_TECNICA
         Me.Panel92.PerformLayout()
         Me.TabPage4.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.Panel57.ResumeLayout(False)
@@ -1572,4 +1584,6 @@ Partial Class FICHA_TECNICA
     Friend WithEvents Label215 As Label
     Friend WithEvents Button51 As Button
     Friend WithEvents Label223 As Label
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents txtNroPresup1 As TextBox
 End Class

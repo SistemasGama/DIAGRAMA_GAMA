@@ -120,6 +120,14 @@
   <metadata name="Panel6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="TextBox243.Text" xml:space="preserve">
+    <value> DESCRPCION LITOPLAN
+NOMBRE DEL TRABAJO: ESTUCHES ERGO DOLANET X 20 COMP 
+1.000 Caja comprimido
+a tipo Manual 4x2x4 impresa por una cara 4x0 colores sobre papel Manual: (Ancho: 4,0 / Alto: 2,0 / Fondo: 4,0 / Meidanil Sup: 0,0 / Medianil lat: 0,0 /
+Pegue: 1,0 / Aleta cajon: 1 / Aleta Cruz 1,5)
+ Bond 60 terminado 1 cara barniz A. Brillo+UV </value>
+  </data>
   <metadata name="Panel9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -129,15 +137,10 @@
   <metadata name="Panel13.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="TextBox243.Text" xml:space="preserve">
-    <value> DESCRPCION LITOPLAN
-NOMBRE DEL TRABAJO: ESTUCHES ERGO DOLANET X 20 COMP 
-1.000 Caja comprimido
-a tipo Manual 4x2x4 impresa por una cara 4x0 colores sobre papel Manual: (Ancho: 4,0 / Alto: 2,0 / Fondo: 4,0 / Meidanil Sup: 0,0 / Medianil lat: 0,0 /
-Pegue: 1,0 / Aleta cajon: 1 / Aleta Cruz 1,5)
- Bond 60 terminado 1 cara barniz A. Brillo+UV </value>
-  </data>
   <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>476, 17</value>
   </metadata>
 </root>

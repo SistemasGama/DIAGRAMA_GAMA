@@ -164,22 +164,22 @@
     <Compile Include="DIAGRAMA GAMA JLMB\CLIENTE.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT13.Designer.vb">
-      <DependentUpon>OT13.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\CALENVARIOS.Designer.vb">
+      <DependentUpon>CALENVARIOS.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT13.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\CALENVARIOS.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT14.Designer.vb">
-      <DependentUpon>OT14.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\CALENMANTEN.Designer.vb">
+      <DependentUpon>CALENMANTEN.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT14.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\CALENMANTEN.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT15.Designer.vb">
-      <DependentUpon>OT15.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\0T155.Designer.vb">
+      <DependentUpon>0T155.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT15.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\0T155.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\OT16.Designer.vb">
@@ -206,16 +206,10 @@
     <Compile Include="DIAGRAMA GAMA JLMB\OT19.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT20.Designer.vb">
-      <DependentUpon>OT20.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT211.Designer.vb">
+      <DependentUpon>OT211.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT20.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT21.Designer.vb">
-      <DependentUpon>OT21.vb</DependentUpon>
-    </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT21.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\OT211.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\TINTA.Designer.vb">
@@ -282,17 +276,14 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\CLIENTE.resx">
       <DependentUpon>CLIENTE.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT13.resx">
-      <DependentUpon>OT13.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\CALENVARIOS.resx">
+      <DependentUpon>CALENVARIOS.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT14.resx">
-      <DependentUpon>OT14.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\CALENMANTEN.resx">
+      <DependentUpon>CALENMANTEN.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT15.resx">
-      <DependentUpon>OT15.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT20.resx">
-      <DependentUpon>OT20.vb</DependentUpon>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\0T155.resx">
+      <DependentUpon>0T155.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\TINTA.resx">
       <DependentUpon>TINTA.vb</DependentUpon>

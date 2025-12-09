@@ -144,12 +144,14 @@ Partial Class MP
         Me.Label195 = New System.Windows.Forms.Label()
         Me.ComboBox26 = New System.Windows.Forms.ComboBox()
         Me.ComboBox12 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox221 = New System.Windows.Forms.ComboBox()
         Me.ComboBox27 = New System.Windows.Forms.ComboBox()
         Me.ComboBox17 = New System.Windows.Forms.ComboBox()
         Me.ComboBox25 = New System.Windows.Forms.ComboBox()
         Me.ComboBox24 = New System.Windows.Forms.ComboBox()
         Me.ComboBox16 = New System.Windows.Forms.ComboBox()
         Me.Label323 = New System.Windows.Forms.Label()
+        Me.Label395 = New System.Windows.Forms.Label()
         Me.Label73 = New System.Windows.Forms.Label()
         Me.Label64 = New System.Windows.Forms.Label()
         Me.ComboBox5 = New System.Windows.Forms.ComboBox()
@@ -160,6 +162,7 @@ Partial Class MP
         Me.ComboBox19 = New System.Windows.Forms.ComboBox()
         Me.ComboBox20 = New System.Windows.Forms.ComboBox()
         Me.ComboBox22 = New System.Windows.Forms.ComboBox()
+        Me.Label396 = New System.Windows.Forms.Label()
         Me.Label161 = New System.Windows.Forms.Label()
         Me.ComboBox23 = New System.Windows.Forms.ComboBox()
         Me.Button10 = New System.Windows.Forms.Button()
@@ -1299,9 +1302,8 @@ Partial Class MP
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Label395 = New System.Windows.Forms.Label()
-        Me.ComboBox221 = New System.Windows.Forms.ComboBox()
-        Me.Label396 = New System.Windows.Forms.Label()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
         Me.Panel2.SuspendLayout
         Me.Panel1.SuspendLayout
         Me.Panel3.SuspendLayout
@@ -2508,6 +2510,7 @@ Partial Class MP
         '
         Me.Panel10.BackColor = System.Drawing.Color.MediumTurquoise
         Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel10.Controls.Add(Me.txtNroPresup1)
         Me.Panel10.Controls.Add(Me.Label4)
         Me.Panel10.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel10.Location = New System.Drawing.Point(0, 0)
@@ -3000,6 +3003,21 @@ Partial Class MP
         Me.ComboBox12.Size = New System.Drawing.Size(343, 37)
         Me.ComboBox12.TabIndex = 167
         '
+        'ComboBox221
+        '
+        Me.ComboBox221.BackColor = System.Drawing.Color.White
+        Me.ComboBox221.DropDownWidth = 272
+        Me.ComboBox221.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox221.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox221.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox221.FormattingEnabled = True
+        Me.ComboBox221.Items.AddRange(New Object() {"Nombre del MP DEL PROVEEDOR"})
+        Me.ComboBox221.Location = New System.Drawing.Point(1357, 82)
+        Me.ComboBox221.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox221.Name = "ComboBox221"
+        Me.ComboBox221.Size = New System.Drawing.Size(444, 37)
+        Me.ComboBox221.TabIndex = 167
+        '
         'ComboBox27
         '
         Me.ComboBox27.BackColor = System.Drawing.Color.White
@@ -3085,6 +3103,17 @@ Partial Class MP
         Me.Label323.Size = New System.Drawing.Size(118, 29)
         Me.Label323.TabIndex = 21
         Me.Label323.Text = "Pallet N°:"
+        '
+        'Label395
+        '
+        Me.Label395.AutoSize = True
+        Me.Label395.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label395.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label395.Location = New System.Drawing.Point(1409, 49)
+        Me.Label395.Name = "Label395"
+        Me.Label395.Size = New System.Drawing.Size(317, 29)
+        Me.Label395.TabIndex = 21
+        Me.Label395.Text = "Nombre GAMA LITOPLAN:"
         '
         'Label73
         '
@@ -3219,6 +3248,17 @@ Partial Class MP
         Me.ComboBox22.Name = "ComboBox22"
         Me.ComboBox22.Size = New System.Drawing.Size(94, 37)
         Me.ComboBox22.TabIndex = 167
+        '
+        'Label396
+        '
+        Me.Label396.AutoSize = True
+        Me.Label396.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label396.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label396.Location = New System.Drawing.Point(566, 97)
+        Me.Label396.Name = "Label396"
+        Me.Label396.Size = New System.Drawing.Size(283, 29)
+        Me.Label396.TabIndex = 21
+        Me.Label396.Text = "Cod. Gama CORTO MP:"
         '
         'Label161
         '
@@ -18194,42 +18234,13 @@ Partial Class MP
         Me.Button17.Text = "0.000"
         Me.Button17.UseVisualStyleBackColor = True
         '
-        'Label395
+        'txtNroPresup1
         '
-        Me.Label395.AutoSize = True
-        Me.Label395.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label395.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label395.Location = New System.Drawing.Point(1409, 49)
-        Me.Label395.Name = "Label395"
-        Me.Label395.Size = New System.Drawing.Size(317, 29)
-        Me.Label395.TabIndex = 21
-        Me.Label395.Text = "Nombre GAMA LITOPLAN:"
-        '
-        'ComboBox221
-        '
-        Me.ComboBox221.BackColor = System.Drawing.Color.White
-        Me.ComboBox221.DropDownWidth = 272
-        Me.ComboBox221.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox221.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox221.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox221.FormattingEnabled = True
-        Me.ComboBox221.Items.AddRange(New Object() {"Nombre del MP DEL PROVEEDOR"})
-        Me.ComboBox221.Location = New System.Drawing.Point(1357, 82)
-        Me.ComboBox221.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox221.Name = "ComboBox221"
-        Me.ComboBox221.Size = New System.Drawing.Size(444, 37)
-        Me.ComboBox221.TabIndex = 167
-        '
-        'Label396
-        '
-        Me.Label396.AutoSize = True
-        Me.Label396.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label396.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label396.Location = New System.Drawing.Point(566, 97)
-        Me.Label396.Name = "Label396"
-        Me.Label396.Size = New System.Drawing.Size(283, 29)
-        Me.Label396.TabIndex = 21
-        Me.Label396.Text = "Cod. Gama CORTO MP:"
+        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
+        Me.txtNroPresup1.Location = New System.Drawing.Point(21, -4)
+        Me.txtNroPresup1.Name = "txtNroPresup1"
+        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 40)
+        Me.txtNroPresup1.TabIndex = 204
         '
         'MP
         '
@@ -19795,4 +19806,6 @@ Partial Class MP
     Friend WithEvents ComboBox221 As ComboBox
     Friend WithEvents Label395 As Label
     Friend WithEvents Label396 As Label
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents txtNroPresup1 As TextBox
 End Class

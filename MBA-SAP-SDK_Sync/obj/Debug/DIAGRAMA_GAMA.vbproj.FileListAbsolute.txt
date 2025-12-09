@@ -54,3 +54,27 @@ C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\D
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT14.resources
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT15.resources
 C:\Users\JoseMondolo\Documents\GitHub\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT20.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.vbproj.AssemblyReference.cache
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.vbproj.ResolveComReference.cache
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.Herramientas.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT_IMPRESION.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.PREPRENSA.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.TROQUELADO.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.INSUMO.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.MP.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.IMPRIMIR_CC.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.FICHA_TECNICA.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.CLIENTE.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.NombreNuevo.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT14.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT15.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.TINTA.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT6.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT7.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.Resources.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.vbproj.GenerateResource.cache
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.vbproj.CoreCompileInputs.cache
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.exe
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.xml
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.pdb

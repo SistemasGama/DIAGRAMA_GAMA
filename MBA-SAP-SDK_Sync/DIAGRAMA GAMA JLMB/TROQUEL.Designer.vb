@@ -102,6 +102,7 @@ Partial Class OT6
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.Button14 = New System.Windows.Forms.Button()
         Me.RadioButton29 = New System.Windows.Forms.RadioButton()
         Me.RadioButton30 = New System.Windows.Forms.RadioButton()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -136,6 +137,7 @@ Partial Class OT6
         Me.Label60 = New System.Windows.Forms.Label()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button18 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.RadioButton38 = New System.Windows.Forms.RadioButton()
         Me.RadioButton39 = New System.Windows.Forms.RadioButton()
@@ -286,6 +288,7 @@ Partial Class OT6
         Me.Label108 = New System.Windows.Forms.Label()
         Me.Label110 = New System.Windows.Forms.Label()
         Me.Label111 = New System.Windows.Forms.Label()
+        Me.Button13 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Label67 = New System.Windows.Forms.Label()
         Me.Label68 = New System.Windows.Forms.Label()
@@ -348,9 +351,8 @@ Partial Class OT6
         Me.Panel48 = New System.Windows.Forms.Panel()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel75.SuspendLayout()
@@ -1389,6 +1391,25 @@ Partial Class OT6
         Me.Panel15.Size = New System.Drawing.Size(670, 205)
         Me.Panel15.TabIndex = 207
         '
+        'Button14
+        '
+        Me.Button14.AutoSize = True
+        Me.Button14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button14.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.ForeColor = System.Drawing.Color.Black
+        Me.Button14.Location = New System.Drawing.Point(354, 43)
+        Me.Button14.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button14.Name = "Button14"
+        Me.Button14.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button14.Size = New System.Drawing.Size(149, 50)
+        Me.Button14.TabIndex = 470
+        Me.Button14.Text = "Salir"
+        Me.Button14.UseVisualStyleBackColor = False
+        '
         'RadioButton29
         '
         Me.RadioButton29.AutoSize = True
@@ -1764,6 +1785,7 @@ Partial Class OT6
         '
         Me.Panel32.BackColor = System.Drawing.Color.Green
         Me.Panel32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel32.Controls.Add(Me.txtNroPresup1)
         Me.Panel32.Controls.Add(Me.Label14)
         Me.Panel32.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel32.Location = New System.Drawing.Point(0, 0)
@@ -1860,6 +1882,25 @@ Partial Class OT6
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(1855, 854)
         Me.Panel4.TabIndex = 208
+        '
+        'Button18
+        '
+        Me.Button18.AutoSize = True
+        Me.Button18.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button18.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button18.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button18.ForeColor = System.Drawing.Color.Black
+        Me.Button18.Location = New System.Drawing.Point(960, 787)
+        Me.Button18.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button18.Name = "Button18"
+        Me.Button18.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button18.Size = New System.Drawing.Size(149, 50)
+        Me.Button18.TabIndex = 471
+        Me.Button18.Text = "Salir"
+        Me.Button18.UseVisualStyleBackColor = False
         '
         'Button3
         '
@@ -3753,6 +3794,25 @@ Partial Class OT6
         Me.Label111.TabIndex = 469
         Me.Label111.Text = "Pertinax:"
         '
+        'Button13
+        '
+        Me.Button13.AutoSize = True
+        Me.Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button13.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.ForeColor = System.Drawing.Color.Black
+        Me.Button13.Location = New System.Drawing.Point(461, 734)
+        Me.Button13.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button13.Name = "Button13"
+        Me.Button13.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button13.Size = New System.Drawing.Size(149, 50)
+        Me.Button13.TabIndex = 445
+        Me.Button13.Text = "Salir"
+        Me.Button13.UseVisualStyleBackColor = False
+        '
         'Button12
         '
         Me.Button12.AutoSize = True
@@ -4416,62 +4476,13 @@ Partial Class OT6
         Me.Label22.TabIndex = 6
         Me.Label22.Text = "TROQUEL"
         '
-        'Button13
+        'txtNroPresup1
         '
-        Me.Button13.AutoSize = True
-        Me.Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button13.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.ForeColor = System.Drawing.Color.Black
-        Me.Button13.Location = New System.Drawing.Point(461, 734)
-        Me.Button13.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button13.Name = "Button13"
-        Me.Button13.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button13.Size = New System.Drawing.Size(149, 50)
-        Me.Button13.TabIndex = 445
-        Me.Button13.Text = "Salir"
-        Me.Button13.UseVisualStyleBackColor = False
-        '
-        'Button14
-        '
-        Me.Button14.AutoSize = True
-        Me.Button14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button14.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.ForeColor = System.Drawing.Color.Black
-        Me.Button14.Location = New System.Drawing.Point(354, 43)
-        Me.Button14.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button14.Name = "Button14"
-        Me.Button14.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button14.Size = New System.Drawing.Size(149, 50)
-        Me.Button14.TabIndex = 470
-        Me.Button14.Text = "Salir"
-        Me.Button14.UseVisualStyleBackColor = False
-        '
-        'Button18
-        '
-        Me.Button18.AutoSize = True
-        Me.Button18.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button18.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button18.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.ForeColor = System.Drawing.Color.Black
-        Me.Button18.Location = New System.Drawing.Point(960, 787)
-        Me.Button18.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button18.Name = "Button18"
-        Me.Button18.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button18.Size = New System.Drawing.Size(149, 50)
-        Me.Button18.TabIndex = 471
-        Me.Button18.Text = "Salir"
-        Me.Button18.UseVisualStyleBackColor = False
+        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
+        Me.txtNroPresup1.Location = New System.Drawing.Point(6, -8)
+        Me.txtNroPresup1.Name = "txtNroPresup1"
+        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 40)
+        Me.txtNroPresup1.TabIndex = 204
         '
         'OT6
         '
@@ -4877,4 +4888,6 @@ Partial Class OT6
     Friend WithEvents Button13 As Button
     Friend WithEvents Button14 As Button
     Friend WithEvents Button18 As Button
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents txtNroPresup1 As TextBox
 End Class
