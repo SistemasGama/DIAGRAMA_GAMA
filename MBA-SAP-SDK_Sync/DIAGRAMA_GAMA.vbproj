@@ -285,6 +285,21 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\0T155.resx">
       <DependentUpon>0T155.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT16.resx">
+      <DependentUpon>OT16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT17.resx">
+      <DependentUpon>OT17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT18.resx">
+      <DependentUpon>OT18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT19.resx">
+      <DependentUpon>OT19.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT211.resx">
+      <DependentUpon>OT211.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\TINTA.resx">
       <DependentUpon>TINTA.vb</DependentUpon>
     </EmbeddedResource>
