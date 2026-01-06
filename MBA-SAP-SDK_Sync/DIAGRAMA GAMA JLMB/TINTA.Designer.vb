@@ -630,7 +630,9 @@ Partial Class TINTA
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
+        Me.Panel50 = New System.Windows.Forms.Panel()
+        Me.TextBox94 = New System.Windows.Forms.TextBox()
+        Me.Label178 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout
         Me.Panel75.SuspendLayout
         Me.Panel1.SuspendLayout
@@ -696,6 +698,7 @@ Partial Class TINTA
         Me.Panel49.SuspendLayout
         Me.Panel18.SuspendLayout
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel50.SuspendLayout
         Me.SuspendLayout
         '
         'Panel2
@@ -723,6 +726,7 @@ Partial Class TINTA
         Me.Panel1.AutoScroll = True
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel1.Controls.Add(Me.Panel50)
         Me.Panel1.Controls.Add(Me.TabControl1)
         Me.Panel1.Controls.Add(Me.Button15)
         Me.Panel1.Controls.Add(Me.Button16)
@@ -742,7 +746,7 @@ Partial Class TINTA
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage5)
         Me.TabControl1.HotTrack = True
-        Me.TabControl1.Location = New System.Drawing.Point(11, 11)
+        Me.TabControl1.Location = New System.Drawing.Point(11, 53)
         Me.TabControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -1884,7 +1888,7 @@ Partial Class TINTA
         Me.Label90.AutoSize = True
         Me.Label90.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label90.ForeColor = System.Drawing.Color.White
-        Me.Label90.Location = New System.Drawing.Point(523, 4)
+        Me.Label90.Location = New System.Drawing.Point(797, 6)
         Me.Label90.Name = "Label90"
         Me.Label90.Size = New System.Drawing.Size(192, 33)
         Me.Label90.TabIndex = 6
@@ -2450,7 +2454,6 @@ Partial Class TINTA
         '
         Me.Panel36.BackColor = System.Drawing.Color.Green
         Me.Panel36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel36.Controls.Add(Me.txtNroPresup1)
         Me.Panel36.Controls.Add(Me.Label125)
         Me.Panel36.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel36.Location = New System.Drawing.Point(0, 0)
@@ -2463,7 +2466,7 @@ Partial Class TINTA
         Me.Label125.AutoSize = True
         Me.Label125.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label125.ForeColor = System.Drawing.Color.White
-        Me.Label125.Location = New System.Drawing.Point(837, 8)
+        Me.Label125.Location = New System.Drawing.Point(816, 8)
         Me.Label125.Name = "Label125"
         Me.Label125.Size = New System.Drawing.Size(231, 33)
         Me.Label125.TabIndex = 6
@@ -8736,13 +8739,36 @@ Partial Class TINTA
         Me.Label1.Size = New System.Drawing.Size(157, 33)
         Me.Label1.TabIndex = 6
         '
-        'txtNroPresup1
+        'Panel50
         '
-        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
-        Me.txtNroPresup1.Location = New System.Drawing.Point(11, 1)
-        Me.txtNroPresup1.Name = "txtNroPresup1"
-        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 40)
-        Me.txtNroPresup1.TabIndex = 204
+        Me.Panel50.BackColor = System.Drawing.Color.Green
+        Me.Panel50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel50.Controls.Add(Me.TextBox94)
+        Me.Panel50.Controls.Add(Me.Label178)
+        Me.Panel50.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel50.Location = New System.Drawing.Point(0, 0)
+        Me.Panel50.Name = "Panel50"
+        Me.Panel50.Size = New System.Drawing.Size(1907, 43)
+        Me.Panel50.TabIndex = 25
+        '
+        'TextBox94
+        '
+        Me.TextBox94.BackColor = System.Drawing.Color.Lime
+        Me.TextBox94.Location = New System.Drawing.Point(13, -2)
+        Me.TextBox94.Name = "TextBox94"
+        Me.TextBox94.Size = New System.Drawing.Size(25, 40)
+        Me.TextBox94.TabIndex = 204
+        '
+        'Label178
+        '
+        Me.Label178.AutoSize = True
+        Me.Label178.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label178.ForeColor = System.Drawing.Color.White
+        Me.Label178.Location = New System.Drawing.Point(889, 8)
+        Me.Label178.Name = "Label178"
+        Me.Label178.Size = New System.Drawing.Size(96, 33)
+        Me.Label178.TabIndex = 6
+        Me.Label178.Text = "TINTA"
         '
         'TINTA
         '
@@ -8866,6 +8892,8 @@ Partial Class TINTA
         Me.Panel18.ResumeLayout(False)
         Me.Panel18.PerformLayout
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel50.ResumeLayout(False)
+        Me.Panel50.PerformLayout
         Me.ResumeLayout(False)
 
     End Sub
@@ -9477,5 +9505,7 @@ Partial Class TINTA
     Friend WithEvents TextBox93 As TextBox
     Friend WithEvents Label177 As Label
     Friend WithEvents ToolTip1 As ToolTip
-    Friend WithEvents txtNroPresup1 As TextBox
+    Friend WithEvents Panel50 As Panel
+    Friend WithEvents TextBox94 As TextBox
+    Friend WithEvents Label178 As Label
 End Class

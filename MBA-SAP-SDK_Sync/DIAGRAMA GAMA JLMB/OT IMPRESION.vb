@@ -7,6 +7,11 @@
         Mensajes()
     End Sub
 
+    Private Sub Panel111_Paint(sender As Object, e As PaintEventArgs) Handles Panel111.Paint
 
+    End Sub
 
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView2.CellContentClick
+
+    End Sub
 End Class

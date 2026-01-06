@@ -479,9 +479,13 @@ Partial Class CLIENTE
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
+        Me.Label146 = New System.Windows.Forms.Label()
+        Me.Label147 = New System.Windows.Forms.Label()
+        Me.Label148 = New System.Windows.Forms.Label()
+        Me.Label174 = New System.Windows.Forms.Label()
         Me.TabPage3.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Panel49.SuspendLayout()
@@ -555,6 +559,7 @@ Partial Class CLIENTE
         '
         Me.Panel3.BackColor = System.Drawing.Color.PaleTurquoise
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel3.Controls.Add(Me.Label174)
         Me.Panel3.Controls.Add(Me.Label101)
         Me.Panel3.Controls.Add(Me.Label171)
         Me.Panel3.Controls.Add(Me.Label168)
@@ -602,6 +607,9 @@ Partial Class CLIENTE
         Me.Panel3.Controls.Add(Me.ComboBox10)
         Me.Panel3.Controls.Add(Me.ComboBox9)
         Me.Panel3.Controls.Add(Me.ComboBox1)
+        Me.Panel3.Controls.Add(Me.Label148)
+        Me.Panel3.Controls.Add(Me.Label147)
+        Me.Panel3.Controls.Add(Me.Label146)
         Me.Panel3.Controls.Add(Me.Label67)
         Me.Panel3.Controls.Add(Me.Label50)
         Me.Panel3.Controls.Add(Me.Label58)
@@ -6147,6 +6155,14 @@ Partial Class CLIENTE
         Me.Panel4.Size = New System.Drawing.Size(1340, 43)
         Me.Panel4.TabIndex = 13
         '
+        'txtNroPresup1
+        '
+        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
+        Me.txtNroPresup1.Location = New System.Drawing.Point(11, 6)
+        Me.txtNroPresup1.Name = "txtNroPresup1"
+        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 26)
+        Me.txtNroPresup1.TabIndex = 204
+        '
         'Label22
         '
         Me.Label22.AutoSize = True
@@ -6158,13 +6174,45 @@ Partial Class CLIENTE
         Me.Label22.TabIndex = 6
         Me.Label22.Text = "CLIENTE"
         '
-        'txtNroPresup1
+        'Label146
         '
-        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
-        Me.txtNroPresup1.Location = New System.Drawing.Point(11, 6)
-        Me.txtNroPresup1.Name = "txtNroPresup1"
-        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 26)
-        Me.txtNroPresup1.TabIndex = 204
+        Me.Label146.AutoSize = True
+        Me.Label146.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label146.Location = New System.Drawing.Point(20, 443)
+        Me.Label146.Name = "Label146"
+        Me.Label146.Size = New System.Drawing.Size(338, 29)
+        Me.Label146.TabIndex = 175
+        Me.Label146.Text = "Enviar certificado calidad a::"
+        '
+        'Label147
+        '
+        Me.Label147.AutoSize = True
+        Me.Label147.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label147.Location = New System.Drawing.Point(365, 443)
+        Me.Label147.Name = "Label147"
+        Me.Label147.Size = New System.Drawing.Size(431, 29)
+        Me.Label147.TabIndex = 175
+        Me.Label147.Text = "DEVOLUCION CLIENTE CAL-REG-05"
+        '
+        'Label148
+        '
+        Me.Label148.AutoSize = True
+        Me.Label148.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label148.Location = New System.Drawing.Point(81, 185)
+        Me.Label148.Name = "Label148"
+        Me.Label148.Size = New System.Drawing.Size(262, 29)
+        Me.Label148.TabIndex = 175
+        Me.Label148.Text = "Presupuesto enviar a "
+        '
+        'Label174
+        '
+        Me.Label174.AutoSize = True
+        Me.Label174.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label174.Location = New System.Drawing.Point(349, 188)
+        Me.Label174.Name = "Label174"
+        Me.Label174.Size = New System.Drawing.Size(243, 29)
+        Me.Label174.TabIndex = 254
+        Me.Label174.Text = "Facturación Cliente:"
         '
         'CLIENTE
         '
@@ -6735,4 +6783,8 @@ Partial Class CLIENTE
     Friend WithEvents Label143 As Label
     Friend WithEvents ToolTip1 As ToolTip
     Friend WithEvents txtNroPresup1 As TextBox
+    Friend WithEvents Label147 As Label
+    Friend WithEvents Label146 As Label
+    Friend WithEvents Label148 As Label
+    Friend WithEvents Label174 As Label
 End Class
