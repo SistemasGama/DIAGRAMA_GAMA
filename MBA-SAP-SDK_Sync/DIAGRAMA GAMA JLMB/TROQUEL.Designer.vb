@@ -23,21 +23,21 @@ Partial Class OT6
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OT6))
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel75 = New System.Windows.Forms.Panel()
@@ -65,11 +65,6 @@ Partial Class OT6
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Button47 = New System.Windows.Forms.Button()
-        Me.Panel18 = New System.Windows.Forms.Panel()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label41 = New System.Windows.Forms.Label()
-        Me.Label42 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.DateTimePicker8 = New System.Windows.Forms.DateTimePicker()
         Me.Panel33 = New System.Windows.Forms.Panel()
@@ -189,11 +184,6 @@ Partial Class OT6
         Me.CheckBox6 = New System.Windows.Forms.CheckBox()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.Button22 = New System.Windows.Forms.Button()
-        Me.Panel29 = New System.Windows.Forms.Panel()
-        Me.Label52 = New System.Windows.Forms.Label()
-        Me.Label136 = New System.Windows.Forms.Label()
-        Me.Label137 = New System.Windows.Forms.Label()
-        Me.Label138 = New System.Windows.Forms.Label()
         Me.TextBox96 = New System.Windows.Forms.TextBox()
         Me.Label163 = New System.Windows.Forms.Label()
         Me.TextBox95 = New System.Windows.Forms.TextBox()
@@ -361,23 +351,6 @@ Partial Class OT6
         Me.CheckBox33 = New System.Windows.Forms.CheckBox()
         Me.TextBox38 = New System.Windows.Forms.TextBox()
         Me.DataGridView3 = New System.Windows.Forms.DataGridView()
-        Me.IngresComer = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn21 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TroquelN = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.AnchoCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.AltoCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ProfundidaCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MontajeMedidaA = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MontajeMedidaB = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Golpetroquelado = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.EstanteTroquel = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TroquelActivo = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.CambioFleje = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.TroqPertinax = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.TroqRelieve = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.TroqStamp = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.TroqDescart = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.Label71 = New System.Windows.Forms.Label()
         Me.DateTimePicker16 = New System.Windows.Forms.DateTimePicker()
         Me.Label72 = New System.Windows.Forms.Label()
@@ -452,6 +425,25 @@ Partial Class OT6
         Me.Label22 = New System.Windows.Forms.Label()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.IngresComer = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn21 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TroquelN = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AnchoCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AltoCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProfundidaCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MontajeMedidaA = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MontajeMedidaB = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Golpetroquelado = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.EstanteTroquel = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TroquelActivo = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.CambioFleje = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.TroqPertinax = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.TroqRelieve = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.TroqStamp = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.TroqDescart = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel75.SuspendLayout()
@@ -459,7 +451,6 @@ Partial Class OT6
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel4.SuspendLayout()
-        Me.Panel18.SuspendLayout()
         Me.Panel33.SuspendLayout()
         Me.Panel34.SuspendLayout()
         Me.Panel26.SuspendLayout()
@@ -476,7 +467,6 @@ Partial Class OT6
         Me.TabPage2.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel27.SuspendLayout()
-        Me.Panel29.SuspendLayout()
         Me.Panel28.SuspendLayout()
         Me.Panel119.SuspendLayout()
         Me.Panel35.SuspendLayout()
@@ -496,6 +486,8 @@ Partial Class OT6
         Me.Panel43.SuspendLayout()
         Me.Panel48.SuspendLayout()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel2
@@ -561,10 +553,10 @@ Partial Class OT6
         'TabPage1
         '
         Me.TabPage1.Controls.Add(Me.Panel4)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 33)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(1888, 2146)
+        Me.TabPage1.Size = New System.Drawing.Size(1888, 2155)
         Me.TabPage1.TabIndex = 3
         Me.TabPage1.Text = "DESARROLLO /"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -573,6 +565,7 @@ Partial Class OT6
         '
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel4.Controls.Add(Me.PictureBox1)
         Me.Panel4.Controls.Add(Me.Button18)
         Me.Panel4.Controls.Add(Me.Button8)
         Me.Panel4.Controls.Add(Me.CheckBox14)
@@ -593,7 +586,6 @@ Partial Class OT6
         Me.Panel4.Controls.Add(Me.TextBox2)
         Me.Panel4.Controls.Add(Me.Label8)
         Me.Panel4.Controls.Add(Me.Button47)
-        Me.Panel4.Controls.Add(Me.Panel18)
         Me.Panel4.Controls.Add(Me.Label36)
         Me.Panel4.Controls.Add(Me.DateTimePicker8)
         Me.Panel4.Controls.Add(Me.Panel33)
@@ -736,7 +728,7 @@ Partial Class OT6
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(1739, 119)
+        Me.TextBox4.Location = New System.Drawing.Point(1742, 173)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(82, 35)
         Me.TextBox4.TabIndex = 530
@@ -746,7 +738,7 @@ Partial Class OT6
         'TextBox143
         '
         Me.TextBox143.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox143.Location = New System.Drawing.Point(1490, 119)
+        Me.TextBox143.Location = New System.Drawing.Point(1493, 173)
         Me.TextBox143.Name = "TextBox143"
         Me.TextBox143.Size = New System.Drawing.Size(82, 35)
         Me.TextBox143.TabIndex = 530
@@ -757,7 +749,7 @@ Partial Class OT6
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(1582, 122)
+        Me.Label2.Location = New System.Drawing.Point(1585, 176)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(155, 29)
         Me.Label2.TabIndex = 531
@@ -767,7 +759,7 @@ Partial Class OT6
         '
         Me.Label113.AutoSize = True
         Me.Label113.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label113.Location = New System.Drawing.Point(1337, 122)
+        Me.Label113.Location = New System.Drawing.Point(1340, 176)
         Me.Label113.Name = "Label113"
         Me.Label113.Size = New System.Drawing.Size(142, 29)
         Me.Label113.TabIndex = 531
@@ -818,7 +810,7 @@ Partial Class OT6
         Me.RadioButton207.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton207.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton207.ForeColor = System.Drawing.Color.Red
-        Me.RadioButton207.Location = New System.Drawing.Point(1671, 162)
+        Me.RadioButton207.Location = New System.Drawing.Point(1674, 216)
         Me.RadioButton207.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton207.Name = "RadioButton207"
         Me.RadioButton207.Size = New System.Drawing.Size(61, 33)
@@ -832,7 +824,7 @@ Partial Class OT6
         Me.RadioButton208.AutoSize = True
         Me.RadioButton208.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton208.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton208.Location = New System.Drawing.Point(1598, 162)
+        Me.RadioButton208.Location = New System.Drawing.Point(1601, 216)
         Me.RadioButton208.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton208.Name = "RadioButton208"
         Me.RadioButton208.Size = New System.Drawing.Size(70, 33)
@@ -847,7 +839,7 @@ Partial Class OT6
         Me.Label554.BackColor = System.Drawing.Color.Transparent
         Me.Label554.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label554.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label554.Location = New System.Drawing.Point(1337, 163)
+        Me.Label554.Location = New System.Drawing.Point(1340, 217)
         Me.Label554.Name = "Label554"
         Me.Label554.Size = New System.Drawing.Size(257, 29)
         Me.Label554.TabIndex = 551
@@ -891,64 +883,6 @@ Partial Class OT6
         Me.Button47.TabIndex = 470
         Me.Button47.Text = "BU"
         Me.Button47.UseVisualStyleBackColor = False
-        '
-        'Panel18
-        '
-        Me.Panel18.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Panel18.BackgroundImage = CType(resources.GetObject("Panel18.BackgroundImage"), System.Drawing.Image)
-        Me.Panel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel18.Controls.Add(Me.Label31)
-        Me.Panel18.Controls.Add(Me.Label32)
-        Me.Panel18.Controls.Add(Me.Label41)
-        Me.Panel18.Controls.Add(Me.Label42)
-        Me.Panel18.Location = New System.Drawing.Point(1337, 205)
-        Me.Panel18.Name = "Panel18"
-        Me.Panel18.Size = New System.Drawing.Size(496, 625)
-        Me.Panel18.TabIndex = 435
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.Color.Transparent
-        Me.Label31.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(1750, 53)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(51, 24)
-        Me.Label31.TabIndex = 168
-        Me.Label31.Text = "RNE"
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.BackColor = System.Drawing.Color.Transparent
-        Me.Label32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.Location = New System.Drawing.Point(1649, 53)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(70, 24)
-        Me.Label32.TabIndex = 168
-        Me.Label32.Text = "ISEGA"
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.BackColor = System.Drawing.Color.Transparent
-        Me.Label41.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(1513, 53)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(105, 24)
-        Me.Label41.TabIndex = 168
-        Me.Label41.Text = "ISO 22000"
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.BackColor = System.Drawing.Color.Transparent
-        Me.Label42.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(1433, 53)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(49, 24)
-        Me.Label42.TabIndex = 168
-        Me.Label42.Text = "FSC"
         '
         'Label36
         '
@@ -2194,10 +2128,10 @@ Partial Class OT6
         Me.TabPage2.Controls.Add(Me.Panel19)
         Me.TabPage2.Controls.Add(Me.Label64)
         Me.TabPage2.Controls.Add(Me.Label122)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 33)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1888, 2146)
+        Me.TabPage2.Size = New System.Drawing.Size(1888, 2155)
         Me.TabPage2.TabIndex = 4
         Me.TabPage2.Text = "TROQUEL /"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -2242,6 +2176,7 @@ Partial Class OT6
         '
         Me.Panel27.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel27.Controls.Add(Me.PictureBox2)
         Me.Panel27.Controls.Add(Me.Button14)
         Me.Panel27.Controls.Add(Me.Label94)
         Me.Panel27.Controls.Add(Me.Label82)
@@ -2252,7 +2187,6 @@ Partial Class OT6
         Me.Panel27.Controls.Add(Me.CheckBox6)
         Me.Panel27.Controls.Add(Me.CheckBox4)
         Me.Panel27.Controls.Add(Me.Button22)
-        Me.Panel27.Controls.Add(Me.Panel29)
         Me.Panel27.Controls.Add(Me.TextBox96)
         Me.Panel27.Controls.Add(Me.Label163)
         Me.Panel27.Controls.Add(Me.TextBox95)
@@ -2402,11 +2336,11 @@ Partial Class OT6
         '
         Me.CheckBox5.AutoSize = True
         Me.CheckBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.CheckBox5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox5.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox5.Location = New System.Drawing.Point(791, 291)
         Me.CheckBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(180, 28)
+        Me.CheckBox5.Size = New System.Drawing.Size(169, 25)
         Me.CheckBox5.TabIndex = 598
         Me.CheckBox5.Text = "Medida Divid. 2"
         Me.CheckBox5.UseVisualStyleBackColor = False
@@ -2415,11 +2349,11 @@ Partial Class OT6
         '
         Me.CheckBox8.AutoSize = True
         Me.CheckBox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.CheckBox8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox8.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox8.Location = New System.Drawing.Point(791, 385)
         Me.CheckBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(143, 28)
+        Me.CheckBox8.Size = New System.Drawing.Size(135, 25)
         Me.CheckBox8.TabIndex = 599
         Me.CheckBox8.Text = "Rectangulo"
         Me.CheckBox8.UseVisualStyleBackColor = False
@@ -2428,11 +2362,11 @@ Partial Class OT6
         '
         Me.CheckBox6.AutoSize = True
         Me.CheckBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.CheckBox6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox6.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox6.Location = New System.Drawing.Point(791, 355)
         Me.CheckBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(148, 28)
+        Me.CheckBox6.Size = New System.Drawing.Size(139, 25)
         Me.CheckBox6.TabIndex = 599
         Me.CheckBox6.Text = "Corte Unico"
         Me.CheckBox6.UseVisualStyleBackColor = False
@@ -2441,11 +2375,11 @@ Partial Class OT6
         '
         Me.CheckBox4.AutoSize = True
         Me.CheckBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.CheckBox4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox4.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox4.Location = New System.Drawing.Point(791, 322)
         Me.CheckBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(144, 28)
+        Me.CheckBox4.Size = New System.Drawing.Size(135, 25)
         Me.CheckBox4.TabIndex = 599
         Me.CheckBox4.Text = "Encastre Si"
         Me.CheckBox4.UseVisualStyleBackColor = False
@@ -2467,64 +2401,6 @@ Partial Class OT6
         Me.Button22.Size = New System.Drawing.Size(199, 142)
         Me.Button22.TabIndex = 591
         Me.Button22.UseVisualStyleBackColor = False
-        '
-        'Panel29
-        '
-        Me.Panel29.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Panel29.BackgroundImage = CType(resources.GetObject("Panel29.BackgroundImage"), System.Drawing.Image)
-        Me.Panel29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel29.Controls.Add(Me.Label52)
-        Me.Panel29.Controls.Add(Me.Label136)
-        Me.Panel29.Controls.Add(Me.Label137)
-        Me.Panel29.Controls.Add(Me.Label138)
-        Me.Panel29.Location = New System.Drawing.Point(5, 229)
-        Me.Panel29.Name = "Panel29"
-        Me.Panel29.Size = New System.Drawing.Size(377, 564)
-        Me.Panel29.TabIndex = 545
-        '
-        'Label52
-        '
-        Me.Label52.AutoSize = True
-        Me.Label52.BackColor = System.Drawing.Color.Transparent
-        Me.Label52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(1750, 53)
-        Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(51, 24)
-        Me.Label52.TabIndex = 168
-        Me.Label52.Text = "RNE"
-        '
-        'Label136
-        '
-        Me.Label136.AutoSize = True
-        Me.Label136.BackColor = System.Drawing.Color.Transparent
-        Me.Label136.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label136.Location = New System.Drawing.Point(1649, 53)
-        Me.Label136.Name = "Label136"
-        Me.Label136.Size = New System.Drawing.Size(70, 24)
-        Me.Label136.TabIndex = 168
-        Me.Label136.Text = "ISEGA"
-        '
-        'Label137
-        '
-        Me.Label137.AutoSize = True
-        Me.Label137.BackColor = System.Drawing.Color.Transparent
-        Me.Label137.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label137.Location = New System.Drawing.Point(1513, 53)
-        Me.Label137.Name = "Label137"
-        Me.Label137.Size = New System.Drawing.Size(105, 24)
-        Me.Label137.TabIndex = 168
-        Me.Label137.Text = "ISO 22000"
-        '
-        'Label138
-        '
-        Me.Label138.AutoSize = True
-        Me.Label138.BackColor = System.Drawing.Color.Transparent
-        Me.Label138.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label138.Location = New System.Drawing.Point(1433, 53)
-        Me.Label138.Name = "Label138"
-        Me.Label138.Size = New System.Drawing.Size(49, 24)
-        Me.Label138.TabIndex = 168
-        Me.Label138.Text = "FSC"
         '
         'TextBox96
         '
@@ -4618,262 +4494,39 @@ Partial Class OT6
         '
         'DataGridView3
         '
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.Format = "N0"
-        DataGridViewCellStyle15.NullValue = Nothing
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.Format = "N0"
+        DataGridViewCellStyle1.NullValue = Nothing
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IngresComer, Me.DataGridViewTextBoxColumn21, Me.DataGridViewTextBoxColumn20, Me.TroquelN, Me.AnchoCajaCerrada, Me.AltoCajaCerrada, Me.ProfundidaCajaCerrada, Me.MontajeMedidaA, Me.MontajeMedidaB, Me.Golpetroquelado, Me.EstanteTroquel, Me.TroquelActivo, Me.CambioFleje, Me.TroqPertinax, Me.TroqRelieve, Me.TroqStamp, Me.TroqDescart})
         Me.DataGridView3.Location = New System.Drawing.Point(14, 443)
         Me.DataGridView3.Name = "DataGridView3"
-        DataGridViewCellStyle27.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle13.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle13
         Me.DataGridView3.RowHeadersWidth = 62
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle28
+        DataGridViewCellStyle14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle14
         Me.DataGridView3.RowTemplate.Height = 28
         Me.DataGridView3.Size = New System.Drawing.Size(1823, 382)
         Me.DataGridView3.TabIndex = 255
-        '
-        'IngresComer
-        '
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle17.Format = "g"
-        DataGridViewCellStyle17.NullValue = Nothing
-        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Blue
-        Me.IngresComer.DefaultCellStyle = DataGridViewCellStyle17
-        Me.IngresComer.DividerWidth = 5
-        Me.IngresComer.Frozen = True
-        Me.IngresComer.HeaderText = "Ingreso Comercial"
-        Me.IngresComer.MaxInputLength = 12
-        Me.IngresComer.MinimumWidth = 8
-        Me.IngresComer.Name = "IngresComer"
-        Me.IngresComer.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.IngresComer.ToolTipText = "Fecha que COMERCIAL cargo Ingreso"
-        Me.IngresComer.Width = 120
-        '
-        'DataGridViewTextBoxColumn21
-        '
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle18
-        Me.DataGridViewTextBoxColumn21.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn21.Frozen = True
-        Me.DataGridViewTextBoxColumn21.HeaderText = "Nombre Cliente"
-        Me.DataGridViewTextBoxColumn21.MaxInputLength = 500
-        Me.DataGridViewTextBoxColumn21.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn21.Name = "DataGridViewTextBoxColumn21"
-        Me.DataGridViewTextBoxColumn21.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn21.ToolTipText = "Razon social con la que se factura"
-        Me.DataGridViewTextBoxColumn21.Width = 250
-        '
-        'DataGridViewTextBoxColumn20
-        '
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle19.NullValue = Nothing
-        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn20.DefaultCellStyle = DataGridViewCellStyle19
-        Me.DataGridViewTextBoxColumn20.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn20.Frozen = True
-        Me.DataGridViewTextBoxColumn20.HeaderText = "Nombre Trabajo"
-        Me.DataGridViewTextBoxColumn20.MaxInputLength = 12
-        Me.DataGridViewTextBoxColumn20.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn20.Name = "DataGridViewTextBoxColumn20"
-        Me.DataGridViewTextBoxColumn20.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn20.ToolTipText = "El nombre trabajo."
-        Me.DataGridViewTextBoxColumn20.Width = 250
-        '
-        'TroquelN
-        '
-        Me.TroquelN.DividerWidth = 5
-        Me.TroquelN.Frozen = True
-        Me.TroquelN.HeaderText = "Troquel N°"
-        Me.TroquelN.MaxInputLength = 10
-        Me.TroquelN.MinimumWidth = 8
-        Me.TroquelN.Name = "TroquelN"
-        Me.TroquelN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.TroquelN.ToolTipText = "El Troquel N° es como se llama cada uno de los troqueles que se tiene, de forma c" &
-    "orrida."
-        Me.TroquelN.Width = 150
-        '
-        'AnchoCajaCerrada
-        '
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.AnchoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle20
-        Me.AnchoCajaCerrada.DividerWidth = 5
-        Me.AnchoCajaCerrada.Frozen = True
-        Me.AnchoCajaCerrada.HeaderText = "Ancho "
-        Me.AnchoCajaCerrada.MaxInputLength = 3
-        Me.AnchoCajaCerrada.MinimumWidth = 8
-        Me.AnchoCajaCerrada.Name = "AnchoCajaCerrada"
-        Me.AnchoCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.AnchoCajaCerrada.ToolTipText = "Medida ANCHO de la CAJA segun DIBUJO."
-        Me.AnchoCajaCerrada.Width = 80
-        '
-        'AltoCajaCerrada
-        '
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.AltoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle21
-        Me.AltoCajaCerrada.DividerWidth = 5
-        Me.AltoCajaCerrada.Frozen = True
-        Me.AltoCajaCerrada.HeaderText = "Alto "
-        Me.AltoCajaCerrada.MaxInputLength = 3
-        Me.AltoCajaCerrada.MinimumWidth = 8
-        Me.AltoCajaCerrada.Name = "AltoCajaCerrada"
-        Me.AltoCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.AltoCajaCerrada.ToolTipText = "Medida ALTO de la CAJA segun DIBUJO."
-        Me.AltoCajaCerrada.Width = 80
-        '
-        'ProfundidaCajaCerrada
-        '
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.ProfundidaCajaCerrada.DefaultCellStyle = DataGridViewCellStyle22
-        Me.ProfundidaCajaCerrada.DividerWidth = 5
-        Me.ProfundidaCajaCerrada.Frozen = True
-        Me.ProfundidaCajaCerrada.HeaderText = "Profun."
-        Me.ProfundidaCajaCerrada.MaxInputLength = 3
-        Me.ProfundidaCajaCerrada.MinimumWidth = 8
-        Me.ProfundidaCajaCerrada.Name = "ProfundidaCajaCerrada"
-        Me.ProfundidaCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.ProfundidaCajaCerrada.ToolTipText = "Medida PROFUNDIDA de la CAJA segun DIBUJO."
-        Me.ProfundidaCajaCerrada.Width = 80
-        '
-        'MontajeMedidaA
-        '
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
-        Me.MontajeMedidaA.DefaultCellStyle = DataGridViewCellStyle23
-        Me.MontajeMedidaA.DividerWidth = 5
-        Me.MontajeMedidaA.HeaderText = "MedidaA"
-        Me.MontajeMedidaA.MaxInputLength = 4
-        Me.MontajeMedidaA.MinimumWidth = 8
-        Me.MontajeMedidaA.Name = "MontajeMedidaA"
-        Me.MontajeMedidaA.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MontajeMedidaA.ToolTipText = "Medida Montaje A"
-        Me.MontajeMedidaA.Width = 150
-        '
-        'MontajeMedidaB
-        '
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.MontajeMedidaB.DefaultCellStyle = DataGridViewCellStyle24
-        Me.MontajeMedidaB.DividerWidth = 5
-        Me.MontajeMedidaB.HeaderText = "MedidaB"
-        Me.MontajeMedidaB.MaxInputLength = 4
-        Me.MontajeMedidaB.MinimumWidth = 8
-        Me.MontajeMedidaB.Name = "MontajeMedidaB"
-        Me.MontajeMedidaB.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MontajeMedidaB.ToolTipText = "Medida Montaje B"
-        Me.MontajeMedidaB.Width = 150
-        '
-        'Golpetroquelado
-        '
-        DataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Golpetroquelado.DefaultCellStyle = DataGridViewCellStyle25
-        Me.Golpetroquelado.DividerWidth = 5
-        Me.Golpetroquelado.HeaderText = "Golpe Tiene"
-        Me.Golpetroquelado.MaxInputLength = 6
-        Me.Golpetroquelado.MinimumWidth = 8
-        Me.Golpetroquelado.Name = "Golpetroquelado"
-        Me.Golpetroquelado.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Golpetroquelado.ToolTipText = "La cantidad de Golpe del troquel."
-        Me.Golpetroquelado.Width = 80
-        '
-        'EstanteTroquel
-        '
-        Me.EstanteTroquel.DividerWidth = 5
-        Me.EstanteTroquel.HeaderText = "Estante"
-        Me.EstanteTroquel.MaxInputLength = 4
-        Me.EstanteTroquel.MinimumWidth = 8
-        Me.EstanteTroquel.Name = "EstanteTroquel"
-        Me.EstanteTroquel.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.EstanteTroquel.ToolTipText = "Numero del estante que fue asignado el Troquel"
-        Me.EstanteTroquel.Width = 80
-        '
-        'TroquelActivo
-        '
-        Me.TroquelActivo.DividerWidth = 5
-        Me.TroquelActivo.HeaderText = "Activo"
-        Me.TroquelActivo.MinimumWidth = 8
-        Me.TroquelActivo.Name = "TroquelActivo"
-        Me.TroquelActivo.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.TroquelActivo.ToolTipText = "Indica Si el troquel esta ACTIVO o fue ELIMINADO"
-        Me.TroquelActivo.Width = 70
-        '
-        'CambioFleje
-        '
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle26.Format = "N0"
-        DataGridViewCellStyle26.NullValue = False
-        Me.CambioFleje.DefaultCellStyle = DataGridViewCellStyle26
-        Me.CambioFleje.DividerWidth = 5
-        Me.CambioFleje.HeaderText = "Camb. Fleje"
-        Me.CambioFleje.MinimumWidth = 8
-        Me.CambioFleje.Name = "CambioFleje"
-        Me.CambioFleje.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.CambioFleje.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.CambioFleje.ToolTipText = "Cantidad de veces cambio de Flejes"
-        Me.CambioFleje.Width = 70
-        '
-        'TroqPertinax
-        '
-        Me.TroqPertinax.DividerWidth = 5
-        Me.TroqPertinax.HeaderText = "Pertinax"
-        Me.TroqPertinax.MinimumWidth = 8
-        Me.TroqPertinax.Name = "TroqPertinax"
-        Me.TroqPertinax.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.TroqPertinax.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.TroqPertinax.Width = 70
-        '
-        'TroqRelieve
-        '
-        Me.TroqRelieve.DividerWidth = 5
-        Me.TroqRelieve.HeaderText = "Relieve"
-        Me.TroqRelieve.MinimumWidth = 8
-        Me.TroqRelieve.Name = "TroqRelieve"
-        Me.TroqRelieve.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.TroqRelieve.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.TroqRelieve.Width = 70
-        '
-        'TroqStamp
-        '
-        Me.TroqStamp.DividerWidth = 5
-        Me.TroqStamp.HeaderText = "Stamp"
-        Me.TroqStamp.MinimumWidth = 8
-        Me.TroqStamp.Name = "TroqStamp"
-        Me.TroqStamp.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.TroqStamp.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.TroqStamp.Width = 70
-        '
-        'TroqDescart
-        '
-        Me.TroqDescart.DividerWidth = 5
-        Me.TroqDescart.HeaderText = "Descart"
-        Me.TroqDescart.MinimumWidth = 8
-        Me.TroqDescart.Name = "TroqDescart"
-        Me.TroqDescart.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.TroqDescart.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.TroqDescart.Width = 70
         '
         'Label71
         '
@@ -5802,6 +5455,242 @@ Partial Class OT6
         Me.Label22.TabIndex = 6
         Me.Label22.Text = "TROQUEL"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(1342, 263)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(471, 569)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 608
+        Me.PictureBox1.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(11, 269)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(380, 521)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 609
+        Me.PictureBox2.TabStop = False
+        '
+        'IngresComer
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.Format = "g"
+        DataGridViewCellStyle3.NullValue = Nothing
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue
+        Me.IngresComer.DefaultCellStyle = DataGridViewCellStyle3
+        Me.IngresComer.DividerWidth = 5
+        Me.IngresComer.HeaderText = "Ingreso Comercial"
+        Me.IngresComer.MaxInputLength = 12
+        Me.IngresComer.MinimumWidth = 8
+        Me.IngresComer.Name = "IngresComer"
+        Me.IngresComer.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.IngresComer.ToolTipText = "Fecha que COMERCIAL cargo Ingreso"
+        Me.IngresComer.Width = 120
+        '
+        'DataGridViewTextBoxColumn21
+        '
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle4
+        Me.DataGridViewTextBoxColumn21.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn21.HeaderText = "Nombre Cliente"
+        Me.DataGridViewTextBoxColumn21.MaxInputLength = 500
+        Me.DataGridViewTextBoxColumn21.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn21.Name = "DataGridViewTextBoxColumn21"
+        Me.DataGridViewTextBoxColumn21.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn21.ToolTipText = "Razon social con la que se factura"
+        Me.DataGridViewTextBoxColumn21.Width = 250
+        '
+        'DataGridViewTextBoxColumn20
+        '
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle5.NullValue = Nothing
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn20.DefaultCellStyle = DataGridViewCellStyle5
+        Me.DataGridViewTextBoxColumn20.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn20.HeaderText = "Nombre Trabajo"
+        Me.DataGridViewTextBoxColumn20.MaxInputLength = 12
+        Me.DataGridViewTextBoxColumn20.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn20.Name = "DataGridViewTextBoxColumn20"
+        Me.DataGridViewTextBoxColumn20.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn20.ToolTipText = "El nombre trabajo."
+        Me.DataGridViewTextBoxColumn20.Width = 250
+        '
+        'TroquelN
+        '
+        Me.TroquelN.DividerWidth = 5
+        Me.TroquelN.HeaderText = "Troquel N°"
+        Me.TroquelN.MaxInputLength = 10
+        Me.TroquelN.MinimumWidth = 8
+        Me.TroquelN.Name = "TroquelN"
+        Me.TroquelN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.TroquelN.ToolTipText = "El Troquel N° es como se llama cada uno de los troqueles que se tiene, de forma c" &
+    "orrida."
+        Me.TroquelN.Width = 150
+        '
+        'AnchoCajaCerrada
+        '
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.AnchoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle6
+        Me.AnchoCajaCerrada.DividerWidth = 5
+        Me.AnchoCajaCerrada.HeaderText = "Ancho "
+        Me.AnchoCajaCerrada.MaxInputLength = 3
+        Me.AnchoCajaCerrada.MinimumWidth = 8
+        Me.AnchoCajaCerrada.Name = "AnchoCajaCerrada"
+        Me.AnchoCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.AnchoCajaCerrada.ToolTipText = "Medida ANCHO de la CAJA segun DIBUJO."
+        Me.AnchoCajaCerrada.Width = 80
+        '
+        'AltoCajaCerrada
+        '
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.AltoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle7
+        Me.AltoCajaCerrada.DividerWidth = 5
+        Me.AltoCajaCerrada.HeaderText = "Alto "
+        Me.AltoCajaCerrada.MaxInputLength = 3
+        Me.AltoCajaCerrada.MinimumWidth = 8
+        Me.AltoCajaCerrada.Name = "AltoCajaCerrada"
+        Me.AltoCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.AltoCajaCerrada.ToolTipText = "Medida ALTO de la CAJA segun DIBUJO."
+        Me.AltoCajaCerrada.Width = 80
+        '
+        'ProfundidaCajaCerrada
+        '
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.ProfundidaCajaCerrada.DefaultCellStyle = DataGridViewCellStyle8
+        Me.ProfundidaCajaCerrada.DividerWidth = 5
+        Me.ProfundidaCajaCerrada.HeaderText = "Profun."
+        Me.ProfundidaCajaCerrada.MaxInputLength = 3
+        Me.ProfundidaCajaCerrada.MinimumWidth = 8
+        Me.ProfundidaCajaCerrada.Name = "ProfundidaCajaCerrada"
+        Me.ProfundidaCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.ProfundidaCajaCerrada.ToolTipText = "Medida PROFUNDIDA de la CAJA segun DIBUJO."
+        Me.ProfundidaCajaCerrada.Width = 80
+        '
+        'MontajeMedidaA
+        '
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
+        Me.MontajeMedidaA.DefaultCellStyle = DataGridViewCellStyle9
+        Me.MontajeMedidaA.DividerWidth = 5
+        Me.MontajeMedidaA.HeaderText = "MedidaA"
+        Me.MontajeMedidaA.MaxInputLength = 4
+        Me.MontajeMedidaA.MinimumWidth = 8
+        Me.MontajeMedidaA.Name = "MontajeMedidaA"
+        Me.MontajeMedidaA.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MontajeMedidaA.ToolTipText = "Medida Montaje A"
+        Me.MontajeMedidaA.Width = 150
+        '
+        'MontajeMedidaB
+        '
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.MontajeMedidaB.DefaultCellStyle = DataGridViewCellStyle10
+        Me.MontajeMedidaB.DividerWidth = 5
+        Me.MontajeMedidaB.HeaderText = "MedidaB"
+        Me.MontajeMedidaB.MaxInputLength = 4
+        Me.MontajeMedidaB.MinimumWidth = 8
+        Me.MontajeMedidaB.Name = "MontajeMedidaB"
+        Me.MontajeMedidaB.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MontajeMedidaB.ToolTipText = "Medida Montaje B"
+        Me.MontajeMedidaB.Width = 150
+        '
+        'Golpetroquelado
+        '
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Golpetroquelado.DefaultCellStyle = DataGridViewCellStyle11
+        Me.Golpetroquelado.DividerWidth = 5
+        Me.Golpetroquelado.HeaderText = "Golpe Tiene"
+        Me.Golpetroquelado.MaxInputLength = 6
+        Me.Golpetroquelado.MinimumWidth = 8
+        Me.Golpetroquelado.Name = "Golpetroquelado"
+        Me.Golpetroquelado.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Golpetroquelado.ToolTipText = "La cantidad de Golpe del troquel."
+        Me.Golpetroquelado.Width = 80
+        '
+        'EstanteTroquel
+        '
+        Me.EstanteTroquel.DividerWidth = 5
+        Me.EstanteTroquel.HeaderText = "Estante"
+        Me.EstanteTroquel.MaxInputLength = 4
+        Me.EstanteTroquel.MinimumWidth = 8
+        Me.EstanteTroquel.Name = "EstanteTroquel"
+        Me.EstanteTroquel.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.EstanteTroquel.ToolTipText = "Numero del estante que fue asignado el Troquel"
+        Me.EstanteTroquel.Width = 80
+        '
+        'TroquelActivo
+        '
+        Me.TroquelActivo.DividerWidth = 5
+        Me.TroquelActivo.HeaderText = "Activo"
+        Me.TroquelActivo.MinimumWidth = 8
+        Me.TroquelActivo.Name = "TroquelActivo"
+        Me.TroquelActivo.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.TroquelActivo.ToolTipText = "Indica Si el troquel esta ACTIVO o fue ELIMINADO"
+        Me.TroquelActivo.Width = 70
+        '
+        'CambioFleje
+        '
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle12.Format = "N0"
+        DataGridViewCellStyle12.NullValue = False
+        Me.CambioFleje.DefaultCellStyle = DataGridViewCellStyle12
+        Me.CambioFleje.DividerWidth = 5
+        Me.CambioFleje.HeaderText = "Camb. Fleje"
+        Me.CambioFleje.MinimumWidth = 8
+        Me.CambioFleje.Name = "CambioFleje"
+        Me.CambioFleje.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.CambioFleje.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.CambioFleje.ToolTipText = "Cantidad de veces cambio de Flejes"
+        Me.CambioFleje.Width = 70
+        '
+        'TroqPertinax
+        '
+        Me.TroqPertinax.DividerWidth = 5
+        Me.TroqPertinax.HeaderText = "Pertinax"
+        Me.TroqPertinax.MinimumWidth = 8
+        Me.TroqPertinax.Name = "TroqPertinax"
+        Me.TroqPertinax.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.TroqPertinax.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.TroqPertinax.Width = 70
+        '
+        'TroqRelieve
+        '
+        Me.TroqRelieve.DividerWidth = 5
+        Me.TroqRelieve.HeaderText = "Relieve"
+        Me.TroqRelieve.MinimumWidth = 8
+        Me.TroqRelieve.Name = "TroqRelieve"
+        Me.TroqRelieve.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.TroqRelieve.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.TroqRelieve.Width = 70
+        '
+        'TroqStamp
+        '
+        Me.TroqStamp.DividerWidth = 5
+        Me.TroqStamp.HeaderText = "Stamp"
+        Me.TroqStamp.MinimumWidth = 8
+        Me.TroqStamp.Name = "TroqStamp"
+        Me.TroqStamp.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.TroqStamp.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.TroqStamp.Width = 70
+        '
+        'TroqDescart
+        '
+        Me.TroqDescart.DividerWidth = 5
+        Me.TroqDescart.HeaderText = "Descart"
+        Me.TroqDescart.MinimumWidth = 8
+        Me.TroqDescart.Name = "TroqDescart"
+        Me.TroqDescart.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.TroqDescart.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.TroqDescart.Width = 70
+        '
         'OT6
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -5819,8 +5708,6 @@ Partial Class OT6
         Me.TabPage1.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
-        Me.Panel18.ResumeLayout(False)
-        Me.Panel18.PerformLayout()
         Me.Panel33.ResumeLayout(False)
         Me.Panel33.PerformLayout()
         Me.Panel34.ResumeLayout(False)
@@ -5852,8 +5739,6 @@ Partial Class OT6
         Me.Panel6.ResumeLayout(False)
         Me.Panel27.ResumeLayout(False)
         Me.Panel27.PerformLayout()
-        Me.Panel29.ResumeLayout(False)
-        Me.Panel29.PerformLayout()
         Me.Panel28.ResumeLayout(False)
         Me.Panel28.PerformLayout()
         Me.Panel119.ResumeLayout(False)
@@ -5888,6 +5773,8 @@ Partial Class OT6
         Me.Panel48.ResumeLayout(False)
         Me.Panel48.PerformLayout()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -5977,11 +5864,6 @@ Partial Class OT6
     Friend WithEvents Label30 As Label
     Friend WithEvents DateTimePicker8 As DateTimePicker
     Friend WithEvents TextBox23 As TextBox
-    Friend WithEvents Panel18 As Panel
-    Friend WithEvents Label31 As Label
-    Friend WithEvents Label32 As Label
-    Friend WithEvents Label41 As Label
-    Friend WithEvents Label42 As Label
     Friend WithEvents Label36 As Label
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents RadioButton38 As RadioButton
@@ -6067,11 +5949,6 @@ Partial Class OT6
     Friend WithEvents TextBox62 As TextBox
     Friend WithEvents TextBox63 As TextBox
     Friend WithEvents Label122 As Label
-    Friend WithEvents Panel29 As Panel
-    Friend WithEvents Label52 As Label
-    Friend WithEvents Label136 As Label
-    Friend WithEvents Label137 As Label
-    Friend WithEvents Label138 As Label
     Friend WithEvents TextBox75 As TextBox
     Friend WithEvents TextBox74 As TextBox
     Friend WithEvents TextBox78 As TextBox
@@ -6278,6 +6155,19 @@ Partial Class OT6
     Friend WithEvents ComboBox6 As ComboBox
     Friend WithEvents CheckBox14 As CheckBox
     Friend WithEvents Button26 As Button
+    Friend WithEvents Button8 As Button
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button18 As Button
+    Friend WithEvents Button20 As Button
+    Friend WithEvents RadioButton37 As RadioButton
+    Friend WithEvents RadioButton30 As RadioButton
+    Friend WithEvents RadioButton36 As RadioButton
+    Friend WithEvents RadioButton29 As RadioButton
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents IngresComer As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn21 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn20 As DataGridViewTextBoxColumn
@@ -6295,15 +6185,4 @@ Partial Class OT6
     Friend WithEvents TroqRelieve As DataGridViewCheckBoxColumn
     Friend WithEvents TroqStamp As DataGridViewCheckBoxColumn
     Friend WithEvents TroqDescart As DataGridViewCheckBoxColumn
-    Friend WithEvents Button8 As Button
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Button20 As Button
-    Friend WithEvents RadioButton37 As RadioButton
-    Friend WithEvents RadioButton30 As RadioButton
-    Friend WithEvents RadioButton36 As RadioButton
-    Friend WithEvents RadioButton29 As RadioButton
-    Friend WithEvents TextBox6 As TextBox
 End Class

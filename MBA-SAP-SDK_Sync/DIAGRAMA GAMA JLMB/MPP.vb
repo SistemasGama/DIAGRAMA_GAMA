@@ -7,4 +7,8 @@
     Private Sub MP_Load(sender As Object, e As EventArgs) Handles Me.Load
         Mensajes()
     End Sub
+
+    Private Sub Label453_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

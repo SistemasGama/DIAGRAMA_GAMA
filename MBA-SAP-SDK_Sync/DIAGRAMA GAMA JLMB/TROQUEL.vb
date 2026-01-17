@@ -24,7 +24,7 @@
 
     End Sub
 
-    Private Sub Panel29_Paint(sender As Object, e As PaintEventArgs) Handles Panel29.Paint
+    Private Sub Panel29_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
 

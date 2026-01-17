@@ -13,4 +13,8 @@ Public Class INSUMO
     Private Sub INSUMO_Load(sender As Object, e As EventArgs) Handles Me.Load
         Mensajes()
     End Sub
+
+    Private Sub Label452_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class
