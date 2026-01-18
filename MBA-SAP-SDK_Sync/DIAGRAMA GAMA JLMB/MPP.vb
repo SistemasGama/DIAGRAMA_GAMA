@@ -1,12 +1,14 @@
 ﻿Public Class MP
-    Private Sub Label55_Click(sender As Object, e As EventArgs) Handles Label55.Click
+    Private Sub Mensajes()
+        ToolTip1.SetToolTip(txtNroPresup1, "Ingrese el número de presupuesto previamente creado en LITOPLAN.") 'jjfff'
 
     End Sub
 
-    Private Sub TabPage20_Click(sender As Object, e As EventArgs) Handles TabPage20.Click
-
+    Private Sub MP_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Mensajes()
     End Sub
 
+<<<<<<< HEAD
     Private Sub TextBox97_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
@@ -20,6 +22,9 @@
     End Sub
 
     Private Sub Label396_Click(sender As Object, e As EventArgs) Handles Label396.Click
+=======
+    Private Sub Label453_Click(sender As Object, e As EventArgs)
+>>>>>>> pre-main
 
     End Sub
 

@@ -1,12 +1,20 @@
-﻿Public Class INSUMO
-    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click, Label42.Click, Label18.Click
+﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
+Public Class INSUMO
+
+
+    Private Sub Mensajes()
+        ToolTip1.SetToolTip(txtNroPresup, "Ingrese el número de presupuesto previamente creado en LITOPLAN.") 'jjfff'
+        ToolTip1.SetToolTip(ComboBox141, "Ingrese el número de presupuesto previamente creado en LITOPLAN.")
+        ToolTip1.SetToolTip(ComboBox2, "Ingrese el número de presupuesto previamente creado en LITOPLAN.")
+        ToolTip1.SetToolTip(ComboBox8, "Ingrese el número de presupuesto previamente creado en LITOPLAN.")
     End Sub
 
-    Private Sub Label52_Click(sender As Object, e As EventArgs) 
-
+    Private Sub INSUMO_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Mensajes()
     End Sub
 
+<<<<<<< HEAD
     Private Sub Label73_Click(sender As Object, e As EventArgs)
 
     End Sub
@@ -80,6 +88,9 @@
     End Sub
 
     Private Sub Label354_Click(sender As Object, e As EventArgs)
+=======
+    Private Sub Label452_Click(sender As Object, e As EventArgs)
+>>>>>>> pre-main
 
     End Sub
 

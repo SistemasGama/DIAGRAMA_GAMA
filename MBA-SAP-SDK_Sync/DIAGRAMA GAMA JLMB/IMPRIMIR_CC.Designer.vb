@@ -30,6 +30,8 @@ Partial Class IMPRIMIR_CC
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
         Me.Panel4.SuspendLayout()
         Me.Panel75.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -40,6 +42,7 @@ Partial Class IMPRIMIR_CC
         '
         Me.Panel4.BackColor = System.Drawing.Color.Green
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel4.Controls.Add(Me.txtNroPresup1)
         Me.Panel4.Controls.Add(Me.Label22)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
@@ -100,6 +103,14 @@ Partial Class IMPRIMIR_CC
         Me.Panel2.Size = New System.Drawing.Size(1397, 884)
         Me.Panel2.TabIndex = 11
         '
+        'txtNroPresup1
+        '
+        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
+        Me.txtNroPresup1.Location = New System.Drawing.Point(10, -1)
+        Me.txtNroPresup1.Name = "txtNroPresup1"
+        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 26)
+        Me.txtNroPresup1.TabIndex = 204
+        '
         'IMPRIMIR_CC
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -126,4 +137,6 @@ Partial Class IMPRIMIR_CC
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label22 As Label
     Friend WithEvents BindingSource1 As BindingSource
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents txtNroPresup1 As TextBox
 End Class

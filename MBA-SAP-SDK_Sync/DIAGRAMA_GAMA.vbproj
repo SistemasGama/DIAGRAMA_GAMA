@@ -82,6 +82,9 @@
     <ApplicationIcon>
     </ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="iAnywhere.Data.SQLAnywhere.v4.0, Version=12.0.1.36054, Culture=neutral, PublicKeyToken=f222fc4333e0d400, processorArchitecture=MSIL" />
     <Reference Include="System" />
@@ -164,6 +167,7 @@
     <Compile Include="DIAGRAMA GAMA JLMB\CLIENTE.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="DIAGRAMA GAMA JLMB\Calendario_Gestion.Designer.vb">
       <DependentUpon>Calendario_Gestion.vb</DependentUpon>
     </Compile>
@@ -180,12 +184,30 @@
       <DependentUpon>Precio_Anterior.vb</DependentUpon>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\Precio_Anterior.vb">
+=======
+    <Compile Include="DIAGRAMA GAMA JLMB\CALENVARIOS.Designer.vb">
+      <DependentUpon>CALENVARIOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\CALENVARIOS.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT16.Designer.vb">
-      <DependentUpon>OT16.vb</DependentUpon>
+    <Compile Include="DIAGRAMA GAMA JLMB\CALENMANTEN.Designer.vb">
+      <DependentUpon>CALENMANTEN.vb</DependentUpon>
     </Compile>
-    <Compile Include="DIAGRAMA GAMA JLMB\OT16.vb">
+    <Compile Include="DIAGRAMA GAMA JLMB\CALENMANTEN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\0T155.Designer.vb">
+      <DependentUpon>0T155.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\0T155.vb">
+>>>>>>> pre-main
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\RRHH.Designer.vb">
+      <DependentUpon>RRHH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\RRHH.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\OT17.Designer.vb">
@@ -206,10 +228,17 @@
     <Compile Include="DIAGRAMA GAMA JLMB\OT19.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="DIAGRAMA GAMA JLMB\Pto_Confirmado.Designer.vb">
       <DependentUpon>Pto_Confirmado.vb</DependentUpon>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\Pto_Confirmado.vb">
+=======
+    <Compile Include="DIAGRAMA GAMA JLMB\OT211.Designer.vb">
+      <DependentUpon>OT211.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DIAGRAMA GAMA JLMB\OT211.vb">
+>>>>>>> pre-main
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\TINTA.Designer.vb">
@@ -276,6 +305,7 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\CLIENTE.resx">
       <DependentUpon>CLIENTE.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\Calendario_Gestion.resx">
       <DependentUpon>Calendario_Gestion.vb</DependentUpon>
     </EmbeddedResource>
@@ -287,6 +317,31 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\Pto_Confirmado.resx">
       <DependentUpon>Pto_Confirmado.vb</DependentUpon>
+=======
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\CALENVARIOS.resx">
+      <DependentUpon>CALENVARIOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\CALENMANTEN.resx">
+      <DependentUpon>CALENMANTEN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\0T155.resx">
+      <DependentUpon>0T155.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\RRHH.resx">
+      <DependentUpon>RRHH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT17.resx">
+      <DependentUpon>OT17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT18.resx">
+      <DependentUpon>OT18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT19.resx">
+      <DependentUpon>OT19.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DIAGRAMA GAMA JLMB\OT211.resx">
+      <DependentUpon>OT211.vb</DependentUpon>
+>>>>>>> pre-main
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\TINTA.resx">
       <DependentUpon>TINTA.vb</DependentUpon>
@@ -306,6 +361,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="DIAGRAMA_GAMA_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

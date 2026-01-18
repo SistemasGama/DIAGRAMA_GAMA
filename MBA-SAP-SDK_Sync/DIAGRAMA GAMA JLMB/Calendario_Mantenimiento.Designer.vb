@@ -26,7 +26,12 @@ Partial Class Calendario_Mantenimiento
         Dim BindingSource1 As System.Windows.Forms.BindingSource
         Dim Panel4 As System.Windows.Forms.Panel
         Dim Panel2 As System.Windows.Forms.Panel
+<<<<<<<< HEAD:MBA-SAP-SDK_Sync/DIAGRAMA GAMA JLMB/Calendario_Mantenimiento.Designer.vb
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Calendario_Mantenimiento))
+========
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OT14))
+        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
+>>>>>>>> pre-main:MBA-SAP-SDK_Sync/DIAGRAMA GAMA JLMB/CALENMANTEN.Designer.vb
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Panel75 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -142,6 +147,7 @@ Partial Class Calendario_Mantenimiento
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Panel4 = New System.Windows.Forms.Panel()
         Panel2 = New System.Windows.Forms.Panel()
@@ -169,12 +175,21 @@ Partial Class Calendario_Mantenimiento
         '
         Panel4.BackColor = System.Drawing.Color.Green
         Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Panel4.Controls.Add(Me.txtNroPresup1)
         Panel4.Controls.Add(Me.Label22)
         Panel4.Dock = System.Windows.Forms.DockStyle.Top
         Panel4.Location = New System.Drawing.Point(0, 0)
         Panel4.Name = "Panel4"
         Panel4.Size = New System.Drawing.Size(1367, 43)
         Panel4.TabIndex = 355
+        '
+        'txtNroPresup1
+        '
+        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
+        Me.txtNroPresup1.Location = New System.Drawing.Point(28, 3)
+        Me.txtNroPresup1.Name = "txtNroPresup1"
+        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 26)
+        Me.txtNroPresup1.TabIndex = 204
         '
         'Label22
         '
@@ -1662,4 +1677,6 @@ Partial Class Calendario_Mantenimiento
     Friend WithEvents TabPage24 As TabPage
     Friend WithEvents TabPage25 As TabPage
     Friend WithEvents TabPage26 As TabPage
+    Friend WithEvents txtNroPresup1 As TextBox
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

@@ -1,17 +1,10 @@
 ﻿Public Class Herramientas
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
+    Private Sub Mensajes()
+        ToolTip1.SetToolTip(txtNroPresup1, "Ingrese el número de presupuesto previamente creado en LITOPLAN.") 'jjfff'
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Herramientas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
-    Private Sub Label5_Click(sender As Object, e As EventArgs)
-
+    Private Sub Herramientas_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Mensajes()
     End Sub
 End Class

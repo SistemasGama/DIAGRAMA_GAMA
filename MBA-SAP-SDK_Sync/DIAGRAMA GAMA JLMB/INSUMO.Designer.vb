@@ -24,50 +24,7 @@ Partial Class INSUMO
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(INSUMO))
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Panel4 = New System.Windows.Forms.Panel()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker19 = New System.Windows.Forms.DateTimePicker()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox24 = New System.Windows.Forms.CheckBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox147 = New System.Windows.Forms.TextBox()
-        Me.ComboBox11 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox10 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox9 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label60 = New System.Windows.Forms.Label()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.Label54 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.Label58 = New System.Windows.Forms.Label()
-        Me.Label59 = New System.Windows.Forms.Label()
-        Me.Label56 = New System.Windows.Forms.Label()
-        Me.Label48 = New System.Windows.Forms.Label()
-        Me.Label53 = New System.Windows.Forms.Label()
-        Me.Label49 = New System.Windows.Forms.Label()
-        Me.Label55 = New System.Windows.Forms.Label()
-        Me.Label52 = New System.Windows.Forms.Label()
-        Me.Label51 = New System.Windows.Forms.Label()
-        Me.Label322 = New System.Windows.Forms.Label()
-        Me.ComboBox153 = New System.Windows.Forms.ComboBox()
-        Me.DateTimePicker4 = New System.Windows.Forms.DateTimePicker()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.Label66 = New System.Windows.Forms.Label()
-        Me.Label151 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.ComboBox76 = New System.Windows.Forms.ComboBox()
         Me.ComboBox73 = New System.Windows.Forms.ComboBox()
@@ -97,14 +54,8 @@ Partial Class INSUMO
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Label46 = New System.Windows.Forms.Label()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.RadioButton70 = New System.Windows.Forms.RadioButton()
-        Me.DateTimePicker51 = New System.Windows.Forms.DateTimePicker()
-        Me.RadioButton71 = New System.Windows.Forms.RadioButton()
-        Me.Label324 = New System.Windows.Forms.Label()
-        Me.RadioButton72 = New System.Windows.Forms.RadioButton()
-        Me.DateTimePicker8 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker11 = New System.Windows.Forms.DateTimePicker()
-        Me.Label74 = New System.Windows.Forms.Label()
+        Me.Label324 = New System.Windows.Forms.Label()
         Me.Label72 = New System.Windows.Forms.Label()
         Me.DateTimePicker10 = New System.Windows.Forms.DateTimePicker()
         Me.Label36 = New System.Windows.Forms.Label()
@@ -117,43 +68,50 @@ Partial Class INSUMO
         Me.Label71 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.DateTimePicker9 = New System.Windows.Forms.DateTimePicker()
-        Me.RadioButton75 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton90 = New System.Windows.Forms.RadioButton()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.ComboBox15 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox8 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox141 = New System.Windows.Forms.ComboBox()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label43 = New System.Windows.Forms.Label()
-        Me.Label68 = New System.Windows.Forms.Label()
-        Me.Label69 = New System.Windows.Forms.Label()
-        Me.Label67 = New System.Windows.Forms.Label()
-        Me.Label45 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.Label41 = New System.Windows.Forms.Label()
+        Me.CheckBox41 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox40 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox39 = New System.Windows.Forms.CheckBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Panel40 = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Panel26 = New System.Windows.Forms.Panel()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox16 = New System.Windows.Forms.ComboBox()
+        Me.TextBox32 = New System.Windows.Forms.TextBox()
+        Me.ComboBox17 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox18 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox19 = New System.Windows.Forms.ComboBox()
+        Me.Label64 = New System.Windows.Forms.Label()
+        Me.Label74 = New System.Windows.Forms.Label()
+        Me.Label161 = New System.Windows.Forms.Label()
+        Me.Label162 = New System.Windows.Forms.Label()
+        Me.Label164 = New System.Windows.Forms.Label()
+        Me.Label194 = New System.Windows.Forms.Label()
+        Me.Label195 = New System.Windows.Forms.Label()
+        Me.Label393 = New System.Windows.Forms.Label()
+        Me.Label394 = New System.Windows.Forms.Label()
+        Me.Label395 = New System.Windows.Forms.Label()
+        Me.Label396 = New System.Windows.Forms.Label()
+        Me.ComboBox20 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox21 = New System.Windows.Forms.ComboBox()
+        Me.TextBox131 = New System.Windows.Forms.TextBox()
+        Me.ComboBox22 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox23 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox24 = New System.Windows.Forms.ComboBox()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Panel27 = New System.Windows.Forms.Panel()
+        Me.Label397 = New System.Windows.Forms.Label()
+        Me.Label398 = New System.Windows.Forms.Label()
+        Me.ComboBox25 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox26 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox27 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox28 = New System.Windows.Forms.ComboBox()
+        Me.Label399 = New System.Windows.Forms.Label()
+        Me.Label400 = New System.Windows.Forms.Label()
+        Me.Label401 = New System.Windows.Forms.Label()
+        Me.Label402 = New System.Windows.Forms.Label()
+        Me.Label403 = New System.Windows.Forms.Label()
+        Me.TextBox132 = New System.Windows.Forms.TextBox()
         Me.DateTimePicker22 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker16 = New System.Windows.Forms.DateTimePicker()
         Me.Panel41 = New System.Windows.Forms.Panel()
@@ -164,10 +122,13 @@ Partial Class INSUMO
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Button32 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
+<<<<<<< HEAD
         Me.Panel26 = New System.Windows.Forms.Panel()
         Me.Panel27 = New System.Windows.Forms.Panel()
         Me.Label194 = New System.Windows.Forms.Label()
         Me.Label195 = New System.Windows.Forms.Label()
+=======
+>>>>>>> pre-main
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button36 = New System.Windows.Forms.Button()
@@ -347,6 +308,7 @@ Partial Class INSUMO
         Me.Panel144 = New System.Windows.Forms.Panel()
         Me.Label376 = New System.Windows.Forms.Label()
         Me.Panel31 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel38 = New System.Windows.Forms.Panel()
         Me.Label166 = New System.Windows.Forms.Label()
         Me.Panel39 = New System.Windows.Forms.Panel()
@@ -370,14 +332,12 @@ Partial Class INSUMO
         Me.TextBox51 = New System.Windows.Forms.TextBox()
         Me.TextBox80 = New System.Windows.Forms.TextBox()
         Me.TextBox83 = New System.Windows.Forms.TextBox()
-        Me.Button37 = New System.Windows.Forms.Button()
         Me.TextBox84 = New System.Windows.Forms.TextBox()
         Me.TextBox79 = New System.Windows.Forms.TextBox()
         Me.TextBox85 = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label181 = New System.Windows.Forms.Label()
         Me.Label167 = New System.Windows.Forms.Label()
-        Me.Button38 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label183 = New System.Windows.Forms.Label()
         Me.Label169 = New System.Windows.Forms.Label()
@@ -404,9 +364,46 @@ Partial Class INSUMO
         Me.Button28 = New System.Windows.Forms.Button()
         Me.Button30 = New System.Windows.Forms.Button()
         Me.Panel30 = New System.Windows.Forms.Panel()
+        Me.ComboBox50 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox52 = New System.Windows.Forms.ComboBox()
+        Me.TextBox124 = New System.Windows.Forms.TextBox()
+        Me.ComboBox53 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox54 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox55 = New System.Windows.Forms.ComboBox()
+        Me.Label340 = New System.Windows.Forms.Label()
+        Me.Label341 = New System.Windows.Forms.Label()
+        Me.Label342 = New System.Windows.Forms.Label()
+        Me.Label343 = New System.Windows.Forms.Label()
+        Me.Label344 = New System.Windows.Forms.Label()
+        Me.Label345 = New System.Windows.Forms.Label()
+        Me.Label346 = New System.Windows.Forms.Label()
+        Me.Label347 = New System.Windows.Forms.Label()
+        Me.Label348 = New System.Windows.Forms.Label()
+        Me.Label349 = New System.Windows.Forms.Label()
+        Me.Label350 = New System.Windows.Forms.Label()
+        Me.ComboBox56 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox57 = New System.Windows.Forms.ComboBox()
+        Me.TextBox126 = New System.Windows.Forms.TextBox()
+        Me.ComboBox58 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox59 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox158 = New System.Windows.Forms.ComboBox()
+        Me.Button31 = New System.Windows.Forms.Button()
         Me.Panel33 = New System.Windows.Forms.Panel()
         Me.Label213 = New System.Windows.Forms.Label()
         Me.Label214 = New System.Windows.Forms.Label()
+<<<<<<< HEAD
+=======
+        Me.ComboBox47 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox48 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox49 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox51 = New System.Windows.Forms.ComboBox()
+        Me.Label215 = New System.Windows.Forms.Label()
+        Me.Label351 = New System.Windows.Forms.Label()
+        Me.Label216 = New System.Windows.Forms.Label()
+        Me.Label217 = New System.Windows.Forms.Label()
+        Me.Label218 = New System.Windows.Forms.Label()
+        Me.TextBox33 = New System.Windows.Forms.TextBox()
+>>>>>>> pre-main
         Me.Button34 = New System.Windows.Forms.Button()
         Me.Button26 = New System.Windows.Forms.Button()
         Me.Button33 = New System.Windows.Forms.Button()
@@ -425,8 +422,78 @@ Partial Class INSUMO
         Me.Label206 = New System.Windows.Forms.Label()
         Me.Panel32 = New System.Windows.Forms.Panel()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.Button38 = New System.Windows.Forms.Button()
+        Me.Button37 = New System.Windows.Forms.Button()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
         Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Panel75 = New System.Windows.Forms.Panel()
+        Me.TextBox498 = New System.Windows.Forms.TextBox()
+        Me.TextBox497 = New System.Windows.Forms.TextBox()
+        Me.TextBox135 = New System.Windows.Forms.TextBox()
+        Me.TextBox496 = New System.Windows.Forms.TextBox()
+        Me.TextBox136 = New System.Windows.Forms.TextBox()
+        Me.TextBox493 = New System.Windows.Forms.TextBox()
+        Me.TextBox137 = New System.Windows.Forms.TextBox()
+        Me.TextBox249 = New System.Windows.Forms.TextBox()
+        Me.ComboBox271 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox268 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox221 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox222 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox277 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox223 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox224 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox225 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox226 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox227 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox228 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox229 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox230 = New System.Windows.Forms.ComboBox()
+        Me.Label565 = New System.Windows.Forms.Label()
+        Me.Label546 = New System.Windows.Forms.Label()
+        Me.ComboBox270 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox269 = New System.Windows.Forms.ComboBox()
+        Me.Label564 = New System.Windows.Forms.Label()
+        Me.Label406 = New System.Windows.Forms.Label()
+        Me.ComboBox231 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox232 = New System.Windows.Forms.ComboBox()
+        Me.Label569 = New System.Windows.Forms.Label()
+        Me.Label567 = New System.Windows.Forms.Label()
+        Me.Label563 = New System.Windows.Forms.Label()
+        Me.Label560 = New System.Windows.Forms.Label()
+        Me.Label562 = New System.Windows.Forms.Label()
+        Me.Label559 = New System.Windows.Forms.Label()
+        Me.Label561 = New System.Windows.Forms.Label()
+        Me.Label547 = New System.Windows.Forms.Label()
+        Me.Label407 = New System.Windows.Forms.Label()
+        Me.Label539 = New System.Windows.Forms.Label()
+        Me.Label408 = New System.Windows.Forms.Label()
+        Me.Label434 = New System.Windows.Forms.Label()
+        Me.Label409 = New System.Windows.Forms.Label()
+        Me.Label410 = New System.Windows.Forms.Label()
+        Me.Panel76 = New System.Windows.Forms.Panel()
+        Me.Label412 = New System.Windows.Forms.Label()
+        Me.Label413 = New System.Windows.Forms.Label()
+        Me.Label414 = New System.Windows.Forms.Label()
+        Me.Label415 = New System.Windows.Forms.Label()
+        Me.Button53 = New System.Windows.Forms.Button()
+        Me.TextBox207 = New System.Windows.Forms.TextBox()
+        Me.Button55 = New System.Windows.Forms.Button()
+        Me.Label598 = New System.Windows.Forms.Label()
+        Me.TextBox246 = New System.Windows.Forms.TextBox()
+        Me.TextBox204 = New System.Windows.Forms.TextBox()
+        Me.Label416 = New System.Windows.Forms.Label()
+        Me.TextBox203 = New System.Windows.Forms.TextBox()
+        Me.TextBox248 = New System.Windows.Forms.TextBox()
+        Me.TextBox247 = New System.Windows.Forms.TextBox()
+        Me.TextBox175 = New System.Windows.Forms.TextBox()
+        Me.Label417 = New System.Windows.Forms.Label()
+        Me.TextBox242 = New System.Windows.Forms.TextBox()
+        Me.Label418 = New System.Windows.Forms.Label()
+        Me.Label419 = New System.Windows.Forms.Label()
+        Me.Label420 = New System.Windows.Forms.Label()
+        Me.Label421 = New System.Windows.Forms.Label()
+        Me.Label422 = New System.Windows.Forms.Label()
         Me.Panel59 = New System.Windows.Forms.Panel()
         Me.Panel60 = New System.Windows.Forms.Panel()
         Me.TextBox98 = New System.Windows.Forms.TextBox()
@@ -534,6 +601,47 @@ Partial Class INSUMO
         Me.TabPage7 = New System.Windows.Forms.TabPage()
         Me.Panel62 = New System.Windows.Forms.Panel()
         Me.Panel63 = New System.Windows.Forms.Panel()
+<<<<<<< HEAD
+=======
+        Me.ComboBox128 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox129 = New System.Windows.Forms.ComboBox()
+        Me.TextBox108 = New System.Windows.Forms.TextBox()
+        Me.ComboBox130 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox132 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox133 = New System.Windows.Forms.ComboBox()
+        Me.Label307 = New System.Windows.Forms.Label()
+        Me.Label308 = New System.Windows.Forms.Label()
+        Me.Label309 = New System.Windows.Forms.Label()
+        Me.Label310 = New System.Windows.Forms.Label()
+        Me.Label311 = New System.Windows.Forms.Label()
+        Me.Label312 = New System.Windows.Forms.Label()
+        Me.Label379 = New System.Windows.Forms.Label()
+        Me.Label380 = New System.Windows.Forms.Label()
+        Me.Label381 = New System.Windows.Forms.Label()
+        Me.Label382 = New System.Windows.Forms.Label()
+        Me.Label386 = New System.Windows.Forms.Label()
+        Me.ComboBox134 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox135 = New System.Windows.Forms.ComboBox()
+        Me.TextBox130 = New System.Windows.Forms.TextBox()
+        Me.ComboBox136 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox137 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox138 = New System.Windows.Forms.ComboBox()
+        Me.Button45 = New System.Windows.Forms.Button()
+        Me.Panel64 = New System.Windows.Forms.Panel()
+        Me.Label387 = New System.Windows.Forms.Label()
+        Me.Label388 = New System.Windows.Forms.Label()
+        Me.ComboBox139 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox140 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox160 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox220 = New System.Windows.Forms.ComboBox()
+        Me.Label389 = New System.Windows.Forms.Label()
+        Me.Label390 = New System.Windows.Forms.Label()
+        Me.Label391 = New System.Windows.Forms.Label()
+        Me.Label392 = New System.Windows.Forms.Label()
+        Me.Label405 = New System.Windows.Forms.Label()
+        Me.TextBox134 = New System.Windows.Forms.TextBox()
+        Me.Panel65 = New System.Windows.Forms.Panel()
+>>>>>>> pre-main
         Me.DateTimePicker53 = New System.Windows.Forms.DateTimePicker()
         Me.Panel64 = New System.Windows.Forms.Panel()
         Me.Label307 = New System.Windows.Forms.Label()
@@ -624,6 +732,11 @@ Partial Class INSUMO
         Me.Label302 = New System.Windows.Forms.Label()
         Me.Label320 = New System.Windows.Forms.Label()
         Me.Label264 = New System.Windows.Forms.Label()
+<<<<<<< HEAD
+=======
+        Me.Panel67 = New System.Windows.Forms.Panel()
+        Me.Label317 = New System.Windows.Forms.Label()
+>>>>>>> pre-main
         Me.TabPage8 = New System.Windows.Forms.TabPage()
         Me.TabControl2 = New System.Windows.Forms.TabControl()
         Me.TabPage9 = New System.Windows.Forms.TabPage()
@@ -778,10 +891,51 @@ Partial Class INSUMO
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.Panel28 = New System.Windows.Forms.Panel()
         Me.Panel13 = New System.Windows.Forms.Panel()
+<<<<<<< HEAD
         Me.Panel14 = New System.Windows.Forms.Panel()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label165 = New System.Windows.Forms.Label()
+=======
+        Me.ComboBox32 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox33 = New System.Windows.Forms.ComboBox()
+        Me.TextBox86 = New System.Windows.Forms.TextBox()
+        Me.ComboBox34 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox35 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox36 = New System.Windows.Forms.ComboBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label165 = New System.Windows.Forms.Label()
+        Me.Label178 = New System.Windows.Forms.Label()
+        Me.Label196 = New System.Windows.Forms.Label()
+        Me.Label197 = New System.Windows.Forms.Label()
+        Me.Label198 = New System.Windows.Forms.Label()
+        Me.Label352 = New System.Windows.Forms.Label()
+        Me.Label353 = New System.Windows.Forms.Label()
+        Me.Label354 = New System.Windows.Forms.Label()
+        Me.Label355 = New System.Windows.Forms.Label()
+        Me.Label356 = New System.Windows.Forms.Label()
+        Me.ComboBox37 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox38 = New System.Windows.Forms.ComboBox()
+        Me.TextBox127 = New System.Windows.Forms.TextBox()
+        Me.ComboBox40 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox41 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox42 = New System.Windows.Forms.ComboBox()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.Label357 = New System.Windows.Forms.Label()
+        Me.Label358 = New System.Windows.Forms.Label()
+        Me.ComboBox43 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox44 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox45 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox159 = New System.Windows.Forms.ComboBox()
+        Me.Label359 = New System.Windows.Forms.Label()
+        Me.Label362 = New System.Windows.Forms.Label()
+        Me.Label363 = New System.Windows.Forms.Label()
+        Me.Label364 = New System.Windows.Forms.Label()
+        Me.Label367 = New System.Windows.Forms.Label()
+        Me.TextBox128 = New System.Windows.Forms.TextBox()
+>>>>>>> pre-main
         Me.Panel34 = New System.Windows.Forms.Panel()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Button42 = New System.Windows.Forms.Button()
         Me.Label295 = New System.Windows.Forms.Label()
         Me.Label288 = New System.Windows.Forms.Label()
@@ -884,9 +1038,49 @@ Partial Class INSUMO
         Me.TabPage6 = New System.Windows.Forms.TabPage()
         Me.Panel42 = New System.Windows.Forms.Panel()
         Me.Panel43 = New System.Windows.Forms.Panel()
+<<<<<<< HEAD
         Me.Panel44 = New System.Windows.Forms.Panel()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
+=======
+        Me.ComboBox78 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox80 = New System.Windows.Forms.ComboBox()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.ComboBox81 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox82 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox83 = New System.Windows.Forms.ComboBox()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.Label240 = New System.Windows.Forms.Label()
+        Me.Label368 = New System.Windows.Forms.Label()
+        Me.Label369 = New System.Windows.Forms.Label()
+        Me.Label370 = New System.Windows.Forms.Label()
+        Me.Label371 = New System.Windows.Forms.Label()
+        Me.Label372 = New System.Windows.Forms.Label()
+        Me.ComboBox84 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox85 = New System.Windows.Forms.ComboBox()
+        Me.TextBox129 = New System.Windows.Forms.TextBox()
+        Me.ComboBox86 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox87 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox88 = New System.Windows.Forms.ComboBox()
+        Me.Button41 = New System.Windows.Forms.Button()
+        Me.Panel44 = New System.Windows.Forms.Panel()
+        Me.Label373 = New System.Windows.Forms.Label()
+        Me.Label374 = New System.Windows.Forms.Label()
+        Me.ComboBox89 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox90 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox91 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox131 = New System.Windows.Forms.ComboBox()
+        Me.Label375 = New System.Windows.Forms.Label()
+        Me.Label376 = New System.Windows.Forms.Label()
+        Me.Label377 = New System.Windows.Forms.Label()
+        Me.Label378 = New System.Windows.Forms.Label()
+        Me.Label404 = New System.Windows.Forms.Label()
+        Me.TextBox133 = New System.Windows.Forms.TextBox()
+>>>>>>> pre-main
         Me.Panel45 = New System.Windows.Forms.Panel()
         Me.Label273 = New System.Windows.Forms.Label()
         Me.ComboBox116 = New System.Windows.Forms.ComboBox()
@@ -1246,6 +1440,7 @@ Partial Class INSUMO
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
+<<<<<<< HEAD
         Me.Label178 = New System.Windows.Forms.Label()
         Me.Label196 = New System.Windows.Forms.Label()
         Me.Label197 = New System.Windows.Forms.Label()
@@ -1381,6 +1576,144 @@ Partial Class INSUMO
         Me.TextBox32 = New System.Windows.Forms.TextBox()
         Me.Label164 = New System.Windows.Forms.Label()
         Me.Label422 = New System.Windows.Forms.Label()
+=======
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.DateTimePicker9 = New System.Windows.Forms.DateTimePicker()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label43 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Button56 = New System.Windows.Forms.Button()
+        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.DateTimePicker4 = New System.Windows.Forms.DateTimePicker()
+        Me.Button57 = New System.Windows.Forms.Button()
+        Me.DateTimePicker8 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker19 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker49 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker50 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker51 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker52 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker54 = New System.Windows.Forms.DateTimePicker()
+        Me.TextBox160 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox153 = New System.Windows.Forms.TextBox()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.TextBox147 = New System.Windows.Forms.TextBox()
+        Me.TextBox151 = New System.Windows.Forms.TextBox()
+        Me.TextBox159 = New System.Windows.Forms.TextBox()
+        Me.TextBox152 = New System.Windows.Forms.TextBox()
+        Me.TextBox154 = New System.Windows.Forms.TextBox()
+        Me.TextBox155 = New System.Windows.Forms.TextBox()
+        Me.TextBox156 = New System.Windows.Forms.TextBox()
+        Me.TextBox157 = New System.Windows.Forms.TextBox()
+        Me.TextBox158 = New System.Windows.Forms.TextBox()
+        Me.TextBox161 = New System.Windows.Forms.TextBox()
+        Me.Label67 = New System.Windows.Forms.Label()
+        Me.Label58 = New System.Windows.Forms.Label()
+        Me.Label69 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label49 = New System.Windows.Forms.Label()
+        Me.Label55 = New System.Windows.Forms.Label()
+        Me.Label52 = New System.Windows.Forms.Label()
+        Me.Label51 = New System.Windows.Forms.Label()
+        Me.Label53 = New System.Windows.Forms.Label()
+        Me.RadioButton75 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton90 = New System.Windows.Forms.RadioButton()
+        Me.TextBox162 = New System.Windows.Forms.TextBox()
+        Me.TextBox163 = New System.Windows.Forms.TextBox()
+        Me.TextBox164 = New System.Windows.Forms.TextBox()
+        Me.TextBox165 = New System.Windows.Forms.TextBox()
+        Me.TextBox166 = New System.Windows.Forms.TextBox()
+        Me.TextBox167 = New System.Windows.Forms.TextBox()
+        Me.TextBox168 = New System.Windows.Forms.TextBox()
+        Me.TextBox169 = New System.Windows.Forms.TextBox()
+        Me.TextBox170 = New System.Windows.Forms.TextBox()
+        Me.TextBox171 = New System.Windows.Forms.TextBox()
+        Me.TextBox172 = New System.Windows.Forms.TextBox()
+        Me.TextBox173 = New System.Windows.Forms.TextBox()
+        Me.TextBox174 = New System.Windows.Forms.TextBox()
+        Me.TextBox138 = New System.Windows.Forms.TextBox()
+        Me.TextBox176 = New System.Windows.Forms.TextBox()
+        Me.TextBox177 = New System.Windows.Forms.TextBox()
+        Me.TextBox178 = New System.Windows.Forms.TextBox()
+        Me.TextBox179 = New System.Windows.Forms.TextBox()
+        Me.TextBox180 = New System.Windows.Forms.TextBox()
+        Me.TextBox181 = New System.Windows.Forms.TextBox()
+        Me.TextBox182 = New System.Windows.Forms.TextBox()
+        Me.TextBox183 = New System.Windows.Forms.TextBox()
+        Me.TextBox184 = New System.Windows.Forms.TextBox()
+        Me.TextBox185 = New System.Windows.Forms.TextBox()
+        Me.TextBox186 = New System.Windows.Forms.TextBox()
+        Me.TextBox187 = New System.Windows.Forms.TextBox()
+        Me.TextBox188 = New System.Windows.Forms.TextBox()
+        Me.TextBox189 = New System.Windows.Forms.TextBox()
+        Me.TextBox190 = New System.Windows.Forms.TextBox()
+        Me.TextBox191 = New System.Windows.Forms.TextBox()
+        Me.TextBox192 = New System.Windows.Forms.TextBox()
+        Me.TextBox193 = New System.Windows.Forms.TextBox()
+        Me.TextBox194 = New System.Windows.Forms.TextBox()
+        Me.TextBox195 = New System.Windows.Forms.TextBox()
+        Me.TextBox196 = New System.Windows.Forms.TextBox()
+        Me.TextBox197 = New System.Windows.Forms.TextBox()
+        Me.TextBox198 = New System.Windows.Forms.TextBox()
+        Me.TextBox199 = New System.Windows.Forms.TextBox()
+        Me.TextBox200 = New System.Windows.Forms.TextBox()
+        Me.TextBox201 = New System.Windows.Forms.TextBox()
+        Me.TextBox202 = New System.Windows.Forms.TextBox()
+        Me.TextBox139 = New System.Windows.Forms.TextBox()
+        Me.TextBox140 = New System.Windows.Forms.TextBox()
+        Me.TextBox205 = New System.Windows.Forms.TextBox()
+        Me.TextBox206 = New System.Windows.Forms.TextBox()
+        Me.TextBox141 = New System.Windows.Forms.TextBox()
+        Me.TextBox208 = New System.Windows.Forms.TextBox()
+        Me.TextBox209 = New System.Windows.Forms.TextBox()
+        Me.TextBox210 = New System.Windows.Forms.TextBox()
+        Me.TextBox211 = New System.Windows.Forms.TextBox()
+        Me.TextBox212 = New System.Windows.Forms.TextBox()
+        Me.TextBox213 = New System.Windows.Forms.TextBox()
+        Me.TextBox214 = New System.Windows.Forms.TextBox()
+        Me.TextBox215 = New System.Windows.Forms.TextBox()
+        Me.TextBox216 = New System.Windows.Forms.TextBox()
+        Me.Label54 = New System.Windows.Forms.Label()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Label59 = New System.Windows.Forms.Label()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.Label151 = New System.Windows.Forms.Label()
+        Me.Label322 = New System.Windows.Forms.Label()
+>>>>>>> pre-main
         Me.Label423 = New System.Windows.Forms.Label()
         Me.Label424 = New System.Windows.Forms.Label()
         Me.Label425 = New System.Windows.Forms.Label()
@@ -1388,6 +1721,7 @@ Partial Class INSUMO
         Me.Label427 = New System.Windows.Forms.Label()
         Me.Label428 = New System.Windows.Forms.Label()
         Me.Label429 = New System.Windows.Forms.Label()
+<<<<<<< HEAD
         Me.ComboBox17 = New System.Windows.Forms.ComboBox()
         Me.ComboBox18 = New System.Windows.Forms.ComboBox()
         Me.ComboBox19 = New System.Windows.Forms.ComboBox()
@@ -1406,17 +1740,88 @@ Partial Class INSUMO
         Me.CheckBox42 = New System.Windows.Forms.CheckBox()
         Me.CheckBox43 = New System.Windows.Forms.CheckBox()
         Me.Panel4.SuspendLayout
+=======
+        Me.Label430 = New System.Windows.Forms.Label()
+        Me.Label431 = New System.Windows.Forms.Label()
+        Me.Label432 = New System.Windows.Forms.Label()
+        Me.Label433 = New System.Windows.Forms.Label()
+        Me.Label435 = New System.Windows.Forms.Label()
+        Me.Label436 = New System.Windows.Forms.Label()
+        Me.Label437 = New System.Windows.Forms.Label()
+        Me.Label438 = New System.Windows.Forms.Label()
+        Me.Label439 = New System.Windows.Forms.Label()
+        Me.Label440 = New System.Windows.Forms.Label()
+        Me.Label441 = New System.Windows.Forms.Label()
+        Me.Label442 = New System.Windows.Forms.Label()
+        Me.Label443 = New System.Windows.Forms.Label()
+        Me.Label444 = New System.Windows.Forms.Label()
+        Me.Label445 = New System.Windows.Forms.Label()
+        Me.Label446 = New System.Windows.Forms.Label()
+        Me.Label447 = New System.Windows.Forms.Label()
+        Me.Label448 = New System.Windows.Forms.Label()
+        Me.Label449 = New System.Windows.Forms.Label()
+        Me.Label450 = New System.Windows.Forms.Label()
+        Me.Label451 = New System.Windows.Forms.Label()
+        Me.Label452 = New System.Windows.Forms.Label()
+        Me.Label453 = New System.Windows.Forms.Label()
+        Me.Label454 = New System.Windows.Forms.Label()
+        Me.Label455 = New System.Windows.Forms.Label()
+        Me.Label456 = New System.Windows.Forms.Label()
+        Me.Label457 = New System.Windows.Forms.Label()
+        Me.Label458 = New System.Windows.Forms.Label()
+        Me.Panel85 = New System.Windows.Forms.Panel()
+        Me.PictureBox25 = New System.Windows.Forms.PictureBox()
+        Me.Label459 = New System.Windows.Forms.Label()
+        Me.Panel86 = New System.Windows.Forms.Panel()
+        Me.RadioButton132 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton134 = New System.Windows.Forms.RadioButton()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.Label460 = New System.Windows.Forms.Label()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.Label461 = New System.Windows.Forms.Label()
+        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.DateTimePicker55 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker56 = New System.Windows.Forms.DateTimePicker()
+        Me.Label462 = New System.Windows.Forms.Label()
+        Me.Label463 = New System.Windows.Forms.Label()
+        Me.DateTimePicker57 = New System.Windows.Forms.DateTimePicker()
+        Me.Label464 = New System.Windows.Forms.Label()
+        Me.Label467 = New System.Windows.Forms.Label()
+        Me.TextBox217 = New System.Windows.Forms.TextBox()
+        Me.DateTimePicker58 = New System.Windows.Forms.DateTimePicker()
+        Me.TextBox218 = New System.Windows.Forms.TextBox()
+        Me.DateTimePicker59 = New System.Windows.Forms.DateTimePicker()
+        Me.Label468 = New System.Windows.Forms.Label()
+        Me.TextBox219 = New System.Windows.Forms.TextBox()
+        Me.Label469 = New System.Windows.Forms.Label()
+        Me.Panel87 = New System.Windows.Forms.Panel()
+        Me.Label470 = New System.Windows.Forms.Label()
+        Me.TextBox220 = New System.Windows.Forms.TextBox()
+        Me.Label471 = New System.Windows.Forms.Label()
+        Me.TextBox221 = New System.Windows.Forms.TextBox()
+        Me.TextBox222 = New System.Windows.Forms.TextBox()
+        Me.TextBox223 = New System.Windows.Forms.TextBox()
+        Me.TextBox224 = New System.Windows.Forms.TextBox()
+        Me.Label472 = New System.Windows.Forms.Label()
+        Me.Label473 = New System.Windows.Forms.Label()
+        Me.Label474 = New System.Windows.Forms.Label()
+        Me.ComboBox8 = New System.Windows.Forms.ComboBox()
+        Me.Label475 = New System.Windows.Forms.Label()
+        Me.Panel88 = New System.Windows.Forms.Panel()
+        Me.Label476 = New System.Windows.Forms.Label()
+        Me.Button58 = New System.Windows.Forms.Button()
+>>>>>>> pre-main
         Me.TabPage1.SuspendLayout
-        Me.Panel3.SuspendLayout
         Me.Panel7.SuspendLayout
         Me.Panel8.SuspendLayout
         Me.Panel5.SuspendLayout
         Me.Panel6.SuspendLayout
         Me.TabPage2.SuspendLayout
         Me.Panel40.SuspendLayout
-        Me.Panel41.SuspendLayout
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel26.SuspendLayout
         Me.Panel27.SuspendLayout
+        Me.Panel41.SuspendLayout
         Me.Panel24.SuspendLayout
         Me.Panel25.SuspendLayout
         Me.Panel22.SuspendLayout
@@ -1470,6 +1875,7 @@ Partial Class INSUMO
         Me.Panel137.SuspendLayout
         Me.Panel144.SuspendLayout
         Me.Panel31.SuspendLayout
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel38.SuspendLayout
         Me.Panel39.SuspendLayout
         Me.Panel30.SuspendLayout
@@ -1480,6 +1886,8 @@ Partial Class INSUMO
         Me.Panel32.SuspendLayout
         Me.TabPage5.SuspendLayout
         Me.Panel9.SuspendLayout
+        Me.Panel75.SuspendLayout
+        Me.Panel76.SuspendLayout
         Me.Panel59.SuspendLayout
         Me.Panel60.SuspendLayout
         Me.Panel61.SuspendLayout
@@ -1514,6 +1922,10 @@ Partial Class INSUMO
         Me.Panel69.SuspendLayout
         Me.Panel70.SuspendLayout
         Me.Panel71.SuspendLayout
+<<<<<<< HEAD
+=======
+        Me.Panel67.SuspendLayout
+>>>>>>> pre-main
         Me.TabPage8.SuspendLayout
         Me.TabControl2.SuspendLayout
         Me.TabPage9.SuspendLayout
@@ -1553,6 +1965,7 @@ Partial Class INSUMO
         Me.Panel13.SuspendLayout
         Me.Panel14.SuspendLayout
         Me.Panel34.SuspendLayout
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel35.SuspendLayout
         Me.Panel29.SuspendLayout
         Me.Panel36.SuspendLayout
@@ -1621,582 +2034,30 @@ Partial Class INSUMO
         Me.Panel145.SuspendLayout
         Me.Panel146.SuspendLayout
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel3.SuspendLayout
+        Me.Panel4.SuspendLayout
+        Me.Panel85.SuspendLayout
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel86.SuspendLayout
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel87.SuspendLayout
+        Me.Panel88.SuspendLayout
         Me.SuspendLayout
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(837, 6)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(192, 33)
-        Me.Label4.TabIndex = 6
-        Me.Label4.Text = "PROVEEDOR"
-        '
-        'Panel4
-        '
-        Me.Panel4.BackColor = System.Drawing.Color.MediumTurquoise
-        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel4.Controls.Add(Me.Label4)
-        Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel4.Location = New System.Drawing.Point(0, 0)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1854, 43)
-        Me.Panel4.TabIndex = 0
         '
         'TabPage1
         '
         Me.TabPage1.BackColor = System.Drawing.Color.Silver
         Me.TabPage1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TabPage1.Controls.Add(Me.Panel3)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage1.Controls.Add(Me.Panel5)
+        Me.TabPage1.Controls.Add(Me.Panel7)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 33)
         Me.TabPage1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage1.Size = New System.Drawing.Size(1888, 2146)
+        Me.TabPage1.Size = New System.Drawing.Size(1888, 2155)
         Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "Proveedor /"
-        '
-        'Panel3
-        '
-        Me.Panel3.BackColor = System.Drawing.Color.PaleTurquoise
-        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel3.Controls.Add(Me.DateTimePicker3)
-        Me.Panel3.Controls.Add(Me.DateTimePicker2)
-        Me.Panel3.Controls.Add(Me.DateTimePicker1)
-        Me.Panel3.Controls.Add(Me.DateTimePicker19)
-        Me.Panel3.Controls.Add(Me.CheckBox3)
-        Me.Panel3.Controls.Add(Me.CheckBox2)
-        Me.Panel3.Controls.Add(Me.CheckBox1)
-        Me.Panel3.Controls.Add(Me.CheckBox24)
-        Me.Panel3.Controls.Add(Me.TextBox10)
-        Me.Panel3.Controls.Add(Me.TextBox8)
-        Me.Panel3.Controls.Add(Me.TextBox6)
-        Me.Panel3.Controls.Add(Me.TextBox2)
-        Me.Panel3.Controls.Add(Me.TextBox9)
-        Me.Panel3.Controls.Add(Me.TextBox7)
-        Me.Panel3.Controls.Add(Me.TextBox4)
-        Me.Panel3.Controls.Add(Me.TextBox147)
-        Me.Panel3.Controls.Add(Me.ComboBox11)
-        Me.Panel3.Controls.Add(Me.ComboBox10)
-        Me.Panel3.Controls.Add(Me.ComboBox9)
-        Me.Panel3.Controls.Add(Me.ComboBox1)
-        Me.Panel3.Controls.Add(Me.Label60)
-        Me.Panel3.Controls.Add(Me.Label57)
-        Me.Panel3.Controls.Add(Me.Label54)
-        Me.Panel3.Controls.Add(Me.Label50)
-        Me.Panel3.Controls.Add(Me.Label58)
-        Me.Panel3.Controls.Add(Me.Label59)
-        Me.Panel3.Controls.Add(Me.Label56)
-        Me.Panel3.Controls.Add(Me.Label48)
-        Me.Panel3.Controls.Add(Me.Label53)
-        Me.Panel3.Controls.Add(Me.Label49)
-        Me.Panel3.Controls.Add(Me.Label55)
-        Me.Panel3.Controls.Add(Me.Label52)
-        Me.Panel3.Controls.Add(Me.Label51)
-        Me.Panel3.Controls.Add(Me.Label322)
-        Me.Panel3.Controls.Add(Me.ComboBox153)
-        Me.Panel3.Controls.Add(Me.DateTimePicker4)
-        Me.Panel3.Controls.Add(Me.RadioButton2)
-        Me.Panel3.Controls.Add(Me.RadioButton1)
-        Me.Panel3.Controls.Add(Me.Label66)
-        Me.Panel3.Controls.Add(Me.Label151)
-        Me.Panel3.Controls.Add(Me.Panel7)
-        Me.Panel3.Controls.Add(Me.Panel5)
-        Me.Panel3.Controls.Add(Me.DateTimePicker9)
-        Me.Panel3.Controls.Add(Me.RadioButton75)
-        Me.Panel3.Controls.Add(Me.RadioButton90)
-        Me.Panel3.Controls.Add(Me.CheckBox13)
-        Me.Panel3.Controls.Add(Me.CheckBox12)
-        Me.Panel3.Controls.Add(Me.CheckBox11)
-        Me.Panel3.Controls.Add(Me.CheckBox10)
-        Me.Panel3.Controls.Add(Me.CheckBox9)
-        Me.Panel3.Controls.Add(Me.CheckBox8)
-        Me.Panel3.Controls.Add(Me.CheckBox7)
-        Me.Panel3.Controls.Add(Me.CheckBox6)
-        Me.Panel3.Controls.Add(Me.TextBox3)
-        Me.Panel3.Controls.Add(Me.TextBox1)
-        Me.Panel3.Controls.Add(Me.TextBox5)
-        Me.Panel3.Controls.Add(Me.ComboBox15)
-        Me.Panel3.Controls.Add(Me.ComboBox14)
-        Me.Panel3.Controls.Add(Me.ComboBox8)
-        Me.Panel3.Controls.Add(Me.ComboBox3)
-        Me.Panel3.Controls.Add(Me.ComboBox6)
-        Me.Panel3.Controls.Add(Me.ComboBox4)
-        Me.Panel3.Controls.Add(Me.ComboBox2)
-        Me.Panel3.Controls.Add(Me.ComboBox7)
-        Me.Panel3.Controls.Add(Me.ComboBox141)
-        Me.Panel3.Controls.Add(Me.Label42)
-        Me.Panel3.Controls.Add(Me.Panel4)
-        Me.Panel3.Controls.Add(Me.Label18)
-        Me.Panel3.Controls.Add(Me.Label47)
-        Me.Panel3.Controls.Add(Me.Label9)
-        Me.Panel3.Controls.Add(Me.Label43)
-        Me.Panel3.Controls.Add(Me.Label68)
-        Me.Panel3.Controls.Add(Me.Label69)
-        Me.Panel3.Controls.Add(Me.Label67)
-        Me.Panel3.Controls.Add(Me.Label45)
-        Me.Panel3.Controls.Add(Me.Label8)
-        Me.Panel3.Controls.Add(Me.Label44)
-        Me.Panel3.Controls.Add(Me.Label41)
-        Me.Panel3.Location = New System.Drawing.Point(7, 7)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1858, 925)
-        Me.Panel3.TabIndex = 155
-        '
-        'DateTimePicker3
-        '
-        Me.DateTimePicker3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker3.Location = New System.Drawing.Point(1650, 344)
-        Me.DateTimePicker3.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker3.Name = "DateTimePicker3"
-        Me.DateTimePicker3.Size = New System.Drawing.Size(175, 35)
-        Me.DateTimePicker3.TabIndex = 200
-        '
-        'DateTimePicker2
-        '
-        Me.DateTimePicker2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker2.Location = New System.Drawing.Point(1651, 299)
-        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(175, 35)
-        Me.DateTimePicker2.TabIndex = 199
-        '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(1650, 254)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(175, 35)
-        Me.DateTimePicker1.TabIndex = 198
-        '
-        'DateTimePicker19
-        '
-        Me.DateTimePicker19.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker19.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker19.Location = New System.Drawing.Point(1650, 209)
-        Me.DateTimePicker19.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker19.Name = "DateTimePicker19"
-        Me.DateTimePicker19.Size = New System.Drawing.Size(175, 35)
-        Me.DateTimePicker19.TabIndex = 197
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox3.Location = New System.Drawing.Point(1511, 345)
-        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(119, 33)
-        Me.CheckBox3.TabIndex = 196
-        Me.CheckBox3.Text = "Enviar:"
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox2.Location = New System.Drawing.Point(1512, 300)
-        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(119, 33)
-        Me.CheckBox2.TabIndex = 195
-        Me.CheckBox2.Text = "Enviar:"
-        Me.CheckBox2.UseVisualStyleBackColor = True
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(1511, 255)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(119, 33)
-        Me.CheckBox1.TabIndex = 194
-        Me.CheckBox1.Text = "Enviar:"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
-        'CheckBox24
-        '
-        Me.CheckBox24.AutoSize = True
-        Me.CheckBox24.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox24.Location = New System.Drawing.Point(1511, 210)
-        Me.CheckBox24.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox24.Name = "CheckBox24"
-        Me.CheckBox24.Size = New System.Drawing.Size(119, 33)
-        Me.CheckBox24.TabIndex = 193
-        Me.CheckBox24.Text = "Enviar:"
-        Me.CheckBox24.UseVisualStyleBackColor = True
-        '
-        'TextBox10
-        '
-        Me.TextBox10.BackColor = System.Drawing.Color.White
-        Me.TextBox10.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox10.Location = New System.Drawing.Point(1003, 344)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(483, 35)
-        Me.TextBox10.TabIndex = 191
-        Me.TextBox10.Text = "farmaceutica paraguaya@fapasa.com.py"
-        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox8
-        '
-        Me.TextBox8.BackColor = System.Drawing.Color.White
-        Me.TextBox8.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox8.Location = New System.Drawing.Point(1003, 299)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(483, 35)
-        Me.TextBox8.TabIndex = 190
-        Me.TextBox8.Text = "farmaceutica paraguaya@fapasa.com.py"
-        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox6
-        '
-        Me.TextBox6.BackColor = System.Drawing.Color.White
-        Me.TextBox6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox6.Location = New System.Drawing.Point(1003, 254)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(483, 35)
-        Me.TextBox6.TabIndex = 189
-        Me.TextBox6.Text = "farmaceutica paraguaya@fapasa.com.py"
-        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.Color.White
-        Me.TextBox2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox2.Location = New System.Drawing.Point(1003, 209)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(483, 35)
-        Me.TextBox2.TabIndex = 188
-        Me.TextBox2.Text = "farmaceutica paraguaya@fapasa.com.py"
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox9
-        '
-        Me.TextBox9.BackColor = System.Drawing.Color.White
-        Me.TextBox9.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox9.Location = New System.Drawing.Point(637, 344)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(253, 35)
-        Me.TextBox9.TabIndex = 187
-        Me.TextBox9.Text = "+595 981 123456789"
-        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox7
-        '
-        Me.TextBox7.BackColor = System.Drawing.Color.White
-        Me.TextBox7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox7.Location = New System.Drawing.Point(637, 299)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(253, 35)
-        Me.TextBox7.TabIndex = 186
-        Me.TextBox7.Text = "+595 981 123456789"
-        Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox4
-        '
-        Me.TextBox4.BackColor = System.Drawing.Color.White
-        Me.TextBox4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox4.Location = New System.Drawing.Point(637, 254)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(253, 35)
-        Me.TextBox4.TabIndex = 185
-        Me.TextBox4.Text = "+595 981 123456789"
-        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox147
-        '
-        Me.TextBox147.BackColor = System.Drawing.Color.White
-        Me.TextBox147.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox147.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox147.Location = New System.Drawing.Point(637, 209)
-        Me.TextBox147.Name = "TextBox147"
-        Me.TextBox147.Size = New System.Drawing.Size(253, 35)
-        Me.TextBox147.TabIndex = 192
-        Me.TextBox147.Text = "+595 981 123456789"
-        Me.TextBox147.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'ComboBox11
-        '
-        Me.ComboBox11.BackColor = System.Drawing.Color.White
-        Me.ComboBox11.DropDownWidth = 272
-        Me.ComboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox11.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox11.FormattingEnabled = True
-        Me.ComboBox11.Items.AddRange(New Object() {"Juan Carlos Gonzalez Ferreiro"})
-        Me.ComboBox11.Location = New System.Drawing.Point(215, 343)
-        Me.ComboBox11.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox11.Name = "ComboBox11"
-        Me.ComboBox11.Size = New System.Drawing.Size(307, 37)
-        Me.ComboBox11.TabIndex = 184
-        '
-        'ComboBox10
-        '
-        Me.ComboBox10.BackColor = System.Drawing.Color.White
-        Me.ComboBox10.DropDownWidth = 272
-        Me.ComboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox10.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox10.FormattingEnabled = True
-        Me.ComboBox10.Items.AddRange(New Object() {"Juan Carlos Gonzalez Ferreiro"})
-        Me.ComboBox10.Location = New System.Drawing.Point(215, 298)
-        Me.ComboBox10.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox10.Name = "ComboBox10"
-        Me.ComboBox10.Size = New System.Drawing.Size(307, 37)
-        Me.ComboBox10.TabIndex = 183
-        '
-        'ComboBox9
-        '
-        Me.ComboBox9.BackColor = System.Drawing.Color.White
-        Me.ComboBox9.DropDownWidth = 272
-        Me.ComboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox9.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox9.FormattingEnabled = True
-        Me.ComboBox9.Items.AddRange(New Object() {"Juan Carlos Gonzalez Ferreiro"})
-        Me.ComboBox9.Location = New System.Drawing.Point(215, 253)
-        Me.ComboBox9.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox9.Name = "ComboBox9"
-        Me.ComboBox9.Size = New System.Drawing.Size(307, 37)
-        Me.ComboBox9.TabIndex = 182
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.BackColor = System.Drawing.Color.White
-        Me.ComboBox1.DropDownWidth = 272
-        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Juan Carlos Gonzalez Ferreiro"})
-        Me.ComboBox1.Location = New System.Drawing.Point(215, 208)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(307, 37)
-        Me.ComboBox1.TabIndex = 181
-        '
-        'Label60
-        '
-        Me.Label60.AutoSize = True
-        Me.Label60.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label60.Location = New System.Drawing.Point(916, 347)
-        Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(81, 29)
-        Me.Label60.TabIndex = 179
-        Me.Label60.Text = "email:"
-        '
-        'Label57
-        '
-        Me.Label57.AutoSize = True
-        Me.Label57.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(916, 302)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(81, 29)
-        Me.Label57.TabIndex = 178
-        Me.Label57.Text = "email:"
-        '
-        'Label54
-        '
-        Me.Label54.AutoSize = True
-        Me.Label54.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.Location = New System.Drawing.Point(916, 257)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(81, 29)
-        Me.Label54.TabIndex = 177
-        Me.Label54.Text = "email:"
-        '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(916, 212)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(81, 29)
-        Me.Label50.TabIndex = 176
-        Me.Label50.Text = "email:"
-        '
-        'Label58
-        '
-        Me.Label58.AutoSize = True
-        Me.Label58.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(87, 347)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(119, 29)
-        Me.Label58.TabIndex = 175
-        Me.Label58.Text = "Reclamo:"
-        '
-        'Label59
-        '
-        Me.Label59.AutoSize = True
-        Me.Label59.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.Location = New System.Drawing.Point(530, 347)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(101, 29)
-        Me.Label59.TabIndex = 174
-        Me.Label59.Text = "Celular:"
-        '
-        'Label56
-        '
-        Me.Label56.AutoSize = True
-        Me.Label56.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.Location = New System.Drawing.Point(530, 302)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(101, 29)
-        Me.Label56.TabIndex = 173
-        Me.Label56.Text = "Celular:"
-        '
-        'Label48
-        '
-        Me.Label48.AutoSize = True
-        Me.Label48.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.Location = New System.Drawing.Point(530, 257)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(101, 29)
-        Me.Label48.TabIndex = 172
-        Me.Label48.Text = "Celular:"
-        '
-        'Label53
-        '
-        Me.Label53.AutoSize = True
-        Me.Label53.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(530, 257)
-        Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(101, 29)
-        Me.Label53.TabIndex = 171
-        Me.Label53.Text = "Celular:"
-        '
-        'Label49
-        '
-        Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(530, 212)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(101, 29)
-        Me.Label49.TabIndex = 170
-        Me.Label49.Text = "Celular:"
-        '
-        'Label55
-        '
-        Me.Label55.AutoSize = True
-        Me.Label55.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(124, 302)
-        Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(84, 29)
-        Me.Label55.TabIndex = 169
-        Me.Label55.Text = "Venta:"
-        '
-        'Label52
-        '
-        Me.Label52.AutoSize = True
-        Me.Label52.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(97, 212)
-        Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(111, 29)
-        Me.Label52.TabIndex = 180
-        Me.Label52.Text = "Director:"
-        '
-        'Label51
-        '
-        Me.Label51.AutoSize = True
-        Me.Label51.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(20, 257)
-        Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(189, 29)
-        Me.Label51.TabIndex = 168
-        Me.Label51.Text = "Gte. Comercial:"
-        '
-        'Label322
-        '
-        Me.Label322.AutoSize = True
-        Me.Label322.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label322.Location = New System.Drawing.Point(1496, 170)
-        Me.Label322.Name = "Label322"
-        Me.Label322.Size = New System.Drawing.Size(96, 29)
-        Me.Label322.TabIndex = 166
-        Me.Label322.Text = "Puerto:"
-        '
-        'ComboBox153
-        '
-        Me.ComboBox153.BackColor = System.Drawing.Color.White
-        Me.ComboBox153.DropDownWidth = 272
-        Me.ComboBox153.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox153.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox153.FormattingEnabled = True
-        Me.ComboBox153.Items.AddRange(New Object() {"Puerto FENIX", "Puerto SEGURO", "Puerto ", "Puerto ", "Puerto ", "Puerto ", "", "Colocar el listado de puertos con qu trabajamos"})
-        Me.ComboBox153.Location = New System.Drawing.Point(1597, 163)
-        Me.ComboBox153.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox153.Name = "ComboBox153"
-        Me.ComboBox153.Size = New System.Drawing.Size(227, 37)
-        Me.ComboBox153.TabIndex = 167
-        '
-        'DateTimePicker4
-        '
-        Me.DateTimePicker4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker4.Location = New System.Drawing.Point(1653, 122)
-        Me.DateTimePicker4.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker4.Name = "DateTimePicker4"
-        Me.DateTimePicker4.Size = New System.Drawing.Size(173, 35)
-        Me.DateTimePicker4.TabIndex = 156
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton2.Location = New System.Drawing.Point(1761, 87)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(70, 33)
-        Me.RadioButton2.TabIndex = 165
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "No"
-        Me.RadioButton2.UseVisualStyleBackColor = False
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton1.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton1.Location = New System.Drawing.Point(1692, 87)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(61, 33)
-        Me.RadioButton1.TabIndex = 164
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Si"
-        Me.RadioButton1.UseVisualStyleBackColor = False
-        '
-        'Label66
-        '
-        Me.Label66.AutoSize = True
-        Me.Label66.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.Location = New System.Drawing.Point(1382, 125)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(270, 29)
-        Me.Label66.TabIndex = 21
-        Me.Label66.Text = "Recibe Pedidos Hasta:"
-        '
-        'Label151
-        '
-        Me.Label151.AutoSize = True
-        Me.Label151.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label151.Location = New System.Drawing.Point(1599, 89)
-        Me.Label151.Name = "Label151"
-        Me.Label151.Size = New System.Drawing.Size(84, 29)
-        Me.Label151.TabIndex = 163
-        Me.Label151.Text = "Envia:"
+        Me.TabPage1.Text = "Proveedor INSU /"
         '
         'Panel7
         '
@@ -2228,7 +2089,11 @@ Partial Class INSUMO
         Me.Panel7.Controls.Add(Me.Label234)
         Me.Panel7.Controls.Add(Me.Label233)
         Me.Panel7.Controls.Add(Me.Panel8)
+<<<<<<< HEAD
         Me.Panel7.Location = New System.Drawing.Point(13, 645)
+=======
+        Me.Panel7.Location = New System.Drawing.Point(3, 1129)
+>>>>>>> pre-main
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(1823, 261)
         Me.Panel7.TabIndex = 156
@@ -2594,6 +2459,7 @@ Partial Class INSUMO
         '
         Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+<<<<<<< HEAD
         Me.Panel5.Controls.Add(Me.Button53)
         Me.Panel5.Controls.Add(Me.Button69)
         Me.Panel5.Controls.Add(Me.Button70)
@@ -2603,8 +2469,10 @@ Partial Class INSUMO
         Me.Panel5.Controls.Add(Me.Label324)
         Me.Panel5.Controls.Add(Me.RadioButton72)
         Me.Panel5.Controls.Add(Me.DateTimePicker8)
+=======
+>>>>>>> pre-main
         Me.Panel5.Controls.Add(Me.DateTimePicker11)
-        Me.Panel5.Controls.Add(Me.Label74)
+        Me.Panel5.Controls.Add(Me.Label324)
         Me.Panel5.Controls.Add(Me.Label72)
         Me.Panel5.Controls.Add(Me.DateTimePicker10)
         Me.Panel5.Controls.Add(Me.Label36)
@@ -2616,11 +2484,15 @@ Partial Class INSUMO
         Me.Panel5.Controls.Add(Me.Label73)
         Me.Panel5.Controls.Add(Me.Label71)
         Me.Panel5.Controls.Add(Me.Panel6)
-        Me.Panel5.Location = New System.Drawing.Point(15, 450)
+        Me.Panel5.Controls.Add(Me.CheckBox41)
+        Me.Panel5.Controls.Add(Me.CheckBox40)
+        Me.Panel5.Controls.Add(Me.CheckBox39)
+        Me.Panel5.Location = New System.Drawing.Point(3, 955)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(1823, 181)
         Me.Panel5.TabIndex = 160
         '
+<<<<<<< HEAD
         'RadioButton70
         '
         Me.RadioButton70.AutoSize = True
@@ -2697,18 +2569,21 @@ Partial Class INSUMO
         Me.DateTimePicker8.Size = New System.Drawing.Size(173, 35)
         Me.DateTimePicker8.TabIndex = 156
         '
+=======
+>>>>>>> pre-main
         'DateTimePicker11
         '
         Me.DateTimePicker11.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker11.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker11.Location = New System.Drawing.Point(305, 101)
+        Me.DateTimePicker11.Location = New System.Drawing.Point(305, 94)
         Me.DateTimePicker11.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker11.Name = "DateTimePicker11"
         Me.DateTimePicker11.Size = New System.Drawing.Size(147, 35)
         Me.DateTimePicker11.TabIndex = 156
         '
-        'Label74
+        'Label324
         '
+<<<<<<< HEAD
         Me.Label74.AutoSize = True
         Me.Label74.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label74.Location = New System.Drawing.Point(847, 58)
@@ -2716,12 +2591,20 @@ Partial Class INSUMO
         Me.Label74.Size = New System.Drawing.Size(196, 29)
         Me.Label74.TabIndex = 21
         Me.Label74.Text = "Recibo hasta el:"
+=======
+        Me.Label324.AutoSize = True
+        Me.Label324.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label324.Location = New System.Drawing.Point(463, 100)
+        Me.Label324.Name = "Label324"
+        Me.Label324.Size = New System.Drawing.Size(0, 29)
+        Me.Label324.TabIndex = 21
+>>>>>>> pre-main
         '
         'Label72
         '
         Me.Label72.AutoSize = True
         Me.Label72.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.Location = New System.Drawing.Point(467, 104)
+        Me.Label72.Location = New System.Drawing.Point(488, 97)
         Me.Label72.Name = "Label72"
         Me.Label72.Size = New System.Drawing.Size(284, 29)
         Me.Label72.TabIndex = 21
@@ -2731,7 +2614,7 @@ Partial Class INSUMO
         '
         Me.DateTimePicker10.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker10.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker10.Location = New System.Drawing.Point(130, 101)
+        Me.DateTimePicker10.Location = New System.Drawing.Point(130, 94)
         Me.DateTimePicker10.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker10.Name = "DateTimePicker10"
         Me.DateTimePicker10.Size = New System.Drawing.Size(147, 35)
@@ -2750,7 +2633,7 @@ Partial Class INSUMO
         '
         Me.Label70.AutoSize = True
         Me.Label70.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.Location = New System.Drawing.Point(492, 60)
+        Me.Label70.Location = New System.Drawing.Point(513, 53)
         Me.Label70.Name = "Label70"
         Me.Label70.Size = New System.Drawing.Size(259, 29)
         Me.Label70.TabIndex = 21
@@ -2761,7 +2644,7 @@ Partial Class INSUMO
         Me.TextBox16.BackColor = System.Drawing.Color.White
         Me.TextBox16.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox16.ForeColor = System.Drawing.Color.Black
-        Me.TextBox16.Location = New System.Drawing.Point(758, 101)
+        Me.TextBox16.Location = New System.Drawing.Point(779, 94)
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(53, 35)
         Me.TextBox16.TabIndex = 157
@@ -2772,7 +2655,7 @@ Partial Class INSUMO
         '
         Me.DateTimePicker7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker7.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker7.Location = New System.Drawing.Point(305, 57)
+        Me.DateTimePicker7.Location = New System.Drawing.Point(305, 50)
         Me.DateTimePicker7.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker7.Name = "DateTimePicker7"
         Me.DateTimePicker7.Size = New System.Drawing.Size(147, 35)
@@ -2783,7 +2666,7 @@ Partial Class INSUMO
         Me.TextBox15.BackColor = System.Drawing.Color.White
         Me.TextBox15.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox15.ForeColor = System.Drawing.Color.Black
-        Me.TextBox15.Location = New System.Drawing.Point(758, 57)
+        Me.TextBox15.Location = New System.Drawing.Point(779, 50)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(53, 35)
         Me.TextBox15.TabIndex = 157
@@ -2795,7 +2678,7 @@ Partial Class INSUMO
         Me.DateTimePicker6.CalendarForeColor = System.Drawing.Color.Magenta
         Me.DateTimePicker6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker6.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker6.Location = New System.Drawing.Point(130, 57)
+        Me.DateTimePicker6.Location = New System.Drawing.Point(130, 50)
         Me.DateTimePicker6.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker6.Name = "DateTimePicker6"
         Me.DateTimePicker6.Size = New System.Drawing.Size(147, 35)
@@ -2805,7 +2688,7 @@ Partial Class INSUMO
         '
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(13, 60)
+        Me.Label73.Location = New System.Drawing.Point(13, 53)
         Me.Label73.Name = "Label73"
         Me.Label73.Size = New System.Drawing.Size(110, 29)
         Me.Label73.TabIndex = 21
@@ -2815,7 +2698,7 @@ Partial Class INSUMO
         '
         Me.Label71.AutoSize = True
         Me.Label71.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(40, 104)
+        Me.Label71.Location = New System.Drawing.Point(40, 97)
         Me.Label71.Name = "Label71"
         Me.Label71.Size = New System.Drawing.Size(83, 29)
         Me.Label71.TabIndex = 21
@@ -2843,6 +2726,7 @@ Partial Class INSUMO
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "HORARIO RECEPCION"
         '
+<<<<<<< HEAD
         'DateTimePicker9
         '
         Me.DateTimePicker9.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -3257,17 +3141,54 @@ Partial Class INSUMO
         Me.Label41.Size = New System.Drawing.Size(129, 29)
         Me.Label41.TabIndex = 21
         Me.Label41.Text = "Direccion:"
+=======
+        'CheckBox41
+        '
+        Me.CheckBox41.AutoSize = True
+        Me.CheckBox41.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox41.Location = New System.Drawing.Point(866, 118)
+        Me.CheckBox41.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox41.Name = "CheckBox41"
+        Me.CheckBox41.Size = New System.Drawing.Size(255, 33)
+        Me.CheckBox41.TabIndex = 158
+        Me.CheckBox41.Text = "Envia el Proveedor"
+        Me.CheckBox41.UseVisualStyleBackColor = True
+        '
+        'CheckBox40
+        '
+        Me.CheckBox40.AutoSize = True
+        Me.CheckBox40.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox40.Location = New System.Drawing.Point(866, 84)
+        Me.CheckBox40.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox40.Name = "CheckBox40"
+        Me.CheckBox40.Size = New System.Drawing.Size(288, 33)
+        Me.CheckBox40.TabIndex = 158
+        Me.CheckBox40.Text = "Recibe porton  Frente"
+        Me.CheckBox40.UseVisualStyleBackColor = True
+        '
+        'CheckBox39
+        '
+        Me.CheckBox39.AutoSize = True
+        Me.CheckBox39.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox39.Location = New System.Drawing.Point(866, 50)
+        Me.CheckBox39.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox39.Name = "CheckBox39"
+        Me.CheckBox39.Size = New System.Drawing.Size(369, 33)
+        Me.CheckBox39.TabIndex = 158
+        Me.CheckBox39.Text = "Presentar Factura Recepcion"
+        Me.CheckBox39.UseVisualStyleBackColor = True
+>>>>>>> pre-main
         '
         'TabPage2
         '
         Me.TabPage2.BackColor = System.Drawing.Color.Silver
         Me.TabPage2.Controls.Add(Me.Panel40)
         Me.TabPage2.ForeColor = System.Drawing.Color.Black
-        Me.TabPage2.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 33)
         Me.TabPage2.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage2.Size = New System.Drawing.Size(1888, 2146)
+        Me.TabPage2.Size = New System.Drawing.Size(1888, 2155)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Contabilidad /"
         '
@@ -3275,9 +3196,14 @@ Partial Class INSUMO
         '
         Me.Panel40.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+<<<<<<< HEAD
         Me.Panel40.Controls.Add(Me.Button71)
         Me.Panel40.Controls.Add(Me.Button72)
         Me.Panel40.Controls.Add(Me.Button73)
+=======
+        Me.Panel40.Controls.Add(Me.PictureBox2)
+        Me.Panel40.Controls.Add(Me.Panel26)
+>>>>>>> pre-main
         Me.Panel40.Controls.Add(Me.DateTimePicker22)
         Me.Panel40.Controls.Add(Me.DateTimePicker16)
         Me.Panel40.Controls.Add(Me.Panel41)
@@ -3286,7 +3212,6 @@ Partial Class INSUMO
         Me.Panel40.Controls.Add(Me.Button19)
         Me.Panel40.Controls.Add(Me.Button32)
         Me.Panel40.Controls.Add(Me.Button18)
-        Me.Panel40.Controls.Add(Me.Panel26)
         Me.Panel40.Controls.Add(Me.Button14)
         Me.Panel40.Controls.Add(Me.Button13)
         Me.Panel40.Controls.Add(Me.Button36)
@@ -3296,6 +3221,545 @@ Partial Class INSUMO
         Me.Panel40.Name = "Panel40"
         Me.Panel40.Size = New System.Drawing.Size(1837, 927)
         Me.Panel40.TabIndex = 169
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(266, 296)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(380, 521)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 610
+        Me.PictureBox2.TabStop = False
+        '
+        'Panel26
+        '
+        Me.Panel26.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel26.Controls.Add(Me.ComboBox5)
+        Me.Panel26.Controls.Add(Me.ComboBox16)
+        Me.Panel26.Controls.Add(Me.TextBox32)
+        Me.Panel26.Controls.Add(Me.ComboBox17)
+        Me.Panel26.Controls.Add(Me.ComboBox18)
+        Me.Panel26.Controls.Add(Me.ComboBox19)
+        Me.Panel26.Controls.Add(Me.Label64)
+        Me.Panel26.Controls.Add(Me.Label74)
+        Me.Panel26.Controls.Add(Me.Label161)
+        Me.Panel26.Controls.Add(Me.Label162)
+        Me.Panel26.Controls.Add(Me.Label164)
+        Me.Panel26.Controls.Add(Me.Label194)
+        Me.Panel26.Controls.Add(Me.Label195)
+        Me.Panel26.Controls.Add(Me.Label393)
+        Me.Panel26.Controls.Add(Me.Label394)
+        Me.Panel26.Controls.Add(Me.Label395)
+        Me.Panel26.Controls.Add(Me.Label396)
+        Me.Panel26.Controls.Add(Me.ComboBox20)
+        Me.Panel26.Controls.Add(Me.ComboBox21)
+        Me.Panel26.Controls.Add(Me.TextBox131)
+        Me.Panel26.Controls.Add(Me.ComboBox22)
+        Me.Panel26.Controls.Add(Me.ComboBox23)
+        Me.Panel26.Controls.Add(Me.ComboBox24)
+        Me.Panel26.Controls.Add(Me.Button10)
+        Me.Panel26.Controls.Add(Me.Panel27)
+        Me.Panel26.Controls.Add(Me.ComboBox25)
+        Me.Panel26.Controls.Add(Me.ComboBox26)
+        Me.Panel26.Controls.Add(Me.ComboBox27)
+        Me.Panel26.Controls.Add(Me.ComboBox28)
+        Me.Panel26.Controls.Add(Me.Label399)
+        Me.Panel26.Controls.Add(Me.Label400)
+        Me.Panel26.Controls.Add(Me.Label401)
+        Me.Panel26.Controls.Add(Me.Label402)
+        Me.Panel26.Controls.Add(Me.Label403)
+        Me.Panel26.Controls.Add(Me.TextBox132)
+        Me.Panel26.Location = New System.Drawing.Point(11, 49)
+        Me.Panel26.Name = "Panel26"
+        Me.Panel26.Size = New System.Drawing.Size(1813, 254)
+        Me.Panel26.TabIndex = 206
+        '
+        'ComboBox5
+        '
+        Me.ComboBox5.BackColor = System.Drawing.Color.White
+        Me.ComboBox5.DropDownWidth = 272
+        Me.ComboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox5.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox5.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Items.AddRange(New Object() {"(PAIS)"})
+        Me.ComboBox5.Location = New System.Drawing.Point(254, 69)
+        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(56, 37)
+        Me.ComboBox5.TabIndex = 190
+        '
+        'ComboBox16
+        '
+        Me.ComboBox16.BackColor = System.Drawing.Color.White
+        Me.ComboBox16.DropDownWidth = 272
+        Me.ComboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox16.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox16.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox16.FormattingEnabled = True
+        Me.ComboBox16.Items.AddRange(New Object() {"(PAIS)"})
+        Me.ComboBox16.Location = New System.Drawing.Point(324, 69)
+        Me.ComboBox16.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox16.Name = "ComboBox16"
+        Me.ComboBox16.Size = New System.Drawing.Size(86, 37)
+        Me.ComboBox16.TabIndex = 184
+        '
+        'TextBox32
+        '
+        Me.TextBox32.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox32.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox32.Location = New System.Drawing.Point(1638, 63)
+        Me.TextBox32.Name = "TextBox32"
+        Me.TextBox32.Size = New System.Drawing.Size(143, 35)
+        Me.TextBox32.TabIndex = 179
+        Me.TextBox32.Text = "0.000.000"
+        Me.TextBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'ComboBox17
+        '
+        Me.ComboBox17.BackColor = System.Drawing.Color.White
+        Me.ComboBox17.DropDownWidth = 272
+        Me.ComboBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox17.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox17.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox17.FormattingEnabled = True
+        Me.ComboBox17.Items.AddRange(New Object() {"88888888", "88888888", "88888888", "88888888", "88888888", "", "8 COD PROVEEDOR  "})
+        Me.ComboBox17.Location = New System.Drawing.Point(1188, 67)
+        Me.ComboBox17.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox17.Name = "ComboBox17"
+        Me.ComboBox17.Size = New System.Drawing.Size(151, 37)
+        Me.ComboBox17.TabIndex = 183
+        '
+        'ComboBox18
+        '
+        Me.ComboBox18.BackColor = System.Drawing.Color.White
+        Me.ComboBox18.DropDownWidth = 272
+        Me.ComboBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox18.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox18.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox18.FormattingEnabled = True
+        Me.ComboBox18.Items.AddRange(New Object() {"3AREA ", "", "MSTENIMIENTO", "INSUMO", "MATERIA PRIMA"})
+        Me.ComboBox18.Location = New System.Drawing.Point(424, 69)
+        Me.ComboBox18.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox18.Name = "ComboBox18"
+        Me.ComboBox18.Size = New System.Drawing.Size(76, 37)
+        Me.ComboBox18.TabIndex = 182
+        '
+        'ComboBox19
+        '
+        Me.ComboBox19.BackColor = System.Drawing.Color.White
+        Me.ComboBox19.DropDownWidth = 272
+        Me.ComboBox19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox19.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox19.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox19.FormattingEnabled = True
+        Me.ComboBox19.Items.AddRange(New Object() {"4 ESTACION"})
+        Me.ComboBox19.Location = New System.Drawing.Point(514, 69)
+        Me.ComboBox19.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox19.Name = "ComboBox19"
+        Me.ComboBox19.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox19.TabIndex = 181
+        '
+        'Label64
+        '
+        Me.Label64.AutoSize = True
+        Me.Label64.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label64.Location = New System.Drawing.Point(1582, 66)
+        Me.Label64.Name = "Label64"
+        Me.Label64.Size = New System.Drawing.Size(47, 29)
+        Me.Label64.TabIndex = 168
+        Me.Label64.Text = "N°:"
+        Me.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label74
+        '
+        Me.Label74.AutoSize = True
+        Me.Label74.BackColor = System.Drawing.Color.Transparent
+        Me.Label74.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.ForeColor = System.Drawing.Color.Blue
+        Me.Label74.Location = New System.Drawing.Point(424, 46)
+        Me.Label74.Name = "Label74"
+        Me.Label74.Size = New System.Drawing.Size(73, 19)
+        Me.Label74.TabIndex = 174
+        Me.Label74.Text = "(3AREA)"
+        '
+        'Label161
+        '
+        Me.Label161.AutoSize = True
+        Me.Label161.BackColor = System.Drawing.Color.Transparent
+        Me.Label161.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label161.ForeColor = System.Drawing.Color.Blue
+        Me.Label161.Location = New System.Drawing.Point(228, 46)
+        Me.Label161.Name = "Label161"
+        Me.Label161.Size = New System.Drawing.Size(99, 19)
+        Me.Label161.TabIndex = 175
+        Me.Label161.Text = "(1DEPOSIT)"
+        '
+        'Label162
+        '
+        Me.Label162.AutoSize = True
+        Me.Label162.BackColor = System.Drawing.Color.Transparent
+        Me.Label162.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label162.ForeColor = System.Drawing.Color.Blue
+        Me.Label162.Location = New System.Drawing.Point(1202, 44)
+        Me.Label162.Name = "Label162"
+        Me.Label162.Size = New System.Drawing.Size(103, 19)
+        Me.Label162.TabIndex = 176
+        Me.Label162.Text = "(8)COD PRO"
+        '
+        'Label164
+        '
+        Me.Label164.AutoSize = True
+        Me.Label164.BackColor = System.Drawing.Color.Transparent
+        Me.Label164.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label164.ForeColor = System.Drawing.Color.Blue
+        Me.Label164.Location = New System.Drawing.Point(1089, 46)
+        Me.Label164.Name = "Label164"
+        Me.Label164.Size = New System.Drawing.Size(79, 19)
+        Me.Label164.TabIndex = 177
+        Me.Label164.Text = "(3UNIDA)"
+        '
+        'Label194
+        '
+        Me.Label194.AutoSize = True
+        Me.Label194.BackColor = System.Drawing.Color.Transparent
+        Me.Label194.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label194.ForeColor = System.Drawing.Color.Blue
+        Me.Label194.Location = New System.Drawing.Point(980, 45)
+        Me.Label194.Name = "Label194"
+        Me.Label194.Size = New System.Drawing.Size(85, 19)
+        Me.Label194.TabIndex = 169
+        Me.Label194.Text = "(3VOLOR)"
+        '
+        'Label195
+        '
+        Me.Label195.AutoSize = True
+        Me.Label195.BackColor = System.Drawing.Color.Transparent
+        Me.Label195.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label195.ForeColor = System.Drawing.Color.Blue
+        Me.Label195.Location = New System.Drawing.Point(872, 44)
+        Me.Label195.Name = "Label195"
+        Me.Label195.Size = New System.Drawing.Size(87, 19)
+        Me.Label195.TabIndex = 178
+        Me.Label195.Text = "(4CERTIF)"
+        '
+        'Label393
+        '
+        Me.Label393.AutoSize = True
+        Me.Label393.BackColor = System.Drawing.Color.Transparent
+        Me.Label393.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label393.ForeColor = System.Drawing.Color.Blue
+        Me.Label393.Location = New System.Drawing.Point(748, 45)
+        Me.Label393.Name = "Label393"
+        Me.Label393.Size = New System.Drawing.Size(108, 19)
+        Me.Label393.TabIndex = 173
+        Me.Label393.Text = "(4PROVEED)"
+        '
+        'Label394
+        '
+        Me.Label394.AutoSize = True
+        Me.Label394.BackColor = System.Drawing.Color.Transparent
+        Me.Label394.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label394.ForeColor = System.Drawing.Color.Blue
+        Me.Label394.Location = New System.Drawing.Point(631, 44)
+        Me.Label394.Name = "Label394"
+        Me.Label394.Size = New System.Drawing.Size(87, 19)
+        Me.Label394.TabIndex = 172
+        Me.Label394.Text = "(4GRUPO)"
+        '
+        'Label395
+        '
+        Me.Label395.AutoSize = True
+        Me.Label395.BackColor = System.Drawing.Color.Transparent
+        Me.Label395.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label395.ForeColor = System.Drawing.Color.Blue
+        Me.Label395.Location = New System.Drawing.Point(519, 44)
+        Me.Label395.Name = "Label395"
+        Me.Label395.Size = New System.Drawing.Size(82, 19)
+        Me.Label395.TabIndex = 171
+        Me.Label395.Text = "(4ESTAC)"
+        '
+        'Label396
+        '
+        Me.Label396.AutoSize = True
+        Me.Label396.BackColor = System.Drawing.Color.Transparent
+        Me.Label396.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label396.ForeColor = System.Drawing.Color.Blue
+        Me.Label396.Location = New System.Drawing.Point(334, 44)
+        Me.Label396.Name = "Label396"
+        Me.Label396.Size = New System.Drawing.Size(64, 19)
+        Me.Label396.TabIndex = 170
+        Me.Label396.Text = "(3PAIS)"
+        '
+        'ComboBox20
+        '
+        Me.ComboBox20.BackColor = System.Drawing.Color.White
+        Me.ComboBox20.DropDownWidth = 272
+        Me.ComboBox20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox20.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox20.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox20.FormattingEnabled = True
+        Me.ComboBox20.Items.AddRange(New Object() {"4444", "4444", "4444", "4444", "4444", "", "", "", "4 PROVEEDOR"})
+        Me.ComboBox20.Location = New System.Drawing.Point(750, 67)
+        Me.ComboBox20.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox20.Name = "ComboBox20"
+        Me.ComboBox20.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox20.TabIndex = 185
+        '
+        'ComboBox21
+        '
+        Me.ComboBox21.BackColor = System.Drawing.Color.White
+        Me.ComboBox21.DropDownWidth = 272
+        Me.ComboBox21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox21.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox21.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox21.FormattingEnabled = True
+        Me.ComboBox21.Items.AddRange(New Object() {"4444", "4444", "4444", "4444", "4444", "", "", "", "4 GRUPO"})
+        Me.ComboBox21.Location = New System.Drawing.Point(632, 69)
+        Me.ComboBox21.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox21.Name = "ComboBox21"
+        Me.ComboBox21.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox21.TabIndex = 186
+        '
+        'TextBox131
+        '
+        Me.TextBox131.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox131.ForeColor = System.Drawing.Color.Black
+        Me.TextBox131.Location = New System.Drawing.Point(334, 208)
+        Me.TextBox131.Name = "TextBox131"
+        Me.TextBox131.Size = New System.Drawing.Size(1459, 35)
+        Me.TextBox131.TabIndex = 172
+        Me.TextBox131.Text = "TOYO LIOCOLOR VERDE TKCOLOR09/L"
+        '
+        'ComboBox22
+        '
+        Me.ComboBox22.BackColor = System.Drawing.Color.White
+        Me.ComboBox22.DropDownWidth = 272
+        Me.ComboBox22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox22.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox22.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox22.FormattingEnabled = True
+        Me.ComboBox22.Items.AddRange(New Object() {"55555", "55555", "55555", "", "", "", "", "5 CERTIFICADO"})
+        Me.ComboBox22.Location = New System.Drawing.Point(868, 67)
+        Me.ComboBox22.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox22.Name = "ComboBox22"
+        Me.ComboBox22.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox22.TabIndex = 187
+        '
+        'ComboBox23
+        '
+        Me.ComboBox23.BackColor = System.Drawing.Color.White
+        Me.ComboBox23.DropDownWidth = 272
+        Me.ComboBox23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox23.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox23.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox23.FormattingEnabled = True
+        Me.ComboBox23.Items.AddRange(New Object() {"NEG", "CYA", "MAG", "AMA", "ROJ", "VER", "CLA", "", "Tiene tres digitos y se debe encuadran el color que se saca dentro de uno de esto" &
+                "s.", "de esta forma va a dar opciones al planificador que colores similares tiene o se " &
+                "tira para algunas ", "de estas tonalidades"})
+        Me.ComboBox23.Location = New System.Drawing.Point(986, 69)
+        Me.ComboBox23.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox23.Name = "ComboBox23"
+        Me.ComboBox23.Size = New System.Drawing.Size(81, 37)
+        Me.ComboBox23.TabIndex = 188
+        '
+        'ComboBox24
+        '
+        Me.ComboBox24.BackColor = System.Drawing.Color.White
+        Me.ComboBox24.DropDownWidth = 272
+        Me.ComboBox24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox24.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox24.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox24.FormattingEnabled = True
+        Me.ComboBox24.Items.AddRange(New Object() {"333", "333", "333", "333", "", "", "Esta son la unidad de medicion qu cada uno de los insumos tiene (cm/m2/kilos/tec)" &
+                ""})
+        Me.ComboBox24.Location = New System.Drawing.Point(1081, 67)
+        Me.ComboBox24.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox24.Name = "ComboBox24"
+        Me.ComboBox24.Size = New System.Drawing.Size(93, 37)
+        Me.ComboBox24.TabIndex = 189
+        '
+        'Button10
+        '
+        Me.Button10.AutoSize = True
+        Me.Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button10.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button10.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.ForeColor = System.Drawing.Color.Black
+        Me.Button10.Location = New System.Drawing.Point(86, 63)
+        Me.Button10.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button10.Name = "Button10"
+        Me.Button10.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button10.Size = New System.Drawing.Size(149, 50)
+        Me.Button10.TabIndex = 180
+        Me.Button10.Text = "Buscar"
+        Me.Button10.UseVisualStyleBackColor = False
+        '
+        'Panel27
+        '
+        Me.Panel27.BackColor = System.Drawing.Color.Green
+        Me.Panel27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel27.Controls.Add(Me.Label397)
+        Me.Panel27.Controls.Add(Me.Label398)
+        Me.Panel27.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel27.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel27.Location = New System.Drawing.Point(0, 0)
+        Me.Panel27.Name = "Panel27"
+        Me.Panel27.Size = New System.Drawing.Size(1811, 43)
+        Me.Panel27.TabIndex = 0
+        '
+        'Label397
+        '
+        Me.Label397.AutoSize = True
+        Me.Label397.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label397.ForeColor = System.Drawing.Color.White
+        Me.Label397.Location = New System.Drawing.Point(804, 6)
+        Me.Label397.Name = "Label397"
+        Me.Label397.Size = New System.Drawing.Size(189, 33)
+        Me.Label397.TabIndex = 23
+        Me.Label397.Text = "CODIFICADO"
+        '
+        'Label398
+        '
+        Me.Label398.AutoSize = True
+        Me.Label398.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label398.ForeColor = System.Drawing.Color.White
+        Me.Label398.Location = New System.Drawing.Point(-124, 4)
+        Me.Label398.Name = "Label398"
+        Me.Label398.Size = New System.Drawing.Size(113, 33)
+        Me.Label398.TabIndex = 5
+        Me.Label398.Text = "CLIENTE"
+        '
+        'ComboBox25
+        '
+        Me.ComboBox25.BackColor = System.Drawing.Color.White
+        Me.ComboBox25.DropDownWidth = 272
+        Me.ComboBox25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox25.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox25.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox25.FormattingEnabled = True
+        Me.ComboBox25.Items.AddRange(New Object() {"123456789101345", "123456789101345", "123456789101345", "123456789101345", "", "CODIGO PROVEEDOR"})
+        Me.ComboBox25.Location = New System.Drawing.Point(1544, 113)
+        Me.ComboBox25.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox25.Name = "ComboBox25"
+        Me.ComboBox25.Size = New System.Drawing.Size(259, 37)
+        Me.ComboBox25.TabIndex = 167
+        '
+        'ComboBox26
+        '
+        Me.ComboBox26.BackColor = System.Drawing.Color.White
+        Me.ComboBox26.DropDownWidth = 272
+        Me.ComboBox26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox26.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox26.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox26.FormattingEnabled = True
+        Me.ComboBox26.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "COD. Contable  ARTICULO:"})
+        Me.ComboBox26.Location = New System.Drawing.Point(334, 159)
+        Me.ComboBox26.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox26.Name = "ComboBox26"
+        Me.ComboBox26.Size = New System.Drawing.Size(708, 37)
+        Me.ComboBox26.TabIndex = 167
+        '
+        'ComboBox27
+        '
+        Me.ComboBox27.BackColor = System.Drawing.Color.White
+        Me.ComboBox27.DropDownWidth = 272
+        Me.ComboBox27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox27.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox27.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox27.FormattingEnabled = True
+        Me.ComboBox27.Items.AddRange(New Object() {"Nombre del INSUMO DEL PROVEEDOR"})
+        Me.ComboBox27.Location = New System.Drawing.Point(1094, 113)
+        Me.ComboBox27.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox27.Name = "ComboBox27"
+        Me.ComboBox27.Size = New System.Drawing.Size(432, 37)
+        Me.ComboBox27.TabIndex = 167
+        '
+        'ComboBox28
+        '
+        Me.ComboBox28.BackColor = System.Drawing.Color.White
+        Me.ComboBox28.DropDownWidth = 272
+        Me.ComboBox28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox28.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox28.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox28.FormattingEnabled = True
+        Me.ComboBox28.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "", "Cod. Gama INSUMO:"})
+        Me.ComboBox28.Location = New System.Drawing.Point(254, 113)
+        Me.ComboBox28.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox28.Name = "ComboBox28"
+        Me.ComboBox28.Size = New System.Drawing.Size(708, 37)
+        Me.ComboBox28.TabIndex = 167
+        '
+        'Label399
+        '
+        Me.Label399.AutoSize = True
+        Me.Label399.BackColor = System.Drawing.Color.Transparent
+        Me.Label399.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label399.Location = New System.Drawing.Point(977, 117)
+        Me.Label399.Name = "Label399"
+        Me.Label399.Size = New System.Drawing.Size(110, 29)
+        Me.Label399.TabIndex = 21
+        Me.Label399.Text = "Nombre:"
+        '
+        'Label400
+        '
+        Me.Label400.AutoSize = True
+        Me.Label400.BackColor = System.Drawing.Color.Transparent
+        Me.Label400.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label400.Location = New System.Drawing.Point(20, 214)
+        Me.Label400.Name = "Label400"
+        Me.Label400.Size = New System.Drawing.Size(307, 29)
+        Me.Label400.TabIndex = 21
+        Me.Label400.Text = "Descripcion contabilidad:"
+        '
+        'Label401
+        '
+        Me.Label401.AutoSize = True
+        Me.Label401.BackColor = System.Drawing.Color.Transparent
+        Me.Label401.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label401.Location = New System.Drawing.Point(4, 163)
+        Me.Label401.Name = "Label401"
+        Me.Label401.Size = New System.Drawing.Size(327, 29)
+        Me.Label401.TabIndex = 21
+        Me.Label401.Text = "Cod.. Contable  ARTICULO:"
+        '
+        'Label402
+        '
+        Me.Label402.AutoSize = True
+        Me.Label402.BackColor = System.Drawing.Color.Transparent
+        Me.Label402.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label402.Location = New System.Drawing.Point(1063, 163)
+        Me.Label402.Name = "Label402"
+        Me.Label402.Size = New System.Drawing.Size(152, 29)
+        Me.Label402.TabIndex = 21
+        Me.Label402.Text = "CTA./CONT.:"
+        '
+        'Label403
+        '
+        Me.Label403.AutoSize = True
+        Me.Label403.BackColor = System.Drawing.Color.Transparent
+        Me.Label403.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label403.Location = New System.Drawing.Point(3, 117)
+        Me.Label403.Name = "Label403"
+        Me.Label403.Size = New System.Drawing.Size(250, 29)
+        Me.Label403.TabIndex = 21
+        Me.Label403.Text = "Cod. Gama INSUMO:"
+        '
+        'TextBox132
+        '
+        Me.TextBox132.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox132.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox132.Location = New System.Drawing.Point(1223, 160)
+        Me.TextBox132.Name = "TextBox132"
+        Me.TextBox132.Size = New System.Drawing.Size(269, 35)
+        Me.TextBox132.TabIndex = 24
+        Me.TextBox132.Text = "00000000-0-00-00"
+        Me.TextBox132.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'DateTimePicker22
         '
@@ -3432,6 +3896,7 @@ Partial Class INSUMO
         Me.Button18.Text = "Rastreabilidad"
         Me.Button18.UseVisualStyleBackColor = False
         '
+<<<<<<< HEAD
         'Panel26
         '
         Me.Panel26.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -3508,6 +3973,8 @@ Partial Class INSUMO
         Me.Label195.TabIndex = 5
         Me.Label195.Text = "CLIENTE"
         '
+=======
+>>>>>>> pre-main
         'Button14
         '
         Me.Button14.AutoSize = True
@@ -3596,9 +4063,9 @@ Partial Class INSUMO
         Me.Panel24.Controls.Add(Me.DateTimePicker13)
         Me.Panel24.Controls.Add(Me.DateTimePicker12)
         Me.Panel24.Controls.Add(Me.Panel25)
-        Me.Panel24.Location = New System.Drawing.Point(1186, 294)
+        Me.Panel24.Location = New System.Drawing.Point(1186, 308)
         Me.Panel24.Name = "Panel24"
-        Me.Panel24.Size = New System.Drawing.Size(638, 612)
+        Me.Panel24.Size = New System.Drawing.Size(638, 598)
         Me.Panel24.TabIndex = 169
         '
         'RadioButton69
@@ -3606,7 +4073,7 @@ Partial Class INSUMO
         Me.RadioButton69.AutoSize = True
         Me.RadioButton69.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton69.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton69.Location = New System.Drawing.Point(519, 521)
+        Me.RadioButton69.Location = New System.Drawing.Point(519, 502)
         Me.RadioButton69.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton69.Name = "RadioButton69"
         Me.RadioButton69.Size = New System.Drawing.Size(70, 33)
@@ -3620,7 +4087,7 @@ Partial Class INSUMO
         Me.RadioButton68.AutoSize = True
         Me.RadioButton68.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton68.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton68.Location = New System.Drawing.Point(450, 521)
+        Me.RadioButton68.Location = New System.Drawing.Point(450, 502)
         Me.RadioButton68.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton68.Name = "RadioButton68"
         Me.RadioButton68.Size = New System.Drawing.Size(61, 33)
@@ -3634,7 +4101,7 @@ Partial Class INSUMO
         Me.RadioButton67.AutoSize = True
         Me.RadioButton67.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton67.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton67.Location = New System.Drawing.Point(519, 431)
+        Me.RadioButton67.Location = New System.Drawing.Point(519, 412)
         Me.RadioButton67.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton67.Name = "RadioButton67"
         Me.RadioButton67.Size = New System.Drawing.Size(70, 33)
@@ -3648,7 +4115,7 @@ Partial Class INSUMO
         Me.RadioButton5.AutoSize = True
         Me.RadioButton5.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton5.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton5.Location = New System.Drawing.Point(450, 431)
+        Me.RadioButton5.Location = New System.Drawing.Point(450, 412)
         Me.RadioButton5.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton5.Name = "RadioButton5"
         Me.RadioButton5.Size = New System.Drawing.Size(61, 33)
@@ -3662,7 +4129,7 @@ Partial Class INSUMO
         Me.RadioButton4.AutoSize = True
         Me.RadioButton4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton4.Location = New System.Drawing.Point(519, 344)
+        Me.RadioButton4.Location = New System.Drawing.Point(519, 325)
         Me.RadioButton4.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(70, 33)
@@ -3676,7 +4143,7 @@ Partial Class INSUMO
         Me.RadioButton88.AutoSize = True
         Me.RadioButton88.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton88.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton88.Location = New System.Drawing.Point(450, 344)
+        Me.RadioButton88.Location = New System.Drawing.Point(450, 325)
         Me.RadioButton88.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton88.Name = "RadioButton88"
         Me.RadioButton88.Size = New System.Drawing.Size(61, 33)
@@ -3690,7 +4157,7 @@ Partial Class INSUMO
         Me.Label360.AutoSize = True
         Me.Label360.BackColor = System.Drawing.Color.Transparent
         Me.Label360.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label360.Location = New System.Drawing.Point(209, 307)
+        Me.Label360.Location = New System.Drawing.Point(209, 288)
         Me.Label360.Name = "Label360"
         Me.Label360.Size = New System.Drawing.Size(189, 33)
         Me.Label360.TabIndex = 172
@@ -3704,7 +4171,7 @@ Partial Class INSUMO
         Me.ComboBox152.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox152.FormattingEnabled = True
         Me.ComboBox152.Items.AddRange(New Object() {"+595 981 198526 DI", "+595 981 793119 GA", "+595 982 159330 Contabilidad", "+595 985 908572 GC", "+595 985 908571 EC FERNANDO", "+595 985 930375 EC MIRTA", "+595 984 184130 EC ESTELA", "+595 982 314000 RECEPCION", "+595 982 221628 FACTURACION", "+595 981 299705 INFORMATICA", "+595 983 187305 RRHH", "+595 985 593014 COMPRAS ", "+595 992 927237 PREPRENSA", "+595 992 927228 PRESUPUESTOS", "+595 983 188834 PLANIFICACION", "+595 982 936196 JEFE DE PLANTA", "+595 983 711835 JE CC", "+595 992 927237 JE PREPRENSA", "+595 986 930877 JE MANTENIMIENTO", "+595 985 326271 JE EXPEDICION", "+595 985 753864 SU DEPOSITO", "+595 982 125480 SU IMPRESIÓN", "+595 981 294987 SU TROQUELADO", "+595 985 723195 SU PEGADO", "+595 985 592171 GUARDIA"})
-        Me.ComboBox152.Location = New System.Drawing.Point(187, 520)
+        Me.ComboBox152.Location = New System.Drawing.Point(187, 501)
         Me.ComboBox152.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox152.Name = "ComboBox152"
         Me.ComboBox152.Size = New System.Drawing.Size(232, 37)
@@ -3719,7 +4186,7 @@ Partial Class INSUMO
         Me.ComboBox151.ForeColor = System.Drawing.Color.Black
         Me.ComboBox151.FormattingEnabled = True
         Me.ComboBox151.Items.AddRange(New Object() {"ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "", "Email de Gama "})
-        Me.ComboBox151.Location = New System.Drawing.Point(63, 564)
+        Me.ComboBox151.Location = New System.Drawing.Point(63, 545)
         Me.ComboBox151.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox151.Name = "ComboBox151"
         Me.ComboBox151.Size = New System.Drawing.Size(481, 37)
@@ -3733,7 +4200,7 @@ Partial Class INSUMO
         Me.ComboBox150.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox150.FormattingEnabled = True
         Me.ComboBox150.Items.AddRange(New Object() {"+595 981 198526 DI", "+595 981 793119 GA", "+595 982 159330 Contabilidad", "+595 985 908572 GC", "+595 985 908571 EC FERNANDO", "+595 985 930375 EC MIRTA", "+595 984 184130 EC ESTELA", "+595 982 314000 RECEPCION", "+595 982 221628 FACTURACION", "+595 981 299705 INFORMATICA", "+595 983 187305 RRHH", "+595 985 593014 COMPRAS ", "+595 992 927237 PREPRENSA", "+595 992 927228 PRESUPUESTOS", "+595 983 188834 PLANIFICACION", "+595 982 936196 JEFE DE PLANTA", "+595 983 711835 JE CC", "+595 992 927237 JE PREPRENSA", "+595 986 930877 JE MANTENIMIENTO", "+595 985 326271 JE EXPEDICION", "+595 985 753864 SU DEPOSITO", "+595 982 125480 SU IMPRESIÓN", "+595 981 294987 SU TROQUELADO", "+595 985 723195 SU PEGADO", "+595 985 592171 GUARDIA"})
-        Me.ComboBox150.Location = New System.Drawing.Point(187, 432)
+        Me.ComboBox150.Location = New System.Drawing.Point(187, 413)
         Me.ComboBox150.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox150.Name = "ComboBox150"
         Me.ComboBox150.Size = New System.Drawing.Size(232, 37)
@@ -3748,7 +4215,7 @@ Partial Class INSUMO
         Me.ComboBox149.ForeColor = System.Drawing.Color.Black
         Me.ComboBox149.FormattingEnabled = True
         Me.ComboBox149.Items.AddRange(New Object() {"ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "", "Email de Gama "})
-        Me.ComboBox149.Location = New System.Drawing.Point(63, 476)
+        Me.ComboBox149.Location = New System.Drawing.Point(63, 457)
         Me.ComboBox149.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox149.Name = "ComboBox149"
         Me.ComboBox149.Size = New System.Drawing.Size(481, 37)
@@ -3762,7 +4229,7 @@ Partial Class INSUMO
         Me.ComboBox148.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox148.FormattingEnabled = True
         Me.ComboBox148.Items.AddRange(New Object() {"+595 981 198526 DI", "+595 981 793119 GA", "+595 982 159330 Contabilidad", "+595 985 908572 GC", "+595 985 908571 EC FERNANDO", "+595 985 930375 EC MIRTA", "+595 984 184130 EC ESTELA", "+595 982 314000 RECEPCION", "+595 982 221628 FACTURACION", "+595 981 299705 INFORMATICA", "+595 983 187305 RRHH", "+595 985 593014 COMPRAS ", "+595 992 927237 PREPRENSA", "+595 992 927228 PRESUPUESTOS", "+595 983 188834 PLANIFICACION", "+595 982 936196 JEFE DE PLANTA", "+595 983 711835 JE CC", "+595 992 927237 JE PREPRENSA", "+595 986 930877 JE MANTENIMIENTO", "+595 985 326271 JE EXPEDICION", "+595 985 753864 SU DEPOSITO", "+595 982 125480 SU IMPRESIÓN", "+595 981 294987 SU TROQUELADO", "+595 985 723195 SU PEGADO", "+595 985 592171 GUARDIA"})
-        Me.ComboBox148.Location = New System.Drawing.Point(187, 344)
+        Me.ComboBox148.Location = New System.Drawing.Point(187, 325)
         Me.ComboBox148.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox148.Name = "ComboBox148"
         Me.ComboBox148.Size = New System.Drawing.Size(232, 37)
@@ -3777,7 +4244,7 @@ Partial Class INSUMO
         Me.ComboBox147.ForeColor = System.Drawing.Color.Black
         Me.ComboBox147.FormattingEnabled = True
         Me.ComboBox147.Items.AddRange(New Object() {"ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "", "Email de Gama "})
-        Me.ComboBox147.Location = New System.Drawing.Point(63, 388)
+        Me.ComboBox147.Location = New System.Drawing.Point(63, 369)
         Me.ComboBox147.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox147.Name = "ComboBox147"
         Me.ComboBox147.Size = New System.Drawing.Size(481, 37)
@@ -3788,7 +4255,7 @@ Partial Class INSUMO
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(78, 231)
+        Me.Label7.Location = New System.Drawing.Point(78, 223)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(186, 29)
         Me.Label7.TabIndex = 171
@@ -3799,7 +4266,7 @@ Partial Class INSUMO
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(187, 110)
+        Me.Label6.Location = New System.Drawing.Point(187, 102)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(183, 29)
         Me.Label6.TabIndex = 172
@@ -3809,7 +4276,7 @@ Partial Class INSUMO
         '
         Me.TextBox29.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox29.ForeColor = System.Drawing.Color.Black
-        Me.TextBox29.Location = New System.Drawing.Point(269, 228)
+        Me.TextBox29.Location = New System.Drawing.Point(269, 220)
         Me.TextBox29.Name = "TextBox29"
         Me.TextBox29.Size = New System.Drawing.Size(102, 35)
         Me.TextBox29.TabIndex = 175
@@ -3822,7 +4289,7 @@ Partial Class INSUMO
         Me.RadioButton13.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton13.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton13.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton13.Location = New System.Drawing.Point(108, 186)
+        Me.RadioButton13.Location = New System.Drawing.Point(108, 178)
         Me.RadioButton13.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton13.Name = "RadioButton13"
         Me.RadioButton13.Size = New System.Drawing.Size(263, 33)
@@ -3837,7 +4304,7 @@ Partial Class INSUMO
         Me.RadioButton12.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton12.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton12.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton12.Location = New System.Drawing.Point(108, 149)
+        Me.RadioButton12.Location = New System.Drawing.Point(108, 141)
         Me.RadioButton12.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton12.Name = "RadioButton12"
         Me.RadioButton12.Size = New System.Drawing.Size(246, 33)
@@ -3852,7 +4319,7 @@ Partial Class INSUMO
         Me.RadioButton6.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton6.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton6.Location = New System.Drawing.Point(145, 270)
+        Me.RadioButton6.Location = New System.Drawing.Point(145, 257)
         Me.RadioButton6.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton6.Name = "RadioButton6"
         Me.RadioButton6.Size = New System.Drawing.Size(145, 33)
@@ -3867,7 +4334,7 @@ Partial Class INSUMO
         Me.RadioButton7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton7.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton7.Location = New System.Drawing.Point(312, 270)
+        Me.RadioButton7.Location = New System.Drawing.Point(312, 257)
         Me.RadioButton7.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton7.Name = "RadioButton7"
         Me.RadioButton7.Size = New System.Drawing.Size(176, 33)
@@ -3885,7 +4352,7 @@ Partial Class INSUMO
         Me.ComboBox107.ForeColor = System.Drawing.Color.Black
         Me.ComboBox107.FormattingEnabled = True
         Me.ComboBox107.Items.AddRange(New Object() {"Administración", "Comercial", "Preprensa", "Troquel", "CC", "Resmado", "Corte", "Impresión", "UV", "Stampado", "Troquelado", "Doblado", "Descartonado", "Seleccionado", "Pegado 2D", "Pegado 3D", "Expedición", "Mantenimiento", "Tercerizado"})
-        Me.ComboBox107.Location = New System.Drawing.Point(312, 58)
+        Me.ComboBox107.Location = New System.Drawing.Point(312, 55)
         Me.ComboBox107.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox107.Name = "ComboBox107"
         Me.ComboBox107.Size = New System.Drawing.Size(239, 37)
@@ -3896,7 +4363,7 @@ Partial Class INSUMO
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(75, 61)
+        Me.Label3.Location = New System.Drawing.Point(75, 58)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(235, 29)
         Me.Label3.TabIndex = 174
@@ -3906,7 +4373,7 @@ Partial Class INSUMO
         '
         Me.TextBox28.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox28.ForeColor = System.Drawing.Color.Black
-        Me.TextBox28.Location = New System.Drawing.Point(376, 107)
+        Me.TextBox28.Location = New System.Drawing.Point(376, 99)
         Me.TextBox28.Name = "TextBox28"
         Me.TextBox28.Size = New System.Drawing.Size(102, 35)
         Me.TextBox28.TabIndex = 176
@@ -3917,7 +4384,7 @@ Partial Class INSUMO
         '
         Me.DateTimePicker14.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker14.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker14.Location = New System.Drawing.Point(378, 228)
+        Me.DateTimePicker14.Location = New System.Drawing.Point(378, 220)
         Me.DateTimePicker14.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker14.Name = "DateTimePicker14"
         Me.DateTimePicker14.Size = New System.Drawing.Size(149, 35)
@@ -3927,7 +4394,7 @@ Partial Class INSUMO
         '
         Me.DateTimePicker13.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker13.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker13.Location = New System.Drawing.Point(376, 185)
+        Me.DateTimePicker13.Location = New System.Drawing.Point(376, 177)
         Me.DateTimePicker13.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker13.Name = "DateTimePicker13"
         Me.DateTimePicker13.Size = New System.Drawing.Size(149, 35)
@@ -3937,7 +4404,7 @@ Partial Class INSUMO
         '
         Me.DateTimePicker12.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker12.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker12.Location = New System.Drawing.Point(376, 148)
+        Me.DateTimePicker12.Location = New System.Drawing.Point(376, 140)
         Me.DateTimePicker12.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker12.Name = "DateTimePicker12"
         Me.DateTimePicker12.Size = New System.Drawing.Size(149, 35)
@@ -4015,9 +4482,9 @@ Partial Class INSUMO
         Me.Panel22.Controls.Add(Me.Label160)
         Me.Panel22.Controls.Add(Me.DateTimePicker15)
         Me.Panel22.Controls.Add(Me.DateTimePicker17)
-        Me.Panel22.Location = New System.Drawing.Point(582, 294)
+        Me.Panel22.Location = New System.Drawing.Point(582, 309)
         Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(583, 612)
+        Me.Panel22.Size = New System.Drawing.Size(583, 597)
         Me.Panel22.TabIndex = 169
         '
         'Panel23
@@ -4060,7 +4527,7 @@ Partial Class INSUMO
         Me.Label156.AutoSize = True
         Me.Label156.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label156.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label156.Location = New System.Drawing.Point(85, 54)
+        Me.Label156.Location = New System.Drawing.Point(84, 52)
         Me.Label156.Name = "Label156"
         Me.Label156.Size = New System.Drawing.Size(303, 29)
         Me.Label156.TabIndex = 21
@@ -4070,7 +4537,7 @@ Partial Class INSUMO
         '
         Me.TextBox30.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox30.ForeColor = System.Drawing.Color.Black
-        Me.TextBox30.Location = New System.Drawing.Point(393, 51)
+        Me.TextBox30.Location = New System.Drawing.Point(392, 49)
         Me.TextBox30.Name = "TextBox30"
         Me.TextBox30.Size = New System.Drawing.Size(102, 35)
         Me.TextBox30.TabIndex = 24
@@ -4081,7 +4548,7 @@ Partial Class INSUMO
         '
         Me.TextBox35.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox35.ForeColor = System.Drawing.Color.Black
-        Me.TextBox35.Location = New System.Drawing.Point(393, 100)
+        Me.TextBox35.Location = New System.Drawing.Point(392, 91)
         Me.TextBox35.Name = "TextBox35"
         Me.TextBox35.Size = New System.Drawing.Size(102, 35)
         Me.TextBox35.TabIndex = 24
@@ -4092,7 +4559,7 @@ Partial Class INSUMO
         '
         Me.TextBox54.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox54.ForeColor = System.Drawing.Color.Black
-        Me.TextBox54.Location = New System.Drawing.Point(393, 139)
+        Me.TextBox54.Location = New System.Drawing.Point(392, 130)
         Me.TextBox54.Name = "TextBox54"
         Me.TextBox54.Size = New System.Drawing.Size(102, 35)
         Me.TextBox54.TabIndex = 24
@@ -4104,7 +4571,7 @@ Partial Class INSUMO
         Me.Label173.AutoSize = True
         Me.Label173.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label173.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label173.Location = New System.Drawing.Point(199, 142)
+        Me.Label173.Location = New System.Drawing.Point(198, 133)
         Me.Label173.Name = "Label173"
         Me.Label173.Size = New System.Drawing.Size(188, 29)
         Me.Label173.TabIndex = 21
@@ -4115,7 +4582,7 @@ Partial Class INSUMO
         Me.Label175.AutoSize = True
         Me.Label175.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label175.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label175.Location = New System.Drawing.Point(232, 103)
+        Me.Label175.Location = New System.Drawing.Point(231, 94)
         Me.Label175.Name = "Label175"
         Me.Label175.Size = New System.Drawing.Size(155, 29)
         Me.Label175.TabIndex = 21
@@ -4127,7 +4594,7 @@ Partial Class INSUMO
         Me.RadioButton17.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton17.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton17.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton17.Location = New System.Drawing.Point(194, 563)
+        Me.RadioButton17.Location = New System.Drawing.Point(193, 545)
         Me.RadioButton17.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton17.Name = "RadioButton17"
         Me.RadioButton17.Size = New System.Drawing.Size(61, 33)
@@ -4140,7 +4607,7 @@ Partial Class INSUMO
         '
         Me.TextBox55.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox55.ForeColor = System.Drawing.Color.Black
-        Me.TextBox55.Location = New System.Drawing.Point(393, 189)
+        Me.TextBox55.Location = New System.Drawing.Point(392, 171)
         Me.TextBox55.Name = "TextBox55"
         Me.TextBox55.Size = New System.Drawing.Size(102, 35)
         Me.TextBox55.TabIndex = 24
@@ -4153,7 +4620,7 @@ Partial Class INSUMO
         Me.RadioButton15.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton15.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton15.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton15.Location = New System.Drawing.Point(194, 520)
+        Me.RadioButton15.Location = New System.Drawing.Point(193, 502)
         Me.RadioButton15.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton15.Name = "RadioButton15"
         Me.RadioButton15.Size = New System.Drawing.Size(61, 33)
@@ -4166,7 +4633,7 @@ Partial Class INSUMO
         '
         Me.TextBox56.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox56.ForeColor = System.Drawing.Color.Black
-        Me.TextBox56.Location = New System.Drawing.Point(393, 233)
+        Me.TextBox56.Location = New System.Drawing.Point(392, 215)
         Me.TextBox56.Name = "TextBox56"
         Me.TextBox56.Size = New System.Drawing.Size(102, 35)
         Me.TextBox56.TabIndex = 24
@@ -4179,7 +4646,7 @@ Partial Class INSUMO
         Me.RadioButton16.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton16.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton16.Location = New System.Drawing.Point(263, 563)
+        Me.RadioButton16.Location = New System.Drawing.Point(262, 545)
         Me.RadioButton16.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton16.Name = "RadioButton16"
         Me.RadioButton16.Size = New System.Drawing.Size(70, 33)
@@ -4194,7 +4661,7 @@ Partial Class INSUMO
         Me.RadioButton21.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton21.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton21.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton21.Location = New System.Drawing.Point(266, 474)
+        Me.RadioButton21.Location = New System.Drawing.Point(265, 456)
         Me.RadioButton21.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton21.Name = "RadioButton21"
         Me.RadioButton21.Size = New System.Drawing.Size(61, 33)
@@ -4209,7 +4676,7 @@ Partial Class INSUMO
         Me.RadioButton14.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton14.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton14.Location = New System.Drawing.Point(263, 520)
+        Me.RadioButton14.Location = New System.Drawing.Point(262, 502)
         Me.RadioButton14.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton14.Name = "RadioButton14"
         Me.RadioButton14.Size = New System.Drawing.Size(70, 33)
@@ -4222,8 +4689,13 @@ Partial Class INSUMO
         '
         Me.Label176.AutoSize = True
         Me.Label176.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+<<<<<<< HEAD
         Me.Label176.Font = New System.Drawing.Font("Arial", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label176.Location = New System.Drawing.Point(3, 149)
+=======
+        Me.Label176.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label176.Location = New System.Drawing.Point(152, 177)
+>>>>>>> pre-main
         Me.Label176.Name = "Label176"
         Me.Label176.Size = New System.Drawing.Size(600, 56)
         Me.Label176.TabIndex = 21
@@ -4235,7 +4707,7 @@ Partial Class INSUMO
         Me.RadioButton19.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton19.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton19.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton19.Location = New System.Drawing.Point(266, 433)
+        Me.RadioButton19.Location = New System.Drawing.Point(265, 415)
         Me.RadioButton19.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton19.Name = "RadioButton19"
         Me.RadioButton19.Size = New System.Drawing.Size(61, 33)
@@ -4249,7 +4721,7 @@ Partial Class INSUMO
         Me.Label177.AutoSize = True
         Me.Label177.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label177.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label177.Location = New System.Drawing.Point(182, 236)
+        Me.Label177.Location = New System.Drawing.Point(181, 218)
         Me.Label177.Name = "Label177"
         Me.Label177.Size = New System.Drawing.Size(205, 29)
         Me.Label177.TabIndex = 21
@@ -4261,7 +4733,7 @@ Partial Class INSUMO
         Me.RadioButton10.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton10.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton10.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton10.Location = New System.Drawing.Point(145, 283)
+        Me.RadioButton10.Location = New System.Drawing.Point(144, 265)
         Me.RadioButton10.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton10.Name = "RadioButton10"
         Me.RadioButton10.Size = New System.Drawing.Size(220, 33)
@@ -4276,7 +4748,7 @@ Partial Class INSUMO
         Me.RadioButton8.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton8.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton8.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton8.Location = New System.Drawing.Point(116, 357)
+        Me.RadioButton8.Location = New System.Drawing.Point(115, 339)
         Me.RadioButton8.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton8.Name = "RadioButton8"
         Me.RadioButton8.Size = New System.Drawing.Size(322, 33)
@@ -4290,7 +4762,7 @@ Partial Class INSUMO
         Me.Label154.AutoSize = True
         Me.Label154.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label154.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label154.Location = New System.Drawing.Point(81, 565)
+        Me.Label154.Location = New System.Drawing.Point(80, 547)
         Me.Label154.Name = "Label154"
         Me.Label154.Size = New System.Drawing.Size(93, 29)
         Me.Label154.TabIndex = 21
@@ -4302,7 +4774,7 @@ Partial Class INSUMO
         Me.RadioButton20.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton20.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton20.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton20.Location = New System.Drawing.Point(335, 474)
+        Me.RadioButton20.Location = New System.Drawing.Point(334, 456)
         Me.RadioButton20.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton20.Name = "RadioButton20"
         Me.RadioButton20.Size = New System.Drawing.Size(70, 33)
@@ -4316,7 +4788,7 @@ Partial Class INSUMO
         Me.Label153.AutoSize = True
         Me.Label153.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label153.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label153.Location = New System.Drawing.Point(81, 522)
+        Me.Label153.Location = New System.Drawing.Point(80, 504)
         Me.Label153.Name = "Label153"
         Me.Label153.Size = New System.Drawing.Size(106, 29)
         Me.Label153.TabIndex = 21
@@ -4328,7 +4800,7 @@ Partial Class INSUMO
         Me.RadioButton9.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton9.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton9.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton9.Location = New System.Drawing.Point(116, 388)
+        Me.RadioButton9.Location = New System.Drawing.Point(115, 370)
         Me.RadioButton9.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton9.Name = "RadioButton9"
         Me.RadioButton9.Size = New System.Drawing.Size(274, 33)
@@ -4343,7 +4815,7 @@ Partial Class INSUMO
         Me.RadioButton18.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton18.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton18.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton18.Location = New System.Drawing.Point(335, 433)
+        Me.RadioButton18.Location = New System.Drawing.Point(334, 415)
         Me.RadioButton18.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton18.Name = "RadioButton18"
         Me.RadioButton18.Size = New System.Drawing.Size(70, 33)
@@ -4358,7 +4830,7 @@ Partial Class INSUMO
         Me.RadioButton11.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton11.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton11.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton11.Location = New System.Drawing.Point(145, 316)
+        Me.RadioButton11.Location = New System.Drawing.Point(144, 298)
         Me.RadioButton11.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton11.Name = "RadioButton11"
         Me.RadioButton11.Size = New System.Drawing.Size(244, 33)
@@ -4372,7 +4844,7 @@ Partial Class INSUMO
         Me.Label158.AutoSize = True
         Me.Label158.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label158.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label158.Location = New System.Drawing.Point(411, 435)
+        Me.Label158.Location = New System.Drawing.Point(410, 417)
         Me.Label158.Name = "Label158"
         Me.Label158.Size = New System.Drawing.Size(93, 29)
         Me.Label158.TabIndex = 21
@@ -4382,7 +4854,7 @@ Partial Class INSUMO
         '
         Me.TextBox31.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox31.ForeColor = System.Drawing.Color.Black
-        Me.TextBox31.Location = New System.Drawing.Point(509, 432)
+        Me.TextBox31.Location = New System.Drawing.Point(508, 414)
         Me.TextBox31.Name = "TextBox31"
         Me.TextBox31.Size = New System.Drawing.Size(56, 35)
         Me.TextBox31.TabIndex = 24
@@ -4393,7 +4865,7 @@ Partial Class INSUMO
         '
         Me.TextBox26.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox26.ForeColor = System.Drawing.Color.Black
-        Me.TextBox26.Location = New System.Drawing.Point(509, 474)
+        Me.TextBox26.Location = New System.Drawing.Point(508, 456)
         Me.TextBox26.Name = "TextBox26"
         Me.TextBox26.Size = New System.Drawing.Size(56, 35)
         Me.TextBox26.TabIndex = 24
@@ -4405,7 +4877,7 @@ Partial Class INSUMO
         Me.Label159.AutoSize = True
         Me.Label159.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label159.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label159.Location = New System.Drawing.Point(411, 476)
+        Me.Label159.Location = New System.Drawing.Point(410, 458)
         Me.Label159.Name = "Label159"
         Me.Label159.Size = New System.Drawing.Size(93, 29)
         Me.Label159.TabIndex = 21
@@ -4416,7 +4888,7 @@ Partial Class INSUMO
         Me.Label157.AutoSize = True
         Me.Label157.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label157.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label157.Location = New System.Drawing.Point(140, 435)
+        Me.Label157.Location = New System.Drawing.Point(139, 417)
         Me.Label157.Name = "Label157"
         Me.Label157.Size = New System.Drawing.Size(119, 29)
         Me.Label157.TabIndex = 21
@@ -4427,7 +4899,7 @@ Partial Class INSUMO
         Me.Label160.AutoSize = True
         Me.Label160.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label160.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label160.Location = New System.Drawing.Point(18, 474)
+        Me.Label160.Location = New System.Drawing.Point(17, 456)
         Me.Label160.Name = "Label160"
         Me.Label160.Size = New System.Drawing.Size(241, 29)
         Me.Label160.TabIndex = 21
@@ -4437,7 +4909,7 @@ Partial Class INSUMO
         '
         Me.DateTimePicker15.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker15.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker15.Location = New System.Drawing.Point(355, 562)
+        Me.DateTimePicker15.Location = New System.Drawing.Point(354, 544)
         Me.DateTimePicker15.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker15.Name = "DateTimePicker15"
         Me.DateTimePicker15.Size = New System.Drawing.Size(149, 35)
@@ -4447,7 +4919,7 @@ Partial Class INSUMO
         '
         Me.DateTimePicker17.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker17.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker17.Location = New System.Drawing.Point(355, 519)
+        Me.DateTimePicker17.Location = New System.Drawing.Point(354, 501)
         Me.DateTimePicker17.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker17.Name = "DateTimePicker17"
         Me.DateTimePicker17.Size = New System.Drawing.Size(149, 35)
@@ -4458,9 +4930,9 @@ Partial Class INSUMO
         Me.TabPage3.BackColor = System.Drawing.Color.Silver
         Me.TabPage3.Controls.Add(Me.Panel75)
         Me.TabPage3.Controls.Add(Me.Panel31)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 33)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(1888, 2146)
+        Me.TabPage3.Size = New System.Drawing.Size(1888, 2155)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "ENTRADA /"
         '
@@ -5852,6 +6324,7 @@ Partial Class INSUMO
         '
         Me.Panel31.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel31.Controls.Add(Me.PictureBox1)
         Me.Panel31.Controls.Add(Me.Panel38)
         Me.Panel31.Controls.Add(Me.Panel30)
         Me.Panel31.Controls.Add(Me.Button34)
@@ -5866,10 +6339,22 @@ Partial Class INSUMO
         Me.Panel31.Controls.Add(Me.Button35)
         Me.Panel31.Controls.Add(Me.Panel19)
         Me.Panel31.Controls.Add(Me.Panel32)
+        Me.Panel31.Controls.Add(Me.Button38)
+        Me.Panel31.Controls.Add(Me.Button37)
         Me.Panel31.Location = New System.Drawing.Point(13, 13)
         Me.Panel31.Name = "Panel31"
         Me.Panel31.Size = New System.Drawing.Size(1845, 899)
         Me.Panel31.TabIndex = 160
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(528, 519)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(380, 521)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 610
+        Me.PictureBox1.TabStop = False
         '
         'Panel38
         '
@@ -5895,14 +6380,12 @@ Partial Class INSUMO
         Me.Panel38.Controls.Add(Me.TextBox51)
         Me.Panel38.Controls.Add(Me.TextBox80)
         Me.Panel38.Controls.Add(Me.TextBox83)
-        Me.Panel38.Controls.Add(Me.Button37)
         Me.Panel38.Controls.Add(Me.TextBox84)
         Me.Panel38.Controls.Add(Me.TextBox79)
         Me.Panel38.Controls.Add(Me.TextBox85)
         Me.Panel38.Controls.Add(Me.Label12)
         Me.Panel38.Controls.Add(Me.Label181)
         Me.Panel38.Controls.Add(Me.Label167)
-        Me.Panel38.Controls.Add(Me.Button38)
         Me.Panel38.Controls.Add(Me.Label5)
         Me.Panel38.Controls.Add(Me.Label183)
         Me.Panel38.Controls.Add(Me.Label169)
@@ -5928,7 +6411,7 @@ Partial Class INSUMO
         Me.Panel38.Controls.Add(Me.DateTimePicker24)
         Me.Panel38.Controls.Add(Me.Button28)
         Me.Panel38.Controls.Add(Me.Button30)
-        Me.Panel38.Location = New System.Drawing.Point(19, 283)
+        Me.Panel38.Location = New System.Drawing.Point(19, 319)
         Me.Panel38.Name = "Panel38"
         Me.Panel38.Size = New System.Drawing.Size(1813, 305)
         Me.Panel38.TabIndex = 205
@@ -6196,25 +6679,6 @@ Partial Class INSUMO
         Me.TextBox83.Text = "xxxxx00000xxxxx"
         Me.TextBox83.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'Button37
-        '
-        Me.Button37.AutoSize = True
-        Me.Button37.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button37.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown
-        Me.Button37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
-        Me.Button37.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button37.ForeColor = System.Drawing.Color.Black
-        Me.Button37.Location = New System.Drawing.Point(610, 244)
-        Me.Button37.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button37.Name = "Button37"
-        Me.Button37.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button37.Size = New System.Drawing.Size(165, 43)
-        Me.Button37.TabIndex = 162
-        Me.Button37.Text = "Modificar"
-        Me.Button37.UseVisualStyleBackColor = False
-        '
         'TextBox84
         '
         Me.TextBox84.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -6280,25 +6744,6 @@ Partial Class INSUMO
         Me.Label167.Size = New System.Drawing.Size(258, 29)
         Me.Label167.TabIndex = 161
         Me.Label167.Text = "SUMA DE ITEMS Gs.:"
-        '
-        'Button38
-        '
-        Me.Button38.AutoSize = True
-        Me.Button38.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button38.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button38.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown
-        Me.Button38.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
-        Me.Button38.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button38.ForeColor = System.Drawing.Color.White
-        Me.Button38.Location = New System.Drawing.Point(432, 244)
-        Me.Button38.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button38.Name = "Button38"
-        Me.Button38.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button38.Size = New System.Drawing.Size(165, 43)
-        Me.Button38.TabIndex = 162
-        Me.Button38.Text = "GRABAR"
-        Me.Button38.UseVisualStyleBackColor = False
         '
         'Label5
         '
@@ -6371,9 +6816,9 @@ Partial Class INSUMO
         Me.Label189.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label189.Location = New System.Drawing.Point(850, 57)
         Me.Label189.Name = "Label189"
-        Me.Label189.Size = New System.Drawing.Size(90, 29)
+        Me.Label189.Size = New System.Drawing.Size(98, 29)
         Me.Label189.TabIndex = 161
-        Me.Label189.Text = "Lte. N°"
+        Me.Label189.Text = "Lote N°"
         '
         'DateTimePicker23
         '
@@ -6424,9 +6869,9 @@ Partial Class INSUMO
         Me.Label190.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label190.Location = New System.Drawing.Point(1036, 57)
         Me.Label190.Name = "Label190"
-        Me.Label190.Size = New System.Drawing.Size(66, 29)
+        Me.Label190.Size = New System.Drawing.Size(59, 29)
         Me.Label190.TabIndex = 161
-        Me.Label190.Text = "Vto.:"
+        Me.Label190.Text = "Vto."
         '
         'Label168
         '
@@ -6589,10 +7034,38 @@ Partial Class INSUMO
         '
         Me.Panel30.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+<<<<<<< HEAD
         Me.Panel30.Controls.Add(Me.CheckBox40)
         Me.Panel30.Controls.Add(Me.Button45)
         Me.Panel30.Controls.Add(Me.Button74)
         Me.Panel30.Controls.Add(Me.Button75)
+=======
+        Me.Panel30.Controls.Add(Me.ComboBox50)
+        Me.Panel30.Controls.Add(Me.ComboBox52)
+        Me.Panel30.Controls.Add(Me.TextBox124)
+        Me.Panel30.Controls.Add(Me.ComboBox53)
+        Me.Panel30.Controls.Add(Me.ComboBox54)
+        Me.Panel30.Controls.Add(Me.ComboBox55)
+        Me.Panel30.Controls.Add(Me.Label340)
+        Me.Panel30.Controls.Add(Me.Label341)
+        Me.Panel30.Controls.Add(Me.Label342)
+        Me.Panel30.Controls.Add(Me.Label343)
+        Me.Panel30.Controls.Add(Me.Label344)
+        Me.Panel30.Controls.Add(Me.Label345)
+        Me.Panel30.Controls.Add(Me.Label346)
+        Me.Panel30.Controls.Add(Me.Label347)
+        Me.Panel30.Controls.Add(Me.Label348)
+        Me.Panel30.Controls.Add(Me.Label349)
+        Me.Panel30.Controls.Add(Me.Label350)
+        Me.Panel30.Controls.Add(Me.ComboBox56)
+        Me.Panel30.Controls.Add(Me.ComboBox57)
+        Me.Panel30.Controls.Add(Me.TextBox126)
+        Me.Panel30.Controls.Add(Me.ComboBox58)
+        Me.Panel30.Controls.Add(Me.ComboBox59)
+        Me.Panel30.Controls.Add(Me.ComboBox158)
+        Me.Panel30.Controls.Add(Me.Button31)
+        Me.Panel30.Controls.Add(Me.Panel33)
+>>>>>>> pre-main
         Me.Panel30.Controls.Add(Me.ComboBox47)
         Me.Panel30.Controls.Add(Me.ComboBox48)
         Me.Panel30.Controls.Add(Me.Label215)
@@ -6610,8 +7083,8 @@ Partial Class INSUMO
         Me.Panel30.Controls.Add(Me.Label391)
         Me.Panel30.Controls.Add(Me.Label392)
         Me.Panel30.Controls.Add(Me.ComboBox49)
-        Me.Panel30.Controls.Add(Me.ComboBox50)
         Me.Panel30.Controls.Add(Me.ComboBox51)
+<<<<<<< HEAD
         Me.Panel30.Controls.Add(Me.ComboBox52)
         Me.Panel30.Controls.Add(Me.ComboBox53)
         Me.Panel30.Controls.Add(Me.ComboBox54)
@@ -6622,10 +7095,342 @@ Partial Class INSUMO
         Me.Panel30.Controls.Add(Me.ComboBox58)
         Me.Panel30.Controls.Add(Me.Button76)
         Me.Panel30.Controls.Add(Me.Panel33)
+=======
+        Me.Panel30.Controls.Add(Me.Label215)
+        Me.Panel30.Controls.Add(Me.Label351)
+        Me.Panel30.Controls.Add(Me.Label216)
+        Me.Panel30.Controls.Add(Me.Label217)
+        Me.Panel30.Controls.Add(Me.Label218)
+        Me.Panel30.Controls.Add(Me.TextBox33)
+>>>>>>> pre-main
         Me.Panel30.Location = New System.Drawing.Point(19, 49)
         Me.Panel30.Name = "Panel30"
-        Me.Panel30.Size = New System.Drawing.Size(1813, 228)
+        Me.Panel30.Size = New System.Drawing.Size(1813, 254)
         Me.Panel30.TabIndex = 205
+        '
+        'ComboBox50
+        '
+        Me.ComboBox50.BackColor = System.Drawing.Color.White
+        Me.ComboBox50.DropDownWidth = 272
+        Me.ComboBox50.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox50.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox50.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox50.FormattingEnabled = True
+        Me.ComboBox50.Items.AddRange(New Object() {"(PAIS)"})
+        Me.ComboBox50.Location = New System.Drawing.Point(254, 69)
+        Me.ComboBox50.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox50.Name = "ComboBox50"
+        Me.ComboBox50.Size = New System.Drawing.Size(56, 37)
+        Me.ComboBox50.TabIndex = 190
+        '
+        'ComboBox52
+        '
+        Me.ComboBox52.BackColor = System.Drawing.Color.White
+        Me.ComboBox52.DropDownWidth = 272
+        Me.ComboBox52.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox52.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox52.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox52.FormattingEnabled = True
+        Me.ComboBox52.Items.AddRange(New Object() {"(PAIS)"})
+        Me.ComboBox52.Location = New System.Drawing.Point(324, 69)
+        Me.ComboBox52.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox52.Name = "ComboBox52"
+        Me.ComboBox52.Size = New System.Drawing.Size(86, 37)
+        Me.ComboBox52.TabIndex = 184
+        '
+        'TextBox124
+        '
+        Me.TextBox124.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox124.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox124.Location = New System.Drawing.Point(1638, 63)
+        Me.TextBox124.Name = "TextBox124"
+        Me.TextBox124.Size = New System.Drawing.Size(143, 35)
+        Me.TextBox124.TabIndex = 179
+        Me.TextBox124.Text = "0.000.000"
+        Me.TextBox124.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'ComboBox53
+        '
+        Me.ComboBox53.BackColor = System.Drawing.Color.White
+        Me.ComboBox53.DropDownWidth = 272
+        Me.ComboBox53.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox53.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox53.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox53.FormattingEnabled = True
+        Me.ComboBox53.Items.AddRange(New Object() {"88888888", "88888888", "88888888", "88888888", "88888888", "", "8 COD PROVEEDOR  "})
+        Me.ComboBox53.Location = New System.Drawing.Point(1188, 67)
+        Me.ComboBox53.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox53.Name = "ComboBox53"
+        Me.ComboBox53.Size = New System.Drawing.Size(151, 37)
+        Me.ComboBox53.TabIndex = 183
+        '
+        'ComboBox54
+        '
+        Me.ComboBox54.BackColor = System.Drawing.Color.White
+        Me.ComboBox54.DropDownWidth = 272
+        Me.ComboBox54.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox54.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox54.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox54.FormattingEnabled = True
+        Me.ComboBox54.Items.AddRange(New Object() {"3AREA ", "", "MSTENIMIENTO", "INSUMO", "MATERIA PRIMA"})
+        Me.ComboBox54.Location = New System.Drawing.Point(424, 69)
+        Me.ComboBox54.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox54.Name = "ComboBox54"
+        Me.ComboBox54.Size = New System.Drawing.Size(76, 37)
+        Me.ComboBox54.TabIndex = 182
+        '
+        'ComboBox55
+        '
+        Me.ComboBox55.BackColor = System.Drawing.Color.White
+        Me.ComboBox55.DropDownWidth = 272
+        Me.ComboBox55.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox55.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox55.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox55.FormattingEnabled = True
+        Me.ComboBox55.Items.AddRange(New Object() {"4 ESTACION"})
+        Me.ComboBox55.Location = New System.Drawing.Point(514, 69)
+        Me.ComboBox55.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox55.Name = "ComboBox55"
+        Me.ComboBox55.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox55.TabIndex = 181
+        '
+        'Label340
+        '
+        Me.Label340.AutoSize = True
+        Me.Label340.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label340.Location = New System.Drawing.Point(1582, 66)
+        Me.Label340.Name = "Label340"
+        Me.Label340.Size = New System.Drawing.Size(47, 29)
+        Me.Label340.TabIndex = 168
+        Me.Label340.Text = "N°:"
+        Me.Label340.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label341
+        '
+        Me.Label341.AutoSize = True
+        Me.Label341.BackColor = System.Drawing.Color.Transparent
+        Me.Label341.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label341.ForeColor = System.Drawing.Color.Blue
+        Me.Label341.Location = New System.Drawing.Point(424, 46)
+        Me.Label341.Name = "Label341"
+        Me.Label341.Size = New System.Drawing.Size(73, 19)
+        Me.Label341.TabIndex = 174
+        Me.Label341.Text = "(3AREA)"
+        '
+        'Label342
+        '
+        Me.Label342.AutoSize = True
+        Me.Label342.BackColor = System.Drawing.Color.Transparent
+        Me.Label342.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label342.ForeColor = System.Drawing.Color.Blue
+        Me.Label342.Location = New System.Drawing.Point(228, 46)
+        Me.Label342.Name = "Label342"
+        Me.Label342.Size = New System.Drawing.Size(99, 19)
+        Me.Label342.TabIndex = 175
+        Me.Label342.Text = "(1DEPOSIT)"
+        '
+        'Label343
+        '
+        Me.Label343.AutoSize = True
+        Me.Label343.BackColor = System.Drawing.Color.Transparent
+        Me.Label343.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label343.ForeColor = System.Drawing.Color.Blue
+        Me.Label343.Location = New System.Drawing.Point(1202, 44)
+        Me.Label343.Name = "Label343"
+        Me.Label343.Size = New System.Drawing.Size(103, 19)
+        Me.Label343.TabIndex = 176
+        Me.Label343.Text = "(8)COD PRO"
+        '
+        'Label344
+        '
+        Me.Label344.AutoSize = True
+        Me.Label344.BackColor = System.Drawing.Color.Transparent
+        Me.Label344.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label344.ForeColor = System.Drawing.Color.Blue
+        Me.Label344.Location = New System.Drawing.Point(1089, 46)
+        Me.Label344.Name = "Label344"
+        Me.Label344.Size = New System.Drawing.Size(79, 19)
+        Me.Label344.TabIndex = 177
+        Me.Label344.Text = "(3UNIDA)"
+        '
+        'Label345
+        '
+        Me.Label345.AutoSize = True
+        Me.Label345.BackColor = System.Drawing.Color.Transparent
+        Me.Label345.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label345.ForeColor = System.Drawing.Color.Blue
+        Me.Label345.Location = New System.Drawing.Point(980, 45)
+        Me.Label345.Name = "Label345"
+        Me.Label345.Size = New System.Drawing.Size(85, 19)
+        Me.Label345.TabIndex = 169
+        Me.Label345.Text = "(3VOLOR)"
+        '
+        'Label346
+        '
+        Me.Label346.AutoSize = True
+        Me.Label346.BackColor = System.Drawing.Color.Transparent
+        Me.Label346.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label346.ForeColor = System.Drawing.Color.Blue
+        Me.Label346.Location = New System.Drawing.Point(872, 44)
+        Me.Label346.Name = "Label346"
+        Me.Label346.Size = New System.Drawing.Size(87, 19)
+        Me.Label346.TabIndex = 178
+        Me.Label346.Text = "(4CERTIF)"
+        '
+        'Label347
+        '
+        Me.Label347.AutoSize = True
+        Me.Label347.BackColor = System.Drawing.Color.Transparent
+        Me.Label347.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label347.ForeColor = System.Drawing.Color.Blue
+        Me.Label347.Location = New System.Drawing.Point(748, 45)
+        Me.Label347.Name = "Label347"
+        Me.Label347.Size = New System.Drawing.Size(108, 19)
+        Me.Label347.TabIndex = 173
+        Me.Label347.Text = "(4PROVEED)"
+        '
+        'Label348
+        '
+        Me.Label348.AutoSize = True
+        Me.Label348.BackColor = System.Drawing.Color.Transparent
+        Me.Label348.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label348.ForeColor = System.Drawing.Color.Blue
+        Me.Label348.Location = New System.Drawing.Point(631, 44)
+        Me.Label348.Name = "Label348"
+        Me.Label348.Size = New System.Drawing.Size(87, 19)
+        Me.Label348.TabIndex = 172
+        Me.Label348.Text = "(4GRUPO)"
+        '
+        'Label349
+        '
+        Me.Label349.AutoSize = True
+        Me.Label349.BackColor = System.Drawing.Color.Transparent
+        Me.Label349.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label349.ForeColor = System.Drawing.Color.Blue
+        Me.Label349.Location = New System.Drawing.Point(519, 44)
+        Me.Label349.Name = "Label349"
+        Me.Label349.Size = New System.Drawing.Size(82, 19)
+        Me.Label349.TabIndex = 171
+        Me.Label349.Text = "(4ESTAC)"
+        '
+        'Label350
+        '
+        Me.Label350.AutoSize = True
+        Me.Label350.BackColor = System.Drawing.Color.Transparent
+        Me.Label350.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label350.ForeColor = System.Drawing.Color.Blue
+        Me.Label350.Location = New System.Drawing.Point(334, 44)
+        Me.Label350.Name = "Label350"
+        Me.Label350.Size = New System.Drawing.Size(64, 19)
+        Me.Label350.TabIndex = 170
+        Me.Label350.Text = "(3PAIS)"
+        '
+        'ComboBox56
+        '
+        Me.ComboBox56.BackColor = System.Drawing.Color.White
+        Me.ComboBox56.DropDownWidth = 272
+        Me.ComboBox56.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox56.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox56.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox56.FormattingEnabled = True
+        Me.ComboBox56.Items.AddRange(New Object() {"4444", "4444", "4444", "4444", "4444", "", "", "", "4 PROVEEDOR"})
+        Me.ComboBox56.Location = New System.Drawing.Point(750, 67)
+        Me.ComboBox56.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox56.Name = "ComboBox56"
+        Me.ComboBox56.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox56.TabIndex = 185
+        '
+        'ComboBox57
+        '
+        Me.ComboBox57.BackColor = System.Drawing.Color.White
+        Me.ComboBox57.DropDownWidth = 272
+        Me.ComboBox57.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox57.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox57.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox57.FormattingEnabled = True
+        Me.ComboBox57.Items.AddRange(New Object() {"4444", "4444", "4444", "4444", "4444", "", "", "", "4 GRUPO"})
+        Me.ComboBox57.Location = New System.Drawing.Point(632, 69)
+        Me.ComboBox57.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox57.Name = "ComboBox57"
+        Me.ComboBox57.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox57.TabIndex = 186
+        '
+        'TextBox126
+        '
+        Me.TextBox126.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox126.ForeColor = System.Drawing.Color.Black
+        Me.TextBox126.Location = New System.Drawing.Point(334, 208)
+        Me.TextBox126.Name = "TextBox126"
+        Me.TextBox126.Size = New System.Drawing.Size(1459, 35)
+        Me.TextBox126.TabIndex = 172
+        Me.TextBox126.Text = "TOYO LIOCOLOR VERDE TKCOLOR09/L"
+        '
+        'ComboBox58
+        '
+        Me.ComboBox58.BackColor = System.Drawing.Color.White
+        Me.ComboBox58.DropDownWidth = 272
+        Me.ComboBox58.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox58.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox58.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox58.FormattingEnabled = True
+        Me.ComboBox58.Items.AddRange(New Object() {"55555", "55555", "55555", "", "", "", "", "5 CERTIFICADO"})
+        Me.ComboBox58.Location = New System.Drawing.Point(868, 67)
+        Me.ComboBox58.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox58.Name = "ComboBox58"
+        Me.ComboBox58.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox58.TabIndex = 187
+        '
+        'ComboBox59
+        '
+        Me.ComboBox59.BackColor = System.Drawing.Color.White
+        Me.ComboBox59.DropDownWidth = 272
+        Me.ComboBox59.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox59.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox59.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox59.FormattingEnabled = True
+        Me.ComboBox59.Items.AddRange(New Object() {"NEG", "CYA", "MAG", "AMA", "ROJ", "VER", "CLA", "", "Tiene tres digitos y se debe encuadran el color que se saca dentro de uno de esto" &
+                "s.", "de esta forma va a dar opciones al planificador que colores similares tiene o se " &
+                "tira para algunas ", "de estas tonalidades"})
+        Me.ComboBox59.Location = New System.Drawing.Point(986, 69)
+        Me.ComboBox59.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox59.Name = "ComboBox59"
+        Me.ComboBox59.Size = New System.Drawing.Size(81, 37)
+        Me.ComboBox59.TabIndex = 188
+        '
+        'ComboBox158
+        '
+        Me.ComboBox158.BackColor = System.Drawing.Color.White
+        Me.ComboBox158.DropDownWidth = 272
+        Me.ComboBox158.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox158.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox158.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox158.FormattingEnabled = True
+        Me.ComboBox158.Items.AddRange(New Object() {"333", "333", "333", "333", "", "", "Esta son la unidad de medicion qu cada uno de los insumos tiene (cm/m2/kilos/tec)" &
+                ""})
+        Me.ComboBox158.Location = New System.Drawing.Point(1081, 67)
+        Me.ComboBox158.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox158.Name = "ComboBox158"
+        Me.ComboBox158.Size = New System.Drawing.Size(93, 37)
+        Me.ComboBox158.TabIndex = 189
+        '
+        'Button31
+        '
+        Me.Button31.AutoSize = True
+        Me.Button31.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button31.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button31.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button31.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button31.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button31.ForeColor = System.Drawing.Color.Black
+        Me.Button31.Location = New System.Drawing.Point(86, 63)
+        Me.Button31.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button31.Name = "Button31"
+        Me.Button31.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button31.Size = New System.Drawing.Size(149, 50)
+        Me.Button31.TabIndex = 180
+        Me.Button31.Text = "Buscar"
+        Me.Button31.UseVisualStyleBackColor = False
         '
         'Panel33
         '
@@ -6662,6 +7467,135 @@ Partial Class INSUMO
         Me.Label214.TabIndex = 5
         Me.Label214.Text = "CLIENTE"
         '
+<<<<<<< HEAD
+=======
+        'ComboBox47
+        '
+        Me.ComboBox47.BackColor = System.Drawing.Color.White
+        Me.ComboBox47.DropDownWidth = 272
+        Me.ComboBox47.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox47.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox47.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox47.FormattingEnabled = True
+        Me.ComboBox47.Items.AddRange(New Object() {"123456789101345", "123456789101345", "123456789101345", "123456789101345", "", "CODIGO PROVEEDOR"})
+        Me.ComboBox47.Location = New System.Drawing.Point(1544, 113)
+        Me.ComboBox47.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox47.Name = "ComboBox47"
+        Me.ComboBox47.Size = New System.Drawing.Size(259, 37)
+        Me.ComboBox47.TabIndex = 167
+        '
+        'ComboBox48
+        '
+        Me.ComboBox48.BackColor = System.Drawing.Color.White
+        Me.ComboBox48.DropDownWidth = 272
+        Me.ComboBox48.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox48.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox48.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox48.FormattingEnabled = True
+        Me.ComboBox48.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "COD. Contable  ARTICULO:"})
+        Me.ComboBox48.Location = New System.Drawing.Point(334, 159)
+        Me.ComboBox48.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox48.Name = "ComboBox48"
+        Me.ComboBox48.Size = New System.Drawing.Size(708, 37)
+        Me.ComboBox48.TabIndex = 167
+        '
+        'ComboBox49
+        '
+        Me.ComboBox49.BackColor = System.Drawing.Color.White
+        Me.ComboBox49.DropDownWidth = 272
+        Me.ComboBox49.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox49.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox49.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox49.FormattingEnabled = True
+        Me.ComboBox49.Items.AddRange(New Object() {"Nombre del INSUMO DEL PROVEEDOR"})
+        Me.ComboBox49.Location = New System.Drawing.Point(1094, 113)
+        Me.ComboBox49.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox49.Name = "ComboBox49"
+        Me.ComboBox49.Size = New System.Drawing.Size(432, 37)
+        Me.ComboBox49.TabIndex = 167
+        '
+        'ComboBox51
+        '
+        Me.ComboBox51.BackColor = System.Drawing.Color.White
+        Me.ComboBox51.DropDownWidth = 272
+        Me.ComboBox51.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox51.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox51.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox51.FormattingEnabled = True
+        Me.ComboBox51.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "", "Cod. Gama INSUMO:"})
+        Me.ComboBox51.Location = New System.Drawing.Point(254, 113)
+        Me.ComboBox51.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox51.Name = "ComboBox51"
+        Me.ComboBox51.Size = New System.Drawing.Size(708, 37)
+        Me.ComboBox51.TabIndex = 167
+        '
+        'Label215
+        '
+        Me.Label215.AutoSize = True
+        Me.Label215.BackColor = System.Drawing.Color.Transparent
+        Me.Label215.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label215.Location = New System.Drawing.Point(977, 117)
+        Me.Label215.Name = "Label215"
+        Me.Label215.Size = New System.Drawing.Size(110, 29)
+        Me.Label215.TabIndex = 21
+        Me.Label215.Text = "Nombre:"
+        '
+        'Label351
+        '
+        Me.Label351.AutoSize = True
+        Me.Label351.BackColor = System.Drawing.Color.Transparent
+        Me.Label351.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label351.Location = New System.Drawing.Point(20, 214)
+        Me.Label351.Name = "Label351"
+        Me.Label351.Size = New System.Drawing.Size(307, 29)
+        Me.Label351.TabIndex = 21
+        Me.Label351.Text = "Descripcion contabilidad:"
+        '
+        'Label216
+        '
+        Me.Label216.AutoSize = True
+        Me.Label216.BackColor = System.Drawing.Color.Transparent
+        Me.Label216.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label216.Location = New System.Drawing.Point(4, 163)
+        Me.Label216.Name = "Label216"
+        Me.Label216.Size = New System.Drawing.Size(327, 29)
+        Me.Label216.TabIndex = 21
+        Me.Label216.Text = "Cod.. Contable  ARTICULO:"
+        '
+        'Label217
+        '
+        Me.Label217.AutoSize = True
+        Me.Label217.BackColor = System.Drawing.Color.Transparent
+        Me.Label217.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label217.Location = New System.Drawing.Point(1063, 163)
+        Me.Label217.Name = "Label217"
+        Me.Label217.Size = New System.Drawing.Size(152, 29)
+        Me.Label217.TabIndex = 21
+        Me.Label217.Text = "CTA./CONT.:"
+        '
+        'Label218
+        '
+        Me.Label218.AutoSize = True
+        Me.Label218.BackColor = System.Drawing.Color.Transparent
+        Me.Label218.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label218.Location = New System.Drawing.Point(3, 117)
+        Me.Label218.Name = "Label218"
+        Me.Label218.Size = New System.Drawing.Size(250, 29)
+        Me.Label218.TabIndex = 21
+        Me.Label218.Text = "Cod. Gama INSUMO:"
+        '
+        'TextBox33
+        '
+        Me.TextBox33.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox33.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox33.Location = New System.Drawing.Point(1223, 160)
+        Me.TextBox33.Name = "TextBox33"
+        Me.TextBox33.Size = New System.Drawing.Size(269, 35)
+        Me.TextBox33.TabIndex = 24
+        Me.TextBox33.Text = "00000000-0-00-00"
+        Me.TextBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+>>>>>>> pre-main
         'Button34
         '
         Me.Button34.AutoSize = True
@@ -6672,7 +7606,7 @@ Partial Class INSUMO
         Me.Button34.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
         Me.Button34.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button34.ForeColor = System.Drawing.Color.Black
-        Me.Button34.Location = New System.Drawing.Point(631, 646)
+        Me.Button34.Location = New System.Drawing.Point(630, 685)
         Me.Button34.Margin = New System.Windows.Forms.Padding(4)
         Me.Button34.Name = "Button34"
         Me.Button34.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -6702,7 +7636,7 @@ Partial Class INSUMO
         Me.Button33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
         Me.Button33.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button33.ForeColor = System.Drawing.Color.Black
-        Me.Button33.Location = New System.Drawing.Point(631, 595)
+        Me.Button33.Location = New System.Drawing.Point(630, 634)
         Me.Button33.Margin = New System.Windows.Forms.Padding(4)
         Me.Button33.Name = "Button33"
         Me.Button33.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -6732,7 +7666,7 @@ Partial Class INSUMO
         Me.Button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
         Me.Button22.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button22.ForeColor = System.Drawing.Color.Black
-        Me.Button22.Location = New System.Drawing.Point(20, 646)
+        Me.Button22.Location = New System.Drawing.Point(19, 685)
         Me.Button22.Margin = New System.Windows.Forms.Padding(4)
         Me.Button22.Name = "Button22"
         Me.Button22.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -6763,7 +7697,7 @@ Partial Class INSUMO
         Me.Button54.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
         Me.Button54.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button54.ForeColor = System.Drawing.Color.Black
-        Me.Button54.Location = New System.Drawing.Point(20, 595)
+        Me.Button54.Location = New System.Drawing.Point(19, 634)
         Me.Button54.Margin = New System.Windows.Forms.Padding(4)
         Me.Button54.Name = "Button54"
         Me.Button54.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -6777,9 +7711,9 @@ Partial Class INSUMO
         Me.Button21.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button21.Image = CType(resources.GetObject("Button21.Image"), System.Drawing.Image)
-        Me.Button21.Location = New System.Drawing.Point(1035, 715)
+        Me.Button21.Location = New System.Drawing.Point(1035, 735)
         Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(98, 113)
+        Me.Button21.Size = New System.Drawing.Size(93, 93)
         Me.Button21.TabIndex = 181
         Me.Button21.UseVisualStyleBackColor = True
         '
@@ -6799,7 +7733,7 @@ Partial Class INSUMO
         Me.Button23.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Button23.Size = New System.Drawing.Size(145, 50)
         Me.Button23.TabIndex = 180
-        Me.Button23.Text = "Claudia"
+        Me.Button23.Text = "ERIKA"
         Me.Button23.UseVisualStyleBackColor = False
         '
         'Button35
@@ -6812,11 +7746,11 @@ Partial Class INSUMO
         Me.Button35.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.Button35.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button35.ForeColor = System.Drawing.Color.Black
-        Me.Button35.Location = New System.Drawing.Point(1190, 595)
+        Me.Button35.Location = New System.Drawing.Point(1179, 634)
         Me.Button35.Margin = New System.Windows.Forms.Padding(4)
         Me.Button35.Name = "Button35"
         Me.Button35.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button35.Size = New System.Drawing.Size(653, 285)
+        Me.Button35.Size = New System.Drawing.Size(471, 246)
         Me.Button35.TabIndex = 180
         Me.Button35.Text = "PDF (foto insumo comprado)"
         Me.Button35.UseVisualStyleBackColor = False
@@ -6827,9 +7761,9 @@ Partial Class INSUMO
         Me.Panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel19.Controls.Add(Me.Panel20)
         Me.Panel19.Controls.Add(Me.Panel21)
-        Me.Panel19.Location = New System.Drawing.Point(20, 714)
+        Me.Panel19.Location = New System.Drawing.Point(20, 736)
         Me.Panel19.Name = "Panel19"
-        Me.Panel19.Size = New System.Drawing.Size(544, 166)
+        Me.Panel19.Size = New System.Drawing.Size(544, 144)
         Me.Panel19.TabIndex = 182
         '
         'Panel20
@@ -6837,9 +7771,9 @@ Partial Class INSUMO
         Me.Panel20.AutoScroll = True
         Me.Panel20.BackColor = System.Drawing.Color.Silver
         Me.Panel20.Controls.Add(Me.TextBox239)
-        Me.Panel20.Location = New System.Drawing.Point(17, 39)
+        Me.Panel20.Location = New System.Drawing.Point(15, 44)
         Me.Panel20.Name = "Panel20"
-        Me.Panel20.Size = New System.Drawing.Size(512, 113)
+        Me.Panel20.Size = New System.Drawing.Size(512, 87)
         Me.Panel20.TabIndex = 1
         '
         'TextBox239
@@ -6850,7 +7784,7 @@ Partial Class INSUMO
         Me.TextBox239.Location = New System.Drawing.Point(0, 0)
         Me.TextBox239.Multiline = True
         Me.TextBox239.Name = "TextBox239"
-        Me.TextBox239.Size = New System.Drawing.Size(486, 126)
+        Me.TextBox239.Size = New System.Drawing.Size(486, 185)
         Me.TextBox239.TabIndex = 0
         Me.TextBox239.Text = resources.GetString("TextBox239.Text")
         '
@@ -6872,7 +7806,7 @@ Partial Class INSUMO
         Me.Label205.AutoSize = True
         Me.Label205.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label205.ForeColor = System.Drawing.Color.Black
-        Me.Label205.Location = New System.Drawing.Point(160, 7)
+        Me.Label205.Location = New System.Drawing.Point(109, 5)
         Me.Label205.Name = "Label205"
         Me.Label205.Size = New System.Drawing.Size(315, 29)
         Me.Label205.TabIndex = 23
@@ -6911,6 +7845,44 @@ Partial Class INSUMO
         Me.Label14.TabIndex = 6
         Me.Label14.Text = "ENTRADA "
         '
+        'Button38
+        '
+        Me.Button38.AutoSize = True
+        Me.Button38.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button38.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button38.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown
+        Me.Button38.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
+        Me.Button38.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button38.ForeColor = System.Drawing.Color.White
+        Me.Button38.Location = New System.Drawing.Point(1666, 825)
+        Me.Button38.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button38.Name = "Button38"
+        Me.Button38.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button38.Size = New System.Drawing.Size(165, 43)
+        Me.Button38.TabIndex = 162
+        Me.Button38.Text = "GRABAR"
+        Me.Button38.UseVisualStyleBackColor = False
+        '
+        'Button37
+        '
+        Me.Button37.AutoSize = True
+        Me.Button37.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button37.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown
+        Me.Button37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
+        Me.Button37.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button37.ForeColor = System.Drawing.Color.Black
+        Me.Button37.Location = New System.Drawing.Point(1666, 772)
+        Me.Button37.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button37.Name = "Button37"
+        Me.Button37.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button37.Size = New System.Drawing.Size(165, 43)
+        Me.Button37.TabIndex = 162
+        Me.Button37.Text = "Modificar"
+        Me.Button37.UseVisualStyleBackColor = False
+        '
         'TabPage5
         '
         Me.TabPage5.BackColor = System.Drawing.Color.Silver
@@ -6925,6 +7897,7 @@ Partial Class INSUMO
         '
         Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel9.Controls.Add(Me.Panel75)
         Me.Panel9.Controls.Add(Me.Panel59)
         Me.Panel9.Controls.Add(Me.Panel56)
         Me.Panel9.Controls.Add(Me.Panel10)
@@ -6934,6 +7907,923 @@ Partial Class INSUMO
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(1839, 919)
         Me.Panel9.TabIndex = 160
+        '
+        'Panel75
+        '
+        Me.Panel75.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel75.Controls.Add(Me.TextBox498)
+        Me.Panel75.Controls.Add(Me.TextBox497)
+        Me.Panel75.Controls.Add(Me.TextBox135)
+        Me.Panel75.Controls.Add(Me.TextBox496)
+        Me.Panel75.Controls.Add(Me.TextBox136)
+        Me.Panel75.Controls.Add(Me.TextBox493)
+        Me.Panel75.Controls.Add(Me.TextBox137)
+        Me.Panel75.Controls.Add(Me.TextBox249)
+        Me.Panel75.Controls.Add(Me.ComboBox271)
+        Me.Panel75.Controls.Add(Me.ComboBox268)
+        Me.Panel75.Controls.Add(Me.ComboBox7)
+        Me.Panel75.Controls.Add(Me.ComboBox221)
+        Me.Panel75.Controls.Add(Me.ComboBox222)
+        Me.Panel75.Controls.Add(Me.ComboBox277)
+        Me.Panel75.Controls.Add(Me.ComboBox223)
+        Me.Panel75.Controls.Add(Me.ComboBox224)
+        Me.Panel75.Controls.Add(Me.ComboBox225)
+        Me.Panel75.Controls.Add(Me.ComboBox226)
+        Me.Panel75.Controls.Add(Me.ComboBox227)
+        Me.Panel75.Controls.Add(Me.ComboBox228)
+        Me.Panel75.Controls.Add(Me.ComboBox229)
+        Me.Panel75.Controls.Add(Me.ComboBox230)
+        Me.Panel75.Controls.Add(Me.Label565)
+        Me.Panel75.Controls.Add(Me.Label546)
+        Me.Panel75.Controls.Add(Me.ComboBox270)
+        Me.Panel75.Controls.Add(Me.ComboBox269)
+        Me.Panel75.Controls.Add(Me.Label564)
+        Me.Panel75.Controls.Add(Me.Label406)
+        Me.Panel75.Controls.Add(Me.ComboBox231)
+        Me.Panel75.Controls.Add(Me.ComboBox232)
+        Me.Panel75.Controls.Add(Me.Label569)
+        Me.Panel75.Controls.Add(Me.Label567)
+        Me.Panel75.Controls.Add(Me.Label563)
+        Me.Panel75.Controls.Add(Me.Label560)
+        Me.Panel75.Controls.Add(Me.Label562)
+        Me.Panel75.Controls.Add(Me.Label559)
+        Me.Panel75.Controls.Add(Me.Label561)
+        Me.Panel75.Controls.Add(Me.Label547)
+        Me.Panel75.Controls.Add(Me.Label407)
+        Me.Panel75.Controls.Add(Me.Label539)
+        Me.Panel75.Controls.Add(Me.Label408)
+        Me.Panel75.Controls.Add(Me.Label434)
+        Me.Panel75.Controls.Add(Me.Label409)
+        Me.Panel75.Controls.Add(Me.Label410)
+        Me.Panel75.Controls.Add(Me.Panel76)
+        Me.Panel75.Controls.Add(Me.Label414)
+        Me.Panel75.Controls.Add(Me.Label415)
+        Me.Panel75.Controls.Add(Me.Button53)
+        Me.Panel75.Controls.Add(Me.TextBox207)
+        Me.Panel75.Controls.Add(Me.Button55)
+        Me.Panel75.Controls.Add(Me.Label598)
+        Me.Panel75.Controls.Add(Me.TextBox246)
+        Me.Panel75.Controls.Add(Me.TextBox204)
+        Me.Panel75.Controls.Add(Me.Label416)
+        Me.Panel75.Controls.Add(Me.TextBox203)
+        Me.Panel75.Controls.Add(Me.TextBox248)
+        Me.Panel75.Controls.Add(Me.TextBox247)
+        Me.Panel75.Controls.Add(Me.TextBox175)
+        Me.Panel75.Controls.Add(Me.Label417)
+        Me.Panel75.Controls.Add(Me.TextBox242)
+        Me.Panel75.Controls.Add(Me.Label418)
+        Me.Panel75.Controls.Add(Me.Label419)
+        Me.Panel75.Controls.Add(Me.Label420)
+        Me.Panel75.Controls.Add(Me.Label421)
+        Me.Panel75.Controls.Add(Me.Label422)
+        Me.Panel75.Location = New System.Drawing.Point(660, 331)
+        Me.Panel75.Name = "Panel75"
+        Me.Panel75.Size = New System.Drawing.Size(527, 976)
+        Me.Panel75.TabIndex = 162
+        '
+        'TextBox498
+        '
+        Me.TextBox498.BackColor = System.Drawing.Color.Blue
+        Me.TextBox498.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox498.ForeColor = System.Drawing.Color.White
+        Me.TextBox498.Location = New System.Drawing.Point(327, 750)
+        Me.TextBox498.Name = "TextBox498"
+        Me.TextBox498.Size = New System.Drawing.Size(84, 36)
+        Me.TextBox498.TabIndex = 48
+        Me.TextBox498.Text = "1,80"
+        Me.TextBox498.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox497
+        '
+        Me.TextBox497.BackColor = System.Drawing.Color.Pink
+        Me.TextBox497.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox497.ForeColor = System.Drawing.Color.Black
+        Me.TextBox497.Location = New System.Drawing.Point(327, 854)
+        Me.TextBox497.Name = "TextBox497"
+        Me.TextBox497.Size = New System.Drawing.Size(84, 36)
+        Me.TextBox497.TabIndex = 49
+        Me.TextBox497.Text = "130"
+        Me.TextBox497.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox135
+        '
+        Me.TextBox135.BackColor = System.Drawing.Color.Black
+        Me.TextBox135.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox135.ForeColor = System.Drawing.Color.White
+        Me.TextBox135.Location = New System.Drawing.Point(327, 593)
+        Me.TextBox135.Name = "TextBox135"
+        Me.TextBox135.Size = New System.Drawing.Size(84, 36)
+        Me.TextBox135.TabIndex = 48
+        Me.TextBox135.Text = "1,80"
+        Me.TextBox135.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox496
+        '
+        Me.TextBox496.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox496.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox496.ForeColor = System.Drawing.Color.White
+        Me.TextBox496.Location = New System.Drawing.Point(327, 819)
+        Me.TextBox496.Name = "TextBox496"
+        Me.TextBox496.Size = New System.Drawing.Size(84, 36)
+        Me.TextBox496.TabIndex = 50
+        Me.TextBox496.Text = "1,35"
+        Me.TextBox496.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox136
+        '
+        Me.TextBox136.BackColor = System.Drawing.Color.Yellow
+        Me.TextBox136.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox136.ForeColor = System.Drawing.Color.Black
+        Me.TextBox136.Location = New System.Drawing.Point(327, 710)
+        Me.TextBox136.Name = "TextBox136"
+        Me.TextBox136.Size = New System.Drawing.Size(84, 36)
+        Me.TextBox136.TabIndex = 49
+        Me.TextBox136.Text = "130"
+        Me.TextBox136.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox493
+        '
+        Me.TextBox493.BackColor = System.Drawing.Color.Red
+        Me.TextBox493.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox493.ForeColor = System.Drawing.Color.White
+        Me.TextBox493.Location = New System.Drawing.Point(327, 783)
+        Me.TextBox493.Name = "TextBox493"
+        Me.TextBox493.Size = New System.Drawing.Size(84, 36)
+        Me.TextBox493.TabIndex = 51
+        Me.TextBox493.Text = "1,40"
+        Me.TextBox493.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox137
+        '
+        Me.TextBox137.BackColor = System.Drawing.Color.Magenta
+        Me.TextBox137.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox137.ForeColor = System.Drawing.Color.White
+        Me.TextBox137.Location = New System.Drawing.Point(327, 671)
+        Me.TextBox137.Name = "TextBox137"
+        Me.TextBox137.Size = New System.Drawing.Size(84, 36)
+        Me.TextBox137.TabIndex = 50
+        Me.TextBox137.Text = "1,35"
+        Me.TextBox137.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox249
+        '
+        Me.TextBox249.BackColor = System.Drawing.Color.Aqua
+        Me.TextBox249.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox249.ForeColor = System.Drawing.Color.Black
+        Me.TextBox249.Location = New System.Drawing.Point(327, 633)
+        Me.TextBox249.Name = "TextBox249"
+        Me.TextBox249.Size = New System.Drawing.Size(84, 36)
+        Me.TextBox249.TabIndex = 51
+        Me.TextBox249.Text = "1,40"
+        Me.TextBox249.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox271
+        '
+        Me.ComboBox271.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox271.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox271.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox271.FormattingEnabled = True
+        Me.ComboBox271.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox271.Location = New System.Drawing.Point(325, 456)
+        Me.ComboBox271.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox271.Name = "ComboBox271"
+        Me.ComboBox271.Size = New System.Drawing.Size(184, 36)
+        Me.ComboBox271.TabIndex = 24
+        '
+        'ComboBox268
+        '
+        Me.ComboBox268.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox268.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox268.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox268.FormattingEnabled = True
+        Me.ComboBox268.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox268.Location = New System.Drawing.Point(325, 188)
+        Me.ComboBox268.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox268.Name = "ComboBox268"
+        Me.ComboBox268.Size = New System.Drawing.Size(184, 36)
+        Me.ComboBox268.TabIndex = 24
+        '
+        'ComboBox7
+        '
+        Me.ComboBox7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox7.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox7.FormattingEnabled = True
+        Me.ComboBox7.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox7.Location = New System.Drawing.Point(94, 456)
+        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox7.Name = "ComboBox7"
+        Me.ComboBox7.Size = New System.Drawing.Size(160, 36)
+        Me.ComboBox7.TabIndex = 24
+        '
+        'ComboBox221
+        '
+        Me.ComboBox221.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox221.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox221.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox221.FormattingEnabled = True
+        Me.ComboBox221.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox221.Location = New System.Drawing.Point(94, 188)
+        Me.ComboBox221.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox221.Name = "ComboBox221"
+        Me.ComboBox221.Size = New System.Drawing.Size(160, 36)
+        Me.ComboBox221.TabIndex = 24
+        '
+        'ComboBox222
+        '
+        Me.ComboBox222.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox222.DropDownWidth = 272
+        Me.ComboBox222.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox222.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox222.FormattingEnabled = True
+        Me.ComboBox222.Items.AddRange(New Object() {"B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "", "Es es el codigo de la MP materia prima debe salir todos en este listado", "trae de la OT salida del deposito el escogido e exibido aqui"})
+        Me.ComboBox222.Location = New System.Drawing.Point(69, 541)
+        Me.ComboBox222.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox222.Name = "ComboBox222"
+        Me.ComboBox222.Size = New System.Drawing.Size(440, 32)
+        Me.ComboBox222.TabIndex = 33
+        '
+        'ComboBox277
+        '
+        Me.ComboBox277.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox277.DropDownWidth = 272
+        Me.ComboBox277.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox277.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox277.FormattingEnabled = True
+        Me.ComboBox277.Items.AddRange(New Object() {"B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "B/PAPI/VITA/GRA/000X000/FSC/ISEGA", "", "Es es el codigo de la MP materia prima debe salir todos en este listado", "trae de la OT salida del deposito el escogido e exibido aqui"})
+        Me.ComboBox277.Location = New System.Drawing.Point(69, 273)
+        Me.ComboBox277.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox277.Name = "ComboBox277"
+        Me.ComboBox277.Size = New System.Drawing.Size(440, 32)
+        Me.ComboBox277.TabIndex = 33
+        '
+        'ComboBox223
+        '
+        Me.ComboBox223.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox223.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox223.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox223.FormattingEnabled = True
+        Me.ComboBox223.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox223.Location = New System.Drawing.Point(325, 412)
+        Me.ComboBox223.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox223.Name = "ComboBox223"
+        Me.ComboBox223.Size = New System.Drawing.Size(184, 36)
+        Me.ComboBox223.TabIndex = 24
+        '
+        'ComboBox224
+        '
+        Me.ComboBox224.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox224.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox224.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox224.FormattingEnabled = True
+        Me.ComboBox224.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox224.Location = New System.Drawing.Point(325, 144)
+        Me.ComboBox224.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox224.Name = "ComboBox224"
+        Me.ComboBox224.Size = New System.Drawing.Size(184, 36)
+        Me.ComboBox224.TabIndex = 24
+        '
+        'ComboBox225
+        '
+        Me.ComboBox225.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox225.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox225.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox225.FormattingEnabled = True
+        Me.ComboBox225.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox225.Location = New System.Drawing.Point(94, 412)
+        Me.ComboBox225.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox225.Name = "ComboBox225"
+        Me.ComboBox225.Size = New System.Drawing.Size(160, 36)
+        Me.ComboBox225.TabIndex = 24
+        '
+        'ComboBox226
+        '
+        Me.ComboBox226.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox226.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox226.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox226.FormattingEnabled = True
+        Me.ComboBox226.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox226.Location = New System.Drawing.Point(94, 144)
+        Me.ComboBox226.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox226.Name = "ComboBox226"
+        Me.ComboBox226.Size = New System.Drawing.Size(160, 36)
+        Me.ComboBox226.TabIndex = 24
+        '
+        'ComboBox227
+        '
+        Me.ComboBox227.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox227.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox227.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox227.FormattingEnabled = True
+        Me.ComboBox227.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox227.Location = New System.Drawing.Point(324, 366)
+        Me.ComboBox227.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox227.Name = "ComboBox227"
+        Me.ComboBox227.Size = New System.Drawing.Size(184, 36)
+        Me.ComboBox227.TabIndex = 24
+        '
+        'ComboBox228
+        '
+        Me.ComboBox228.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox228.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox228.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox228.FormattingEnabled = True
+        Me.ComboBox228.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox228.Location = New System.Drawing.Point(324, 98)
+        Me.ComboBox228.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox228.Name = "ComboBox228"
+        Me.ComboBox228.Size = New System.Drawing.Size(184, 36)
+        Me.ComboBox228.TabIndex = 24
+        '
+        'ComboBox229
+        '
+        Me.ComboBox229.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox229.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox229.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox229.FormattingEnabled = True
+        Me.ComboBox229.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox229.Location = New System.Drawing.Point(93, 366)
+        Me.ComboBox229.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox229.Name = "ComboBox229"
+        Me.ComboBox229.Size = New System.Drawing.Size(160, 36)
+        Me.ComboBox229.TabIndex = 24
+        '
+        'ComboBox230
+        '
+        Me.ComboBox230.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox230.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox230.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox230.FormattingEnabled = True
+        Me.ComboBox230.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox230.Location = New System.Drawing.Point(93, 98)
+        Me.ComboBox230.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox230.Name = "ComboBox230"
+        Me.ComboBox230.Size = New System.Drawing.Size(160, 36)
+        Me.ComboBox230.TabIndex = 24
+        '
+        'Label565
+        '
+        Me.Label565.AutoSize = True
+        Me.Label565.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label565.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label565.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label565.Location = New System.Drawing.Point(269, 464)
+        Me.Label565.Name = "Label565"
+        Me.Label565.Size = New System.Drawing.Size(50, 24)
+        Me.Label565.TabIndex = 46
+        Me.Label565.Text = "ICC:"
+        '
+        'Label546
+        '
+        Me.Label546.AutoSize = True
+        Me.Label546.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label546.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label546.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label546.Location = New System.Drawing.Point(269, 196)
+        Me.Label546.Name = "Label546"
+        Me.Label546.Size = New System.Drawing.Size(50, 24)
+        Me.Label546.TabIndex = 46
+        Me.Label546.Text = "ICC:"
+        '
+        'ComboBox270
+        '
+        Me.ComboBox270.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox270.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox270.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox270.FormattingEnabled = True
+        Me.ComboBox270.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "Barniz al agua que debe utilizar en la imresora"})
+        Me.ComboBox270.Location = New System.Drawing.Point(82, 891)
+        Me.ComboBox270.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox270.Name = "ComboBox270"
+        Me.ComboBox270.Size = New System.Drawing.Size(436, 36)
+        Me.ComboBox270.TabIndex = 24
+        '
+        'ComboBox269
+        '
+        Me.ComboBox269.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox269.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox269.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox269.FormattingEnabled = True
+        Me.ComboBox269.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "Barniz UV que debe utilizar"})
+        Me.ComboBox269.Location = New System.Drawing.Point(82, 934)
+        Me.ComboBox269.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox269.Name = "ComboBox269"
+        Me.ComboBox269.Size = New System.Drawing.Size(436, 36)
+        Me.ComboBox269.TabIndex = 24
+        '
+        'Label564
+        '
+        Me.Label564.AutoSize = True
+        Me.Label564.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label564.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label564.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label564.Location = New System.Drawing.Point(269, 420)
+        Me.Label564.Name = "Label564"
+        Me.Label564.Size = New System.Drawing.Size(50, 24)
+        Me.Label564.TabIndex = 46
+        Me.Label564.Text = "ICC:"
+        '
+        'Label406
+        '
+        Me.Label406.AutoSize = True
+        Me.Label406.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label406.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label406.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label406.Location = New System.Drawing.Point(269, 152)
+        Me.Label406.Name = "Label406"
+        Me.Label406.Size = New System.Drawing.Size(50, 24)
+        Me.Label406.TabIndex = 46
+        Me.Label406.Text = "ICC:"
+        '
+        'ComboBox231
+        '
+        Me.ComboBox231.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox231.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox231.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox231.FormattingEnabled = True
+        Me.ComboBox231.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "Codigo de la PLANCHA que se realizo el PERFIL ICC"})
+        Me.ComboBox231.Location = New System.Drawing.Point(114, 500)
+        Me.ComboBox231.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox231.Name = "ComboBox231"
+        Me.ComboBox231.Size = New System.Drawing.Size(390, 36)
+        Me.ComboBox231.TabIndex = 24
+        '
+        'ComboBox232
+        '
+        Me.ComboBox232.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox232.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox232.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox232.FormattingEnabled = True
+        Me.ComboBox232.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "Codigo de la PLANCHA que se realizo el PERFIL ICC"})
+        Me.ComboBox232.Location = New System.Drawing.Point(114, 232)
+        Me.ComboBox232.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox232.Name = "ComboBox232"
+        Me.ComboBox232.Size = New System.Drawing.Size(390, 36)
+        Me.ComboBox232.TabIndex = 24
+        '
+        'Label569
+        '
+        Me.Label569.AutoSize = True
+        Me.Label569.BackColor = System.Drawing.Color.Transparent
+        Me.Label569.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label569.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label569.Location = New System.Drawing.Point(32, 941)
+        Me.Label569.Name = "Label569"
+        Me.Label569.Size = New System.Drawing.Size(43, 24)
+        Me.Label569.TabIndex = 46
+        Me.Label569.Text = "UV:"
+        '
+        'Label567
+        '
+        Me.Label567.AutoSize = True
+        Me.Label567.BackColor = System.Drawing.Color.Transparent
+        Me.Label567.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label567.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label567.Location = New System.Drawing.Point(10, 897)
+        Me.Label567.Name = "Label567"
+        Me.Label567.Size = New System.Drawing.Size(65, 24)
+        Me.Label567.TabIndex = 46
+        Me.Label567.Text = "Agua:"
+        '
+        'Label563
+        '
+        Me.Label563.AutoSize = True
+        Me.Label563.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label563.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label563.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label563.Location = New System.Drawing.Point(18, 544)
+        Me.Label563.Name = "Label563"
+        Me.Label563.Size = New System.Drawing.Size(50, 24)
+        Me.Label563.TabIndex = 46
+        Me.Label563.Text = "MP.:"
+        '
+        'Label560
+        '
+        Me.Label560.AutoSize = True
+        Me.Label560.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label560.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label560.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label560.Location = New System.Drawing.Point(18, 276)
+        Me.Label560.Name = "Label560"
+        Me.Label560.Size = New System.Drawing.Size(50, 24)
+        Me.Label560.TabIndex = 46
+        Me.Label560.Text = "MP.:"
+        '
+        'Label562
+        '
+        Me.Label562.AutoSize = True
+        Me.Label562.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label562.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label562.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label562.Location = New System.Drawing.Point(15, 504)
+        Me.Label562.Name = "Label562"
+        Me.Label562.Size = New System.Drawing.Size(92, 24)
+        Me.Label562.TabIndex = 46
+        Me.Label562.Text = "Plancha:"
+        '
+        'Label559
+        '
+        Me.Label559.AutoSize = True
+        Me.Label559.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label559.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label559.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label559.Location = New System.Drawing.Point(15, 236)
+        Me.Label559.Name = "Label559"
+        Me.Label559.Size = New System.Drawing.Size(92, 24)
+        Me.Label559.TabIndex = 46
+        Me.Label559.Text = "Plancha:"
+        '
+        'Label561
+        '
+        Me.Label561.AutoSize = True
+        Me.Label561.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label561.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label561.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label561.Location = New System.Drawing.Point(11, 462)
+        Me.Label561.Name = "Label561"
+        Me.Label561.Size = New System.Drawing.Size(78, 24)
+        Me.Label561.TabIndex = 46
+        Me.Label561.Text = "CD102:"
+        '
+        'Label547
+        '
+        Me.Label547.AutoSize = True
+        Me.Label547.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label547.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label547.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label547.Location = New System.Drawing.Point(11, 194)
+        Me.Label547.Name = "Label547"
+        Me.Label547.Size = New System.Drawing.Size(78, 24)
+        Me.Label547.TabIndex = 46
+        Me.Label547.Text = "CD102:"
+        '
+        'Label407
+        '
+        Me.Label407.AutoSize = True
+        Me.Label407.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label407.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label407.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label407.Location = New System.Drawing.Point(25, 420)
+        Me.Label407.Name = "Label407"
+        Me.Label407.Size = New System.Drawing.Size(64, 24)
+        Me.Label407.TabIndex = 46
+        Me.Label407.Text = "XL75:"
+        '
+        'Label539
+        '
+        Me.Label539.AutoSize = True
+        Me.Label539.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label539.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label539.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label539.Location = New System.Drawing.Point(25, 152)
+        Me.Label539.Name = "Label539"
+        Me.Label539.Size = New System.Drawing.Size(64, 24)
+        Me.Label539.TabIndex = 46
+        Me.Label539.Text = "XL75:"
+        '
+        'Label408
+        '
+        Me.Label408.AutoSize = True
+        Me.Label408.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label408.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label408.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label408.Location = New System.Drawing.Point(13, 372)
+        Me.Label408.Name = "Label408"
+        Me.Label408.Size = New System.Drawing.Size(76, 24)
+        Me.Label408.TabIndex = 46
+        Me.Label408.Text = "Digital:"
+        '
+        'Label434
+        '
+        Me.Label434.AutoSize = True
+        Me.Label434.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label434.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label434.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label434.Location = New System.Drawing.Point(13, 104)
+        Me.Label434.Name = "Label434"
+        Me.Label434.Size = New System.Drawing.Size(76, 24)
+        Me.Label434.TabIndex = 46
+        Me.Label434.Text = "Digital:"
+        '
+        'Label409
+        '
+        Me.Label409.AutoSize = True
+        Me.Label409.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label409.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label409.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label409.Location = New System.Drawing.Point(269, 374)
+        Me.Label409.Name = "Label409"
+        Me.Label409.Size = New System.Drawing.Size(50, 24)
+        Me.Label409.TabIndex = 46
+        Me.Label409.Text = "ICC:"
+        '
+        'Label410
+        '
+        Me.Label410.AutoSize = True
+        Me.Label410.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label410.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label410.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label410.Location = New System.Drawing.Point(269, 106)
+        Me.Label410.Name = "Label410"
+        Me.Label410.Size = New System.Drawing.Size(50, 24)
+        Me.Label410.TabIndex = 46
+        Me.Label410.Text = "ICC:"
+        '
+        'Panel76
+        '
+        Me.Panel76.BackColor = System.Drawing.Color.Green
+        Me.Panel76.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel76.Controls.Add(Me.Label412)
+        Me.Panel76.Controls.Add(Me.Label413)
+        Me.Panel76.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel76.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel76.Location = New System.Drawing.Point(0, 0)
+        Me.Panel76.Name = "Panel76"
+        Me.Panel76.Size = New System.Drawing.Size(525, 43)
+        Me.Panel76.TabIndex = 0
+        '
+        'Label412
+        '
+        Me.Label412.AutoSize = True
+        Me.Label412.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label412.ForeColor = System.Drawing.Color.White
+        Me.Label412.Location = New System.Drawing.Point(204, 2)
+        Me.Label412.Name = "Label412"
+        Me.Label412.Size = New System.Drawing.Size(63, 33)
+        Me.Label412.TabIndex = 23
+        Me.Label412.Text = "ICC"
+        '
+        'Label413
+        '
+        Me.Label413.AutoSize = True
+        Me.Label413.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label413.ForeColor = System.Drawing.Color.White
+        Me.Label413.Location = New System.Drawing.Point(-124, 4)
+        Me.Label413.Name = "Label413"
+        Me.Label413.Size = New System.Drawing.Size(113, 33)
+        Me.Label413.TabIndex = 5
+        Me.Label413.Text = "CLIENTE"
+        '
+        'Label414
+        '
+        Me.Label414.AutoSize = True
+        Me.Label414.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label414.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label414.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label414.Location = New System.Drawing.Point(111, 331)
+        Me.Label414.Name = "Label414"
+        Me.Label414.Size = New System.Drawing.Size(265, 24)
+        Me.Label414.TabIndex = 46
+        Me.Label414.Text = "Imprimir y cargar Perfil ICC"
+        '
+        'Label415
+        '
+        Me.Label415.AutoSize = True
+        Me.Label415.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label415.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label415.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label415.Location = New System.Drawing.Point(111, 63)
+        Me.Label415.Name = "Label415"
+        Me.Label415.Size = New System.Drawing.Size(265, 24)
+        Me.Label415.TabIndex = 46
+        Me.Label415.Text = "Imprimir y cargar Perfil ICC"
+        '
+        'Button53
+        '
+        Me.Button53.AutoSize = True
+        Me.Button53.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button53.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button53.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button53.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button53.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button53.ForeColor = System.Drawing.Color.White
+        Me.Button53.Location = New System.Drawing.Point(5, 318)
+        Me.Button53.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button53.Name = "Button53"
+        Me.Button53.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button53.Size = New System.Drawing.Size(516, 266)
+        Me.Button53.TabIndex = 35
+        Me.Button53.UseVisualStyleBackColor = False
+        '
+        'TextBox207
+        '
+        Me.TextBox207.BackColor = System.Drawing.Color.Blue
+        Me.TextBox207.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox207.ForeColor = System.Drawing.Color.White
+        Me.TextBox207.Location = New System.Drawing.Point(275, 750)
+        Me.TextBox207.Name = "TextBox207"
+        Me.TextBox207.Size = New System.Drawing.Size(44, 36)
+        Me.TextBox207.TabIndex = 42
+        Me.TextBox207.Text = "2"
+        Me.TextBox207.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Button55
+        '
+        Me.Button55.AutoSize = True
+        Me.Button55.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button55.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button55.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button55.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button55.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button55.ForeColor = System.Drawing.Color.White
+        Me.Button55.Location = New System.Drawing.Point(5, 50)
+        Me.Button55.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button55.Name = "Button55"
+        Me.Button55.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button55.Size = New System.Drawing.Size(516, 266)
+        Me.Button55.TabIndex = 35
+        Me.Button55.UseVisualStyleBackColor = False
+        '
+        'Label598
+        '
+        Me.Label598.AutoSize = True
+        Me.Label598.BackColor = System.Drawing.Color.Blue
+        Me.Label598.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label598.ForeColor = System.Drawing.Color.White
+        Me.Label598.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label598.Location = New System.Drawing.Point(180, 753)
+        Me.Label598.Name = "Label598"
+        Me.Label598.Size = New System.Drawing.Size(66, 28)
+        Me.Label598.TabIndex = 46
+        Me.Label598.Text = "Azul:"
+        '
+        'TextBox246
+        '
+        Me.TextBox246.BackColor = System.Drawing.Color.Black
+        Me.TextBox246.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox246.ForeColor = System.Drawing.Color.White
+        Me.TextBox246.Location = New System.Drawing.Point(275, 593)
+        Me.TextBox246.Name = "TextBox246"
+        Me.TextBox246.Size = New System.Drawing.Size(44, 36)
+        Me.TextBox246.TabIndex = 42
+        Me.TextBox246.Text = "2"
+        Me.TextBox246.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox204
+        '
+        Me.TextBox204.BackColor = System.Drawing.Color.Pink
+        Me.TextBox204.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox204.ForeColor = System.Drawing.Color.Black
+        Me.TextBox204.Location = New System.Drawing.Point(275, 854)
+        Me.TextBox204.Name = "TextBox204"
+        Me.TextBox204.Size = New System.Drawing.Size(44, 36)
+        Me.TextBox204.TabIndex = 42
+        Me.TextBox204.Text = "5"
+        Me.TextBox204.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label416
+        '
+        Me.Label416.AutoSize = True
+        Me.Label416.BackColor = System.Drawing.Color.Black
+        Me.Label416.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label416.ForeColor = System.Drawing.Color.White
+        Me.Label416.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label416.Location = New System.Drawing.Point(61, 596)
+        Me.Label416.Name = "Label416"
+        Me.Label416.Size = New System.Drawing.Size(185, 28)
+        Me.Label416.TabIndex = 46
+        Me.Label416.Text = "NEGRO Cuerpo:"
+        '
+        'TextBox203
+        '
+        Me.TextBox203.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox203.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox203.ForeColor = System.Drawing.Color.White
+        Me.TextBox203.Location = New System.Drawing.Point(275, 819)
+        Me.TextBox203.Name = "TextBox203"
+        Me.TextBox203.Size = New System.Drawing.Size(44, 36)
+        Me.TextBox203.TabIndex = 42
+        Me.TextBox203.Text = "4"
+        Me.TextBox203.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox248
+        '
+        Me.TextBox248.BackColor = System.Drawing.Color.Yellow
+        Me.TextBox248.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox248.ForeColor = System.Drawing.Color.Black
+        Me.TextBox248.Location = New System.Drawing.Point(275, 710)
+        Me.TextBox248.Name = "TextBox248"
+        Me.TextBox248.Size = New System.Drawing.Size(44, 36)
+        Me.TextBox248.TabIndex = 42
+        Me.TextBox248.Text = "5"
+        Me.TextBox248.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox247
+        '
+        Me.TextBox247.BackColor = System.Drawing.Color.Magenta
+        Me.TextBox247.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox247.ForeColor = System.Drawing.Color.White
+        Me.TextBox247.Location = New System.Drawing.Point(275, 671)
+        Me.TextBox247.Name = "TextBox247"
+        Me.TextBox247.Size = New System.Drawing.Size(44, 36)
+        Me.TextBox247.TabIndex = 42
+        Me.TextBox247.Text = "4"
+        Me.TextBox247.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox175
+        '
+        Me.TextBox175.BackColor = System.Drawing.Color.Red
+        Me.TextBox175.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox175.ForeColor = System.Drawing.Color.White
+        Me.TextBox175.Location = New System.Drawing.Point(275, 783)
+        Me.TextBox175.Name = "TextBox175"
+        Me.TextBox175.Size = New System.Drawing.Size(44, 36)
+        Me.TextBox175.TabIndex = 42
+        Me.TextBox175.Text = "3"
+        Me.TextBox175.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label417
+        '
+        Me.Label417.AutoSize = True
+        Me.Label417.BackColor = System.Drawing.Color.Pink
+        Me.Label417.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label417.ForeColor = System.Drawing.Color.Black
+        Me.Label417.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label417.Location = New System.Drawing.Point(169, 857)
+        Me.Label417.Name = "Label417"
+        Me.Label417.Size = New System.Drawing.Size(77, 28)
+        Me.Label417.TabIndex = 46
+        Me.Label417.Text = "Claro:"
+        '
+        'TextBox242
+        '
+        Me.TextBox242.BackColor = System.Drawing.Color.Aqua
+        Me.TextBox242.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox242.ForeColor = System.Drawing.Color.Black
+        Me.TextBox242.Location = New System.Drawing.Point(275, 633)
+        Me.TextBox242.Name = "TextBox242"
+        Me.TextBox242.Size = New System.Drawing.Size(44, 36)
+        Me.TextBox242.TabIndex = 42
+        Me.TextBox242.Text = "3"
+        Me.TextBox242.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label418
+        '
+        Me.Label418.AutoSize = True
+        Me.Label418.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Label418.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label418.ForeColor = System.Drawing.Color.White
+        Me.Label418.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label418.Location = New System.Drawing.Point(164, 819)
+        Me.Label418.Name = "Label418"
+        Me.Label418.Size = New System.Drawing.Size(82, 28)
+        Me.Label418.TabIndex = 46
+        Me.Label418.Text = "Verde:"
+        '
+        'Label419
+        '
+        Me.Label419.AutoSize = True
+        Me.Label419.BackColor = System.Drawing.Color.Yellow
+        Me.Label419.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label419.ForeColor = System.Drawing.Color.Black
+        Me.Label419.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label419.Location = New System.Drawing.Point(24, 713)
+        Me.Label419.Name = "Label419"
+        Me.Label419.Size = New System.Drawing.Size(222, 28)
+        Me.Label419.TabIndex = 46
+        Me.Label419.Text = "AMARILLO Cuerpo:"
+        '
+        'Label420
+        '
+        Me.Label420.AutoSize = True
+        Me.Label420.BackColor = System.Drawing.Color.Red
+        Me.Label420.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label420.ForeColor = System.Drawing.Color.White
+        Me.Label420.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label420.Location = New System.Drawing.Point(179, 786)
+        Me.Label420.Name = "Label420"
+        Me.Label420.Size = New System.Drawing.Size(67, 28)
+        Me.Label420.TabIndex = 46
+        Me.Label420.Text = "Rojo:"
+        '
+        'Label421
+        '
+        Me.Label421.AutoSize = True
+        Me.Label421.BackColor = System.Drawing.Color.Fuchsia
+        Me.Label421.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label421.ForeColor = System.Drawing.Color.White
+        Me.Label421.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label421.Location = New System.Drawing.Point(30, 674)
+        Me.Label421.Name = "Label421"
+        Me.Label421.Size = New System.Drawing.Size(216, 28)
+        Me.Label421.TabIndex = 46
+        Me.Label421.Text = "MAGENTA Cuerpo:"
+        '
+        'Label422
+        '
+        Me.Label422.AutoSize = True
+        Me.Label422.BackColor = System.Drawing.Color.Aqua
+        Me.Label422.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label422.ForeColor = System.Drawing.Color.Black
+        Me.Label422.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label422.Location = New System.Drawing.Point(79, 636)
+        Me.Label422.Name = "Label422"
+        Me.Label422.Size = New System.Drawing.Size(167, 28)
+        Me.Label422.TabIndex = 46
+        Me.Label422.Text = "CYAN Cuerpo:"
         '
         'Panel59
         '
@@ -7089,9 +8979,9 @@ Partial Class INSUMO
         Me.Label163.ForeColor = System.Drawing.Color.White
         Me.Label163.Location = New System.Drawing.Point(867, 6)
         Me.Label163.Name = "Label163"
-        Me.Label163.Size = New System.Drawing.Size(75, 33)
+        Me.Label163.Size = New System.Drawing.Size(76, 33)
         Me.Label163.TabIndex = 6
-        Me.Label163.Text = "SGS"
+        Me.Label163.Text = "SGC"
         '
         'Panel17
         '
@@ -8248,6 +10138,7 @@ Partial Class INSUMO
         Me.Panel62.TabIndex = 260
         '
         'Panel63
+<<<<<<< HEAD
         '
         Me.Panel63.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -8299,12 +10190,585 @@ Partial Class INSUMO
         Me.Panel63.Name = "Panel63"
         Me.Panel63.Size = New System.Drawing.Size(1813, 306)
         Me.Panel63.TabIndex = 348
+=======
+        '
+        Me.Panel63.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel63.Controls.Add(Me.ComboBox128)
+        Me.Panel63.Controls.Add(Me.ComboBox129)
+        Me.Panel63.Controls.Add(Me.TextBox108)
+        Me.Panel63.Controls.Add(Me.ComboBox130)
+        Me.Panel63.Controls.Add(Me.ComboBox132)
+        Me.Panel63.Controls.Add(Me.ComboBox133)
+        Me.Panel63.Controls.Add(Me.Label307)
+        Me.Panel63.Controls.Add(Me.Label308)
+        Me.Panel63.Controls.Add(Me.Label309)
+        Me.Panel63.Controls.Add(Me.Label310)
+        Me.Panel63.Controls.Add(Me.Label311)
+        Me.Panel63.Controls.Add(Me.Label312)
+        Me.Panel63.Controls.Add(Me.Label379)
+        Me.Panel63.Controls.Add(Me.Label380)
+        Me.Panel63.Controls.Add(Me.Label381)
+        Me.Panel63.Controls.Add(Me.Label382)
+        Me.Panel63.Controls.Add(Me.Label386)
+        Me.Panel63.Controls.Add(Me.ComboBox134)
+        Me.Panel63.Controls.Add(Me.ComboBox135)
+        Me.Panel63.Controls.Add(Me.TextBox130)
+        Me.Panel63.Controls.Add(Me.ComboBox136)
+        Me.Panel63.Controls.Add(Me.ComboBox137)
+        Me.Panel63.Controls.Add(Me.ComboBox138)
+        Me.Panel63.Controls.Add(Me.Button45)
+        Me.Panel63.Controls.Add(Me.Panel64)
+        Me.Panel63.Controls.Add(Me.ComboBox139)
+        Me.Panel63.Controls.Add(Me.ComboBox140)
+        Me.Panel63.Controls.Add(Me.ComboBox160)
+        Me.Panel63.Controls.Add(Me.ComboBox220)
+        Me.Panel63.Controls.Add(Me.Label389)
+        Me.Panel63.Controls.Add(Me.Label390)
+        Me.Panel63.Controls.Add(Me.Label391)
+        Me.Panel63.Controls.Add(Me.Label392)
+        Me.Panel63.Controls.Add(Me.Label405)
+        Me.Panel63.Controls.Add(Me.TextBox134)
+        Me.Panel63.Location = New System.Drawing.Point(13, 50)
+        Me.Panel63.Name = "Panel63"
+        Me.Panel63.Size = New System.Drawing.Size(1813, 254)
+        Me.Panel63.TabIndex = 348
+        '
+        'ComboBox128
+        '
+        Me.ComboBox128.BackColor = System.Drawing.Color.White
+        Me.ComboBox128.DropDownWidth = 272
+        Me.ComboBox128.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox128.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox128.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox128.FormattingEnabled = True
+        Me.ComboBox128.Items.AddRange(New Object() {"(PAIS)"})
+        Me.ComboBox128.Location = New System.Drawing.Point(254, 69)
+        Me.ComboBox128.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox128.Name = "ComboBox128"
+        Me.ComboBox128.Size = New System.Drawing.Size(56, 37)
+        Me.ComboBox128.TabIndex = 190
+        '
+        'ComboBox129
+        '
+        Me.ComboBox129.BackColor = System.Drawing.Color.White
+        Me.ComboBox129.DropDownWidth = 272
+        Me.ComboBox129.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox129.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox129.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox129.FormattingEnabled = True
+        Me.ComboBox129.Items.AddRange(New Object() {"(PAIS)"})
+        Me.ComboBox129.Location = New System.Drawing.Point(324, 69)
+        Me.ComboBox129.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox129.Name = "ComboBox129"
+        Me.ComboBox129.Size = New System.Drawing.Size(86, 37)
+        Me.ComboBox129.TabIndex = 184
+        '
+        'TextBox108
+        '
+        Me.TextBox108.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox108.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox108.Location = New System.Drawing.Point(1638, 63)
+        Me.TextBox108.Name = "TextBox108"
+        Me.TextBox108.Size = New System.Drawing.Size(143, 35)
+        Me.TextBox108.TabIndex = 179
+        Me.TextBox108.Text = "0.000.000"
+        Me.TextBox108.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'ComboBox130
+        '
+        Me.ComboBox130.BackColor = System.Drawing.Color.White
+        Me.ComboBox130.DropDownWidth = 272
+        Me.ComboBox130.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox130.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox130.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox130.FormattingEnabled = True
+        Me.ComboBox130.Items.AddRange(New Object() {"88888888", "88888888", "88888888", "88888888", "88888888", "", "8 COD PROVEEDOR  "})
+        Me.ComboBox130.Location = New System.Drawing.Point(1188, 67)
+        Me.ComboBox130.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox130.Name = "ComboBox130"
+        Me.ComboBox130.Size = New System.Drawing.Size(151, 37)
+        Me.ComboBox130.TabIndex = 183
+        '
+        'ComboBox132
+        '
+        Me.ComboBox132.BackColor = System.Drawing.Color.White
+        Me.ComboBox132.DropDownWidth = 272
+        Me.ComboBox132.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox132.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox132.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox132.FormattingEnabled = True
+        Me.ComboBox132.Items.AddRange(New Object() {"3AREA ", "", "MSTENIMIENTO", "INSUMO", "MATERIA PRIMA"})
+        Me.ComboBox132.Location = New System.Drawing.Point(424, 69)
+        Me.ComboBox132.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox132.Name = "ComboBox132"
+        Me.ComboBox132.Size = New System.Drawing.Size(76, 37)
+        Me.ComboBox132.TabIndex = 182
+        '
+        'ComboBox133
+        '
+        Me.ComboBox133.BackColor = System.Drawing.Color.White
+        Me.ComboBox133.DropDownWidth = 272
+        Me.ComboBox133.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox133.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox133.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox133.FormattingEnabled = True
+        Me.ComboBox133.Items.AddRange(New Object() {"4 ESTACION"})
+        Me.ComboBox133.Location = New System.Drawing.Point(514, 69)
+        Me.ComboBox133.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox133.Name = "ComboBox133"
+        Me.ComboBox133.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox133.TabIndex = 181
+        '
+        'Label307
+        '
+        Me.Label307.AutoSize = True
+        Me.Label307.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label307.Location = New System.Drawing.Point(1582, 66)
+        Me.Label307.Name = "Label307"
+        Me.Label307.Size = New System.Drawing.Size(47, 29)
+        Me.Label307.TabIndex = 168
+        Me.Label307.Text = "N°:"
+        Me.Label307.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label308
+        '
+        Me.Label308.AutoSize = True
+        Me.Label308.BackColor = System.Drawing.Color.Transparent
+        Me.Label308.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label308.ForeColor = System.Drawing.Color.Blue
+        Me.Label308.Location = New System.Drawing.Point(424, 46)
+        Me.Label308.Name = "Label308"
+        Me.Label308.Size = New System.Drawing.Size(73, 19)
+        Me.Label308.TabIndex = 174
+        Me.Label308.Text = "(3AREA)"
+        '
+        'Label309
+        '
+        Me.Label309.AutoSize = True
+        Me.Label309.BackColor = System.Drawing.Color.Transparent
+        Me.Label309.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label309.ForeColor = System.Drawing.Color.Blue
+        Me.Label309.Location = New System.Drawing.Point(228, 46)
+        Me.Label309.Name = "Label309"
+        Me.Label309.Size = New System.Drawing.Size(99, 19)
+        Me.Label309.TabIndex = 175
+        Me.Label309.Text = "(1DEPOSIT)"
+        '
+        'Label310
+        '
+        Me.Label310.AutoSize = True
+        Me.Label310.BackColor = System.Drawing.Color.Transparent
+        Me.Label310.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label310.ForeColor = System.Drawing.Color.Blue
+        Me.Label310.Location = New System.Drawing.Point(1202, 44)
+        Me.Label310.Name = "Label310"
+        Me.Label310.Size = New System.Drawing.Size(103, 19)
+        Me.Label310.TabIndex = 176
+        Me.Label310.Text = "(8)COD PRO"
+        '
+        'Label311
+        '
+        Me.Label311.AutoSize = True
+        Me.Label311.BackColor = System.Drawing.Color.Transparent
+        Me.Label311.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label311.ForeColor = System.Drawing.Color.Blue
+        Me.Label311.Location = New System.Drawing.Point(1089, 46)
+        Me.Label311.Name = "Label311"
+        Me.Label311.Size = New System.Drawing.Size(79, 19)
+        Me.Label311.TabIndex = 177
+        Me.Label311.Text = "(3UNIDA)"
+        '
+        'Label312
+        '
+        Me.Label312.AutoSize = True
+        Me.Label312.BackColor = System.Drawing.Color.Transparent
+        Me.Label312.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label312.ForeColor = System.Drawing.Color.Blue
+        Me.Label312.Location = New System.Drawing.Point(980, 45)
+        Me.Label312.Name = "Label312"
+        Me.Label312.Size = New System.Drawing.Size(85, 19)
+        Me.Label312.TabIndex = 169
+        Me.Label312.Text = "(3VOLOR)"
+        '
+        'Label379
+        '
+        Me.Label379.AutoSize = True
+        Me.Label379.BackColor = System.Drawing.Color.Transparent
+        Me.Label379.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label379.ForeColor = System.Drawing.Color.Blue
+        Me.Label379.Location = New System.Drawing.Point(872, 44)
+        Me.Label379.Name = "Label379"
+        Me.Label379.Size = New System.Drawing.Size(87, 19)
+        Me.Label379.TabIndex = 178
+        Me.Label379.Text = "(4CERTIF)"
+        '
+        'Label380
+        '
+        Me.Label380.AutoSize = True
+        Me.Label380.BackColor = System.Drawing.Color.Transparent
+        Me.Label380.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label380.ForeColor = System.Drawing.Color.Blue
+        Me.Label380.Location = New System.Drawing.Point(748, 45)
+        Me.Label380.Name = "Label380"
+        Me.Label380.Size = New System.Drawing.Size(108, 19)
+        Me.Label380.TabIndex = 173
+        Me.Label380.Text = "(4PROVEED)"
+        '
+        'Label381
+        '
+        Me.Label381.AutoSize = True
+        Me.Label381.BackColor = System.Drawing.Color.Transparent
+        Me.Label381.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label381.ForeColor = System.Drawing.Color.Blue
+        Me.Label381.Location = New System.Drawing.Point(631, 44)
+        Me.Label381.Name = "Label381"
+        Me.Label381.Size = New System.Drawing.Size(87, 19)
+        Me.Label381.TabIndex = 172
+        Me.Label381.Text = "(4GRUPO)"
+        '
+        'Label382
+        '
+        Me.Label382.AutoSize = True
+        Me.Label382.BackColor = System.Drawing.Color.Transparent
+        Me.Label382.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label382.ForeColor = System.Drawing.Color.Blue
+        Me.Label382.Location = New System.Drawing.Point(519, 44)
+        Me.Label382.Name = "Label382"
+        Me.Label382.Size = New System.Drawing.Size(82, 19)
+        Me.Label382.TabIndex = 171
+        Me.Label382.Text = "(4ESTAC)"
+        '
+        'Label386
+        '
+        Me.Label386.AutoSize = True
+        Me.Label386.BackColor = System.Drawing.Color.Transparent
+        Me.Label386.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label386.ForeColor = System.Drawing.Color.Blue
+        Me.Label386.Location = New System.Drawing.Point(334, 44)
+        Me.Label386.Name = "Label386"
+        Me.Label386.Size = New System.Drawing.Size(64, 19)
+        Me.Label386.TabIndex = 170
+        Me.Label386.Text = "(3PAIS)"
+        '
+        'ComboBox134
+        '
+        Me.ComboBox134.BackColor = System.Drawing.Color.White
+        Me.ComboBox134.DropDownWidth = 272
+        Me.ComboBox134.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox134.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox134.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox134.FormattingEnabled = True
+        Me.ComboBox134.Items.AddRange(New Object() {"4444", "4444", "4444", "4444", "4444", "", "", "", "4 PROVEEDOR"})
+        Me.ComboBox134.Location = New System.Drawing.Point(750, 67)
+        Me.ComboBox134.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox134.Name = "ComboBox134"
+        Me.ComboBox134.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox134.TabIndex = 185
+        '
+        'ComboBox135
+        '
+        Me.ComboBox135.BackColor = System.Drawing.Color.White
+        Me.ComboBox135.DropDownWidth = 272
+        Me.ComboBox135.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox135.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox135.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox135.FormattingEnabled = True
+        Me.ComboBox135.Items.AddRange(New Object() {"4444", "4444", "4444", "4444", "4444", "", "", "", "4 GRUPO"})
+        Me.ComboBox135.Location = New System.Drawing.Point(632, 69)
+        Me.ComboBox135.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox135.Name = "ComboBox135"
+        Me.ComboBox135.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox135.TabIndex = 186
+        '
+        'TextBox130
+        '
+        Me.TextBox130.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox130.ForeColor = System.Drawing.Color.Black
+        Me.TextBox130.Location = New System.Drawing.Point(334, 208)
+        Me.TextBox130.Name = "TextBox130"
+        Me.TextBox130.Size = New System.Drawing.Size(1459, 35)
+        Me.TextBox130.TabIndex = 172
+        Me.TextBox130.Text = "TOYO LIOCOLOR VERDE TKCOLOR09/L"
+        '
+        'ComboBox136
+        '
+        Me.ComboBox136.BackColor = System.Drawing.Color.White
+        Me.ComboBox136.DropDownWidth = 272
+        Me.ComboBox136.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox136.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox136.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox136.FormattingEnabled = True
+        Me.ComboBox136.Items.AddRange(New Object() {"55555", "55555", "55555", "", "", "", "", "5 CERTIFICADO"})
+        Me.ComboBox136.Location = New System.Drawing.Point(868, 67)
+        Me.ComboBox136.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox136.Name = "ComboBox136"
+        Me.ComboBox136.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox136.TabIndex = 187
+        '
+        'ComboBox137
+        '
+        Me.ComboBox137.BackColor = System.Drawing.Color.White
+        Me.ComboBox137.DropDownWidth = 272
+        Me.ComboBox137.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox137.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox137.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox137.FormattingEnabled = True
+        Me.ComboBox137.Items.AddRange(New Object() {"NEG", "CYA", "MAG", "AMA", "ROJ", "VER", "CLA", "", "Tiene tres digitos y se debe encuadran el color que se saca dentro de uno de esto" &
+                "s.", "de esta forma va a dar opciones al planificador que colores similares tiene o se " &
+                "tira para algunas ", "de estas tonalidades"})
+        Me.ComboBox137.Location = New System.Drawing.Point(986, 69)
+        Me.ComboBox137.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox137.Name = "ComboBox137"
+        Me.ComboBox137.Size = New System.Drawing.Size(81, 37)
+        Me.ComboBox137.TabIndex = 188
+        '
+        'ComboBox138
+        '
+        Me.ComboBox138.BackColor = System.Drawing.Color.White
+        Me.ComboBox138.DropDownWidth = 272
+        Me.ComboBox138.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox138.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox138.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox138.FormattingEnabled = True
+        Me.ComboBox138.Items.AddRange(New Object() {"333", "333", "333", "333", "", "", "Esta son la unidad de medicion qu cada uno de los insumos tiene (cm/m2/kilos/tec)" &
+                ""})
+        Me.ComboBox138.Location = New System.Drawing.Point(1081, 67)
+        Me.ComboBox138.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox138.Name = "ComboBox138"
+        Me.ComboBox138.Size = New System.Drawing.Size(93, 37)
+        Me.ComboBox138.TabIndex = 189
+        '
+        'Button45
+        '
+        Me.Button45.AutoSize = True
+        Me.Button45.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button45.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button45.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button45.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button45.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button45.ForeColor = System.Drawing.Color.Black
+        Me.Button45.Location = New System.Drawing.Point(86, 63)
+        Me.Button45.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button45.Name = "Button45"
+        Me.Button45.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button45.Size = New System.Drawing.Size(149, 50)
+        Me.Button45.TabIndex = 180
+        Me.Button45.Text = "Buscar"
+        Me.Button45.UseVisualStyleBackColor = False
+        '
+        'Panel64
+        '
+        Me.Panel64.BackColor = System.Drawing.Color.Green
+        Me.Panel64.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel64.Controls.Add(Me.Label387)
+        Me.Panel64.Controls.Add(Me.Label388)
+        Me.Panel64.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel64.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel64.Location = New System.Drawing.Point(0, 0)
+        Me.Panel64.Name = "Panel64"
+        Me.Panel64.Size = New System.Drawing.Size(1811, 43)
+        Me.Panel64.TabIndex = 0
+        '
+        'Label387
+        '
+        Me.Label387.AutoSize = True
+        Me.Label387.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label387.ForeColor = System.Drawing.Color.White
+        Me.Label387.Location = New System.Drawing.Point(804, 6)
+        Me.Label387.Name = "Label387"
+        Me.Label387.Size = New System.Drawing.Size(189, 33)
+        Me.Label387.TabIndex = 23
+        Me.Label387.Text = "CODIFICADO"
+        '
+        'Label388
+        '
+        Me.Label388.AutoSize = True
+        Me.Label388.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label388.ForeColor = System.Drawing.Color.White
+        Me.Label388.Location = New System.Drawing.Point(-124, 4)
+        Me.Label388.Name = "Label388"
+        Me.Label388.Size = New System.Drawing.Size(113, 33)
+        Me.Label388.TabIndex = 5
+        Me.Label388.Text = "CLIENTE"
+        '
+        'ComboBox139
+        '
+        Me.ComboBox139.BackColor = System.Drawing.Color.White
+        Me.ComboBox139.DropDownWidth = 272
+        Me.ComboBox139.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox139.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox139.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox139.FormattingEnabled = True
+        Me.ComboBox139.Items.AddRange(New Object() {"123456789101345", "123456789101345", "123456789101345", "123456789101345", "", "CODIGO PROVEEDOR"})
+        Me.ComboBox139.Location = New System.Drawing.Point(1544, 113)
+        Me.ComboBox139.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox139.Name = "ComboBox139"
+        Me.ComboBox139.Size = New System.Drawing.Size(259, 37)
+        Me.ComboBox139.TabIndex = 167
+        '
+        'ComboBox140
+        '
+        Me.ComboBox140.BackColor = System.Drawing.Color.White
+        Me.ComboBox140.DropDownWidth = 272
+        Me.ComboBox140.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox140.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox140.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox140.FormattingEnabled = True
+        Me.ComboBox140.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "COD. Contable  ARTICULO:"})
+        Me.ComboBox140.Location = New System.Drawing.Point(334, 159)
+        Me.ComboBox140.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox140.Name = "ComboBox140"
+        Me.ComboBox140.Size = New System.Drawing.Size(708, 37)
+        Me.ComboBox140.TabIndex = 167
+        '
+        'ComboBox160
+        '
+        Me.ComboBox160.BackColor = System.Drawing.Color.White
+        Me.ComboBox160.DropDownWidth = 272
+        Me.ComboBox160.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox160.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox160.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox160.FormattingEnabled = True
+        Me.ComboBox160.Items.AddRange(New Object() {"Nombre del INSUMO DEL PROVEEDOR"})
+        Me.ComboBox160.Location = New System.Drawing.Point(1094, 113)
+        Me.ComboBox160.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox160.Name = "ComboBox160"
+        Me.ComboBox160.Size = New System.Drawing.Size(432, 37)
+        Me.ComboBox160.TabIndex = 167
+        '
+        'ComboBox220
+        '
+        Me.ComboBox220.BackColor = System.Drawing.Color.White
+        Me.ComboBox220.DropDownWidth = 272
+        Me.ComboBox220.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox220.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox220.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox220.FormattingEnabled = True
+        Me.ComboBox220.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "", "Cod. Gama INSUMO:"})
+        Me.ComboBox220.Location = New System.Drawing.Point(254, 113)
+        Me.ComboBox220.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox220.Name = "ComboBox220"
+        Me.ComboBox220.Size = New System.Drawing.Size(708, 37)
+        Me.ComboBox220.TabIndex = 167
+        '
+        'Label389
+        '
+        Me.Label389.AutoSize = True
+        Me.Label389.BackColor = System.Drawing.Color.Transparent
+        Me.Label389.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label389.Location = New System.Drawing.Point(977, 117)
+        Me.Label389.Name = "Label389"
+        Me.Label389.Size = New System.Drawing.Size(110, 29)
+        Me.Label389.TabIndex = 21
+        Me.Label389.Text = "Nombre:"
+        '
+        'Label390
+        '
+        Me.Label390.AutoSize = True
+        Me.Label390.BackColor = System.Drawing.Color.Transparent
+        Me.Label390.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label390.Location = New System.Drawing.Point(20, 214)
+        Me.Label390.Name = "Label390"
+        Me.Label390.Size = New System.Drawing.Size(307, 29)
+        Me.Label390.TabIndex = 21
+        Me.Label390.Text = "Descripcion contabilidad:"
+        '
+        'Label391
+        '
+        Me.Label391.AutoSize = True
+        Me.Label391.BackColor = System.Drawing.Color.Transparent
+        Me.Label391.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label391.Location = New System.Drawing.Point(4, 163)
+        Me.Label391.Name = "Label391"
+        Me.Label391.Size = New System.Drawing.Size(327, 29)
+        Me.Label391.TabIndex = 21
+        Me.Label391.Text = "Cod.. Contable  ARTICULO:"
+        '
+        'Label392
+        '
+        Me.Label392.AutoSize = True
+        Me.Label392.BackColor = System.Drawing.Color.Transparent
+        Me.Label392.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label392.Location = New System.Drawing.Point(1063, 163)
+        Me.Label392.Name = "Label392"
+        Me.Label392.Size = New System.Drawing.Size(152, 29)
+        Me.Label392.TabIndex = 21
+        Me.Label392.Text = "CTA./CONT.:"
+        '
+        'Label405
+        '
+        Me.Label405.AutoSize = True
+        Me.Label405.BackColor = System.Drawing.Color.Transparent
+        Me.Label405.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label405.Location = New System.Drawing.Point(3, 117)
+        Me.Label405.Name = "Label405"
+        Me.Label405.Size = New System.Drawing.Size(250, 29)
+        Me.Label405.TabIndex = 21
+        Me.Label405.Text = "Cod. Gama INSUMO:"
+        '
+        'TextBox134
+        '
+        Me.TextBox134.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox134.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox134.Location = New System.Drawing.Point(1223, 160)
+        Me.TextBox134.Name = "TextBox134"
+        Me.TextBox134.Size = New System.Drawing.Size(269, 35)
+        Me.TextBox134.TabIndex = 24
+        Me.TextBox134.Text = "00000000-0-00-00"
+        Me.TextBox134.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Panel65
+        '
+        Me.Panel65.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel65.Controls.Add(Me.DateTimePicker53)
+        Me.Panel65.Controls.Add(Me.CheckBox47)
+        Me.Panel65.Controls.Add(Me.CheckBox48)
+        Me.Panel65.Controls.Add(Me.CheckBox49)
+        Me.Panel65.Controls.Add(Me.CheckBox50)
+        Me.Panel65.Controls.Add(Me.CheckBox51)
+        Me.Panel65.Controls.Add(Me.CheckBox52)
+        Me.Panel65.Controls.Add(Me.CheckBox53)
+        Me.Panel65.Controls.Add(Me.CheckBox54)
+        Me.Panel65.Controls.Add(Me.ComboBox156)
+        Me.Panel65.Controls.Add(Me.ComboBox157)
+        Me.Panel65.Controls.Add(Me.Label298)
+        Me.Panel65.Controls.Add(Me.Label365)
+        Me.Panel65.Controls.Add(Me.Label366)
+        Me.Panel65.Controls.Add(Me.Panel66)
+        Me.Panel65.Controls.Add(Me.TextBox111)
+        Me.Panel65.Controls.Add(Me.TextBox110)
+        Me.Panel65.Controls.Add(Me.TextBox106)
+        Me.Panel65.Controls.Add(Me.TextBox109)
+        Me.Panel65.Controls.Add(Me.Label316)
+        Me.Panel65.Controls.Add(Me.Label315)
+        Me.Panel65.Controls.Add(Me.ComboBox155)
+        Me.Panel65.Controls.Add(Me.Label299)
+        Me.Panel65.Controls.Add(Me.ComboBox126)
+        Me.Panel65.Controls.Add(Me.Label303)
+        Me.Panel65.Controls.Add(Me.ComboBox127)
+        Me.Panel65.Controls.Add(Me.Label300)
+        Me.Panel65.Controls.Add(Me.Label301)
+        Me.Panel65.Controls.Add(Me.Label297)
+        Me.Panel65.Controls.Add(Me.Panel68)
+        Me.Panel65.Controls.Add(Me.Panel70)
+        Me.Panel65.Location = New System.Drawing.Point(12, 310)
+        Me.Panel65.Name = "Panel65"
+        Me.Panel65.Size = New System.Drawing.Size(1813, 589)
+        Me.Panel65.TabIndex = 347
+>>>>>>> pre-main
         '
         'DateTimePicker53
         '
         Me.DateTimePicker53.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker53.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+<<<<<<< HEAD
         Me.DateTimePicker53.Location = New System.Drawing.Point(264, 230)
+=======
+        Me.DateTimePicker53.Location = New System.Drawing.Point(257, 135)
+>>>>>>> pre-main
         Me.DateTimePicker53.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker53.Name = "DateTimePicker53"
         Me.DateTimePicker53.Size = New System.Drawing.Size(150, 35)
@@ -8349,7 +10813,11 @@ Partial Class INSUMO
         '
         Me.CheckBox47.AutoSize = True
         Me.CheckBox47.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.CheckBox47.Location = New System.Drawing.Point(1518, 231)
+=======
+        Me.CheckBox47.Location = New System.Drawing.Point(1511, 136)
+>>>>>>> pre-main
         Me.CheckBox47.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox47.Name = "CheckBox47"
         Me.CheckBox47.Size = New System.Drawing.Size(304, 33)
@@ -8361,7 +10829,11 @@ Partial Class INSUMO
         '
         Me.CheckBox48.AutoSize = True
         Me.CheckBox48.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.CheckBox48.Location = New System.Drawing.Point(1387, 231)
+=======
+        Me.CheckBox48.Location = New System.Drawing.Point(1380, 136)
+>>>>>>> pre-main
         Me.CheckBox48.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox48.Name = "CheckBox48"
         Me.CheckBox48.Size = New System.Drawing.Size(127, 33)
@@ -8373,7 +10845,11 @@ Partial Class INSUMO
         '
         Me.CheckBox49.AutoSize = True
         Me.CheckBox49.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.CheckBox49.Location = New System.Drawing.Point(1304, 231)
+=======
+        Me.CheckBox49.Location = New System.Drawing.Point(1297, 136)
+>>>>>>> pre-main
         Me.CheckBox49.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox49.Name = "CheckBox49"
         Me.CheckBox49.Size = New System.Drawing.Size(78, 33)
@@ -8385,7 +10861,11 @@ Partial Class INSUMO
         '
         Me.CheckBox50.AutoSize = True
         Me.CheckBox50.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.CheckBox50.Location = New System.Drawing.Point(1227, 231)
+=======
+        Me.CheckBox50.Location = New System.Drawing.Point(1220, 136)
+>>>>>>> pre-main
         Me.CheckBox50.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox50.Name = "CheckBox50"
         Me.CheckBox50.Size = New System.Drawing.Size(65, 33)
@@ -8397,7 +10877,11 @@ Partial Class INSUMO
         '
         Me.CheckBox51.AutoSize = True
         Me.CheckBox51.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.CheckBox51.Location = New System.Drawing.Point(1154, 231)
+=======
+        Me.CheckBox51.Location = New System.Drawing.Point(1147, 136)
+>>>>>>> pre-main
         Me.CheckBox51.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox51.Name = "CheckBox51"
         Me.CheckBox51.Size = New System.Drawing.Size(65, 33)
@@ -8409,7 +10893,11 @@ Partial Class INSUMO
         '
         Me.CheckBox52.AutoSize = True
         Me.CheckBox52.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.CheckBox52.Location = New System.Drawing.Point(1074, 231)
+=======
+        Me.CheckBox52.Location = New System.Drawing.Point(1067, 136)
+>>>>>>> pre-main
         Me.CheckBox52.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox52.Name = "CheckBox52"
         Me.CheckBox52.Size = New System.Drawing.Size(65, 33)
@@ -8421,7 +10909,11 @@ Partial Class INSUMO
         '
         Me.CheckBox53.AutoSize = True
         Me.CheckBox53.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.CheckBox53.Location = New System.Drawing.Point(937, 231)
+=======
+        Me.CheckBox53.Location = New System.Drawing.Point(930, 136)
+>>>>>>> pre-main
         Me.CheckBox53.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox53.Name = "CheckBox53"
         Me.CheckBox53.Size = New System.Drawing.Size(122, 33)
@@ -8433,7 +10925,11 @@ Partial Class INSUMO
         '
         Me.CheckBox54.AutoSize = True
         Me.CheckBox54.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.CheckBox54.Location = New System.Drawing.Point(870, 231)
+=======
+        Me.CheckBox54.Location = New System.Drawing.Point(863, 136)
+>>>>>>> pre-main
         Me.CheckBox54.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox54.Name = "CheckBox54"
         Me.CheckBox54.Size = New System.Drawing.Size(52, 33)
@@ -8449,7 +10945,11 @@ Partial Class INSUMO
         Me.ComboBox156.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox156.FormattingEnabled = True
         Me.ComboBox156.Items.AddRange(New Object() {"Diaria", "Semanal", "Mensual", "Anual", "1 mes", "2 meses", "3 meses", "4 meses", "5 meses", "6 meses", "7 meses", "8 meses", "9 meses", "10 meses", "11 meses", "12 meses", "", "Forma Pactada emtrega"})
+<<<<<<< HEAD
         Me.ComboBox156.Location = New System.Drawing.Point(548, 229)
+=======
+        Me.ComboBox156.Location = New System.Drawing.Point(541, 134)
+>>>>>>> pre-main
         Me.ComboBox156.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox156.Name = "ComboBox156"
         Me.ComboBox156.Size = New System.Drawing.Size(154, 37)
@@ -8463,7 +10963,11 @@ Partial Class INSUMO
         Me.ComboBox157.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox157.FormattingEnabled = True
         Me.ComboBox157.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "", "Contrato firmado por cantidad de meses inicio fecha"})
+<<<<<<< HEAD
         Me.ComboBox157.Location = New System.Drawing.Point(165, 229)
+=======
+        Me.ComboBox157.Location = New System.Drawing.Point(158, 134)
+>>>>>>> pre-main
         Me.ComboBox157.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox157.Name = "ComboBox157"
         Me.ComboBox157.Size = New System.Drawing.Size(77, 37)
@@ -8473,7 +10977,11 @@ Partial Class INSUMO
         '
         Me.Label298.AutoSize = True
         Me.Label298.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.Label298.Location = New System.Drawing.Point(727, 233)
+=======
+        Me.Label298.Location = New System.Drawing.Point(720, 138)
+>>>>>>> pre-main
         Me.Label298.Name = "Label298"
         Me.Label298.Size = New System.Drawing.Size(136, 29)
         Me.Label298.TabIndex = 348
@@ -8483,7 +10991,11 @@ Partial Class INSUMO
         '
         Me.Label365.AutoSize = True
         Me.Label365.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.Label365.Location = New System.Drawing.Point(432, 233)
+=======
+        Me.Label365.Location = New System.Drawing.Point(425, 138)
+>>>>>>> pre-main
         Me.Label365.Name = "Label365"
         Me.Label365.Size = New System.Drawing.Size(109, 29)
         Me.Label365.TabIndex = 349
@@ -8493,7 +11005,11 @@ Partial Class INSUMO
         '
         Me.Label366.AutoSize = True
         Me.Label366.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+<<<<<<< HEAD
         Me.Label366.Location = New System.Drawing.Point(15, 233)
+=======
+        Me.Label366.Location = New System.Drawing.Point(8, 138)
+>>>>>>> pre-main
         Me.Label366.Name = "Label366"
         Me.Label366.Size = New System.Drawing.Size(143, 29)
         Me.Label366.TabIndex = 350
@@ -8562,7 +11078,7 @@ Partial Class INSUMO
         '
         Me.TextBox111.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox111.ForeColor = System.Drawing.Color.Black
-        Me.TextBox111.Location = New System.Drawing.Point(723, 95)
+        Me.TextBox111.Location = New System.Drawing.Point(723, 88)
         Me.TextBox111.Name = "TextBox111"
         Me.TextBox111.Size = New System.Drawing.Size(189, 35)
         Me.TextBox111.TabIndex = 330
@@ -8573,7 +11089,7 @@ Partial Class INSUMO
         '
         Me.TextBox110.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox110.ForeColor = System.Drawing.Color.Black
-        Me.TextBox110.Location = New System.Drawing.Point(531, 95)
+        Me.TextBox110.Location = New System.Drawing.Point(531, 88)
         Me.TextBox110.Name = "TextBox110"
         Me.TextBox110.Size = New System.Drawing.Size(122, 35)
         Me.TextBox110.TabIndex = 330
@@ -8584,7 +11100,7 @@ Partial Class INSUMO
         '
         Me.TextBox106.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox106.ForeColor = System.Drawing.Color.Black
-        Me.TextBox106.Location = New System.Drawing.Point(328, 95)
+        Me.TextBox106.Location = New System.Drawing.Point(328, 88)
         Me.TextBox106.Name = "TextBox106"
         Me.TextBox106.Size = New System.Drawing.Size(122, 35)
         Me.TextBox106.TabIndex = 330
@@ -8595,7 +11111,7 @@ Partial Class INSUMO
         '
         Me.TextBox109.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox109.ForeColor = System.Drawing.Color.Black
-        Me.TextBox109.Location = New System.Drawing.Point(158, 95)
+        Me.TextBox109.Location = New System.Drawing.Point(158, 88)
         Me.TextBox109.Name = "TextBox109"
         Me.TextBox109.Size = New System.Drawing.Size(122, 35)
         Me.TextBox109.TabIndex = 330
@@ -8633,7 +11149,7 @@ Partial Class INSUMO
         Me.ComboBox155.ForeColor = System.Drawing.Color.Black
         Me.ComboBox155.FormattingEnabled = True
         Me.ComboBox155.Items.AddRange(New Object() {"0.000.001", "0.000.001", "0.000.001", "0.000.001", "0.000.001", "0.000.001", "0.000.001", "", "", "OT NUMERO"})
-        Me.ComboBox155.Location = New System.Drawing.Point(9, 93)
+        Me.ComboBox155.Location = New System.Drawing.Point(9, 86)
         Me.ComboBox155.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox155.Name = "ComboBox155"
         Me.ComboBox155.Size = New System.Drawing.Size(142, 37)
@@ -8658,7 +11174,7 @@ Partial Class INSUMO
         Me.ComboBox126.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox126.FormattingEnabled = True
         Me.ComboBox126.Items.AddRange(New Object() {"COMERCIAL", "DEPOSITO", "PREPRENSA", "TROQUEL", "CC (Legajo Impr y Troq)", "OT (Ajuste)", "PLANIFICACION", "IMPRESION", "UV", "LAMINADO", "STAMPADO", "TROQUELADO ", "DESCARTONADO", "SELECCIÓN ", "PEGADO (Automatico)", "PEGADO (PM)", "LIBERADO", "EXPEDICION", "MANTENIMIENTO", "", "Estacion a la que se entrega"})
-        Me.ComboBox126.Location = New System.Drawing.Point(937, 94)
+        Me.ComboBox126.Location = New System.Drawing.Point(937, 87)
         Me.ComboBox126.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox126.Name = "ComboBox126"
         Me.ComboBox126.Size = New System.Drawing.Size(232, 37)
@@ -8684,7 +11200,7 @@ Partial Class INSUMO
         Me.ComboBox127.ForeColor = System.Drawing.Color.Black
         Me.ComboBox127.FormattingEnabled = True
         Me.ComboBox127.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
-        Me.ComboBox127.Location = New System.Drawing.Point(1192, 94)
+        Me.ComboBox127.Location = New System.Drawing.Point(1192, 87)
         Me.ComboBox127.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox127.Name = "ComboBox127"
         Me.ComboBox127.Size = New System.Drawing.Size(137, 37)
@@ -8774,7 +11290,11 @@ Partial Class INSUMO
         Me.Panel68.Controls.Add(Me.ComboBox123)
         Me.Panel68.Controls.Add(Me.Label296)
         Me.Panel68.Controls.Add(Me.Panel69)
+<<<<<<< HEAD
         Me.Panel68.Location = New System.Drawing.Point(14, 1313)
+=======
+        Me.Panel68.Location = New System.Drawing.Point(13, 364)
+>>>>>>> pre-main
         Me.Panel68.Name = "Panel68"
         Me.Panel68.Size = New System.Drawing.Size(1777, 211)
         Me.Panel68.TabIndex = 347
@@ -9152,7 +11672,11 @@ Partial Class INSUMO
         Me.Panel70.Controls.Add(Me.Label302)
         Me.Panel70.Controls.Add(Me.Label320)
         Me.Panel70.Controls.Add(Me.Label264)
+<<<<<<< HEAD
         Me.Panel70.Location = New System.Drawing.Point(14, 1138)
+=======
+        Me.Panel70.Location = New System.Drawing.Point(13, 189)
+>>>>>>> pre-main
         Me.Panel70.Name = "Panel70"
         Me.Panel70.Size = New System.Drawing.Size(1777, 167)
         Me.Panel70.TabIndex = 347
@@ -9447,6 +11971,31 @@ Partial Class INSUMO
         Me.Label264.TabIndex = 351
         Me.Label264.Text = "Fecha ENTREGA"
         '
+<<<<<<< HEAD
+=======
+        'Panel67
+        '
+        Me.Panel67.BackColor = System.Drawing.Color.Green
+        Me.Panel67.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel67.Controls.Add(Me.Label317)
+        Me.Panel67.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel67.Location = New System.Drawing.Point(0, 0)
+        Me.Panel67.Name = "Panel67"
+        Me.Panel67.Size = New System.Drawing.Size(1838, 43)
+        Me.Panel67.TabIndex = 0
+        '
+        'Label317
+        '
+        Me.Label317.AutoSize = True
+        Me.Label317.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label317.ForeColor = System.Drawing.Color.White
+        Me.Label317.Location = New System.Drawing.Point(862, 6)
+        Me.Label317.Name = "Label317"
+        Me.Label317.Size = New System.Drawing.Size(56, 33)
+        Me.Label317.TabIndex = 6
+        Me.Label317.Text = "OC"
+        '
+>>>>>>> pre-main
         'TabPage8
         '
         Me.TabPage8.BackColor = System.Drawing.Color.White
@@ -9506,11 +12055,11 @@ Partial Class INSUMO
         Me.TabPage9.Controls.Add(Me.Panel73)
         Me.TabPage9.Controls.Add(Me.Panel11)
         Me.TabPage9.Controls.Add(Me.Panel81)
-        Me.TabPage9.Location = New System.Drawing.Point(4, 42)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 33)
         Me.TabPage9.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage9.Name = "TabPage9"
         Me.TabPage9.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage9.Size = New System.Drawing.Size(1873, 920)
+        Me.TabPage9.Size = New System.Drawing.Size(1873, 929)
         Me.TabPage9.TabIndex = 0
         Me.TabPage9.Text = "Movimiento /"
         '
@@ -11316,7 +13865,11 @@ Partial Class INSUMO
         Me.TabControl1.Controls.Add(Me.TabPage8)
         Me.TabControl1.Controls.Add(Me.TabPage20)
         Me.TabControl1.Controls.Add(Me.TabPage21)
+<<<<<<< HEAD
         Me.TabControl1.Controls.Add(Me.TabPage22)
+=======
+        Me.TabControl1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+>>>>>>> pre-main
         Me.TabControl1.HotTrack = True
         Me.TabControl1.Location = New System.Drawing.Point(2, 4)
         Me.TabControl1.Margin = New System.Windows.Forms.Padding(4)
@@ -11353,6 +13906,7 @@ Partial Class INSUMO
         '
         Me.Panel13.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+<<<<<<< HEAD
         Me.Panel13.Controls.Add(Me.CheckBox41)
         Me.Panel13.Controls.Add(Me.Button77)
         Me.Panel13.Controls.Add(Me.Button78)
@@ -11373,11 +13927,28 @@ Partial Class INSUMO
         Me.Panel13.Controls.Add(Me.Label398)
         Me.Panel13.Controls.Add(Me.Label399)
         Me.Panel13.Controls.Add(Me.Label400)
+=======
+        Me.Panel13.Controls.Add(Me.ComboBox32)
+        Me.Panel13.Controls.Add(Me.ComboBox33)
+        Me.Panel13.Controls.Add(Me.TextBox86)
+>>>>>>> pre-main
         Me.Panel13.Controls.Add(Me.ComboBox34)
         Me.Panel13.Controls.Add(Me.ComboBox35)
         Me.Panel13.Controls.Add(Me.ComboBox36)
+        Me.Panel13.Controls.Add(Me.Label15)
+        Me.Panel13.Controls.Add(Me.Label165)
+        Me.Panel13.Controls.Add(Me.Label178)
+        Me.Panel13.Controls.Add(Me.Label196)
+        Me.Panel13.Controls.Add(Me.Label197)
+        Me.Panel13.Controls.Add(Me.Label198)
+        Me.Panel13.Controls.Add(Me.Label352)
+        Me.Panel13.Controls.Add(Me.Label353)
+        Me.Panel13.Controls.Add(Me.Label354)
+        Me.Panel13.Controls.Add(Me.Label355)
+        Me.Panel13.Controls.Add(Me.Label356)
         Me.Panel13.Controls.Add(Me.ComboBox37)
         Me.Panel13.Controls.Add(Me.ComboBox38)
+<<<<<<< HEAD
         Me.Panel13.Controls.Add(Me.ComboBox40)
         Me.Panel13.Controls.Add(Me.ComboBox41)
         Me.Panel13.Controls.Add(Me.ComboBox43)
@@ -11387,49 +13958,522 @@ Partial Class INSUMO
         Me.Panel13.Controls.Add(Me.Button11)
         Me.Panel13.Controls.Add(Me.Panel14)
         Me.Panel13.Location = New System.Drawing.Point(12, 51)
+=======
+        Me.Panel13.Controls.Add(Me.TextBox127)
+        Me.Panel13.Controls.Add(Me.ComboBox40)
+        Me.Panel13.Controls.Add(Me.ComboBox41)
+        Me.Panel13.Controls.Add(Me.ComboBox42)
+        Me.Panel13.Controls.Add(Me.Button11)
+        Me.Panel13.Controls.Add(Me.Panel14)
+        Me.Panel13.Controls.Add(Me.ComboBox43)
+        Me.Panel13.Controls.Add(Me.ComboBox44)
+        Me.Panel13.Controls.Add(Me.ComboBox45)
+        Me.Panel13.Controls.Add(Me.ComboBox159)
+        Me.Panel13.Controls.Add(Me.Label359)
+        Me.Panel13.Controls.Add(Me.Label362)
+        Me.Panel13.Controls.Add(Me.Label363)
+        Me.Panel13.Controls.Add(Me.Label364)
+        Me.Panel13.Controls.Add(Me.Label367)
+        Me.Panel13.Controls.Add(Me.TextBox128)
+        Me.Panel13.Location = New System.Drawing.Point(11, 49)
+>>>>>>> pre-main
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(1838, 228)
-        Me.Panel13.TabIndex = 170
+        Me.Panel13.Size = New System.Drawing.Size(1813, 254)
+        Me.Panel13.TabIndex = 260
+        '
+<<<<<<< HEAD
+=======
+        'ComboBox32
+        '
+        Me.ComboBox32.BackColor = System.Drawing.Color.White
+        Me.ComboBox32.DropDownWidth = 272
+        Me.ComboBox32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox32.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox32.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox32.FormattingEnabled = True
+        Me.ComboBox32.Items.AddRange(New Object() {"(PAIS)"})
+        Me.ComboBox32.Location = New System.Drawing.Point(254, 69)
+        Me.ComboBox32.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox32.Name = "ComboBox32"
+        Me.ComboBox32.Size = New System.Drawing.Size(56, 37)
+        Me.ComboBox32.TabIndex = 190
+        '
+        'ComboBox33
+        '
+        Me.ComboBox33.BackColor = System.Drawing.Color.White
+        Me.ComboBox33.DropDownWidth = 272
+        Me.ComboBox33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox33.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox33.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox33.FormattingEnabled = True
+        Me.ComboBox33.Items.AddRange(New Object() {"(PAIS)"})
+        Me.ComboBox33.Location = New System.Drawing.Point(324, 69)
+        Me.ComboBox33.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox33.Name = "ComboBox33"
+        Me.ComboBox33.Size = New System.Drawing.Size(86, 37)
+        Me.ComboBox33.TabIndex = 184
+        '
+        'TextBox86
+        '
+        Me.TextBox86.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox86.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox86.Location = New System.Drawing.Point(1638, 63)
+        Me.TextBox86.Name = "TextBox86"
+        Me.TextBox86.Size = New System.Drawing.Size(143, 35)
+        Me.TextBox86.TabIndex = 179
+        Me.TextBox86.Text = "0.000.000"
+        Me.TextBox86.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'ComboBox34
+        '
+        Me.ComboBox34.BackColor = System.Drawing.Color.White
+        Me.ComboBox34.DropDownWidth = 272
+        Me.ComboBox34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox34.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox34.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox34.FormattingEnabled = True
+        Me.ComboBox34.Items.AddRange(New Object() {"88888888", "88888888", "88888888", "88888888", "88888888", "", "8 COD PROVEEDOR  "})
+        Me.ComboBox34.Location = New System.Drawing.Point(1188, 67)
+        Me.ComboBox34.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox34.Name = "ComboBox34"
+        Me.ComboBox34.Size = New System.Drawing.Size(151, 37)
+        Me.ComboBox34.TabIndex = 183
+        '
+        'ComboBox35
+        '
+        Me.ComboBox35.BackColor = System.Drawing.Color.White
+        Me.ComboBox35.DropDownWidth = 272
+        Me.ComboBox35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox35.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox35.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox35.FormattingEnabled = True
+        Me.ComboBox35.Items.AddRange(New Object() {"3AREA ", "", "MSTENIMIENTO", "INSUMO", "MATERIA PRIMA"})
+        Me.ComboBox35.Location = New System.Drawing.Point(424, 69)
+        Me.ComboBox35.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox35.Name = "ComboBox35"
+        Me.ComboBox35.Size = New System.Drawing.Size(76, 37)
+        Me.ComboBox35.TabIndex = 182
+        '
+        'ComboBox36
+        '
+        Me.ComboBox36.BackColor = System.Drawing.Color.White
+        Me.ComboBox36.DropDownWidth = 272
+        Me.ComboBox36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox36.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox36.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox36.FormattingEnabled = True
+        Me.ComboBox36.Items.AddRange(New Object() {"4 ESTACION"})
+        Me.ComboBox36.Location = New System.Drawing.Point(514, 69)
+        Me.ComboBox36.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox36.Name = "ComboBox36"
+        Me.ComboBox36.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox36.TabIndex = 181
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(1582, 66)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(47, 29)
+        Me.Label15.TabIndex = 168
+        Me.Label15.Text = "N°:"
+        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label165
+        '
+        Me.Label165.AutoSize = True
+        Me.Label165.BackColor = System.Drawing.Color.Transparent
+        Me.Label165.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label165.ForeColor = System.Drawing.Color.Blue
+        Me.Label165.Location = New System.Drawing.Point(424, 46)
+        Me.Label165.Name = "Label165"
+        Me.Label165.Size = New System.Drawing.Size(73, 19)
+        Me.Label165.TabIndex = 174
+        Me.Label165.Text = "(3AREA)"
+        '
+        'Label178
+        '
+        Me.Label178.AutoSize = True
+        Me.Label178.BackColor = System.Drawing.Color.Transparent
+        Me.Label178.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label178.ForeColor = System.Drawing.Color.Blue
+        Me.Label178.Location = New System.Drawing.Point(228, 46)
+        Me.Label178.Name = "Label178"
+        Me.Label178.Size = New System.Drawing.Size(99, 19)
+        Me.Label178.TabIndex = 175
+        Me.Label178.Text = "(1DEPOSIT)"
+        '
+        'Label196
+        '
+        Me.Label196.AutoSize = True
+        Me.Label196.BackColor = System.Drawing.Color.Transparent
+        Me.Label196.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label196.ForeColor = System.Drawing.Color.Blue
+        Me.Label196.Location = New System.Drawing.Point(1202, 44)
+        Me.Label196.Name = "Label196"
+        Me.Label196.Size = New System.Drawing.Size(103, 19)
+        Me.Label196.TabIndex = 176
+        Me.Label196.Text = "(8)COD PRO"
+        '
+        'Label197
+        '
+        Me.Label197.AutoSize = True
+        Me.Label197.BackColor = System.Drawing.Color.Transparent
+        Me.Label197.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label197.ForeColor = System.Drawing.Color.Blue
+        Me.Label197.Location = New System.Drawing.Point(1089, 46)
+        Me.Label197.Name = "Label197"
+        Me.Label197.Size = New System.Drawing.Size(79, 19)
+        Me.Label197.TabIndex = 177
+        Me.Label197.Text = "(3UNIDA)"
+        '
+        'Label198
+        '
+        Me.Label198.AutoSize = True
+        Me.Label198.BackColor = System.Drawing.Color.Transparent
+        Me.Label198.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label198.ForeColor = System.Drawing.Color.Blue
+        Me.Label198.Location = New System.Drawing.Point(980, 45)
+        Me.Label198.Name = "Label198"
+        Me.Label198.Size = New System.Drawing.Size(85, 19)
+        Me.Label198.TabIndex = 169
+        Me.Label198.Text = "(3VOLOR)"
+        '
+        'Label352
+        '
+        Me.Label352.AutoSize = True
+        Me.Label352.BackColor = System.Drawing.Color.Transparent
+        Me.Label352.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label352.ForeColor = System.Drawing.Color.Blue
+        Me.Label352.Location = New System.Drawing.Point(872, 44)
+        Me.Label352.Name = "Label352"
+        Me.Label352.Size = New System.Drawing.Size(87, 19)
+        Me.Label352.TabIndex = 178
+        Me.Label352.Text = "(4CERTIF)"
+        '
+        'Label353
+        '
+        Me.Label353.AutoSize = True
+        Me.Label353.BackColor = System.Drawing.Color.Transparent
+        Me.Label353.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label353.ForeColor = System.Drawing.Color.Blue
+        Me.Label353.Location = New System.Drawing.Point(748, 45)
+        Me.Label353.Name = "Label353"
+        Me.Label353.Size = New System.Drawing.Size(108, 19)
+        Me.Label353.TabIndex = 173
+        Me.Label353.Text = "(4PROVEED)"
+        '
+        'Label354
+        '
+        Me.Label354.AutoSize = True
+        Me.Label354.BackColor = System.Drawing.Color.Transparent
+        Me.Label354.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label354.ForeColor = System.Drawing.Color.Blue
+        Me.Label354.Location = New System.Drawing.Point(631, 44)
+        Me.Label354.Name = "Label354"
+        Me.Label354.Size = New System.Drawing.Size(87, 19)
+        Me.Label354.TabIndex = 172
+        Me.Label354.Text = "(4GRUPO)"
+        '
+        'Label355
+        '
+        Me.Label355.AutoSize = True
+        Me.Label355.BackColor = System.Drawing.Color.Transparent
+        Me.Label355.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label355.ForeColor = System.Drawing.Color.Blue
+        Me.Label355.Location = New System.Drawing.Point(519, 44)
+        Me.Label355.Name = "Label355"
+        Me.Label355.Size = New System.Drawing.Size(82, 19)
+        Me.Label355.TabIndex = 171
+        Me.Label355.Text = "(4ESTAC)"
+        '
+        'Label356
+        '
+        Me.Label356.AutoSize = True
+        Me.Label356.BackColor = System.Drawing.Color.Transparent
+        Me.Label356.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label356.ForeColor = System.Drawing.Color.Blue
+        Me.Label356.Location = New System.Drawing.Point(334, 44)
+        Me.Label356.Name = "Label356"
+        Me.Label356.Size = New System.Drawing.Size(64, 19)
+        Me.Label356.TabIndex = 170
+        Me.Label356.Text = "(3PAIS)"
+        '
+        'ComboBox37
+        '
+        Me.ComboBox37.BackColor = System.Drawing.Color.White
+        Me.ComboBox37.DropDownWidth = 272
+        Me.ComboBox37.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox37.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox37.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox37.FormattingEnabled = True
+        Me.ComboBox37.Items.AddRange(New Object() {"4444", "4444", "4444", "4444", "4444", "", "", "", "4 PROVEEDOR"})
+        Me.ComboBox37.Location = New System.Drawing.Point(750, 67)
+        Me.ComboBox37.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox37.Name = "ComboBox37"
+        Me.ComboBox37.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox37.TabIndex = 185
+        '
+        'ComboBox38
+        '
+        Me.ComboBox38.BackColor = System.Drawing.Color.White
+        Me.ComboBox38.DropDownWidth = 272
+        Me.ComboBox38.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox38.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox38.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox38.FormattingEnabled = True
+        Me.ComboBox38.Items.AddRange(New Object() {"4444", "4444", "4444", "4444", "4444", "", "", "", "4 GRUPO"})
+        Me.ComboBox38.Location = New System.Drawing.Point(632, 69)
+        Me.ComboBox38.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox38.Name = "ComboBox38"
+        Me.ComboBox38.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox38.TabIndex = 186
+        '
+        'TextBox127
+        '
+        Me.TextBox127.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox127.ForeColor = System.Drawing.Color.Black
+        Me.TextBox127.Location = New System.Drawing.Point(334, 208)
+        Me.TextBox127.Name = "TextBox127"
+        Me.TextBox127.Size = New System.Drawing.Size(1459, 35)
+        Me.TextBox127.TabIndex = 172
+        Me.TextBox127.Text = "TOYO LIOCOLOR VERDE TKCOLOR09/L"
+        '
+        'ComboBox40
+        '
+        Me.ComboBox40.BackColor = System.Drawing.Color.White
+        Me.ComboBox40.DropDownWidth = 272
+        Me.ComboBox40.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox40.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox40.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox40.FormattingEnabled = True
+        Me.ComboBox40.Items.AddRange(New Object() {"55555", "55555", "55555", "", "", "", "", "5 CERTIFICADO"})
+        Me.ComboBox40.Location = New System.Drawing.Point(868, 67)
+        Me.ComboBox40.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox40.Name = "ComboBox40"
+        Me.ComboBox40.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox40.TabIndex = 187
+        '
+        'ComboBox41
+        '
+        Me.ComboBox41.BackColor = System.Drawing.Color.White
+        Me.ComboBox41.DropDownWidth = 272
+        Me.ComboBox41.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox41.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox41.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox41.FormattingEnabled = True
+        Me.ComboBox41.Items.AddRange(New Object() {"NEG", "CYA", "MAG", "AMA", "ROJ", "VER", "CLA", "", "Tiene tres digitos y se debe encuadran el color que se saca dentro de uno de esto" &
+                "s.", "de esta forma va a dar opciones al planificador que colores similares tiene o se " &
+                "tira para algunas ", "de estas tonalidades"})
+        Me.ComboBox41.Location = New System.Drawing.Point(986, 69)
+        Me.ComboBox41.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox41.Name = "ComboBox41"
+        Me.ComboBox41.Size = New System.Drawing.Size(81, 37)
+        Me.ComboBox41.TabIndex = 188
+        '
+        'ComboBox42
+        '
+        Me.ComboBox42.BackColor = System.Drawing.Color.White
+        Me.ComboBox42.DropDownWidth = 272
+        Me.ComboBox42.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox42.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox42.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox42.FormattingEnabled = True
+        Me.ComboBox42.Items.AddRange(New Object() {"333", "333", "333", "333", "", "", "Esta son la unidad de medicion qu cada uno de los insumos tiene (cm/m2/kilos/tec)" &
+                ""})
+        Me.ComboBox42.Location = New System.Drawing.Point(1081, 67)
+        Me.ComboBox42.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox42.Name = "ComboBox42"
+        Me.ComboBox42.Size = New System.Drawing.Size(93, 37)
+        Me.ComboBox42.TabIndex = 189
+        '
+        'Button11
+        '
+        Me.Button11.AutoSize = True
+        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button11.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.ForeColor = System.Drawing.Color.Black
+        Me.Button11.Location = New System.Drawing.Point(86, 63)
+        Me.Button11.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button11.Name = "Button11"
+        Me.Button11.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button11.Size = New System.Drawing.Size(149, 50)
+        Me.Button11.TabIndex = 180
+        Me.Button11.Text = "Buscar"
+        Me.Button11.UseVisualStyleBackColor = False
         '
         'Panel14
         '
         Me.Panel14.BackColor = System.Drawing.Color.Green
         Me.Panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel14.Controls.Add(Me.Label15)
-        Me.Panel14.Controls.Add(Me.Label165)
+        Me.Panel14.Controls.Add(Me.Label357)
+        Me.Panel14.Controls.Add(Me.Label358)
         Me.Panel14.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel14.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel14.Location = New System.Drawing.Point(0, 0)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(1836, 43)
+        Me.Panel14.Size = New System.Drawing.Size(1811, 43)
         Me.Panel14.TabIndex = 0
         '
-        'Label15
+        'Label357
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.ForeColor = System.Drawing.Color.White
-        Me.Label15.Location = New System.Drawing.Point(816, 6)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(189, 33)
-        Me.Label15.TabIndex = 23
-        Me.Label15.Text = "CODIFICADO"
+        Me.Label357.AutoSize = True
+        Me.Label357.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label357.ForeColor = System.Drawing.Color.White
+        Me.Label357.Location = New System.Drawing.Point(804, 6)
+        Me.Label357.Name = "Label357"
+        Me.Label357.Size = New System.Drawing.Size(189, 33)
+        Me.Label357.TabIndex = 23
+        Me.Label357.Text = "CODIFICADO"
         '
-        'Label165
+        'Label358
         '
-        Me.Label165.AutoSize = True
-        Me.Label165.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label165.ForeColor = System.Drawing.Color.White
-        Me.Label165.Location = New System.Drawing.Point(-124, 4)
-        Me.Label165.Name = "Label165"
-        Me.Label165.Size = New System.Drawing.Size(113, 33)
-        Me.Label165.TabIndex = 5
-        Me.Label165.Text = "CLIENTE"
+        Me.Label358.AutoSize = True
+        Me.Label358.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label358.ForeColor = System.Drawing.Color.White
+        Me.Label358.Location = New System.Drawing.Point(-124, 4)
+        Me.Label358.Name = "Label358"
+        Me.Label358.Size = New System.Drawing.Size(113, 33)
+        Me.Label358.TabIndex = 5
+        Me.Label358.Text = "CLIENTE"
         '
+        'ComboBox43
+        '
+        Me.ComboBox43.BackColor = System.Drawing.Color.White
+        Me.ComboBox43.DropDownWidth = 272
+        Me.ComboBox43.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox43.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox43.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox43.FormattingEnabled = True
+        Me.ComboBox43.Items.AddRange(New Object() {"123456789101345", "123456789101345", "123456789101345", "123456789101345", "", "CODIGO PROVEEDOR"})
+        Me.ComboBox43.Location = New System.Drawing.Point(1544, 113)
+        Me.ComboBox43.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox43.Name = "ComboBox43"
+        Me.ComboBox43.Size = New System.Drawing.Size(259, 37)
+        Me.ComboBox43.TabIndex = 167
+        '
+        'ComboBox44
+        '
+        Me.ComboBox44.BackColor = System.Drawing.Color.White
+        Me.ComboBox44.DropDownWidth = 272
+        Me.ComboBox44.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox44.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox44.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox44.FormattingEnabled = True
+        Me.ComboBox44.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "COD. Contable  ARTICULO:"})
+        Me.ComboBox44.Location = New System.Drawing.Point(334, 159)
+        Me.ComboBox44.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox44.Name = "ComboBox44"
+        Me.ComboBox44.Size = New System.Drawing.Size(708, 37)
+        Me.ComboBox44.TabIndex = 167
+        '
+        'ComboBox45
+        '
+        Me.ComboBox45.BackColor = System.Drawing.Color.White
+        Me.ComboBox45.DropDownWidth = 272
+        Me.ComboBox45.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox45.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox45.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox45.FormattingEnabled = True
+        Me.ComboBox45.Items.AddRange(New Object() {"Nombre del INSUMO DEL PROVEEDOR"})
+        Me.ComboBox45.Location = New System.Drawing.Point(1094, 113)
+        Me.ComboBox45.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox45.Name = "ComboBox45"
+        Me.ComboBox45.Size = New System.Drawing.Size(432, 37)
+        Me.ComboBox45.TabIndex = 167
+        '
+        'ComboBox159
+        '
+        Me.ComboBox159.BackColor = System.Drawing.Color.White
+        Me.ComboBox159.DropDownWidth = 272
+        Me.ComboBox159.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox159.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox159.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox159.FormattingEnabled = True
+        Me.ComboBox159.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "", "Cod. Gama INSUMO:"})
+        Me.ComboBox159.Location = New System.Drawing.Point(254, 113)
+        Me.ComboBox159.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox159.Name = "ComboBox159"
+        Me.ComboBox159.Size = New System.Drawing.Size(708, 37)
+        Me.ComboBox159.TabIndex = 167
+        '
+        'Label359
+        '
+        Me.Label359.AutoSize = True
+        Me.Label359.BackColor = System.Drawing.Color.Transparent
+        Me.Label359.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label359.Location = New System.Drawing.Point(977, 117)
+        Me.Label359.Name = "Label359"
+        Me.Label359.Size = New System.Drawing.Size(110, 29)
+        Me.Label359.TabIndex = 21
+        Me.Label359.Text = "Nombre:"
+        '
+        'Label362
+        '
+        Me.Label362.AutoSize = True
+        Me.Label362.BackColor = System.Drawing.Color.Transparent
+        Me.Label362.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label362.Location = New System.Drawing.Point(20, 214)
+        Me.Label362.Name = "Label362"
+        Me.Label362.Size = New System.Drawing.Size(307, 29)
+        Me.Label362.TabIndex = 21
+        Me.Label362.Text = "Descripcion contabilidad:"
+        '
+        'Label363
+        '
+        Me.Label363.AutoSize = True
+        Me.Label363.BackColor = System.Drawing.Color.Transparent
+        Me.Label363.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label363.Location = New System.Drawing.Point(4, 163)
+        Me.Label363.Name = "Label363"
+        Me.Label363.Size = New System.Drawing.Size(327, 29)
+        Me.Label363.TabIndex = 21
+        Me.Label363.Text = "Cod.. Contable  ARTICULO:"
+        '
+        'Label364
+        '
+        Me.Label364.AutoSize = True
+        Me.Label364.BackColor = System.Drawing.Color.Transparent
+        Me.Label364.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label364.Location = New System.Drawing.Point(1063, 163)
+        Me.Label364.Name = "Label364"
+        Me.Label364.Size = New System.Drawing.Size(152, 29)
+        Me.Label364.TabIndex = 21
+        Me.Label364.Text = "CTA./CONT.:"
+        '
+        'Label367
+        '
+        Me.Label367.AutoSize = True
+        Me.Label367.BackColor = System.Drawing.Color.Transparent
+        Me.Label367.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label367.Location = New System.Drawing.Point(3, 117)
+        Me.Label367.Name = "Label367"
+        Me.Label367.Size = New System.Drawing.Size(250, 29)
+        Me.Label367.TabIndex = 21
+        Me.Label367.Text = "Cod. Gama INSUMO:"
+        '
+        'TextBox128
+        '
+        Me.TextBox128.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox128.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox128.Location = New System.Drawing.Point(1223, 160)
+        Me.TextBox128.Name = "TextBox128"
+        Me.TextBox128.Size = New System.Drawing.Size(269, 35)
+        Me.TextBox128.TabIndex = 24
+        Me.TextBox128.Text = "00000000-0-00-00"
+        Me.TextBox128.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+>>>>>>> pre-main
         'Panel34
         '
         Me.Panel34.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel34.Controls.Add(Me.PictureBox3)
         Me.Panel34.Controls.Add(Me.Button42)
         Me.Panel34.Controls.Add(Me.Label295)
         Me.Panel34.Controls.Add(Me.Label288)
@@ -11477,10 +14521,20 @@ Partial Class INSUMO
         Me.Panel34.Controls.Add(Me.Label293)
         Me.Panel34.Controls.Add(Me.Label292)
         Me.Panel34.Controls.Add(Me.Label287)
-        Me.Panel34.Location = New System.Drawing.Point(10, 617)
+        Me.Panel34.Location = New System.Drawing.Point(10, 628)
         Me.Panel34.Name = "Panel34"
-        Me.Panel34.Size = New System.Drawing.Size(1869, 281)
+        Me.Panel34.Size = New System.Drawing.Size(1869, 272)
         Me.Panel34.TabIndex = 259
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(743, -125)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(380, 521)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 610
+        Me.PictureBox3.TabStop = False
         '
         'Button42
         '
@@ -11498,7 +14552,7 @@ Partial Class INSUMO
         Me.Label295.AutoSize = True
         Me.Label295.BackColor = System.Drawing.Color.Transparent
         Me.Label295.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label295.Location = New System.Drawing.Point(693, 241)
+        Me.Label295.Location = New System.Drawing.Point(659, 229)
         Me.Label295.Name = "Label295"
         Me.Label295.Size = New System.Drawing.Size(122, 29)
         Me.Label295.TabIndex = 313
@@ -11509,7 +14563,7 @@ Partial Class INSUMO
         Me.Label288.AutoSize = True
         Me.Label288.BackColor = System.Drawing.Color.Transparent
         Me.Label288.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label288.Location = New System.Drawing.Point(310, 241)
+        Me.Label288.Location = New System.Drawing.Point(361, 228)
         Me.Label288.Name = "Label288"
         Me.Label288.Size = New System.Drawing.Size(142, 29)
         Me.Label288.TabIndex = 313
@@ -11520,7 +14574,7 @@ Partial Class INSUMO
         Me.Label291.AutoSize = True
         Me.Label291.BackColor = System.Drawing.Color.Transparent
         Me.Label291.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label291.Location = New System.Drawing.Point(299, 197)
+        Me.Label291.Location = New System.Drawing.Point(299, 187)
         Me.Label291.Name = "Label291"
         Me.Label291.Size = New System.Drawing.Size(153, 29)
         Me.Label291.TabIndex = 313
@@ -11531,7 +14585,7 @@ Partial Class INSUMO
         Me.Label290.AutoSize = True
         Me.Label290.BackColor = System.Drawing.Color.Transparent
         Me.Label290.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label290.Location = New System.Drawing.Point(299, 149)
+        Me.Label290.Location = New System.Drawing.Point(299, 142)
         Me.Label290.Name = "Label290"
         Me.Label290.Size = New System.Drawing.Size(153, 29)
         Me.Label290.TabIndex = 313
@@ -11542,7 +14596,7 @@ Partial Class INSUMO
         Me.Label289.AutoSize = True
         Me.Label289.BackColor = System.Drawing.Color.Transparent
         Me.Label289.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label289.Location = New System.Drawing.Point(299, 101)
+        Me.Label289.Location = New System.Drawing.Point(299, 96)
         Me.Label289.Name = "Label289"
         Me.Label289.Size = New System.Drawing.Size(153, 29)
         Me.Label289.TabIndex = 313
@@ -11574,7 +14628,7 @@ Partial Class INSUMO
         '
         Me.TextBox104.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox104.ForeColor = System.Drawing.Color.Black
-        Me.TextBox104.Location = New System.Drawing.Point(819, 238)
+        Me.TextBox104.Location = New System.Drawing.Point(785, 226)
         Me.TextBox104.Name = "TextBox104"
         Me.TextBox104.Size = New System.Drawing.Size(123, 35)
         Me.TextBox104.TabIndex = 314
@@ -11585,7 +14639,7 @@ Partial Class INSUMO
         '
         Me.TextBox103.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox103.ForeColor = System.Drawing.Color.Black
-        Me.TextBox103.Location = New System.Drawing.Point(463, 238)
+        Me.TextBox103.Location = New System.Drawing.Point(514, 225)
         Me.TextBox103.Name = "TextBox103"
         Me.TextBox103.Size = New System.Drawing.Size(123, 35)
         Me.TextBox103.TabIndex = 314
@@ -11596,7 +14650,7 @@ Partial Class INSUMO
         '
         Me.TextBox102.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox102.ForeColor = System.Drawing.Color.Black
-        Me.TextBox102.Location = New System.Drawing.Point(463, 194)
+        Me.TextBox102.Location = New System.Drawing.Point(463, 184)
         Me.TextBox102.Name = "TextBox102"
         Me.TextBox102.Size = New System.Drawing.Size(123, 35)
         Me.TextBox102.TabIndex = 314
@@ -11607,7 +14661,7 @@ Partial Class INSUMO
         '
         Me.TextBox101.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox101.ForeColor = System.Drawing.Color.Black
-        Me.TextBox101.Location = New System.Drawing.Point(463, 146)
+        Me.TextBox101.Location = New System.Drawing.Point(463, 139)
         Me.TextBox101.Name = "TextBox101"
         Me.TextBox101.Size = New System.Drawing.Size(123, 35)
         Me.TextBox101.TabIndex = 314
@@ -11618,7 +14672,7 @@ Partial Class INSUMO
         '
         Me.TextBox99.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox99.ForeColor = System.Drawing.Color.Black
-        Me.TextBox99.Location = New System.Drawing.Point(463, 98)
+        Me.TextBox99.Location = New System.Drawing.Point(463, 93)
         Me.TextBox99.Name = "TextBox99"
         Me.TextBox99.Size = New System.Drawing.Size(123, 35)
         Me.TextBox99.TabIndex = 314
@@ -11678,7 +14732,7 @@ Partial Class INSUMO
         Me.ComboBox120.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox120.FormattingEnabled = True
         Me.ComboBox120.Items.AddRange(New Object() {"xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "", "", "Da la alternativas de Numero de lote en existencia"})
-        Me.ComboBox120.Location = New System.Drawing.Point(712, 194)
+        Me.ComboBox120.Location = New System.Drawing.Point(712, 183)
         Me.ComboBox120.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox120.Name = "ComboBox120"
         Me.ComboBox120.Size = New System.Drawing.Size(232, 37)
@@ -11692,7 +14746,7 @@ Partial Class INSUMO
         Me.ComboBox119.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox119.FormattingEnabled = True
         Me.ComboBox119.Items.AddRange(New Object() {"xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "", "", "Da la alternativas de Numero de lote en existencia"})
-        Me.ComboBox119.Location = New System.Drawing.Point(712, 146)
+        Me.ComboBox119.Location = New System.Drawing.Point(712, 138)
         Me.ComboBox119.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox119.Name = "ComboBox119"
         Me.ComboBox119.Size = New System.Drawing.Size(232, 37)
@@ -11706,7 +14760,7 @@ Partial Class INSUMO
         Me.ComboBox118.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox118.FormattingEnabled = True
         Me.ComboBox118.Items.AddRange(New Object() {"xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "", "", "Da la alternativas de Numero de lote en existencia"})
-        Me.ComboBox118.Location = New System.Drawing.Point(712, 98)
+        Me.ComboBox118.Location = New System.Drawing.Point(712, 92)
         Me.ComboBox118.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox118.Name = "ComboBox118"
         Me.ComboBox118.Size = New System.Drawing.Size(232, 37)
@@ -11720,7 +14774,7 @@ Partial Class INSUMO
         Me.ComboBox117.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox117.FormattingEnabled = True
         Me.ComboBox117.Items.AddRange(New Object() {"xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "xxxxx00000xxxxx", "", "", "Da la alternativas de Numero de lote en existencia"})
-        Me.ComboBox117.Location = New System.Drawing.Point(712, 50)
+        Me.ComboBox117.Location = New System.Drawing.Point(712, 49)
         Me.ComboBox117.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox117.Name = "ComboBox117"
         Me.ComboBox117.Size = New System.Drawing.Size(232, 37)
@@ -11754,7 +14808,7 @@ Partial Class INSUMO
         Me.RadioButton3.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton3.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton3.Location = New System.Drawing.Point(150, 204)
+        Me.RadioButton3.Location = New System.Drawing.Point(125, 227)
         Me.RadioButton3.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(53, 28)
@@ -11769,7 +14823,7 @@ Partial Class INSUMO
         Me.RadioButton22.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton22.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton22.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton22.Location = New System.Drawing.Point(150, 166)
+        Me.RadioButton22.Location = New System.Drawing.Point(125, 185)
         Me.RadioButton22.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton22.Name = "RadioButton22"
         Me.RadioButton22.Size = New System.Drawing.Size(53, 28)
@@ -11784,7 +14838,7 @@ Partial Class INSUMO
         Me.RadioButton23.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton23.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton23.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton23.Location = New System.Drawing.Point(150, 128)
+        Me.RadioButton23.Location = New System.Drawing.Point(125, 140)
         Me.RadioButton23.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton23.Name = "RadioButton23"
         Me.RadioButton23.Size = New System.Drawing.Size(53, 28)
@@ -11799,7 +14853,7 @@ Partial Class INSUMO
         Me.RadioButton24.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton24.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton24.Location = New System.Drawing.Point(150, 90)
+        Me.RadioButton24.Location = New System.Drawing.Point(125, 94)
         Me.RadioButton24.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton24.Name = "RadioButton24"
         Me.RadioButton24.Size = New System.Drawing.Size(53, 28)
@@ -11814,7 +14868,7 @@ Partial Class INSUMO
         Me.RadioButton25.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton25.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton25.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton25.Location = New System.Drawing.Point(150, 52)
+        Me.RadioButton25.Location = New System.Drawing.Point(125, 51)
         Me.RadioButton25.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton25.Name = "RadioButton25"
         Me.RadioButton25.Size = New System.Drawing.Size(53, 28)
@@ -11829,7 +14883,7 @@ Partial Class INSUMO
         Me.RadioButton26.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton26.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton26.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton26.Location = New System.Drawing.Point(213, 204)
+        Me.RadioButton26.Location = New System.Drawing.Point(188, 227)
         Me.RadioButton26.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton26.Name = "RadioButton26"
         Me.RadioButton26.Size = New System.Drawing.Size(61, 28)
@@ -11844,7 +14898,7 @@ Partial Class INSUMO
         Me.RadioButton27.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton27.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton27.Location = New System.Drawing.Point(213, 166)
+        Me.RadioButton27.Location = New System.Drawing.Point(188, 185)
         Me.RadioButton27.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton27.Name = "RadioButton27"
         Me.RadioButton27.Size = New System.Drawing.Size(61, 28)
@@ -11859,7 +14913,7 @@ Partial Class INSUMO
         Me.RadioButton28.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton28.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton28.Location = New System.Drawing.Point(213, 128)
+        Me.RadioButton28.Location = New System.Drawing.Point(188, 140)
         Me.RadioButton28.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton28.Name = "RadioButton28"
         Me.RadioButton28.Size = New System.Drawing.Size(61, 28)
@@ -11874,7 +14928,7 @@ Partial Class INSUMO
         Me.RadioButton29.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton29.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton29.Location = New System.Drawing.Point(213, 90)
+        Me.RadioButton29.Location = New System.Drawing.Point(188, 94)
         Me.RadioButton29.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton29.Name = "RadioButton29"
         Me.RadioButton29.Size = New System.Drawing.Size(61, 28)
@@ -11889,7 +14943,7 @@ Partial Class INSUMO
         Me.RadioButton30.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton30.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton30.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton30.Location = New System.Drawing.Point(213, 52)
+        Me.RadioButton30.Location = New System.Drawing.Point(188, 51)
         Me.RadioButton30.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton30.Name = "RadioButton30"
         Me.RadioButton30.Size = New System.Drawing.Size(61, 28)
@@ -11903,7 +14957,7 @@ Partial Class INSUMO
         Me.Label227.AutoSize = True
         Me.Label227.BackColor = System.Drawing.Color.Transparent
         Me.Label227.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label227.Location = New System.Drawing.Point(36, 206)
+        Me.Label227.Location = New System.Drawing.Point(11, 229)
         Me.Label227.Name = "Label227"
         Me.Label227.Size = New System.Drawing.Size(110, 24)
         Me.Label227.TabIndex = 211
@@ -11914,7 +14968,7 @@ Partial Class INSUMO
         Me.Label228.AutoSize = True
         Me.Label228.BackColor = System.Drawing.Color.Transparent
         Me.Label228.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label228.Location = New System.Drawing.Point(31, 171)
+        Me.Label228.Location = New System.Drawing.Point(6, 187)
         Me.Label228.Name = "Label228"
         Me.Label228.Size = New System.Drawing.Size(115, 24)
         Me.Label228.TabIndex = 212
@@ -11925,7 +14979,7 @@ Partial Class INSUMO
         Me.Label229.AutoSize = True
         Me.Label229.BackColor = System.Drawing.Color.Transparent
         Me.Label229.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label229.Location = New System.Drawing.Point(42, 130)
+        Me.Label229.Location = New System.Drawing.Point(17, 142)
         Me.Label229.Name = "Label229"
         Me.Label229.Size = New System.Drawing.Size(104, 24)
         Me.Label229.TabIndex = 213
@@ -11936,7 +14990,7 @@ Partial Class INSUMO
         Me.Label230.AutoSize = True
         Me.Label230.BackColor = System.Drawing.Color.Transparent
         Me.Label230.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label230.Location = New System.Drawing.Point(55, 92)
+        Me.Label230.Location = New System.Drawing.Point(30, 96)
         Me.Label230.Name = "Label230"
         Me.Label230.Size = New System.Drawing.Size(91, 24)
         Me.Label230.TabIndex = 214
@@ -11947,7 +15001,7 @@ Partial Class INSUMO
         Me.Label231.AutoSize = True
         Me.Label231.BackColor = System.Drawing.Color.Transparent
         Me.Label231.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label231.Location = New System.Drawing.Point(62, 54)
+        Me.Label231.Location = New System.Drawing.Point(37, 53)
         Me.Label231.Name = "Label231"
         Me.Label231.Size = New System.Drawing.Size(84, 24)
         Me.Label231.TabIndex = 215
@@ -11981,7 +15035,7 @@ Partial Class INSUMO
         Me.DateTimePicker43.CalendarMonthBackground = System.Drawing.Color.Transparent
         Me.DateTimePicker43.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker43.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker43.Location = New System.Drawing.Point(968, 195)
+        Me.DateTimePicker43.Location = New System.Drawing.Point(968, 184)
         Me.DateTimePicker43.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker43.Name = "DateTimePicker43"
         Me.DateTimePicker43.Size = New System.Drawing.Size(149, 35)
@@ -11993,7 +15047,7 @@ Partial Class INSUMO
         Me.DateTimePicker42.CalendarMonthBackground = System.Drawing.Color.Transparent
         Me.DateTimePicker42.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker42.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker42.Location = New System.Drawing.Point(968, 147)
+        Me.DateTimePicker42.Location = New System.Drawing.Point(968, 139)
         Me.DateTimePicker42.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker42.Name = "DateTimePicker42"
         Me.DateTimePicker42.Size = New System.Drawing.Size(149, 35)
@@ -12005,7 +15059,7 @@ Partial Class INSUMO
         Me.DateTimePicker41.CalendarMonthBackground = System.Drawing.Color.Transparent
         Me.DateTimePicker41.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker41.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker41.Location = New System.Drawing.Point(968, 99)
+        Me.DateTimePicker41.Location = New System.Drawing.Point(968, 93)
         Me.DateTimePicker41.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker41.Name = "DateTimePicker41"
         Me.DateTimePicker41.Size = New System.Drawing.Size(149, 35)
@@ -12017,7 +15071,7 @@ Partial Class INSUMO
         Me.DateTimePicker5.CalendarMonthBackground = System.Drawing.Color.Transparent
         Me.DateTimePicker5.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker5.Location = New System.Drawing.Point(968, 51)
+        Me.DateTimePicker5.Location = New System.Drawing.Point(968, 50)
         Me.DateTimePicker5.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker5.Name = "DateTimePicker5"
         Me.DateTimePicker5.Size = New System.Drawing.Size(149, 35)
@@ -12028,33 +15082,33 @@ Partial Class INSUMO
         Me.Label294.AutoSize = True
         Me.Label294.BackColor = System.Drawing.Color.Transparent
         Me.Label294.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label294.Location = New System.Drawing.Point(608, 197)
+        Me.Label294.Location = New System.Drawing.Point(600, 185)
         Me.Label294.Name = "Label294"
-        Me.Label294.Size = New System.Drawing.Size(97, 29)
+        Me.Label294.Size = New System.Drawing.Size(105, 29)
         Me.Label294.TabIndex = 265
-        Me.Label294.Text = "Lte. N°:"
+        Me.Label294.Text = "Lote N°:"
         '
         'Label293
         '
         Me.Label293.AutoSize = True
         Me.Label293.BackColor = System.Drawing.Color.Transparent
         Me.Label293.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label293.Location = New System.Drawing.Point(608, 149)
+        Me.Label293.Location = New System.Drawing.Point(600, 142)
         Me.Label293.Name = "Label293"
-        Me.Label293.Size = New System.Drawing.Size(97, 29)
+        Me.Label293.Size = New System.Drawing.Size(105, 29)
         Me.Label293.TabIndex = 265
-        Me.Label293.Text = "Lte. N°:"
+        Me.Label293.Text = "Lote N°:"
         '
         'Label292
         '
         Me.Label292.AutoSize = True
         Me.Label292.BackColor = System.Drawing.Color.Transparent
         Me.Label292.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label292.Location = New System.Drawing.Point(608, 101)
+        Me.Label292.Location = New System.Drawing.Point(608, 95)
         Me.Label292.Name = "Label292"
-        Me.Label292.Size = New System.Drawing.Size(97, 29)
+        Me.Label292.Size = New System.Drawing.Size(105, 29)
         Me.Label292.TabIndex = 265
-        Me.Label292.Text = "Lte. N°:"
+        Me.Label292.Text = "Lote N°:"
         '
         'Label287
         '
@@ -12063,9 +15117,9 @@ Partial Class INSUMO
         Me.Label287.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label287.Location = New System.Drawing.Point(608, 53)
         Me.Label287.Name = "Label287"
-        Me.Label287.Size = New System.Drawing.Size(97, 29)
+        Me.Label287.Size = New System.Drawing.Size(105, 29)
         Me.Label287.TabIndex = 265
-        Me.Label287.Text = "Lte. N°:"
+        Me.Label287.Text = "Lote N°:"
         '
         'Panel29
         '
@@ -12139,9 +15193,9 @@ Partial Class INSUMO
         Me.Panel36.Controls.Add(Me.TextBox93)
         Me.Panel36.Controls.Add(Me.Button48)
         Me.Panel36.Controls.Add(Me.Panel37)
-        Me.Panel36.Location = New System.Drawing.Point(11, 290)
+        Me.Panel36.Location = New System.Drawing.Point(11, 312)
         Me.Panel36.Name = "Panel36"
-        Me.Panel36.Size = New System.Drawing.Size(1838, 314)
+        Me.Panel36.Size = New System.Drawing.Size(1838, 305)
         Me.Panel36.TabIndex = 170
         '
         'ComboBox79
@@ -12243,7 +15297,11 @@ Partial Class INSUMO
         Me.Label225.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label225.ForeColor = System.Drawing.Color.Red
         Me.Label225.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+<<<<<<< HEAD
         Me.Label225.Location = New System.Drawing.Point(147, 58)
+=======
+        Me.Label225.Location = New System.Drawing.Point(154, 195)
+>>>>>>> pre-main
         Me.Label225.Name = "Label225"
         Me.Label225.Size = New System.Drawing.Size(873, 21)
         Me.Label225.TabIndex = 310
@@ -12286,7 +15344,7 @@ Partial Class INSUMO
         Me.Label28.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.Color.Red
         Me.Label28.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label28.Location = New System.Drawing.Point(475, 37)
+        Me.Label28.Location = New System.Drawing.Point(310, 146)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(1149, 21)
         Me.Label28.TabIndex = 310
@@ -12523,9 +15581,9 @@ Partial Class INSUMO
         Me.Label210.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label210.Location = New System.Drawing.Point(851, 62)
         Me.Label210.Name = "Label210"
-        Me.Label210.Size = New System.Drawing.Size(90, 29)
+        Me.Label210.Size = New System.Drawing.Size(98, 29)
         Me.Label210.TabIndex = 265
-        Me.Label210.Text = "Lte. N°"
+        Me.Label210.Text = "Lote N°"
         '
         'TextBox43
         '
@@ -12762,6 +15820,7 @@ Partial Class INSUMO
         '
         Me.Panel43.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+<<<<<<< HEAD
         Me.Panel43.Controls.Add(Me.CheckBox42)
         Me.Panel43.Controls.Add(Me.ComboBox32)
         Me.Panel43.Controls.Add(Me.ComboBox33)
@@ -12779,13 +15838,28 @@ Partial Class INSUMO
         Me.Panel43.Controls.Add(Me.Label408)
         Me.Panel43.Controls.Add(Me.Label409)
         Me.Panel43.Controls.Add(Me.Label410)
+=======
+>>>>>>> pre-main
         Me.Panel43.Controls.Add(Me.ComboBox78)
         Me.Panel43.Controls.Add(Me.ComboBox80)
+        Me.Panel43.Controls.Add(Me.TextBox11)
         Me.Panel43.Controls.Add(Me.ComboBox81)
         Me.Panel43.Controls.Add(Me.ComboBox82)
         Me.Panel43.Controls.Add(Me.ComboBox83)
+        Me.Panel43.Controls.Add(Me.Label31)
+        Me.Panel43.Controls.Add(Me.Label32)
+        Me.Panel43.Controls.Add(Me.Label33)
+        Me.Panel43.Controls.Add(Me.Label34)
+        Me.Panel43.Controls.Add(Me.Label35)
+        Me.Panel43.Controls.Add(Me.Label240)
+        Me.Panel43.Controls.Add(Me.Label368)
+        Me.Panel43.Controls.Add(Me.Label369)
+        Me.Panel43.Controls.Add(Me.Label370)
+        Me.Panel43.Controls.Add(Me.Label371)
+        Me.Panel43.Controls.Add(Me.Label372)
         Me.Panel43.Controls.Add(Me.ComboBox84)
         Me.Panel43.Controls.Add(Me.ComboBox85)
+<<<<<<< HEAD
         Me.Panel43.Controls.Add(Me.ComboBox86)
         Me.Panel43.Controls.Add(Me.ComboBox87)
         Me.Panel43.Controls.Add(Me.Label412)
@@ -12793,45 +15867,517 @@ Partial Class INSUMO
         Me.Panel43.Controls.Add(Me.Button41)
         Me.Panel43.Controls.Add(Me.Panel44)
         Me.Panel43.Location = New System.Drawing.Point(12, 51)
+=======
+        Me.Panel43.Controls.Add(Me.TextBox129)
+        Me.Panel43.Controls.Add(Me.ComboBox86)
+        Me.Panel43.Controls.Add(Me.ComboBox87)
+        Me.Panel43.Controls.Add(Me.ComboBox88)
+        Me.Panel43.Controls.Add(Me.Button41)
+        Me.Panel43.Controls.Add(Me.Panel44)
+        Me.Panel43.Controls.Add(Me.ComboBox89)
+        Me.Panel43.Controls.Add(Me.ComboBox90)
+        Me.Panel43.Controls.Add(Me.ComboBox91)
+        Me.Panel43.Controls.Add(Me.ComboBox131)
+        Me.Panel43.Controls.Add(Me.Label375)
+        Me.Panel43.Controls.Add(Me.Label376)
+        Me.Panel43.Controls.Add(Me.Label377)
+        Me.Panel43.Controls.Add(Me.Label378)
+        Me.Panel43.Controls.Add(Me.Label404)
+        Me.Panel43.Controls.Add(Me.TextBox133)
+        Me.Panel43.Location = New System.Drawing.Point(11, 49)
+>>>>>>> pre-main
         Me.Panel43.Name = "Panel43"
-        Me.Panel43.Size = New System.Drawing.Size(1838, 228)
-        Me.Panel43.TabIndex = 170
+        Me.Panel43.Size = New System.Drawing.Size(1813, 254)
+        Me.Panel43.TabIndex = 260
+        '
+<<<<<<< HEAD
+=======
+        'ComboBox78
+        '
+        Me.ComboBox78.BackColor = System.Drawing.Color.White
+        Me.ComboBox78.DropDownWidth = 272
+        Me.ComboBox78.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox78.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox78.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox78.FormattingEnabled = True
+        Me.ComboBox78.Items.AddRange(New Object() {"(PAIS)"})
+        Me.ComboBox78.Location = New System.Drawing.Point(254, 69)
+        Me.ComboBox78.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox78.Name = "ComboBox78"
+        Me.ComboBox78.Size = New System.Drawing.Size(56, 37)
+        Me.ComboBox78.TabIndex = 190
+        '
+        'ComboBox80
+        '
+        Me.ComboBox80.BackColor = System.Drawing.Color.White
+        Me.ComboBox80.DropDownWidth = 272
+        Me.ComboBox80.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox80.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox80.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox80.FormattingEnabled = True
+        Me.ComboBox80.Items.AddRange(New Object() {"(PAIS)"})
+        Me.ComboBox80.Location = New System.Drawing.Point(324, 69)
+        Me.ComboBox80.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox80.Name = "ComboBox80"
+        Me.ComboBox80.Size = New System.Drawing.Size(86, 37)
+        Me.ComboBox80.TabIndex = 184
+        '
+        'TextBox11
+        '
+        Me.TextBox11.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox11.Location = New System.Drawing.Point(1638, 63)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(143, 35)
+        Me.TextBox11.TabIndex = 179
+        Me.TextBox11.Text = "0.000.000"
+        Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'ComboBox81
+        '
+        Me.ComboBox81.BackColor = System.Drawing.Color.White
+        Me.ComboBox81.DropDownWidth = 272
+        Me.ComboBox81.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox81.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox81.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox81.FormattingEnabled = True
+        Me.ComboBox81.Items.AddRange(New Object() {"88888888", "88888888", "88888888", "88888888", "88888888", "", "8 COD PROVEEDOR  "})
+        Me.ComboBox81.Location = New System.Drawing.Point(1188, 67)
+        Me.ComboBox81.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox81.Name = "ComboBox81"
+        Me.ComboBox81.Size = New System.Drawing.Size(151, 37)
+        Me.ComboBox81.TabIndex = 183
+        '
+        'ComboBox82
+        '
+        Me.ComboBox82.BackColor = System.Drawing.Color.White
+        Me.ComboBox82.DropDownWidth = 272
+        Me.ComboBox82.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox82.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox82.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox82.FormattingEnabled = True
+        Me.ComboBox82.Items.AddRange(New Object() {"3AREA ", "", "MSTENIMIENTO", "INSUMO", "MATERIA PRIMA"})
+        Me.ComboBox82.Location = New System.Drawing.Point(424, 69)
+        Me.ComboBox82.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox82.Name = "ComboBox82"
+        Me.ComboBox82.Size = New System.Drawing.Size(76, 37)
+        Me.ComboBox82.TabIndex = 182
+        '
+        'ComboBox83
+        '
+        Me.ComboBox83.BackColor = System.Drawing.Color.White
+        Me.ComboBox83.DropDownWidth = 272
+        Me.ComboBox83.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox83.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox83.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox83.FormattingEnabled = True
+        Me.ComboBox83.Items.AddRange(New Object() {"4 ESTACION"})
+        Me.ComboBox83.Location = New System.Drawing.Point(514, 69)
+        Me.ComboBox83.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox83.Name = "ComboBox83"
+        Me.ComboBox83.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox83.TabIndex = 181
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Location = New System.Drawing.Point(1582, 66)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(47, 29)
+        Me.Label31.TabIndex = 168
+        Me.Label31.Text = "N°:"
+        Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.BackColor = System.Drawing.Color.Transparent
+        Me.Label32.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.ForeColor = System.Drawing.Color.Blue
+        Me.Label32.Location = New System.Drawing.Point(424, 46)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(73, 19)
+        Me.Label32.TabIndex = 174
+        Me.Label32.Text = "(3AREA)"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.BackColor = System.Drawing.Color.Transparent
+        Me.Label33.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.ForeColor = System.Drawing.Color.Blue
+        Me.Label33.Location = New System.Drawing.Point(228, 46)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(99, 19)
+        Me.Label33.TabIndex = 175
+        Me.Label33.Text = "(1DEPOSIT)"
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.BackColor = System.Drawing.Color.Transparent
+        Me.Label34.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.ForeColor = System.Drawing.Color.Blue
+        Me.Label34.Location = New System.Drawing.Point(1202, 44)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(103, 19)
+        Me.Label34.TabIndex = 176
+        Me.Label34.Text = "(8)COD PRO"
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.BackColor = System.Drawing.Color.Transparent
+        Me.Label35.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.ForeColor = System.Drawing.Color.Blue
+        Me.Label35.Location = New System.Drawing.Point(1089, 46)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(79, 19)
+        Me.Label35.TabIndex = 177
+        Me.Label35.Text = "(3UNIDA)"
+        '
+        'Label240
+        '
+        Me.Label240.AutoSize = True
+        Me.Label240.BackColor = System.Drawing.Color.Transparent
+        Me.Label240.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label240.ForeColor = System.Drawing.Color.Blue
+        Me.Label240.Location = New System.Drawing.Point(980, 45)
+        Me.Label240.Name = "Label240"
+        Me.Label240.Size = New System.Drawing.Size(85, 19)
+        Me.Label240.TabIndex = 169
+        Me.Label240.Text = "(3VOLOR)"
+        '
+        'Label368
+        '
+        Me.Label368.AutoSize = True
+        Me.Label368.BackColor = System.Drawing.Color.Transparent
+        Me.Label368.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label368.ForeColor = System.Drawing.Color.Blue
+        Me.Label368.Location = New System.Drawing.Point(872, 44)
+        Me.Label368.Name = "Label368"
+        Me.Label368.Size = New System.Drawing.Size(87, 19)
+        Me.Label368.TabIndex = 178
+        Me.Label368.Text = "(4CERTIF)"
+        '
+        'Label369
+        '
+        Me.Label369.AutoSize = True
+        Me.Label369.BackColor = System.Drawing.Color.Transparent
+        Me.Label369.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label369.ForeColor = System.Drawing.Color.Blue
+        Me.Label369.Location = New System.Drawing.Point(748, 45)
+        Me.Label369.Name = "Label369"
+        Me.Label369.Size = New System.Drawing.Size(108, 19)
+        Me.Label369.TabIndex = 173
+        Me.Label369.Text = "(4PROVEED)"
+        '
+        'Label370
+        '
+        Me.Label370.AutoSize = True
+        Me.Label370.BackColor = System.Drawing.Color.Transparent
+        Me.Label370.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label370.ForeColor = System.Drawing.Color.Blue
+        Me.Label370.Location = New System.Drawing.Point(631, 44)
+        Me.Label370.Name = "Label370"
+        Me.Label370.Size = New System.Drawing.Size(87, 19)
+        Me.Label370.TabIndex = 172
+        Me.Label370.Text = "(4GRUPO)"
+        '
+        'Label371
+        '
+        Me.Label371.AutoSize = True
+        Me.Label371.BackColor = System.Drawing.Color.Transparent
+        Me.Label371.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label371.ForeColor = System.Drawing.Color.Blue
+        Me.Label371.Location = New System.Drawing.Point(519, 44)
+        Me.Label371.Name = "Label371"
+        Me.Label371.Size = New System.Drawing.Size(82, 19)
+        Me.Label371.TabIndex = 171
+        Me.Label371.Text = "(4ESTAC)"
+        '
+        'Label372
+        '
+        Me.Label372.AutoSize = True
+        Me.Label372.BackColor = System.Drawing.Color.Transparent
+        Me.Label372.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label372.ForeColor = System.Drawing.Color.Blue
+        Me.Label372.Location = New System.Drawing.Point(334, 44)
+        Me.Label372.Name = "Label372"
+        Me.Label372.Size = New System.Drawing.Size(64, 19)
+        Me.Label372.TabIndex = 170
+        Me.Label372.Text = "(3PAIS)"
+        '
+        'ComboBox84
+        '
+        Me.ComboBox84.BackColor = System.Drawing.Color.White
+        Me.ComboBox84.DropDownWidth = 272
+        Me.ComboBox84.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox84.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox84.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox84.FormattingEnabled = True
+        Me.ComboBox84.Items.AddRange(New Object() {"4444", "4444", "4444", "4444", "4444", "", "", "", "4 PROVEEDOR"})
+        Me.ComboBox84.Location = New System.Drawing.Point(750, 67)
+        Me.ComboBox84.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox84.Name = "ComboBox84"
+        Me.ComboBox84.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox84.TabIndex = 185
+        '
+        'ComboBox85
+        '
+        Me.ComboBox85.BackColor = System.Drawing.Color.White
+        Me.ComboBox85.DropDownWidth = 272
+        Me.ComboBox85.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox85.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox85.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox85.FormattingEnabled = True
+        Me.ComboBox85.Items.AddRange(New Object() {"4444", "4444", "4444", "4444", "4444", "", "", "", "4 GRUPO"})
+        Me.ComboBox85.Location = New System.Drawing.Point(632, 69)
+        Me.ComboBox85.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox85.Name = "ComboBox85"
+        Me.ComboBox85.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox85.TabIndex = 186
+        '
+        'TextBox129
+        '
+        Me.TextBox129.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox129.ForeColor = System.Drawing.Color.Black
+        Me.TextBox129.Location = New System.Drawing.Point(334, 208)
+        Me.TextBox129.Name = "TextBox129"
+        Me.TextBox129.Size = New System.Drawing.Size(1459, 35)
+        Me.TextBox129.TabIndex = 172
+        Me.TextBox129.Text = "TOYO LIOCOLOR VERDE TKCOLOR09/L"
+        '
+        'ComboBox86
+        '
+        Me.ComboBox86.BackColor = System.Drawing.Color.White
+        Me.ComboBox86.DropDownWidth = 272
+        Me.ComboBox86.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox86.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox86.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox86.FormattingEnabled = True
+        Me.ComboBox86.Items.AddRange(New Object() {"55555", "55555", "55555", "", "", "", "", "5 CERTIFICADO"})
+        Me.ComboBox86.Location = New System.Drawing.Point(868, 67)
+        Me.ComboBox86.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox86.Name = "ComboBox86"
+        Me.ComboBox86.Size = New System.Drawing.Size(104, 37)
+        Me.ComboBox86.TabIndex = 187
+        '
+        'ComboBox87
+        '
+        Me.ComboBox87.BackColor = System.Drawing.Color.White
+        Me.ComboBox87.DropDownWidth = 272
+        Me.ComboBox87.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox87.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox87.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox87.FormattingEnabled = True
+        Me.ComboBox87.Items.AddRange(New Object() {"NEG", "CYA", "MAG", "AMA", "ROJ", "VER", "CLA", "", "Tiene tres digitos y se debe encuadran el color que se saca dentro de uno de esto" &
+                "s.", "de esta forma va a dar opciones al planificador que colores similares tiene o se " &
+                "tira para algunas ", "de estas tonalidades"})
+        Me.ComboBox87.Location = New System.Drawing.Point(986, 69)
+        Me.ComboBox87.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox87.Name = "ComboBox87"
+        Me.ComboBox87.Size = New System.Drawing.Size(81, 37)
+        Me.ComboBox87.TabIndex = 188
+        '
+        'ComboBox88
+        '
+        Me.ComboBox88.BackColor = System.Drawing.Color.White
+        Me.ComboBox88.DropDownWidth = 272
+        Me.ComboBox88.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox88.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox88.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox88.FormattingEnabled = True
+        Me.ComboBox88.Items.AddRange(New Object() {"333", "333", "333", "333", "", "", "Esta son la unidad de medicion qu cada uno de los insumos tiene (cm/m2/kilos/tec)" &
+                ""})
+        Me.ComboBox88.Location = New System.Drawing.Point(1081, 67)
+        Me.ComboBox88.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox88.Name = "ComboBox88"
+        Me.ComboBox88.Size = New System.Drawing.Size(93, 37)
+        Me.ComboBox88.TabIndex = 189
+        '
+        'Button41
+        '
+        Me.Button41.AutoSize = True
+        Me.Button41.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button41.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button41.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button41.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button41.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button41.ForeColor = System.Drawing.Color.Black
+        Me.Button41.Location = New System.Drawing.Point(86, 63)
+        Me.Button41.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button41.Name = "Button41"
+        Me.Button41.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button41.Size = New System.Drawing.Size(149, 50)
+        Me.Button41.TabIndex = 180
+        Me.Button41.Text = "Buscar"
+        Me.Button41.UseVisualStyleBackColor = False
         '
         'Panel44
         '
         Me.Panel44.BackColor = System.Drawing.Color.Green
         Me.Panel44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel44.Controls.Add(Me.Label31)
-        Me.Panel44.Controls.Add(Me.Label32)
+        Me.Panel44.Controls.Add(Me.Label373)
+        Me.Panel44.Controls.Add(Me.Label374)
         Me.Panel44.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel44.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel44.Location = New System.Drawing.Point(0, 0)
         Me.Panel44.Name = "Panel44"
-        Me.Panel44.Size = New System.Drawing.Size(1836, 43)
+        Me.Panel44.Size = New System.Drawing.Size(1811, 43)
         Me.Panel44.TabIndex = 0
         '
-        'Label31
+        'Label373
         '
-        Me.Label31.AutoSize = True
-        Me.Label31.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.ForeColor = System.Drawing.Color.White
-        Me.Label31.Location = New System.Drawing.Point(822, 0)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(189, 33)
-        Me.Label31.TabIndex = 23
-        Me.Label31.Text = "CODIFICADO"
+        Me.Label373.AutoSize = True
+        Me.Label373.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label373.ForeColor = System.Drawing.Color.White
+        Me.Label373.Location = New System.Drawing.Point(804, 6)
+        Me.Label373.Name = "Label373"
+        Me.Label373.Size = New System.Drawing.Size(189, 33)
+        Me.Label373.TabIndex = 23
+        Me.Label373.Text = "CODIFICADO"
         '
-        'Label32
+        'Label374
         '
-        Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.ForeColor = System.Drawing.Color.White
-        Me.Label32.Location = New System.Drawing.Point(-124, 4)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(113, 33)
-        Me.Label32.TabIndex = 5
-        Me.Label32.Text = "CLIENTE"
+        Me.Label374.AutoSize = True
+        Me.Label374.Font = New System.Drawing.Font("Arial Narrow", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label374.ForeColor = System.Drawing.Color.White
+        Me.Label374.Location = New System.Drawing.Point(-124, 4)
+        Me.Label374.Name = "Label374"
+        Me.Label374.Size = New System.Drawing.Size(113, 33)
+        Me.Label374.TabIndex = 5
+        Me.Label374.Text = "CLIENTE"
         '
+        'ComboBox89
+        '
+        Me.ComboBox89.BackColor = System.Drawing.Color.White
+        Me.ComboBox89.DropDownWidth = 272
+        Me.ComboBox89.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox89.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox89.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox89.FormattingEnabled = True
+        Me.ComboBox89.Items.AddRange(New Object() {"123456789101345", "123456789101345", "123456789101345", "123456789101345", "", "CODIGO PROVEEDOR"})
+        Me.ComboBox89.Location = New System.Drawing.Point(1544, 113)
+        Me.ComboBox89.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox89.Name = "ComboBox89"
+        Me.ComboBox89.Size = New System.Drawing.Size(259, 37)
+        Me.ComboBox89.TabIndex = 167
+        '
+        'ComboBox90
+        '
+        Me.ComboBox90.BackColor = System.Drawing.Color.White
+        Me.ComboBox90.DropDownWidth = 272
+        Me.ComboBox90.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox90.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox90.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox90.FormattingEnabled = True
+        Me.ComboBox90.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "COD. Contable  ARTICULO:"})
+        Me.ComboBox90.Location = New System.Drawing.Point(334, 159)
+        Me.ComboBox90.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox90.Name = "ComboBox90"
+        Me.ComboBox90.Size = New System.Drawing.Size(708, 37)
+        Me.ComboBox90.TabIndex = 167
+        '
+        'ComboBox91
+        '
+        Me.ComboBox91.BackColor = System.Drawing.Color.White
+        Me.ComboBox91.DropDownWidth = 272
+        Me.ComboBox91.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox91.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox91.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox91.FormattingEnabled = True
+        Me.ComboBox91.Items.AddRange(New Object() {"Nombre del INSUMO DEL PROVEEDOR"})
+        Me.ComboBox91.Location = New System.Drawing.Point(1094, 113)
+        Me.ComboBox91.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox91.Name = "ComboBox91"
+        Me.ComboBox91.Size = New System.Drawing.Size(432, 37)
+        Me.ComboBox91.TabIndex = 167
+        '
+        'ComboBox131
+        '
+        Me.ComboBox131.BackColor = System.Drawing.Color.White
+        Me.ComboBox131.DropDownWidth = 272
+        Me.ComboBox131.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox131.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox131.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox131.FormattingEnabled = True
+        Me.ComboBox131.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "", "Cod. Gama INSUMO:"})
+        Me.ComboBox131.Location = New System.Drawing.Point(254, 113)
+        Me.ComboBox131.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox131.Name = "ComboBox131"
+        Me.ComboBox131.Size = New System.Drawing.Size(708, 37)
+        Me.ComboBox131.TabIndex = 167
+        '
+        'Label375
+        '
+        Me.Label375.AutoSize = True
+        Me.Label375.BackColor = System.Drawing.Color.Transparent
+        Me.Label375.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label375.Location = New System.Drawing.Point(977, 117)
+        Me.Label375.Name = "Label375"
+        Me.Label375.Size = New System.Drawing.Size(110, 29)
+        Me.Label375.TabIndex = 21
+        Me.Label375.Text = "Nombre:"
+        '
+        'Label376
+        '
+        Me.Label376.AutoSize = True
+        Me.Label376.BackColor = System.Drawing.Color.Transparent
+        Me.Label376.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label376.Location = New System.Drawing.Point(20, 214)
+        Me.Label376.Name = "Label376"
+        Me.Label376.Size = New System.Drawing.Size(307, 29)
+        Me.Label376.TabIndex = 21
+        Me.Label376.Text = "Descripcion contabilidad:"
+        '
+        'Label377
+        '
+        Me.Label377.AutoSize = True
+        Me.Label377.BackColor = System.Drawing.Color.Transparent
+        Me.Label377.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label377.Location = New System.Drawing.Point(4, 163)
+        Me.Label377.Name = "Label377"
+        Me.Label377.Size = New System.Drawing.Size(327, 29)
+        Me.Label377.TabIndex = 21
+        Me.Label377.Text = "Cod.. Contable  ARTICULO:"
+        '
+        'Label378
+        '
+        Me.Label378.AutoSize = True
+        Me.Label378.BackColor = System.Drawing.Color.Transparent
+        Me.Label378.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label378.Location = New System.Drawing.Point(1063, 163)
+        Me.Label378.Name = "Label378"
+        Me.Label378.Size = New System.Drawing.Size(152, 29)
+        Me.Label378.TabIndex = 21
+        Me.Label378.Text = "CTA./CONT.:"
+        '
+        'Label404
+        '
+        Me.Label404.AutoSize = True
+        Me.Label404.BackColor = System.Drawing.Color.Transparent
+        Me.Label404.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label404.Location = New System.Drawing.Point(3, 117)
+        Me.Label404.Name = "Label404"
+        Me.Label404.Size = New System.Drawing.Size(250, 29)
+        Me.Label404.TabIndex = 21
+        Me.Label404.Text = "Cod. Gama INSUMO:"
+        '
+        'TextBox133
+        '
+        Me.TextBox133.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox133.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox133.Location = New System.Drawing.Point(1223, 160)
+        Me.TextBox133.Name = "TextBox133"
+        Me.TextBox133.Size = New System.Drawing.Size(269, 35)
+        Me.TextBox133.TabIndex = 24
+        Me.TextBox133.Text = "00000000-0-00-00"
+        Me.TextBox133.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+>>>>>>> pre-main
         'Panel45
         '
         Me.Panel45.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -12883,9 +16429,9 @@ Partial Class INSUMO
         Me.Panel45.Controls.Add(Me.Label274)
         Me.Panel45.Controls.Add(Me.TextBox53)
         Me.Panel45.Controls.Add(Me.Button50)
-        Me.Panel45.Location = New System.Drawing.Point(10, 636)
+        Me.Panel45.Location = New System.Drawing.Point(10, 655)
         Me.Panel45.Name = "Panel45"
-        Me.Panel45.Size = New System.Drawing.Size(1840, 266)
+        Me.Panel45.Size = New System.Drawing.Size(1840, 261)
         Me.Panel45.TabIndex = 259
         '
         'Label273
@@ -12893,7 +16439,7 @@ Partial Class INSUMO
         Me.Label273.AutoSize = True
         Me.Label273.BackColor = System.Drawing.Color.Transparent
         Me.Label273.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label273.Location = New System.Drawing.Point(1516, 56)
+        Me.Label273.Location = New System.Drawing.Point(1516, 52)
         Me.Label273.Name = "Label273"
         Me.Label273.Size = New System.Drawing.Size(119, 29)
         Me.Label273.TabIndex = 307
@@ -12908,7 +16454,7 @@ Partial Class INSUMO
         Me.ComboBox116.ForeColor = System.Drawing.Color.Black
         Me.ComboBox116.FormattingEnabled = True
         Me.ComboBox116.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
-        Me.ComboBox116.Location = New System.Drawing.Point(1644, 52)
+        Me.ComboBox116.Location = New System.Drawing.Point(1644, 48)
         Me.ComboBox116.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox116.Name = "ComboBox116"
         Me.ComboBox116.Size = New System.Drawing.Size(137, 37)
@@ -12924,7 +16470,7 @@ Partial Class INSUMO
         Me.Button43.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
         Me.Button43.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button43.ForeColor = System.Drawing.Color.Black
-        Me.Button43.Location = New System.Drawing.Point(1258, 215)
+        Me.Button43.Location = New System.Drawing.Point(1258, 209)
         Me.Button43.Margin = New System.Windows.Forms.Padding(4)
         Me.Button43.Name = "Button43"
         Me.Button43.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -12943,7 +16489,7 @@ Partial Class INSUMO
         Me.Button49.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
         Me.Button49.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button49.ForeColor = System.Drawing.Color.White
-        Me.Button49.Location = New System.Drawing.Point(1644, 215)
+        Me.Button49.Location = New System.Drawing.Point(1644, 209)
         Me.Button49.Margin = New System.Windows.Forms.Padding(4)
         Me.Button49.Name = "Button49"
         Me.Button49.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -12956,7 +16502,7 @@ Partial Class INSUMO
         '
         Me.TextBox88.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox88.ForeColor = System.Drawing.Color.Black
-        Me.TextBox88.Location = New System.Drawing.Point(1315, 163)
+        Me.TextBox88.Location = New System.Drawing.Point(1315, 157)
         Me.TextBox88.Name = "TextBox88"
         Me.TextBox88.Size = New System.Drawing.Size(208, 35)
         Me.TextBox88.TabIndex = 312
@@ -12972,7 +16518,7 @@ Partial Class INSUMO
         Me.ComboBox112.ForeColor = System.Drawing.Color.Black
         Me.ComboBox112.FormattingEnabled = True
         Me.ComboBox112.Items.AddRange(New Object() {"Administración", "Comercial", "Preprensa", "Troquel", "CC", "Resmado", "Corte", "Impresión", "UV", "Stampado", "Troquelado", "Doblado", "Descartonado", "Seleccionado", "Pegado 2D", "Pegado 3D", "Expedición", "Mantenimiento", "Tercerizado"})
-        Me.ComboBox112.Location = New System.Drawing.Point(1250, 52)
+        Me.ComboBox112.Location = New System.Drawing.Point(1250, 48)
         Me.ComboBox112.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox112.Name = "ComboBox112"
         Me.ComboBox112.Size = New System.Drawing.Size(239, 37)
@@ -12983,7 +16529,7 @@ Partial Class INSUMO
         Me.Label265.AutoSize = True
         Me.Label265.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label265.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label265.Location = New System.Drawing.Point(1009, 56)
+        Me.Label265.Location = New System.Drawing.Point(1009, 52)
         Me.Label265.Name = "Label265"
         Me.Label265.Size = New System.Drawing.Size(235, 29)
         Me.Label265.TabIndex = 294
@@ -12999,7 +16545,7 @@ Partial Class INSUMO
         Me.Button47.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
         Me.Button47.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button47.ForeColor = System.Drawing.Color.White
-        Me.Button47.Location = New System.Drawing.Point(1448, 214)
+        Me.Button47.Location = New System.Drawing.Point(1448, 208)
         Me.Button47.Margin = New System.Windows.Forms.Padding(4)
         Me.Button47.Name = "Button47"
         Me.Button47.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -13013,7 +16559,7 @@ Partial Class INSUMO
         Me.TextBox41.BackColor = System.Drawing.Color.Blue
         Me.TextBox41.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox41.ForeColor = System.Drawing.Color.White
-        Me.TextBox41.Location = New System.Drawing.Point(707, 114)
+        Me.TextBox41.Location = New System.Drawing.Point(707, 108)
         Me.TextBox41.Name = "TextBox41"
         Me.TextBox41.Size = New System.Drawing.Size(112, 35)
         Me.TextBox41.TabIndex = 283
@@ -13026,7 +16572,7 @@ Partial Class INSUMO
         Me.RadioButton31.BackColor = System.Drawing.Color.Yellow
         Me.RadioButton31.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton31.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton31.Location = New System.Drawing.Point(1673, 174)
+        Me.RadioButton31.Location = New System.Drawing.Point(1673, 168)
         Me.RadioButton31.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton31.Name = "RadioButton31"
         Me.RadioButton31.Size = New System.Drawing.Size(53, 28)
@@ -13040,7 +16586,7 @@ Partial Class INSUMO
         Me.TextBox96.BackColor = System.Drawing.Color.Blue
         Me.TextBox96.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox96.ForeColor = System.Drawing.Color.White
-        Me.TextBox96.Location = New System.Drawing.Point(299, 114)
+        Me.TextBox96.Location = New System.Drawing.Point(299, 108)
         Me.TextBox96.Name = "TextBox96"
         Me.TextBox96.Size = New System.Drawing.Size(107, 35)
         Me.TextBox96.TabIndex = 283
@@ -13051,7 +16597,7 @@ Partial Class INSUMO
         '
         Me.TextBox81.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox81.ForeColor = System.Drawing.Color.Black
-        Me.TextBox81.Location = New System.Drawing.Point(667, 163)
+        Me.TextBox81.Location = New System.Drawing.Point(667, 157)
         Me.TextBox81.Name = "TextBox81"
         Me.TextBox81.Size = New System.Drawing.Size(208, 35)
         Me.TextBox81.TabIndex = 311
@@ -13064,7 +16610,7 @@ Partial Class INSUMO
         Me.Label260.BackColor = System.Drawing.Color.Blue
         Me.Label260.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label260.ForeColor = System.Drawing.Color.White
-        Me.Label260.Location = New System.Drawing.Point(469, 117)
+        Me.Label260.Location = New System.Drawing.Point(469, 111)
         Me.Label260.Name = "Label260"
         Me.Label260.Size = New System.Drawing.Size(233, 29)
         Me.Label260.TabIndex = 278
@@ -13074,7 +16620,7 @@ Partial Class INSUMO
         '
         Me.TextBox77.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox77.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox77.Location = New System.Drawing.Point(398, 163)
+        Me.TextBox77.Location = New System.Drawing.Point(398, 157)
         Me.TextBox77.Name = "TextBox77"
         Me.TextBox77.Size = New System.Drawing.Size(140, 35)
         Me.TextBox77.TabIndex = 283
@@ -13087,7 +16633,7 @@ Partial Class INSUMO
         Me.Label275.BackColor = System.Drawing.Color.Blue
         Me.Label275.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label275.ForeColor = System.Drawing.Color.White
-        Me.Label275.Location = New System.Drawing.Point(40, 117)
+        Me.Label275.Location = New System.Drawing.Point(40, 111)
         Me.Label275.Name = "Label275"
         Me.Label275.Size = New System.Drawing.Size(253, 29)
         Me.Label275.TabIndex = 278
@@ -13099,7 +16645,7 @@ Partial Class INSUMO
         Me.RadioButton32.BackColor = System.Drawing.Color.Yellow
         Me.RadioButton32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton32.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton32.Location = New System.Drawing.Point(1673, 140)
+        Me.RadioButton32.Location = New System.Drawing.Point(1673, 134)
         Me.RadioButton32.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton32.Name = "RadioButton32"
         Me.RadioButton32.Size = New System.Drawing.Size(53, 28)
@@ -13115,7 +16661,7 @@ Partial Class INSUMO
         Me.RadioButton34.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton34.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton34.ForeColor = System.Drawing.Color.Blue
-        Me.RadioButton34.Location = New System.Drawing.Point(1407, 115)
+        Me.RadioButton34.Location = New System.Drawing.Point(1407, 109)
         Me.RadioButton34.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton34.Name = "RadioButton34"
         Me.RadioButton34.Size = New System.Drawing.Size(70, 33)
@@ -13127,7 +16673,7 @@ Partial Class INSUMO
         '
         Me.TextBox42.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox42.ForeColor = System.Drawing.Color.Black
-        Me.TextBox42.Location = New System.Drawing.Point(161, 163)
+        Me.TextBox42.Location = New System.Drawing.Point(161, 157)
         Me.TextBox42.Name = "TextBox42"
         Me.TextBox42.Size = New System.Drawing.Size(102, 35)
         Me.TextBox42.TabIndex = 283
@@ -13141,7 +16687,7 @@ Partial Class INSUMO
         Me.RadioButton35.Checked = True
         Me.RadioButton35.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton35.ForeColor = System.Drawing.Color.Blue
-        Me.RadioButton35.Location = New System.Drawing.Point(1344, 115)
+        Me.RadioButton35.Location = New System.Drawing.Point(1344, 109)
         Me.RadioButton35.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton35.Name = "RadioButton35"
         Me.RadioButton35.Size = New System.Drawing.Size(61, 33)
@@ -13156,7 +16702,7 @@ Partial Class INSUMO
         Me.RadioButton33.BackColor = System.Drawing.Color.Yellow
         Me.RadioButton33.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton33.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton33.Location = New System.Drawing.Point(1673, 106)
+        Me.RadioButton33.Location = New System.Drawing.Point(1673, 100)
         Me.RadioButton33.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton33.Name = "RadioButton33"
         Me.RadioButton33.Size = New System.Drawing.Size(53, 28)
@@ -13174,7 +16720,7 @@ Partial Class INSUMO
         Me.ComboBox113.ForeColor = System.Drawing.Color.White
         Me.ComboBox113.FormattingEnabled = True
         Me.ComboBox113.Items.AddRange(New Object() {"1.000.000", "1.000.000", "1.000.000", "1.000.000", "1.000.000", "1.000.000", "", "Numero de OT EMITIDA"})
-        Me.ComboBox113.Location = New System.Drawing.Point(980, 113)
+        Me.ComboBox113.Location = New System.Drawing.Point(980, 107)
         Me.ComboBox113.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox113.Name = "ComboBox113"
         Me.ComboBox113.Size = New System.Drawing.Size(174, 37)
@@ -13186,7 +16732,7 @@ Partial Class INSUMO
         Me.Label246.BackColor = System.Drawing.Color.Yellow
         Me.Label246.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label246.ForeColor = System.Drawing.Color.Blue
-        Me.Label246.Location = New System.Drawing.Point(1201, 117)
+        Me.Label246.Location = New System.Drawing.Point(1201, 111)
         Me.Label246.Name = "Label246"
         Me.Label246.Size = New System.Drawing.Size(134, 29)
         Me.Label246.TabIndex = 279
@@ -13197,7 +16743,7 @@ Partial Class INSUMO
         Me.Label261.AutoSize = True
         Me.Label261.BackColor = System.Drawing.Color.Yellow
         Me.Label261.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label261.Location = New System.Drawing.Point(30, 166)
+        Me.Label261.Location = New System.Drawing.Point(30, 160)
         Me.Label261.Name = "Label261"
         Me.Label261.Size = New System.Drawing.Size(127, 29)
         Me.Label261.TabIndex = 278
@@ -13209,7 +16755,7 @@ Partial Class INSUMO
         Me.Label269.BackColor = System.Drawing.Color.Blue
         Me.Label269.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label269.ForeColor = System.Drawing.Color.White
-        Me.Label269.Location = New System.Drawing.Point(886, 117)
+        Me.Label269.Location = New System.Drawing.Point(886, 111)
         Me.Label269.Name = "Label269"
         Me.Label269.Size = New System.Drawing.Size(91, 29)
         Me.Label269.TabIndex = 305
@@ -13220,7 +16766,7 @@ Partial Class INSUMO
         Me.Label272.AutoSize = True
         Me.Label272.BackColor = System.Drawing.Color.Yellow
         Me.Label272.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label272.Location = New System.Drawing.Point(272, 166)
+        Me.Label272.Location = New System.Drawing.Point(272, 160)
         Me.Label272.Name = "Label272"
         Me.Label272.Size = New System.Drawing.Size(122, 29)
         Me.Label272.TabIndex = 278
@@ -13231,7 +16777,7 @@ Partial Class INSUMO
         Me.Label268.AutoSize = True
         Me.Label268.BackColor = System.Drawing.Color.Yellow
         Me.Label268.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label268.Location = New System.Drawing.Point(1139, 166)
+        Me.Label268.Location = New System.Drawing.Point(1139, 160)
         Me.Label268.Name = "Label268"
         Me.Label268.Size = New System.Drawing.Size(171, 29)
         Me.Label268.TabIndex = 304
@@ -13243,7 +16789,7 @@ Partial Class INSUMO
         Me.RadioButton36.BackColor = System.Drawing.Color.Yellow
         Me.RadioButton36.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton36.Location = New System.Drawing.Point(1736, 174)
+        Me.RadioButton36.Location = New System.Drawing.Point(1736, 168)
         Me.RadioButton36.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton36.Name = "RadioButton36"
         Me.RadioButton36.Size = New System.Drawing.Size(61, 28)
@@ -13258,7 +16804,7 @@ Partial Class INSUMO
         Me.RadioButton37.BackColor = System.Drawing.Color.Yellow
         Me.RadioButton37.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton37.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton37.Location = New System.Drawing.Point(1736, 140)
+        Me.RadioButton37.Location = New System.Drawing.Point(1736, 134)
         Me.RadioButton37.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton37.Name = "RadioButton37"
         Me.RadioButton37.Size = New System.Drawing.Size(61, 28)
@@ -13273,7 +16819,7 @@ Partial Class INSUMO
         Me.RadioButton39.BackColor = System.Drawing.Color.Yellow
         Me.RadioButton39.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton39.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton39.Location = New System.Drawing.Point(1736, 106)
+        Me.RadioButton39.Location = New System.Drawing.Point(1736, 100)
         Me.RadioButton39.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton39.Name = "RadioButton39"
         Me.RadioButton39.Size = New System.Drawing.Size(61, 28)
@@ -13286,7 +16832,7 @@ Partial Class INSUMO
         '
         Me.DateTimePicker40.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker40.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker40.Location = New System.Drawing.Point(969, 163)
+        Me.DateTimePicker40.Location = New System.Drawing.Point(969, 157)
         Me.DateTimePicker40.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker40.Name = "DateTimePicker40"
         Me.DateTimePicker40.Size = New System.Drawing.Size(149, 35)
@@ -13297,7 +16843,7 @@ Partial Class INSUMO
         Me.Label266.AutoSize = True
         Me.Label266.BackColor = System.Drawing.Color.Yellow
         Me.Label266.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label266.Location = New System.Drawing.Point(564, 166)
+        Me.Label266.Location = New System.Drawing.Point(564, 160)
         Me.Label266.Name = "Label266"
         Me.Label266.Size = New System.Drawing.Size(97, 29)
         Me.Label266.TabIndex = 302
@@ -13308,7 +16854,7 @@ Partial Class INSUMO
         Me.Label267.AutoSize = True
         Me.Label267.BackColor = System.Drawing.Color.Yellow
         Me.Label267.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label267.Location = New System.Drawing.Point(898, 166)
+        Me.Label267.Location = New System.Drawing.Point(898, 160)
         Me.Label267.Name = "Label267"
         Me.Label267.Size = New System.Drawing.Size(66, 29)
         Me.Label267.TabIndex = 303
@@ -13318,7 +16864,7 @@ Partial Class INSUMO
         '
         Me.DateTimePicker27.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker27.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker27.Location = New System.Drawing.Point(294, 218)
+        Me.DateTimePicker27.Location = New System.Drawing.Point(294, 212)
         Me.DateTimePicker27.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker27.Name = "DateTimePicker27"
         Me.DateTimePicker27.Size = New System.Drawing.Size(149, 35)
@@ -13328,7 +16874,7 @@ Partial Class INSUMO
         '
         Me.DateTimePicker20.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker20.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker20.Location = New System.Drawing.Point(739, 218)
+        Me.DateTimePicker20.Location = New System.Drawing.Point(739, 212)
         Me.DateTimePicker20.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker20.Name = "DateTimePicker20"
         Me.DateTimePicker20.Size = New System.Drawing.Size(149, 35)
@@ -13340,7 +16886,7 @@ Partial Class INSUMO
         Me.RadioButton62.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton62.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton62.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton62.Location = New System.Drawing.Point(488, 219)
+        Me.RadioButton62.Location = New System.Drawing.Point(488, 213)
         Me.RadioButton62.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton62.Name = "RadioButton62"
         Me.RadioButton62.Size = New System.Drawing.Size(246, 33)
@@ -13354,7 +16900,7 @@ Partial Class INSUMO
         Me.Label241.AutoSize = True
         Me.Label241.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label241.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label241.Location = New System.Drawing.Point(40, 56)
+        Me.Label241.Location = New System.Drawing.Point(40, 52)
         Me.Label241.Name = "Label241"
         Me.Label241.Size = New System.Drawing.Size(246, 29)
         Me.Label241.TabIndex = 278
@@ -13365,7 +16911,7 @@ Partial Class INSUMO
         Me.Label243.AutoSize = True
         Me.Label243.BackColor = System.Drawing.Color.Yellow
         Me.Label243.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label243.Location = New System.Drawing.Point(1556, 176)
+        Me.Label243.Location = New System.Drawing.Point(1556, 170)
         Me.Label243.Name = "Label243"
         Me.Label243.Size = New System.Drawing.Size(110, 24)
         Me.Label243.TabIndex = 211
@@ -13376,7 +16922,7 @@ Partial Class INSUMO
         Me.Label263.AutoSize = True
         Me.Label263.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label263.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label263.Location = New System.Drawing.Point(420, 56)
+        Me.Label263.Location = New System.Drawing.Point(420, 52)
         Me.Label263.Name = "Label263"
         Me.Label263.Size = New System.Drawing.Size(178, 29)
         Me.Label263.TabIndex = 292
@@ -13388,7 +16934,7 @@ Partial Class INSUMO
         Me.RadioButton45.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton45.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton45.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton45.Location = New System.Drawing.Point(26, 219)
+        Me.RadioButton45.Location = New System.Drawing.Point(26, 213)
         Me.RadioButton45.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton45.Name = "RadioButton45"
         Me.RadioButton45.Size = New System.Drawing.Size(263, 33)
@@ -13402,7 +16948,7 @@ Partial Class INSUMO
         Me.Label244.AutoSize = True
         Me.Label244.BackColor = System.Drawing.Color.Yellow
         Me.Label244.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label244.Location = New System.Drawing.Point(1551, 142)
+        Me.Label244.Location = New System.Drawing.Point(1551, 136)
         Me.Label244.Name = "Label244"
         Me.Label244.Size = New System.Drawing.Size(115, 24)
         Me.Label244.TabIndex = 212
@@ -13413,7 +16959,7 @@ Partial Class INSUMO
         Me.Label245.AutoSize = True
         Me.Label245.BackColor = System.Drawing.Color.Yellow
         Me.Label245.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label245.Location = New System.Drawing.Point(1562, 108)
+        Me.Label245.Location = New System.Drawing.Point(1562, 102)
         Me.Label245.Name = "Label245"
         Me.Label245.Size = New System.Drawing.Size(104, 24)
         Me.Label245.TabIndex = 213
@@ -13423,7 +16969,7 @@ Partial Class INSUMO
         '
         Me.TextBox12.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox12.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox12.Location = New System.Drawing.Point(291, 53)
+        Me.TextBox12.Location = New System.Drawing.Point(291, 49)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(102, 35)
         Me.TextBox12.TabIndex = 283
@@ -13456,7 +17002,7 @@ Partial Class INSUMO
         '
         Me.TextBox95.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox95.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox95.Location = New System.Drawing.Point(883, 53)
+        Me.TextBox95.Location = New System.Drawing.Point(883, 49)
         Me.TextBox95.Name = "TextBox95"
         Me.TextBox95.Size = New System.Drawing.Size(102, 35)
         Me.TextBox95.TabIndex = 285
@@ -13468,7 +17014,7 @@ Partial Class INSUMO
         Me.Label274.AutoSize = True
         Me.Label274.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label274.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label274.Location = New System.Drawing.Point(736, 56)
+        Me.Label274.Location = New System.Drawing.Point(736, 52)
         Me.Label274.Name = "Label274"
         Me.Label274.Size = New System.Drawing.Size(141, 29)
         Me.Label274.TabIndex = 279
@@ -13478,7 +17024,7 @@ Partial Class INSUMO
         '
         Me.TextBox53.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox53.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox53.Location = New System.Drawing.Point(603, 53)
+        Me.TextBox53.Location = New System.Drawing.Point(603, 49)
         Me.TextBox53.Name = "TextBox53"
         Me.TextBox53.Size = New System.Drawing.Size(102, 35)
         Me.TextBox53.TabIndex = 296
@@ -13495,7 +17041,7 @@ Partial Class INSUMO
         Me.Button50.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.Button50.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button50.ForeColor = System.Drawing.Color.White
-        Me.Button50.Location = New System.Drawing.Point(14, 97)
+        Me.Button50.Location = New System.Drawing.Point(14, 91)
         Me.Button50.Margin = New System.Windows.Forms.Padding(4)
         Me.Button50.Name = "Button50"
         Me.Button50.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -13560,9 +17106,9 @@ Partial Class INSUMO
         Me.Panel48.Controls.Add(Me.Label251)
         Me.Panel48.Controls.Add(Me.ComboBox99)
         Me.Panel48.Controls.Add(Me.ComboBox92)
-        Me.Panel48.Location = New System.Drawing.Point(11, 285)
+        Me.Panel48.Location = New System.Drawing.Point(11, 309)
         Me.Panel48.Name = "Panel48"
-        Me.Panel48.Size = New System.Drawing.Size(1838, 342)
+        Me.Panel48.Size = New System.Drawing.Size(1838, 340)
         Me.Panel48.TabIndex = 170
         '
         'ComboBox111
@@ -13573,7 +17119,7 @@ Partial Class INSUMO
         Me.ComboBox111.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox111.FormattingEnabled = True
         Me.ComboBox111.Items.AddRange(New Object() {"0.000", "0.000", "0.000", "0.000", "0.000", "", "Numero de la empresa"})
-        Me.ComboBox111.Location = New System.Drawing.Point(255, 244)
+        Me.ComboBox111.Location = New System.Drawing.Point(255, 239)
         Me.ComboBox111.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox111.Name = "ComboBox111"
         Me.ComboBox111.Size = New System.Drawing.Size(164, 37)
@@ -13587,7 +17133,7 @@ Partial Class INSUMO
         Me.ComboBox104.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox104.FormattingEnabled = True
         Me.ComboBox104.Items.AddRange(New Object() {"0.000", "0.000", "0.000", "0.000", "0.000", "", "Numero de la empresa"})
-        Me.ComboBox104.Location = New System.Drawing.Point(253, 149)
+        Me.ComboBox104.Location = New System.Drawing.Point(253, 144)
         Me.ComboBox104.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox104.Name = "ComboBox104"
         Me.ComboBox104.Size = New System.Drawing.Size(164, 37)
@@ -13601,7 +17147,7 @@ Partial Class INSUMO
         Me.ComboBox95.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox95.FormattingEnabled = True
         Me.ComboBox95.Items.AddRange(New Object() {"0.000", "0.000", "0.000", "0.000", "0.000", "", "Numero de la empresa"})
-        Me.ComboBox95.Location = New System.Drawing.Point(253, 55)
+        Me.ComboBox95.Location = New System.Drawing.Point(253, 50)
         Me.ComboBox95.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox95.Name = "ComboBox95"
         Me.ComboBox95.Size = New System.Drawing.Size(164, 37)
@@ -13615,7 +17161,7 @@ Partial Class INSUMO
         Me.ComboBox110.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox110.FormattingEnabled = True
         Me.ComboBox110.Items.AddRange(New Object() {"NOMBRE DE LA EMPRESA"})
-        Me.ComboBox110.Location = New System.Drawing.Point(441, 244)
+        Me.ComboBox110.Location = New System.Drawing.Point(441, 239)
         Me.ComboBox110.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox110.Name = "ComboBox110"
         Me.ComboBox110.Size = New System.Drawing.Size(520, 37)
@@ -13629,7 +17175,7 @@ Partial Class INSUMO
         Me.ComboBox103.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox103.FormattingEnabled = True
         Me.ComboBox103.Items.AddRange(New Object() {"NOMBRE DE LA EMPRESA"})
-        Me.ComboBox103.Location = New System.Drawing.Point(439, 149)
+        Me.ComboBox103.Location = New System.Drawing.Point(439, 144)
         Me.ComboBox103.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox103.Name = "ComboBox103"
         Me.ComboBox103.Size = New System.Drawing.Size(520, 37)
@@ -13643,7 +17189,7 @@ Partial Class INSUMO
         Me.ComboBox96.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox96.FormattingEnabled = True
         Me.ComboBox96.Items.AddRange(New Object() {"NOMBRE DE LA EMPRESA"})
-        Me.ComboBox96.Location = New System.Drawing.Point(441, 55)
+        Me.ComboBox96.Location = New System.Drawing.Point(441, 50)
         Me.ComboBox96.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox96.Name = "ComboBox96"
         Me.ComboBox96.Size = New System.Drawing.Size(520, 37)
@@ -13653,7 +17199,7 @@ Partial Class INSUMO
         '
         Me.Label258.AutoSize = True
         Me.Label258.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label258.Location = New System.Drawing.Point(79, 248)
+        Me.Label258.Location = New System.Drawing.Point(79, 243)
         Me.Label258.Name = "Label258"
         Me.Label258.Size = New System.Drawing.Size(172, 29)
         Me.Label258.TabIndex = 168
@@ -13663,7 +17209,7 @@ Partial Class INSUMO
         '
         Me.Label255.AutoSize = True
         Me.Label255.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label255.Location = New System.Drawing.Point(77, 153)
+        Me.Label255.Location = New System.Drawing.Point(77, 148)
         Me.Label255.Name = "Label255"
         Me.Label255.Size = New System.Drawing.Size(172, 29)
         Me.Label255.TabIndex = 168
@@ -13673,7 +17219,7 @@ Partial Class INSUMO
         '
         Me.Label252.AutoSize = True
         Me.Label252.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label252.Location = New System.Drawing.Point(77, 59)
+        Me.Label252.Location = New System.Drawing.Point(77, 54)
         Me.Label252.Name = "Label252"
         Me.Label252.Size = New System.Drawing.Size(172, 29)
         Me.Label252.TabIndex = 168
@@ -13723,7 +17269,7 @@ Partial Class INSUMO
         Me.ComboBox115.ForeColor = System.Drawing.Color.Black
         Me.ComboBox115.FormattingEnabled = True
         Me.ComboBox115.Items.AddRange(New Object() {"123456789101345", "123456789101345", "123456789101345", "123456789101345", "", "CODIGO PROVEEDOR"})
-        Me.ComboBox115.Location = New System.Drawing.Point(1558, 292)
+        Me.ComboBox115.Location = New System.Drawing.Point(1558, 287)
         Me.ComboBox115.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox115.Name = "ComboBox115"
         Me.ComboBox115.Size = New System.Drawing.Size(259, 37)
@@ -13738,7 +17284,7 @@ Partial Class INSUMO
         Me.ComboBox114.ForeColor = System.Drawing.Color.Black
         Me.ComboBox114.FormattingEnabled = True
         Me.ComboBox114.Items.AddRange(New Object() {"123456789101345", "123456789101345", "123456789101345", "123456789101345", "", "CODIGO PROVEEDOR"})
-        Me.ComboBox114.Location = New System.Drawing.Point(1558, 195)
+        Me.ComboBox114.Location = New System.Drawing.Point(1558, 190)
         Me.ComboBox114.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox114.Name = "ComboBox114"
         Me.ComboBox114.Size = New System.Drawing.Size(259, 37)
@@ -13753,7 +17299,7 @@ Partial Class INSUMO
         Me.ComboBox94.ForeColor = System.Drawing.Color.Black
         Me.ComboBox94.FormattingEnabled = True
         Me.ComboBox94.Items.AddRange(New Object() {"123456789101345", "123456789101345", "123456789101345", "123456789101345", "", "CODIGO PROVEEDOR"})
-        Me.ComboBox94.Location = New System.Drawing.Point(1559, 101)
+        Me.ComboBox94.Location = New System.Drawing.Point(1559, 96)
         Me.ComboBox94.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox94.Name = "ComboBox94"
         Me.ComboBox94.Size = New System.Drawing.Size(259, 37)
@@ -13764,7 +17310,7 @@ Partial Class INSUMO
         Me.Label257.AutoSize = True
         Me.Label257.BackColor = System.Drawing.Color.Transparent
         Me.Label257.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label257.Location = New System.Drawing.Point(1, 296)
+        Me.Label257.Location = New System.Drawing.Point(1, 291)
         Me.Label257.Name = "Label257"
         Me.Label257.Size = New System.Drawing.Size(250, 29)
         Me.Label257.TabIndex = 21
@@ -13775,7 +17321,7 @@ Partial Class INSUMO
         Me.Label254.AutoSize = True
         Me.Label254.BackColor = System.Drawing.Color.Transparent
         Me.Label254.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label254.Location = New System.Drawing.Point(-1, 199)
+        Me.Label254.Location = New System.Drawing.Point(-1, 194)
         Me.Label254.Name = "Label254"
         Me.Label254.Size = New System.Drawing.Size(250, 29)
         Me.Label254.TabIndex = 21
@@ -13786,7 +17332,7 @@ Partial Class INSUMO
         Me.Label250.AutoSize = True
         Me.Label250.BackColor = System.Drawing.Color.Transparent
         Me.Label250.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label250.Location = New System.Drawing.Point(-1, 105)
+        Me.Label250.Location = New System.Drawing.Point(-1, 100)
         Me.Label250.Name = "Label250"
         Me.Label250.Size = New System.Drawing.Size(250, 29)
         Me.Label250.TabIndex = 21
@@ -13801,7 +17347,7 @@ Partial Class INSUMO
         Me.ComboBox109.ForeColor = System.Drawing.Color.Black
         Me.ComboBox109.FormattingEnabled = True
         Me.ComboBox109.Items.AddRange(New Object() {"luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "", "", "email del proveedor ", "del listafo de proveedor trae"})
-        Me.ComboBox109.Location = New System.Drawing.Point(1338, 244)
+        Me.ComboBox109.Location = New System.Drawing.Point(1338, 239)
         Me.ComboBox109.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox109.Name = "ComboBox109"
         Me.ComboBox109.Size = New System.Drawing.Size(479, 37)
@@ -13816,7 +17362,7 @@ Partial Class INSUMO
         Me.ComboBox102.ForeColor = System.Drawing.Color.Black
         Me.ComboBox102.FormattingEnabled = True
         Me.ComboBox102.Items.AddRange(New Object() {"luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "", "", "email del proveedor ", "del listafo de proveedor trae"})
-        Me.ComboBox102.Location = New System.Drawing.Point(1336, 149)
+        Me.ComboBox102.Location = New System.Drawing.Point(1336, 144)
         Me.ComboBox102.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox102.Name = "ComboBox102"
         Me.ComboBox102.Size = New System.Drawing.Size(479, 37)
@@ -13831,7 +17377,7 @@ Partial Class INSUMO
         Me.ComboBox108.ForeColor = System.Drawing.Color.Black
         Me.ComboBox108.FormattingEnabled = True
         Me.ComboBox108.Items.AddRange(New Object() {"+595 981 123456789", "+595 981 123456789", "+595 981 123456789", "+595 981 123456789", "+595 981 123456789", "", "", "EL CELULAR TRAE DEL LISTADO DE PROVEEDOR EN LA BASE DE DATOS NO SE CARGA"})
-        Me.ComboBox108.Location = New System.Drawing.Point(997, 244)
+        Me.ComboBox108.Location = New System.Drawing.Point(997, 239)
         Me.ComboBox108.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox108.Name = "ComboBox108"
         Me.ComboBox108.Size = New System.Drawing.Size(284, 37)
@@ -13846,7 +17392,7 @@ Partial Class INSUMO
         Me.ComboBox97.ForeColor = System.Drawing.Color.Black
         Me.ComboBox97.FormattingEnabled = True
         Me.ComboBox97.Items.AddRange(New Object() {"luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "luliocesarperony@farmaceutica.com.py", "", "", "email del proveedor ", "del listafo de proveedor trae"})
-        Me.ComboBox97.Location = New System.Drawing.Point(1338, 55)
+        Me.ComboBox97.Location = New System.Drawing.Point(1338, 50)
         Me.ComboBox97.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox97.Name = "ComboBox97"
         Me.ComboBox97.Size = New System.Drawing.Size(479, 37)
@@ -13861,7 +17407,7 @@ Partial Class INSUMO
         Me.ComboBox101.ForeColor = System.Drawing.Color.Black
         Me.ComboBox101.FormattingEnabled = True
         Me.ComboBox101.Items.AddRange(New Object() {"+595 981 123456789", "+595 981 123456789", "+595 981 123456789", "+595 981 123456789", "+595 981 123456789", "", "", "EL CELULAR TRAE DEL LISTADO DE PROVEEDOR EN LA BASE DE DATOS NO SE CARGA"})
-        Me.ComboBox101.Location = New System.Drawing.Point(995, 149)
+        Me.ComboBox101.Location = New System.Drawing.Point(995, 144)
         Me.ComboBox101.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox101.Name = "ComboBox101"
         Me.ComboBox101.Size = New System.Drawing.Size(284, 37)
@@ -13876,7 +17422,7 @@ Partial Class INSUMO
         Me.ComboBox106.ForeColor = System.Drawing.Color.Black
         Me.ComboBox106.FormattingEnabled = True
         Me.ComboBox106.Items.AddRange(New Object() {"Nombre del INSUMO DEL PROVEEDOR"})
-        Me.ComboBox106.Location = New System.Drawing.Point(1095, 292)
+        Me.ComboBox106.Location = New System.Drawing.Point(1095, 287)
         Me.ComboBox106.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox106.Name = "ComboBox106"
         Me.ComboBox106.Size = New System.Drawing.Size(450, 37)
@@ -13891,7 +17437,7 @@ Partial Class INSUMO
         Me.ComboBox98.ForeColor = System.Drawing.Color.Black
         Me.ComboBox98.FormattingEnabled = True
         Me.ComboBox98.Items.AddRange(New Object() {"+595 981 123456789", "+595 981 123456789", "+595 981 123456789", "+595 981 123456789", "+595 981 123456789", "", "", "EL CELULAR TRAE DEL LISTADO DE PROVEEDOR EN LA BASE DE DATOS NO SE CARGA"})
-        Me.ComboBox98.Location = New System.Drawing.Point(997, 55)
+        Me.ComboBox98.Location = New System.Drawing.Point(997, 50)
         Me.ComboBox98.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox98.Name = "ComboBox98"
         Me.ComboBox98.Size = New System.Drawing.Size(284, 37)
@@ -13906,7 +17452,7 @@ Partial Class INSUMO
         Me.ComboBox100.ForeColor = System.Drawing.Color.Black
         Me.ComboBox100.FormattingEnabled = True
         Me.ComboBox100.Items.AddRange(New Object() {"Nombre del INSUMO DEL PROVEEDOR"})
-        Me.ComboBox100.Location = New System.Drawing.Point(1093, 195)
+        Me.ComboBox100.Location = New System.Drawing.Point(1093, 190)
         Me.ComboBox100.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox100.Name = "ComboBox100"
         Me.ComboBox100.Size = New System.Drawing.Size(450, 37)
@@ -13917,7 +17463,7 @@ Partial Class INSUMO
         Me.Label256.AutoSize = True
         Me.Label256.BackColor = System.Drawing.Color.Transparent
         Me.Label256.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label256.Location = New System.Drawing.Point(978, 296)
+        Me.Label256.Location = New System.Drawing.Point(978, 291)
         Me.Label256.Name = "Label256"
         Me.Label256.Size = New System.Drawing.Size(110, 29)
         Me.Label256.TabIndex = 21
@@ -13932,7 +17478,7 @@ Partial Class INSUMO
         Me.ComboBox93.ForeColor = System.Drawing.Color.Black
         Me.ComboBox93.FormattingEnabled = True
         Me.ComboBox93.Items.AddRange(New Object() {"Nombre del INSUMO DEL PROVEEDOR"})
-        Me.ComboBox93.Location = New System.Drawing.Point(1095, 101)
+        Me.ComboBox93.Location = New System.Drawing.Point(1095, 96)
         Me.ComboBox93.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox93.Name = "ComboBox93"
         Me.ComboBox93.Size = New System.Drawing.Size(450, 37)
@@ -13943,7 +17489,7 @@ Partial Class INSUMO
         Me.Label253.AutoSize = True
         Me.Label253.BackColor = System.Drawing.Color.Transparent
         Me.Label253.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label253.Location = New System.Drawing.Point(976, 199)
+        Me.Label253.Location = New System.Drawing.Point(976, 194)
         Me.Label253.Name = "Label253"
         Me.Label253.Size = New System.Drawing.Size(110, 29)
         Me.Label253.TabIndex = 21
@@ -13958,7 +17504,7 @@ Partial Class INSUMO
         Me.ComboBox105.ForeColor = System.Drawing.Color.Black
         Me.ComboBox105.FormattingEnabled = True
         Me.ComboBox105.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "", "Cod. Gama INSUMO:"})
-        Me.ComboBox105.Location = New System.Drawing.Point(255, 292)
+        Me.ComboBox105.Location = New System.Drawing.Point(255, 287)
         Me.ComboBox105.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox105.Name = "ComboBox105"
         Me.ComboBox105.Size = New System.Drawing.Size(708, 37)
@@ -13969,7 +17515,7 @@ Partial Class INSUMO
         Me.Label251.AutoSize = True
         Me.Label251.BackColor = System.Drawing.Color.Transparent
         Me.Label251.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label251.Location = New System.Drawing.Point(978, 105)
+        Me.Label251.Location = New System.Drawing.Point(978, 100)
         Me.Label251.Name = "Label251"
         Me.Label251.Size = New System.Drawing.Size(110, 29)
         Me.Label251.TabIndex = 21
@@ -13984,7 +17530,7 @@ Partial Class INSUMO
         Me.ComboBox99.ForeColor = System.Drawing.Color.Black
         Me.ComboBox99.FormattingEnabled = True
         Me.ComboBox99.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "", "Cod. Gama INSUMO:"})
-        Me.ComboBox99.Location = New System.Drawing.Point(253, 195)
+        Me.ComboBox99.Location = New System.Drawing.Point(253, 190)
         Me.ComboBox99.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox99.Name = "ComboBox99"
         Me.ComboBox99.Size = New System.Drawing.Size(708, 37)
@@ -13999,7 +17545,7 @@ Partial Class INSUMO
         Me.ComboBox92.ForeColor = System.Drawing.Color.Black
         Me.ComboBox92.FormattingEnabled = True
         Me.ComboBox92.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "", "", "Cod. Gama INSUMO:"})
-        Me.ComboBox92.Location = New System.Drawing.Point(253, 101)
+        Me.ComboBox92.Location = New System.Drawing.Point(253, 96)
         Me.ComboBox92.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox92.Name = "ComboBox92"
         Me.ComboBox92.Size = New System.Drawing.Size(708, 37)
@@ -17618,6 +21164,7 @@ Partial Class INSUMO
         Me.Button17.Text = "0.000"
         Me.Button17.UseVisualStyleBackColor = True
         '
+<<<<<<< HEAD
         'Label178
         '
         Me.Label178.AutoSize = True
@@ -19486,10 +23033,1721 @@ Partial Class INSUMO
         Me.Label422.Size = New System.Drawing.Size(124, 19)
         Me.Label422.TabIndex = 600
         Me.Label422.Text = "(3)Unid medida"
+=======
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.Lime
+        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel3.Controls.Add(Me.Panel4)
+        Me.Panel3.Controls.Add(Me.Panel86)
+        Me.Panel3.Controls.Add(Me.Panel88)
+        Me.Panel3.Location = New System.Drawing.Point(7, 7)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(1852, 856)
+        Me.Panel3.TabIndex = 162
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel4.Controls.Add(Me.Button58)
+        Me.Panel4.Controls.Add(Me.DateTimePicker1)
+        Me.Panel4.Controls.Add(Me.ComboBox1)
+        Me.Panel4.Controls.Add(Me.CheckBox1)
+        Me.Panel4.Controls.Add(Me.DateTimePicker9)
+        Me.Panel4.Controls.Add(Me.CheckBox2)
+        Me.Panel4.Controls.Add(Me.TextBox1)
+        Me.Panel4.Controls.Add(Me.CheckBox3)
+        Me.Panel4.Controls.Add(Me.TextBox2)
+        Me.Panel4.Controls.Add(Me.CheckBox6)
+        Me.Panel4.Controls.Add(Me.Label4)
+        Me.Panel4.Controls.Add(Me.CheckBox7)
+        Me.Panel4.Controls.Add(Me.TextBox3)
+        Me.Panel4.Controls.Add(Me.CheckBox8)
+        Me.Panel4.Controls.Add(Me.TextBox4)
+        Me.Panel4.Controls.Add(Me.CheckBox9)
+        Me.Panel4.Controls.Add(Me.TextBox5)
+        Me.Panel4.Controls.Add(Me.CheckBox10)
+        Me.Panel4.Controls.Add(Me.TextBox6)
+        Me.Panel4.Controls.Add(Me.ComboBox2)
+        Me.Panel4.Controls.Add(Me.Label8)
+        Me.Panel4.Controls.Add(Me.ComboBox3)
+        Me.Panel4.Controls.Add(Me.Label9)
+        Me.Panel4.Controls.Add(Me.Label18)
+        Me.Panel4.Controls.Add(Me.Label41)
+        Me.Panel4.Controls.Add(Me.Label42)
+        Me.Panel4.Controls.Add(Me.Label43)
+        Me.Panel4.Controls.Add(Me.Label44)
+        Me.Panel4.Controls.Add(Me.Button56)
+        Me.Panel4.Controls.Add(Me.DateTimePicker2)
+        Me.Panel4.Controls.Add(Me.DateTimePicker3)
+        Me.Panel4.Controls.Add(Me.Label48)
+        Me.Panel4.Controls.Add(Me.DateTimePicker4)
+        Me.Panel4.Controls.Add(Me.Button57)
+        Me.Panel4.Controls.Add(Me.DateTimePicker8)
+        Me.Panel4.Controls.Add(Me.DateTimePicker19)
+        Me.Panel4.Controls.Add(Me.DateTimePicker49)
+        Me.Panel4.Controls.Add(Me.DateTimePicker50)
+        Me.Panel4.Controls.Add(Me.DateTimePicker51)
+        Me.Panel4.Controls.Add(Me.DateTimePicker52)
+        Me.Panel4.Controls.Add(Me.DateTimePicker54)
+        Me.Panel4.Controls.Add(Me.TextBox160)
+        Me.Panel4.Controls.Add(Me.TextBox7)
+        Me.Panel4.Controls.Add(Me.TextBox153)
+        Me.Panel4.Controls.Add(Me.TextBox8)
+        Me.Panel4.Controls.Add(Me.TextBox10)
+        Me.Panel4.Controls.Add(Me.TextBox9)
+        Me.Panel4.Controls.Add(Me.TextBox147)
+        Me.Panel4.Controls.Add(Me.TextBox151)
+        Me.Panel4.Controls.Add(Me.TextBox159)
+        Me.Panel4.Controls.Add(Me.TextBox152)
+        Me.Panel4.Controls.Add(Me.TextBox154)
+        Me.Panel4.Controls.Add(Me.TextBox155)
+        Me.Panel4.Controls.Add(Me.TextBox156)
+        Me.Panel4.Controls.Add(Me.TextBox157)
+        Me.Panel4.Controls.Add(Me.TextBox158)
+        Me.Panel4.Controls.Add(Me.TextBox161)
+        Me.Panel4.Controls.Add(Me.Label67)
+        Me.Panel4.Controls.Add(Me.Label58)
+        Me.Panel4.Controls.Add(Me.Label69)
+        Me.Panel4.Controls.Add(Me.Label45)
+        Me.Panel4.Controls.Add(Me.Label50)
+        Me.Panel4.Controls.Add(Me.Label47)
+        Me.Panel4.Controls.Add(Me.Label49)
+        Me.Panel4.Controls.Add(Me.Label55)
+        Me.Panel4.Controls.Add(Me.Label52)
+        Me.Panel4.Controls.Add(Me.Label51)
+        Me.Panel4.Controls.Add(Me.Label53)
+        Me.Panel4.Controls.Add(Me.RadioButton75)
+        Me.Panel4.Controls.Add(Me.RadioButton90)
+        Me.Panel4.Controls.Add(Me.TextBox162)
+        Me.Panel4.Controls.Add(Me.TextBox163)
+        Me.Panel4.Controls.Add(Me.TextBox164)
+        Me.Panel4.Controls.Add(Me.TextBox165)
+        Me.Panel4.Controls.Add(Me.TextBox166)
+        Me.Panel4.Controls.Add(Me.TextBox167)
+        Me.Panel4.Controls.Add(Me.TextBox168)
+        Me.Panel4.Controls.Add(Me.TextBox169)
+        Me.Panel4.Controls.Add(Me.TextBox170)
+        Me.Panel4.Controls.Add(Me.TextBox171)
+        Me.Panel4.Controls.Add(Me.TextBox172)
+        Me.Panel4.Controls.Add(Me.TextBox173)
+        Me.Panel4.Controls.Add(Me.TextBox174)
+        Me.Panel4.Controls.Add(Me.TextBox138)
+        Me.Panel4.Controls.Add(Me.TextBox176)
+        Me.Panel4.Controls.Add(Me.TextBox177)
+        Me.Panel4.Controls.Add(Me.TextBox178)
+        Me.Panel4.Controls.Add(Me.TextBox179)
+        Me.Panel4.Controls.Add(Me.TextBox180)
+        Me.Panel4.Controls.Add(Me.TextBox181)
+        Me.Panel4.Controls.Add(Me.TextBox182)
+        Me.Panel4.Controls.Add(Me.TextBox183)
+        Me.Panel4.Controls.Add(Me.TextBox184)
+        Me.Panel4.Controls.Add(Me.TextBox185)
+        Me.Panel4.Controls.Add(Me.TextBox186)
+        Me.Panel4.Controls.Add(Me.TextBox187)
+        Me.Panel4.Controls.Add(Me.TextBox188)
+        Me.Panel4.Controls.Add(Me.TextBox189)
+        Me.Panel4.Controls.Add(Me.TextBox190)
+        Me.Panel4.Controls.Add(Me.TextBox191)
+        Me.Panel4.Controls.Add(Me.TextBox192)
+        Me.Panel4.Controls.Add(Me.TextBox193)
+        Me.Panel4.Controls.Add(Me.TextBox194)
+        Me.Panel4.Controls.Add(Me.TextBox195)
+        Me.Panel4.Controls.Add(Me.TextBox196)
+        Me.Panel4.Controls.Add(Me.TextBox197)
+        Me.Panel4.Controls.Add(Me.TextBox198)
+        Me.Panel4.Controls.Add(Me.TextBox199)
+        Me.Panel4.Controls.Add(Me.TextBox200)
+        Me.Panel4.Controls.Add(Me.TextBox201)
+        Me.Panel4.Controls.Add(Me.TextBox202)
+        Me.Panel4.Controls.Add(Me.TextBox139)
+        Me.Panel4.Controls.Add(Me.TextBox140)
+        Me.Panel4.Controls.Add(Me.TextBox205)
+        Me.Panel4.Controls.Add(Me.TextBox206)
+        Me.Panel4.Controls.Add(Me.TextBox141)
+        Me.Panel4.Controls.Add(Me.TextBox208)
+        Me.Panel4.Controls.Add(Me.TextBox209)
+        Me.Panel4.Controls.Add(Me.TextBox210)
+        Me.Panel4.Controls.Add(Me.TextBox211)
+        Me.Panel4.Controls.Add(Me.TextBox212)
+        Me.Panel4.Controls.Add(Me.TextBox213)
+        Me.Panel4.Controls.Add(Me.TextBox214)
+        Me.Panel4.Controls.Add(Me.TextBox215)
+        Me.Panel4.Controls.Add(Me.TextBox216)
+        Me.Panel4.Controls.Add(Me.Label54)
+        Me.Panel4.Controls.Add(Me.Label56)
+        Me.Panel4.Controls.Add(Me.Label57)
+        Me.Panel4.Controls.Add(Me.Label59)
+        Me.Panel4.Controls.Add(Me.Label60)
+        Me.Panel4.Controls.Add(Me.Label66)
+        Me.Panel4.Controls.Add(Me.Label68)
+        Me.Panel4.Controls.Add(Me.Label151)
+        Me.Panel4.Controls.Add(Me.Label322)
+        Me.Panel4.Controls.Add(Me.Label423)
+        Me.Panel4.Controls.Add(Me.Label424)
+        Me.Panel4.Controls.Add(Me.Label425)
+        Me.Panel4.Controls.Add(Me.Label426)
+        Me.Panel4.Controls.Add(Me.Label427)
+        Me.Panel4.Controls.Add(Me.Label428)
+        Me.Panel4.Controls.Add(Me.Label429)
+        Me.Panel4.Controls.Add(Me.Label430)
+        Me.Panel4.Controls.Add(Me.Label431)
+        Me.Panel4.Controls.Add(Me.Label432)
+        Me.Panel4.Controls.Add(Me.Label433)
+        Me.Panel4.Controls.Add(Me.Label435)
+        Me.Panel4.Controls.Add(Me.Label436)
+        Me.Panel4.Controls.Add(Me.Label437)
+        Me.Panel4.Controls.Add(Me.Label438)
+        Me.Panel4.Controls.Add(Me.Label439)
+        Me.Panel4.Controls.Add(Me.Label440)
+        Me.Panel4.Controls.Add(Me.Label441)
+        Me.Panel4.Controls.Add(Me.Label442)
+        Me.Panel4.Controls.Add(Me.Label443)
+        Me.Panel4.Controls.Add(Me.Label444)
+        Me.Panel4.Controls.Add(Me.Label445)
+        Me.Panel4.Controls.Add(Me.Label446)
+        Me.Panel4.Controls.Add(Me.Label447)
+        Me.Panel4.Controls.Add(Me.Label448)
+        Me.Panel4.Controls.Add(Me.Label449)
+        Me.Panel4.Controls.Add(Me.Label450)
+        Me.Panel4.Controls.Add(Me.Label451)
+        Me.Panel4.Controls.Add(Me.Label452)
+        Me.Panel4.Controls.Add(Me.Label453)
+        Me.Panel4.Controls.Add(Me.Label454)
+        Me.Panel4.Controls.Add(Me.Label455)
+        Me.Panel4.Controls.Add(Me.Label456)
+        Me.Panel4.Controls.Add(Me.Label457)
+        Me.Panel4.Controls.Add(Me.Label458)
+        Me.Panel4.Controls.Add(Me.Panel85)
+        Me.Panel4.Location = New System.Drawing.Point(14, 49)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(1823, 600)
+        Me.Panel4.TabIndex = 160
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker1.Location = New System.Drawing.Point(227, 512)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker1.TabIndex = 623
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.BackColor = System.Drawing.Color.White
+        Me.ComboBox1.DropDownWidth = 272
+        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"(LITO VENDEDOR GAMA)", "ESTELA", "FERNANDO", "MIRTHA", "CLAUDIO"})
+        Me.ComboBox1.Location = New System.Drawing.Point(152, 553)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(339, 37)
+        Me.ComboBox1.TabIndex = 555
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.BackColor = System.Drawing.Color.PeachPuff
+        Me.CheckBox1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(1560, 513)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(256, 28)
+        Me.CheckBox1.TabIndex = 624
+        Me.CheckBox1.Text = "Contra entrega Docum."
+        Me.CheckBox1.UseVisualStyleBackColor = False
+        '
+        'DateTimePicker9
+        '
+        Me.DateTimePicker9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker9.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker9.Location = New System.Drawing.Point(1147, 556)
+        Me.DateTimePicker9.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker9.Name = "DateTimePicker9"
+        Me.DateTimePicker9.Size = New System.Drawing.Size(135, 30)
+        Me.DateTimePicker9.TabIndex = 554
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.BackColor = System.Drawing.Color.PeachPuff
+        Me.CheckBox2.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox2.Location = New System.Drawing.Point(1206, 513)
+        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(108, 28)
+        Me.CheckBox2.TabIndex = 625
+        Me.CheckBox2.Text = "Cheque"
+        Me.CheckBox2.UseVisualStyleBackColor = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox1.Location = New System.Drawing.Point(715, 556)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(425, 30)
+        Me.TextBox1.TabIndex = 553
+        Me.TextBox1.Text = "estela@gama.com.py"
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.BackColor = System.Drawing.Color.PeachPuff
+        Me.CheckBox3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox3.Location = New System.Drawing.Point(1132, 513)
+        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(69, 28)
+        Me.CheckBox3.TabIndex = 626
+        Me.CheckBox3.Text = "120"
+        Me.CheckBox3.UseVisualStyleBackColor = False
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.White
+        Me.TextBox2.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox2.Location = New System.Drawing.Point(505, 556)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox2.TabIndex = 552
+        Me.TextBox2.Text = "+595 981 123456789"
+        '
+        'CheckBox6
+        '
+        Me.CheckBox6.AutoSize = True
+        Me.CheckBox6.BackColor = System.Drawing.Color.PeachPuff
+        Me.CheckBox6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox6.Location = New System.Drawing.Point(1069, 513)
+        Me.CheckBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox6.Name = "CheckBox6"
+        Me.CheckBox6.Size = New System.Drawing.Size(58, 28)
+        Me.CheckBox6.TabIndex = 627
+        Me.CheckBox6.Text = "90"
+        Me.CheckBox6.UseVisualStyleBackColor = False
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(30, 559)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(103, 24)
+        Me.Label4.TabIndex = 551
+        Me.Label4.Text = "Gama EV:"
+        '
+        'CheckBox7
+        '
+        Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.BackColor = System.Drawing.Color.PeachPuff
+        Me.CheckBox7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox7.Location = New System.Drawing.Point(1007, 513)
+        Me.CheckBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox7.Name = "CheckBox7"
+        Me.CheckBox7.Size = New System.Drawing.Size(58, 28)
+        Me.CheckBox7.TabIndex = 628
+        Me.CheckBox7.Text = "60"
+        Me.CheckBox7.UseVisualStyleBackColor = False
+        '
+        'TextBox3
+        '
+        Me.TextBox3.BackColor = System.Drawing.Color.White
+        Me.TextBox3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox3.Location = New System.Drawing.Point(1480, 556)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(64, 30)
+        Me.TextBox3.TabIndex = 547
+        Me.TextBox3.Text = "0.000"
+        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'CheckBox8
+        '
+        Me.CheckBox8.AutoSize = True
+        Me.CheckBox8.BackColor = System.Drawing.Color.PeachPuff
+        Me.CheckBox8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox8.Location = New System.Drawing.Point(945, 513)
+        Me.CheckBox8.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox8.Name = "CheckBox8"
+        Me.CheckBox8.Size = New System.Drawing.Size(58, 28)
+        Me.CheckBox8.TabIndex = 629
+        Me.CheckBox8.Text = "30"
+        Me.CheckBox8.UseVisualStyleBackColor = False
+        '
+        'TextBox4
+        '
+        Me.TextBox4.BackColor = System.Drawing.Color.White
+        Me.TextBox4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox4.Location = New System.Drawing.Point(1760, 557)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox4.TabIndex = 548
+        Me.TextBox4.Text = "00"
+        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'CheckBox9
+        '
+        Me.CheckBox9.AutoSize = True
+        Me.CheckBox9.BackColor = System.Drawing.Color.PeachPuff
+        Me.CheckBox9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox9.Location = New System.Drawing.Point(835, 513)
+        Me.CheckBox9.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox9.Name = "CheckBox9"
+        Me.CheckBox9.Size = New System.Drawing.Size(105, 28)
+        Me.CheckBox9.TabIndex = 630
+        Me.CheckBox9.Text = "viernes"
+        Me.CheckBox9.UseVisualStyleBackColor = False
+        '
+        'TextBox5
+        '
+        Me.TextBox5.BackColor = System.Drawing.Color.White
+        Me.TextBox5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox5.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox5.Location = New System.Drawing.Point(1629, 556)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox5.TabIndex = 549
+        Me.TextBox5.Text = "00"
+        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'CheckBox10
+        '
+        Me.CheckBox10.AutoSize = True
+        Me.CheckBox10.BackColor = System.Drawing.Color.PeachPuff
+        Me.CheckBox10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox10.Location = New System.Drawing.Point(783, 513)
+        Me.CheckBox10.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox10.Name = "CheckBox10"
+        Me.CheckBox10.Size = New System.Drawing.Size(47, 28)
+        Me.CheckBox10.TabIndex = 631
+        Me.CheckBox10.Text = "0"
+        Me.CheckBox10.UseVisualStyleBackColor = False
+        '
+        'TextBox6
+        '
+        Me.TextBox6.BackColor = System.Drawing.Color.White
+        Me.TextBox6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox6.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox6.Location = New System.Drawing.Point(1330, 556)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox6.TabIndex = 550
+        Me.TextBox6.Text = "00"
+        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.BackColor = System.Drawing.Color.White
+        Me.ComboBox2.DropDownWidth = 272
+        Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox2.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"Diaria", "Semanal", "Mensual", "Anual", "1 mes", "2 meses", "3 meses", "4 meses", "5 meses", "6 meses", "7 meses", "8 meses", "9 meses", "10 meses", "11 meses", "12 meses", "", "Forma Pactada emtrega"})
+        Me.ComboBox2.Location = New System.Drawing.Point(493, 511)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(154, 32)
+        Me.ComboBox2.TabIndex = 621
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(1688, 559)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(69, 24)
+        Me.Label8.TabIndex = 543
+        Me.Label8.Text = "GE %:"
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.BackColor = System.Drawing.Color.White
+        Me.ComboBox3.DropDownWidth = 272
+        Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "", "Contrato firmado por cantidad de meses inicio fecha"})
+        Me.ComboBox3.Location = New System.Drawing.Point(134, 511)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(77, 32)
+        Me.ComboBox3.TabIndex = 622
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(1554, 559)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(70, 24)
+        Me.Label9.TabIndex = 544
+        Me.Label9.Text = "GC %:"
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.BackColor = System.Drawing.Color.PeachPuff
+        Me.Label18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(667, 515)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(112, 24)
+        Me.Label18.TabIndex = 618
+        Me.Label18.Text = "Pago Dias:"
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label41.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(1384, 559)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(91, 24)
+        Me.Label41.TabIndex = 546
+        Me.Label41.Text = "Gs/unid:"
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.BackColor = System.Drawing.Color.PeachPuff
+        Me.Label42.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(394, 515)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(91, 24)
+        Me.Label42.TabIndex = 619
+        Me.Label42.Text = "Entrega:"
+        '
+        'Label43
+        '
+        Me.Label43.AutoSize = True
+        Me.Label43.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Label43.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(1291, 559)
+        Me.Label43.Name = "Label43"
+        Me.Label43.Size = New System.Drawing.Size(34, 24)
+        Me.Label43.TabIndex = 545
+        Me.Label43.Text = "%:"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.BackColor = System.Drawing.Color.PeachPuff
+        Me.Label44.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Location = New System.Drawing.Point(12, 515)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(119, 24)
+        Me.Label44.TabIndex = 620
+        Me.Label44.Text = "Contrato X:"
+        '
+        'Button56
+        '
+        Me.Button56.AutoSize = True
+        Me.Button56.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button56.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button56.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button56.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button56.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button56.ForeColor = System.Drawing.Color.White
+        Me.Button56.Location = New System.Drawing.Point(16, 546)
+        Me.Button56.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button56.Name = "Button56"
+        Me.Button56.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button56.Size = New System.Drawing.Size(1799, 49)
+        Me.Button56.TabIndex = 542
+        Me.Button56.UseVisualStyleBackColor = False
+        '
+        'DateTimePicker2
+        '
+        Me.DateTimePicker2.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker2.Location = New System.Drawing.Point(1390, 512)
+        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker2.Name = "DateTimePicker2"
+        Me.DateTimePicker2.Size = New System.Drawing.Size(156, 30)
+        Me.DateTimePicker2.TabIndex = 617
+        '
+        'DateTimePicker3
+        '
+        Me.DateTimePicker3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker3.Location = New System.Drawing.Point(1151, 465)
+        Me.DateTimePicker3.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker3.Name = "DateTimePicker3"
+        Me.DateTimePicker3.Size = New System.Drawing.Size(135, 30)
+        Me.DateTimePicker3.TabIndex = 355
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.BackColor = System.Drawing.Color.PeachPuff
+        Me.Label48.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.Location = New System.Drawing.Point(1340, 515)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(48, 24)
+        Me.Label48.TabIndex = 616
+        Me.Label48.Text = "Día:"
+        '
+        'DateTimePicker4
+        '
+        Me.DateTimePicker4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker4.Location = New System.Drawing.Point(1151, 429)
+        Me.DateTimePicker4.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker4.Name = "DateTimePicker4"
+        Me.DateTimePicker4.Size = New System.Drawing.Size(135, 30)
+        Me.DateTimePicker4.TabIndex = 355
+        '
+        'Button57
+        '
+        Me.Button57.AutoSize = True
+        Me.Button57.BackColor = System.Drawing.Color.PeachPuff
+        Me.Button57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button57.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button57.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button57.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button57.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button57.ForeColor = System.Drawing.Color.White
+        Me.Button57.Location = New System.Drawing.Point(15, 503)
+        Me.Button57.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button57.Name = "Button57"
+        Me.Button57.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button57.Size = New System.Drawing.Size(1799, 49)
+        Me.Button57.TabIndex = 615
+        Me.Button57.UseVisualStyleBackColor = False
+        '
+        'DateTimePicker8
+        '
+        Me.DateTimePicker8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker8.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker8.Location = New System.Drawing.Point(1151, 393)
+        Me.DateTimePicker8.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker8.Name = "DateTimePicker8"
+        Me.DateTimePicker8.Size = New System.Drawing.Size(135, 30)
+        Me.DateTimePicker8.TabIndex = 355
+        '
+        'DateTimePicker19
+        '
+        Me.DateTimePicker19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker19.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker19.Location = New System.Drawing.Point(1151, 357)
+        Me.DateTimePicker19.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker19.Name = "DateTimePicker19"
+        Me.DateTimePicker19.Size = New System.Drawing.Size(135, 30)
+        Me.DateTimePicker19.TabIndex = 355
+        '
+        'DateTimePicker49
+        '
+        Me.DateTimePicker49.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker49.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker49.Location = New System.Drawing.Point(1151, 321)
+        Me.DateTimePicker49.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker49.Name = "DateTimePicker49"
+        Me.DateTimePicker49.Size = New System.Drawing.Size(135, 30)
+        Me.DateTimePicker49.TabIndex = 355
+        '
+        'DateTimePicker50
+        '
+        Me.DateTimePicker50.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker50.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker50.Location = New System.Drawing.Point(1151, 285)
+        Me.DateTimePicker50.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker50.Name = "DateTimePicker50"
+        Me.DateTimePicker50.Size = New System.Drawing.Size(135, 30)
+        Me.DateTimePicker50.TabIndex = 354
+        '
+        'DateTimePicker51
+        '
+        Me.DateTimePicker51.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker51.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker51.Location = New System.Drawing.Point(1151, 249)
+        Me.DateTimePicker51.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker51.Name = "DateTimePicker51"
+        Me.DateTimePicker51.Size = New System.Drawing.Size(135, 30)
+        Me.DateTimePicker51.TabIndex = 353
+        '
+        'DateTimePicker52
+        '
+        Me.DateTimePicker52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker52.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker52.Location = New System.Drawing.Point(1668, 90)
+        Me.DateTimePicker52.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker52.Name = "DateTimePicker52"
+        Me.DateTimePicker52.Size = New System.Drawing.Size(135, 30)
+        Me.DateTimePicker52.TabIndex = 352
+        '
+        'DateTimePicker54
+        '
+        Me.DateTimePicker54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker54.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker54.Location = New System.Drawing.Point(1151, 213)
+        Me.DateTimePicker54.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker54.Name = "DateTimePicker54"
+        Me.DateTimePicker54.Size = New System.Drawing.Size(135, 30)
+        Me.DateTimePicker54.TabIndex = 352
+        '
+        'TextBox160
+        '
+        Me.TextBox160.BackColor = System.Drawing.Color.White
+        Me.TextBox160.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox160.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox160.ForeColor = System.Drawing.Color.Black
+        Me.TextBox160.Location = New System.Drawing.Point(725, 465)
+        Me.TextBox160.Name = "TextBox160"
+        Me.TextBox160.Size = New System.Drawing.Size(404, 30)
+        Me.TextBox160.TabIndex = 335
+        Me.TextBox160.Text = "farmaceutica paraguaya@fapasa.com.py"
+        '
+        'TextBox7
+        '
+        Me.TextBox7.BackColor = System.Drawing.Color.White
+        Me.TextBox7.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox7.ForeColor = System.Drawing.Color.Black
+        Me.TextBox7.Location = New System.Drawing.Point(725, 429)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(404, 30)
+        Me.TextBox7.TabIndex = 335
+        Me.TextBox7.Text = "farmaceutica paraguaya@fapasa.com.py"
+        '
+        'TextBox153
+        '
+        Me.TextBox153.BackColor = System.Drawing.Color.White
+        Me.TextBox153.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox153.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox153.ForeColor = System.Drawing.Color.Black
+        Me.TextBox153.Location = New System.Drawing.Point(725, 393)
+        Me.TextBox153.Name = "TextBox153"
+        Me.TextBox153.Size = New System.Drawing.Size(404, 30)
+        Me.TextBox153.TabIndex = 335
+        Me.TextBox153.Text = "farmaceutica paraguaya@fapasa.com.py"
+        '
+        'TextBox8
+        '
+        Me.TextBox8.BackColor = System.Drawing.Color.White
+        Me.TextBox8.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox8.ForeColor = System.Drawing.Color.Black
+        Me.TextBox8.Location = New System.Drawing.Point(725, 357)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(404, 30)
+        Me.TextBox8.TabIndex = 335
+        Me.TextBox8.Text = "farmaceutica paraguaya@fapasa.com.py"
+        '
+        'TextBox10
+        '
+        Me.TextBox10.BackColor = System.Drawing.Color.White
+        Me.TextBox10.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox10.ForeColor = System.Drawing.Color.Black
+        Me.TextBox10.Location = New System.Drawing.Point(725, 321)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(404, 30)
+        Me.TextBox10.TabIndex = 335
+        Me.TextBox10.Text = "farmaceutica paraguaya@fapasa.com.py"
+        '
+        'TextBox9
+        '
+        Me.TextBox9.BackColor = System.Drawing.Color.White
+        Me.TextBox9.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox9.ForeColor = System.Drawing.Color.Black
+        Me.TextBox9.Location = New System.Drawing.Point(726, 285)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(404, 30)
+        Me.TextBox9.TabIndex = 333
+        Me.TextBox9.Text = "(lito email) farmaceutica paraguaya@fapasa.com.py  "
+        '
+        'TextBox147
+        '
+        Me.TextBox147.BackColor = System.Drawing.Color.White
+        Me.TextBox147.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox147.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox147.ForeColor = System.Drawing.Color.Black
+        Me.TextBox147.Location = New System.Drawing.Point(725, 249)
+        Me.TextBox147.Name = "TextBox147"
+        Me.TextBox147.Size = New System.Drawing.Size(404, 30)
+        Me.TextBox147.TabIndex = 332
+        Me.TextBox147.Text = "farmaceutica paraguaya@fapasa.com.py"
+        '
+        'TextBox151
+        '
+        Me.TextBox151.BackColor = System.Drawing.Color.White
+        Me.TextBox151.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox151.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox151.ForeColor = System.Drawing.Color.Black
+        Me.TextBox151.Location = New System.Drawing.Point(725, 213)
+        Me.TextBox151.Name = "TextBox151"
+        Me.TextBox151.Size = New System.Drawing.Size(404, 30)
+        Me.TextBox151.TabIndex = 331
+        Me.TextBox151.Text = "farmaceutica paraguaya@fapasa.com.py"
+        '
+        'TextBox159
+        '
+        Me.TextBox159.BackColor = System.Drawing.Color.White
+        Me.TextBox159.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox159.ForeColor = System.Drawing.Color.Black
+        Me.TextBox159.Location = New System.Drawing.Point(509, 465)
+        Me.TextBox159.Name = "TextBox159"
+        Me.TextBox159.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox159.TabIndex = 330
+        Me.TextBox159.Text = "+595 981 123456789"
+        '
+        'TextBox152
+        '
+        Me.TextBox152.BackColor = System.Drawing.Color.White
+        Me.TextBox152.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox152.ForeColor = System.Drawing.Color.Black
+        Me.TextBox152.Location = New System.Drawing.Point(509, 429)
+        Me.TextBox152.Name = "TextBox152"
+        Me.TextBox152.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox152.TabIndex = 330
+        Me.TextBox152.Text = "+595 981 123456789"
+        '
+        'TextBox154
+        '
+        Me.TextBox154.BackColor = System.Drawing.Color.White
+        Me.TextBox154.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox154.ForeColor = System.Drawing.Color.Black
+        Me.TextBox154.Location = New System.Drawing.Point(509, 393)
+        Me.TextBox154.Name = "TextBox154"
+        Me.TextBox154.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox154.TabIndex = 330
+        Me.TextBox154.Text = "+595 981 123456789"
+        '
+        'TextBox155
+        '
+        Me.TextBox155.BackColor = System.Drawing.Color.White
+        Me.TextBox155.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox155.ForeColor = System.Drawing.Color.Black
+        Me.TextBox155.Location = New System.Drawing.Point(509, 357)
+        Me.TextBox155.Name = "TextBox155"
+        Me.TextBox155.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox155.TabIndex = 330
+        Me.TextBox155.Text = "+595 981 123456789"
+        '
+        'TextBox156
+        '
+        Me.TextBox156.BackColor = System.Drawing.Color.White
+        Me.TextBox156.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox156.ForeColor = System.Drawing.Color.Black
+        Me.TextBox156.Location = New System.Drawing.Point(509, 321)
+        Me.TextBox156.Name = "TextBox156"
+        Me.TextBox156.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox156.TabIndex = 330
+        Me.TextBox156.Text = "+595 981 123456789"
+        '
+        'TextBox157
+        '
+        Me.TextBox157.BackColor = System.Drawing.Color.White
+        Me.TextBox157.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox157.ForeColor = System.Drawing.Color.Black
+        Me.TextBox157.Location = New System.Drawing.Point(509, 285)
+        Me.TextBox157.Name = "TextBox157"
+        Me.TextBox157.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox157.TabIndex = 328
+        Me.TextBox157.Text = "(LITO movil)+595 981 123456789 "
+        '
+        'TextBox158
+        '
+        Me.TextBox158.BackColor = System.Drawing.Color.White
+        Me.TextBox158.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox158.ForeColor = System.Drawing.Color.Black
+        Me.TextBox158.Location = New System.Drawing.Point(509, 249)
+        Me.TextBox158.Name = "TextBox158"
+        Me.TextBox158.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox158.TabIndex = 327
+        Me.TextBox158.Text = "+595 981 123456789"
+        '
+        'TextBox161
+        '
+        Me.TextBox161.BackColor = System.Drawing.Color.White
+        Me.TextBox161.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox161.ForeColor = System.Drawing.Color.Black
+        Me.TextBox161.Location = New System.Drawing.Point(509, 213)
+        Me.TextBox161.Name = "TextBox161"
+        Me.TextBox161.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox161.TabIndex = 341
+        Me.TextBox161.Text = "+595 981 123456789"
+        '
+        'Label67
+        '
+        Me.Label67.AutoSize = True
+        Me.Label67.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.Location = New System.Drawing.Point(156, 363)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(0, 24)
+        Me.Label67.TabIndex = 306
+        '
+        'Label58
+        '
+        Me.Label58.AutoSize = True
+        Me.Label58.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.Location = New System.Drawing.Point(28, 323)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(155, 24)
+        Me.Label58.TabIndex = 307
+        Me.Label58.Text = "Proveedor CC.:"
+        '
+        'Label69
+        '
+        Me.Label69.AutoSize = True
+        Me.Label69.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Location = New System.Drawing.Point(1337, 95)
+        Me.Label69.Name = "Label69"
+        Me.Label69.Size = New System.Drawing.Size(99, 24)
+        Me.Label69.TabIndex = 303
+        Me.Label69.Text = "Teléfono:"
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label45.Location = New System.Drawing.Point(23, 473)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(160, 24)
+        Me.Label45.TabIndex = 300
+        Me.Label45.Text = "Provee.  Devol.:"
+        '
+        'Label50
+        '
+        Me.Label50.AutoSize = True
+        Me.Label50.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Location = New System.Drawing.Point(2, 436)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(181, 24)
+        Me.Label50.TabIndex = 300
+        Me.Label50.Text = "Provee.  Cer. Cal.:"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.Location = New System.Drawing.Point(34, 398)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(149, 24)
+        Me.Label47.TabIndex = 300
+        Me.Label47.Text = "Provee.  Pago:"
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label49.Location = New System.Drawing.Point(16, 362)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(167, 24)
+        Me.Label49.TabIndex = 300
+        Me.Label49.Text = "Provee. Factura:"
+        '
+        'Label55
+        '
+        Me.Label55.AutoSize = True
+        Me.Label55.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label55.Location = New System.Drawing.Point(8, 288)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(175, 24)
+        Me.Label55.TabIndex = 299
+        Me.Label55.Text = "Pro. Nombre EC.:"
+        '
+        'Label52
+        '
+        Me.Label52.AutoSize = True
+        Me.Label52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label52.Location = New System.Drawing.Point(12, 213)
+        Me.Label52.Name = "Label52"
+        Me.Label52.Size = New System.Drawing.Size(171, 24)
+        Me.Label52.TabIndex = 312
+        Me.Label52.Text = "Provee. Director:"
+        '
+        'Label51
+        '
+        Me.Label51.AutoSize = True
+        Me.Label51.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label51.Location = New System.Drawing.Point(25, 250)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(158, 24)
+        Me.Label51.TabIndex = 298
+        Me.Label51.Text = "Provee. Sr GC.:"
+        '
+        'Label53
+        '
+        Me.Label53.AutoSize = True
+        Me.Label53.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label53.Location = New System.Drawing.Point(907, 133)
+        Me.Label53.Name = "Label53"
+        Me.Label53.Size = New System.Drawing.Size(88, 24)
+        Me.Label53.TabIndex = 296
+        Me.Label53.Text = "Colonia:"
+        '
+        'RadioButton75
+        '
+        Me.RadioButton75.AutoSize = True
+        Me.RadioButton75.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton75.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton75.Location = New System.Drawing.Point(1418, 168)
+        Me.RadioButton75.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton75.Name = "RadioButton75"
+        Me.RadioButton75.Size = New System.Drawing.Size(109, 28)
+        Me.RadioButton75.TabIndex = 295
+        Me.RadioButton75.TabStop = True
+        Me.RadioButton75.Text = "Inactivo"
+        Me.RadioButton75.UseVisualStyleBackColor = False
+        '
+        'RadioButton90
+        '
+        Me.RadioButton90.AutoSize = True
+        Me.RadioButton90.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton90.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton90.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton90.Location = New System.Drawing.Point(1307, 168)
+        Me.RadioButton90.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton90.Name = "RadioButton90"
+        Me.RadioButton90.Size = New System.Drawing.Size(94, 28)
+        Me.RadioButton90.TabIndex = 294
+        Me.RadioButton90.TabStop = True
+        Me.RadioButton90.Text = "Activo"
+        Me.RadioButton90.UseVisualStyleBackColor = False
+        '
+        'TextBox162
+        '
+        Me.TextBox162.BackColor = System.Drawing.Color.White
+        Me.TextBox162.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox162.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox162.Location = New System.Drawing.Point(1480, 213)
+        Me.TextBox162.Name = "TextBox162"
+        Me.TextBox162.Size = New System.Drawing.Size(64, 30)
+        Me.TextBox162.TabIndex = 283
+        Me.TextBox162.Text = "0.000"
+        Me.TextBox162.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox163
+        '
+        Me.TextBox163.BackColor = System.Drawing.Color.White
+        Me.TextBox163.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox163.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox163.Location = New System.Drawing.Point(1480, 249)
+        Me.TextBox163.Name = "TextBox163"
+        Me.TextBox163.Size = New System.Drawing.Size(64, 30)
+        Me.TextBox163.TabIndex = 283
+        Me.TextBox163.Text = "0.000"
+        Me.TextBox163.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox164
+        '
+        Me.TextBox164.BackColor = System.Drawing.Color.White
+        Me.TextBox164.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox164.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox164.Location = New System.Drawing.Point(1480, 465)
+        Me.TextBox164.Name = "TextBox164"
+        Me.TextBox164.Size = New System.Drawing.Size(64, 30)
+        Me.TextBox164.TabIndex = 283
+        Me.TextBox164.Text = "0.000"
+        Me.TextBox164.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox165
+        '
+        Me.TextBox165.BackColor = System.Drawing.Color.White
+        Me.TextBox165.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox165.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox165.Location = New System.Drawing.Point(1480, 429)
+        Me.TextBox165.Name = "TextBox165"
+        Me.TextBox165.Size = New System.Drawing.Size(64, 30)
+        Me.TextBox165.TabIndex = 283
+        Me.TextBox165.Text = "0.000"
+        Me.TextBox165.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox166
+        '
+        Me.TextBox166.BackColor = System.Drawing.Color.White
+        Me.TextBox166.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox166.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox166.Location = New System.Drawing.Point(1480, 393)
+        Me.TextBox166.Name = "TextBox166"
+        Me.TextBox166.Size = New System.Drawing.Size(64, 30)
+        Me.TextBox166.TabIndex = 283
+        Me.TextBox166.Text = "0.000"
+        Me.TextBox166.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox167
+        '
+        Me.TextBox167.BackColor = System.Drawing.Color.White
+        Me.TextBox167.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox167.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox167.Location = New System.Drawing.Point(1480, 285)
+        Me.TextBox167.Name = "TextBox167"
+        Me.TextBox167.Size = New System.Drawing.Size(64, 30)
+        Me.TextBox167.TabIndex = 283
+        Me.TextBox167.Text = "0.000"
+        Me.TextBox167.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox168
+        '
+        Me.TextBox168.BackColor = System.Drawing.Color.White
+        Me.TextBox168.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox168.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox168.Location = New System.Drawing.Point(1480, 357)
+        Me.TextBox168.Name = "TextBox168"
+        Me.TextBox168.Size = New System.Drawing.Size(64, 30)
+        Me.TextBox168.TabIndex = 283
+        Me.TextBox168.Text = "0.000"
+        Me.TextBox168.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox169
+        '
+        Me.TextBox169.BackColor = System.Drawing.Color.White
+        Me.TextBox169.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox169.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox169.Location = New System.Drawing.Point(1480, 321)
+        Me.TextBox169.Name = "TextBox169"
+        Me.TextBox169.Size = New System.Drawing.Size(64, 30)
+        Me.TextBox169.TabIndex = 283
+        Me.TextBox169.Text = "0.000"
+        Me.TextBox169.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox170
+        '
+        Me.TextBox170.BackColor = System.Drawing.Color.White
+        Me.TextBox170.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox170.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox170.Location = New System.Drawing.Point(1762, 213)
+        Me.TextBox170.Name = "TextBox170"
+        Me.TextBox170.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox170.TabIndex = 288
+        Me.TextBox170.Text = "00"
+        Me.TextBox170.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox171
+        '
+        Me.TextBox171.BackColor = System.Drawing.Color.White
+        Me.TextBox171.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox171.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox171.Location = New System.Drawing.Point(1629, 213)
+        Me.TextBox171.Name = "TextBox171"
+        Me.TextBox171.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox171.TabIndex = 288
+        Me.TextBox171.Text = "00"
+        Me.TextBox171.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox172
+        '
+        Me.TextBox172.BackColor = System.Drawing.Color.White
+        Me.TextBox172.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox172.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox172.Location = New System.Drawing.Point(1762, 249)
+        Me.TextBox172.Name = "TextBox172"
+        Me.TextBox172.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox172.TabIndex = 288
+        Me.TextBox172.Text = "00"
+        Me.TextBox172.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox173
+        '
+        Me.TextBox173.BackColor = System.Drawing.Color.White
+        Me.TextBox173.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox173.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox173.Location = New System.Drawing.Point(1330, 213)
+        Me.TextBox173.Name = "TextBox173"
+        Me.TextBox173.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox173.TabIndex = 288
+        Me.TextBox173.Text = "00"
+        Me.TextBox173.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox174
+        '
+        Me.TextBox174.BackColor = System.Drawing.Color.White
+        Me.TextBox174.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox174.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox174.Location = New System.Drawing.Point(1629, 249)
+        Me.TextBox174.Name = "TextBox174"
+        Me.TextBox174.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox174.TabIndex = 288
+        Me.TextBox174.Text = "00"
+        Me.TextBox174.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox138
+        '
+        Me.TextBox138.BackColor = System.Drawing.Color.White
+        Me.TextBox138.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox138.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox138.Location = New System.Drawing.Point(1762, 285)
+        Me.TextBox138.Name = "TextBox138"
+        Me.TextBox138.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox138.TabIndex = 288
+        Me.TextBox138.Text = "00"
+        Me.TextBox138.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox176
+        '
+        Me.TextBox176.BackColor = System.Drawing.Color.White
+        Me.TextBox176.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox176.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox176.Location = New System.Drawing.Point(1330, 249)
+        Me.TextBox176.Name = "TextBox176"
+        Me.TextBox176.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox176.TabIndex = 288
+        Me.TextBox176.Text = "00"
+        Me.TextBox176.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox177
+        '
+        Me.TextBox177.BackColor = System.Drawing.Color.White
+        Me.TextBox177.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox177.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox177.Location = New System.Drawing.Point(1762, 465)
+        Me.TextBox177.Name = "TextBox177"
+        Me.TextBox177.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox177.TabIndex = 288
+        Me.TextBox177.Text = "00"
+        Me.TextBox177.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox178
+        '
+        Me.TextBox178.BackColor = System.Drawing.Color.White
+        Me.TextBox178.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox178.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox178.Location = New System.Drawing.Point(1762, 429)
+        Me.TextBox178.Name = "TextBox178"
+        Me.TextBox178.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox178.TabIndex = 288
+        Me.TextBox178.Text = "00"
+        Me.TextBox178.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox179
+        '
+        Me.TextBox179.BackColor = System.Drawing.Color.White
+        Me.TextBox179.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox179.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox179.Location = New System.Drawing.Point(1762, 393)
+        Me.TextBox179.Name = "TextBox179"
+        Me.TextBox179.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox179.TabIndex = 288
+        Me.TextBox179.Text = "00"
+        Me.TextBox179.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox180
+        '
+        Me.TextBox180.BackColor = System.Drawing.Color.White
+        Me.TextBox180.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox180.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox180.Location = New System.Drawing.Point(1629, 285)
+        Me.TextBox180.Name = "TextBox180"
+        Me.TextBox180.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox180.TabIndex = 288
+        Me.TextBox180.Text = "00"
+        Me.TextBox180.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox181
+        '
+        Me.TextBox181.BackColor = System.Drawing.Color.White
+        Me.TextBox181.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox181.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox181.Location = New System.Drawing.Point(1762, 357)
+        Me.TextBox181.Name = "TextBox181"
+        Me.TextBox181.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox181.TabIndex = 288
+        Me.TextBox181.Text = "00"
+        Me.TextBox181.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox182
+        '
+        Me.TextBox182.BackColor = System.Drawing.Color.White
+        Me.TextBox182.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox182.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox182.Location = New System.Drawing.Point(1762, 321)
+        Me.TextBox182.Name = "TextBox182"
+        Me.TextBox182.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox182.TabIndex = 288
+        Me.TextBox182.Text = "00"
+        Me.TextBox182.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox183
+        '
+        Me.TextBox183.BackColor = System.Drawing.Color.White
+        Me.TextBox183.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox183.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox183.Location = New System.Drawing.Point(1629, 465)
+        Me.TextBox183.Name = "TextBox183"
+        Me.TextBox183.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox183.TabIndex = 288
+        Me.TextBox183.Text = "00"
+        Me.TextBox183.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox184
+        '
+        Me.TextBox184.BackColor = System.Drawing.Color.White
+        Me.TextBox184.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox184.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox184.Location = New System.Drawing.Point(1629, 429)
+        Me.TextBox184.Name = "TextBox184"
+        Me.TextBox184.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox184.TabIndex = 288
+        Me.TextBox184.Text = "00"
+        Me.TextBox184.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox185
+        '
+        Me.TextBox185.BackColor = System.Drawing.Color.White
+        Me.TextBox185.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox185.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox185.Location = New System.Drawing.Point(1629, 393)
+        Me.TextBox185.Name = "TextBox185"
+        Me.TextBox185.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox185.TabIndex = 288
+        Me.TextBox185.Text = "00"
+        Me.TextBox185.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox186
+        '
+        Me.TextBox186.BackColor = System.Drawing.Color.White
+        Me.TextBox186.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox186.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox186.Location = New System.Drawing.Point(1330, 285)
+        Me.TextBox186.Name = "TextBox186"
+        Me.TextBox186.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox186.TabIndex = 288
+        Me.TextBox186.Text = "00"
+        Me.TextBox186.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox187
+        '
+        Me.TextBox187.BackColor = System.Drawing.Color.White
+        Me.TextBox187.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox187.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox187.Location = New System.Drawing.Point(1629, 357)
+        Me.TextBox187.Name = "TextBox187"
+        Me.TextBox187.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox187.TabIndex = 288
+        Me.TextBox187.Text = "00"
+        Me.TextBox187.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox188
+        '
+        Me.TextBox188.BackColor = System.Drawing.Color.White
+        Me.TextBox188.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox188.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox188.Location = New System.Drawing.Point(1330, 465)
+        Me.TextBox188.Name = "TextBox188"
+        Me.TextBox188.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox188.TabIndex = 288
+        Me.TextBox188.Text = "00"
+        Me.TextBox188.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox189
+        '
+        Me.TextBox189.BackColor = System.Drawing.Color.White
+        Me.TextBox189.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox189.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox189.Location = New System.Drawing.Point(1330, 429)
+        Me.TextBox189.Name = "TextBox189"
+        Me.TextBox189.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox189.TabIndex = 288
+        Me.TextBox189.Text = "00"
+        Me.TextBox189.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox190
+        '
+        Me.TextBox190.BackColor = System.Drawing.Color.White
+        Me.TextBox190.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox190.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox190.Location = New System.Drawing.Point(1629, 321)
+        Me.TextBox190.Name = "TextBox190"
+        Me.TextBox190.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox190.TabIndex = 288
+        Me.TextBox190.Text = "00"
+        Me.TextBox190.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox191
+        '
+        Me.TextBox191.BackColor = System.Drawing.Color.White
+        Me.TextBox191.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox191.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox191.Location = New System.Drawing.Point(1330, 393)
+        Me.TextBox191.Name = "TextBox191"
+        Me.TextBox191.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox191.TabIndex = 288
+        Me.TextBox191.Text = "00"
+        Me.TextBox191.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox192
+        '
+        Me.TextBox192.BackColor = System.Drawing.Color.White
+        Me.TextBox192.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox192.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox192.Location = New System.Drawing.Point(1330, 357)
+        Me.TextBox192.Name = "TextBox192"
+        Me.TextBox192.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox192.TabIndex = 288
+        Me.TextBox192.Text = "00"
+        Me.TextBox192.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox193
+        '
+        Me.TextBox193.BackColor = System.Drawing.Color.White
+        Me.TextBox193.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox193.ForeColor = System.Drawing.Color.Blue
+        Me.TextBox193.Location = New System.Drawing.Point(1330, 321)
+        Me.TextBox193.Name = "TextBox193"
+        Me.TextBox193.Size = New System.Drawing.Size(45, 30)
+        Me.TextBox193.TabIndex = 288
+        Me.TextBox193.Text = "00"
+        Me.TextBox193.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox194
+        '
+        Me.TextBox194.BackColor = System.Drawing.Color.White
+        Me.TextBox194.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox194.ForeColor = System.Drawing.Color.Black
+        Me.TextBox194.Location = New System.Drawing.Point(1440, 92)
+        Me.TextBox194.Name = "TextBox194"
+        Me.TextBox194.Size = New System.Drawing.Size(203, 30)
+        Me.TextBox194.TabIndex = 292
+        Me.TextBox194.Text = "00000 (LITO telefono )"
+        Me.TextBox194.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'TextBox195
+        '
+        Me.TextBox195.BackColor = System.Drawing.Color.White
+        Me.TextBox195.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox195.ForeColor = System.Drawing.Color.Black
+        Me.TextBox195.Location = New System.Drawing.Point(1234, 92)
+        Me.TextBox195.Name = "TextBox195"
+        Me.TextBox195.Size = New System.Drawing.Size(97, 30)
+        Me.TextBox195.TabIndex = 292
+        Me.TextBox195.Text = "000 (LITO zip )"
+        Me.TextBox195.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'TextBox196
+        '
+        Me.TextBox196.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox196.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox196.ForeColor = System.Drawing.Color.Black
+        Me.TextBox196.Location = New System.Drawing.Point(1612, 54)
+        Me.TextBox196.Name = "TextBox196"
+        Me.TextBox196.Size = New System.Drawing.Size(191, 30)
+        Me.TextBox196.TabIndex = 276
+        Me.TextBox196.Text = "LABORATORIO (LITO CLASIF )"
+        '
+        'TextBox197
+        '
+        Me.TextBox197.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox197.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox197.ForeColor = System.Drawing.Color.Black
+        Me.TextBox197.Location = New System.Drawing.Point(156, 92)
+        Me.TextBox197.Name = "TextBox197"
+        Me.TextBox197.Size = New System.Drawing.Size(759, 30)
+        Me.TextBox197.TabIndex = 276
+        Me.TextBox197.Text = "DIRECCCION  (LITO DIRECCION )"
+        '
+        'TextBox198
+        '
+        Me.TextBox198.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox198.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox198.ForeColor = System.Drawing.Color.Black
+        Me.TextBox198.Location = New System.Drawing.Point(189, 210)
+        Me.TextBox198.Name = "TextBox198"
+        Me.TextBox198.Size = New System.Drawing.Size(302, 30)
+        Me.TextBox198.TabIndex = 276
+        '
+        'TextBox199
+        '
+        Me.TextBox199.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox199.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox199.ForeColor = System.Drawing.Color.Black
+        Me.TextBox199.Location = New System.Drawing.Point(1366, 130)
+        Me.TextBox199.Name = "TextBox199"
+        Me.TextBox199.Size = New System.Drawing.Size(276, 30)
+        Me.TextBox199.TabIndex = 276
+        Me.TextBox199.Text = "(LITO PAIS )"
+        '
+        'TextBox200
+        '
+        Me.TextBox200.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox200.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox200.ForeColor = System.Drawing.Color.Black
+        Me.TextBox200.Location = New System.Drawing.Point(1001, 130)
+        Me.TextBox200.Name = "TextBox200"
+        Me.TextBox200.Size = New System.Drawing.Size(276, 30)
+        Me.TextBox200.TabIndex = 276
+        Me.TextBox200.Text = "(LITO COLONIA )"
+        '
+        'TextBox201
+        '
+        Me.TextBox201.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox201.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox201.ForeColor = System.Drawing.Color.Black
+        Me.TextBox201.Location = New System.Drawing.Point(189, 469)
+        Me.TextBox201.Name = "TextBox201"
+        Me.TextBox201.Size = New System.Drawing.Size(302, 30)
+        Me.TextBox201.TabIndex = 276
+        '
+        'TextBox202
+        '
+        Me.TextBox202.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox202.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox202.ForeColor = System.Drawing.Color.Black
+        Me.TextBox202.Location = New System.Drawing.Point(620, 172)
+        Me.TextBox202.Name = "TextBox202"
+        Me.TextBox202.Size = New System.Drawing.Size(276, 30)
+        Me.TextBox202.TabIndex = 276
+        Me.TextBox202.Text = "XXX (LITO SEGMENTO)"
+        '
+        'TextBox139
+        '
+        Me.TextBox139.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox139.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox139.ForeColor = System.Drawing.Color.Black
+        Me.TextBox139.Location = New System.Drawing.Point(156, 169)
+        Me.TextBox139.Name = "TextBox139"
+        Me.TextBox139.Size = New System.Drawing.Size(276, 30)
+        Me.TextBox139.TabIndex = 276
+        Me.TextBox139.Text = "XXX (LITO TIPO)"
+        '
+        'TextBox140
+        '
+        Me.TextBox140.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox140.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox140.ForeColor = System.Drawing.Color.Black
+        Me.TextBox140.Location = New System.Drawing.Point(620, 130)
+        Me.TextBox140.Name = "TextBox140"
+        Me.TextBox140.Size = New System.Drawing.Size(276, 30)
+        Me.TextBox140.TabIndex = 276
+        Me.TextBox140.Text = "(LITO ESTADO )"
+        '
+        'TextBox205
+        '
+        Me.TextBox205.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox205.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox205.ForeColor = System.Drawing.Color.Black
+        Me.TextBox205.Location = New System.Drawing.Point(189, 432)
+        Me.TextBox205.Name = "TextBox205"
+        Me.TextBox205.Size = New System.Drawing.Size(302, 30)
+        Me.TextBox205.TabIndex = 276
+        '
+        'TextBox206
+        '
+        Me.TextBox206.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox206.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox206.ForeColor = System.Drawing.Color.Black
+        Me.TextBox206.Location = New System.Drawing.Point(156, 130)
+        Me.TextBox206.Name = "TextBox206"
+        Me.TextBox206.Size = New System.Drawing.Size(366, 30)
+        Me.TextBox206.TabIndex = 276
+        Me.TextBox206.Text = "(LITO CIUDAD )"
+        '
+        'TextBox141
+        '
+        Me.TextBox141.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox141.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox141.ForeColor = System.Drawing.Color.Black
+        Me.TextBox141.Location = New System.Drawing.Point(189, 395)
+        Me.TextBox141.Name = "TextBox141"
+        Me.TextBox141.Size = New System.Drawing.Size(302, 30)
+        Me.TextBox141.TabIndex = 276
+        '
+        'TextBox208
+        '
+        Me.TextBox208.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox208.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox208.ForeColor = System.Drawing.Color.Black
+        Me.TextBox208.Location = New System.Drawing.Point(189, 247)
+        Me.TextBox208.Name = "TextBox208"
+        Me.TextBox208.Size = New System.Drawing.Size(302, 30)
+        Me.TextBox208.TabIndex = 276
+        Me.TextBox208.Text = "(LITO SR. )"
+        '
+        'TextBox209
+        '
+        Me.TextBox209.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox209.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox209.ForeColor = System.Drawing.Color.Black
+        Me.TextBox209.Location = New System.Drawing.Point(189, 358)
+        Me.TextBox209.Name = "TextBox209"
+        Me.TextBox209.Size = New System.Drawing.Size(302, 30)
+        Me.TextBox209.TabIndex = 276
+        '
+        'TextBox210
+        '
+        Me.TextBox210.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox210.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox210.ForeColor = System.Drawing.Color.Black
+        Me.TextBox210.Location = New System.Drawing.Point(189, 321)
+        Me.TextBox210.Name = "TextBox210"
+        Me.TextBox210.Size = New System.Drawing.Size(302, 30)
+        Me.TextBox210.TabIndex = 276
+        Me.TextBox210.Text = "(LITO CC )"
+        '
+        'TextBox211
+        '
+        Me.TextBox211.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox211.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox211.ForeColor = System.Drawing.Color.Black
+        Me.TextBox211.Location = New System.Drawing.Point(189, 284)
+        Me.TextBox211.Name = "TextBox211"
+        Me.TextBox211.Size = New System.Drawing.Size(302, 30)
+        Me.TextBox211.TabIndex = 276
+        Me.TextBox211.Text = "(LITO NOMBRE )"
+        '
+        'TextBox212
+        '
+        Me.TextBox212.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox212.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox212.ForeColor = System.Drawing.Color.Black
+        Me.TextBox212.Location = New System.Drawing.Point(866, 54)
+        Me.TextBox212.Name = "TextBox212"
+        Me.TextBox212.Size = New System.Drawing.Size(262, 30)
+        Me.TextBox212.TabIndex = 276
+        Me.TextBox212.Text = "NOM. CORTO (LITO CARGO)"
+        '
+        'TextBox213
+        '
+        Me.TextBox213.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox213.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox213.ForeColor = System.Drawing.Color.Black
+        Me.TextBox213.Location = New System.Drawing.Point(325, 54)
+        Me.TextBox213.Name = "TextBox213"
+        Me.TextBox213.Size = New System.Drawing.Size(525, 30)
+        Me.TextBox213.TabIndex = 276
+        Me.TextBox213.Text = "NOMBRE CLIENTE (LITO EMPRESA )"
+        '
+        'TextBox214
+        '
+        Me.TextBox214.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox214.ForeColor = System.Drawing.Color.Black
+        Me.TextBox214.Location = New System.Drawing.Point(156, 54)
+        Me.TextBox214.Name = "TextBox214"
+        Me.TextBox214.Size = New System.Drawing.Size(160, 30)
+        Me.TextBox214.TabIndex = 276
+        Me.TextBox214.Text = "(LITO COD )"
+        Me.TextBox214.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'TextBox215
+        '
+        Me.TextBox215.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox215.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox215.ForeColor = System.Drawing.Color.Black
+        Me.TextBox215.Location = New System.Drawing.Point(1248, 54)
+        Me.TextBox215.Name = "TextBox215"
+        Me.TextBox215.Size = New System.Drawing.Size(247, 30)
+        Me.TextBox215.TabIndex = 276
+        Me.TextBox215.Text = "RUC  (LITO NIT )"
+        '
+        'TextBox216
+        '
+        Me.TextBox216.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox216.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox216.ForeColor = System.Drawing.Color.Black
+        Me.TextBox216.Location = New System.Drawing.Point(975, 92)
+        Me.TextBox216.Name = "TextBox216"
+        Me.TextBox216.Size = New System.Drawing.Size(110, 30)
+        Me.TextBox216.TabIndex = 276
+        Me.TextBox216.Text = " "
+        '
+        'Label54
+        '
+        Me.Label54.AutoSize = True
+        Me.Label54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.Location = New System.Drawing.Point(1688, 216)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(66, 24)
+        Me.Label54.TabIndex = 260
+        Me.Label54.Text = "EV %:"
+        '
+        'Label56
+        '
+        Me.Label56.AutoSize = True
+        Me.Label56.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Location = New System.Drawing.Point(1554, 216)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(70, 24)
+        Me.Label56.TabIndex = 260
+        Me.Label56.Text = "GC %:"
+        '
+        'Label57
+        '
+        Me.Label57.AutoSize = True
+        Me.Label57.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.Location = New System.Drawing.Point(1688, 252)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(66, 24)
+        Me.Label57.TabIndex = 260
+        Me.Label57.Text = "EV %:"
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label59.Location = New System.Drawing.Point(1501, 57)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(105, 24)
+        Me.Label59.TabIndex = 265
+        Me.Label59.Text = "Clasificar:"
+        '
+        'Label60
+        '
+        Me.Label60.AutoSize = True
+        Me.Label60.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label60.Location = New System.Drawing.Point(1688, 468)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(66, 24)
+        Me.Label60.TabIndex = 260
+        Me.Label60.Text = "EV %:"
+        '
+        'Label66
+        '
+        Me.Label66.AutoSize = True
+        Me.Label66.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label66.Location = New System.Drawing.Point(1554, 252)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(70, 24)
+        Me.Label66.TabIndex = 260
+        Me.Label66.Text = "GC %:"
+        '
+        'Label68
+        '
+        Me.Label68.AutoSize = True
+        Me.Label68.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label68.Location = New System.Drawing.Point(1688, 432)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(66, 24)
+        Me.Label68.TabIndex = 260
+        Me.Label68.Text = "EV %:"
+        '
+        'Label151
+        '
+        Me.Label151.AutoSize = True
+        Me.Label151.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label151.Location = New System.Drawing.Point(1688, 288)
+        Me.Label151.Name = "Label151"
+        Me.Label151.Size = New System.Drawing.Size(66, 24)
+        Me.Label151.TabIndex = 260
+        Me.Label151.Text = "EV %:"
+        '
+        'Label322
+        '
+        Me.Label322.AutoSize = True
+        Me.Label322.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label322.Location = New System.Drawing.Point(1688, 396)
+        Me.Label322.Name = "Label322"
+        Me.Label322.Size = New System.Drawing.Size(66, 24)
+        Me.Label322.TabIndex = 260
+        Me.Label322.Text = "EV %:"
+>>>>>>> pre-main
         '
         'Label423
         '
         Me.Label423.AutoSize = True
+<<<<<<< HEAD
         Me.Label423.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label423.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label423.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -19498,10 +24756,19 @@ Partial Class INSUMO
         Me.Label423.Size = New System.Drawing.Size(70, 19)
         Me.Label423.TabIndex = 599
         Me.Label423.Text = "(3)Color"
+=======
+        Me.Label423.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label423.Location = New System.Drawing.Point(1554, 288)
+        Me.Label423.Name = "Label423"
+        Me.Label423.Size = New System.Drawing.Size(70, 24)
+        Me.Label423.TabIndex = 260
+        Me.Label423.Text = "GC %:"
+>>>>>>> pre-main
         '
         'Label424
         '
         Me.Label424.AutoSize = True
+<<<<<<< HEAD
         Me.Label424.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label424.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label424.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -19510,10 +24777,19 @@ Partial Class INSUMO
         Me.Label424.Size = New System.Drawing.Size(108, 19)
         Me.Label424.TabIndex = 598
         Me.Label424.Text = "(4)Proveedor"
+=======
+        Me.Label424.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label424.Location = New System.Drawing.Point(1554, 468)
+        Me.Label424.Name = "Label424"
+        Me.Label424.Size = New System.Drawing.Size(70, 24)
+        Me.Label424.TabIndex = 260
+        Me.Label424.Text = "GC %:"
+>>>>>>> pre-main
         '
         'Label425
         '
         Me.Label425.AutoSize = True
+<<<<<<< HEAD
         Me.Label425.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label425.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label425.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -19522,10 +24798,19 @@ Partial Class INSUMO
         Me.Label425.Size = New System.Drawing.Size(78, 19)
         Me.Label425.TabIndex = 597
         Me.Label425.Text = "(1)Depos"
+=======
+        Me.Label425.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label425.Location = New System.Drawing.Point(1688, 360)
+        Me.Label425.Name = "Label425"
+        Me.Label425.Size = New System.Drawing.Size(66, 24)
+        Me.Label425.TabIndex = 260
+        Me.Label425.Text = "EV %:"
+>>>>>>> pre-main
         '
         'Label426
         '
         Me.Label426.AutoSize = True
+<<<<<<< HEAD
         Me.Label426.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label426.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label426.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -19534,10 +24819,19 @@ Partial Class INSUMO
         Me.Label426.Size = New System.Drawing.Size(117, 19)
         Me.Label426.TabIndex = 596
         Me.Label426.Text = "(3)Ins/Mat/Rep"
+=======
+        Me.Label426.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label426.Location = New System.Drawing.Point(1554, 432)
+        Me.Label426.Name = "Label426"
+        Me.Label426.Size = New System.Drawing.Size(70, 24)
+        Me.Label426.TabIndex = 260
+        Me.Label426.Text = "GC %:"
+>>>>>>> pre-main
         '
         'Label427
         '
         Me.Label427.AutoSize = True
+<<<<<<< HEAD
         Me.Label427.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label427.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label427.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -19546,10 +24840,19 @@ Partial Class INSUMO
         Me.Label427.Size = New System.Drawing.Size(76, 19)
         Me.Label427.TabIndex = 595
         Me.Label427.Text = "(4)Grupo"
+=======
+        Me.Label427.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label427.Location = New System.Drawing.Point(1384, 216)
+        Me.Label427.Name = "Label427"
+        Me.Label427.Size = New System.Drawing.Size(91, 24)
+        Me.Label427.TabIndex = 261
+        Me.Label427.Text = "Gs/unid:"
+>>>>>>> pre-main
         '
         'Label428
         '
         Me.Label428.AutoSize = True
+<<<<<<< HEAD
         Me.Label428.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label428.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label428.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -19558,10 +24861,19 @@ Partial Class INSUMO
         Me.Label428.Size = New System.Drawing.Size(95, 19)
         Me.Label428.TabIndex = 594
         Me.Label428.Text = "(4)Estacion"
+=======
+        Me.Label428.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label428.Location = New System.Drawing.Point(1554, 396)
+        Me.Label428.Name = "Label428"
+        Me.Label428.Size = New System.Drawing.Size(70, 24)
+        Me.Label428.TabIndex = 260
+        Me.Label428.Text = "GC %:"
+>>>>>>> pre-main
         '
         'Label429
         '
         Me.Label429.AutoSize = True
+<<<<<<< HEAD
         Me.Label429.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label429.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label429.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -19705,10 +25017,19 @@ Partial Class INSUMO
         Me.ComboBox25.Name = "ComboBox25"
         Me.ComboBox25.Size = New System.Drawing.Size(94, 37)
         Me.ComboBox25.TabIndex = 584
+=======
+        Me.Label429.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label429.Location = New System.Drawing.Point(1688, 324)
+        Me.Label429.Name = "Label429"
+        Me.Label429.Size = New System.Drawing.Size(66, 24)
+        Me.Label429.TabIndex = 260
+        Me.Label429.Text = "EV %:"
+>>>>>>> pre-main
         '
         'Label430
         '
         Me.Label430.AutoSize = True
+<<<<<<< HEAD
         Me.Label430.BackColor = System.Drawing.Color.Transparent
         Me.Label430.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label430.Location = New System.Drawing.Point(10, 130)
@@ -19810,6 +25131,778 @@ Partial Class INSUMO
         Me.CheckBox43.TabIndex = 612
         Me.CheckBox43.Text = "Desactivado"
         Me.CheckBox43.UseVisualStyleBackColor = True
+=======
+        Me.Label430.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label430.Location = New System.Drawing.Point(1554, 360)
+        Me.Label430.Name = "Label430"
+        Me.Label430.Size = New System.Drawing.Size(70, 24)
+        Me.Label430.TabIndex = 260
+        Me.Label430.Text = "GC %:"
+        '
+        'Label431
+        '
+        Me.Label431.AutoSize = True
+        Me.Label431.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label431.Location = New System.Drawing.Point(1384, 252)
+        Me.Label431.Name = "Label431"
+        Me.Label431.Size = New System.Drawing.Size(91, 24)
+        Me.Label431.TabIndex = 261
+        Me.Label431.Text = "Gs/unid:"
+        '
+        'Label432
+        '
+        Me.Label432.AutoSize = True
+        Me.Label432.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label432.Location = New System.Drawing.Point(1554, 324)
+        Me.Label432.Name = "Label432"
+        Me.Label432.Size = New System.Drawing.Size(70, 24)
+        Me.Label432.TabIndex = 260
+        Me.Label432.Text = "GC %:"
+        '
+        'Label433
+        '
+        Me.Label433.AutoSize = True
+        Me.Label433.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label433.Location = New System.Drawing.Point(1384, 468)
+        Me.Label433.Name = "Label433"
+        Me.Label433.Size = New System.Drawing.Size(91, 24)
+        Me.Label433.TabIndex = 261
+        Me.Label433.Text = "Gs/unid:"
+        '
+        'Label435
+        '
+        Me.Label435.AutoSize = True
+        Me.Label435.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label435.Location = New System.Drawing.Point(1384, 288)
+        Me.Label435.Name = "Label435"
+        Me.Label435.Size = New System.Drawing.Size(91, 24)
+        Me.Label435.TabIndex = 261
+        Me.Label435.Text = "Gs/unid:"
+        '
+        'Label436
+        '
+        Me.Label436.AutoSize = True
+        Me.Label436.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label436.Location = New System.Drawing.Point(1384, 432)
+        Me.Label436.Name = "Label436"
+        Me.Label436.Size = New System.Drawing.Size(91, 24)
+        Me.Label436.TabIndex = 261
+        Me.Label436.Text = "Gs/unid:"
+        '
+        'Label437
+        '
+        Me.Label437.AutoSize = True
+        Me.Label437.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label437.Location = New System.Drawing.Point(1291, 216)
+        Me.Label437.Name = "Label437"
+        Me.Label437.Size = New System.Drawing.Size(34, 24)
+        Me.Label437.TabIndex = 260
+        Me.Label437.Text = "%:"
+        '
+        'Label438
+        '
+        Me.Label438.AutoSize = True
+        Me.Label438.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label438.Location = New System.Drawing.Point(1384, 396)
+        Me.Label438.Name = "Label438"
+        Me.Label438.Size = New System.Drawing.Size(91, 24)
+        Me.Label438.TabIndex = 261
+        Me.Label438.Text = "Gs/unid:"
+        '
+        'Label439
+        '
+        Me.Label439.AutoSize = True
+        Me.Label439.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label439.Location = New System.Drawing.Point(1134, 57)
+        Me.Label439.Name = "Label439"
+        Me.Label439.Size = New System.Drawing.Size(109, 24)
+        Me.Label439.TabIndex = 262
+        Me.Label439.Text = "NIT / RUC:"
+        '
+        'Label440
+        '
+        Me.Label440.AutoSize = True
+        Me.Label440.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label440.Location = New System.Drawing.Point(1384, 360)
+        Me.Label440.Name = "Label440"
+        Me.Label440.Size = New System.Drawing.Size(91, 24)
+        Me.Label440.TabIndex = 261
+        Me.Label440.Text = "Gs/unid:"
+        '
+        'Label441
+        '
+        Me.Label441.AutoSize = True
+        Me.Label441.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label441.Location = New System.Drawing.Point(1291, 468)
+        Me.Label441.Name = "Label441"
+        Me.Label441.Size = New System.Drawing.Size(34, 24)
+        Me.Label441.TabIndex = 260
+        Me.Label441.Text = "%:"
+        '
+        'Label442
+        '
+        Me.Label442.AutoSize = True
+        Me.Label442.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label442.Location = New System.Drawing.Point(1291, 252)
+        Me.Label442.Name = "Label442"
+        Me.Label442.Size = New System.Drawing.Size(34, 24)
+        Me.Label442.TabIndex = 260
+        Me.Label442.Text = "%:"
+        '
+        'Label443
+        '
+        Me.Label443.AutoSize = True
+        Me.Label443.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label443.Location = New System.Drawing.Point(1291, 432)
+        Me.Label443.Name = "Label443"
+        Me.Label443.Size = New System.Drawing.Size(34, 24)
+        Me.Label443.TabIndex = 260
+        Me.Label443.Text = "%:"
+        '
+        'Label444
+        '
+        Me.Label444.AutoSize = True
+        Me.Label444.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label444.Location = New System.Drawing.Point(1384, 324)
+        Me.Label444.Name = "Label444"
+        Me.Label444.Size = New System.Drawing.Size(91, 24)
+        Me.Label444.TabIndex = 261
+        Me.Label444.Text = "Gs/unid:"
+        '
+        'Label445
+        '
+        Me.Label445.AutoSize = True
+        Me.Label445.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label445.Location = New System.Drawing.Point(1291, 396)
+        Me.Label445.Name = "Label445"
+        Me.Label445.Size = New System.Drawing.Size(34, 24)
+        Me.Label445.TabIndex = 260
+        Me.Label445.Text = "%:"
+        '
+        'Label446
+        '
+        Me.Label446.AutoSize = True
+        Me.Label446.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label446.Location = New System.Drawing.Point(1291, 288)
+        Me.Label446.Name = "Label446"
+        Me.Label446.Size = New System.Drawing.Size(34, 24)
+        Me.Label446.TabIndex = 260
+        Me.Label446.Text = "%:"
+        '
+        'Label447
+        '
+        Me.Label447.AutoSize = True
+        Me.Label447.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label447.Location = New System.Drawing.Point(1291, 360)
+        Me.Label447.Name = "Label447"
+        Me.Label447.Size = New System.Drawing.Size(34, 24)
+        Me.Label447.TabIndex = 260
+        Me.Label447.Text = "%:"
+        '
+        'Label448
+        '
+        Me.Label448.AutoSize = True
+        Me.Label448.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label448.Location = New System.Drawing.Point(1291, 324)
+        Me.Label448.Name = "Label448"
+        Me.Label448.Size = New System.Drawing.Size(34, 24)
+        Me.Label448.TabIndex = 260
+        Me.Label448.Text = "%:"
+        '
+        'Label449
+        '
+        Me.Label449.AutoSize = True
+        Me.Label449.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label449.Location = New System.Drawing.Point(1303, 133)
+        Me.Label449.Name = "Label449"
+        Me.Label449.Size = New System.Drawing.Size(57, 24)
+        Me.Label449.TabIndex = 259
+        Me.Label449.Text = "Pais:"
+        '
+        'Label450
+        '
+        Me.Label450.AutoSize = True
+        Me.Label450.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label450.Location = New System.Drawing.Point(924, 95)
+        Me.Label450.Name = "Label450"
+        Me.Label450.Size = New System.Drawing.Size(45, 24)
+        Me.Label450.TabIndex = 258
+        Me.Label450.Text = " N°:"
+        '
+        'Label451
+        '
+        Me.Label451.AutoSize = True
+        Me.Label451.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label451.Location = New System.Drawing.Point(1102, 95)
+        Me.Label451.Name = "Label451"
+        Me.Label451.Size = New System.Drawing.Size(126, 24)
+        Me.Label451.TabIndex = 258
+        Me.Label451.Text = "Cod. Postal:"
+        '
+        'Label452
+        '
+        Me.Label452.AutoSize = True
+        Me.Label452.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label452.Location = New System.Drawing.Point(4, 57)
+        Me.Label452.Name = "Label452"
+        Me.Label452.Size = New System.Drawing.Size(149, 24)
+        Me.Label452.TabIndex = 255
+        Me.Label452.Text = "Proveedor  N°:"
+        '
+        'Label453
+        '
+        Me.Label453.AutoSize = True
+        Me.Label453.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label453.Location = New System.Drawing.Point(502, 175)
+        Me.Label453.Name = "Label453"
+        Me.Label453.Size = New System.Drawing.Size(112, 24)
+        Me.Label453.TabIndex = 266
+        Me.Label453.Text = "Segmento:"
+        '
+        'Label454
+        '
+        Me.Label454.AutoSize = True
+        Me.Label454.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label454.Location = New System.Drawing.Point(531, 133)
+        Me.Label454.Name = "Label454"
+        Me.Label454.Size = New System.Drawing.Size(83, 24)
+        Me.Label454.TabIndex = 257
+        Me.Label454.Text = "Estado:"
+        '
+        'Label455
+        '
+        Me.Label455.AutoSize = True
+        Me.Label455.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label455.Location = New System.Drawing.Point(92, 172)
+        Me.Label455.Name = "Label455"
+        Me.Label455.Size = New System.Drawing.Size(59, 24)
+        Me.Label455.TabIndex = 266
+        Me.Label455.Text = "Tipo:"
+        '
+        'Label456
+        '
+        Me.Label456.AutoSize = True
+        Me.Label456.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label456.Location = New System.Drawing.Point(58, 133)
+        Me.Label456.Name = "Label456"
+        Me.Label456.Size = New System.Drawing.Size(83, 24)
+        Me.Label456.TabIndex = 266
+        Me.Label456.Text = "Ciudad:"
+        '
+        'Label457
+        '
+        Me.Label457.AutoSize = True
+        Me.Label457.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label457.Location = New System.Drawing.Point(35, 95)
+        Me.Label457.Name = "Label457"
+        Me.Label457.Size = New System.Drawing.Size(106, 24)
+        Me.Label457.TabIndex = 256
+        Me.Label457.Text = "Dirección:"
+        '
+        'Label458
+        '
+        Me.Label458.AutoSize = True
+        Me.Label458.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label458.Location = New System.Drawing.Point(156, 319)
+        Me.Label458.Name = "Label458"
+        Me.Label458.Size = New System.Drawing.Size(0, 29)
+        Me.Label458.TabIndex = 21
+        '
+        'Panel85
+        '
+        Me.Panel85.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel85.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel85.Controls.Add(Me.PictureBox25)
+        Me.Panel85.Controls.Add(Me.Label459)
+        Me.Panel85.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel85.Location = New System.Drawing.Point(0, 0)
+        Me.Panel85.Name = "Panel85"
+        Me.Panel85.Size = New System.Drawing.Size(1819, 43)
+        Me.Panel85.TabIndex = 0
+        '
+        'PictureBox25
+        '
+        Me.PictureBox25.Image = CType(resources.GetObject("PictureBox25.Image"), System.Drawing.Image)
+        Me.PictureBox25.Location = New System.Drawing.Point(1769, -4)
+        Me.PictureBox25.Name = "PictureBox25"
+        Me.PictureBox25.Size = New System.Drawing.Size(45, 40)
+        Me.PictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox25.TabIndex = 612
+        Me.PictureBox25.TabStop = False
+        '
+        'Label459
+        '
+        Me.Label459.AutoSize = True
+        Me.Label459.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label459.ForeColor = System.Drawing.Color.White
+        Me.Label459.Location = New System.Drawing.Point(880, 0)
+        Me.Label459.Name = "Label459"
+        Me.Label459.Size = New System.Drawing.Size(81, 33)
+        Me.Label459.TabIndex = 6
+        Me.Label459.Text = "INFO"
+        '
+        'Panel86
+        '
+        Me.Panel86.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel86.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel86.Controls.Add(Me.RadioButton132)
+        Me.Panel86.Controls.Add(Me.RadioButton134)
+        Me.Panel86.Controls.Add(Me.PictureBox4)
+        Me.Panel86.Controls.Add(Me.Label460)
+        Me.Panel86.Controls.Add(Me.ComboBox4)
+        Me.Panel86.Controls.Add(Me.Label461)
+        Me.Panel86.Controls.Add(Me.ComboBox6)
+        Me.Panel86.Controls.Add(Me.DateTimePicker55)
+        Me.Panel86.Controls.Add(Me.DateTimePicker56)
+        Me.Panel86.Controls.Add(Me.Label462)
+        Me.Panel86.Controls.Add(Me.Label463)
+        Me.Panel86.Controls.Add(Me.DateTimePicker57)
+        Me.Panel86.Controls.Add(Me.Label464)
+        Me.Panel86.Controls.Add(Me.Label467)
+        Me.Panel86.Controls.Add(Me.TextBox217)
+        Me.Panel86.Controls.Add(Me.DateTimePicker58)
+        Me.Panel86.Controls.Add(Me.TextBox218)
+        Me.Panel86.Controls.Add(Me.DateTimePicker59)
+        Me.Panel86.Controls.Add(Me.Label468)
+        Me.Panel86.Controls.Add(Me.TextBox219)
+        Me.Panel86.Controls.Add(Me.Label469)
+        Me.Panel86.Controls.Add(Me.Panel87)
+        Me.Panel86.Controls.Add(Me.TextBox220)
+        Me.Panel86.Controls.Add(Me.Label471)
+        Me.Panel86.Controls.Add(Me.TextBox221)
+        Me.Panel86.Controls.Add(Me.TextBox222)
+        Me.Panel86.Controls.Add(Me.TextBox223)
+        Me.Panel86.Controls.Add(Me.TextBox224)
+        Me.Panel86.Controls.Add(Me.Label472)
+        Me.Panel86.Controls.Add(Me.Label473)
+        Me.Panel86.Controls.Add(Me.Label474)
+        Me.Panel86.Controls.Add(Me.ComboBox8)
+        Me.Panel86.Controls.Add(Me.Label475)
+        Me.Panel86.Location = New System.Drawing.Point(10, 655)
+        Me.Panel86.Name = "Panel86"
+        Me.Panel86.Size = New System.Drawing.Size(1823, 191)
+        Me.Panel86.TabIndex = 160
+        '
+        'RadioButton132
+        '
+        Me.RadioButton132.AutoSize = True
+        Me.RadioButton132.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton132.FlatAppearance.BorderColor = System.Drawing.Color.Magenta
+        Me.RadioButton132.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton132.Location = New System.Drawing.Point(1678, 146)
+        Me.RadioButton132.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton132.Name = "RadioButton132"
+        Me.RadioButton132.Size = New System.Drawing.Size(64, 28)
+        Me.RadioButton132.TabIndex = 614
+        Me.RadioButton132.TabStop = True
+        Me.RadioButton132.Text = "EF."
+        Me.RadioButton132.UseVisualStyleBackColor = False
+        '
+        'RadioButton134
+        '
+        Me.RadioButton134.AutoSize = True
+        Me.RadioButton134.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton134.FlatAppearance.BorderColor = System.Drawing.Color.Magenta
+        Me.RadioButton134.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton134.Location = New System.Drawing.Point(1745, 146)
+        Me.RadioButton134.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton134.Name = "RadioButton134"
+        Me.RadioButton134.Size = New System.Drawing.Size(71, 28)
+        Me.RadioButton134.TabIndex = 613
+        Me.RadioButton134.TabStop = True
+        Me.RadioButton134.Text = "EM."
+        Me.RadioButton134.UseVisualStyleBackColor = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(754, 140)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(45, 40)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 612
+        Me.PictureBox4.TabStop = False
+        '
+        'Label460
+        '
+        Me.Label460.AutoSize = True
+        Me.Label460.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label460.Location = New System.Drawing.Point(1386, 102)
+        Me.Label460.Name = "Label460"
+        Me.Label460.Size = New System.Drawing.Size(152, 29)
+        Me.Label460.TabIndex = 350
+        Me.Label460.Text = "Documento:"
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.BackColor = System.Drawing.Color.White
+        Me.ComboBox4.DropDownWidth = 272
+        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"Solo Remision", "Solo Factura", "Remision / OC", "Remision / Factura / OC", "Remision / Factura"})
+        Me.ComboBox4.Location = New System.Drawing.Point(1541, 98)
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(258, 37)
+        Me.ComboBox4.TabIndex = 351
+        '
+        'Label461
+        '
+        Me.Label461.AutoSize = True
+        Me.Label461.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label461.Location = New System.Drawing.Point(855, 102)
+        Me.Label461.Name = "Label461"
+        Me.Label461.Size = New System.Drawing.Size(146, 29)
+        Me.Label461.TabIndex = 348
+        Me.Label461.Text = "Frecuencia:"
+        '
+        'ComboBox6
+        '
+        Me.ComboBox6.BackColor = System.Drawing.Color.White
+        Me.ComboBox6.DropDownWidth = 272
+        Me.ComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox6.FormattingEnabled = True
+        Me.ComboBox6.Items.AddRange(New Object() {"Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Fin de Mes", "Primera semana ", "Segunda Semana", "Tercera cemana", "Cuarta semana "})
+        Me.ComboBox6.Location = New System.Drawing.Point(1008, 98)
+        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox6.Name = "ComboBox6"
+        Me.ComboBox6.Size = New System.Drawing.Size(212, 37)
+        Me.ComboBox6.TabIndex = 349
+        '
+        'DateTimePicker55
+        '
+        Me.DateTimePicker55.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker55.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker55.Location = New System.Drawing.Point(1490, 143)
+        Me.DateTimePicker55.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker55.Name = "DateTimePicker55"
+        Me.DateTimePicker55.Size = New System.Drawing.Size(173, 35)
+        Me.DateTimePicker55.TabIndex = 156
+        '
+        'DateTimePicker56
+        '
+        Me.DateTimePicker56.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker56.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.DateTimePicker56.Location = New System.Drawing.Point(693, 99)
+        Me.DateTimePicker56.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker56.Name = "DateTimePicker56"
+        Me.DateTimePicker56.Size = New System.Drawing.Size(147, 35)
+        Me.DateTimePicker56.TabIndex = 156
+        '
+        'Label462
+        '
+        Me.Label462.AutoSize = True
+        Me.Label462.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label462.Location = New System.Drawing.Point(1397, 146)
+        Me.Label462.Name = "Label462"
+        Me.Label462.Size = New System.Drawing.Size(98, 29)
+        Me.Label462.TabIndex = 21
+        Me.Label462.Text = "Recibe:"
+        '
+        'Label463
+        '
+        Me.Label463.AutoSize = True
+        Me.Label463.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label463.Location = New System.Drawing.Point(1112, 146)
+        Me.Label463.Name = "Label463"
+        Me.Label463.Size = New System.Drawing.Size(220, 29)
+        Me.Label463.TabIndex = 21
+        Me.Label463.Text = "Recibe Máximo %:"
+        '
+        'DateTimePicker57
+        '
+        Me.DateTimePicker57.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker57.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.DateTimePicker57.Location = New System.Drawing.Point(537, 99)
+        Me.DateTimePicker57.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker57.Name = "DateTimePicker57"
+        Me.DateTimePicker57.Size = New System.Drawing.Size(147, 35)
+        Me.DateTimePicker57.TabIndex = 156
+        '
+        'Label464
+        '
+        Me.Label464.AutoSize = True
+        Me.Label464.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label464.Location = New System.Drawing.Point(17, 253)
+        Me.Label464.Name = "Label464"
+        Me.Label464.Size = New System.Drawing.Size(0, 29)
+        Me.Label464.TabIndex = 21
+        '
+        'Label467
+        '
+        Me.Label467.AutoSize = True
+        Me.Label467.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label467.Location = New System.Drawing.Point(818, 146)
+        Me.Label467.Name = "Label467"
+        Me.Label467.Size = New System.Drawing.Size(216, 29)
+        Me.Label467.TabIndex = 21
+        Me.Label467.Text = "Recibe Minimo %:"
+        '
+        'TextBox217
+        '
+        Me.TextBox217.BackColor = System.Drawing.Color.White
+        Me.TextBox217.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox217.ForeColor = System.Drawing.Color.Black
+        Me.TextBox217.Location = New System.Drawing.Point(1338, 143)
+        Me.TextBox217.Name = "TextBox217"
+        Me.TextBox217.Size = New System.Drawing.Size(53, 35)
+        Me.TextBox217.TabIndex = 157
+        Me.TextBox217.Text = "00 lito maximo"
+        Me.TextBox217.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'DateTimePicker58
+        '
+        Me.DateTimePicker58.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker58.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.DateTimePicker58.Location = New System.Drawing.Point(281, 99)
+        Me.DateTimePicker58.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker58.Name = "DateTimePicker58"
+        Me.DateTimePicker58.Size = New System.Drawing.Size(147, 35)
+        Me.DateTimePicker58.TabIndex = 156
+        '
+        'TextBox218
+        '
+        Me.TextBox218.BackColor = System.Drawing.Color.White
+        Me.TextBox218.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox218.ForeColor = System.Drawing.Color.Black
+        Me.TextBox218.Location = New System.Drawing.Point(1040, 143)
+        Me.TextBox218.Name = "TextBox218"
+        Me.TextBox218.Size = New System.Drawing.Size(53, 35)
+        Me.TextBox218.TabIndex = 157
+        Me.TextBox218.Text = "00 lito minimo"
+        Me.TextBox218.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'DateTimePicker59
+        '
+        Me.DateTimePicker59.CalendarForeColor = System.Drawing.Color.Magenta
+        Me.DateTimePicker59.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker59.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.DateTimePicker59.Location = New System.Drawing.Point(126, 99)
+        Me.DateTimePicker59.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker59.Name = "DateTimePicker59"
+        Me.DateTimePicker59.Size = New System.Drawing.Size(147, 35)
+        Me.DateTimePicker59.TabIndex = 156
+        '
+        'Label468
+        '
+        Me.Label468.AutoSize = True
+        Me.Label468.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label468.Location = New System.Drawing.Point(9, 102)
+        Me.Label468.Name = "Label468"
+        Me.Label468.Size = New System.Drawing.Size(110, 29)
+        Me.Label468.TabIndex = 21
+        Me.Label468.Text = "Mañana:"
+        '
+        'TextBox219
+        '
+        Me.TextBox219.BackColor = System.Drawing.Color.White
+        Me.TextBox219.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox219.ForeColor = System.Drawing.Color.Black
+        Me.TextBox219.Location = New System.Drawing.Point(495, 143)
+        Me.TextBox219.Name = "TextBox219"
+        Me.TextBox219.Size = New System.Drawing.Size(253, 35)
+        Me.TextBox219.TabIndex = 186
+        Me.TextBox219.Text = "+595 981 123456789"
+        Me.TextBox219.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label469
+        '
+        Me.Label469.AutoSize = True
+        Me.Label469.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label469.Location = New System.Drawing.Point(447, 102)
+        Me.Label469.Name = "Label469"
+        Me.Label469.Size = New System.Drawing.Size(83, 29)
+        Me.Label469.TabIndex = 21
+        Me.Label469.Text = "Tarde:"
+        '
+        'Panel87
+        '
+        Me.Panel87.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel87.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel87.Controls.Add(Me.Label470)
+        Me.Panel87.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel87.Location = New System.Drawing.Point(0, 0)
+        Me.Panel87.Name = "Panel87"
+        Me.Panel87.Size = New System.Drawing.Size(1819, 43)
+        Me.Panel87.TabIndex = 0
+        '
+        'Label470
+        '
+        Me.Label470.AutoSize = True
+        Me.Label470.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label470.ForeColor = System.Drawing.Color.White
+        Me.Label470.Location = New System.Drawing.Point(775, 5)
+        Me.Label470.Name = "Label470"
+        Me.Label470.Size = New System.Drawing.Size(308, 33)
+        Me.Label470.TabIndex = 6
+        Me.Label470.Text = "FORMA DE ENTREGA"
+        '
+        'TextBox220
+        '
+        Me.TextBox220.BackColor = System.Drawing.Color.White
+        Me.TextBox220.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox220.ForeColor = System.Drawing.Color.Black
+        Me.TextBox220.Location = New System.Drawing.Point(1146, 57)
+        Me.TextBox220.Name = "TextBox220"
+        Me.TextBox220.Size = New System.Drawing.Size(253, 35)
+        Me.TextBox220.TabIndex = 192
+        Me.TextBox220.Text = "+595 981 123456789"
+        Me.TextBox220.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label471
+        '
+        Me.Label471.AutoSize = True
+        Me.Label471.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label471.Location = New System.Drawing.Point(847, 60)
+        Me.Label471.Name = "Label471"
+        Me.Label471.Size = New System.Drawing.Size(47, 29)
+        Me.Label471.TabIndex = 21
+        Me.Label471.Text = "N°:"
+        '
+        'TextBox221
+        '
+        Me.TextBox221.BackColor = System.Drawing.Color.White
+        Me.TextBox221.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox221.ForeColor = System.Drawing.Color.Black
+        Me.TextBox221.Location = New System.Drawing.Point(1236, 99)
+        Me.TextBox221.Name = "TextBox221"
+        Me.TextBox221.Size = New System.Drawing.Size(145, 35)
+        Me.TextBox221.TabIndex = 192
+        Me.TextBox221.Text = "0.000.000"
+        Me.TextBox221.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox222
+        '
+        Me.TextBox222.BackColor = System.Drawing.Color.White
+        Me.TextBox222.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox222.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox222.ForeColor = System.Drawing.Color.Black
+        Me.TextBox222.Location = New System.Drawing.Point(1569, 57)
+        Me.TextBox222.Name = "TextBox222"
+        Me.TextBox222.Size = New System.Drawing.Size(231, 35)
+        Me.TextBox222.TabIndex = 192
+        Me.TextBox222.Text = "JUANCITO"
+        '
+        'TextBox223
+        '
+        Me.TextBox223.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox223.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox223.ForeColor = System.Drawing.Color.Black
+        Me.TextBox223.Location = New System.Drawing.Point(217, 57)
+        Me.TextBox223.Name = "TextBox223"
+        Me.TextBox223.Size = New System.Drawing.Size(619, 35)
+        Me.TextBox223.TabIndex = 156
+        Me.TextBox223.Text = "DIRECCION"
+        '
+        'TextBox224
+        '
+        Me.TextBox224.BackColor = System.Drawing.Color.White
+        Me.TextBox224.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox224.ForeColor = System.Drawing.Color.Black
+        Me.TextBox224.Location = New System.Drawing.Point(900, 57)
+        Me.TextBox224.Name = "TextBox224"
+        Me.TextBox224.Size = New System.Drawing.Size(97, 35)
+        Me.TextBox224.TabIndex = 157
+        Me.TextBox224.Text = "00.000"
+        Me.TextBox224.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label472
+        '
+        Me.Label472.AutoSize = True
+        Me.Label472.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label472.Location = New System.Drawing.Point(14, 60)
+        Me.Label472.Name = "Label472"
+        Me.Label472.Size = New System.Drawing.Size(197, 29)
+        Me.Label472.TabIndex = 169
+        Me.Label472.Text = "Entrega Pedido:"
+        '
+        'Label473
+        '
+        Me.Label473.AutoSize = True
+        Me.Label473.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label473.Location = New System.Drawing.Point(1021, 60)
+        Me.Label473.Name = "Label473"
+        Me.Label473.Size = New System.Drawing.Size(119, 29)
+        Me.Label473.TabIndex = 170
+        Me.Label473.Text = "Teléfono:"
+        '
+        'Label474
+        '
+        Me.Label474.AutoSize = True
+        Me.Label474.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label474.Location = New System.Drawing.Point(1420, 60)
+        Me.Label474.Name = "Label474"
+        Me.Label474.Size = New System.Drawing.Size(144, 29)
+        Me.Label474.TabIndex = 170
+        Me.Label474.Text = "Encargado:"
+        '
+        'ComboBox8
+        '
+        Me.ComboBox8.BackColor = System.Drawing.Color.White
+        Me.ComboBox8.DropDownWidth = 272
+        Me.ComboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox8.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox8.FormattingEnabled = True
+        Me.ComboBox8.Items.AddRange(New Object() {"Juan Carlos Gonzalez Ferreiro"})
+        Me.ComboBox8.Location = New System.Drawing.Point(169, 142)
+        Me.ComboBox8.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox8.Name = "ComboBox8"
+        Me.ComboBox8.Size = New System.Drawing.Size(307, 37)
+        Me.ComboBox8.TabIndex = 183
+        '
+        'Label475
+        '
+        Me.Label475.AutoSize = True
+        Me.Label475.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label475.Location = New System.Drawing.Point(7, 146)
+        Me.Label475.Name = "Label475"
+        Me.Label475.Size = New System.Drawing.Size(149, 29)
+        Me.Label475.TabIndex = 169
+        Me.Label475.Text = "Expedición:"
+        '
+        'Panel88
+        '
+        Me.Panel88.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel88.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel88.Controls.Add(Me.Label476)
+        Me.Panel88.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel88.Location = New System.Drawing.Point(0, 0)
+        Me.Panel88.Name = "Panel88"
+        Me.Panel88.Size = New System.Drawing.Size(1848, 43)
+        Me.Panel88.TabIndex = 0
+        '
+        'Label476
+        '
+        Me.Label476.AutoSize = True
+        Me.Label476.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label476.ForeColor = System.Drawing.Color.White
+        Me.Label476.Location = New System.Drawing.Point(810, 5)
+        Me.Label476.Name = "Label476"
+        Me.Label476.Size = New System.Drawing.Size(267, 33)
+        Me.Label476.TabIndex = 6
+        Me.Label476.Text = "PROVEEDOR INSU"
+        '
+        'Button58
+        '
+        Me.Button58.AutoSize = True
+        Me.Button58.BackColor = System.Drawing.Color.Yellow
+        Me.Button58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button58.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button58.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button58.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button58.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button58.ForeColor = System.Drawing.Color.Black
+        Me.Button58.Location = New System.Drawing.Point(1650, 155)
+        Me.Button58.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button58.Name = "Button58"
+        Me.Button58.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button58.Size = New System.Drawing.Size(149, 50)
+        Me.Button58.TabIndex = 633
+        Me.Button58.Text = "Gravar"
+        Me.Button58.UseVisualStyleBackColor = False
+>>>>>>> pre-main
         '
         'INSUMO
         '
@@ -19819,11 +25912,7 @@ Partial Class INSUMO
         Me.Controls.Add(Me.Panel1)
         Me.Name = "INSUMO"
         Me.Text = "INSUMO"
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout
         Me.TabPage1.ResumeLayout(False)
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout
         Me.Panel8.ResumeLayout(False)
@@ -19835,12 +25924,13 @@ Partial Class INSUMO
         Me.TabPage2.ResumeLayout(False)
         Me.Panel40.ResumeLayout(False)
         Me.Panel40.PerformLayout
-        Me.Panel41.ResumeLayout(False)
-        Me.Panel41.PerformLayout
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel26.ResumeLayout(False)
         Me.Panel26.PerformLayout
         Me.Panel27.ResumeLayout(False)
         Me.Panel27.PerformLayout
+        Me.Panel41.ResumeLayout(False)
+        Me.Panel41.PerformLayout
         Me.Panel24.ResumeLayout(False)
         Me.Panel24.PerformLayout
         Me.Panel25.ResumeLayout(False)
@@ -19930,6 +26020,7 @@ Partial Class INSUMO
         Me.Panel144.PerformLayout
         Me.Panel31.ResumeLayout(False)
         Me.Panel31.PerformLayout
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel38.ResumeLayout(False)
         Me.Panel38.PerformLayout
         Me.Panel39.ResumeLayout(False)
@@ -19947,6 +26038,10 @@ Partial Class INSUMO
         Me.Panel32.PerformLayout
         Me.TabPage5.ResumeLayout(False)
         Me.Panel9.ResumeLayout(False)
+        Me.Panel75.ResumeLayout(False)
+        Me.Panel75.PerformLayout
+        Me.Panel76.ResumeLayout(False)
+        Me.Panel76.PerformLayout
         Me.Panel59.ResumeLayout(False)
         Me.Panel60.ResumeLayout(False)
         Me.Panel60.PerformLayout
@@ -20006,6 +26101,11 @@ Partial Class INSUMO
         Me.Panel70.PerformLayout
         Me.Panel71.ResumeLayout(False)
         Me.Panel71.PerformLayout
+<<<<<<< HEAD
+=======
+        Me.Panel67.ResumeLayout(False)
+        Me.Panel67.PerformLayout
+>>>>>>> pre-main
         Me.TabPage8.ResumeLayout(False)
         Me.TabPage8.PerformLayout
         Me.TabControl2.ResumeLayout(False)
@@ -20066,6 +26166,7 @@ Partial Class INSUMO
         Me.Panel14.PerformLayout
         Me.Panel34.ResumeLayout(False)
         Me.Panel34.PerformLayout
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel35.ResumeLayout(False)
         Me.Panel35.PerformLayout
         Me.Panel29.ResumeLayout(False)
@@ -20180,13 +26281,23 @@ Partial Class INSUMO
         Me.Panel146.ResumeLayout(False)
         Me.Panel146.PerformLayout
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel3.ResumeLayout(False)
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout
+        Me.Panel85.ResumeLayout(False)
+        Me.Panel85.PerformLayout
+        CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel86.ResumeLayout(False)
+        Me.Panel86.PerformLayout
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel87.ResumeLayout(False)
+        Me.Panel87.PerformLayout
+        Me.Panel88.ResumeLayout(False)
+        Me.Panel88.PerformLayout
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Panel4 As Panel
     Friend WithEvents TabPage1 As TabPage
-    Friend WithEvents Panel3 As Panel
     Friend WithEvents TabPage2 As TabPage
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents TabPage5 As TabPage
@@ -20202,39 +26313,6 @@ Partial Class INSUMO
     Friend WithEvents Panel31 As Panel
     Friend WithEvents Panel32 As Panel
     Friend WithEvents Label14 As Label
-    Friend WithEvents ComboBox141 As ComboBox
-    Friend WithEvents Label43 As Label
-    Friend WithEvents Label41 As Label
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label9 As Label
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents Label42 As Label
-    Friend WithEvents Label18 As Label
-    Friend WithEvents Label44 As Label
-    Friend WithEvents Label47 As Label
-    Friend WithEvents Label45 As Label
-    Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents ComboBox6 As ComboBox
-    Friend WithEvents ComboBox7 As ComboBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents ComboBox8 As ComboBox
-    Friend WithEvents Label67 As Label
-    Friend WithEvents ComboBox14 As ComboBox
-    Friend WithEvents ComboBox15 As ComboBox
-    Friend WithEvents Label69 As Label
-    Friend WithEvents CheckBox12 As CheckBox
-    Friend WithEvents CheckBox11 As CheckBox
-    Friend WithEvents CheckBox10 As CheckBox
-    Friend WithEvents CheckBox9 As CheckBox
-    Friend WithEvents CheckBox8 As CheckBox
-    Friend WithEvents CheckBox7 As CheckBox
-    Friend WithEvents CheckBox6 As CheckBox
-    Friend WithEvents Label68 As Label
-    Friend WithEvents CheckBox13 As CheckBox
-    Friend WithEvents DateTimePicker9 As DateTimePicker
     Friend WithEvents Button25 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
@@ -20505,14 +26583,29 @@ Partial Class INSUMO
     Friend WithEvents TextBox30 As TextBox
     Friend WithEvents TextBox54 As TextBox
     Friend WithEvents TextBox35 As TextBox
+<<<<<<< HEAD
     Friend WithEvents Panel26 As Panel
     Friend WithEvents Panel27 As Panel
     Friend WithEvents Label194 As Label
     Friend WithEvents Label195 As Label
+=======
+>>>>>>> pre-main
     Friend WithEvents Panel30 As Panel
     Friend WithEvents Panel33 As Panel
     Friend WithEvents Label213 As Label
     Friend WithEvents Label214 As Label
+<<<<<<< HEAD
+=======
+    Friend WithEvents ComboBox47 As ComboBox
+    Friend WithEvents ComboBox48 As ComboBox
+    Friend WithEvents ComboBox49 As ComboBox
+    Friend WithEvents ComboBox51 As ComboBox
+    Friend WithEvents Label215 As Label
+    Friend WithEvents Label216 As Label
+    Friend WithEvents Label217 As Label
+    Friend WithEvents Label218 As Label
+    Friend WithEvents TextBox33 As TextBox
+>>>>>>> pre-main
     Friend WithEvents Label276 As Label
     Friend WithEvents TextBox78 As TextBox
     Friend WithEvents ComboBox31 As ComboBox
@@ -20674,11 +26767,7 @@ Partial Class INSUMO
     Friend WithEvents Panel8 As Panel
     Friend WithEvents Label46 As Label
     Friend WithEvents Panel5 As Panel
-    Friend WithEvents DateTimePicker8 As DateTimePicker
-    Friend WithEvents RadioButton75 As RadioButton
-    Friend WithEvents RadioButton90 As RadioButton
     Friend WithEvents DateTimePicker11 As DateTimePicker
-    Friend WithEvents Label74 As Label
     Friend WithEvents Label72 As Label
     Friend WithEvents DateTimePicker10 As DateTimePicker
     Friend WithEvents Label36 As Label
@@ -20694,9 +26783,6 @@ Partial Class INSUMO
     Friend WithEvents Panel9 As Panel
     Friend WithEvents Panel10 As Panel
     Friend WithEvents Label163 As Label
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents Label151 As Label
     Friend WithEvents ComboBox64 As ComboBox
     Friend WithEvents ComboBox65 As ComboBox
     Friend WithEvents ComboBox66 As ComboBox
@@ -20722,11 +26808,10 @@ Partial Class INSUMO
     Friend WithEvents Label62 As Label
     Friend WithEvents Label63 As Label
     Friend WithEvents Label61 As Label
-    Friend WithEvents DateTimePicker4 As DateTimePicker
-    Friend WithEvents Label66 As Label
     Friend WithEvents ComboBox77 As ComboBox
     Friend WithEvents Button27 As Button
     Friend WithEvents ComboBox79 As ComboBox
+<<<<<<< HEAD
     Friend WithEvents Panel13 As Panel
     Friend WithEvents Panel14 As Panel
     Friend WithEvents Label15 As Label
@@ -20737,6 +26822,10 @@ Partial Class INSUMO
     Friend WithEvents Panel44 As Panel
     Friend WithEvents Label31 As Label
     Friend WithEvents Label32 As Label
+=======
+    Friend WithEvents TabPage6 As TabPage
+    Friend WithEvents Panel42 As Panel
+>>>>>>> pre-main
     Friend WithEvents Panel45 As Panel
     Friend WithEvents Label273 As Label
     Friend WithEvents ComboBox116 As ComboBox
@@ -20867,11 +26956,9 @@ Partial Class INSUMO
     Friend WithEvents DateTimePicker41 As DateTimePicker
     Friend WithEvents Label288 As Label
     Friend WithEvents TextBox103 As TextBox
-    Friend WithEvents Label294 As Label
-    Friend WithEvents Label293 As Label
-    Friend WithEvents Label292 As Label
     Friend WithEvents Label295 As Label
     Friend WithEvents TextBox104 As TextBox
+<<<<<<< HEAD
     Friend WithEvents Panel62 As Panel
     Friend WithEvents Panel67 As Panel
     Friend WithEvents Label317 As Label
@@ -20927,6 +27014,8 @@ Partial Class INSUMO
     Friend WithEvents Label296 As Label
     Friend WithEvents ComboBox146 As ComboBox
     Friend WithEvents ComboBox143 As ComboBox
+=======
+>>>>>>> pre-main
     Friend WithEvents Label360 As Label
     Friend WithEvents ComboBox148 As ComboBox
     Friend WithEvents ComboBox147 As ComboBox
@@ -20946,83 +27035,10 @@ Partial Class INSUMO
     Friend WithEvents Panel142 As Panel
     Friend WithEvents Label2 As Label
     Friend WithEvents Label361 As Label
-    Friend WithEvents ComboBox155 As ComboBox
-    Friend WithEvents DateTimePicker53 As DateTimePicker
-    Friend WithEvents CheckBox47 As CheckBox
-    Friend WithEvents CheckBox48 As CheckBox
-    Friend WithEvents CheckBox49 As CheckBox
-    Friend WithEvents CheckBox50 As CheckBox
-    Friend WithEvents CheckBox51 As CheckBox
-    Friend WithEvents CheckBox52 As CheckBox
-    Friend WithEvents CheckBox53 As CheckBox
-    Friend WithEvents CheckBox54 As CheckBox
-    Friend WithEvents ComboBox156 As ComboBox
-    Friend WithEvents ComboBox157 As ComboBox
-    Friend WithEvents Label298 As Label
-    Friend WithEvents Label365 As Label
-    Friend WithEvents Label366 As Label
-    Friend WithEvents RadioButton70 As RadioButton
-    Friend WithEvents RadioButton71 As RadioButton
-    Friend WithEvents RadioButton72 As RadioButton
     Friend WithEvents DateTimePicker27 As DateTimePicker
     Friend WithEvents DateTimePicker20 As DateTimePicker
     Friend WithEvents RadioButton62 As RadioButton
     Friend WithEvents RadioButton45 As RadioButton
-    Friend WithEvents Label322 As Label
-    Friend WithEvents ComboBox153 As ComboBox
-    Friend WithEvents DateTimePicker3 As DateTimePicker
-    Friend WithEvents DateTimePicker2 As DateTimePicker
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents DateTimePicker19 As DateTimePicker
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents CheckBox24 As CheckBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox147 As TextBox
-    Friend WithEvents ComboBox11 As ComboBox
-    Friend WithEvents ComboBox10 As ComboBox
-    Friend WithEvents ComboBox9 As ComboBox
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Label60 As Label
-    Friend WithEvents Label57 As Label
-    Friend WithEvents Label54 As Label
-    Friend WithEvents Label50 As Label
-    Friend WithEvents Label58 As Label
-    Friend WithEvents Label59 As Label
-    Friend WithEvents Label56 As Label
-    Friend WithEvents Label48 As Label
-    Friend WithEvents Label53 As Label
-    Friend WithEvents Label49 As Label
-    Friend WithEvents Label55 As Label
-    Friend WithEvents Label52 As Label
-    Friend WithEvents Label51 As Label
-    Friend WithEvents CheckBox38 As CheckBox
-    Friend WithEvents CheckBox35 As CheckBox
-    Friend WithEvents CheckBox37 As CheckBox
-    Friend WithEvents CheckBox32 As CheckBox
-    Friend WithEvents CheckBox34 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents CheckBox36 As CheckBox
-    Friend WithEvents Label327 As Label
-    Friend WithEvents CheckBox33 As CheckBox
-    Friend WithEvents CheckBox4 As CheckBox
-    Friend WithEvents Label331 As Label
-    Friend WithEvents Label262 As Label
-    Friend WithEvents Label326 As Label
-    Friend WithEvents ComboBox145 As ComboBox
-    Friend WithEvents ComboBox142 As ComboBox
-    Friend WithEvents ComboBox121 As ComboBox
-    Friend WithEvents ComboBox144 As ComboBox
-    Friend WithEvents ComboBox125 As ComboBox
-    Friend WithEvents Label277 As Label
-    Friend WithEvents ComboBox122 As ComboBox
     Friend WithEvents TabPage21 As TabPage
     Friend WithEvents Panel143 As Panel
     Friend WithEvents ComboBox219 As ComboBox
@@ -21279,6 +27295,7 @@ Partial Class INSUMO
     Friend WithEvents Panel220 As Panel
     Friend WithEvents Label526 As Label
     Friend WithEvents Button54 As Button
+<<<<<<< HEAD
     Friend WithEvents Panel75 As Panel
     Friend WithEvents Panel76 As Panel
     Friend WithEvents Panel85 As Panel
@@ -21513,10 +27530,192 @@ Partial Class INSUMO
     Friend WithEvents Label386 As Label
     Friend WithEvents Label387 As Label
     Friend WithEvents Label388 As Label
+=======
+    Friend WithEvents ComboBox50 As ComboBox
+    Friend WithEvents ComboBox52 As ComboBox
+    Friend WithEvents TextBox124 As TextBox
+    Friend WithEvents ComboBox53 As ComboBox
+    Friend WithEvents ComboBox54 As ComboBox
+    Friend WithEvents ComboBox55 As ComboBox
+    Friend WithEvents Label340 As Label
+    Friend WithEvents Label341 As Label
+    Friend WithEvents Label342 As Label
+    Friend WithEvents Label343 As Label
+    Friend WithEvents Label344 As Label
+    Friend WithEvents Label345 As Label
+    Friend WithEvents Label346 As Label
+    Friend WithEvents Label347 As Label
+    Friend WithEvents Label348 As Label
+    Friend WithEvents Label349 As Label
+    Friend WithEvents Label350 As Label
+    Friend WithEvents ComboBox56 As ComboBox
+    Friend WithEvents ComboBox57 As ComboBox
+    Friend WithEvents ComboBox58 As ComboBox
+    Friend WithEvents ComboBox59 As ComboBox
+    Friend WithEvents ComboBox158 As ComboBox
+    Friend WithEvents Button31 As Button
+    Friend WithEvents TextBox126 As TextBox
+    Friend WithEvents Label351 As Label
+    Friend WithEvents Panel13 As Panel
+    Friend WithEvents ComboBox32 As ComboBox
+    Friend WithEvents ComboBox33 As ComboBox
+    Friend WithEvents TextBox86 As TextBox
+    Friend WithEvents ComboBox34 As ComboBox
+    Friend WithEvents ComboBox35 As ComboBox
+    Friend WithEvents ComboBox36 As ComboBox
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label165 As Label
+    Friend WithEvents Label178 As Label
+    Friend WithEvents Label196 As Label
+    Friend WithEvents Label197 As Label
+    Friend WithEvents Label198 As Label
+    Friend WithEvents Label352 As Label
+    Friend WithEvents Label353 As Label
+    Friend WithEvents Label354 As Label
+    Friend WithEvents Label355 As Label
+    Friend WithEvents Label356 As Label
+    Friend WithEvents ComboBox37 As ComboBox
+    Friend WithEvents ComboBox38 As ComboBox
+    Friend WithEvents TextBox127 As TextBox
+    Friend WithEvents ComboBox40 As ComboBox
+    Friend WithEvents ComboBox41 As ComboBox
+    Friend WithEvents ComboBox42 As ComboBox
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Panel14 As Panel
+    Friend WithEvents Label357 As Label
+    Friend WithEvents Label358 As Label
+    Friend WithEvents ComboBox43 As ComboBox
+    Friend WithEvents ComboBox44 As ComboBox
+    Friend WithEvents ComboBox45 As ComboBox
+    Friend WithEvents ComboBox159 As ComboBox
+    Friend WithEvents Label359 As Label
+    Friend WithEvents Label362 As Label
+    Friend WithEvents Label363 As Label
+    Friend WithEvents Label364 As Label
+    Friend WithEvents Label367 As Label
+    Friend WithEvents TextBox128 As TextBox
+    Friend WithEvents Label294 As Label
+    Friend WithEvents Label293 As Label
+    Friend WithEvents Label292 As Label
+    Friend WithEvents Label324 As Label
+    Friend WithEvents CheckBox39 As CheckBox
+    Friend WithEvents CheckBox41 As CheckBox
+    Friend WithEvents CheckBox40 As CheckBox
+    Friend WithEvents Panel26 As Panel
+    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents ComboBox16 As ComboBox
+    Friend WithEvents TextBox32 As TextBox
+    Friend WithEvents ComboBox17 As ComboBox
+    Friend WithEvents ComboBox18 As ComboBox
+    Friend WithEvents ComboBox19 As ComboBox
+    Friend WithEvents Label64 As Label
+    Friend WithEvents Label74 As Label
+    Friend WithEvents Label161 As Label
+    Friend WithEvents Label162 As Label
+    Friend WithEvents Label164 As Label
+    Friend WithEvents Label194 As Label
+    Friend WithEvents Label195 As Label
+    Friend WithEvents Label393 As Label
+    Friend WithEvents Label394 As Label
+    Friend WithEvents Label395 As Label
+    Friend WithEvents Label396 As Label
+    Friend WithEvents ComboBox20 As ComboBox
+    Friend WithEvents ComboBox21 As ComboBox
+    Friend WithEvents TextBox131 As TextBox
+    Friend WithEvents ComboBox22 As ComboBox
+    Friend WithEvents ComboBox23 As ComboBox
+    Friend WithEvents ComboBox24 As ComboBox
+    Friend WithEvents Button10 As Button
+    Friend WithEvents Panel27 As Panel
+    Friend WithEvents Label397 As Label
+    Friend WithEvents Label398 As Label
+    Friend WithEvents ComboBox25 As ComboBox
+    Friend WithEvents ComboBox26 As ComboBox
+    Friend WithEvents ComboBox27 As ComboBox
+    Friend WithEvents ComboBox28 As ComboBox
+    Friend WithEvents Label399 As Label
+    Friend WithEvents Label400 As Label
+    Friend WithEvents Label401 As Label
+    Friend WithEvents Label402 As Label
+    Friend WithEvents Label403 As Label
+    Friend WithEvents TextBox132 As TextBox
+    Friend WithEvents Panel43 As Panel
+    Friend WithEvents ComboBox78 As ComboBox
+    Friend WithEvents ComboBox80 As ComboBox
+    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents ComboBox81 As ComboBox
+    Friend WithEvents ComboBox82 As ComboBox
+    Friend WithEvents ComboBox83 As ComboBox
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Label34 As Label
+    Friend WithEvents Label35 As Label
+    Friend WithEvents Label240 As Label
+    Friend WithEvents Label368 As Label
+    Friend WithEvents Label369 As Label
+    Friend WithEvents Label370 As Label
+    Friend WithEvents Label371 As Label
+    Friend WithEvents Label372 As Label
+    Friend WithEvents ComboBox84 As ComboBox
+    Friend WithEvents ComboBox85 As ComboBox
+    Friend WithEvents TextBox129 As TextBox
+    Friend WithEvents ComboBox86 As ComboBox
+    Friend WithEvents ComboBox87 As ComboBox
+    Friend WithEvents ComboBox88 As ComboBox
+    Friend WithEvents Button41 As Button
+    Friend WithEvents Panel44 As Panel
+    Friend WithEvents Label373 As Label
+    Friend WithEvents Label374 As Label
+    Friend WithEvents ComboBox89 As ComboBox
+    Friend WithEvents ComboBox90 As ComboBox
+    Friend WithEvents ComboBox91 As ComboBox
+    Friend WithEvents ComboBox131 As ComboBox
+    Friend WithEvents Label375 As Label
+    Friend WithEvents Label376 As Label
+    Friend WithEvents Label377 As Label
+    Friend WithEvents Label378 As Label
+    Friend WithEvents Label404 As Label
+    Friend WithEvents TextBox133 As TextBox
+    Friend WithEvents Panel62 As Panel
+    Friend WithEvents Panel63 As Panel
+    Friend WithEvents ComboBox128 As ComboBox
+    Friend WithEvents ComboBox129 As ComboBox
+    Friend WithEvents TextBox108 As TextBox
+    Friend WithEvents ComboBox130 As ComboBox
+    Friend WithEvents ComboBox132 As ComboBox
+    Friend WithEvents ComboBox133 As ComboBox
+    Friend WithEvents Label307 As Label
+    Friend WithEvents Label308 As Label
+    Friend WithEvents Label309 As Label
+    Friend WithEvents Label310 As Label
+    Friend WithEvents Label311 As Label
+    Friend WithEvents Label312 As Label
+    Friend WithEvents Label379 As Label
+    Friend WithEvents Label380 As Label
+    Friend WithEvents Label381 As Label
+    Friend WithEvents Label382 As Label
+    Friend WithEvents Label386 As Label
+    Friend WithEvents ComboBox134 As ComboBox
+    Friend WithEvents ComboBox135 As ComboBox
+    Friend WithEvents TextBox130 As TextBox
+    Friend WithEvents ComboBox136 As ComboBox
+    Friend WithEvents ComboBox137 As ComboBox
+    Friend WithEvents ComboBox138 As ComboBox
+    Friend WithEvents Button45 As Button
+    Friend WithEvents Panel64 As Panel
+    Friend WithEvents Label387 As Label
+    Friend WithEvents Label388 As Label
+    Friend WithEvents ComboBox139 As ComboBox
+    Friend WithEvents ComboBox140 As ComboBox
+    Friend WithEvents ComboBox160 As ComboBox
+    Friend WithEvents ComboBox220 As ComboBox
+>>>>>>> pre-main
     Friend WithEvents Label389 As Label
     Friend WithEvents Label390 As Label
     Friend WithEvents Label391 As Label
     Friend WithEvents Label392 As Label
+<<<<<<< HEAD
     Friend WithEvents ComboBox49 As ComboBox
     Friend WithEvents ComboBox50 As ComboBox
     Friend WithEvents ComboBox51 As ComboBox
@@ -21540,6 +27739,304 @@ Partial Class INSUMO
     Friend WithEvents TextBox32 As TextBox
     Friend WithEvents Label164 As Label
     Friend WithEvents Label422 As Label
+=======
+    Friend WithEvents Label405 As Label
+    Friend WithEvents TextBox134 As TextBox
+    Friend WithEvents Panel65 As Panel
+    Friend WithEvents DateTimePicker53 As DateTimePicker
+    Friend WithEvents CheckBox47 As CheckBox
+    Friend WithEvents CheckBox48 As CheckBox
+    Friend WithEvents CheckBox49 As CheckBox
+    Friend WithEvents CheckBox50 As CheckBox
+    Friend WithEvents CheckBox51 As CheckBox
+    Friend WithEvents CheckBox52 As CheckBox
+    Friend WithEvents CheckBox53 As CheckBox
+    Friend WithEvents CheckBox54 As CheckBox
+    Friend WithEvents ComboBox156 As ComboBox
+    Friend WithEvents ComboBox157 As ComboBox
+    Friend WithEvents Label298 As Label
+    Friend WithEvents Label365 As Label
+    Friend WithEvents Label366 As Label
+    Friend WithEvents Panel66 As Panel
+    Friend WithEvents Label313 As Label
+    Friend WithEvents Label314 As Label
+    Friend WithEvents TextBox111 As TextBox
+    Friend WithEvents TextBox110 As TextBox
+    Friend WithEvents TextBox106 As TextBox
+    Friend WithEvents TextBox109 As TextBox
+    Friend WithEvents Label316 As Label
+    Friend WithEvents Label315 As Label
+    Friend WithEvents ComboBox155 As ComboBox
+    Friend WithEvents Label299 As Label
+    Friend WithEvents ComboBox126 As ComboBox
+    Friend WithEvents Label303 As Label
+    Friend WithEvents ComboBox127 As ComboBox
+    Friend WithEvents Label300 As Label
+    Friend WithEvents Label301 As Label
+    Friend WithEvents Label297 As Label
+    Friend WithEvents Panel68 As Panel
+    Friend WithEvents CheckBox38 As CheckBox
+    Friend WithEvents CheckBox35 As CheckBox
+    Friend WithEvents CheckBox37 As CheckBox
+    Friend WithEvents CheckBox32 As CheckBox
+    Friend WithEvents CheckBox34 As CheckBox
+    Friend WithEvents CheckBox5 As CheckBox
+    Friend WithEvents CheckBox36 As CheckBox
+    Friend WithEvents Label327 As Label
+    Friend WithEvents CheckBox33 As CheckBox
+    Friend WithEvents CheckBox4 As CheckBox
+    Friend WithEvents Label331 As Label
+    Friend WithEvents Label262 As Label
+    Friend WithEvents Label326 As Label
+    Friend WithEvents ComboBox145 As ComboBox
+    Friend WithEvents ComboBox142 As ComboBox
+    Friend WithEvents ComboBox121 As ComboBox
+    Friend WithEvents ComboBox144 As ComboBox
+    Friend WithEvents ComboBox125 As ComboBox
+    Friend WithEvents Label277 As Label
+    Friend WithEvents ComboBox122 As ComboBox
+    Friend WithEvents ComboBox146 As ComboBox
+    Friend WithEvents ComboBox143 As ComboBox
+    Friend WithEvents ComboBox123 As ComboBox
+    Friend WithEvents Label296 As Label
+    Friend WithEvents Panel69 As Panel
+    Friend WithEvents Label247 As Label
+    Friend WithEvents Label259 As Label
+    Friend WithEvents Panel70 As Panel
+    Friend WithEvents RadioButton64 As RadioButton
+    Friend WithEvents RadioButton63 As RadioButton
+    Friend WithEvents DateTimePicker48 As DateTimePicker
+    Friend WithEvents DateTimePicker47 As DateTimePicker
+    Friend WithEvents DateTimePicker46 As DateTimePicker
+    Friend WithEvents RadioButton66 As RadioButton
+    Friend WithEvents DateTimePicker44 As DateTimePicker
+    Friend WithEvents RadioButton65 As RadioButton
+    Friend WithEvents RadioButton43 As RadioButton
+    Friend WithEvents Panel71 As Panel
+    Friend WithEvents Label318 As Label
+    Friend WithEvents Label319 As Label
+    Friend WithEvents RadioButton41 As RadioButton
+    Friend WithEvents ComboBox124 As ComboBox
+    Friend WithEvents Label306 As Label
+    Friend WithEvents TextBox105 As TextBox
+    Friend WithEvents Label305 As Label
+    Friend WithEvents DateTimePicker45 As DateTimePicker
+    Friend WithEvents Label304 As Label
+    Friend WithEvents Label321 As Label
+    Friend WithEvents Label242 As Label
+    Friend WithEvents Label302 As Label
+    Friend WithEvents Label320 As Label
+    Friend WithEvents Label264 As Label
+    Friend WithEvents Panel67 As Panel
+    Friend WithEvents Label317 As Label
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents Panel75 As Panel
+    Friend WithEvents TextBox498 As TextBox
+    Friend WithEvents TextBox497 As TextBox
+    Friend WithEvents TextBox135 As TextBox
+    Friend WithEvents TextBox496 As TextBox
+    Friend WithEvents TextBox136 As TextBox
+    Friend WithEvents TextBox493 As TextBox
+    Friend WithEvents TextBox137 As TextBox
+    Friend WithEvents TextBox249 As TextBox
+    Friend WithEvents ComboBox271 As ComboBox
+    Friend WithEvents ComboBox268 As ComboBox
+    Friend WithEvents ComboBox7 As ComboBox
+    Friend WithEvents ComboBox221 As ComboBox
+    Friend WithEvents ComboBox222 As ComboBox
+    Friend WithEvents ComboBox277 As ComboBox
+    Friend WithEvents ComboBox223 As ComboBox
+    Friend WithEvents ComboBox224 As ComboBox
+    Friend WithEvents ComboBox225 As ComboBox
+    Friend WithEvents ComboBox226 As ComboBox
+    Friend WithEvents ComboBox227 As ComboBox
+    Friend WithEvents ComboBox228 As ComboBox
+    Friend WithEvents ComboBox229 As ComboBox
+    Friend WithEvents ComboBox230 As ComboBox
+    Friend WithEvents Label565 As Label
+    Friend WithEvents Label546 As Label
+    Friend WithEvents ComboBox270 As ComboBox
+    Friend WithEvents ComboBox269 As ComboBox
+    Friend WithEvents Label564 As Label
+    Friend WithEvents Label406 As Label
+    Friend WithEvents ComboBox231 As ComboBox
+    Friend WithEvents ComboBox232 As ComboBox
+    Friend WithEvents Label569 As Label
+    Friend WithEvents Label567 As Label
+    Friend WithEvents Label563 As Label
+    Friend WithEvents Label560 As Label
+    Friend WithEvents Label562 As Label
+    Friend WithEvents Label559 As Label
+    Friend WithEvents Label561 As Label
+    Friend WithEvents Label547 As Label
+    Friend WithEvents Label407 As Label
+    Friend WithEvents Label539 As Label
+    Friend WithEvents Label408 As Label
+    Friend WithEvents Label434 As Label
+    Friend WithEvents Label409 As Label
+    Friend WithEvents Label410 As Label
+    Friend WithEvents Panel76 As Panel
+    Friend WithEvents Label412 As Label
+    Friend WithEvents Label413 As Label
+    Friend WithEvents Label414 As Label
+    Friend WithEvents Label415 As Label
+    Friend WithEvents Button53 As Button
+    Friend WithEvents TextBox207 As TextBox
+    Friend WithEvents Button55 As Button
+    Friend WithEvents Label598 As Label
+    Friend WithEvents TextBox246 As TextBox
+    Friend WithEvents TextBox204 As TextBox
+    Friend WithEvents Label416 As Label
+    Friend WithEvents TextBox203 As TextBox
+    Friend WithEvents TextBox248 As TextBox
+    Friend WithEvents TextBox247 As TextBox
+    Friend WithEvents TextBox175 As TextBox
+    Friend WithEvents Label417 As Label
+    Friend WithEvents TextBox242 As TextBox
+    Friend WithEvents Label418 As Label
+    Friend WithEvents Label419 As Label
+    Friend WithEvents Label420 As Label
+    Friend WithEvents Label421 As Label
+    Friend WithEvents Label422 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents DateTimePicker9 As DateTimePicker
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents CheckBox6 As CheckBox
+    Friend WithEvents Label4 As Label
+    Friend WithEvents CheckBox7 As CheckBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents CheckBox8 As CheckBox
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents CheckBox9 As CheckBox
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents CheckBox10 As CheckBox
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents Label8 As Label
+    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label41 As Label
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label43 As Label
+    Friend WithEvents Label44 As Label
+    Friend WithEvents Button56 As Button
+    Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents DateTimePicker3 As DateTimePicker
+    Friend WithEvents Label48 As Label
+    Friend WithEvents DateTimePicker4 As DateTimePicker
+    Friend WithEvents Button57 As Button
+    Friend WithEvents DateTimePicker8 As DateTimePicker
+    Friend WithEvents DateTimePicker19 As DateTimePicker
+    Friend WithEvents DateTimePicker49 As DateTimePicker
+    Friend WithEvents DateTimePicker50 As DateTimePicker
+    Friend WithEvents DateTimePicker51 As DateTimePicker
+    Friend WithEvents DateTimePicker52 As DateTimePicker
+    Friend WithEvents DateTimePicker54 As DateTimePicker
+    Friend WithEvents TextBox160 As TextBox
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents TextBox153 As TextBox
+    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents TextBox147 As TextBox
+    Friend WithEvents TextBox151 As TextBox
+    Friend WithEvents TextBox159 As TextBox
+    Friend WithEvents TextBox152 As TextBox
+    Friend WithEvents TextBox154 As TextBox
+    Friend WithEvents TextBox155 As TextBox
+    Friend WithEvents TextBox156 As TextBox
+    Friend WithEvents TextBox157 As TextBox
+    Friend WithEvents TextBox158 As TextBox
+    Friend WithEvents TextBox161 As TextBox
+    Friend WithEvents Label67 As Label
+    Friend WithEvents Label58 As Label
+    Friend WithEvents Label69 As Label
+    Friend WithEvents Label45 As Label
+    Friend WithEvents Label50 As Label
+    Friend WithEvents Label47 As Label
+    Friend WithEvents Label49 As Label
+    Friend WithEvents Label55 As Label
+    Friend WithEvents Label52 As Label
+    Friend WithEvents Label51 As Label
+    Friend WithEvents Label53 As Label
+    Friend WithEvents RadioButton75 As RadioButton
+    Friend WithEvents RadioButton90 As RadioButton
+    Friend WithEvents TextBox162 As TextBox
+    Friend WithEvents TextBox163 As TextBox
+    Friend WithEvents TextBox164 As TextBox
+    Friend WithEvents TextBox165 As TextBox
+    Friend WithEvents TextBox166 As TextBox
+    Friend WithEvents TextBox167 As TextBox
+    Friend WithEvents TextBox168 As TextBox
+    Friend WithEvents TextBox169 As TextBox
+    Friend WithEvents TextBox170 As TextBox
+    Friend WithEvents TextBox171 As TextBox
+    Friend WithEvents TextBox172 As TextBox
+    Friend WithEvents TextBox173 As TextBox
+    Friend WithEvents TextBox174 As TextBox
+    Friend WithEvents TextBox138 As TextBox
+    Friend WithEvents TextBox176 As TextBox
+    Friend WithEvents TextBox177 As TextBox
+    Friend WithEvents TextBox178 As TextBox
+    Friend WithEvents TextBox179 As TextBox
+    Friend WithEvents TextBox180 As TextBox
+    Friend WithEvents TextBox181 As TextBox
+    Friend WithEvents TextBox182 As TextBox
+    Friend WithEvents TextBox183 As TextBox
+    Friend WithEvents TextBox184 As TextBox
+    Friend WithEvents TextBox185 As TextBox
+    Friend WithEvents TextBox186 As TextBox
+    Friend WithEvents TextBox187 As TextBox
+    Friend WithEvents TextBox188 As TextBox
+    Friend WithEvents TextBox189 As TextBox
+    Friend WithEvents TextBox190 As TextBox
+    Friend WithEvents TextBox191 As TextBox
+    Friend WithEvents TextBox192 As TextBox
+    Friend WithEvents TextBox193 As TextBox
+    Friend WithEvents TextBox194 As TextBox
+    Friend WithEvents TextBox195 As TextBox
+    Friend WithEvents TextBox196 As TextBox
+    Friend WithEvents TextBox197 As TextBox
+    Friend WithEvents TextBox198 As TextBox
+    Friend WithEvents TextBox199 As TextBox
+    Friend WithEvents TextBox200 As TextBox
+    Friend WithEvents TextBox201 As TextBox
+    Friend WithEvents TextBox202 As TextBox
+    Friend WithEvents TextBox139 As TextBox
+    Friend WithEvents TextBox140 As TextBox
+    Friend WithEvents TextBox205 As TextBox
+    Friend WithEvents TextBox206 As TextBox
+    Friend WithEvents TextBox141 As TextBox
+    Friend WithEvents TextBox208 As TextBox
+    Friend WithEvents TextBox209 As TextBox
+    Friend WithEvents TextBox210 As TextBox
+    Friend WithEvents TextBox211 As TextBox
+    Friend WithEvents TextBox212 As TextBox
+    Friend WithEvents TextBox213 As TextBox
+    Friend WithEvents TextBox214 As TextBox
+    Friend WithEvents TextBox215 As TextBox
+    Friend WithEvents TextBox216 As TextBox
+    Friend WithEvents Label54 As Label
+    Friend WithEvents Label56 As Label
+    Friend WithEvents Label57 As Label
+    Friend WithEvents Label59 As Label
+    Friend WithEvents Label60 As Label
+    Friend WithEvents Label66 As Label
+    Friend WithEvents Label68 As Label
+    Friend WithEvents Label151 As Label
+    Friend WithEvents Label322 As Label
+>>>>>>> pre-main
     Friend WithEvents Label423 As Label
     Friend WithEvents Label424 As Label
     Friend WithEvents Label425 As Label
@@ -21547,6 +28044,7 @@ Partial Class INSUMO
     Friend WithEvents Label427 As Label
     Friend WithEvents Label428 As Label
     Friend WithEvents Label429 As Label
+<<<<<<< HEAD
     Friend WithEvents ComboBox17 As ComboBox
     Friend WithEvents ComboBox18 As ComboBox
     Friend WithEvents ComboBox19 As ComboBox
@@ -21564,4 +28062,75 @@ Partial Class INSUMO
     Friend WithEvents CheckBox43 As CheckBox
     Friend WithEvents CheckBox41 As CheckBox
     Friend WithEvents CheckBox42 As CheckBox
+=======
+    Friend WithEvents Label430 As Label
+    Friend WithEvents Label431 As Label
+    Friend WithEvents Label432 As Label
+    Friend WithEvents Label433 As Label
+    Friend WithEvents Label435 As Label
+    Friend WithEvents Label436 As Label
+    Friend WithEvents Label437 As Label
+    Friend WithEvents Label438 As Label
+    Friend WithEvents Label439 As Label
+    Friend WithEvents Label440 As Label
+    Friend WithEvents Label441 As Label
+    Friend WithEvents Label442 As Label
+    Friend WithEvents Label443 As Label
+    Friend WithEvents Label444 As Label
+    Friend WithEvents Label445 As Label
+    Friend WithEvents Label446 As Label
+    Friend WithEvents Label447 As Label
+    Friend WithEvents Label448 As Label
+    Friend WithEvents Label449 As Label
+    Friend WithEvents Label450 As Label
+    Friend WithEvents Label451 As Label
+    Friend WithEvents Label452 As Label
+    Friend WithEvents Label453 As Label
+    Friend WithEvents Label454 As Label
+    Friend WithEvents Label455 As Label
+    Friend WithEvents Label456 As Label
+    Friend WithEvents Label457 As Label
+    Friend WithEvents Label458 As Label
+    Friend WithEvents Panel85 As Panel
+    Friend WithEvents PictureBox25 As PictureBox
+    Friend WithEvents Label459 As Label
+    Friend WithEvents Panel86 As Panel
+    Friend WithEvents RadioButton132 As RadioButton
+    Friend WithEvents RadioButton134 As RadioButton
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents Label460 As Label
+    Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents Label461 As Label
+    Friend WithEvents ComboBox6 As ComboBox
+    Friend WithEvents DateTimePicker55 As DateTimePicker
+    Friend WithEvents DateTimePicker56 As DateTimePicker
+    Friend WithEvents Label462 As Label
+    Friend WithEvents Label463 As Label
+    Friend WithEvents DateTimePicker57 As DateTimePicker
+    Friend WithEvents Label464 As Label
+    Friend WithEvents Label467 As Label
+    Friend WithEvents TextBox217 As TextBox
+    Friend WithEvents DateTimePicker58 As DateTimePicker
+    Friend WithEvents TextBox218 As TextBox
+    Friend WithEvents DateTimePicker59 As DateTimePicker
+    Friend WithEvents Label468 As Label
+    Friend WithEvents TextBox219 As TextBox
+    Friend WithEvents Label469 As Label
+    Friend WithEvents Panel87 As Panel
+    Friend WithEvents Label470 As Label
+    Friend WithEvents TextBox220 As TextBox
+    Friend WithEvents Label471 As Label
+    Friend WithEvents TextBox221 As TextBox
+    Friend WithEvents TextBox222 As TextBox
+    Friend WithEvents TextBox223 As TextBox
+    Friend WithEvents TextBox224 As TextBox
+    Friend WithEvents Label472 As Label
+    Friend WithEvents Label473 As Label
+    Friend WithEvents Label474 As Label
+    Friend WithEvents ComboBox8 As ComboBox
+    Friend WithEvents Label475 As Label
+    Friend WithEvents Panel88 As Panel
+    Friend WithEvents Label476 As Label
+    Friend WithEvents Button58 As Button
+>>>>>>> pre-main
 End Class
