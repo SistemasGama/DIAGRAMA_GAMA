@@ -1,6 +1,6 @@
 ﻿Public Class MP
     Private Sub Mensajes()
-        ToolTip1.SetToolTip(txtNroPresup1, "Ingrese el número de presupuesto previamente creado en LITOPLAN.") 'jjfff'
+        ''     ToolTip1.SetToolTip(txtNroPresup1, "Ingrese el número de presupuesto previamente creado en LITOPLAN.") 'jjfff'
 
     End Sub
 

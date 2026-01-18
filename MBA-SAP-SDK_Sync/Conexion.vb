@@ -22,30 +22,24 @@ Module Conexion
     End Sub
 
     Public Function conectarSAP(ByVal Usuario As String, ByVal Password As String) As SAPbobsCOM.Company
-
-        'Definir variables
         Dim lRetCode, ErrorCode As Long
         Dim ErrorMessage As String = ""
 
-        'Iniciar objeto de la compañia
+
         oCompany = New SAPbobsCOM.Company
 
-        'Definir datos de la coneccion
-        oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2019 '//Tipo de BD
+        oCompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_MSSQL2019
         oCompany.DbUserName = My.Settings.Usuario
-        oCompany.DbPassword = My.Settings.Password  '//Contraseña usuario sa
-        oCompany.Server = My.Settings.Servidor '//IP o servidor de SQL
-        oCompany.CompanyDB = My.Settings.DB   '//BASE DE DATOS
+        oCompany.DbPassword = My.Settings.Password
+        oCompany.Server = My.Settings.Servidor
+        oCompany.CompanyDB = My.Settings.DB
         oCompany.UserName = Usuario
-        oCompany.Password = Password  '//contraseña usuario manager
-        oCompany.language = SAPbobsCOM.BoSuppLangs.ln_English '//lenguaje de SQL, si esta en español usa SAPbobsCOM.BoSuppLangs.ln_Spanish
+        oCompany.Password = Password
+        oCompany.language = SAPbobsCOM.BoSuppLangs.ln_English
         oCompany.UseTrusted = False
 
-        'Conectar a la base de SAP B1
         lRetCode = oCompany.Connect()
 
-        'esta llamada verifica si no hubo error al conectar y guarda los valores de error en las variables pasadas.
-        'al momento de realizar transacciones tambien verifica si no hubo algun error en el transactionNotification.
         Call oCompany.GetLastError(ErrorCode, ErrorMessage)
         If (lRetCode <> 0) Then
             MsgBox("Falló la conexión a SAP: " + Str(ErrorCode) + "," + ErrorMessage)
@@ -65,8 +59,7 @@ Module Conexion
             da.Fill(dtTabla)
             desconectar()
         Catch
-            desconectar()
-            ' //MessageBox.Show(ex.Message)
+            Desconectar()
         End Try
         Return dtTabla
     End Function

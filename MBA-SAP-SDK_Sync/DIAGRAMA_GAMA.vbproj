@@ -67,10 +67,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>E4B26ED170530018D9001394B350813CF24758EA</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>B5E4532666EE47F2A2D3134FCE53C1A3ECF5227D</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>DIAGRAMA_GAMA_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>DIAGRAMA_GAMA_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -320,6 +320,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="DIAGRAMA_GAMA_1_TemporaryKey.pfx" />
     <None Include="DIAGRAMA_GAMA_TemporaryKey.pfx" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
