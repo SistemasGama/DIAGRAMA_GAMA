@@ -25,31 +25,15 @@ Partial Class OT7
         Me.components = New System.ComponentModel.Container()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OT7))
+        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle41 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle42 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle43 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle44 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -66,12 +50,12 @@ Partial Class OT7
         Dim DataGridViewCellStyle38 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle39 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle40 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle41 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle42 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle43 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle44 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle62 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle63 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle45 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle46 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle64 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle65 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle47 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle48 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle49 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -87,12 +71,12 @@ Partial Class OT7
         Dim DataGridViewCellStyle59 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle60 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle61 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle62 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle63 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle64 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle65 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle85 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle86 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle66 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle67 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle87 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle88 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle68 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle69 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle70 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -110,24 +94,24 @@ Partial Class OT7
         Dim DataGridViewCellStyle82 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle83 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle84 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle85 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle86 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle87 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle88 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle97 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle98 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle89 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle90 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle99 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle100 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle91 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle92 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle93 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle94 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle95 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle96 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle97 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle98 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle99 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle100 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle114 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle115 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle101 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle102 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle116 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle117 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle103 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle104 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle105 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -139,12 +123,12 @@ Partial Class OT7
         Dim DataGridViewCellStyle111 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle112 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle113 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle114 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle115 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle116 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle117 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle132 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle133 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle118 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle119 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle134 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle135 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle120 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle121 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle122 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -157,8 +141,22 @@ Partial Class OT7
         Dim DataGridViewCellStyle129 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle130 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle131 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle132 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle133 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Panel75 = New System.Windows.Forms.Panel()
@@ -190,24 +188,6 @@ Partial Class OT7
         Me.CheckBox102 = New System.Windows.Forms.CheckBox()
         Me.CheckBox106 = New System.Windows.Forms.CheckBox()
         Me.DgPresupuestoGral = New System.Windows.Forms.DataGridView()
-        Me.GeneralPto = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FechaLitoplan = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.LitoplanPto = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.OpcionPtoLitoplan = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.OtKilo = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Cantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ImprimirSi = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.GsXunidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TotalGs = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MedidaAncho = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MedidaAlto = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MedidaProfundidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.CodCliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.NombreCliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TrabajoNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TrabajoNombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.FechaImpPto = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ConfirmoSi = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.DateTimePicker39 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker40 = New System.Windows.Forms.DateTimePicker()
         Me.CheckBox45 = New System.Windows.Forms.CheckBox()
@@ -1354,6 +1334,24 @@ Partial Class OT7
         Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.GeneralPto = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.FechaLitoplan = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.LitoplanPto = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.OpcionPtoLitoplan = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.OtKilo = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Cantidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ImprimirSi = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.GsXunidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TotalGs = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MedidaAncho = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MedidaAlto = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MedidaProfundidad = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CodCliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.NombreCliente = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TrabajoNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TrabajoNombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.FechaImpPto = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ConfirmoSi = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel75.SuspendLayout
         Me.Panel1.SuspendLayout
@@ -1858,337 +1856,19 @@ Partial Class OT7
         Me.DgPresupuestoGral.Location = New System.Drawing.Point(9, 325)
         Me.DgPresupuestoGral.Margin = New System.Windows.Forms.Padding(2)
         Me.DgPresupuestoGral.Name = "DgPresupuestoGral"
-        DataGridViewCellStyle21.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle21.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgPresupuestoGral.RowHeadersDefaultCellStyle = DataGridViewCellStyle21
+        DataGridViewCellStyle19.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DgPresupuestoGral.RowHeadersDefaultCellStyle = DataGridViewCellStyle19
         Me.DgPresupuestoGral.RowHeadersWidth = 62
-        DataGridViewCellStyle22.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DgPresupuestoGral.RowsDefaultCellStyle = DataGridViewCellStyle22
+        DataGridViewCellStyle20.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DgPresupuestoGral.RowsDefaultCellStyle = DataGridViewCellStyle20
         Me.DgPresupuestoGral.RowTemplate.Height = 28
         Me.DgPresupuestoGral.Size = New System.Drawing.Size(1217, 218)
         Me.DgPresupuestoGral.TabIndex = 254
-        '
-        'GeneralPto
-        '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.Format = "N0"
-        DataGridViewCellStyle3.NullValue = Nothing
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
-        Me.GeneralPto.DefaultCellStyle = DataGridViewCellStyle3
-        Me.GeneralPto.DividerWidth = 5
-        Me.GeneralPto.HeaderText = "General Pto. N°"
-        Me.GeneralPto.MaxInputLength = 10
-        Me.GeneralPto.MinimumWidth = 10
-        Me.GeneralPto.Name = "GeneralPto"
-        Me.GeneralPto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.GeneralPto.ToolTipText = "Es N° de la hoja con varios Pto. de Litoplan."
-        Me.GeneralPto.Width = 130
-        '
-        'FechaLitoplan
-        '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle4.Format = "d"
-        DataGridViewCellStyle4.NullValue = Nothing
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Blue
-        Me.FechaLitoplan.DefaultCellStyle = DataGridViewCellStyle4
-        Me.FechaLitoplan.DividerWidth = 5
-        Me.FechaLitoplan.HeaderText = "Litoplan Fecha"
-        Me.FechaLitoplan.MaxInputLength = 6
-        Me.FechaLitoplan.MinimumWidth = 8
-        Me.FechaLitoplan.Name = "FechaLitoplan"
-        Me.FechaLitoplan.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.FechaLitoplan.ToolTipText = "Fecha que se gravo el calculo en LITOPLAN"
-        Me.FechaLitoplan.Width = 120
-        '
-        'LitoplanPto
-        '
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle5.Format = "N0"
-        DataGridViewCellStyle5.NullValue = Nothing
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Blue
-        Me.LitoplanPto.DefaultCellStyle = DataGridViewCellStyle5
-        Me.LitoplanPto.DividerWidth = 5
-        Me.LitoplanPto.HeaderText = "Litoplan Pto. N°"
-        Me.LitoplanPto.MaxInputLength = 10
-        Me.LitoplanPto.MinimumWidth = 8
-        Me.LitoplanPto.Name = "LitoplanPto"
-        Me.LitoplanPto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.LitoplanPto.ToolTipText = "Es N° Pto. grabado en Litoplan."
-        Me.LitoplanPto.Width = 120
-        '
-        'OpcionPtoLitoplan
-        '
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.Format = "N0"
-        DataGridViewCellStyle6.NullValue = Nothing
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OpcionPtoLitoplan.DefaultCellStyle = DataGridViewCellStyle6
-        Me.OpcionPtoLitoplan.DividerWidth = 5
-        Me.OpcionPtoLitoplan.HeaderText = "N°"
-        Me.OpcionPtoLitoplan.MaxInputLength = 1
-        Me.OpcionPtoLitoplan.MinimumWidth = 8
-        Me.OpcionPtoLitoplan.Name = "OpcionPtoLitoplan"
-        Me.OpcionPtoLitoplan.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.OpcionPtoLitoplan.ToolTipText = "Es la opcion de Pto. calculado en Litoplan."
-        Me.OpcionPtoLitoplan.Width = 40
-        '
-        'OtKilo
-        '
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.Format = "N0"
-        DataGridViewCellStyle7.NullValue = Nothing
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OtKilo.DefaultCellStyle = DataGridViewCellStyle7
-        Me.OtKilo.DividerWidth = 5
-        Me.OtKilo.HeaderText = "OT kls."
-        Me.OtKilo.MaxInputLength = 10
-        Me.OtKilo.MinimumWidth = 8
-        Me.OtKilo.Name = "OtKilo"
-        Me.OtKilo.ToolTipText = "Kilos que tiene esta OT"
-        '
-        'Cantidad
-        '
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle8.Format = "N0"
-        DataGridViewCellStyle8.NullValue = Nothing
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Blue
-        Me.Cantidad.DefaultCellStyle = DataGridViewCellStyle8
-        Me.Cantidad.DividerWidth = 5
-        Me.Cantidad.HeaderText = "Cantidad"
-        Me.Cantidad.MaxInputLength = 8
-        Me.Cantidad.MinimumWidth = 8
-        Me.Cantidad.Name = "Cantidad"
-        Me.Cantidad.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Cantidad.ToolTipText = "Es la cantidad de unidades de cajas fue solicitado el presupuesto."
-        Me.Cantidad.Width = 120
-        '
-        'ImprimirSi
-        '
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.NullValue = "False"
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Blue
-        Me.ImprimirSi.DefaultCellStyle = DataGridViewCellStyle9
-        Me.ImprimirSi.DividerWidth = 5
-        Me.ImprimirSi.FillWeight = 80.0!
-        Me.ImprimirSi.HeaderText = "Impr. Sí"
-        Me.ImprimirSi.MinimumWidth = 8
-        Me.ImprimirSi.Name = "ImprimirSi"
-        Me.ImprimirSi.ReadOnly = True
-        Me.ImprimirSi.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.ImprimirSi.ToolTipText = "Para seleccion Pto a imprimir"
-        Me.ImprimirSi.Width = 70
-        '
-        'GsXunidad
-        '
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle10.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle10.Format = "C0"
-        DataGridViewCellStyle10.NullValue = Nothing
-        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Blue
-        Me.GsXunidad.DefaultCellStyle = DataGridViewCellStyle10
-        Me.GsXunidad.DividerWidth = 5
-        Me.GsXunidad.HeaderText = "c/u Gs. "
-        Me.GsXunidad.MaxInputLength = 6
-        Me.GsXunidad.MinimumWidth = 8
-        Me.GsXunidad.Name = "GsXunidad"
-        Me.GsXunidad.ReadOnly = True
-        Me.GsXunidad.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.GsXunidad.ToolTipText = "El valor por cada caja cotizada  y puede ser ajustada."
-        Me.GsXunidad.Width = 80
-        '
-        'TotalGs
-        '
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle11.Format = "C0"
-        DataGridViewCellStyle11.NullValue = Nothing
-        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Blue
-        Me.TotalGs.DefaultCellStyle = DataGridViewCellStyle11
-        Me.TotalGs.DividerWidth = 5
-        Me.TotalGs.HeaderText = "Total Gs. "
-        Me.TotalGs.MaxInputLength = 10
-        Me.TotalGs.MinimumWidth = 8
-        Me.TotalGs.Name = "TotalGs"
-        Me.TotalGs.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.TotalGs.ToolTipText = "Es el total Gs del Pedido solicito"
-        Me.TotalGs.Width = 150
-        '
-        'MedidaAncho
-        '
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle12.Format = "N0"
-        DataGridViewCellStyle12.NullValue = Nothing
-        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MedidaAncho.DefaultCellStyle = DataGridViewCellStyle12
-        Me.MedidaAncho.DividerWidth = 5
-        Me.MedidaAncho.HeaderText = "An"
-        Me.MedidaAncho.MaxInputLength = 3
-        Me.MedidaAncho.MinimumWidth = 8
-        Me.MedidaAncho.Name = "MedidaAncho"
-        Me.MedidaAncho.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MedidaAncho.ToolTipText = "Medida Caja Armada Ancho,, segun imagen."
-        Me.MedidaAncho.Width = 70
-        '
-        'MedidaAlto
-        '
-        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle13.Format = "N0"
-        DataGridViewCellStyle13.NullValue = Nothing
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MedidaAlto.DefaultCellStyle = DataGridViewCellStyle13
-        Me.MedidaAlto.DividerWidth = 5
-        Me.MedidaAlto.HeaderText = "Al"
-        Me.MedidaAlto.MaxInputLength = 3
-        Me.MedidaAlto.MinimumWidth = 8
-        Me.MedidaAlto.Name = "MedidaAlto"
-        Me.MedidaAlto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MedidaAlto.ToolTipText = "Medida Caja Armada Alto, segun imagen."
-        Me.MedidaAlto.Width = 70
-        '
-        'MedidaProfundidad
-        '
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle14.Format = "N0"
-        DataGridViewCellStyle14.NullValue = Nothing
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MedidaProfundidad.DefaultCellStyle = DataGridViewCellStyle14
-        Me.MedidaProfundidad.DividerWidth = 5
-        Me.MedidaProfundidad.HeaderText = "Pr"
-        Me.MedidaProfundidad.MaxInputLength = 3
-        Me.MedidaProfundidad.MinimumWidth = 8
-        Me.MedidaProfundidad.Name = "MedidaProfundidad"
-        Me.MedidaProfundidad.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MedidaProfundidad.ToolTipText = "Medida Caja Armada Profundida, segun imagen."
-        Me.MedidaProfundidad.Width = 70
-        '
-        'CodCliente
-        '
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.NullValue = Nothing
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Blue
-        Me.CodCliente.DefaultCellStyle = DataGridViewCellStyle15
-        Me.CodCliente.DividerWidth = 5
-        Me.CodCliente.HeaderText = "Cod. Cliente"
-        Me.CodCliente.MaxInputLength = 12
-        Me.CodCliente.MinimumWidth = 8
-        Me.CodCliente.Name = "CodCliente"
-        Me.CodCliente.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.CodCliente.ToolTipText = "Es el numero asiginado al registrar en forma automatica."
-        Me.CodCliente.Width = 130
-        '
-        'NombreCliente
-        '
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle16.Format = "N0"
-        DataGridViewCellStyle16.NullValue = Nothing
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Blue
-        Me.NombreCliente.DefaultCellStyle = DataGridViewCellStyle16
-        Me.NombreCliente.DividerWidth = 5
-        Me.NombreCliente.HeaderText = "Nombre del Cliente"
-        Me.NombreCliente.MaxInputLength = 200
-        Me.NombreCliente.MinimumWidth = 8
-        Me.NombreCliente.Name = "NombreCliente"
-        Me.NombreCliente.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.NombreCliente.ToolTipText = "Razon social con la que se factura"
-        Me.NombreCliente.Width = 200
-        '
-        'TrabajoNumero
-        '
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle17.Format = "N0"
-        DataGridViewCellStyle17.NullValue = Nothing
-        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Blue
-        Me.TrabajoNumero.DefaultCellStyle = DataGridViewCellStyle17
-        Me.TrabajoNumero.DividerWidth = 5
-        Me.TrabajoNumero.HeaderText = "Trabajo N°"
-        Me.TrabajoNumero.MaxInputLength = 10
-        Me.TrabajoNumero.MinimumWidth = 8
-        Me.TrabajoNumero.Name = "TrabajoNumero"
-        Me.TrabajoNumero.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.TrabajoNumero.ToolTipText = "Trabajo N° corrido."
-        '
-        'TrabajoNombre
-        '
-        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Blue
-        Me.TrabajoNombre.DefaultCellStyle = DataGridViewCellStyle18
-        Me.TrabajoNombre.DividerWidth = 5
-        Me.TrabajoNombre.HeaderText = "Trabajo Nombre"
-        Me.TrabajoNombre.MaxInputLength = 250
-        Me.TrabajoNombre.MinimumWidth = 8
-        Me.TrabajoNombre.Name = "TrabajoNombre"
-        Me.TrabajoNombre.ToolTipText = "Trabajo el Nombre"
-        Me.TrabajoNombre.Width = 250
-        '
-        'FechaImpPto
-        '
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle19.Format = "g"
-        DataGridViewCellStyle19.NullValue = Nothing
-        Me.FechaImpPto.DefaultCellStyle = DataGridViewCellStyle19
-        Me.FechaImpPto.DividerWidth = 5
-        Me.FechaImpPto.HeaderText = "Imprimio Fecha"
-        Me.FechaImpPto.MaxInputLength = 13
-        Me.FechaImpPto.MinimumWidth = 8
-        Me.FechaImpPto.Name = "FechaImpPto"
-        Me.FechaImpPto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.FechaImpPto.ToolTipText = "Fecha que se Imprimio el Pto."
-        Me.FechaImpPto.Width = 150
-        '
-        'ConfirmoSi
-        '
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle20.NullValue = "False"
-        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.Blue
-        Me.ConfirmoSi.DefaultCellStyle = DataGridViewCellStyle20
-        Me.ConfirmoSi.DividerWidth = 5
-        Me.ConfirmoSi.FalseValue = ""
-        Me.ConfirmoSi.FillWeight = 80.0!
-        Me.ConfirmoSi.HeaderText = "Conf. Sí"
-        Me.ConfirmoSi.MinimumWidth = 8
-        Me.ConfirmoSi.Name = "ConfirmoSi"
-        Me.ConfirmoSi.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.ConfirmoSi.ToolTipText = "Esta CONFIRMADO por el cliente el Pto."
-        Me.ConfirmoSi.Width = 70
         '
         'DateTimePicker39
         '
@@ -3428,47 +3108,47 @@ Partial Class OT7
         '
         'DataGridView8
         '
-        DataGridViewCellStyle23.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView8.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle21.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView8.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle21
         Me.DataGridView8.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView8.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle22.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView8.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle22
         Me.DataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView8.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn40, Me.DataGridViewTextBoxColumn42, Me.DataGridViewTextBoxColumn43, Me.CajaAncho, Me.cajaAlto, Me.CajaProfundidad, Me.DataGridViewTextBoxColumn41, Me.DataGridViewTextBoxColumn44, Me.DataGridViewTextBoxColumn46, Me.DataGridViewTextBoxColumn47, Me.AproboPresupuesto, Me.KilosOt, Me.DataGridViewTextBoxColumn48, Me.DataGridViewTextBoxColumn49, Me.CodTrabajo, Me.NombTrabaj, Me.CodigoClienteTroquel, Me.TroquelGamaNumero, Me.OtN})
         Me.DataGridView8.Location = New System.Drawing.Point(11, 320)
         Me.DataGridView8.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView8.Name = "DataGridView8"
-        DataGridViewCellStyle43.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle43.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle43.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle43.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle43.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView8.RowHeadersDefaultCellStyle = DataGridViewCellStyle43
+        DataGridViewCellStyle41.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle41.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle41.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle41.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle41.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle41.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView8.RowHeadersDefaultCellStyle = DataGridViewCellStyle41
         Me.DataGridView8.RowHeadersWidth = 62
-        DataGridViewCellStyle44.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView8.RowsDefaultCellStyle = DataGridViewCellStyle44
+        DataGridViewCellStyle42.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView8.RowsDefaultCellStyle = DataGridViewCellStyle42
         Me.DataGridView8.RowTemplate.Height = 28
         Me.DataGridView8.Size = New System.Drawing.Size(1215, 206)
         Me.DataGridView8.TabIndex = 255
         '
         'DataGridViewTextBoxColumn40
         '
-        DataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle25.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle25.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle25.Format = "N0"
-        DataGridViewCellStyle25.NullValue = Nothing
-        DataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.Blue
-        DataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.White
-        Me.DataGridViewTextBoxColumn40.DefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle23.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle23.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle23.Format = "N0"
+        DataGridViewCellStyle23.NullValue = Nothing
+        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.White
+        Me.DataGridViewTextBoxColumn40.DefaultCellStyle = DataGridViewCellStyle23
         Me.DataGridViewTextBoxColumn40.DividerWidth = 5
         Me.DataGridViewTextBoxColumn40.HeaderText = "General Pto. N°"
         Me.DataGridViewTextBoxColumn40.MaxInputLength = 10
@@ -3479,13 +3159,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn42
         '
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle26.Format = "N0"
-        DataGridViewCellStyle26.NullValue = Nothing
-        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn42.DefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle24.Format = "N0"
+        DataGridViewCellStyle24.NullValue = Nothing
+        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn42.DefaultCellStyle = DataGridViewCellStyle24
         Me.DataGridViewTextBoxColumn42.DividerWidth = 5
         Me.DataGridViewTextBoxColumn42.HeaderText = "Litoplan Pto. N°"
         Me.DataGridViewTextBoxColumn42.MaxInputLength = 10
@@ -3496,13 +3176,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn43
         '
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle27.Format = "N0"
-        DataGridViewCellStyle27.NullValue = Nothing
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn43.DefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle25.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle25.Format = "N0"
+        DataGridViewCellStyle25.NullValue = Nothing
+        DataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn43.DefaultCellStyle = DataGridViewCellStyle25
         Me.DataGridViewTextBoxColumn43.DividerWidth = 5
         Me.DataGridViewTextBoxColumn43.HeaderText = "N°"
         Me.DataGridViewTextBoxColumn43.MaxInputLength = 1
@@ -3514,13 +3194,13 @@ Partial Class OT7
         '
         'CajaAncho
         '
-        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle28.Format = "N0"
-        DataGridViewCellStyle28.NullValue = Nothing
-        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.Blue
-        Me.CajaAncho.DefaultCellStyle = DataGridViewCellStyle28
+        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle26.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle26.Format = "N0"
+        DataGridViewCellStyle26.NullValue = Nothing
+        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.Blue
+        Me.CajaAncho.DefaultCellStyle = DataGridViewCellStyle26
         Me.CajaAncho.DividerWidth = 5
         Me.CajaAncho.HeaderText = "An."
         Me.CajaAncho.MaxInputLength = 3
@@ -3531,13 +3211,13 @@ Partial Class OT7
         '
         'cajaAlto
         '
-        DataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle29.Format = "N0"
-        DataGridViewCellStyle29.NullValue = Nothing
-        DataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.Blue
-        Me.cajaAlto.DefaultCellStyle = DataGridViewCellStyle29
+        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle27.Format = "N0"
+        DataGridViewCellStyle27.NullValue = Nothing
+        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.Blue
+        Me.cajaAlto.DefaultCellStyle = DataGridViewCellStyle27
         Me.cajaAlto.DividerWidth = 5
         Me.cajaAlto.HeaderText = "Al."
         Me.cajaAlto.MaxInputLength = 3
@@ -3548,13 +3228,13 @@ Partial Class OT7
         '
         'CajaProfundidad
         '
-        DataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle30.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle30.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle30.Format = "N0"
-        DataGridViewCellStyle30.NullValue = Nothing
-        DataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.Blue
-        Me.CajaProfundidad.DefaultCellStyle = DataGridViewCellStyle30
+        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle28.Format = "N0"
+        DataGridViewCellStyle28.NullValue = Nothing
+        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.Blue
+        Me.CajaProfundidad.DefaultCellStyle = DataGridViewCellStyle28
         Me.CajaProfundidad.DividerWidth = 5
         Me.CajaProfundidad.HeaderText = "Pr."
         Me.CajaProfundidad.MaxInputLength = 3
@@ -3565,13 +3245,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn41
         '
-        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle31.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle31.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle31.Format = "d"
-        DataGridViewCellStyle31.NullValue = Nothing
-        DataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn41.DefaultCellStyle = DataGridViewCellStyle31
+        DataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle29.Format = "d"
+        DataGridViewCellStyle29.NullValue = Nothing
+        DataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn41.DefaultCellStyle = DataGridViewCellStyle29
         Me.DataGridViewTextBoxColumn41.DividerWidth = 5
         Me.DataGridViewTextBoxColumn41.HeaderText = "Litoplan Fecha"
         Me.DataGridViewTextBoxColumn41.MaxInputLength = 6
@@ -3583,13 +3263,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn44
         '
-        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle32.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle32.Format = "N0"
-        DataGridViewCellStyle32.NullValue = Nothing
-        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn44.DefaultCellStyle = DataGridViewCellStyle32
+        DataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle30.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle30.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle30.Format = "N0"
+        DataGridViewCellStyle30.NullValue = Nothing
+        DataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn44.DefaultCellStyle = DataGridViewCellStyle30
         Me.DataGridViewTextBoxColumn44.DividerWidth = 5
         Me.DataGridViewTextBoxColumn44.HeaderText = "Cantidad"
         Me.DataGridViewTextBoxColumn44.MaxInputLength = 8
@@ -3601,13 +3281,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn46
         '
-        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle33.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle33.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle33.Format = "C0"
-        DataGridViewCellStyle33.NullValue = Nothing
-        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.DataGridViewTextBoxColumn46.DefaultCellStyle = DataGridViewCellStyle33
+        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle31.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle31.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle31.Format = "C0"
+        DataGridViewCellStyle31.NullValue = Nothing
+        DataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DataGridViewTextBoxColumn46.DefaultCellStyle = DataGridViewCellStyle31
         Me.DataGridViewTextBoxColumn46.DividerWidth = 5
         Me.DataGridViewTextBoxColumn46.HeaderText = "c/u Gs. "
         Me.DataGridViewTextBoxColumn46.MaxInputLength = 6
@@ -3620,13 +3300,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn47
         '
-        DataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle34.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle34.Format = "C0"
-        DataGridViewCellStyle34.NullValue = Nothing
-        DataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn47.DefaultCellStyle = DataGridViewCellStyle34
+        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle32.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle32.Format = "C0"
+        DataGridViewCellStyle32.NullValue = Nothing
+        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn47.DefaultCellStyle = DataGridViewCellStyle32
         Me.DataGridViewTextBoxColumn47.DividerWidth = 5
         Me.DataGridViewTextBoxColumn47.HeaderText = "Total Gs. "
         Me.DataGridViewTextBoxColumn47.MaxInputLength = 10
@@ -3638,12 +3318,12 @@ Partial Class OT7
         '
         'AproboPresupuesto
         '
-        DataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle35.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle35.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle35.NullValue = False
-        DataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.Blue
-        Me.AproboPresupuesto.DefaultCellStyle = DataGridViewCellStyle35
+        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle33.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle33.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle33.NullValue = False
+        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.Blue
+        Me.AproboPresupuesto.DefaultCellStyle = DataGridViewCellStyle33
         Me.AproboPresupuesto.DividerWidth = 5
         Me.AproboPresupuesto.HeaderText = "Apro."
         Me.AproboPresupuesto.MinimumWidth = 8
@@ -3663,13 +3343,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn48
         '
-        DataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle36.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle36.Format = "N0"
-        DataGridViewCellStyle36.NullValue = Nothing
-        DataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn48.DefaultCellStyle = DataGridViewCellStyle36
+        DataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle34.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle34.Format = "N0"
+        DataGridViewCellStyle34.NullValue = Nothing
+        DataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn48.DefaultCellStyle = DataGridViewCellStyle34
         Me.DataGridViewTextBoxColumn48.DividerWidth = 5
         Me.DataGridViewTextBoxColumn48.HeaderText = "Cod. Cliente"
         Me.DataGridViewTextBoxColumn48.MaxInputLength = 10
@@ -3680,12 +3360,12 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn49
         '
-        DataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle37.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle37.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle37.NullValue = Nothing
-        DataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn49.DefaultCellStyle = DataGridViewCellStyle37
+        DataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle35.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle35.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle35.NullValue = Nothing
+        DataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn49.DefaultCellStyle = DataGridViewCellStyle35
         Me.DataGridViewTextBoxColumn49.DividerWidth = 5
         Me.DataGridViewTextBoxColumn49.HeaderText = "Nombre del Cliente"
         Me.DataGridViewTextBoxColumn49.MaxInputLength = 200
@@ -3696,13 +3376,13 @@ Partial Class OT7
         '
         'CodTrabajo
         '
-        DataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle38.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle38.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle38.Format = "N0"
-        DataGridViewCellStyle38.NullValue = Nothing
-        DataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.Blue
-        Me.CodTrabajo.DefaultCellStyle = DataGridViewCellStyle38
+        DataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle36.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle36.Format = "N0"
+        DataGridViewCellStyle36.NullValue = Nothing
+        DataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.Blue
+        Me.CodTrabajo.DefaultCellStyle = DataGridViewCellStyle36
         Me.CodTrabajo.DividerWidth = 5
         Me.CodTrabajo.HeaderText = "Cod. Cli. Trabajo"
         Me.CodTrabajo.MaxInputLength = 10
@@ -3714,12 +3394,12 @@ Partial Class OT7
         '
         'NombTrabaj
         '
-        DataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle39.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle39.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle39.NullValue = Nothing
-        DataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.Blue
-        Me.NombTrabaj.DefaultCellStyle = DataGridViewCellStyle39
+        DataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle37.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle37.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle37.NullValue = Nothing
+        DataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.Blue
+        Me.NombTrabaj.DefaultCellStyle = DataGridViewCellStyle37
         Me.NombTrabaj.DividerWidth = 5
         Me.NombTrabaj.HeaderText = "Nonbre Trabajo"
         Me.NombTrabaj.MaxInputLength = 300
@@ -3731,12 +3411,12 @@ Partial Class OT7
         '
         'CodigoClienteTroquel
         '
-        DataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle40.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle40.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle40.NullValue = Nothing
-        DataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.Blue
-        Me.CodigoClienteTroquel.DefaultCellStyle = DataGridViewCellStyle40
+        DataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle38.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle38.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle38.NullValue = Nothing
+        DataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.Blue
+        Me.CodigoClienteTroquel.DefaultCellStyle = DataGridViewCellStyle38
         Me.CodigoClienteTroquel.DividerWidth = 5
         Me.CodigoClienteTroquel.HeaderText = "Cod. Cli. Tr."
         Me.CodigoClienteTroquel.MaxInputLength = 10
@@ -3747,11 +3427,11 @@ Partial Class OT7
         '
         'TroquelGamaNumero
         '
-        DataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle41.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle41.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle41.SelectionBackColor = System.Drawing.Color.Blue
-        Me.TroquelGamaNumero.DefaultCellStyle = DataGridViewCellStyle41
+        DataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle39.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle39.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.Blue
+        Me.TroquelGamaNumero.DefaultCellStyle = DataGridViewCellStyle39
         Me.TroquelGamaNumero.DividerWidth = 5
         Me.TroquelGamaNumero.HeaderText = "Tr. G. N°"
         Me.TroquelGamaNumero.MaxInputLength = 10
@@ -3761,11 +3441,11 @@ Partial Class OT7
         '
         'OtN
         '
-        DataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle42.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle42.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle42.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OtN.DefaultCellStyle = DataGridViewCellStyle42
+        DataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle40.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle40.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OtN.DefaultCellStyle = DataGridViewCellStyle40
         Me.OtN.DividerWidth = 5
         Me.OtN.HeaderText = "OT N°"
         Me.OtN.MaxInputLength = 10
@@ -4829,47 +4509,47 @@ Partial Class OT7
         '
         'DataGridView4
         '
-        DataGridViewCellStyle45.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle45
+        DataGridViewCellStyle43.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle43
         Me.DataGridView4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle46.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle46.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle46.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle46.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle46
+        DataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle44.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle44.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle44
         Me.DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView4.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn12, Me.DataGridViewTextBoxColumn14, Me.DataGridViewTextBoxColumn15, Me.DataGridViewTextBoxColumn13, Me.DataGridViewTextBoxColumn27, Me.DataGridViewTextBoxColumn28, Me.DataGridViewTextBoxColumn23, Me.Otkls, Me.DataGridViewTextBoxColumn24, Me.DataGridViewTextBoxColumn25, Me.DataGridViewTextBoxColumn26, Me.OcClienteFecha, Me.OcClienteNumero, Me.OcGsUnidad, Me.OcPegadoFinGs, Me.OcExpedicionGs, Me.OcFacturoGs, Me.OcCobroGs})
         Me.DataGridView4.Location = New System.Drawing.Point(11, 313)
         Me.DataGridView4.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView4.Name = "DataGridView4"
-        DataGridViewCellStyle64.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle64.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle64.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle64.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle64.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle64.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView4.RowHeadersDefaultCellStyle = DataGridViewCellStyle64
+        DataGridViewCellStyle62.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle62.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle62.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle62.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle62.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView4.RowHeadersDefaultCellStyle = DataGridViewCellStyle62
         Me.DataGridView4.RowHeadersWidth = 62
-        DataGridViewCellStyle65.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView4.RowsDefaultCellStyle = DataGridViewCellStyle65
+        DataGridViewCellStyle63.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView4.RowsDefaultCellStyle = DataGridViewCellStyle63
         Me.DataGridView4.RowTemplate.Height = 28
         Me.DataGridView4.Size = New System.Drawing.Size(1215, 210)
         Me.DataGridView4.TabIndex = 255
         '
         'DataGridViewTextBoxColumn12
         '
-        DataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle47.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle47.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle47.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle47.Format = "N0"
-        DataGridViewCellStyle47.NullValue = Nothing
-        DataGridViewCellStyle47.SelectionBackColor = System.Drawing.Color.Blue
-        DataGridViewCellStyle47.SelectionForeColor = System.Drawing.Color.White
-        Me.DataGridViewTextBoxColumn12.DefaultCellStyle = DataGridViewCellStyle47
+        DataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle45.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle45.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle45.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle45.Format = "N0"
+        DataGridViewCellStyle45.NullValue = Nothing
+        DataGridViewCellStyle45.SelectionBackColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle45.SelectionForeColor = System.Drawing.Color.White
+        Me.DataGridViewTextBoxColumn12.DefaultCellStyle = DataGridViewCellStyle45
         Me.DataGridViewTextBoxColumn12.DividerWidth = 5
         Me.DataGridViewTextBoxColumn12.HeaderText = "General Pto. N°"
         Me.DataGridViewTextBoxColumn12.MaxInputLength = 10
@@ -4881,11 +4561,11 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn14
         '
-        DataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle48.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle48.Format = "N0"
-        DataGridViewCellStyle48.NullValue = Nothing
-        Me.DataGridViewTextBoxColumn14.DefaultCellStyle = DataGridViewCellStyle48
+        DataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle46.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle46.Format = "N0"
+        DataGridViewCellStyle46.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn14.DefaultCellStyle = DataGridViewCellStyle46
         Me.DataGridViewTextBoxColumn14.DividerWidth = 5
         Me.DataGridViewTextBoxColumn14.HeaderText = "Litoplan Pto. N°"
         Me.DataGridViewTextBoxColumn14.MaxInputLength = 10
@@ -4897,13 +4577,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn15
         '
-        DataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle49.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle49.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle49.Format = "N0"
-        DataGridViewCellStyle49.NullValue = Nothing
-        DataGridViewCellStyle49.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn15.DefaultCellStyle = DataGridViewCellStyle49
+        DataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle47.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle47.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle47.Format = "N0"
+        DataGridViewCellStyle47.NullValue = Nothing
+        DataGridViewCellStyle47.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn15.DefaultCellStyle = DataGridViewCellStyle47
         Me.DataGridViewTextBoxColumn15.DividerWidth = 5
         Me.DataGridViewTextBoxColumn15.HeaderText = "N°"
         Me.DataGridViewTextBoxColumn15.MaxInputLength = 1
@@ -4915,13 +4595,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn13
         '
-        DataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle50.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle50.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle50.Format = "d"
-        DataGridViewCellStyle50.NullValue = Nothing
-        DataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn13.DefaultCellStyle = DataGridViewCellStyle50
+        DataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle48.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle48.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle48.Format = "d"
+        DataGridViewCellStyle48.NullValue = Nothing
+        DataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn13.DefaultCellStyle = DataGridViewCellStyle48
         Me.DataGridViewTextBoxColumn13.DividerWidth = 5
         Me.DataGridViewTextBoxColumn13.HeaderText = "Litoplan Fecha"
         Me.DataGridViewTextBoxColumn13.MaxInputLength = 6
@@ -4933,11 +4613,11 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn27
         '
-        DataGridViewCellStyle51.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle51.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle51.NullValue = Nothing
-        DataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn27.DefaultCellStyle = DataGridViewCellStyle51
+        DataGridViewCellStyle49.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle49.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle49.NullValue = Nothing
+        DataGridViewCellStyle49.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn27.DefaultCellStyle = DataGridViewCellStyle49
         Me.DataGridViewTextBoxColumn27.DividerWidth = 5
         Me.DataGridViewTextBoxColumn27.HeaderText = "Cod. Cliente"
         Me.DataGridViewTextBoxColumn27.MaxInputLength = 12
@@ -4948,11 +4628,11 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn28
         '
-        DataGridViewCellStyle52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle52.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle52.NullValue = Nothing
-        DataGridViewCellStyle52.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn28.DefaultCellStyle = DataGridViewCellStyle52
+        DataGridViewCellStyle50.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle50.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle50.NullValue = Nothing
+        DataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn28.DefaultCellStyle = DataGridViewCellStyle50
         Me.DataGridViewTextBoxColumn28.DividerWidth = 5
         Me.DataGridViewTextBoxColumn28.HeaderText = "Nombre del Cliente"
         Me.DataGridViewTextBoxColumn28.MaxInputLength = 200
@@ -4975,11 +4655,11 @@ Partial Class OT7
         '
         'Otkls
         '
-        DataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle53.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle53.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle53.SelectionBackColor = System.Drawing.Color.Blue
-        Me.Otkls.DefaultCellStyle = DataGridViewCellStyle53
+        DataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle51.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle51.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.Blue
+        Me.Otkls.DefaultCellStyle = DataGridViewCellStyle51
         Me.Otkls.DividerWidth = 5
         Me.Otkls.HeaderText = "OT Kls."
         Me.Otkls.MaxInputLength = 10
@@ -4990,13 +4670,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn24
         '
-        DataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle54.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle54.Format = "N0"
-        DataGridViewCellStyle54.NullValue = Nothing
-        DataGridViewCellStyle54.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn24.DefaultCellStyle = DataGridViewCellStyle54
+        DataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle52.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle52.Format = "N0"
+        DataGridViewCellStyle52.NullValue = Nothing
+        DataGridViewCellStyle52.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn24.DefaultCellStyle = DataGridViewCellStyle52
         Me.DataGridViewTextBoxColumn24.DividerWidth = 5
         Me.DataGridViewTextBoxColumn24.HeaderText = "Cantidad"
         Me.DataGridViewTextBoxColumn24.MaxInputLength = 8
@@ -5008,13 +4688,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn25
         '
-        DataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle55.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle55.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle55.Format = "C0"
-        DataGridViewCellStyle55.NullValue = Nothing
-        DataGridViewCellStyle55.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn25.DefaultCellStyle = DataGridViewCellStyle55
+        DataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle53.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle53.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle53.Format = "C0"
+        DataGridViewCellStyle53.NullValue = Nothing
+        DataGridViewCellStyle53.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn25.DefaultCellStyle = DataGridViewCellStyle53
         Me.DataGridViewTextBoxColumn25.DividerWidth = 5
         Me.DataGridViewTextBoxColumn25.HeaderText = "c/u Gs. "
         Me.DataGridViewTextBoxColumn25.MaxInputLength = 6
@@ -5026,13 +4706,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn26
         '
-        DataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle56.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle56.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle56.Format = "C0"
-        DataGridViewCellStyle56.NullValue = Nothing
-        DataGridViewCellStyle56.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn26.DefaultCellStyle = DataGridViewCellStyle56
+        DataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle54.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle54.Format = "C0"
+        DataGridViewCellStyle54.NullValue = Nothing
+        DataGridViewCellStyle54.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn26.DefaultCellStyle = DataGridViewCellStyle54
         Me.DataGridViewTextBoxColumn26.DividerWidth = 5
         Me.DataGridViewTextBoxColumn26.HeaderText = "Total Gs. "
         Me.DataGridViewTextBoxColumn26.MaxInputLength = 10
@@ -5044,12 +4724,12 @@ Partial Class OT7
         '
         'OcClienteFecha
         '
-        DataGridViewCellStyle57.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle57.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle57.Format = "d"
-        DataGridViewCellStyle57.NullValue = Nothing
-        DataGridViewCellStyle57.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OcClienteFecha.DefaultCellStyle = DataGridViewCellStyle57
+        DataGridViewCellStyle55.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle55.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle55.Format = "d"
+        DataGridViewCellStyle55.NullValue = Nothing
+        DataGridViewCellStyle55.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OcClienteFecha.DefaultCellStyle = DataGridViewCellStyle55
         Me.OcClienteFecha.DividerWidth = 5
         Me.OcClienteFecha.HeaderText = "OC Fecha"
         Me.OcClienteFecha.MaxInputLength = 8
@@ -5060,13 +4740,13 @@ Partial Class OT7
         '
         'OcClienteNumero
         '
-        DataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle58.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle58.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle58.Format = "N0"
-        DataGridViewCellStyle58.NullValue = Nothing
-        DataGridViewCellStyle58.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OcClienteNumero.DefaultCellStyle = DataGridViewCellStyle58
+        DataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle56.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle56.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle56.Format = "N0"
+        DataGridViewCellStyle56.NullValue = Nothing
+        DataGridViewCellStyle56.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OcClienteNumero.DefaultCellStyle = DataGridViewCellStyle56
         Me.OcClienteNumero.DividerWidth = 5
         Me.OcClienteNumero.HeaderText = "OC N°"
         Me.OcClienteNumero.MaxInputLength = 10
@@ -5077,13 +4757,13 @@ Partial Class OT7
         '
         'OcGsUnidad
         '
-        DataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle59.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle59.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle59.Format = "N0"
-        DataGridViewCellStyle59.NullValue = Nothing
-        DataGridViewCellStyle59.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OcGsUnidad.DefaultCellStyle = DataGridViewCellStyle59
+        DataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle57.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle57.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle57.Format = "N0"
+        DataGridViewCellStyle57.NullValue = Nothing
+        DataGridViewCellStyle57.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OcGsUnidad.DefaultCellStyle = DataGridViewCellStyle57
         Me.OcGsUnidad.DividerWidth = 5
         Me.OcGsUnidad.HeaderText = "OC Gs."
         Me.OcGsUnidad.MaxInputLength = 6
@@ -5095,13 +4775,13 @@ Partial Class OT7
         '
         'OcPegadoFinGs
         '
-        DataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle60.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle60.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle60.Format = "N0"
-        DataGridViewCellStyle60.NullValue = Nothing
-        DataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OcPegadoFinGs.DefaultCellStyle = DataGridViewCellStyle60
+        DataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle58.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle58.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle58.Format = "N0"
+        DataGridViewCellStyle58.NullValue = Nothing
+        DataGridViewCellStyle58.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OcPegadoFinGs.DefaultCellStyle = DataGridViewCellStyle58
         Me.OcPegadoFinGs.DividerWidth = 5
         Me.OcPegadoFinGs.HeaderText = "Oc Peg. Fin Gs"
         Me.OcPegadoFinGs.MaxInputLength = 10
@@ -5113,13 +4793,13 @@ Partial Class OT7
         '
         'OcExpedicionGs
         '
-        DataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle61.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle61.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle61.Format = "N0"
-        DataGridViewCellStyle61.NullValue = Nothing
-        DataGridViewCellStyle61.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OcExpedicionGs.DefaultCellStyle = DataGridViewCellStyle61
+        DataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle59.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle59.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle59.Format = "N0"
+        DataGridViewCellStyle59.NullValue = Nothing
+        DataGridViewCellStyle59.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OcExpedicionGs.DefaultCellStyle = DataGridViewCellStyle59
         Me.OcExpedicionGs.DividerWidth = 5
         Me.OcExpedicionGs.HeaderText = "OC Exp. Gs"
         Me.OcExpedicionGs.MaxInputLength = 10
@@ -5131,13 +4811,13 @@ Partial Class OT7
         '
         'OcFacturoGs
         '
-        DataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle62.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle62.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle62.Format = "N0"
-        DataGridViewCellStyle62.NullValue = Nothing
-        DataGridViewCellStyle62.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OcFacturoGs.DefaultCellStyle = DataGridViewCellStyle62
+        DataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle60.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle60.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle60.Format = "N0"
+        DataGridViewCellStyle60.NullValue = Nothing
+        DataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OcFacturoGs.DefaultCellStyle = DataGridViewCellStyle60
         Me.OcFacturoGs.DividerWidth = 5
         Me.OcFacturoGs.HeaderText = "OC Facturo Gs"
         Me.OcFacturoGs.MaxInputLength = 10
@@ -5149,13 +4829,13 @@ Partial Class OT7
         '
         'OcCobroGs
         '
-        DataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle63.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle63.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle63.Format = "N0"
-        DataGridViewCellStyle63.NullValue = Nothing
-        DataGridViewCellStyle63.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OcCobroGs.DefaultCellStyle = DataGridViewCellStyle63
+        DataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle61.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle61.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle61.Format = "N0"
+        DataGridViewCellStyle61.NullValue = Nothing
+        DataGridViewCellStyle61.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OcCobroGs.DefaultCellStyle = DataGridViewCellStyle61
         Me.OcCobroGs.DividerWidth = 5
         Me.OcCobroGs.HeaderText = "OC Cobro Gs"
         Me.OcCobroGs.MaxInputLength = 10
@@ -6275,50 +5955,50 @@ Partial Class OT7
         '
         'DataGridView3
         '
-        DataGridViewCellStyle66.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle66.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle66.Format = "N0"
-        DataGridViewCellStyle66.NullValue = Nothing
-        DataGridViewCellStyle66.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle66
+        DataGridViewCellStyle64.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle64.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle64.Format = "N0"
+        DataGridViewCellStyle64.NullValue = Nothing
+        DataGridViewCellStyle64.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle64
         Me.DataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle67.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle67.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle67.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle67.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle67.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle67.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle67.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle67
+        DataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle65.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle65.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle65.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle65.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle65.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle65.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle65
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn8, Me.OCFecha, Me.FechaEntrega, Me.DataGridViewTextBoxColumn21, Me.DataGridViewTextBoxColumn20, Me.DataGridViewTextBoxColumn16, Me.Otkilos, Me.IngresComer, Me.PrepreFin, Me.ResmFin, Me.ImprFin, Me.UvFin, Me.TroquelFin, Me.TroqFin, Me.DescFin, Me.SeleccFin, Me.PegaFin, Me.LitoPtoN, Me.DataGridViewTextBoxColumn11})
         Me.DataGridView3.Location = New System.Drawing.Point(14, 309)
         Me.DataGridView3.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView3.Name = "DataGridView3"
-        DataGridViewCellStyle87.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle87.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle87.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle87.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle87.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle87.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle87
+        DataGridViewCellStyle85.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle85.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle85.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle85.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle85.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle85.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle85
         Me.DataGridView3.RowHeadersWidth = 62
-        DataGridViewCellStyle88.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle88
+        DataGridViewCellStyle86.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle86
         Me.DataGridView3.RowTemplate.Height = 28
         Me.DataGridView3.Size = New System.Drawing.Size(1215, 228)
         Me.DataGridView3.TabIndex = 255
         '
         'DataGridViewTextBoxColumn8
         '
-        DataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle68.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle68.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle68.Format = "N0"
-        DataGridViewCellStyle68.NullValue = Nothing
-        DataGridViewCellStyle68.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn8.DefaultCellStyle = DataGridViewCellStyle68
+        DataGridViewCellStyle66.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle66.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle66.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle66.Format = "N0"
+        DataGridViewCellStyle66.NullValue = Nothing
+        DataGridViewCellStyle66.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn8.DefaultCellStyle = DataGridViewCellStyle66
         Me.DataGridViewTextBoxColumn8.DividerWidth = 5
         Me.DataGridViewTextBoxColumn8.HeaderText = "OT N°"
         Me.DataGridViewTextBoxColumn8.MaxInputLength = 10
@@ -6328,14 +6008,14 @@ Partial Class OT7
         '
         'OCFecha
         '
-        DataGridViewCellStyle69.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle69.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle69.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle69.Format = "d"
-        DataGridViewCellStyle69.NullValue = Nothing
-        DataGridViewCellStyle69.SelectionBackColor = System.Drawing.Color.Blue
-        DataGridViewCellStyle69.SelectionForeColor = System.Drawing.Color.White
-        Me.OCFecha.DefaultCellStyle = DataGridViewCellStyle69
+        DataGridViewCellStyle67.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle67.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle67.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle67.Format = "d"
+        DataGridViewCellStyle67.NullValue = Nothing
+        DataGridViewCellStyle67.SelectionBackColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle67.SelectionForeColor = System.Drawing.Color.White
+        Me.OCFecha.DefaultCellStyle = DataGridViewCellStyle67
         Me.OCFecha.DividerWidth = 5
         Me.OCFecha.HeaderText = "OC Fecha"
         Me.OCFecha.MaxInputLength = 6
@@ -6347,15 +6027,15 @@ Partial Class OT7
         '
         'FechaEntrega
         '
-        DataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle70.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle70.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle70.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle70.Format = "N0"
-        DataGridViewCellStyle70.NullValue = Nothing
-        DataGridViewCellStyle70.SelectionBackColor = System.Drawing.Color.Blue
-        DataGridViewCellStyle70.SelectionForeColor = System.Drawing.Color.White
-        Me.FechaEntrega.DefaultCellStyle = DataGridViewCellStyle70
+        DataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle68.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle68.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle68.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle68.Format = "N0"
+        DataGridViewCellStyle68.NullValue = Nothing
+        DataGridViewCellStyle68.SelectionBackColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle68.SelectionForeColor = System.Drawing.Color.White
+        Me.FechaEntrega.DefaultCellStyle = DataGridViewCellStyle68
         Me.FechaEntrega.DividerWidth = 5
         Me.FechaEntrega.HeaderText = "Entrega "
         Me.FechaEntrega.MaxInputLength = 10
@@ -6367,10 +6047,10 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn21
         '
-        DataGridViewCellStyle71.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle71.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle71.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle71
+        DataGridViewCellStyle69.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle69.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle69.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle69
         Me.DataGridViewTextBoxColumn21.DividerWidth = 5
         Me.DataGridViewTextBoxColumn21.HeaderText = "Nombre Cliente"
         Me.DataGridViewTextBoxColumn21.MaxInputLength = 500
@@ -6381,12 +6061,12 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn20
         '
-        DataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle72.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle72.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle72.NullValue = Nothing
-        DataGridViewCellStyle72.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn20.DefaultCellStyle = DataGridViewCellStyle72
+        DataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle70.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle70.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle70.NullValue = Nothing
+        DataGridViewCellStyle70.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn20.DefaultCellStyle = DataGridViewCellStyle70
         Me.DataGridViewTextBoxColumn20.DividerWidth = 5
         Me.DataGridViewTextBoxColumn20.HeaderText = "Nombre Trabajo"
         Me.DataGridViewTextBoxColumn20.MaxInputLength = 12
@@ -6398,13 +6078,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn16
         '
-        DataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle73.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle73.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle73.Format = "N0"
-        DataGridViewCellStyle73.NullValue = Nothing
-        DataGridViewCellStyle73.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn16.DefaultCellStyle = DataGridViewCellStyle73
+        DataGridViewCellStyle71.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle71.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle71.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle71.Format = "N0"
+        DataGridViewCellStyle71.NullValue = Nothing
+        DataGridViewCellStyle71.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn16.DefaultCellStyle = DataGridViewCellStyle71
         Me.DataGridViewTextBoxColumn16.DividerWidth = 5
         Me.DataGridViewTextBoxColumn16.HeaderText = "Cantidad"
         Me.DataGridViewTextBoxColumn16.MaxInputLength = 8
@@ -6416,13 +6096,13 @@ Partial Class OT7
         '
         'Otkilos
         '
-        DataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle74.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle74.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle74.Format = "N0"
-        DataGridViewCellStyle74.NullValue = Nothing
-        DataGridViewCellStyle74.SelectionBackColor = System.Drawing.Color.Blue
-        Me.Otkilos.DefaultCellStyle = DataGridViewCellStyle74
+        DataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle72.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle72.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle72.Format = "N0"
+        DataGridViewCellStyle72.NullValue = Nothing
+        DataGridViewCellStyle72.SelectionBackColor = System.Drawing.Color.Blue
+        Me.Otkilos.DefaultCellStyle = DataGridViewCellStyle72
         Me.Otkilos.DividerWidth = 5
         Me.Otkilos.HeaderText = "OT Kls."
         Me.Otkilos.MaxInputLength = 10
@@ -6433,13 +6113,13 @@ Partial Class OT7
         '
         'IngresComer
         '
-        DataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle75.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle75.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle75.Format = "g"
-        DataGridViewCellStyle75.NullValue = Nothing
-        DataGridViewCellStyle75.SelectionBackColor = System.Drawing.Color.Blue
-        Me.IngresComer.DefaultCellStyle = DataGridViewCellStyle75
+        DataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle73.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle73.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle73.Format = "g"
+        DataGridViewCellStyle73.NullValue = Nothing
+        DataGridViewCellStyle73.SelectionBackColor = System.Drawing.Color.Blue
+        Me.IngresComer.DefaultCellStyle = DataGridViewCellStyle73
         Me.IngresComer.DividerWidth = 5
         Me.IngresComer.HeaderText = "Ingreso Comercial"
         Me.IngresComer.MaxInputLength = 12
@@ -6451,12 +6131,12 @@ Partial Class OT7
         '
         'PrepreFin
         '
-        DataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle76.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle76.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle76.NullValue = False
-        DataGridViewCellStyle76.SelectionBackColor = System.Drawing.Color.Blue
-        Me.PrepreFin.DefaultCellStyle = DataGridViewCellStyle76
+        DataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle74.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle74.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle74.NullValue = False
+        DataGridViewCellStyle74.SelectionBackColor = System.Drawing.Color.Blue
+        Me.PrepreFin.DefaultCellStyle = DataGridViewCellStyle74
         Me.PrepreFin.DividerWidth = 5
         Me.PrepreFin.HeaderText = "Prepr. Fin"
         Me.PrepreFin.MinimumWidth = 8
@@ -6468,12 +6148,12 @@ Partial Class OT7
         '
         'ResmFin
         '
-        DataGridViewCellStyle77.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle77.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle77.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle77.NullValue = False
-        DataGridViewCellStyle77.SelectionBackColor = System.Drawing.Color.Blue
-        Me.ResmFin.DefaultCellStyle = DataGridViewCellStyle77
+        DataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle75.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle75.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle75.NullValue = False
+        DataGridViewCellStyle75.SelectionBackColor = System.Drawing.Color.Blue
+        Me.ResmFin.DefaultCellStyle = DataGridViewCellStyle75
         Me.ResmFin.DividerWidth = 5
         Me.ResmFin.HeaderText = "Resm. Fin"
         Me.ResmFin.MinimumWidth = 8
@@ -6484,12 +6164,12 @@ Partial Class OT7
         '
         'ImprFin
         '
-        DataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle78.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle78.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle78.NullValue = False
-        DataGridViewCellStyle78.SelectionBackColor = System.Drawing.Color.Blue
-        Me.ImprFin.DefaultCellStyle = DataGridViewCellStyle78
+        DataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle76.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle76.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle76.NullValue = False
+        DataGridViewCellStyle76.SelectionBackColor = System.Drawing.Color.Blue
+        Me.ImprFin.DefaultCellStyle = DataGridViewCellStyle76
         Me.ImprFin.DividerWidth = 5
         Me.ImprFin.HeaderText = "Impr. Fin"
         Me.ImprFin.MinimumWidth = 8
@@ -6500,10 +6180,10 @@ Partial Class OT7
         '
         'UvFin
         '
-        DataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle79.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle79.NullValue = False
-        Me.UvFin.DefaultCellStyle = DataGridViewCellStyle79
+        DataGridViewCellStyle77.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle77.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle77.NullValue = False
+        Me.UvFin.DefaultCellStyle = DataGridViewCellStyle77
         Me.UvFin.DividerWidth = 5
         Me.UvFin.HeaderText = "UV Fin"
         Me.UvFin.MinimumWidth = 8
@@ -6513,12 +6193,12 @@ Partial Class OT7
         '
         'TroquelFin
         '
-        DataGridViewCellStyle80.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle80.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle80.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle80.NullValue = False
-        DataGridViewCellStyle80.SelectionBackColor = System.Drawing.Color.Blue
-        Me.TroquelFin.DefaultCellStyle = DataGridViewCellStyle80
+        DataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle78.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle78.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle78.NullValue = False
+        DataGridViewCellStyle78.SelectionBackColor = System.Drawing.Color.Blue
+        Me.TroquelFin.DefaultCellStyle = DataGridViewCellStyle78
         Me.TroquelFin.DividerWidth = 5
         Me.TroquelFin.HeaderText = "Tr. Fin"
         Me.TroquelFin.MinimumWidth = 8
@@ -6529,12 +6209,12 @@ Partial Class OT7
         '
         'TroqFin
         '
-        DataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle81.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle81.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle81.NullValue = False
-        DataGridViewCellStyle81.SelectionBackColor = System.Drawing.Color.Blue
-        Me.TroqFin.DefaultCellStyle = DataGridViewCellStyle81
+        DataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle79.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle79.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle79.NullValue = False
+        DataGridViewCellStyle79.SelectionBackColor = System.Drawing.Color.Blue
+        Me.TroqFin.DefaultCellStyle = DataGridViewCellStyle79
         Me.TroqFin.DividerWidth = 5
         Me.TroqFin.HeaderText = "Troq. Fin"
         Me.TroqFin.MinimumWidth = 8
@@ -6545,12 +6225,12 @@ Partial Class OT7
         '
         'DescFin
         '
-        DataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle82.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle82.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle82.NullValue = False
-        DataGridViewCellStyle82.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DescFin.DefaultCellStyle = DataGridViewCellStyle82
+        DataGridViewCellStyle80.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle80.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle80.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle80.NullValue = False
+        DataGridViewCellStyle80.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DescFin.DefaultCellStyle = DataGridViewCellStyle80
         Me.DescFin.DividerWidth = 5
         Me.DescFin.HeaderText = "Desc Fin"
         Me.DescFin.MinimumWidth = 8
@@ -6561,12 +6241,12 @@ Partial Class OT7
         '
         'SeleccFin
         '
-        DataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle83.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle83.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle83.NullValue = False
-        DataGridViewCellStyle83.SelectionBackColor = System.Drawing.Color.Blue
-        Me.SeleccFin.DefaultCellStyle = DataGridViewCellStyle83
+        DataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle81.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle81.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle81.NullValue = False
+        DataGridViewCellStyle81.SelectionBackColor = System.Drawing.Color.Blue
+        Me.SeleccFin.DefaultCellStyle = DataGridViewCellStyle81
         Me.SeleccFin.DividerWidth = 5
         Me.SeleccFin.HeaderText = "Selecc Fin"
         Me.SeleccFin.MinimumWidth = 8
@@ -6577,12 +6257,12 @@ Partial Class OT7
         '
         'PegaFin
         '
-        DataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle84.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle84.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle84.NullValue = False
-        DataGridViewCellStyle84.SelectionBackColor = System.Drawing.Color.Blue
-        Me.PegaFin.DefaultCellStyle = DataGridViewCellStyle84
+        DataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle82.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle82.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle82.NullValue = False
+        DataGridViewCellStyle82.SelectionBackColor = System.Drawing.Color.Blue
+        Me.PegaFin.DefaultCellStyle = DataGridViewCellStyle82
         Me.PegaFin.DividerWidth = 5
         Me.PegaFin.HeaderText = "Peg. Fin"
         Me.PegaFin.MinimumWidth = 8
@@ -6593,13 +6273,13 @@ Partial Class OT7
         '
         'LitoPtoN
         '
-        DataGridViewCellStyle85.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle85.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle85.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle85.Format = "d"
-        DataGridViewCellStyle85.NullValue = Nothing
-        DataGridViewCellStyle85.SelectionBackColor = System.Drawing.Color.Blue
-        Me.LitoPtoN.DefaultCellStyle = DataGridViewCellStyle85
+        DataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle83.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle83.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle83.Format = "d"
+        DataGridViewCellStyle83.NullValue = Nothing
+        DataGridViewCellStyle83.SelectionBackColor = System.Drawing.Color.Blue
+        Me.LitoPtoN.DefaultCellStyle = DataGridViewCellStyle83
         Me.LitoPtoN.DividerWidth = 5
         Me.LitoPtoN.HeaderText = "Litoplan Pto. N°"
         Me.LitoPtoN.MaxInputLength = 10
@@ -6611,13 +6291,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn11
         '
-        DataGridViewCellStyle86.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle86.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle86.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle86.Format = "N0"
-        DataGridViewCellStyle86.NullValue = Nothing
-        DataGridViewCellStyle86.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn11.DefaultCellStyle = DataGridViewCellStyle86
+        DataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle84.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle84.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle84.Format = "N0"
+        DataGridViewCellStyle84.NullValue = Nothing
+        DataGridViewCellStyle84.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn11.DefaultCellStyle = DataGridViewCellStyle84
         Me.DataGridViewTextBoxColumn11.DividerWidth = 5
         Me.DataGridViewTextBoxColumn11.HeaderText = "N°"
         Me.DataGridViewTextBoxColumn11.MaxInputLength = 1
@@ -8661,47 +8341,47 @@ Partial Class OT7
         '
         'DataGridView5
         '
-        DataGridViewCellStyle89.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView5.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle89
+        DataGridViewCellStyle87.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView5.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle87
         Me.DataGridView5.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.DataGridView5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView5.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle90.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle90.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle90.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle90.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle90.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle90.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView5.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle90
+        DataGridViewCellStyle88.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle88.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle88.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle88.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle88.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle88.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle88.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView5.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle88
         Me.DataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView5.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn18, Me.DataGridViewTextBoxColumn31, Me.DataGridViewTextBoxColumn32, Me.CodigoTrabajo, Me.NombTrabajo, Me.PegadoFin, Me.CCEnviadoN, Me.DataGridViewTextBoxColumn33})
         Me.DataGridView5.Location = New System.Drawing.Point(2, 319)
         Me.DataGridView5.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView5.Name = "DataGridView5"
-        DataGridViewCellStyle99.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle99.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle99.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle99.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle99.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle99.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView5.RowHeadersDefaultCellStyle = DataGridViewCellStyle99
+        DataGridViewCellStyle97.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle97.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle97.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle97.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle97.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle97.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView5.RowHeadersDefaultCellStyle = DataGridViewCellStyle97
         Me.DataGridView5.RowHeadersWidth = 62
-        DataGridViewCellStyle100.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView5.RowsDefaultCellStyle = DataGridViewCellStyle100
+        DataGridViewCellStyle98.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView5.RowsDefaultCellStyle = DataGridViewCellStyle98
         Me.DataGridView5.RowTemplate.Height = 28
         Me.DataGridView5.Size = New System.Drawing.Size(1225, 220)
         Me.DataGridView5.TabIndex = 255
         '
         'DataGridViewTextBoxColumn18
         '
-        DataGridViewCellStyle91.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle91.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle91.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle91.Format = "N0"
-        DataGridViewCellStyle91.NullValue = Nothing
-        DataGridViewCellStyle91.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn18.DefaultCellStyle = DataGridViewCellStyle91
+        DataGridViewCellStyle89.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle89.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle89.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle89.Format = "N0"
+        DataGridViewCellStyle89.NullValue = Nothing
+        DataGridViewCellStyle89.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn18.DefaultCellStyle = DataGridViewCellStyle89
         Me.DataGridViewTextBoxColumn18.DividerWidth = 5
         Me.DataGridViewTextBoxColumn18.HeaderText = "Cantidad"
         Me.DataGridViewTextBoxColumn18.MaxInputLength = 8
@@ -8713,12 +8393,12 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn31
         '
-        DataGridViewCellStyle92.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle92.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle92.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle92.NullValue = Nothing
-        DataGridViewCellStyle92.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn31.DefaultCellStyle = DataGridViewCellStyle92
+        DataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle90.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle90.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle90.NullValue = Nothing
+        DataGridViewCellStyle90.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn31.DefaultCellStyle = DataGridViewCellStyle90
         Me.DataGridViewTextBoxColumn31.DividerWidth = 5
         Me.DataGridViewTextBoxColumn31.HeaderText = "Codigo Cliente"
         Me.DataGridViewTextBoxColumn31.MaxInputLength = 10
@@ -8730,13 +8410,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn32
         '
-        DataGridViewCellStyle93.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle93.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle93.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle93.Format = "N0"
-        DataGridViewCellStyle93.NullValue = Nothing
-        DataGridViewCellStyle93.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn32.DefaultCellStyle = DataGridViewCellStyle93
+        DataGridViewCellStyle91.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle91.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle91.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle91.Format = "N0"
+        DataGridViewCellStyle91.NullValue = Nothing
+        DataGridViewCellStyle91.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn32.DefaultCellStyle = DataGridViewCellStyle91
         Me.DataGridViewTextBoxColumn32.DividerWidth = 5
         Me.DataGridViewTextBoxColumn32.HeaderText = "Nombre del Cliente"
         Me.DataGridViewTextBoxColumn32.MaxInputLength = 200
@@ -8747,13 +8427,13 @@ Partial Class OT7
         '
         'CodigoTrabajo
         '
-        DataGridViewCellStyle94.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle94.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle94.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle94.Format = "N0"
-        DataGridViewCellStyle94.NullValue = Nothing
-        DataGridViewCellStyle94.SelectionBackColor = System.Drawing.Color.Blue
-        Me.CodigoTrabajo.DefaultCellStyle = DataGridViewCellStyle94
+        DataGridViewCellStyle92.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle92.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle92.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle92.Format = "N0"
+        DataGridViewCellStyle92.NullValue = Nothing
+        DataGridViewCellStyle92.SelectionBackColor = System.Drawing.Color.Blue
+        Me.CodigoTrabajo.DefaultCellStyle = DataGridViewCellStyle92
         Me.CodigoTrabajo.DividerWidth = 5
         Me.CodigoTrabajo.HeaderText = "Codigo Trabajo"
         Me.CodigoTrabajo.MaxInputLength = 10
@@ -8764,12 +8444,12 @@ Partial Class OT7
         '
         'NombTrabajo
         '
-        DataGridViewCellStyle95.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle95.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle95.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle95.NullValue = Nothing
-        DataGridViewCellStyle95.SelectionBackColor = System.Drawing.Color.Blue
-        Me.NombTrabajo.DefaultCellStyle = DataGridViewCellStyle95
+        DataGridViewCellStyle93.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle93.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle93.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle93.NullValue = Nothing
+        DataGridViewCellStyle93.SelectionBackColor = System.Drawing.Color.Blue
+        Me.NombTrabajo.DefaultCellStyle = DataGridViewCellStyle93
         Me.NombTrabajo.DividerWidth = 5
         Me.NombTrabajo.HeaderText = "Nombre Trabajo"
         Me.NombTrabajo.MaxInputLength = 300
@@ -8780,12 +8460,12 @@ Partial Class OT7
         '
         'PegadoFin
         '
-        DataGridViewCellStyle96.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle96.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle96.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle96.NullValue = "False"
-        DataGridViewCellStyle96.SelectionBackColor = System.Drawing.Color.Blue
-        Me.PegadoFin.DefaultCellStyle = DataGridViewCellStyle96
+        DataGridViewCellStyle94.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle94.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle94.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle94.NullValue = "False"
+        DataGridViewCellStyle94.SelectionBackColor = System.Drawing.Color.Blue
+        Me.PegadoFin.DefaultCellStyle = DataGridViewCellStyle94
         Me.PegadoFin.DividerWidth = 5
         Me.PegadoFin.HeaderText = "Pegado Fin"
         Me.PegadoFin.MinimumWidth = 8
@@ -8796,13 +8476,13 @@ Partial Class OT7
         '
         'CCEnviadoN
         '
-        DataGridViewCellStyle97.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle97.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle97.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle97.Format = "N0"
-        DataGridViewCellStyle97.NullValue = Nothing
-        DataGridViewCellStyle97.SelectionBackColor = System.Drawing.Color.Blue
-        Me.CCEnviadoN.DefaultCellStyle = DataGridViewCellStyle97
+        DataGridViewCellStyle95.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle95.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle95.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle95.Format = "N0"
+        DataGridViewCellStyle95.NullValue = Nothing
+        DataGridViewCellStyle95.SelectionBackColor = System.Drawing.Color.Blue
+        Me.CCEnviadoN.DefaultCellStyle = DataGridViewCellStyle95
         Me.CCEnviadoN.DividerWidth = 5
         Me.CCEnviadoN.HeaderText = "CC Env. N°"
         Me.CCEnviadoN.MaxInputLength = 10
@@ -8813,13 +8493,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn33
         '
-        DataGridViewCellStyle98.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle98.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle98.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle98.Format = "g"
-        DataGridViewCellStyle98.NullValue = Nothing
-        DataGridViewCellStyle98.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn33.DefaultCellStyle = DataGridViewCellStyle98
+        DataGridViewCellStyle96.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle96.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle96.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle96.Format = "g"
+        DataGridViewCellStyle96.NullValue = Nothing
+        DataGridViewCellStyle96.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn33.DefaultCellStyle = DataGridViewCellStyle96
         Me.DataGridViewTextBoxColumn33.DividerWidth = 5
         Me.DataGridViewTextBoxColumn33.HeaderText = "Enviado Fecha"
         Me.DataGridViewTextBoxColumn33.MaxInputLength = 13
@@ -9852,43 +9532,43 @@ Partial Class OT7
         '
         'DataGridView6
         '
-        DataGridViewCellStyle101.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView6.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle101
+        DataGridViewCellStyle99.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView6.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle99
         Me.DataGridView6.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle102.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle102.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle102.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle102.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle102.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle102.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle102.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView6.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle102
+        DataGridViewCellStyle100.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle100.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle100.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle100.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle100.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle100.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle100.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView6.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle100
         Me.DataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView6.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn17, Me.DataGridViewTextBoxColumn35, Me.DataGridViewTextBoxColumn36, Me.NombreTrabajo, Me.DataGridViewTextBoxColumn19, Me.DataGridViewTextBoxColumn30, Me.DataGridViewTextBoxColumn34, Me.OTNumero, Me.DevolucionSi, Me.FacturaN, Me.NotaCredito, Me.DataGridViewCheckBoxColumn1})
         Me.DataGridView6.Location = New System.Drawing.Point(9, 348)
         Me.DataGridView6.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView6.Name = "DataGridView6"
-        DataGridViewCellStyle116.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle116.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle116.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle116.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle116.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle116.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView6.RowHeadersDefaultCellStyle = DataGridViewCellStyle116
+        DataGridViewCellStyle114.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle114.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle114.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle114.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle114.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle114.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView6.RowHeadersDefaultCellStyle = DataGridViewCellStyle114
         Me.DataGridView6.RowHeadersWidth = 62
-        DataGridViewCellStyle117.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView6.RowsDefaultCellStyle = DataGridViewCellStyle117
+        DataGridViewCellStyle115.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView6.RowsDefaultCellStyle = DataGridViewCellStyle115
         Me.DataGridView6.RowTemplate.Height = 28
         Me.DataGridView6.Size = New System.Drawing.Size(1219, 188)
         Me.DataGridView6.TabIndex = 256
         '
         'DataGridViewTextBoxColumn10
         '
-        DataGridViewCellStyle103.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle103.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle103.Format = "N0"
-        DataGridViewCellStyle103.NullValue = Nothing
-        Me.DataGridViewTextBoxColumn10.DefaultCellStyle = DataGridViewCellStyle103
+        DataGridViewCellStyle101.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle101.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle101.Format = "N0"
+        DataGridViewCellStyle101.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn10.DefaultCellStyle = DataGridViewCellStyle101
         Me.DataGridViewTextBoxColumn10.DividerWidth = 5
         Me.DataGridViewTextBoxColumn10.HeaderText = "Litoplan Pto. N°"
         Me.DataGridViewTextBoxColumn10.MaxInputLength = 10
@@ -9900,13 +9580,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn17
         '
-        DataGridViewCellStyle104.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle104.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle104.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle104.Format = "N0"
-        DataGridViewCellStyle104.NullValue = Nothing
-        DataGridViewCellStyle104.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn17.DefaultCellStyle = DataGridViewCellStyle104
+        DataGridViewCellStyle102.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle102.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle102.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle102.Format = "N0"
+        DataGridViewCellStyle102.NullValue = Nothing
+        DataGridViewCellStyle102.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn17.DefaultCellStyle = DataGridViewCellStyle102
         Me.DataGridViewTextBoxColumn17.DividerWidth = 5
         Me.DataGridViewTextBoxColumn17.HeaderText = "N°"
         Me.DataGridViewTextBoxColumn17.MaxInputLength = 1
@@ -9918,11 +9598,11 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn35
         '
-        DataGridViewCellStyle105.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle105.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle105.NullValue = Nothing
-        DataGridViewCellStyle105.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn35.DefaultCellStyle = DataGridViewCellStyle105
+        DataGridViewCellStyle103.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle103.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle103.NullValue = Nothing
+        DataGridViewCellStyle103.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn35.DefaultCellStyle = DataGridViewCellStyle103
         Me.DataGridViewTextBoxColumn35.DividerWidth = 5
         Me.DataGridViewTextBoxColumn35.HeaderText = "Cod. Cliente"
         Me.DataGridViewTextBoxColumn35.MaxInputLength = 12
@@ -9934,11 +9614,11 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn36
         '
-        DataGridViewCellStyle106.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle106.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle106.NullValue = Nothing
-        DataGridViewCellStyle106.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn36.DefaultCellStyle = DataGridViewCellStyle106
+        DataGridViewCellStyle104.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle104.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle104.NullValue = Nothing
+        DataGridViewCellStyle104.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn36.DefaultCellStyle = DataGridViewCellStyle104
         Me.DataGridViewTextBoxColumn36.DividerWidth = 5
         Me.DataGridViewTextBoxColumn36.HeaderText = "Nombre del Cliente"
         Me.DataGridViewTextBoxColumn36.MaxInputLength = 300
@@ -9949,9 +9629,9 @@ Partial Class OT7
         '
         'NombreTrabajo
         '
-        DataGridViewCellStyle107.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle107.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NombreTrabajo.DefaultCellStyle = DataGridViewCellStyle107
+        DataGridViewCellStyle105.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle105.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NombreTrabajo.DefaultCellStyle = DataGridViewCellStyle105
         Me.NombreTrabajo.DividerWidth = 5
         Me.NombreTrabajo.HeaderText = "Nombre Trabajo"
         Me.NombreTrabajo.MaxInputLength = 300
@@ -9962,13 +9642,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn19
         '
-        DataGridViewCellStyle108.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle108.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle108.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle108.Format = "N0"
-        DataGridViewCellStyle108.NullValue = Nothing
-        DataGridViewCellStyle108.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn19.DefaultCellStyle = DataGridViewCellStyle108
+        DataGridViewCellStyle106.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle106.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle106.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle106.Format = "N0"
+        DataGridViewCellStyle106.NullValue = Nothing
+        DataGridViewCellStyle106.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn19.DefaultCellStyle = DataGridViewCellStyle106
         Me.DataGridViewTextBoxColumn19.DividerWidth = 5
         Me.DataGridViewTextBoxColumn19.HeaderText = "Cantidad"
         Me.DataGridViewTextBoxColumn19.MaxInputLength = 8
@@ -9981,13 +9661,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn30
         '
-        DataGridViewCellStyle109.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle109.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle109.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle109.Format = "C0"
-        DataGridViewCellStyle109.NullValue = Nothing
-        DataGridViewCellStyle109.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn30.DefaultCellStyle = DataGridViewCellStyle109
+        DataGridViewCellStyle107.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle107.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle107.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle107.Format = "C0"
+        DataGridViewCellStyle107.NullValue = Nothing
+        DataGridViewCellStyle107.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn30.DefaultCellStyle = DataGridViewCellStyle107
         Me.DataGridViewTextBoxColumn30.DividerWidth = 5
         Me.DataGridViewTextBoxColumn30.HeaderText = "c/u Gs. "
         Me.DataGridViewTextBoxColumn30.MaxInputLength = 6
@@ -10000,13 +9680,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn34
         '
-        DataGridViewCellStyle110.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle110.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle110.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle110.Format = "C0"
-        DataGridViewCellStyle110.NullValue = Nothing
-        DataGridViewCellStyle110.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn34.DefaultCellStyle = DataGridViewCellStyle110
+        DataGridViewCellStyle108.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle108.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle108.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle108.Format = "C0"
+        DataGridViewCellStyle108.NullValue = Nothing
+        DataGridViewCellStyle108.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn34.DefaultCellStyle = DataGridViewCellStyle108
         Me.DataGridViewTextBoxColumn34.DividerWidth = 5
         Me.DataGridViewTextBoxColumn34.HeaderText = "Total Gs. "
         Me.DataGridViewTextBoxColumn34.MaxInputLength = 10
@@ -10018,11 +9698,11 @@ Partial Class OT7
         '
         'OTNumero
         '
-        DataGridViewCellStyle111.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle111.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle111.Format = "N0"
-        DataGridViewCellStyle111.NullValue = Nothing
-        Me.OTNumero.DefaultCellStyle = DataGridViewCellStyle111
+        DataGridViewCellStyle109.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle109.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle109.Format = "N0"
+        DataGridViewCellStyle109.NullValue = Nothing
+        Me.OTNumero.DefaultCellStyle = DataGridViewCellStyle109
         Me.OTNumero.DividerWidth = 5
         Me.OTNumero.HeaderText = "OT N°"
         Me.OTNumero.MaxInputLength = 10
@@ -10033,12 +9713,12 @@ Partial Class OT7
         '
         'DevolucionSi
         '
-        DataGridViewCellStyle112.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle112.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle112.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle112.NullValue = "False"
-        DataGridViewCellStyle112.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DevolucionSi.DefaultCellStyle = DataGridViewCellStyle112
+        DataGridViewCellStyle110.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle110.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle110.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle110.NullValue = "False"
+        DataGridViewCellStyle110.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DevolucionSi.DefaultCellStyle = DataGridViewCellStyle110
         Me.DevolucionSi.DividerWidth = 5
         Me.DevolucionSi.HeaderText = "Dev."
         Me.DevolucionSi.MinimumWidth = 8
@@ -10049,11 +9729,11 @@ Partial Class OT7
         '
         'FacturaN
         '
-        DataGridViewCellStyle113.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle113.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle113.Format = "N0"
-        DataGridViewCellStyle113.NullValue = Nothing
-        Me.FacturaN.DefaultCellStyle = DataGridViewCellStyle113
+        DataGridViewCellStyle111.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle111.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle111.Format = "N0"
+        DataGridViewCellStyle111.NullValue = Nothing
+        Me.FacturaN.DefaultCellStyle = DataGridViewCellStyle111
         Me.FacturaN.DividerWidth = 5
         Me.FacturaN.HeaderText = "Factura N°"
         Me.FacturaN.MaxInputLength = 10
@@ -10065,11 +9745,11 @@ Partial Class OT7
         '
         'NotaCredito
         '
-        DataGridViewCellStyle114.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle114.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle114.Format = "N0"
-        DataGridViewCellStyle114.NullValue = Nothing
-        Me.NotaCredito.DefaultCellStyle = DataGridViewCellStyle114
+        DataGridViewCellStyle112.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle112.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle112.Format = "N0"
+        DataGridViewCellStyle112.NullValue = Nothing
+        Me.NotaCredito.DefaultCellStyle = DataGridViewCellStyle112
         Me.NotaCredito.DividerWidth = 5
         Me.NotaCredito.HeaderText = "NC N°"
         Me.NotaCredito.MaxInputLength = 10
@@ -10081,12 +9761,12 @@ Partial Class OT7
         '
         'DataGridViewCheckBoxColumn1
         '
-        DataGridViewCellStyle115.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle115.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle115.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle115.NullValue = "False"
-        DataGridViewCellStyle115.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewCheckBoxColumn1.DefaultCellStyle = DataGridViewCellStyle115
+        DataGridViewCellStyle113.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle113.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle113.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle113.NullValue = "False"
+        DataGridViewCellStyle113.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewCheckBoxColumn1.DefaultCellStyle = DataGridViewCellStyle113
         Me.DataGridViewCheckBoxColumn1.DividerWidth = 5
         Me.DataGridViewCheckBoxColumn1.FillWeight = 80.0!
         Me.DataGridViewCheckBoxColumn1.HeaderText = "Impr. Sí"
@@ -11192,43 +10872,43 @@ Partial Class OT7
         '
         'DataGridView7
         '
-        DataGridViewCellStyle118.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView7.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle118
+        DataGridViewCellStyle116.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView7.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle116
         Me.DataGridView7.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle119.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle119.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle119.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle119.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle119.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle119.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle119.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView7.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle119
+        DataGridViewCellStyle117.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle117.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle117.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle117.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle117.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle117.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle117.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView7.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle117
         Me.DataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView7.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn22, Me.DataGridViewTextBoxColumn29, Me.DataGridViewTextBoxColumn37, Me.DataGridViewTextBoxColumn38, Me.DataGridViewTextBoxColumn39, Me.DataGridViewTextBoxColumn45, Me.DataGridViewTextBoxColumn50, Me.DataGridViewTextBoxColumn51, Me.DataGridViewCheckBoxColumn2, Me.NoConformidad, Me.DataGridViewTextBoxColumn52, Me.DataGridViewTextBoxColumn53, Me.DataGridViewCheckBoxColumn3})
         Me.DataGridView7.Location = New System.Drawing.Point(9, 370)
         Me.DataGridView7.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView7.Name = "DataGridView7"
-        DataGridViewCellStyle134.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle134.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle134.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle134.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle134.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle134.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView7.RowHeadersDefaultCellStyle = DataGridViewCellStyle134
+        DataGridViewCellStyle132.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle132.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle132.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle132.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle132.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle132.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView7.RowHeadersDefaultCellStyle = DataGridViewCellStyle132
         Me.DataGridView7.RowHeadersWidth = 62
-        DataGridViewCellStyle135.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView7.RowsDefaultCellStyle = DataGridViewCellStyle135
+        DataGridViewCellStyle133.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView7.RowsDefaultCellStyle = DataGridViewCellStyle133
         Me.DataGridView7.RowTemplate.Height = 28
         Me.DataGridView7.Size = New System.Drawing.Size(1219, 166)
         Me.DataGridView7.TabIndex = 256
         '
         'DataGridViewTextBoxColumn9
         '
-        DataGridViewCellStyle120.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle120.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle120.Format = "N0"
-        DataGridViewCellStyle120.NullValue = Nothing
-        Me.DataGridViewTextBoxColumn9.DefaultCellStyle = DataGridViewCellStyle120
+        DataGridViewCellStyle118.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle118.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle118.Format = "N0"
+        DataGridViewCellStyle118.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn9.DefaultCellStyle = DataGridViewCellStyle118
         Me.DataGridViewTextBoxColumn9.DividerWidth = 5
         Me.DataGridViewTextBoxColumn9.HeaderText = "Litoplan Pto. N°"
         Me.DataGridViewTextBoxColumn9.MaxInputLength = 10
@@ -11240,13 +10920,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn22
         '
-        DataGridViewCellStyle121.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle121.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle121.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle121.Format = "N0"
-        DataGridViewCellStyle121.NullValue = Nothing
-        DataGridViewCellStyle121.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn22.DefaultCellStyle = DataGridViewCellStyle121
+        DataGridViewCellStyle119.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle119.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle119.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle119.Format = "N0"
+        DataGridViewCellStyle119.NullValue = Nothing
+        DataGridViewCellStyle119.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn22.DefaultCellStyle = DataGridViewCellStyle119
         Me.DataGridViewTextBoxColumn22.DividerWidth = 5
         Me.DataGridViewTextBoxColumn22.HeaderText = "N°"
         Me.DataGridViewTextBoxColumn22.MaxInputLength = 1
@@ -11258,11 +10938,11 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn29
         '
-        DataGridViewCellStyle122.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle122.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle122.NullValue = Nothing
-        DataGridViewCellStyle122.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn29.DefaultCellStyle = DataGridViewCellStyle122
+        DataGridViewCellStyle120.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle120.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle120.NullValue = Nothing
+        DataGridViewCellStyle120.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn29.DefaultCellStyle = DataGridViewCellStyle120
         Me.DataGridViewTextBoxColumn29.DividerWidth = 5
         Me.DataGridViewTextBoxColumn29.HeaderText = "Cod. Cliente"
         Me.DataGridViewTextBoxColumn29.MaxInputLength = 12
@@ -11274,11 +10954,11 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn37
         '
-        DataGridViewCellStyle123.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle123.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle123.NullValue = Nothing
-        DataGridViewCellStyle123.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn37.DefaultCellStyle = DataGridViewCellStyle123
+        DataGridViewCellStyle121.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle121.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle121.NullValue = Nothing
+        DataGridViewCellStyle121.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn37.DefaultCellStyle = DataGridViewCellStyle121
         Me.DataGridViewTextBoxColumn37.DividerWidth = 5
         Me.DataGridViewTextBoxColumn37.HeaderText = "Nombre del Cliente"
         Me.DataGridViewTextBoxColumn37.MaxInputLength = 300
@@ -11289,9 +10969,9 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn38
         '
-        DataGridViewCellStyle124.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle124.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridViewTextBoxColumn38.DefaultCellStyle = DataGridViewCellStyle124
+        DataGridViewCellStyle122.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle122.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridViewTextBoxColumn38.DefaultCellStyle = DataGridViewCellStyle122
         Me.DataGridViewTextBoxColumn38.DividerWidth = 5
         Me.DataGridViewTextBoxColumn38.HeaderText = "Nombre Trabajo"
         Me.DataGridViewTextBoxColumn38.MaxInputLength = 300
@@ -11302,13 +10982,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn39
         '
-        DataGridViewCellStyle125.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle125.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle125.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle125.Format = "N0"
-        DataGridViewCellStyle125.NullValue = Nothing
-        DataGridViewCellStyle125.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn39.DefaultCellStyle = DataGridViewCellStyle125
+        DataGridViewCellStyle123.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle123.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle123.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle123.Format = "N0"
+        DataGridViewCellStyle123.NullValue = Nothing
+        DataGridViewCellStyle123.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn39.DefaultCellStyle = DataGridViewCellStyle123
         Me.DataGridViewTextBoxColumn39.DividerWidth = 5
         Me.DataGridViewTextBoxColumn39.HeaderText = "Cantidad"
         Me.DataGridViewTextBoxColumn39.MaxInputLength = 8
@@ -11321,13 +11001,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn45
         '
-        DataGridViewCellStyle126.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle126.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle126.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle126.Format = "C0"
-        DataGridViewCellStyle126.NullValue = Nothing
-        DataGridViewCellStyle126.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn45.DefaultCellStyle = DataGridViewCellStyle126
+        DataGridViewCellStyle124.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle124.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle124.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle124.Format = "C0"
+        DataGridViewCellStyle124.NullValue = Nothing
+        DataGridViewCellStyle124.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn45.DefaultCellStyle = DataGridViewCellStyle124
         Me.DataGridViewTextBoxColumn45.DividerWidth = 5
         Me.DataGridViewTextBoxColumn45.HeaderText = "c/u Gs. "
         Me.DataGridViewTextBoxColumn45.MaxInputLength = 6
@@ -11340,13 +11020,13 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn50
         '
-        DataGridViewCellStyle127.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle127.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle127.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle127.Format = "C0"
-        DataGridViewCellStyle127.NullValue = Nothing
-        DataGridViewCellStyle127.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn50.DefaultCellStyle = DataGridViewCellStyle127
+        DataGridViewCellStyle125.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle125.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle125.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle125.Format = "C0"
+        DataGridViewCellStyle125.NullValue = Nothing
+        DataGridViewCellStyle125.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn50.DefaultCellStyle = DataGridViewCellStyle125
         Me.DataGridViewTextBoxColumn50.DividerWidth = 5
         Me.DataGridViewTextBoxColumn50.HeaderText = "Total Gs. "
         Me.DataGridViewTextBoxColumn50.MaxInputLength = 10
@@ -11358,11 +11038,11 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn51
         '
-        DataGridViewCellStyle128.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle128.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle128.Format = "N0"
-        DataGridViewCellStyle128.NullValue = Nothing
-        Me.DataGridViewTextBoxColumn51.DefaultCellStyle = DataGridViewCellStyle128
+        DataGridViewCellStyle126.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle126.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle126.Format = "N0"
+        DataGridViewCellStyle126.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn51.DefaultCellStyle = DataGridViewCellStyle126
         Me.DataGridViewTextBoxColumn51.DividerWidth = 5
         Me.DataGridViewTextBoxColumn51.HeaderText = "OT N°"
         Me.DataGridViewTextBoxColumn51.MaxInputLength = 10
@@ -11373,12 +11053,12 @@ Partial Class OT7
         '
         'DataGridViewCheckBoxColumn2
         '
-        DataGridViewCellStyle129.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle129.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle129.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle129.NullValue = "False"
-        DataGridViewCellStyle129.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewCheckBoxColumn2.DefaultCellStyle = DataGridViewCellStyle129
+        DataGridViewCellStyle127.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle127.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle127.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle127.NullValue = "False"
+        DataGridViewCellStyle127.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewCheckBoxColumn2.DefaultCellStyle = DataGridViewCellStyle127
         Me.DataGridViewCheckBoxColumn2.DividerWidth = 5
         Me.DataGridViewCheckBoxColumn2.HeaderText = "Dev."
         Me.DataGridViewCheckBoxColumn2.MinimumWidth = 8
@@ -11389,12 +11069,12 @@ Partial Class OT7
         '
         'NoConformidad
         '
-        DataGridViewCellStyle130.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle130.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle130.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle130.NullValue = False
-        DataGridViewCellStyle130.SelectionBackColor = System.Drawing.Color.Blue
-        Me.NoConformidad.DefaultCellStyle = DataGridViewCellStyle130
+        DataGridViewCellStyle128.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle128.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle128.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle128.NullValue = False
+        DataGridViewCellStyle128.SelectionBackColor = System.Drawing.Color.Blue
+        Me.NoConformidad.DefaultCellStyle = DataGridViewCellStyle128
         Me.NoConformidad.DividerWidth = 5
         Me.NoConformidad.HeaderText = "NoCo"
         Me.NoConformidad.MinimumWidth = 8
@@ -11406,11 +11086,11 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn52
         '
-        DataGridViewCellStyle131.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle131.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle131.Format = "N0"
-        DataGridViewCellStyle131.NullValue = Nothing
-        Me.DataGridViewTextBoxColumn52.DefaultCellStyle = DataGridViewCellStyle131
+        DataGridViewCellStyle129.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle129.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle129.Format = "N0"
+        DataGridViewCellStyle129.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn52.DefaultCellStyle = DataGridViewCellStyle129
         Me.DataGridViewTextBoxColumn52.DividerWidth = 5
         Me.DataGridViewTextBoxColumn52.HeaderText = "Factura N°"
         Me.DataGridViewTextBoxColumn52.MaxInputLength = 10
@@ -11422,11 +11102,11 @@ Partial Class OT7
         '
         'DataGridViewTextBoxColumn53
         '
-        DataGridViewCellStyle132.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle132.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle132.Format = "N0"
-        DataGridViewCellStyle132.NullValue = Nothing
-        Me.DataGridViewTextBoxColumn53.DefaultCellStyle = DataGridViewCellStyle132
+        DataGridViewCellStyle130.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle130.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle130.Format = "N0"
+        DataGridViewCellStyle130.NullValue = Nothing
+        Me.DataGridViewTextBoxColumn53.DefaultCellStyle = DataGridViewCellStyle130
         Me.DataGridViewTextBoxColumn53.DividerWidth = 5
         Me.DataGridViewTextBoxColumn53.HeaderText = "NC N°"
         Me.DataGridViewTextBoxColumn53.MaxInputLength = 10
@@ -11438,12 +11118,12 @@ Partial Class OT7
         '
         'DataGridViewCheckBoxColumn3
         '
-        DataGridViewCellStyle133.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle133.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle133.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle133.NullValue = "False"
-        DataGridViewCellStyle133.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewCheckBoxColumn3.DefaultCellStyle = DataGridViewCellStyle133
+        DataGridViewCellStyle131.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle131.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle131.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle131.NullValue = "False"
+        DataGridViewCellStyle131.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewCheckBoxColumn3.DefaultCellStyle = DataGridViewCellStyle131
         Me.DataGridViewCheckBoxColumn3.DividerWidth = 5
         Me.DataGridViewCheckBoxColumn3.FillWeight = 80.0!
         Me.DataGridViewCheckBoxColumn3.HeaderText = "Impr. Sí"
@@ -17873,6 +17553,298 @@ Partial Class OT7
         Me.Label22.TabIndex = 6
         Me.Label22.Text = "IMPRIMIR"
         '
+        'GeneralPto
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.Format = "N0"
+        DataGridViewCellStyle3.NullValue = Nothing
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
+        Me.GeneralPto.DefaultCellStyle = DataGridViewCellStyle3
+        Me.GeneralPto.DividerWidth = 5
+        Me.GeneralPto.HeaderText = "General Pto. N°"
+        Me.GeneralPto.MaxInputLength = 10
+        Me.GeneralPto.MinimumWidth = 10
+        Me.GeneralPto.Name = "GeneralPto"
+        Me.GeneralPto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.GeneralPto.ToolTipText = "Es N° de la hoja con varios Pto. de Litoplan."
+        Me.GeneralPto.Width = 130
+        '
+        'FechaLitoplan
+        '
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.Format = "d"
+        DataGridViewCellStyle4.NullValue = Nothing
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Blue
+        Me.FechaLitoplan.DefaultCellStyle = DataGridViewCellStyle4
+        Me.FechaLitoplan.DividerWidth = 5
+        Me.FechaLitoplan.HeaderText = "Litoplan Fecha"
+        Me.FechaLitoplan.MaxInputLength = 6
+        Me.FechaLitoplan.MinimumWidth = 8
+        Me.FechaLitoplan.Name = "FechaLitoplan"
+        Me.FechaLitoplan.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.FechaLitoplan.ToolTipText = "Fecha que se gravo el calculo en LITOPLAN"
+        Me.FechaLitoplan.Width = 120
+        '
+        'LitoplanPto
+        '
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle5.Format = "N0"
+        DataGridViewCellStyle5.NullValue = Nothing
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Blue
+        Me.LitoplanPto.DefaultCellStyle = DataGridViewCellStyle5
+        Me.LitoplanPto.DividerWidth = 5
+        Me.LitoplanPto.HeaderText = "Litoplan Pto. N°"
+        Me.LitoplanPto.MaxInputLength = 10
+        Me.LitoplanPto.MinimumWidth = 8
+        Me.LitoplanPto.Name = "LitoplanPto"
+        Me.LitoplanPto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.LitoplanPto.ToolTipText = "Es N° Pto. grabado en Litoplan."
+        Me.LitoplanPto.Width = 120
+        '
+        'OpcionPtoLitoplan
+        '
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle6.Format = "N0"
+        DataGridViewCellStyle6.NullValue = Nothing
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OpcionPtoLitoplan.DefaultCellStyle = DataGridViewCellStyle6
+        Me.OpcionPtoLitoplan.DividerWidth = 5
+        Me.OpcionPtoLitoplan.HeaderText = "N°"
+        Me.OpcionPtoLitoplan.MaxInputLength = 1
+        Me.OpcionPtoLitoplan.MinimumWidth = 8
+        Me.OpcionPtoLitoplan.Name = "OpcionPtoLitoplan"
+        Me.OpcionPtoLitoplan.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.OpcionPtoLitoplan.ToolTipText = "Es la opcion de Pto. calculado en Litoplan."
+        Me.OpcionPtoLitoplan.Width = 40
+        '
+        'OtKilo
+        '
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle7.Format = "N0"
+        DataGridViewCellStyle7.NullValue = Nothing
+        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OtKilo.DefaultCellStyle = DataGridViewCellStyle7
+        Me.OtKilo.DividerWidth = 5
+        Me.OtKilo.HeaderText = "OT kls."
+        Me.OtKilo.MaxInputLength = 10
+        Me.OtKilo.MinimumWidth = 8
+        Me.OtKilo.Name = "OtKilo"
+        Me.OtKilo.ToolTipText = "Kilos que tiene esta OT"
+        '
+        'Cantidad
+        '
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle8.Format = "N0"
+        DataGridViewCellStyle8.NullValue = Nothing
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Blue
+        Me.Cantidad.DefaultCellStyle = DataGridViewCellStyle8
+        Me.Cantidad.DividerWidth = 5
+        Me.Cantidad.HeaderText = "Cantidad"
+        Me.Cantidad.MaxInputLength = 8
+        Me.Cantidad.MinimumWidth = 8
+        Me.Cantidad.Name = "Cantidad"
+        Me.Cantidad.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Cantidad.ToolTipText = "Es la cantidad de unidades de cajas fue solicitado el presupuesto."
+        Me.Cantidad.Width = 120
+        '
+        'ImprimirSi
+        '
+        Me.ImprimirSi.HeaderText = "Impr. Sí"
+        Me.ImprimirSi.Name = "ImprimirSi"
+        '
+        'GsXunidad
+        '
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle9.Format = "C0"
+        DataGridViewCellStyle9.NullValue = Nothing
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Blue
+        Me.GsXunidad.DefaultCellStyle = DataGridViewCellStyle9
+        Me.GsXunidad.DividerWidth = 5
+        Me.GsXunidad.HeaderText = "c/u Gs. "
+        Me.GsXunidad.MaxInputLength = 6
+        Me.GsXunidad.MinimumWidth = 8
+        Me.GsXunidad.Name = "GsXunidad"
+        Me.GsXunidad.ReadOnly = True
+        Me.GsXunidad.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.GsXunidad.ToolTipText = "El valor por cada caja cotizada  y puede ser ajustada."
+        Me.GsXunidad.Width = 80
+        '
+        'TotalGs
+        '
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle10.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle10.Format = "C0"
+        DataGridViewCellStyle10.NullValue = Nothing
+        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Blue
+        Me.TotalGs.DefaultCellStyle = DataGridViewCellStyle10
+        Me.TotalGs.DividerWidth = 5
+        Me.TotalGs.HeaderText = "Total Gs. "
+        Me.TotalGs.MaxInputLength = 10
+        Me.TotalGs.MinimumWidth = 8
+        Me.TotalGs.Name = "TotalGs"
+        Me.TotalGs.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.TotalGs.ToolTipText = "Es el total Gs del Pedido solicito"
+        Me.TotalGs.Width = 150
+        '
+        'MedidaAncho
+        '
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle11.Format = "N0"
+        DataGridViewCellStyle11.NullValue = Nothing
+        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MedidaAncho.DefaultCellStyle = DataGridViewCellStyle11
+        Me.MedidaAncho.DividerWidth = 5
+        Me.MedidaAncho.HeaderText = "An"
+        Me.MedidaAncho.MaxInputLength = 3
+        Me.MedidaAncho.MinimumWidth = 8
+        Me.MedidaAncho.Name = "MedidaAncho"
+        Me.MedidaAncho.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MedidaAncho.ToolTipText = "Medida Caja Armada Ancho,, segun imagen."
+        Me.MedidaAncho.Width = 70
+        '
+        'MedidaAlto
+        '
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle12.Format = "N0"
+        DataGridViewCellStyle12.NullValue = Nothing
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MedidaAlto.DefaultCellStyle = DataGridViewCellStyle12
+        Me.MedidaAlto.DividerWidth = 5
+        Me.MedidaAlto.HeaderText = "Al"
+        Me.MedidaAlto.MaxInputLength = 3
+        Me.MedidaAlto.MinimumWidth = 8
+        Me.MedidaAlto.Name = "MedidaAlto"
+        Me.MedidaAlto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MedidaAlto.ToolTipText = "Medida Caja Armada Alto, segun imagen."
+        Me.MedidaAlto.Width = 70
+        '
+        'MedidaProfundidad
+        '
+        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle13.Format = "N0"
+        DataGridViewCellStyle13.NullValue = Nothing
+        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MedidaProfundidad.DefaultCellStyle = DataGridViewCellStyle13
+        Me.MedidaProfundidad.DividerWidth = 5
+        Me.MedidaProfundidad.HeaderText = "Pr"
+        Me.MedidaProfundidad.MaxInputLength = 3
+        Me.MedidaProfundidad.MinimumWidth = 8
+        Me.MedidaProfundidad.Name = "MedidaProfundidad"
+        Me.MedidaProfundidad.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MedidaProfundidad.ToolTipText = "Medida Caja Armada Profundida, segun imagen."
+        Me.MedidaProfundidad.Width = 70
+        '
+        'CodCliente
+        '
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle14.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle14.NullValue = Nothing
+        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Blue
+        Me.CodCliente.DefaultCellStyle = DataGridViewCellStyle14
+        Me.CodCliente.DividerWidth = 5
+        Me.CodCliente.HeaderText = "Cod. Cliente"
+        Me.CodCliente.MaxInputLength = 12
+        Me.CodCliente.MinimumWidth = 8
+        Me.CodCliente.Name = "CodCliente"
+        Me.CodCliente.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.CodCliente.ToolTipText = "Es el numero asiginado al registrar en forma automatica."
+        Me.CodCliente.Width = 130
+        '
+        'NombreCliente
+        '
+        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle15.Format = "N0"
+        DataGridViewCellStyle15.NullValue = Nothing
+        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Blue
+        Me.NombreCliente.DefaultCellStyle = DataGridViewCellStyle15
+        Me.NombreCliente.DividerWidth = 5
+        Me.NombreCliente.HeaderText = "Nombre del Cliente"
+        Me.NombreCliente.MaxInputLength = 200
+        Me.NombreCliente.MinimumWidth = 8
+        Me.NombreCliente.Name = "NombreCliente"
+        Me.NombreCliente.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.NombreCliente.ToolTipText = "Razon social con la que se factura"
+        Me.NombreCliente.Width = 200
+        '
+        'TrabajoNumero
+        '
+        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle16.Format = "N0"
+        DataGridViewCellStyle16.NullValue = Nothing
+        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Blue
+        Me.TrabajoNumero.DefaultCellStyle = DataGridViewCellStyle16
+        Me.TrabajoNumero.DividerWidth = 5
+        Me.TrabajoNumero.HeaderText = "Trabajo N°"
+        Me.TrabajoNumero.MaxInputLength = 10
+        Me.TrabajoNumero.MinimumWidth = 8
+        Me.TrabajoNumero.Name = "TrabajoNumero"
+        Me.TrabajoNumero.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.TrabajoNumero.ToolTipText = "Trabajo N° corrido."
+        '
+        'TrabajoNombre
+        '
+        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle17.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Blue
+        Me.TrabajoNombre.DefaultCellStyle = DataGridViewCellStyle17
+        Me.TrabajoNombre.DividerWidth = 5
+        Me.TrabajoNombre.HeaderText = "Trabajo Nombre"
+        Me.TrabajoNombre.MaxInputLength = 250
+        Me.TrabajoNombre.MinimumWidth = 8
+        Me.TrabajoNombre.Name = "TrabajoNombre"
+        Me.TrabajoNombre.ToolTipText = "Trabajo el Nombre"
+        Me.TrabajoNombre.Width = 250
+        '
+        'FechaImpPto
+        '
+        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle18.Format = "g"
+        DataGridViewCellStyle18.NullValue = Nothing
+        Me.FechaImpPto.DefaultCellStyle = DataGridViewCellStyle18
+        Me.FechaImpPto.DividerWidth = 5
+        Me.FechaImpPto.HeaderText = "Imprimio Fecha"
+        Me.FechaImpPto.MaxInputLength = 13
+        Me.FechaImpPto.MinimumWidth = 8
+        Me.FechaImpPto.Name = "FechaImpPto"
+        Me.FechaImpPto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.FechaImpPto.ToolTipText = "Fecha que se Imprimio el Pto."
+        Me.FechaImpPto.Width = 150
+        '
+        'ConfirmoSi
+        '
+        Me.ConfirmoSi.HeaderText = "Conf. Sí"
+        Me.ConfirmoSi.Name = "ConfirmoSi"
+        '
         'OT7
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -19174,24 +19146,6 @@ Partial Class OT7
     Friend WithEvents PegaFin As DataGridViewCheckBoxColumn
     Friend WithEvents LitoPtoN As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn11 As DataGridViewTextBoxColumn
-    Friend WithEvents GeneralPto As DataGridViewTextBoxColumn
-    Friend WithEvents FechaLitoplan As DataGridViewTextBoxColumn
-    Friend WithEvents LitoplanPto As DataGridViewTextBoxColumn
-    Friend WithEvents OpcionPtoLitoplan As DataGridViewTextBoxColumn
-    Friend WithEvents OtKilo As DataGridViewTextBoxColumn
-    Friend WithEvents Cantidad As DataGridViewTextBoxColumn
-    Friend WithEvents ImprimirSi As DataGridViewCheckBoxColumn
-    Friend WithEvents GsXunidad As DataGridViewTextBoxColumn
-    Friend WithEvents TotalGs As DataGridViewTextBoxColumn
-    Friend WithEvents MedidaAncho As DataGridViewTextBoxColumn
-    Friend WithEvents MedidaAlto As DataGridViewTextBoxColumn
-    Friend WithEvents MedidaProfundidad As DataGridViewTextBoxColumn
-    Friend WithEvents CodCliente As DataGridViewTextBoxColumn
-    Friend WithEvents NombreCliente As DataGridViewTextBoxColumn
-    Friend WithEvents TrabajoNumero As DataGridViewTextBoxColumn
-    Friend WithEvents TrabajoNombre As DataGridViewTextBoxColumn
-    Friend WithEvents FechaImpPto As DataGridViewTextBoxColumn
-    Friend WithEvents ConfirmoSi As DataGridViewCheckBoxColumn
     Friend WithEvents TextBox54 As TextBox
     Friend WithEvents CheckBox147 As CheckBox
     Friend WithEvents DataGridViewTextBoxColumn12 As DataGridViewTextBoxColumn
@@ -19253,4 +19207,22 @@ Partial Class OT7
     Friend WithEvents btnBuscarPtoGral As Button
     Friend WithEvents txtNroPreGral As TextBox
     Friend WithEvents Label70 As Label
+    Friend WithEvents GeneralPto As DataGridViewTextBoxColumn
+    Friend WithEvents FechaLitoplan As DataGridViewTextBoxColumn
+    Friend WithEvents LitoplanPto As DataGridViewTextBoxColumn
+    Friend WithEvents OpcionPtoLitoplan As DataGridViewTextBoxColumn
+    Friend WithEvents OtKilo As DataGridViewTextBoxColumn
+    Friend WithEvents Cantidad As DataGridViewTextBoxColumn
+    Friend WithEvents ImprimirSi As DataGridViewCheckBoxColumn
+    Friend WithEvents GsXunidad As DataGridViewTextBoxColumn
+    Friend WithEvents TotalGs As DataGridViewTextBoxColumn
+    Friend WithEvents MedidaAncho As DataGridViewTextBoxColumn
+    Friend WithEvents MedidaAlto As DataGridViewTextBoxColumn
+    Friend WithEvents MedidaProfundidad As DataGridViewTextBoxColumn
+    Friend WithEvents CodCliente As DataGridViewTextBoxColumn
+    Friend WithEvents NombreCliente As DataGridViewTextBoxColumn
+    Friend WithEvents TrabajoNumero As DataGridViewTextBoxColumn
+    Friend WithEvents TrabajoNombre As DataGridViewTextBoxColumn
+    Friend WithEvents FechaImpPto As DataGridViewTextBoxColumn
+    Friend WithEvents ConfirmoSi As DataGridViewCheckBoxColumn
 End Class
