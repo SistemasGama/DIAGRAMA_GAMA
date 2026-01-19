@@ -123,6 +123,14 @@
                      FROM [@PRESUP_GENERAL_LP] a INNER JOIN 
                      [@PRESUP_GRAL_LP_DET] b ON a.docentry = b.docentry 
                      WHERE a.docnum = " & txtNroPreGral.Text
+
+            ''        Dim query As String = "SELECT a.docnum as General_pto, b.u_fechaLitoplan as LitoplanFecha,b.u_NroPresupuesto as Litoplan_pto,b.u_nro_pres_cal as NroCal , b.U_kilos_ot as ot_kls, b.u_cant_uni_caja as Cantidad,
+            ''b.u_Imprimir_si as Impr_si,b.u_cot_caja as cu_gs, b.u_precio_total as Totalgs, b.u_ancho_caja as an, b.u_alto_caja as al, b.u_profundidad_caja as pr,
+            ''b.u_codcli as cod_cliente,b.u_nomcli as nombre_cliente,a.u_itemcode as trabajo_nro, b.u_itemname as nombre_trabajo, b.u_fecha_impresion as Imprimio_fecha, 
+            ''b.u_confirmar_si as Conf_si
+            ''FROM [@PRESUP_GENERAL_LP] a INNER JOIN 
+            ''[@PRESUP_GRAL_LP_DET] b ON a.docentry = b.docentry 
+            ''WHERE a.docnum = " & txtNroPreGral.Text
             Dim dt As New DataTable
             dt = SelectResult(query)
 
@@ -143,4 +151,7 @@
 
     End Sub
 
+    Private Sub btnBuscarPtoGral_Click(sender As Object, e As EventArgs) Handles btnBuscarPtoGral.Click
+        getPtoGral()
+    End Sub
 End Class
