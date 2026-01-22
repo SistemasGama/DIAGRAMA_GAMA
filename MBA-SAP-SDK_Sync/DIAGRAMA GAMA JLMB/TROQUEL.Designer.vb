@@ -23,11 +23,11 @@ Partial Class OT6
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OT6))
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OT6))
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -45,6 +45,7 @@ Partial Class OT6
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.CheckBox14 = New System.Windows.Forms.CheckBox()
@@ -174,6 +175,7 @@ Partial Class OT6
         Me.TextBox63 = New System.Windows.Forms.TextBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Panel27 = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Label94 = New System.Windows.Forms.Label()
         Me.Label82 = New System.Windows.Forms.Label()
@@ -351,6 +353,23 @@ Partial Class OT6
         Me.CheckBox33 = New System.Windows.Forms.CheckBox()
         Me.TextBox38 = New System.Windows.Forms.TextBox()
         Me.DataGridView3 = New System.Windows.Forms.DataGridView()
+        Me.IngresComer = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn21 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TroquelN = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AnchoCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.AltoCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ProfundidaCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MontajeMedidaA = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MontajeMedidaB = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Golpetroquelado = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.EstanteTroquel = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TroquelActivo = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.CambioFleje = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.TroqPertinax = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.TroqRelieve = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.TroqStamp = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.TroqDescart = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.Label71 = New System.Windows.Forms.Label()
         Me.DateTimePicker16 = New System.Windows.Forms.DateTimePicker()
         Me.Label72 = New System.Windows.Forms.Label()
@@ -425,25 +444,6 @@ Partial Class OT6
         Me.Label22 = New System.Windows.Forms.Label()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.IngresComer = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn21 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TroquelN = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.AnchoCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.AltoCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ProfundidaCajaCerrada = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MontajeMedidaA = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MontajeMedidaB = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Golpetroquelado = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.EstanteTroquel = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TroquelActivo = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.CambioFleje = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.TroqPertinax = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.TroqRelieve = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.TroqStamp = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.TroqDescart = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel75.SuspendLayout()
@@ -451,6 +451,7 @@ Partial Class OT6
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.Panel4.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel33.SuspendLayout()
         Me.Panel34.SuspendLayout()
         Me.Panel26.SuspendLayout()
@@ -467,6 +468,7 @@ Partial Class OT6
         Me.TabPage2.SuspendLayout()
         Me.Panel6.SuspendLayout()
         Me.Panel27.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel28.SuspendLayout()
         Me.Panel119.SuspendLayout()
         Me.Panel35.SuspendLayout()
@@ -486,8 +488,6 @@ Partial Class OT6
         Me.Panel43.SuspendLayout()
         Me.Panel48.SuspendLayout()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel2
@@ -607,6 +607,16 @@ Partial Class OT6
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(1855, 854)
         Me.Panel4.TabIndex = 208
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(1342, 263)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(471, 569)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 608
+        Me.PictureBox1.TabStop = False
         '
         'Button18
         '
@@ -2263,6 +2273,16 @@ Partial Class OT6
         Me.Panel27.Name = "Panel27"
         Me.Panel27.Size = New System.Drawing.Size(977, 807)
         Me.Panel27.TabIndex = 483
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(11, 269)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(380, 521)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 609
+        Me.PictureBox2.TabStop = False
         '
         'Button14
         '
@@ -4528,6 +4548,222 @@ Partial Class OT6
         Me.DataGridView3.Size = New System.Drawing.Size(1823, 382)
         Me.DataGridView3.TabIndex = 255
         '
+        'IngresComer
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.Format = "g"
+        DataGridViewCellStyle3.NullValue = Nothing
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue
+        Me.IngresComer.DefaultCellStyle = DataGridViewCellStyle3
+        Me.IngresComer.DividerWidth = 5
+        Me.IngresComer.HeaderText = "Ingreso Comercial"
+        Me.IngresComer.MaxInputLength = 12
+        Me.IngresComer.MinimumWidth = 8
+        Me.IngresComer.Name = "IngresComer"
+        Me.IngresComer.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.IngresComer.ToolTipText = "Fecha que COMERCIAL cargo Ingreso"
+        Me.IngresComer.Width = 120
+        '
+        'DataGridViewTextBoxColumn21
+        '
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle4
+        Me.DataGridViewTextBoxColumn21.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn21.HeaderText = "Nombre Cliente"
+        Me.DataGridViewTextBoxColumn21.MaxInputLength = 500
+        Me.DataGridViewTextBoxColumn21.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn21.Name = "DataGridViewTextBoxColumn21"
+        Me.DataGridViewTextBoxColumn21.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn21.ToolTipText = "Razon social con la que se factura"
+        Me.DataGridViewTextBoxColumn21.Width = 250
+        '
+        'DataGridViewTextBoxColumn20
+        '
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle5.NullValue = Nothing
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn20.DefaultCellStyle = DataGridViewCellStyle5
+        Me.DataGridViewTextBoxColumn20.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn20.HeaderText = "Nombre Trabajo"
+        Me.DataGridViewTextBoxColumn20.MaxInputLength = 12
+        Me.DataGridViewTextBoxColumn20.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn20.Name = "DataGridViewTextBoxColumn20"
+        Me.DataGridViewTextBoxColumn20.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn20.ToolTipText = "El nombre trabajo."
+        Me.DataGridViewTextBoxColumn20.Width = 250
+        '
+        'TroquelN
+        '
+        Me.TroquelN.DividerWidth = 5
+        Me.TroquelN.HeaderText = "Troquel N°"
+        Me.TroquelN.MaxInputLength = 10
+        Me.TroquelN.MinimumWidth = 8
+        Me.TroquelN.Name = "TroquelN"
+        Me.TroquelN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.TroquelN.ToolTipText = "El Troquel N° es como se llama cada uno de los troqueles que se tiene, de forma c" &
+    "orrida."
+        Me.TroquelN.Width = 150
+        '
+        'AnchoCajaCerrada
+        '
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.AnchoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle6
+        Me.AnchoCajaCerrada.DividerWidth = 5
+        Me.AnchoCajaCerrada.HeaderText = "Ancho "
+        Me.AnchoCajaCerrada.MaxInputLength = 3
+        Me.AnchoCajaCerrada.MinimumWidth = 8
+        Me.AnchoCajaCerrada.Name = "AnchoCajaCerrada"
+        Me.AnchoCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.AnchoCajaCerrada.ToolTipText = "Medida ANCHO de la CAJA segun DIBUJO."
+        Me.AnchoCajaCerrada.Width = 80
+        '
+        'AltoCajaCerrada
+        '
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.AltoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle7
+        Me.AltoCajaCerrada.DividerWidth = 5
+        Me.AltoCajaCerrada.HeaderText = "Alto "
+        Me.AltoCajaCerrada.MaxInputLength = 3
+        Me.AltoCajaCerrada.MinimumWidth = 8
+        Me.AltoCajaCerrada.Name = "AltoCajaCerrada"
+        Me.AltoCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.AltoCajaCerrada.ToolTipText = "Medida ALTO de la CAJA segun DIBUJO."
+        Me.AltoCajaCerrada.Width = 80
+        '
+        'ProfundidaCajaCerrada
+        '
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.ProfundidaCajaCerrada.DefaultCellStyle = DataGridViewCellStyle8
+        Me.ProfundidaCajaCerrada.DividerWidth = 5
+        Me.ProfundidaCajaCerrada.HeaderText = "Profun."
+        Me.ProfundidaCajaCerrada.MaxInputLength = 3
+        Me.ProfundidaCajaCerrada.MinimumWidth = 8
+        Me.ProfundidaCajaCerrada.Name = "ProfundidaCajaCerrada"
+        Me.ProfundidaCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.ProfundidaCajaCerrada.ToolTipText = "Medida PROFUNDIDA de la CAJA segun DIBUJO."
+        Me.ProfundidaCajaCerrada.Width = 80
+        '
+        'MontajeMedidaA
+        '
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
+        Me.MontajeMedidaA.DefaultCellStyle = DataGridViewCellStyle9
+        Me.MontajeMedidaA.DividerWidth = 5
+        Me.MontajeMedidaA.HeaderText = "MedidaA"
+        Me.MontajeMedidaA.MaxInputLength = 4
+        Me.MontajeMedidaA.MinimumWidth = 8
+        Me.MontajeMedidaA.Name = "MontajeMedidaA"
+        Me.MontajeMedidaA.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MontajeMedidaA.ToolTipText = "Medida Montaje A"
+        Me.MontajeMedidaA.Width = 150
+        '
+        'MontajeMedidaB
+        '
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.MontajeMedidaB.DefaultCellStyle = DataGridViewCellStyle10
+        Me.MontajeMedidaB.DividerWidth = 5
+        Me.MontajeMedidaB.HeaderText = "MedidaB"
+        Me.MontajeMedidaB.MaxInputLength = 4
+        Me.MontajeMedidaB.MinimumWidth = 8
+        Me.MontajeMedidaB.Name = "MontajeMedidaB"
+        Me.MontajeMedidaB.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MontajeMedidaB.ToolTipText = "Medida Montaje B"
+        Me.MontajeMedidaB.Width = 150
+        '
+        'Golpetroquelado
+        '
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Golpetroquelado.DefaultCellStyle = DataGridViewCellStyle11
+        Me.Golpetroquelado.DividerWidth = 5
+        Me.Golpetroquelado.HeaderText = "Golpe Tiene"
+        Me.Golpetroquelado.MaxInputLength = 6
+        Me.Golpetroquelado.MinimumWidth = 8
+        Me.Golpetroquelado.Name = "Golpetroquelado"
+        Me.Golpetroquelado.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Golpetroquelado.ToolTipText = "La cantidad de Golpe del troquel."
+        Me.Golpetroquelado.Width = 80
+        '
+        'EstanteTroquel
+        '
+        Me.EstanteTroquel.DividerWidth = 5
+        Me.EstanteTroquel.HeaderText = "Estante"
+        Me.EstanteTroquel.MaxInputLength = 4
+        Me.EstanteTroquel.MinimumWidth = 8
+        Me.EstanteTroquel.Name = "EstanteTroquel"
+        Me.EstanteTroquel.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.EstanteTroquel.ToolTipText = "Numero del estante que fue asignado el Troquel"
+        Me.EstanteTroquel.Width = 80
+        '
+        'TroquelActivo
+        '
+        Me.TroquelActivo.DividerWidth = 5
+        Me.TroquelActivo.HeaderText = "Activo"
+        Me.TroquelActivo.MinimumWidth = 8
+        Me.TroquelActivo.Name = "TroquelActivo"
+        Me.TroquelActivo.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.TroquelActivo.ToolTipText = "Indica Si el troquel esta ACTIVO o fue ELIMINADO"
+        Me.TroquelActivo.Width = 70
+        '
+        'CambioFleje
+        '
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle12.Format = "N0"
+        DataGridViewCellStyle12.NullValue = False
+        Me.CambioFleje.DefaultCellStyle = DataGridViewCellStyle12
+        Me.CambioFleje.DividerWidth = 5
+        Me.CambioFleje.HeaderText = "Camb. Fleje"
+        Me.CambioFleje.MinimumWidth = 8
+        Me.CambioFleje.Name = "CambioFleje"
+        Me.CambioFleje.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.CambioFleje.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.CambioFleje.ToolTipText = "Cantidad de veces cambio de Flejes"
+        Me.CambioFleje.Width = 70
+        '
+        'TroqPertinax
+        '
+        Me.TroqPertinax.DividerWidth = 5
+        Me.TroqPertinax.HeaderText = "Pertinax"
+        Me.TroqPertinax.MinimumWidth = 8
+        Me.TroqPertinax.Name = "TroqPertinax"
+        Me.TroqPertinax.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.TroqPertinax.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.TroqPertinax.Width = 70
+        '
+        'TroqRelieve
+        '
+        Me.TroqRelieve.DividerWidth = 5
+        Me.TroqRelieve.HeaderText = "Relieve"
+        Me.TroqRelieve.MinimumWidth = 8
+        Me.TroqRelieve.Name = "TroqRelieve"
+        Me.TroqRelieve.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.TroqRelieve.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.TroqRelieve.Width = 70
+        '
+        'TroqStamp
+        '
+        Me.TroqStamp.DividerWidth = 5
+        Me.TroqStamp.HeaderText = "Stamp"
+        Me.TroqStamp.MinimumWidth = 8
+        Me.TroqStamp.Name = "TroqStamp"
+        Me.TroqStamp.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.TroqStamp.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.TroqStamp.Width = 70
+        '
+        'TroqDescart
+        '
+        Me.TroqDescart.DividerWidth = 5
+        Me.TroqDescart.HeaderText = "Descart"
+        Me.TroqDescart.MinimumWidth = 8
+        Me.TroqDescart.Name = "TroqDescart"
+        Me.TroqDescart.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.TroqDescart.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.TroqDescart.Width = 70
+        '
         'Label71
         '
         Me.Label71.AutoSize = True
@@ -5455,242 +5691,6 @@ Partial Class OT6
         Me.Label22.TabIndex = 6
         Me.Label22.Text = "TROQUEL"
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(1342, 263)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(471, 569)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 608
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(11, 269)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(380, 521)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 609
-        Me.PictureBox2.TabStop = False
-        '
-        'IngresComer
-        '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.Format = "g"
-        DataGridViewCellStyle3.NullValue = Nothing
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue
-        Me.IngresComer.DefaultCellStyle = DataGridViewCellStyle3
-        Me.IngresComer.DividerWidth = 5
-        Me.IngresComer.HeaderText = "Ingreso Comercial"
-        Me.IngresComer.MaxInputLength = 12
-        Me.IngresComer.MinimumWidth = 8
-        Me.IngresComer.Name = "IngresComer"
-        Me.IngresComer.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.IngresComer.ToolTipText = "Fecha que COMERCIAL cargo Ingreso"
-        Me.IngresComer.Width = 120
-        '
-        'DataGridViewTextBoxColumn21
-        '
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle4
-        Me.DataGridViewTextBoxColumn21.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn21.HeaderText = "Nombre Cliente"
-        Me.DataGridViewTextBoxColumn21.MaxInputLength = 500
-        Me.DataGridViewTextBoxColumn21.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn21.Name = "DataGridViewTextBoxColumn21"
-        Me.DataGridViewTextBoxColumn21.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn21.ToolTipText = "Razon social con la que se factura"
-        Me.DataGridViewTextBoxColumn21.Width = 250
-        '
-        'DataGridViewTextBoxColumn20
-        '
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle5.NullValue = Nothing
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn20.DefaultCellStyle = DataGridViewCellStyle5
-        Me.DataGridViewTextBoxColumn20.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn20.HeaderText = "Nombre Trabajo"
-        Me.DataGridViewTextBoxColumn20.MaxInputLength = 12
-        Me.DataGridViewTextBoxColumn20.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn20.Name = "DataGridViewTextBoxColumn20"
-        Me.DataGridViewTextBoxColumn20.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn20.ToolTipText = "El nombre trabajo."
-        Me.DataGridViewTextBoxColumn20.Width = 250
-        '
-        'TroquelN
-        '
-        Me.TroquelN.DividerWidth = 5
-        Me.TroquelN.HeaderText = "Troquel N°"
-        Me.TroquelN.MaxInputLength = 10
-        Me.TroquelN.MinimumWidth = 8
-        Me.TroquelN.Name = "TroquelN"
-        Me.TroquelN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.TroquelN.ToolTipText = "El Troquel N° es como se llama cada uno de los troqueles que se tiene, de forma c" &
-    "orrida."
-        Me.TroquelN.Width = 150
-        '
-        'AnchoCajaCerrada
-        '
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.AnchoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle6
-        Me.AnchoCajaCerrada.DividerWidth = 5
-        Me.AnchoCajaCerrada.HeaderText = "Ancho "
-        Me.AnchoCajaCerrada.MaxInputLength = 3
-        Me.AnchoCajaCerrada.MinimumWidth = 8
-        Me.AnchoCajaCerrada.Name = "AnchoCajaCerrada"
-        Me.AnchoCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.AnchoCajaCerrada.ToolTipText = "Medida ANCHO de la CAJA segun DIBUJO."
-        Me.AnchoCajaCerrada.Width = 80
-        '
-        'AltoCajaCerrada
-        '
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.AltoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle7
-        Me.AltoCajaCerrada.DividerWidth = 5
-        Me.AltoCajaCerrada.HeaderText = "Alto "
-        Me.AltoCajaCerrada.MaxInputLength = 3
-        Me.AltoCajaCerrada.MinimumWidth = 8
-        Me.AltoCajaCerrada.Name = "AltoCajaCerrada"
-        Me.AltoCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.AltoCajaCerrada.ToolTipText = "Medida ALTO de la CAJA segun DIBUJO."
-        Me.AltoCajaCerrada.Width = 80
-        '
-        'ProfundidaCajaCerrada
-        '
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.ProfundidaCajaCerrada.DefaultCellStyle = DataGridViewCellStyle8
-        Me.ProfundidaCajaCerrada.DividerWidth = 5
-        Me.ProfundidaCajaCerrada.HeaderText = "Profun."
-        Me.ProfundidaCajaCerrada.MaxInputLength = 3
-        Me.ProfundidaCajaCerrada.MinimumWidth = 8
-        Me.ProfundidaCajaCerrada.Name = "ProfundidaCajaCerrada"
-        Me.ProfundidaCajaCerrada.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.ProfundidaCajaCerrada.ToolTipText = "Medida PROFUNDIDA de la CAJA segun DIBUJO."
-        Me.ProfundidaCajaCerrada.Width = 80
-        '
-        'MontajeMedidaA
-        '
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
-        Me.MontajeMedidaA.DefaultCellStyle = DataGridViewCellStyle9
-        Me.MontajeMedidaA.DividerWidth = 5
-        Me.MontajeMedidaA.HeaderText = "MedidaA"
-        Me.MontajeMedidaA.MaxInputLength = 4
-        Me.MontajeMedidaA.MinimumWidth = 8
-        Me.MontajeMedidaA.Name = "MontajeMedidaA"
-        Me.MontajeMedidaA.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MontajeMedidaA.ToolTipText = "Medida Montaje A"
-        Me.MontajeMedidaA.Width = 150
-        '
-        'MontajeMedidaB
-        '
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.MontajeMedidaB.DefaultCellStyle = DataGridViewCellStyle10
-        Me.MontajeMedidaB.DividerWidth = 5
-        Me.MontajeMedidaB.HeaderText = "MedidaB"
-        Me.MontajeMedidaB.MaxInputLength = 4
-        Me.MontajeMedidaB.MinimumWidth = 8
-        Me.MontajeMedidaB.Name = "MontajeMedidaB"
-        Me.MontajeMedidaB.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MontajeMedidaB.ToolTipText = "Medida Montaje B"
-        Me.MontajeMedidaB.Width = 150
-        '
-        'Golpetroquelado
-        '
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Golpetroquelado.DefaultCellStyle = DataGridViewCellStyle11
-        Me.Golpetroquelado.DividerWidth = 5
-        Me.Golpetroquelado.HeaderText = "Golpe Tiene"
-        Me.Golpetroquelado.MaxInputLength = 6
-        Me.Golpetroquelado.MinimumWidth = 8
-        Me.Golpetroquelado.Name = "Golpetroquelado"
-        Me.Golpetroquelado.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Golpetroquelado.ToolTipText = "La cantidad de Golpe del troquel."
-        Me.Golpetroquelado.Width = 80
-        '
-        'EstanteTroquel
-        '
-        Me.EstanteTroquel.DividerWidth = 5
-        Me.EstanteTroquel.HeaderText = "Estante"
-        Me.EstanteTroquel.MaxInputLength = 4
-        Me.EstanteTroquel.MinimumWidth = 8
-        Me.EstanteTroquel.Name = "EstanteTroquel"
-        Me.EstanteTroquel.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.EstanteTroquel.ToolTipText = "Numero del estante que fue asignado el Troquel"
-        Me.EstanteTroquel.Width = 80
-        '
-        'TroquelActivo
-        '
-        Me.TroquelActivo.DividerWidth = 5
-        Me.TroquelActivo.HeaderText = "Activo"
-        Me.TroquelActivo.MinimumWidth = 8
-        Me.TroquelActivo.Name = "TroquelActivo"
-        Me.TroquelActivo.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.TroquelActivo.ToolTipText = "Indica Si el troquel esta ACTIVO o fue ELIMINADO"
-        Me.TroquelActivo.Width = 70
-        '
-        'CambioFleje
-        '
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle12.Format = "N0"
-        DataGridViewCellStyle12.NullValue = False
-        Me.CambioFleje.DefaultCellStyle = DataGridViewCellStyle12
-        Me.CambioFleje.DividerWidth = 5
-        Me.CambioFleje.HeaderText = "Camb. Fleje"
-        Me.CambioFleje.MinimumWidth = 8
-        Me.CambioFleje.Name = "CambioFleje"
-        Me.CambioFleje.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.CambioFleje.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.CambioFleje.ToolTipText = "Cantidad de veces cambio de Flejes"
-        Me.CambioFleje.Width = 70
-        '
-        'TroqPertinax
-        '
-        Me.TroqPertinax.DividerWidth = 5
-        Me.TroqPertinax.HeaderText = "Pertinax"
-        Me.TroqPertinax.MinimumWidth = 8
-        Me.TroqPertinax.Name = "TroqPertinax"
-        Me.TroqPertinax.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.TroqPertinax.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.TroqPertinax.Width = 70
-        '
-        'TroqRelieve
-        '
-        Me.TroqRelieve.DividerWidth = 5
-        Me.TroqRelieve.HeaderText = "Relieve"
-        Me.TroqRelieve.MinimumWidth = 8
-        Me.TroqRelieve.Name = "TroqRelieve"
-        Me.TroqRelieve.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.TroqRelieve.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.TroqRelieve.Width = 70
-        '
-        'TroqStamp
-        '
-        Me.TroqStamp.DividerWidth = 5
-        Me.TroqStamp.HeaderText = "Stamp"
-        Me.TroqStamp.MinimumWidth = 8
-        Me.TroqStamp.Name = "TroqStamp"
-        Me.TroqStamp.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.TroqStamp.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.TroqStamp.Width = 70
-        '
-        'TroqDescart
-        '
-        Me.TroqDescart.DividerWidth = 5
-        Me.TroqDescart.HeaderText = "Descart"
-        Me.TroqDescart.MinimumWidth = 8
-        Me.TroqDescart.Name = "TroqDescart"
-        Me.TroqDescart.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.TroqDescart.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.TroqDescart.Width = 70
-        '
         'OT6
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -5708,6 +5708,7 @@ Partial Class OT6
         Me.TabPage1.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel33.ResumeLayout(False)
         Me.Panel33.PerformLayout()
         Me.Panel34.ResumeLayout(False)
@@ -5739,6 +5740,7 @@ Partial Class OT6
         Me.Panel6.ResumeLayout(False)
         Me.Panel27.ResumeLayout(False)
         Me.Panel27.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel28.ResumeLayout(False)
         Me.Panel28.PerformLayout()
         Me.Panel119.ResumeLayout(False)
@@ -5773,8 +5775,6 @@ Partial Class OT6
         Me.Panel48.ResumeLayout(False)
         Me.Panel48.PerformLayout()
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

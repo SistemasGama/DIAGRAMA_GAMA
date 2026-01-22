@@ -17,4 +17,8 @@ Public Class INSUMO
     Private Sub Label452_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub Label477_Click(sender As Object, e As EventArgs) Handles Label477.Click, Label479.Click, Label478.Click
+
+    End Sub
 End Class
