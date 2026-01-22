@@ -24,35 +24,35 @@ Partial Class MP
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MP))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle31 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle53 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle54 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle32 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle33 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle34 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle35 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle36 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle37 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle38 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle39 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle40 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle41 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle42 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle43 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle44 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle45 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle46 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle47 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle48 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle49 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle50 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle51 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle52 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle55 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle56 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle57 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle58 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -317,6 +317,7 @@ Partial Class MP
         Me.ComboBox25 = New System.Windows.Forms.ComboBox()
         Me.Label395 = New System.Windows.Forms.Label()
         Me.Label162 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Label164 = New System.Windows.Forms.Label()
         Me.Label57 = New System.Windows.Forms.Label()
         Me.Label56 = New System.Windows.Forms.Label()
@@ -519,6 +520,27 @@ Partial Class MP
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label424 = New System.Windows.Forms.Label()
         Me.DataGridView3 = New System.Windows.Forms.DataGridView()
+        Me.MPCodigoCorto = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.MPPresupuestoN = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPOrdenCompraN = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPFacturaN = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPTotalGsFactura = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPTotalUnidadesFactura = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPCantidadUnidades = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPCantidadKilos = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPGuaraniesteKilos = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPTotalitemsGuaranies = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPTotalTotalGs = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPTotalTotalUnidades = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPNombreQR = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPNombreQRNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPBobinaN = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPConFSC = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.MPLoteN = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPVencimiento = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPDiametroCm = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPConoCm = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPOtN = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel32 = New System.Windows.Forms.Panel()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
@@ -1579,28 +1601,6 @@ Partial Class MP
         Me.Button17 = New System.Windows.Forms.Button()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.MPCodigoCorto = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.MPPresupuestoN = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPOrdenCompraN = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPFacturaN = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPTotalGsFactura = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPTotalUnidadesFactura = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPCantidadUnidades = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPCantidadKilos = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPGuaraniesteKilos = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPTotalitemsGuaranies = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPTotalTotalGs = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPTotalTotalUnidades = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPNombreQR = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPNombreQRNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPBobinaN = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPConFSC = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.MPLoteN = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPVencimiento = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPDiametroCm = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPConoCm = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPOtN = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel2.SuspendLayout
         Me.Panel1.SuspendLayout
         Me.Panel3.SuspendLayout
@@ -5114,6 +5114,17 @@ Partial Class MP
         Me.Label162.TabIndex = 21
         Me.Label162.Text = "Cod.. Contable  ARTICULO:"
         '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(992, 160)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(130, 29)
+        Me.Label7.TabIndex = 21
+        Me.Label7.Text = "Deposito.:"
+        '
         'Label164
         '
         Me.Label164.AutoSize = True
@@ -7654,39 +7665,425 @@ Partial Class MP
         '
         'DataGridView3
         '
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle1.Format = "N0"
-        DataGridViewCellStyle1.NullValue = Nothing
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle30.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle30.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle30.Format = "N0"
+        DataGridViewCellStyle30.NullValue = Nothing
+        DataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle30
         Me.DataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle31.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle31.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle31.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle31.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle31.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle31
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.MPCodigoCorto, Me.MPPresupuestoN, Me.MPOrdenCompraN, Me.MPFacturaN, Me.MPTotalGsFactura, Me.MPTotalUnidadesFactura, Me.MPCantidadUnidades, Me.MPCantidadKilos, Me.MPGuaraniesteKilos, Me.MPTotalitemsGuaranies, Me.MPTotalTotalGs, Me.MPTotalTotalUnidades, Me.MPNombreQR, Me.MPNombreQRNumero, Me.MPBobinaN, Me.MPConFSC, Me.MPLoteN, Me.MPVencimiento, Me.MPDiametroCm, Me.MPConoCm, Me.MPOtN})
         Me.DataGridView3.Location = New System.Drawing.Point(17, 528)
         Me.DataGridView3.Name = "DataGridView3"
-        DataGridViewCellStyle24.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle53.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle53.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle53.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle53.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle53.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle53
         Me.DataGridView3.RowHeadersWidth = 62
-        DataGridViewCellStyle25.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle54
         Me.DataGridView3.RowTemplate.Height = 28
         Me.DataGridView3.Size = New System.Drawing.Size(1802, 351)
         Me.DataGridView3.TabIndex = 637
+        '
+        'MPCodigoCorto
+        '
+        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle32.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPCodigoCorto.DefaultCellStyle = DataGridViewCellStyle32
+        Me.MPCodigoCorto.DisplayStyleForCurrentCellOnly = True
+        Me.MPCodigoCorto.DividerWidth = 5
+        Me.MPCodigoCorto.HeaderText = "MP Codigo Corto"
+        Me.MPCodigoCorto.MaxDropDownItems = 17
+        Me.MPCodigoCorto.MinimumWidth = 8
+        Me.MPCodigoCorto.Name = "MPCodigoCorto"
+        Me.MPCodigoCorto.ReadOnly = True
+        Me.MPCodigoCorto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPCodigoCorto.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.MPCodigoCorto.ToolTipText = "Utiliza el codigo corto en este lugar"
+        Me.MPCodigoCorto.Width = 250
+        '
+        'MPPresupuestoN
+        '
+        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle33.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle33.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle33.Format = "N0"
+        DataGridViewCellStyle33.NullValue = Nothing
+        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPPresupuestoN.DefaultCellStyle = DataGridViewCellStyle33
+        Me.MPPresupuestoN.DividerWidth = 5
+        Me.MPPresupuestoN.HeaderText = "MP    Pto N°"
+        Me.MPPresupuestoN.MaxInputLength = 10
+        Me.MPPresupuestoN.MinimumWidth = 8
+        Me.MPPresupuestoN.Name = "MPPresupuestoN"
+        Me.MPPresupuestoN.ReadOnly = True
+        Me.MPPresupuestoN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPPresupuestoN.ToolTipText = "El lo que nos presupuestaron"
+        Me.MPPresupuestoN.Width = 120
+        '
+        'MPOrdenCompraN
+        '
+        DataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle34.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle34.Format = "N0"
+        DataGridViewCellStyle34.NullValue = Nothing
+        DataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPOrdenCompraN.DefaultCellStyle = DataGridViewCellStyle34
+        Me.MPOrdenCompraN.DividerWidth = 5
+        Me.MPOrdenCompraN.HeaderText = "MP    OC N°"
+        Me.MPOrdenCompraN.MaxInputLength = 10
+        Me.MPOrdenCompraN.MinimumWidth = 8
+        Me.MPOrdenCompraN.Name = "MPOrdenCompraN"
+        Me.MPOrdenCompraN.ReadOnly = True
+        Me.MPOrdenCompraN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPOrdenCompraN.ToolTipText = "Es el numero de la orden de compra"
+        Me.MPOrdenCompraN.Width = 120
+        '
+        'MPFacturaN
+        '
+        DataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle35.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle35.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle35.Format = "N0"
+        DataGridViewCellStyle35.NullValue = Nothing
+        DataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPFacturaN.DefaultCellStyle = DataGridViewCellStyle35
+        Me.MPFacturaN.HeaderText = "MP    Fact N°"
+        Me.MPFacturaN.MaxInputLength = 10
+        Me.MPFacturaN.MinimumWidth = 8
+        Me.MPFacturaN.Name = "MPFacturaN"
+        Me.MPFacturaN.ReadOnly = True
+        Me.MPFacturaN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPFacturaN.ToolTipText = "Numero de la Factura"
+        Me.MPFacturaN.Width = 120
+        '
+        'MPTotalGsFactura
+        '
+        DataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle36.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle36.Format = "N0"
+        DataGridViewCellStyle36.NullValue = Nothing
+        DataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPTotalGsFactura.DefaultCellStyle = DataGridViewCellStyle36
+        Me.MPTotalGsFactura.DividerWidth = 5
+        Me.MPTotalGsFactura.HeaderText = "Total Gs Factura "
+        Me.MPTotalGsFactura.MaxInputLength = 10
+        Me.MPTotalGsFactura.MinimumWidth = 8
+        Me.MPTotalGsFactura.Name = "MPTotalGsFactura"
+        Me.MPTotalGsFactura.ReadOnly = True
+        Me.MPTotalGsFactura.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPTotalGsFactura.ToolTipText = "El total de Gs de esta factura"
+        Me.MPTotalGsFactura.Width = 150
+        '
+        'MPTotalUnidadesFactura
+        '
+        DataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle37.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle37.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle37.Format = "N0"
+        DataGridViewCellStyle37.NullValue = Nothing
+        DataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPTotalUnidadesFactura.DefaultCellStyle = DataGridViewCellStyle37
+        Me.MPTotalUnidadesFactura.DividerWidth = 5
+        Me.MPTotalUnidadesFactura.HeaderText = "Total Bob."
+        Me.MPTotalUnidadesFactura.MaxInputLength = 3
+        Me.MPTotalUnidadesFactura.MinimumWidth = 8
+        Me.MPTotalUnidadesFactura.Name = "MPTotalUnidadesFactura"
+        Me.MPTotalUnidadesFactura.ReadOnly = True
+        Me.MPTotalUnidadesFactura.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPTotalUnidadesFactura.ToolTipText = "Es el fotal de Bobinas de la factura."
+        Me.MPTotalUnidadesFactura.Width = 70
+        '
+        'MPCantidadUnidades
+        '
+        DataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle38.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle38.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle38.Format = "N0"
+        DataGridViewCellStyle38.NullValue = Nothing
+        DataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPCantidadUnidades.DefaultCellStyle = DataGridViewCellStyle38
+        Me.MPCantidadUnidades.DividerWidth = 5
+        Me.MPCantidadUnidades.HeaderText = "+Cant, Bob."
+        Me.MPCantidadUnidades.MaxInputLength = 3
+        Me.MPCantidadUnidades.MinimumWidth = 8
+        Me.MPCantidadUnidades.Name = "MPCantidadUnidades"
+        Me.MPCantidadUnidades.ReadOnly = True
+        Me.MPCantidadUnidades.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPCantidadUnidades.ToolTipText = "La cantida de Bobinas de este items"
+        Me.MPCantidadUnidades.Width = 70
+        '
+        'MPCantidadKilos
+        '
+        DataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle39.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle39.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle39.Format = "N0"
+        DataGridViewCellStyle39.NullValue = Nothing
+        DataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPCantidadKilos.DefaultCellStyle = DataGridViewCellStyle39
+        Me.MPCantidadKilos.DividerWidth = 5
+        Me.MPCantidadKilos.HeaderText = "+Cant./Kls."
+        Me.MPCantidadKilos.MaxInputLength = 6
+        Me.MPCantidadKilos.MinimumWidth = 8
+        Me.MPCantidadKilos.Name = "MPCantidadKilos"
+        Me.MPCantidadKilos.ReadOnly = True
+        Me.MPCantidadKilos.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPCantidadKilos.ToolTipText = "Cantidad de Kilos comprado en un solo items."
+        Me.MPCantidadKilos.Width = 80
+        '
+        'MPGuaraniesteKilos
+        '
+        DataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle40.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle40.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle40.Format = "N0"
+        DataGridViewCellStyle40.NullValue = Nothing
+        DataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPGuaraniesteKilos.DefaultCellStyle = DataGridViewCellStyle40
+        Me.MPGuaraniesteKilos.DividerWidth = 5
+        Me.MPGuaraniesteKilos.HeaderText = "+Gs./Kls."
+        Me.MPGuaraniesteKilos.MaxInputLength = 6
+        Me.MPGuaraniesteKilos.MinimumWidth = 8
+        Me.MPGuaraniesteKilos.Name = "MPGuaraniesteKilos"
+        Me.MPGuaraniesteKilos.ReadOnly = True
+        Me.MPGuaraniesteKilos.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPGuaraniesteKilos.ToolTipText = "Gs por kilo que nos cotizaron en este itams"
+        Me.MPGuaraniesteKilos.Width = 80
+        '
+        'MPTotalitemsGuaranies
+        '
+        DataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle41.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle41.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle41.Format = "N0"
+        DataGridViewCellStyle41.NullValue = Nothing
+        DataGridViewCellStyle41.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPTotalitemsGuaranies.DefaultCellStyle = DataGridViewCellStyle41
+        Me.MPTotalitemsGuaranies.DividerWidth = 5
+        Me.MPTotalitemsGuaranies.HeaderText = "+Total Gs Itens"
+        Me.MPTotalitemsGuaranies.MaxInputLength = 10
+        Me.MPTotalitemsGuaranies.MinimumWidth = 8
+        Me.MPTotalitemsGuaranies.Name = "MPTotalitemsGuaranies"
+        Me.MPTotalitemsGuaranies.ReadOnly = True
+        Me.MPTotalitemsGuaranies.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPTotalitemsGuaranies.ToolTipText = "Total de Gs de este items"
+        Me.MPTotalitemsGuaranies.Width = 150
+        '
+        'MPTotalTotalGs
+        '
+        DataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle42.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle42.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle42.Format = "N0"
+        DataGridViewCellStyle42.NullValue = Nothing
+        DataGridViewCellStyle42.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPTotalTotalGs.DefaultCellStyle = DataGridViewCellStyle42
+        Me.MPTotalTotalGs.DividerWidth = 5
+        Me.MPTotalTotalGs.HeaderText = "-Total Tot. Gs"
+        Me.MPTotalTotalGs.MaxInputLength = 10
+        Me.MPTotalTotalGs.MinimumWidth = 8
+        Me.MPTotalTotalGs.Name = "MPTotalTotalGs"
+        Me.MPTotalTotalGs.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPTotalTotalGs.ToolTipText = "Este es el total de todos los items que al coincidir graba automaticamente"
+        Me.MPTotalTotalGs.Width = 130
+        '
+        'MPTotalTotalUnidades
+        '
+        DataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle43.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle43.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle43.Format = "N0"
+        DataGridViewCellStyle43.NullValue = Nothing
+        DataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPTotalTotalUnidades.DefaultCellStyle = DataGridViewCellStyle43
+        Me.MPTotalTotalUnidades.DividerWidth = 5
+        Me.MPTotalTotalUnidades.HeaderText = "-Total T. Unid"
+        Me.MPTotalTotalUnidades.MaxInputLength = 10
+        Me.MPTotalTotalUnidades.MinimumWidth = 8
+        Me.MPTotalTotalUnidades.Name = "MPTotalTotalUnidades"
+        Me.MPTotalTotalUnidades.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPTotalTotalUnidades.ToolTipText = "Es el total de unidades (Bobinas) que fue cargado que debe coinsidir con el total" &
+    " unidades de la factua "
+        Me.MPTotalTotalUnidades.Width = 150
+        '
+        'MPNombreQR
+        '
+        DataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle44.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle44.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle44.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPNombreQR.DefaultCellStyle = DataGridViewCellStyle44
+        Me.MPNombreQR.DividerWidth = 5
+        Me.MPNombreQR.HeaderText = "QR Nombre "
+        Me.MPNombreQR.MaxInputLength = 10
+        Me.MPNombreQR.MinimumWidth = 8
+        Me.MPNombreQR.Name = "MPNombreQR"
+        Me.MPNombreQR.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPNombreQR.ToolTipText = "Es el nombre corto para manejo del inventario"
+        Me.MPNombreQR.Width = 150
+        '
+        'MPNombreQRNumero
+        '
+        DataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle45.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle45.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle45.Format = "N0"
+        DataGridViewCellStyle45.NullValue = Nothing
+        DataGridViewCellStyle45.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPNombreQRNumero.DefaultCellStyle = DataGridViewCellStyle45
+        Me.MPNombreQRNumero.DividerWidth = 5
+        Me.MPNombreQRNumero.HeaderText = "QR N°"
+        Me.MPNombreQRNumero.MaxInputLength = 4
+        Me.MPNombreQRNumero.MinimumWidth = 8
+        Me.MPNombreQRNumero.Name = "MPNombreQRNumero"
+        Me.MPNombreQRNumero.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPNombreQRNumero.ToolTipText = "Este es el numero del articulo es uno solo para todas los items que coinside,"
+        Me.MPNombreQRNumero.Width = 50
+        '
+        'MPBobinaN
+        '
+        DataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle46.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle46.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle46.Format = "N0"
+        DataGridViewCellStyle46.NullValue = Nothing
+        DataGridViewCellStyle46.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPBobinaN.DefaultCellStyle = DataGridViewCellStyle46
+        Me.MPBobinaN.DividerWidth = 5
+        Me.MPBobinaN.HeaderText = "QR Bo N°"
+        Me.MPBobinaN.MaxInputLength = 6
+        Me.MPBobinaN.MinimumWidth = 8
+        Me.MPBobinaN.Name = "MPBobinaN"
+        Me.MPBobinaN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPBobinaN.ToolTipText = "El es numero de corrido que es dado por sistema sin repetir nunca, como nombre de" &
+    "l producto"
+        Me.MPBobinaN.Width = 110
+        '
+        'MPConFSC
+        '
+        DataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle47.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle47.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle47.NullValue = False
+        DataGridViewCellStyle47.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPConFSC.DefaultCellStyle = DataGridViewCellStyle47
+        Me.MPConFSC.DividerWidth = 5
+        Me.MPConFSC.HeaderText = "FSC"
+        Me.MPConFSC.MinimumWidth = 8
+        Me.MPConFSC.Name = "MPConFSC"
+        Me.MPConFSC.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPConFSC.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.MPConFSC.Width = 60
+        '
+        'MPLoteN
+        '
+        DataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle48.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle48.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle48.Format = "d"
+        DataGridViewCellStyle48.NullValue = Nothing
+        DataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPLoteN.DefaultCellStyle = DataGridViewCellStyle48
+        Me.MPLoteN.DividerWidth = 5
+        Me.MPLoteN.HeaderText = "Lte. N°"
+        Me.MPLoteN.MaxInputLength = 10
+        Me.MPLoteN.MinimumWidth = 8
+        Me.MPLoteN.Name = "MPLoteN"
+        Me.MPLoteN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPLoteN.ToolTipText = "Es el numero de LOTE que es la fecha de ingreso."
+        Me.MPLoteN.Width = 150
+        '
+        'MPVencimiento
+        '
+        DataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle49.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle49.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle49.Format = "d"
+        DataGridViewCellStyle49.NullValue = Nothing
+        DataGridViewCellStyle49.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPVencimiento.DefaultCellStyle = DataGridViewCellStyle49
+        Me.MPVencimiento.DividerWidth = 5
+        Me.MPVencimiento.HeaderText = "Vto."
+        Me.MPVencimiento.MaxInputLength = 10
+        Me.MPVencimiento.MinimumWidth = 8
+        Me.MPVencimiento.Name = "MPVencimiento"
+        Me.MPVencimiento.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPVencimiento.ToolTipText = "Es el vencimiento dado por el fabricante"
+        Me.MPVencimiento.Width = 150
+        '
+        'MPDiametroCm
+        '
+        DataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle50.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle50.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle50.Format = "N0"
+        DataGridViewCellStyle50.NullValue = Nothing
+        DataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPDiametroCm.DefaultCellStyle = DataGridViewCellStyle50
+        Me.MPDiametroCm.DividerWidth = 5
+        Me.MPDiametroCm.HeaderText = "Dia. Cm."
+        Me.MPDiametroCm.MaxInputLength = 2
+        Me.MPDiametroCm.MinimumWidth = 8
+        Me.MPDiametroCm.Name = "MPDiametroCm"
+        Me.MPDiametroCm.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPDiametroCm.ToolTipText = "Es el diametro maximo que entra en la RESMADORA  1,80"
+        Me.MPDiametroCm.Width = 60
+        '
+        'MPConoCm
+        '
+        DataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle51.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle51.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle51.Format = "N0"
+        DataGridViewCellStyle51.NullValue = Nothing
+        DataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPConoCm.DefaultCellStyle = DataGridViewCellStyle51
+        Me.MPConoCm.DividerWidth = 5
+        Me.MPConoCm.HeaderText = "Con Cm"
+        Me.MPConoCm.MaxInputLength = 2
+        Me.MPConoCm.MinimumWidth = 8
+        Me.MPConoCm.Name = "MPConoCm"
+        Me.MPConoCm.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPConoCm.ToolTipText = "Es el diametro ideal de 30 cm para el nucleo en el caso de carton"
+        Me.MPConoCm.Width = 60
+        '
+        'MPOtN
+        '
+        DataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle52.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle52.Format = "N0"
+        DataGridViewCellStyle52.NullValue = Nothing
+        DataGridViewCellStyle52.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPOtN.DefaultCellStyle = DataGridViewCellStyle52
+        Me.MPOtN.DividerWidth = 5
+        Me.MPOtN.HeaderText = "OT N°"
+        Me.MPOtN.MaxInputLength = 10
+        Me.MPOtN.MinimumWidth = 8
+        Me.MPOtN.Name = "MPOtN"
+        Me.MPOtN.ReadOnly = True
+        Me.MPOtN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPOtN.ToolTipText = "Es el numero de OT que se compro esta MP"
+        Me.MPOtN.Width = 150
         '
         'Panel32
         '
@@ -7771,36 +8168,36 @@ Partial Class MP
         '
         'DataGridView1
         '
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle26.Format = "N0"
-        DataGridViewCellStyle26.NullValue = Nothing
-        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle55.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle55.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle55.Format = "N0"
+        DataGridViewCellStyle55.NullValue = Nothing
+        DataGridViewCellStyle55.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle55
         Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle56.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle56.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle56.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle56.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle56
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn13, Me.DataGridViewTextBoxColumn14, Me.DataGridViewTextBoxColumn15, Me.DataGridViewTextBoxColumn16, Me.DataGridViewTextBoxColumn17, Me.DataGridViewTextBoxColumn18, Me.DataGridViewTextBoxColumn19, Me.DataGridViewTextBoxColumn20, Me.DataGridViewTextBoxColumn21})
         Me.DataGridView1.Location = New System.Drawing.Point(9, 595)
         Me.DataGridView1.Name = "DataGridView1"
-        DataGridViewCellStyle28.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle28
+        DataGridViewCellStyle57.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle57.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle57.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle57.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle57.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle57.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle57
         Me.DataGridView1.RowHeadersWidth = 62
-        DataGridViewCellStyle29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle29
+        DataGridViewCellStyle58.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle58
         Me.DataGridView1.RowTemplate.Height = 28
         Me.DataGridView1.Size = New System.Drawing.Size(1823, 305)
         Me.DataGridView1.TabIndex = 640
@@ -21626,397 +22023,6 @@ Partial Class MP
         Me.Button17.TabIndex = 19
         Me.Button17.Text = "0.000"
         Me.Button17.UseVisualStyleBackColor = True
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(992, 160)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(130, 29)
-        Me.Label7.TabIndex = 21
-        Me.Label7.Text = "Deposito.:"
-        '
-        'MPCodigoCorto
-        '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPCodigoCorto.DefaultCellStyle = DataGridViewCellStyle3
-        Me.MPCodigoCorto.DisplayStyleForCurrentCellOnly = True
-        Me.MPCodigoCorto.DividerWidth = 5
-        Me.MPCodigoCorto.HeaderText = "MP Codigo Corto"
-        Me.MPCodigoCorto.MaxDropDownItems = 17
-        Me.MPCodigoCorto.MinimumWidth = 8
-        Me.MPCodigoCorto.Name = "MPCodigoCorto"
-        Me.MPCodigoCorto.ReadOnly = True
-        Me.MPCodigoCorto.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPCodigoCorto.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.MPCodigoCorto.ToolTipText = "Utiliza el codigo corto en este lugar"
-        Me.MPCodigoCorto.Width = 250
-        '
-        'MPPresupuestoN
-        '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle4.Format = "N0"
-        DataGridViewCellStyle4.NullValue = Nothing
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPPresupuestoN.DefaultCellStyle = DataGridViewCellStyle4
-        Me.MPPresupuestoN.DividerWidth = 5
-        Me.MPPresupuestoN.HeaderText = "MP    Pto N°"
-        Me.MPPresupuestoN.MaxInputLength = 10
-        Me.MPPresupuestoN.MinimumWidth = 8
-        Me.MPPresupuestoN.Name = "MPPresupuestoN"
-        Me.MPPresupuestoN.ReadOnly = True
-        Me.MPPresupuestoN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPPresupuestoN.ToolTipText = "El lo que nos presupuestaron"
-        Me.MPPresupuestoN.Width = 120
-        '
-        'MPOrdenCompraN
-        '
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle5.Format = "N0"
-        DataGridViewCellStyle5.NullValue = Nothing
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPOrdenCompraN.DefaultCellStyle = DataGridViewCellStyle5
-        Me.MPOrdenCompraN.DividerWidth = 5
-        Me.MPOrdenCompraN.HeaderText = "MP    OC N°"
-        Me.MPOrdenCompraN.MaxInputLength = 10
-        Me.MPOrdenCompraN.MinimumWidth = 8
-        Me.MPOrdenCompraN.Name = "MPOrdenCompraN"
-        Me.MPOrdenCompraN.ReadOnly = True
-        Me.MPOrdenCompraN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPOrdenCompraN.ToolTipText = "Es el numero de la orden de compra"
-        Me.MPOrdenCompraN.Width = 120
-        '
-        'MPFacturaN
-        '
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.Format = "N0"
-        DataGridViewCellStyle6.NullValue = Nothing
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPFacturaN.DefaultCellStyle = DataGridViewCellStyle6
-        Me.MPFacturaN.HeaderText = "MP    Fact N°"
-        Me.MPFacturaN.MaxInputLength = 10
-        Me.MPFacturaN.MinimumWidth = 8
-        Me.MPFacturaN.Name = "MPFacturaN"
-        Me.MPFacturaN.ReadOnly = True
-        Me.MPFacturaN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPFacturaN.ToolTipText = "Numero de la Factura"
-        Me.MPFacturaN.Width = 120
-        '
-        'MPTotalGsFactura
-        '
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.Format = "N0"
-        DataGridViewCellStyle7.NullValue = Nothing
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalGsFactura.DefaultCellStyle = DataGridViewCellStyle7
-        Me.MPTotalGsFactura.DividerWidth = 5
-        Me.MPTotalGsFactura.HeaderText = "Total Gs Factura "
-        Me.MPTotalGsFactura.MaxInputLength = 10
-        Me.MPTotalGsFactura.MinimumWidth = 8
-        Me.MPTotalGsFactura.Name = "MPTotalGsFactura"
-        Me.MPTotalGsFactura.ReadOnly = True
-        Me.MPTotalGsFactura.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPTotalGsFactura.ToolTipText = "El total de Gs de esta factura"
-        Me.MPTotalGsFactura.Width = 150
-        '
-        'MPTotalUnidadesFactura
-        '
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle8.Format = "N0"
-        DataGridViewCellStyle8.NullValue = Nothing
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalUnidadesFactura.DefaultCellStyle = DataGridViewCellStyle8
-        Me.MPTotalUnidadesFactura.DividerWidth = 5
-        Me.MPTotalUnidadesFactura.HeaderText = "Total Bob."
-        Me.MPTotalUnidadesFactura.MaxInputLength = 3
-        Me.MPTotalUnidadesFactura.MinimumWidth = 8
-        Me.MPTotalUnidadesFactura.Name = "MPTotalUnidadesFactura"
-        Me.MPTotalUnidadesFactura.ReadOnly = True
-        Me.MPTotalUnidadesFactura.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPTotalUnidadesFactura.ToolTipText = "Es el fotal de Bobinas de la factura."
-        Me.MPTotalUnidadesFactura.Width = 70
-        '
-        'MPCantidadUnidades
-        '
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.Format = "N0"
-        DataGridViewCellStyle9.NullValue = Nothing
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPCantidadUnidades.DefaultCellStyle = DataGridViewCellStyle9
-        Me.MPCantidadUnidades.DividerWidth = 5
-        Me.MPCantidadUnidades.HeaderText = "+Cant, Bob."
-        Me.MPCantidadUnidades.MaxInputLength = 3
-        Me.MPCantidadUnidades.MinimumWidth = 8
-        Me.MPCantidadUnidades.Name = "MPCantidadUnidades"
-        Me.MPCantidadUnidades.ReadOnly = True
-        Me.MPCantidadUnidades.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPCantidadUnidades.ToolTipText = "La cantida de Bobinas de este items"
-        Me.MPCantidadUnidades.Width = 70
-        '
-        'MPCantidadKilos
-        '
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle10.Format = "N0"
-        DataGridViewCellStyle10.NullValue = Nothing
-        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPCantidadKilos.DefaultCellStyle = DataGridViewCellStyle10
-        Me.MPCantidadKilos.DividerWidth = 5
-        Me.MPCantidadKilos.HeaderText = "+Cant./Kls."
-        Me.MPCantidadKilos.MaxInputLength = 6
-        Me.MPCantidadKilos.MinimumWidth = 8
-        Me.MPCantidadKilos.Name = "MPCantidadKilos"
-        Me.MPCantidadKilos.ReadOnly = True
-        Me.MPCantidadKilos.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPCantidadKilos.ToolTipText = "Cantidad de Kilos comprado en un solo items."
-        Me.MPCantidadKilos.Width = 80
-        '
-        'MPGuaraniesteKilos
-        '
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle11.Format = "N0"
-        DataGridViewCellStyle11.NullValue = Nothing
-        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPGuaraniesteKilos.DefaultCellStyle = DataGridViewCellStyle11
-        Me.MPGuaraniesteKilos.DividerWidth = 5
-        Me.MPGuaraniesteKilos.HeaderText = "+Gs./Kls."
-        Me.MPGuaraniesteKilos.MaxInputLength = 6
-        Me.MPGuaraniesteKilos.MinimumWidth = 8
-        Me.MPGuaraniesteKilos.Name = "MPGuaraniesteKilos"
-        Me.MPGuaraniesteKilos.ReadOnly = True
-        Me.MPGuaraniesteKilos.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPGuaraniesteKilos.ToolTipText = "Gs por kilo que nos cotizaron en este itams"
-        Me.MPGuaraniesteKilos.Width = 80
-        '
-        'MPTotalitemsGuaranies
-        '
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle12.Format = "N0"
-        DataGridViewCellStyle12.NullValue = Nothing
-        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalitemsGuaranies.DefaultCellStyle = DataGridViewCellStyle12
-        Me.MPTotalitemsGuaranies.DividerWidth = 5
-        Me.MPTotalitemsGuaranies.HeaderText = "+Total Gs Itens"
-        Me.MPTotalitemsGuaranies.MaxInputLength = 10
-        Me.MPTotalitemsGuaranies.MinimumWidth = 8
-        Me.MPTotalitemsGuaranies.Name = "MPTotalitemsGuaranies"
-        Me.MPTotalitemsGuaranies.ReadOnly = True
-        Me.MPTotalitemsGuaranies.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPTotalitemsGuaranies.ToolTipText = "Total de Gs de este items"
-        '
-        'MPTotalTotalGs
-        '
-        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle13.Format = "N0"
-        DataGridViewCellStyle13.NullValue = Nothing
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalTotalGs.DefaultCellStyle = DataGridViewCellStyle13
-        Me.MPTotalTotalGs.DividerWidth = 5
-        Me.MPTotalTotalGs.HeaderText = "-Total Tot. Gs"
-        Me.MPTotalTotalGs.MaxInputLength = 10
-        Me.MPTotalTotalGs.MinimumWidth = 8
-        Me.MPTotalTotalGs.Name = "MPTotalTotalGs"
-        Me.MPTotalTotalGs.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPTotalTotalGs.ToolTipText = "Este es el total de todos los items que al coincidir graba automaticamente"
-        Me.MPTotalTotalGs.Width = 130
-        '
-        'MPTotalTotalUnidades
-        '
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle14.Format = "N0"
-        DataGridViewCellStyle14.NullValue = Nothing
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalTotalUnidades.DefaultCellStyle = DataGridViewCellStyle14
-        Me.MPTotalTotalUnidades.DividerWidth = 5
-        Me.MPTotalTotalUnidades.HeaderText = "-Total T. Unid"
-        Me.MPTotalTotalUnidades.MaxInputLength = 10
-        Me.MPTotalTotalUnidades.MinimumWidth = 8
-        Me.MPTotalTotalUnidades.Name = "MPTotalTotalUnidades"
-        Me.MPTotalTotalUnidades.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPTotalTotalUnidades.ToolTipText = "Es el total de unidades (Bobinas) que fue cargado que debe coinsidir con el total" &
-    " unidades de la factua "
-        '
-        'MPNombreQR
-        '
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPNombreQR.DefaultCellStyle = DataGridViewCellStyle15
-        Me.MPNombreQR.DividerWidth = 5
-        Me.MPNombreQR.HeaderText = "QR Nombre "
-        Me.MPNombreQR.MaxInputLength = 10
-        Me.MPNombreQR.MinimumWidth = 8
-        Me.MPNombreQR.Name = "MPNombreQR"
-        Me.MPNombreQR.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPNombreQR.ToolTipText = "Es el nombre corto para manejo del inventario"
-        '
-        'MPNombreQRNumero
-        '
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle16.Format = "N0"
-        DataGridViewCellStyle16.NullValue = Nothing
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPNombreQRNumero.DefaultCellStyle = DataGridViewCellStyle16
-        Me.MPNombreQRNumero.DividerWidth = 5
-        Me.MPNombreQRNumero.HeaderText = "QR N°"
-        Me.MPNombreQRNumero.MaxInputLength = 4
-        Me.MPNombreQRNumero.MinimumWidth = 8
-        Me.MPNombreQRNumero.Name = "MPNombreQRNumero"
-        Me.MPNombreQRNumero.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPNombreQRNumero.ToolTipText = "Este es el numero del articulo es uno solo para todas los items que coinside,"
-        Me.MPNombreQRNumero.Width = 50
-        '
-        'MPBobinaN
-        '
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle17.Format = "N0"
-        DataGridViewCellStyle17.NullValue = Nothing
-        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPBobinaN.DefaultCellStyle = DataGridViewCellStyle17
-        Me.MPBobinaN.DividerWidth = 5
-        Me.MPBobinaN.HeaderText = "QR Bo N°"
-        Me.MPBobinaN.MaxInputLength = 6
-        Me.MPBobinaN.MinimumWidth = 8
-        Me.MPBobinaN.Name = "MPBobinaN"
-        Me.MPBobinaN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPBobinaN.ToolTipText = "El es numero de corrido que es dado por sistema sin repetir nunca, como nombre de" &
-    "l producto"
-        Me.MPBobinaN.Width = 110
-        '
-        'MPConFSC
-        '
-        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle18.NullValue = False
-        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPConFSC.DefaultCellStyle = DataGridViewCellStyle18
-        Me.MPConFSC.DividerWidth = 5
-        Me.MPConFSC.HeaderText = "FSC"
-        Me.MPConFSC.MinimumWidth = 8
-        Me.MPConFSC.Name = "MPConFSC"
-        Me.MPConFSC.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPConFSC.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.MPConFSC.Width = 60
-        '
-        'MPLoteN
-        '
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle19.Format = "d"
-        DataGridViewCellStyle19.NullValue = Nothing
-        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPLoteN.DefaultCellStyle = DataGridViewCellStyle19
-        Me.MPLoteN.DividerWidth = 5
-        Me.MPLoteN.HeaderText = "Lte. N°"
-        Me.MPLoteN.MaxInputLength = 10
-        Me.MPLoteN.MinimumWidth = 8
-        Me.MPLoteN.Name = "MPLoteN"
-        Me.MPLoteN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPLoteN.ToolTipText = "Es el numero de LOTE que es la fecha de ingreso."
-        '
-        'MPVencimiento
-        '
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle20.Format = "d"
-        DataGridViewCellStyle20.NullValue = Nothing
-        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPVencimiento.DefaultCellStyle = DataGridViewCellStyle20
-        Me.MPVencimiento.DividerWidth = 5
-        Me.MPVencimiento.HeaderText = "Vto."
-        Me.MPVencimiento.MaxInputLength = 10
-        Me.MPVencimiento.MinimumWidth = 8
-        Me.MPVencimiento.Name = "MPVencimiento"
-        Me.MPVencimiento.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPVencimiento.ToolTipText = "Es el vencimiento dado por el fabricante"
-        '
-        'MPDiametroCm
-        '
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle21.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle21.Format = "N0"
-        DataGridViewCellStyle21.NullValue = Nothing
-        DataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPDiametroCm.DefaultCellStyle = DataGridViewCellStyle21
-        Me.MPDiametroCm.DividerWidth = 5
-        Me.MPDiametroCm.HeaderText = "Dia. Cm."
-        Me.MPDiametroCm.MaxInputLength = 2
-        Me.MPDiametroCm.MinimumWidth = 8
-        Me.MPDiametroCm.Name = "MPDiametroCm"
-        Me.MPDiametroCm.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPDiametroCm.ToolTipText = "Es el diametro maximo que entra en la RESMADORA  1,80"
-        Me.MPDiametroCm.Width = 60
-        '
-        'MPConoCm
-        '
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle22.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle22.Format = "N0"
-        DataGridViewCellStyle22.NullValue = Nothing
-        DataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPConoCm.DefaultCellStyle = DataGridViewCellStyle22
-        Me.MPConoCm.DividerWidth = 5
-        Me.MPConoCm.HeaderText = "Con Cm"
-        Me.MPConoCm.MaxInputLength = 2
-        Me.MPConoCm.MinimumWidth = 8
-        Me.MPConoCm.Name = "MPConoCm"
-        Me.MPConoCm.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPConoCm.ToolTipText = "Es el diametro ideal de 30 cm para el nucleo en el caso de carton"
-        Me.MPConoCm.Width = 60
-        '
-        'MPOtN
-        '
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle23.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle23.Format = "N0"
-        DataGridViewCellStyle23.NullValue = Nothing
-        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPOtN.DefaultCellStyle = DataGridViewCellStyle23
-        Me.MPOtN.DividerWidth = 5
-        Me.MPOtN.HeaderText = "OT N°"
-        Me.MPOtN.MaxInputLength = 10
-        Me.MPOtN.MinimumWidth = 8
-        Me.MPOtN.Name = "MPOtN"
-        Me.MPOtN.ReadOnly = True
-        Me.MPOtN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPOtN.ToolTipText = "Es el numero de OT que se compro esta MP"
         '
         'MP
         '

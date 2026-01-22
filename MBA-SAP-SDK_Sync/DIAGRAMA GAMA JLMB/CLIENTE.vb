@@ -13,7 +13,7 @@
     End Sub
 
     Private Sub Label148_Click(sender As Object, e As EventArgs) Handles Label148.Click
-        EV %
+
     End Sub
 
     Private Sub TextBox123_TextChanged(sender As Object, e As EventArgs) Handles TextBox123.TextChanged

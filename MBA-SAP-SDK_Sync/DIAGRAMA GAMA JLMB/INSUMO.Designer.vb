@@ -131,7 +131,7 @@ Partial Class INSUMO
         Me.TextBox211 = New System.Windows.Forms.TextBox()
         Me.TextBox212 = New System.Windows.Forms.TextBox()
         Me.TextBox213 = New System.Windows.Forms.TextBox()
-        Me.TextBox214 = New System.Windows.Forms.TextBox()
+        Me.txtNroPresup = New System.Windows.Forms.TextBox()
         Me.TextBox215 = New System.Windows.Forms.TextBox()
         Me.TextBox216 = New System.Windows.Forms.TextBox()
         Me.Label54 = New System.Windows.Forms.Label()
@@ -256,6 +256,9 @@ Partial Class INSUMO
         Me.Label233 = New System.Windows.Forms.Label()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label478 = New System.Windows.Forms.Label()
+        Me.Label479 = New System.Windows.Forms.Label()
+        Me.Label477 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Panel40 = New System.Windows.Forms.Panel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -1472,9 +1475,6 @@ Partial Class INSUMO
         Me.Button17 = New System.Windows.Forms.Button()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Label477 = New System.Windows.Forms.Label()
-        Me.Label478 = New System.Windows.Forms.Label()
-        Me.Label479 = New System.Windows.Forms.Label()
         Me.TabPage1.SuspendLayout
         Me.Panel3.SuspendLayout
         Me.Panel4.SuspendLayout
@@ -1792,7 +1792,7 @@ Partial Class INSUMO
         Me.Panel4.Controls.Add(Me.TextBox211)
         Me.Panel4.Controls.Add(Me.TextBox212)
         Me.Panel4.Controls.Add(Me.TextBox213)
-        Me.Panel4.Controls.Add(Me.TextBox214)
+        Me.Panel4.Controls.Add(Me.txtNroPresup)
         Me.Panel4.Controls.Add(Me.TextBox215)
         Me.Panel4.Controls.Add(Me.TextBox216)
         Me.Panel4.Controls.Add(Me.Label54)
@@ -3048,17 +3048,18 @@ Partial Class INSUMO
         Me.TextBox213.Size = New System.Drawing.Size(525, 30)
         Me.TextBox213.TabIndex = 276
         Me.TextBox213.Text = "NOMBRE CLIENTE (LITO EMPRESA )"
+        Me.ToolTip1.SetToolTip(Me.TextBox213, "Ingrese el número de presupuesto previamente creado en LITOPLAN.")
         '
-        'TextBox214
+        'txtNroPresup
         '
-        Me.TextBox214.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox214.ForeColor = System.Drawing.Color.Black
-        Me.TextBox214.Location = New System.Drawing.Point(156, 54)
-        Me.TextBox214.Name = "TextBox214"
-        Me.TextBox214.Size = New System.Drawing.Size(160, 30)
-        Me.TextBox214.TabIndex = 276
-        Me.TextBox214.Text = "(LITO COD )"
-        Me.TextBox214.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.txtNroPresup.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNroPresup.ForeColor = System.Drawing.Color.Black
+        Me.txtNroPresup.Location = New System.Drawing.Point(156, 54)
+        Me.txtNroPresup.Name = "txtNroPresup"
+        Me.txtNroPresup.Size = New System.Drawing.Size(160, 30)
+        Me.txtNroPresup.TabIndex = 276
+        Me.txtNroPresup.Text = "(LITO COD )"
+        Me.txtNroPresup.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'TextBox215
         '
@@ -4514,6 +4515,36 @@ Partial Class INSUMO
         Me.Label46.Size = New System.Drawing.Size(160, 33)
         Me.Label46.TabIndex = 6
         Me.Label46.Text = "OPSIONES"
+        '
+        'Label478
+        '
+        Me.Label478.AutoSize = True
+        Me.Label478.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label478.Location = New System.Drawing.Point(1364, 909)
+        Me.Label478.Name = "Label478"
+        Me.Label478.Size = New System.Drawing.Size(185, 29)
+        Me.Label478.TabIndex = 170
+        Me.Label478.Text = "hoja seguridad"
+        '
+        'Label479
+        '
+        Me.Label479.AutoSize = True
+        Me.Label479.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label479.Location = New System.Drawing.Point(1126, 908)
+        Me.Label479.Name = "Label479"
+        Me.Label479.Size = New System.Drawing.Size(211, 29)
+        Me.Label479.TabIndex = 170
+        Me.Label479.Text = "Lote vencimiento"
+        '
+        'Label477
+        '
+        Me.Label477.AutoSize = True
+        Me.Label477.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label477.Location = New System.Drawing.Point(1364, 877)
+        Me.Label477.Name = "Label477"
+        Me.Label477.Size = New System.Drawing.Size(224, 29)
+        Me.Label477.TabIndex = 170
+        Me.Label477.Text = "Certificado Calida:"
         '
         'TabPage2
         '
@@ -20558,36 +20589,6 @@ Partial Class INSUMO
         Me.Button17.Text = "0.000"
         Me.Button17.UseVisualStyleBackColor = True
         '
-        'Label477
-        '
-        Me.Label477.AutoSize = True
-        Me.Label477.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label477.Location = New System.Drawing.Point(1364, 877)
-        Me.Label477.Name = "Label477"
-        Me.Label477.Size = New System.Drawing.Size(224, 29)
-        Me.Label477.TabIndex = 170
-        Me.Label477.Text = "Certificado Calida:"
-        '
-        'Label478
-        '
-        Me.Label478.AutoSize = True
-        Me.Label478.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label478.Location = New System.Drawing.Point(1364, 909)
-        Me.Label478.Name = "Label478"
-        Me.Label478.Size = New System.Drawing.Size(185, 29)
-        Me.Label478.TabIndex = 170
-        Me.Label478.Text = "hoja seguridad"
-        '
-        'Label479
-        '
-        Me.Label479.AutoSize = True
-        Me.Label479.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label479.Location = New System.Drawing.Point(1126, 908)
-        Me.Label479.Name = "Label479"
-        Me.Label479.Size = New System.Drawing.Size(211, 29)
-        Me.Label479.TabIndex = 170
-        Me.Label479.Text = "Lote vencimiento"
-        '
         'INSUMO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -22262,7 +22263,7 @@ Partial Class INSUMO
     Friend WithEvents TextBox211 As TextBox
     Friend WithEvents TextBox212 As TextBox
     Friend WithEvents TextBox213 As TextBox
-    Friend WithEvents TextBox214 As TextBox
+    Friend WithEvents txtNroPresup As TextBox
     Friend WithEvents TextBox215 As TextBox
     Friend WithEvents TextBox216 As TextBox
     Friend WithEvents Label54 As Label
