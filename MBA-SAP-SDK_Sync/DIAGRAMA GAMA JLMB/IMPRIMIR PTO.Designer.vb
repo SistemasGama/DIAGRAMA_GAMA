@@ -1467,7 +1467,7 @@ Partial Class OT7
         Me.Panel75.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel75.Location = New System.Drawing.Point(0, 0)
         Me.Panel75.Name = "Panel75"
-        Me.Panel75.Size = New System.Drawing.Size(1386, 667)
+        Me.Panel75.Size = New System.Drawing.Size(1492, 667)
         Me.Panel75.TabIndex = 3
         '
         'Panel1
@@ -1484,7 +1484,7 @@ Partial Class OT7
         Me.Panel1.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1386, 667)
+        Me.Panel1.Size = New System.Drawing.Size(1492, 667)
         Me.Panel1.TabIndex = 0
         '
         'TabControl1
@@ -17820,7 +17820,7 @@ Partial Class OT7
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(0, 43)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1386, 667)
+        Me.Panel2.Size = New System.Drawing.Size(1492, 667)
         Me.Panel2.TabIndex = 8
         '
         'Panel4
@@ -17832,7 +17832,7 @@ Partial Class OT7
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1386, 43)
+        Me.Panel4.Size = New System.Drawing.Size(1492, 43)
         Me.Panel4.TabIndex = 7
         '
         'txtNroPresup1
@@ -17858,7 +17858,7 @@ Partial Class OT7
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1386, 710)
+        Me.ClientSize = New System.Drawing.Size(1492, 710)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel4)

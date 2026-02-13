@@ -1,6 +1,5 @@
 ﻿Public Class CLIENTE
     Private Sub Mensajes()
-        ToolTip1.SetToolTip(txtNroPresup1, "Ingrese el número de presupuesto previamente creado en LITOPLAN.") 'jjfff'
 
     End Sub
 
@@ -8,11 +7,11 @@
         Mensajes()
     End Sub
 
-    Private Sub Label60_Click(sender As Object, e As EventArgs) Handles Label60.Click
+    Private Sub Label60_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label148_Click(sender As Object, e As EventArgs) Handles Label148.Click
+    Private Sub Label148_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -33,6 +32,10 @@
     End Sub
 
     Private Sub Label44_Click(sender As Object, e As EventArgs) Handles Label44.Click
+
+    End Sub
+
+    Private Sub Label205_Click(sender As Object, e As EventArgs) Handles Label205.Click
 
     End Sub
 End Class

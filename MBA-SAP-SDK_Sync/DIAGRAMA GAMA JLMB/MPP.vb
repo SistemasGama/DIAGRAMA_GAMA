@@ -7,7 +7,7 @@
 
     End Sub
 
-    Private Sub TextBox226_TextChanged(sender As Object, e As EventArgs) Handles TextBox226.TextChanged, TextBox229.TextChanged, TextBox228.TextChanged, TextBox231.TextChanged, TextBox230.TextChanged, TextBox232.TextChanged, TextBox234.TextChanged, TextBox235.TextChanged, TextBox27.TextChanged, TextBox29.TextChanged, TextBox167.TextChanged, TextBox34.TextChanged, TextBox79.TextChanged
+    Private Sub TextBox226_TextChanged(sender As Object, e As EventArgs) Handles TextBox79.TextChanged, TextBox34.TextChanged, TextBox29.TextChanged, TextBox27.TextChanged, TextBox235.TextChanged, TextBox234.TextChanged, TextBox232.TextChanged, TextBox231.TextChanged, TextBox230.TextChanged, TextBox229.TextChanged, TextBox228.TextChanged, TextBox226.TextChanged, TextBox167.TextChanged, TextBox1.TextChanged
 
     End Sub
 
@@ -23,7 +23,7 @@
 
     End Sub
 
-    Private Sub Label434_Click(sender As Object, e As EventArgs) Handles Label434.Click
+    Private Sub Label434_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class
