@@ -93,3 +93,4 @@ C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGR
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA GAMA.application
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA.BBE8697A.Up2Date
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.RRHH.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT_IMPRESION_A.resources

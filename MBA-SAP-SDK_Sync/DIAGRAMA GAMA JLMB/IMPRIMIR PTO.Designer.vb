@@ -1350,7 +1350,6 @@ Partial Class OT7
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.txtNroPresup1 = New System.Windows.Forms.TextBox()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit
@@ -17827,21 +17826,12 @@ Partial Class OT7
         '
         Me.Panel4.BackColor = System.Drawing.Color.Green
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel4.Controls.Add(Me.txtNroPresup1)
         Me.Panel4.Controls.Add(Me.Label22)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(1492, 43)
         Me.Panel4.TabIndex = 7
-        '
-        'txtNroPresup1
-        '
-        Me.txtNroPresup1.BackColor = System.Drawing.Color.Lime
-        Me.txtNroPresup1.Location = New System.Drawing.Point(15, 6)
-        Me.txtNroPresup1.Name = "txtNroPresup1"
-        Me.txtNroPresup1.Size = New System.Drawing.Size(25, 26)
-        Me.txtNroPresup1.TabIndex = 204
         '
         'Label22
         '
@@ -18049,7 +18039,6 @@ Partial Class OT7
     Friend WithEvents Button16 As Button
     Friend WithEvents Button17 As Button
     Friend WithEvents ToolTip1 As ToolTip
-    Friend WithEvents txtNroPresup1 As TextBox
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents Panel11 As Panel
