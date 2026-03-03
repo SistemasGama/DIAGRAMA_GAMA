@@ -26,6 +26,8 @@ Partial Class TINTA
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel75 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel50 = New System.Windows.Forms.Panel()
+        Me.Label178 = New System.Windows.Forms.Label()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.Panel31 = New System.Windows.Forms.Panel()
@@ -630,12 +632,11 @@ Partial Class TINTA
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Panel50 = New System.Windows.Forms.Panel()
-        Me.TextBox94 = New System.Windows.Forms.TextBox()
-        Me.Label178 = New System.Windows.Forms.Label()
+        Me.Label179 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout
         Me.Panel75.SuspendLayout
         Me.Panel1.SuspendLayout
+        Me.Panel50.SuspendLayout
         Me.TabControl1.SuspendLayout
         Me.TabPage3.SuspendLayout
         Me.Panel31.SuspendLayout
@@ -698,7 +699,6 @@ Partial Class TINTA
         Me.Panel49.SuspendLayout
         Me.Panel18.SuspendLayout
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel50.SuspendLayout
         Me.SuspendLayout
         '
         'Panel2
@@ -708,7 +708,7 @@ Partial Class TINTA
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1380, 705)
+        Me.Panel2.Size = New System.Drawing.Size(1921, 987)
         Me.Panel2.TabIndex = 2
         '
         'Panel75
@@ -717,7 +717,7 @@ Partial Class TINTA
         Me.Panel75.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel75.Location = New System.Drawing.Point(0, 0)
         Me.Panel75.Name = "Panel75"
-        Me.Panel75.Size = New System.Drawing.Size(1380, 705)
+        Me.Panel75.Size = New System.Drawing.Size(1921, 987)
         Me.Panel75.TabIndex = 3
         '
         'Panel1
@@ -735,8 +735,31 @@ Partial Class TINTA
         Me.Panel1.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1380, 705)
+        Me.Panel1.Size = New System.Drawing.Size(1921, 987)
         Me.Panel1.TabIndex = 0
+        '
+        'Panel50
+        '
+        Me.Panel50.BackColor = System.Drawing.Color.Green
+        Me.Panel50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel50.Controls.Add(Me.Label179)
+        Me.Panel50.Controls.Add(Me.Label178)
+        Me.Panel50.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel50.Location = New System.Drawing.Point(0, 0)
+        Me.Panel50.Name = "Panel50"
+        Me.Panel50.Size = New System.Drawing.Size(1917, 43)
+        Me.Panel50.TabIndex = 25
+        '
+        'Label178
+        '
+        Me.Label178.AutoSize = True
+        Me.Label178.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label178.ForeColor = System.Drawing.Color.White
+        Me.Label178.Location = New System.Drawing.Point(889, 8)
+        Me.Label178.Name = "Label178"
+        Me.Label178.Size = New System.Drawing.Size(96, 33)
+        Me.Label178.TabIndex = 6
+        Me.Label178.Text = "TINTA"
         '
         'TabControl1
         '
@@ -745,13 +768,14 @@ Partial Class TINTA
         Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage5)
+        Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl1.HotTrack = True
-        Me.TabControl1.Location = New System.Drawing.Point(11, 53)
+        Me.TabControl1.Location = New System.Drawing.Point(0, 0)
         Me.TabControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1896, 2192)
+        Me.TabControl1.Size = New System.Drawing.Size(1917, 983)
         Me.TabControl1.TabIndex = 24
         '
         'TabPage3
@@ -760,7 +784,7 @@ Partial Class TINTA
         Me.TabPage3.Controls.Add(Me.Panel31)
         Me.TabPage3.Location = New System.Drawing.Point(4, 42)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(1888, 2146)
+        Me.TabPage3.Size = New System.Drawing.Size(1909, 937)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "PANTONE BASE /"
         '
@@ -774,9 +798,10 @@ Partial Class TINTA
         Me.Panel31.Controls.Add(Me.Panel9)
         Me.Panel31.Controls.Add(Me.Panel30)
         Me.Panel31.Controls.Add(Me.Panel32)
-        Me.Panel31.Location = New System.Drawing.Point(13, 13)
+        Me.Panel31.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel31.Location = New System.Drawing.Point(0, 0)
         Me.Panel31.Name = "Panel31"
-        Me.Panel31.Size = New System.Drawing.Size(1859, 899)
+        Me.Panel31.Size = New System.Drawing.Size(1909, 937)
         Me.Panel31.TabIndex = 160
         '
         'Panel5
@@ -787,7 +812,7 @@ Partial Class TINTA
         Me.Panel5.Controls.Add(Me.Panel26)
         Me.Panel5.Controls.Add(Me.Panel34)
         Me.Panel5.Controls.Add(Me.Panel36)
-        Me.Panel5.Location = New System.Drawing.Point(-1, -1)
+        Me.Panel5.Location = New System.Drawing.Point(183, 46)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(1859, 899)
         Me.Panel5.TabIndex = 208
@@ -3901,7 +3926,7 @@ Partial Class TINTA
         Me.Panel32.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel32.Location = New System.Drawing.Point(0, 0)
         Me.Panel32.Name = "Panel32"
-        Me.Panel32.Size = New System.Drawing.Size(1857, 43)
+        Me.Panel32.Size = New System.Drawing.Size(1907, 43)
         Me.Panel32.TabIndex = 0
         '
         'Label14
@@ -8739,48 +8764,30 @@ Partial Class TINTA
         Me.Label1.Size = New System.Drawing.Size(157, 33)
         Me.Label1.TabIndex = 6
         '
-        'Panel50
+        'Label179
         '
-        Me.Panel50.BackColor = System.Drawing.Color.Green
-        Me.Panel50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel50.Controls.Add(Me.TextBox94)
-        Me.Panel50.Controls.Add(Me.Label178)
-        Me.Panel50.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel50.Location = New System.Drawing.Point(0, 0)
-        Me.Panel50.Name = "Panel50"
-        Me.Panel50.Size = New System.Drawing.Size(1907, 43)
-        Me.Panel50.TabIndex = 25
-        '
-        'TextBox94
-        '
-        Me.TextBox94.BackColor = System.Drawing.Color.Lime
-        Me.TextBox94.Location = New System.Drawing.Point(13, -2)
-        Me.TextBox94.Name = "TextBox94"
-        Me.TextBox94.Size = New System.Drawing.Size(25, 40)
-        Me.TextBox94.TabIndex = 204
-        '
-        'Label178
-        '
-        Me.Label178.AutoSize = True
-        Me.Label178.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label178.ForeColor = System.Drawing.Color.White
-        Me.Label178.Location = New System.Drawing.Point(889, 8)
-        Me.Label178.Name = "Label178"
-        Me.Label178.Size = New System.Drawing.Size(96, 33)
-        Me.Label178.TabIndex = 6
-        Me.Label178.Text = "TINTA"
+        Me.Label179.AutoSize = True
+        Me.Label179.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label179.ForeColor = System.Drawing.Color.White
+        Me.Label179.Location = New System.Drawing.Point(183, 8)
+        Me.Label179.Name = "Label179"
+        Me.Label179.Size = New System.Drawing.Size(537, 19)
+        Me.Label179.TabIndex = 260
+        Me.Label179.Text = "Pantalla: 1946/1043  /// Horejas: 1924/987 /// Primera ventana: 1900/930"
         '
         'TINTA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1380, 705)
+        Me.ClientSize = New System.Drawing.Size(1921, 987)
         Me.Controls.Add(Me.Panel2)
         Me.Name = "TINTA"
         Me.Text = "TINTA"
         Me.Panel2.ResumeLayout(False)
         Me.Panel75.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
+        Me.Panel50.ResumeLayout(False)
+        Me.Panel50.PerformLayout
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage3.ResumeLayout(False)
         Me.Panel31.ResumeLayout(False)
@@ -8892,8 +8899,6 @@ Partial Class TINTA
         Me.Panel18.ResumeLayout(False)
         Me.Panel18.PerformLayout
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel50.ResumeLayout(False)
-        Me.Panel50.PerformLayout
         Me.ResumeLayout(False)
 
     End Sub
@@ -9506,6 +9511,6 @@ Partial Class TINTA
     Friend WithEvents Label177 As Label
     Friend WithEvents ToolTip1 As ToolTip
     Friend WithEvents Panel50 As Panel
-    Friend WithEvents TextBox94 As TextBox
     Friend WithEvents Label178 As Label
+    Friend WithEvents Label179 As Label
 End Class

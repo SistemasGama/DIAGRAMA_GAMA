@@ -991,8 +991,6 @@ Partial Class INSUMO
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button25 = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
         Me.Panel28 = New System.Windows.Forms.Panel()
@@ -1516,11 +1514,9 @@ Partial Class INSUMO
         Me.ComboBox154 = New System.Windows.Forms.ComboBox()
         Me.Panel187 = New System.Windows.Forms.Panel()
         Me.Label411 = New System.Windows.Forms.Label()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage1.SuspendLayout
         Me.Panel3.SuspendLayout
         Me.Panel86.SuspendLayout
@@ -1636,8 +1632,6 @@ Partial Class INSUMO
         Me.TabPage15.SuspendLayout
         Me.Panel139.SuspendLayout
         Me.Panel140.SuspendLayout
-        Me.Panel1.SuspendLayout
-        Me.Panel2.SuspendLayout
         Me.TabControl1.SuspendLayout
         Me.TabPage4.SuspendLayout
         Me.Panel28.SuspendLayout
@@ -1722,7 +1716,7 @@ Partial Class INSUMO
         Me.TabPage1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage1.Size = New System.Drawing.Size(1888, 2155)
+        Me.TabPage1.Size = New System.Drawing.Size(1916, 950)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Proveedor INSU /"
         '
@@ -1730,12 +1724,11 @@ Partial Class INSUMO
         '
         Me.Panel3.BackColor = System.Drawing.Color.Lime
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel3.Controls.Add(Me.Panel86)
         Me.Panel3.Controls.Add(Me.Panel4)
         Me.Panel3.Controls.Add(Me.Panel88)
         Me.Panel3.Location = New System.Drawing.Point(7, 7)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1852, 898)
+        Me.Panel3.Size = New System.Drawing.Size(1900, 930)
         Me.Panel3.TabIndex = 162
         '
         'Panel86
@@ -1774,7 +1767,7 @@ Partial Class INSUMO
         Me.Panel86.Controls.Add(Me.Label461)
         Me.Panel86.Controls.Add(Me.ComboBox10)
         Me.Panel86.Controls.Add(Me.Label462)
-        Me.Panel86.Location = New System.Drawing.Point(9, 693)
+        Me.Panel86.Location = New System.Drawing.Point(4, 643)
         Me.Panel86.Name = "Panel86"
         Me.Panel86.Size = New System.Drawing.Size(1823, 191)
         Me.Panel86.TabIndex = 162
@@ -2169,6 +2162,7 @@ Partial Class INSUMO
         '
         Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel4.Controls.Add(Me.Panel86)
         Me.Panel4.Controls.Add(Me.Panel85)
         Me.Panel4.Controls.Add(Me.DateTimePicker1)
         Me.Panel4.Controls.Add(Me.ComboBox2)
@@ -2274,7 +2268,7 @@ Partial Class INSUMO
         Me.Panel4.Controls.Add(Me.Panel90)
         Me.Panel4.Location = New System.Drawing.Point(8, 53)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1823, 634)
+        Me.Panel4.Size = New System.Drawing.Size(1873, 856)
         Me.Panel4.TabIndex = 161
         '
         'Panel85
@@ -3743,7 +3737,7 @@ Partial Class INSUMO
         Me.Panel90.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel90.Location = New System.Drawing.Point(0, 0)
         Me.Panel90.Name = "Panel90"
-        Me.Panel90.Size = New System.Drawing.Size(1819, 43)
+        Me.Panel90.Size = New System.Drawing.Size(1869, 43)
         Me.Panel90.TabIndex = 0
         '
         'Label449
@@ -3762,10 +3756,11 @@ Partial Class INSUMO
         Me.Panel88.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Panel88.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel88.Controls.Add(Me.Label476)
+        Me.Panel88.Controls.Add(Me.Label1)
         Me.Panel88.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel88.Location = New System.Drawing.Point(0, 0)
         Me.Panel88.Name = "Panel88"
-        Me.Panel88.Size = New System.Drawing.Size(1848, 43)
+        Me.Panel88.Size = New System.Drawing.Size(1896, 43)
         Me.Panel88.TabIndex = 0
         '
         'Label476
@@ -14267,32 +14262,6 @@ Partial Class INSUMO
         Me.Button25.Text = "Flujo Caja"
         Me.Button25.UseVisualStyleBackColor = False
         '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.Panel2)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1502, 707)
-        Me.Panel1.TabIndex = 2
-        '
-        'Panel2
-        '
-        Me.Panel2.AllowDrop = True
-        Me.Panel2.AutoScroll = True
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel2.Controls.Add(Me.TabControl1)
-        Me.Panel2.Controls.Add(Me.Button15)
-        Me.Panel2.Controls.Add(Me.Button16)
-        Me.Panel2.Controls.Add(Me.Button17)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1502, 707)
-        Me.Panel2.TabIndex = 0
-        '
         'TabControl1
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
@@ -14305,14 +14274,15 @@ Partial Class INSUMO
         Me.TabControl1.Controls.Add(Me.TabPage8)
         Me.TabControl1.Controls.Add(Me.TabPage20)
         Me.TabControl1.Controls.Add(Me.TabPage21)
+        Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControl1.HotTrack = True
-        Me.TabControl1.Location = New System.Drawing.Point(2, 4)
+        Me.TabControl1.Location = New System.Drawing.Point(0, 0)
         Me.TabControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1896, 2192)
+        Me.TabControl1.Size = New System.Drawing.Size(1924, 987)
         Me.TabControl1.TabIndex = 24
         '
         'TabPage4
@@ -21323,42 +21293,23 @@ Partial Class INSUMO
         Me.Label411.TabIndex = 6
         Me.Label411.Text = "PERMISO INGRESO"
         '
-        'Button15
+        'Label1
         '
-        Me.Button15.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.Location = New System.Drawing.Point(1561, 727)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(85, 41)
-        Me.Button15.TabIndex = 19
-        Me.Button15.Text = "0.000"
-        Me.Button15.UseVisualStyleBackColor = True
-        '
-        'Button16
-        '
-        Me.Button16.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.Location = New System.Drawing.Point(1561, 774)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(85, 41)
-        Me.Button16.TabIndex = 19
-        Me.Button16.Text = "0.000"
-        Me.Button16.UseVisualStyleBackColor = True
-        '
-        'Button17
-        '
-        Me.Button17.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.Location = New System.Drawing.Point(1561, 821)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(85, 41)
-        Me.Button17.TabIndex = 19
-        Me.Button17.Text = "0.000"
-        Me.Button17.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(27, 6)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(537, 19)
+        Me.Label1.TabIndex = 258
+        Me.Label1.Text = "Pantalla: 1946/1043  /// Horejas: 1924/987 /// Primera ventana: 1900/930"
         '
         'INSUMO
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1502, 707)
-        Me.Controls.Add(Me.Panel1)
+        Me.ClientSize = New System.Drawing.Size(1924, 987)
+        Me.Controls.Add(Me.TabControl1)
         Me.Name = "INSUMO"
         Me.Text = "INSUMO"
         Me.TabPage1.ResumeLayout(False)
@@ -21557,8 +21508,6 @@ Partial Class INSUMO
         Me.Panel139.ResumeLayout(False)
         Me.Panel140.ResumeLayout(False)
         Me.Panel140.PerformLayout
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel2.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage4.ResumeLayout(False)
         Me.Panel28.ResumeLayout(False)
@@ -21687,12 +21636,7 @@ Partial Class INSUMO
     Friend WithEvents TabPage5 As TabPage
     Friend WithEvents TabPage7 As TabPage
     Friend WithEvents TabPage8 As TabPage
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Panel2 As Panel
     Friend WithEvents TabControl1 As TabControl
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
     Friend WithEvents BindingSource1 As BindingSource
     Friend WithEvents Panel31 As Panel
     Friend WithEvents Panel32 As Panel
@@ -23178,4 +23122,5 @@ Partial Class INSUMO
     Friend WithEvents Label156 As Label
     Friend WithEvents Label469 As Label
     Friend WithEvents Label395 As Label
+    Friend WithEvents Label1 As Label
 End Class
