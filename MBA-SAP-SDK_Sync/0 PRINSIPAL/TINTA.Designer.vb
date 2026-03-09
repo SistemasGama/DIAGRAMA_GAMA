@@ -27,6 +27,7 @@ Partial Class TINTA
         Me.Panel75 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel50 = New System.Windows.Forms.Panel()
+        Me.Label179 = New System.Windows.Forms.Label()
         Me.Label178 = New System.Windows.Forms.Label()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
@@ -632,7 +633,6 @@ Partial Class TINTA
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Label179 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout
         Me.Panel75.SuspendLayout
         Me.Panel1.SuspendLayout
@@ -749,6 +749,17 @@ Partial Class TINTA
         Me.Panel50.Name = "Panel50"
         Me.Panel50.Size = New System.Drawing.Size(1917, 43)
         Me.Panel50.TabIndex = 25
+        '
+        'Label179
+        '
+        Me.Label179.AutoSize = True
+        Me.Label179.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label179.ForeColor = System.Drawing.Color.White
+        Me.Label179.Location = New System.Drawing.Point(183, 8)
+        Me.Label179.Name = "Label179"
+        Me.Label179.Size = New System.Drawing.Size(537, 19)
+        Me.Label179.TabIndex = 260
+        Me.Label179.Text = "Pantalla: 1946/1043  /// Horejas: 1924/987 /// Primera ventana: 1900/930"
         '
         'Label178
         '
@@ -3947,7 +3958,7 @@ Partial Class TINTA
         Me.TabPage1.Location = New System.Drawing.Point(4, 42)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(1888, 2146)
+        Me.TabPage1.Size = New System.Drawing.Size(1909, 937)
         Me.TabPage1.TabIndex = 3
         Me.TabPage1.Text = "FORMULA /"
         '
@@ -5084,7 +5095,7 @@ Partial Class TINTA
         Me.TabPage4.Location = New System.Drawing.Point(4, 42)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(1888, 2146)
+        Me.TabPage4.Size = New System.Drawing.Size(1909, 937)
         Me.TabPage4.TabIndex = 5
         Me.TabPage4.Text = "LISTADO FORMULA /"
         '
@@ -5848,7 +5859,7 @@ Partial Class TINTA
         Me.TabPage2.Location = New System.Drawing.Point(4, 42)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1888, 2146)
+        Me.TabPage2.Size = New System.Drawing.Size(1909, 937)
         Me.TabPage2.TabIndex = 4
         Me.TabPage2.Text = "ICC /"
         '
@@ -8188,7 +8199,7 @@ Partial Class TINTA
         Me.TabPage5.Location = New System.Drawing.Point(4, 42)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(1888, 2146)
+        Me.TabPage5.Size = New System.Drawing.Size(1909, 937)
         Me.TabPage5.TabIndex = 6
         Me.TabPage5.Text = "XXXXX"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -8763,17 +8774,6 @@ Partial Class TINTA
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(157, 33)
         Me.Label1.TabIndex = 6
-        '
-        'Label179
-        '
-        Me.Label179.AutoSize = True
-        Me.Label179.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label179.ForeColor = System.Drawing.Color.White
-        Me.Label179.Location = New System.Drawing.Point(183, 8)
-        Me.Label179.Name = "Label179"
-        Me.Label179.Size = New System.Drawing.Size(537, 19)
-        Me.Label179.TabIndex = 260
-        Me.Label179.Text = "Pantalla: 1946/1043  /// Horejas: 1924/987 /// Primera ventana: 1900/930"
         '
         'TINTA
         '

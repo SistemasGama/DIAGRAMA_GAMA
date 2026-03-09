@@ -26,6 +26,7 @@ Partial Class INSUMO
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(INSUMO))
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel86 = New System.Windows.Forms.Panel()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label450 = New System.Windows.Forms.Label()
@@ -60,7 +61,6 @@ Partial Class INSUMO
         Me.Label461 = New System.Windows.Forms.Label()
         Me.ComboBox10 = New System.Windows.Forms.ComboBox()
         Me.Label462 = New System.Windows.Forms.Label()
-        Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel85 = New System.Windows.Forms.Panel()
         Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker4 = New System.Windows.Forms.DateTimePicker()
@@ -181,6 +181,7 @@ Partial Class INSUMO
         Me.Label449 = New System.Windows.Forms.Label()
         Me.Panel88 = New System.Windows.Forms.Panel()
         Me.Label476 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.ComboBox76 = New System.Windows.Forms.ComboBox()
         Me.ComboBox73 = New System.Windows.Forms.ComboBox()
@@ -1516,12 +1517,41 @@ Partial Class INSUMO
         Me.Label411 = New System.Windows.Forms.Label()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Panel166 = New System.Windows.Forms.Panel()
+        Me.Panel167 = New System.Windows.Forms.Panel()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
+        Me.Panel104 = New System.Windows.Forms.Panel()
+        Me.Panel105 = New System.Windows.Forms.Panel()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.RadioButton77 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton78 = New System.Windows.Forms.RadioButton()
+        Me.Panel106 = New System.Windows.Forms.Panel()
+        Me.Panel107 = New System.Windows.Forms.Panel()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.RadioButton79 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton80 = New System.Windows.Forms.RadioButton()
+        Me.Panel108 = New System.Windows.Forms.Panel()
+        Me.Panel111 = New System.Windows.Forms.Panel()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.RadioButton81 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton82 = New System.Windows.Forms.RadioButton()
+        Me.Panel112 = New System.Windows.Forms.Panel()
+        Me.Panel113 = New System.Windows.Forms.Panel()
+        Me.Label161 = New System.Windows.Forms.Label()
+        Me.RadioButton83 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton84 = New System.Windows.Forms.RadioButton()
         Me.TabPage1.SuspendLayout
         Me.Panel3.SuspendLayout
+        Me.Panel4.SuspendLayout
         Me.Panel86.SuspendLayout
         Me.Panel87.SuspendLayout
-        Me.Panel4.SuspendLayout
         Me.Panel85.SuspendLayout
         Me.Panel89.SuspendLayout
         Me.Panel90.SuspendLayout
@@ -1704,6 +1734,12 @@ Partial Class INSUMO
         Me.Panel143.SuspendLayout
         Me.Panel187.SuspendLayout
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel167.SuspendLayout
+        Me.Panel2.SuspendLayout
+        Me.Panel105.SuspendLayout
+        Me.Panel107.SuspendLayout
+        Me.Panel111.SuspendLayout
+        Me.Panel113.SuspendLayout
         Me.SuspendLayout
         '
         'TabPage1
@@ -1730,6 +1766,121 @@ Partial Class INSUMO
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(1900, 930)
         Me.Panel3.TabIndex = 162
+        '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel4.Controls.Add(Me.Panel166)
+        Me.Panel4.Controls.Add(Me.Panel167)
+        Me.Panel4.Controls.Add(Me.Panel86)
+        Me.Panel4.Controls.Add(Me.Panel85)
+        Me.Panel4.Controls.Add(Me.DateTimePicker1)
+        Me.Panel4.Controls.Add(Me.ComboBox2)
+        Me.Panel4.Controls.Add(Me.ComboBox1)
+        Me.Panel4.Controls.Add(Me.CheckBox2)
+        Me.Panel4.Controls.Add(Me.CheckBox42)
+        Me.Panel4.Controls.Add(Me.TextBox139)
+        Me.Panel4.Controls.Add(Me.CheckBox43)
+        Me.Panel4.Controls.Add(Me.TextBox140)
+        Me.Panel4.Controls.Add(Me.CheckBox44)
+        Me.Panel4.Controls.Add(Me.Label55)
+        Me.Panel4.Controls.Add(Me.CheckBox3)
+        Me.Panel4.Controls.Add(Me.CheckBox45)
+        Me.Panel4.Controls.Add(Me.TextBox141)
+        Me.Panel4.Controls.Add(Me.TextBox142)
+        Me.Panel4.Controls.Add(Me.TextBox144)
+        Me.Panel4.Controls.Add(Me.TextBox145)
+        Me.Panel4.Controls.Add(Me.TextBox146)
+        Me.Panel4.Controls.Add(Me.CheckBox6)
+        Me.Panel4.Controls.Add(Me.CheckBox7)
+        Me.Panel4.Controls.Add(Me.TextBox147)
+        Me.Panel4.Controls.Add(Me.Label56)
+        Me.Panel4.Controls.Add(Me.Label58)
+        Me.Panel4.Controls.Add(Me.Label59)
+        Me.Panel4.Controls.Add(Me.ComboBox3)
+        Me.Panel4.Controls.Add(Me.Label60)
+        Me.Panel4.Controls.Add(Me.Label66)
+        Me.Panel4.Controls.Add(Me.Label67)
+        Me.Panel4.Controls.Add(Me.Label68)
+        Me.Panel4.Controls.Add(Me.Label69)
+        Me.Panel4.Controls.Add(Me.Label151)
+        Me.Panel4.Controls.Add(Me.Button61)
+        Me.Panel4.Controls.Add(Me.DateTimePicker2)
+        Me.Panel4.Controls.Add(Me.Label322)
+        Me.Panel4.Controls.Add(Me.Label423)
+        Me.Panel4.Controls.Add(Me.Button63)
+        Me.Panel4.Controls.Add(Me.DateTimePicker8)
+        Me.Panel4.Controls.Add(Me.TextBox160)
+        Me.Panel4.Controls.Add(Me.TextBox149)
+        Me.Panel4.Controls.Add(Me.TextBox153)
+        Me.Panel4.Controls.Add(Me.TextBox150)
+        Me.Panel4.Controls.Add(Me.TextBox152)
+        Me.Panel4.Controls.Add(Me.TextBox154)
+        Me.Panel4.Controls.Add(Me.TextBox156)
+        Me.Panel4.Controls.Add(Me.TextBox157)
+        Me.Panel4.Controls.Add(Me.TextBox159)
+        Me.Panel4.Controls.Add(Me.TextBox161)
+        Me.Panel4.Controls.Add(Me.TextBox162)
+        Me.Panel4.Controls.Add(Me.TextBox163)
+        Me.Panel4.Controls.Add(Me.TextBox164)
+        Me.Panel4.Controls.Add(Me.TextBox165)
+        Me.Panel4.Controls.Add(Me.TextBox166)
+        Me.Panel4.Controls.Add(Me.TextBox167)
+        Me.Panel4.Controls.Add(Me.Label424)
+        Me.Panel4.Controls.Add(Me.Label425)
+        Me.Panel4.Controls.Add(Me.Label426)
+        Me.Panel4.Controls.Add(Me.Label427)
+        Me.Panel4.Controls.Add(Me.Label428)
+        Me.Panel4.Controls.Add(Me.Label429)
+        Me.Panel4.Controls.Add(Me.Label430)
+        Me.Panel4.Controls.Add(Me.Label431)
+        Me.Panel4.Controls.Add(Me.Label432)
+        Me.Panel4.Controls.Add(Me.Label433)
+        Me.Panel4.Controls.Add(Me.Label435)
+        Me.Panel4.Controls.Add(Me.Label436)
+        Me.Panel4.Controls.Add(Me.RadioButton75)
+        Me.Panel4.Controls.Add(Me.RadioButton90)
+        Me.Panel4.Controls.Add(Me.TextBox168)
+        Me.Panel4.Controls.Add(Me.TextBox169)
+        Me.Panel4.Controls.Add(Me.TextBox170)
+        Me.Panel4.Controls.Add(Me.TextBox171)
+        Me.Panel4.Controls.Add(Me.TextBox172)
+        Me.Panel4.Controls.Add(Me.TextBox173)
+        Me.Panel4.Controls.Add(Me.TextBox174)
+        Me.Panel4.Controls.Add(Me.TextBox176)
+        Me.Panel4.Controls.Add(Me.TextBox177)
+        Me.Panel4.Controls.Add(Me.TextBox178)
+        Me.Panel4.Controls.Add(Me.TextBox179)
+        Me.Panel4.Controls.Add(Me.TextBox180)
+        Me.Panel4.Controls.Add(Me.TextBox181)
+        Me.Panel4.Controls.Add(Me.TextBox182)
+        Me.Panel4.Controls.Add(Me.TextBox183)
+        Me.Panel4.Controls.Add(Me.TextBox184)
+        Me.Panel4.Controls.Add(Me.TextBox185)
+        Me.Panel4.Controls.Add(Me.TextBox186)
+        Me.Panel4.Controls.Add(Me.TextBox187)
+        Me.Panel4.Controls.Add(Me.TextBox188)
+        Me.Panel4.Controls.Add(Me.TextBox189)
+        Me.Panel4.Controls.Add(Me.TextBox190)
+        Me.Panel4.Controls.Add(Me.TextBox191)
+        Me.Panel4.Controls.Add(Me.Label437)
+        Me.Panel4.Controls.Add(Me.Label438)
+        Me.Panel4.Controls.Add(Me.Label439)
+        Me.Panel4.Controls.Add(Me.Label440)
+        Me.Panel4.Controls.Add(Me.Label441)
+        Me.Panel4.Controls.Add(Me.Label442)
+        Me.Panel4.Controls.Add(Me.Label443)
+        Me.Panel4.Controls.Add(Me.Label444)
+        Me.Panel4.Controls.Add(Me.Label445)
+        Me.Panel4.Controls.Add(Me.Label446)
+        Me.Panel4.Controls.Add(Me.Label447)
+        Me.Panel4.Controls.Add(Me.Label448)
+        Me.Panel4.Controls.Add(Me.Panel90)
+        Me.Panel4.Location = New System.Drawing.Point(8, 53)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(1873, 856)
+        Me.Panel4.TabIndex = 161
         '
         'Panel86
         '
@@ -2157,119 +2308,6 @@ Partial Class INSUMO
         Me.Label462.Size = New System.Drawing.Size(116, 24)
         Me.Label462.TabIndex = 169
         Me.Label462.Text = "Recepción:"
-        '
-        'Panel4
-        '
-        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel4.Controls.Add(Me.Panel86)
-        Me.Panel4.Controls.Add(Me.Panel85)
-        Me.Panel4.Controls.Add(Me.DateTimePicker1)
-        Me.Panel4.Controls.Add(Me.ComboBox2)
-        Me.Panel4.Controls.Add(Me.ComboBox1)
-        Me.Panel4.Controls.Add(Me.CheckBox2)
-        Me.Panel4.Controls.Add(Me.CheckBox42)
-        Me.Panel4.Controls.Add(Me.TextBox139)
-        Me.Panel4.Controls.Add(Me.CheckBox43)
-        Me.Panel4.Controls.Add(Me.TextBox140)
-        Me.Panel4.Controls.Add(Me.CheckBox44)
-        Me.Panel4.Controls.Add(Me.Label55)
-        Me.Panel4.Controls.Add(Me.CheckBox3)
-        Me.Panel4.Controls.Add(Me.CheckBox45)
-        Me.Panel4.Controls.Add(Me.TextBox141)
-        Me.Panel4.Controls.Add(Me.TextBox142)
-        Me.Panel4.Controls.Add(Me.TextBox144)
-        Me.Panel4.Controls.Add(Me.TextBox145)
-        Me.Panel4.Controls.Add(Me.TextBox146)
-        Me.Panel4.Controls.Add(Me.CheckBox6)
-        Me.Panel4.Controls.Add(Me.CheckBox7)
-        Me.Panel4.Controls.Add(Me.TextBox147)
-        Me.Panel4.Controls.Add(Me.Label56)
-        Me.Panel4.Controls.Add(Me.Label58)
-        Me.Panel4.Controls.Add(Me.Label59)
-        Me.Panel4.Controls.Add(Me.ComboBox3)
-        Me.Panel4.Controls.Add(Me.Label60)
-        Me.Panel4.Controls.Add(Me.Label66)
-        Me.Panel4.Controls.Add(Me.Label67)
-        Me.Panel4.Controls.Add(Me.Label68)
-        Me.Panel4.Controls.Add(Me.Label69)
-        Me.Panel4.Controls.Add(Me.Label151)
-        Me.Panel4.Controls.Add(Me.Button61)
-        Me.Panel4.Controls.Add(Me.DateTimePicker2)
-        Me.Panel4.Controls.Add(Me.Label322)
-        Me.Panel4.Controls.Add(Me.Label423)
-        Me.Panel4.Controls.Add(Me.Button63)
-        Me.Panel4.Controls.Add(Me.DateTimePicker8)
-        Me.Panel4.Controls.Add(Me.TextBox160)
-        Me.Panel4.Controls.Add(Me.TextBox149)
-        Me.Panel4.Controls.Add(Me.TextBox153)
-        Me.Panel4.Controls.Add(Me.TextBox150)
-        Me.Panel4.Controls.Add(Me.TextBox152)
-        Me.Panel4.Controls.Add(Me.TextBox154)
-        Me.Panel4.Controls.Add(Me.TextBox156)
-        Me.Panel4.Controls.Add(Me.TextBox157)
-        Me.Panel4.Controls.Add(Me.TextBox159)
-        Me.Panel4.Controls.Add(Me.TextBox161)
-        Me.Panel4.Controls.Add(Me.TextBox162)
-        Me.Panel4.Controls.Add(Me.TextBox163)
-        Me.Panel4.Controls.Add(Me.TextBox164)
-        Me.Panel4.Controls.Add(Me.TextBox165)
-        Me.Panel4.Controls.Add(Me.TextBox166)
-        Me.Panel4.Controls.Add(Me.TextBox167)
-        Me.Panel4.Controls.Add(Me.Label424)
-        Me.Panel4.Controls.Add(Me.Label425)
-        Me.Panel4.Controls.Add(Me.Label426)
-        Me.Panel4.Controls.Add(Me.Label427)
-        Me.Panel4.Controls.Add(Me.Label428)
-        Me.Panel4.Controls.Add(Me.Label429)
-        Me.Panel4.Controls.Add(Me.Label430)
-        Me.Panel4.Controls.Add(Me.Label431)
-        Me.Panel4.Controls.Add(Me.Label432)
-        Me.Panel4.Controls.Add(Me.Label433)
-        Me.Panel4.Controls.Add(Me.Label435)
-        Me.Panel4.Controls.Add(Me.Label436)
-        Me.Panel4.Controls.Add(Me.RadioButton75)
-        Me.Panel4.Controls.Add(Me.RadioButton90)
-        Me.Panel4.Controls.Add(Me.TextBox168)
-        Me.Panel4.Controls.Add(Me.TextBox169)
-        Me.Panel4.Controls.Add(Me.TextBox170)
-        Me.Panel4.Controls.Add(Me.TextBox171)
-        Me.Panel4.Controls.Add(Me.TextBox172)
-        Me.Panel4.Controls.Add(Me.TextBox173)
-        Me.Panel4.Controls.Add(Me.TextBox174)
-        Me.Panel4.Controls.Add(Me.TextBox176)
-        Me.Panel4.Controls.Add(Me.TextBox177)
-        Me.Panel4.Controls.Add(Me.TextBox178)
-        Me.Panel4.Controls.Add(Me.TextBox179)
-        Me.Panel4.Controls.Add(Me.TextBox180)
-        Me.Panel4.Controls.Add(Me.TextBox181)
-        Me.Panel4.Controls.Add(Me.TextBox182)
-        Me.Panel4.Controls.Add(Me.TextBox183)
-        Me.Panel4.Controls.Add(Me.TextBox184)
-        Me.Panel4.Controls.Add(Me.TextBox185)
-        Me.Panel4.Controls.Add(Me.TextBox186)
-        Me.Panel4.Controls.Add(Me.TextBox187)
-        Me.Panel4.Controls.Add(Me.TextBox188)
-        Me.Panel4.Controls.Add(Me.TextBox189)
-        Me.Panel4.Controls.Add(Me.TextBox190)
-        Me.Panel4.Controls.Add(Me.TextBox191)
-        Me.Panel4.Controls.Add(Me.Label437)
-        Me.Panel4.Controls.Add(Me.Label438)
-        Me.Panel4.Controls.Add(Me.Label439)
-        Me.Panel4.Controls.Add(Me.Label440)
-        Me.Panel4.Controls.Add(Me.Label441)
-        Me.Panel4.Controls.Add(Me.Label442)
-        Me.Panel4.Controls.Add(Me.Label443)
-        Me.Panel4.Controls.Add(Me.Label444)
-        Me.Panel4.Controls.Add(Me.Label445)
-        Me.Panel4.Controls.Add(Me.Label446)
-        Me.Panel4.Controls.Add(Me.Label447)
-        Me.Panel4.Controls.Add(Me.Label448)
-        Me.Panel4.Controls.Add(Me.Panel90)
-        Me.Panel4.Location = New System.Drawing.Point(8, 53)
-        Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(1873, 856)
-        Me.Panel4.TabIndex = 161
         '
         'Panel85
         '
@@ -3774,6 +3812,17 @@ Partial Class INSUMO
         Me.Label476.TabIndex = 6
         Me.Label476.Text = "PROVEEDOR INSUMO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(27, 6)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(537, 19)
+        Me.Label1.TabIndex = 258
+        Me.Label1.Text = "Pantalla: 1946/1043  /// Horejas: 1924/987 /// Primera ventana: 1900/930"
+        '
         'Panel7
         '
         Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -4176,7 +4225,7 @@ Partial Class INSUMO
         Me.TabPage2.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage2.Size = New System.Drawing.Size(1888, 2155)
+        Me.TabPage2.Size = New System.Drawing.Size(1916, 950)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Contabilidad /"
         '
@@ -5503,6 +5552,8 @@ Partial Class INSUMO
         '
         Me.Panel95.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel95.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel95.Controls.Add(Me.Panel1)
+        Me.Panel95.Controls.Add(Me.Panel2)
         Me.Panel95.Controls.Add(Me.RadioButton72)
         Me.Panel95.Controls.Add(Me.RadioButton73)
         Me.Panel95.Controls.Add(Me.RadioButton74)
@@ -6992,7 +7043,7 @@ Partial Class INSUMO
         Me.TabPage3.Controls.Add(Me.Panel31)
         Me.TabPage3.Location = New System.Drawing.Point(4, 33)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(1888, 2155)
+        Me.TabPage3.Size = New System.Drawing.Size(1916, 950)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "ENTRADA /"
         '
@@ -7710,6 +7761,8 @@ Partial Class INSUMO
         '
         Me.Panel30.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel30.Controls.Add(Me.Panel104)
+        Me.Panel30.Controls.Add(Me.Panel105)
         Me.Panel30.Controls.Add(Me.ComboBox50)
         Me.Panel30.Controls.Add(Me.ComboBox52)
         Me.Panel30.Controls.Add(Me.TextBox124)
@@ -8528,7 +8581,7 @@ Partial Class INSUMO
         Me.TabPage5.Controls.Add(Me.Panel9)
         Me.TabPage5.Location = New System.Drawing.Point(4, 33)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(1888, 2155)
+        Me.TabPage5.Size = New System.Drawing.Size(1916, 950)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "SGC /"
         '
@@ -10758,7 +10811,7 @@ Partial Class INSUMO
         Me.TabPage7.Controls.Add(Me.Panel62)
         Me.TabPage7.Location = New System.Drawing.Point(4, 33)
         Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Size = New System.Drawing.Size(1888, 2155)
+        Me.TabPage7.Size = New System.Drawing.Size(1916, 950)
         Me.TabPage7.TabIndex = 6
         Me.TabPage7.Text = "OC /"
         '
@@ -10778,6 +10831,8 @@ Partial Class INSUMO
         '
         Me.Panel63.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel63.Controls.Add(Me.Panel112)
+        Me.Panel63.Controls.Add(Me.Panel113)
         Me.Panel63.Controls.Add(Me.ComboBox128)
         Me.Panel63.Controls.Add(Me.ComboBox129)
         Me.Panel63.Controls.Add(Me.TextBox108)
@@ -12458,7 +12513,7 @@ Partial Class INSUMO
         Me.TabPage8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TabPage8.Location = New System.Drawing.Point(4, 33)
         Me.TabPage8.Name = "TabPage8"
-        Me.TabPage8.Size = New System.Drawing.Size(1888, 2155)
+        Me.TabPage8.Size = New System.Drawing.Size(1916, 950)
         Me.TabPage8.TabIndex = 7
         Me.TabPage8.Text = "Informe /"
         '
@@ -14291,7 +14346,7 @@ Partial Class INSUMO
         Me.TabPage4.Controls.Add(Me.Panel28)
         Me.TabPage4.Location = New System.Drawing.Point(4, 33)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(1888, 2155)
+        Me.TabPage4.Size = New System.Drawing.Size(1916, 950)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "SALIDA /"
         '
@@ -14312,6 +14367,8 @@ Partial Class INSUMO
         '
         Me.Panel13.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel13.Controls.Add(Me.Panel106)
+        Me.Panel13.Controls.Add(Me.Panel107)
         Me.Panel13.Controls.Add(Me.ComboBox32)
         Me.Panel13.Controls.Add(Me.ComboBox33)
         Me.Panel13.Controls.Add(Me.TextBox86)
@@ -16163,7 +16220,7 @@ Partial Class INSUMO
         Me.TabPage6.Controls.Add(Me.Panel42)
         Me.TabPage6.Location = New System.Drawing.Point(4, 33)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(1888, 2155)
+        Me.TabPage6.Size = New System.Drawing.Size(1916, 950)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "Presupuesto /"
         '
@@ -16184,6 +16241,8 @@ Partial Class INSUMO
         '
         Me.Panel43.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel43.Controls.Add(Me.Panel108)
+        Me.Panel43.Controls.Add(Me.Panel111)
         Me.Panel43.Controls.Add(Me.ComboBox78)
         Me.Panel43.Controls.Add(Me.ComboBox80)
         Me.Panel43.Controls.Add(Me.TextBox11)
@@ -17889,7 +17948,7 @@ Partial Class INSUMO
         Me.TabPage20.Location = New System.Drawing.Point(4, 33)
         Me.TabPage20.Name = "TabPage20"
         Me.TabPage20.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage20.Size = New System.Drawing.Size(1888, 2155)
+        Me.TabPage20.Size = New System.Drawing.Size(1916, 950)
         Me.TabPage20.TabIndex = 8
         Me.TabPage20.Text = "ALERTA /"
         '
@@ -19284,7 +19343,7 @@ Partial Class INSUMO
         Me.TabPage21.Location = New System.Drawing.Point(4, 33)
         Me.TabPage21.Name = "TabPage21"
         Me.TabPage21.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage21.Size = New System.Drawing.Size(1888, 2155)
+        Me.TabPage21.Size = New System.Drawing.Size(1916, 950)
         Me.TabPage21.TabIndex = 9
         Me.TabPage21.Text = "Permiso"
         '
@@ -21293,16 +21352,365 @@ Partial Class INSUMO
         Me.Label411.TabIndex = 6
         Me.Label411.Text = "PERMISO INGRESO"
         '
-        'Label1
+        'Panel166
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(27, 6)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(537, 19)
-        Me.Label1.TabIndex = 258
-        Me.Label1.Text = "Pantalla: 1946/1043  /// Horejas: 1924/987 /// Primera ventana: 1900/930"
+        Me.Panel166.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel166.Location = New System.Drawing.Point(1288, 263)
+        Me.Panel166.Name = "Panel166"
+        Me.Panel166.Size = New System.Drawing.Size(249, 34)
+        Me.Panel166.TabIndex = 689
+        '
+        'Panel167
+        '
+        Me.Panel167.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel167.Controls.Add(Me.Label8)
+        Me.Panel167.Controls.Add(Me.RadioButton8)
+        Me.Panel167.Controls.Add(Me.RadioButton9)
+        Me.Panel167.Location = New System.Drawing.Point(1138, 224)
+        Me.Panel167.Name = "Panel167"
+        Me.Panel167.Size = New System.Drawing.Size(249, 34)
+        Me.Panel167.TabIndex = 690
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(10, 6)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(112, 24)
+        Me.Label8.TabIndex = 21
+        Me.Label8.Text = "Stock Lok:"
+        '
+        'RadioButton8
+        '
+        Me.RadioButton8.AutoSize = True
+        Me.RadioButton8.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton8.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton8.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton8.Name = "RadioButton8"
+        Me.RadioButton8.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton8.TabIndex = 162
+        Me.RadioButton8.Text = "Si"
+        Me.RadioButton8.UseVisualStyleBackColor = False
+        '
+        'RadioButton9
+        '
+        Me.RadioButton9.AutoSize = True
+        Me.RadioButton9.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton9.Checked = True
+        Me.RadioButton9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton9.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton9.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton9.Name = "RadioButton9"
+        Me.RadioButton9.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton9.TabIndex = 163
+        Me.RadioButton9.TabStop = True
+        Me.RadioButton9.Text = "No"
+        Me.RadioButton9.UseVisualStyleBackColor = False
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel1.Location = New System.Drawing.Point(218, 434)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(249, 34)
+        Me.Panel1.TabIndex = 689
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.Label9)
+        Me.Panel2.Controls.Add(Me.RadioButton10)
+        Me.Panel2.Controls.Add(Me.RadioButton11)
+        Me.Panel2.Location = New System.Drawing.Point(68, 395)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(249, 34)
+        Me.Panel2.TabIndex = 690
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(10, 6)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(112, 24)
+        Me.Label9.TabIndex = 21
+        Me.Label9.Text = "Stock Lok:"
+        '
+        'RadioButton10
+        '
+        Me.RadioButton10.AutoSize = True
+        Me.RadioButton10.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton10.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton10.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton10.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton10.Name = "RadioButton10"
+        Me.RadioButton10.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton10.TabIndex = 162
+        Me.RadioButton10.Text = "Si"
+        Me.RadioButton10.UseVisualStyleBackColor = False
+        '
+        'RadioButton11
+        '
+        Me.RadioButton11.AutoSize = True
+        Me.RadioButton11.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton11.Checked = True
+        Me.RadioButton11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton11.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton11.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton11.Name = "RadioButton11"
+        Me.RadioButton11.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton11.TabIndex = 163
+        Me.RadioButton11.TabStop = True
+        Me.RadioButton11.Text = "No"
+        Me.RadioButton11.UseVisualStyleBackColor = False
+        '
+        'Panel104
+        '
+        Me.Panel104.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel104.Location = New System.Drawing.Point(856, 129)
+        Me.Panel104.Name = "Panel104"
+        Me.Panel104.Size = New System.Drawing.Size(249, 34)
+        Me.Panel104.TabIndex = 689
+        '
+        'Panel105
+        '
+        Me.Panel105.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel105.Controls.Add(Me.Label18)
+        Me.Panel105.Controls.Add(Me.RadioButton77)
+        Me.Panel105.Controls.Add(Me.RadioButton78)
+        Me.Panel105.Location = New System.Drawing.Point(706, 90)
+        Me.Panel105.Name = "Panel105"
+        Me.Panel105.Size = New System.Drawing.Size(249, 34)
+        Me.Panel105.TabIndex = 690
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.BackColor = System.Drawing.Color.Transparent
+        Me.Label18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(10, 6)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(112, 24)
+        Me.Label18.TabIndex = 21
+        Me.Label18.Text = "Stock Lok:"
+        '
+        'RadioButton77
+        '
+        Me.RadioButton77.AutoSize = True
+        Me.RadioButton77.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton77.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton77.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton77.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton77.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton77.Name = "RadioButton77"
+        Me.RadioButton77.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton77.TabIndex = 162
+        Me.RadioButton77.Text = "Si"
+        Me.RadioButton77.UseVisualStyleBackColor = False
+        '
+        'RadioButton78
+        '
+        Me.RadioButton78.AutoSize = True
+        Me.RadioButton78.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton78.Checked = True
+        Me.RadioButton78.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton78.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton78.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton78.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton78.Name = "RadioButton78"
+        Me.RadioButton78.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton78.TabIndex = 163
+        Me.RadioButton78.TabStop = True
+        Me.RadioButton78.Text = "No"
+        Me.RadioButton78.UseVisualStyleBackColor = False
+        '
+        'Panel106
+        '
+        Me.Panel106.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel106.Location = New System.Drawing.Point(856, 129)
+        Me.Panel106.Name = "Panel106"
+        Me.Panel106.Size = New System.Drawing.Size(249, 34)
+        Me.Panel106.TabIndex = 689
+        '
+        'Panel107
+        '
+        Me.Panel107.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel107.Controls.Add(Me.Label36)
+        Me.Panel107.Controls.Add(Me.RadioButton79)
+        Me.Panel107.Controls.Add(Me.RadioButton80)
+        Me.Panel107.Location = New System.Drawing.Point(706, 90)
+        Me.Panel107.Name = "Panel107"
+        Me.Panel107.Size = New System.Drawing.Size(249, 34)
+        Me.Panel107.TabIndex = 690
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.BackColor = System.Drawing.Color.Transparent
+        Me.Label36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Location = New System.Drawing.Point(10, 6)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(112, 24)
+        Me.Label36.TabIndex = 21
+        Me.Label36.Text = "Stock Lok:"
+        '
+        'RadioButton79
+        '
+        Me.RadioButton79.AutoSize = True
+        Me.RadioButton79.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton79.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton79.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton79.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton79.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton79.Name = "RadioButton79"
+        Me.RadioButton79.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton79.TabIndex = 162
+        Me.RadioButton79.Text = "Si"
+        Me.RadioButton79.UseVisualStyleBackColor = False
+        '
+        'RadioButton80
+        '
+        Me.RadioButton80.AutoSize = True
+        Me.RadioButton80.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton80.Checked = True
+        Me.RadioButton80.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton80.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton80.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton80.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton80.Name = "RadioButton80"
+        Me.RadioButton80.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton80.TabIndex = 163
+        Me.RadioButton80.TabStop = True
+        Me.RadioButton80.Text = "No"
+        Me.RadioButton80.UseVisualStyleBackColor = False
+        '
+        'Panel108
+        '
+        Me.Panel108.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel108.Location = New System.Drawing.Point(856, 129)
+        Me.Panel108.Name = "Panel108"
+        Me.Panel108.Size = New System.Drawing.Size(249, 34)
+        Me.Panel108.TabIndex = 689
+        '
+        'Panel111
+        '
+        Me.Panel111.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel111.Controls.Add(Me.Label41)
+        Me.Panel111.Controls.Add(Me.RadioButton81)
+        Me.Panel111.Controls.Add(Me.RadioButton82)
+        Me.Panel111.Location = New System.Drawing.Point(706, 90)
+        Me.Panel111.Name = "Panel111"
+        Me.Panel111.Size = New System.Drawing.Size(249, 34)
+        Me.Panel111.TabIndex = 690
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.BackColor = System.Drawing.Color.Transparent
+        Me.Label41.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(10, 6)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(112, 24)
+        Me.Label41.TabIndex = 21
+        Me.Label41.Text = "Stock Lok:"
+        '
+        'RadioButton81
+        '
+        Me.RadioButton81.AutoSize = True
+        Me.RadioButton81.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton81.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton81.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton81.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton81.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton81.Name = "RadioButton81"
+        Me.RadioButton81.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton81.TabIndex = 162
+        Me.RadioButton81.Text = "Si"
+        Me.RadioButton81.UseVisualStyleBackColor = False
+        '
+        'RadioButton82
+        '
+        Me.RadioButton82.AutoSize = True
+        Me.RadioButton82.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton82.Checked = True
+        Me.RadioButton82.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton82.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton82.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton82.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton82.Name = "RadioButton82"
+        Me.RadioButton82.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton82.TabIndex = 163
+        Me.RadioButton82.TabStop = True
+        Me.RadioButton82.Text = "No"
+        Me.RadioButton82.UseVisualStyleBackColor = False
+        '
+        'Panel112
+        '
+        Me.Panel112.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel112.Location = New System.Drawing.Point(856, 129)
+        Me.Panel112.Name = "Panel112"
+        Me.Panel112.Size = New System.Drawing.Size(249, 34)
+        Me.Panel112.TabIndex = 689
+        '
+        'Panel113
+        '
+        Me.Panel113.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel113.Controls.Add(Me.Label161)
+        Me.Panel113.Controls.Add(Me.RadioButton83)
+        Me.Panel113.Controls.Add(Me.RadioButton84)
+        Me.Panel113.Location = New System.Drawing.Point(706, 90)
+        Me.Panel113.Name = "Panel113"
+        Me.Panel113.Size = New System.Drawing.Size(249, 34)
+        Me.Panel113.TabIndex = 690
+        '
+        'Label161
+        '
+        Me.Label161.AutoSize = True
+        Me.Label161.BackColor = System.Drawing.Color.Transparent
+        Me.Label161.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label161.Location = New System.Drawing.Point(10, 6)
+        Me.Label161.Name = "Label161"
+        Me.Label161.Size = New System.Drawing.Size(112, 24)
+        Me.Label161.TabIndex = 21
+        Me.Label161.Text = "Stock Lok:"
+        '
+        'RadioButton83
+        '
+        Me.RadioButton83.AutoSize = True
+        Me.RadioButton83.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton83.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton83.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton83.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton83.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton83.Name = "RadioButton83"
+        Me.RadioButton83.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton83.TabIndex = 162
+        Me.RadioButton83.Text = "Si"
+        Me.RadioButton83.UseVisualStyleBackColor = False
+        '
+        'RadioButton84
+        '
+        Me.RadioButton84.AutoSize = True
+        Me.RadioButton84.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton84.Checked = True
+        Me.RadioButton84.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton84.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton84.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton84.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton84.Name = "RadioButton84"
+        Me.RadioButton84.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton84.TabIndex = 163
+        Me.RadioButton84.TabStop = True
+        Me.RadioButton84.Text = "No"
+        Me.RadioButton84.UseVisualStyleBackColor = False
         '
         'INSUMO
         '
@@ -21314,12 +21722,12 @@ Partial Class INSUMO
         Me.Text = "INSUMO"
         Me.TabPage1.ResumeLayout(False)
         Me.Panel3.ResumeLayout(False)
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout
         Me.Panel86.ResumeLayout(False)
         Me.Panel86.PerformLayout
         Me.Panel87.ResumeLayout(False)
         Me.Panel87.PerformLayout
-        Me.Panel4.ResumeLayout(False)
-        Me.Panel4.PerformLayout
         Me.Panel85.ResumeLayout(False)
         Me.Panel85.PerformLayout
         Me.Panel89.ResumeLayout(False)
@@ -21627,6 +22035,18 @@ Partial Class INSUMO
         Me.Panel187.ResumeLayout(False)
         Me.Panel187.PerformLayout
         CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel167.ResumeLayout(False)
+        Me.Panel167.PerformLayout
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout
+        Me.Panel105.ResumeLayout(False)
+        Me.Panel105.PerformLayout
+        Me.Panel107.ResumeLayout(False)
+        Me.Panel107.PerformLayout
+        Me.Panel111.ResumeLayout(False)
+        Me.Panel111.PerformLayout
+        Me.Panel113.ResumeLayout(False)
+        Me.Panel113.PerformLayout
         Me.ResumeLayout(False)
 
     End Sub
@@ -23123,4 +23543,34 @@ Partial Class INSUMO
     Friend WithEvents Label469 As Label
     Friend WithEvents Label395 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents Panel166 As Panel
+    Friend WithEvents Panel167 As Panel
+    Friend WithEvents Label8 As Label
+    Friend WithEvents RadioButton8 As RadioButton
+    Friend WithEvents RadioButton9 As RadioButton
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label9 As Label
+    Friend WithEvents RadioButton10 As RadioButton
+    Friend WithEvents RadioButton11 As RadioButton
+    Friend WithEvents Panel104 As Panel
+    Friend WithEvents Panel105 As Panel
+    Friend WithEvents Label18 As Label
+    Friend WithEvents RadioButton77 As RadioButton
+    Friend WithEvents RadioButton78 As RadioButton
+    Friend WithEvents Panel112 As Panel
+    Friend WithEvents Panel113 As Panel
+    Friend WithEvents Label161 As Label
+    Friend WithEvents RadioButton83 As RadioButton
+    Friend WithEvents RadioButton84 As RadioButton
+    Friend WithEvents Panel106 As Panel
+    Friend WithEvents Panel107 As Panel
+    Friend WithEvents Label36 As Label
+    Friend WithEvents RadioButton79 As RadioButton
+    Friend WithEvents RadioButton80 As RadioButton
+    Friend WithEvents Panel108 As Panel
+    Friend WithEvents Panel111 As Panel
+    Friend WithEvents Label41 As Label
+    Friend WithEvents RadioButton81 As RadioButton
+    Friend WithEvents RadioButton82 As RadioButton
 End Class

@@ -205,6 +205,7 @@ Partial Class CLIENTE
         Me.Label37 = New System.Windows.Forms.Label()
         Me.ComboBox33 = New System.Windows.Forms.ComboBox()
         Me.Label39 = New System.Windows.Forms.Label()
+        Me.CheckBox34 = New System.Windows.Forms.CheckBox()
         Me.Panel9 = New System.Windows.Forms.Panel()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -607,7 +608,11 @@ Partial Class CLIENTE
         Me.Label169 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.CheckBox34 = New System.Windows.Forms.CheckBox()
+        Me.Panel166 = New System.Windows.Forms.Panel()
+        Me.Panel167 = New System.Windows.Forms.Panel()
+        Me.Label397 = New System.Windows.Forms.Label()
+        Me.RadioButton69 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton70 = New System.Windows.Forms.RadioButton()
         Me.TabPage3.SuspendLayout
         Me.Panel3.SuspendLayout
         Me.Panel23.SuspendLayout
@@ -693,6 +698,7 @@ Partial Class CLIENTE
         Me.Panel46.SuspendLayout
         Me.Panel79.SuspendLayout
         Me.Panel56.SuspendLayout
+        Me.Panel167.SuspendLayout
         Me.SuspendLayout
         '
         'TabPage3
@@ -725,7 +731,9 @@ Partial Class CLIENTE
         '
         Me.Panel23.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel23.Controls.Add(Me.Panel166)
         Me.Panel23.Controls.Add(Me.TextBox137)
+        Me.Panel23.Controls.Add(Me.Panel167)
         Me.Panel23.Controls.Add(Me.TextBox134)
         Me.Panel23.Controls.Add(Me.TextBox158)
         Me.Panel23.Controls.Add(Me.TextBox22)
@@ -3136,6 +3144,19 @@ Partial Class CLIENTE
         Me.Label39.Size = New System.Drawing.Size(123, 26)
         Me.Label39.TabIndex = 169
         Me.Label39.Text = "Expedición:"
+        '
+        'CheckBox34
+        '
+        Me.CheckBox34.AutoSize = True
+        Me.CheckBox34.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox34.Location = New System.Drawing.Point(499, 106)
+        Me.CheckBox34.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox34.Name = "CheckBox34"
+        Me.CheckBox34.Size = New System.Drawing.Size(185, 28)
+        Me.CheckBox34.TabIndex = 631
+        Me.CheckBox34.Text = "Si con precinto." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.CheckBox34.UseVisualStyleBackColor = False
         '
         'Panel9
         '
@@ -8344,18 +8365,65 @@ Partial Class CLIENTE
         Me.Label1.Size = New System.Drawing.Size(0, 33)
         Me.Label1.TabIndex = 15
         '
-        'CheckBox34
+        'Panel166
         '
-        Me.CheckBox34.AutoSize = True
-        Me.CheckBox34.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox34.Location = New System.Drawing.Point(499, 106)
-        Me.CheckBox34.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox34.Name = "CheckBox34"
-        Me.CheckBox34.Size = New System.Drawing.Size(185, 28)
-        Me.CheckBox34.TabIndex = 631
-        Me.CheckBox34.Text = "Si con precinto." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.CheckBox34.UseVisualStyleBackColor = False
+        Me.Panel166.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel166.Location = New System.Drawing.Point(1228, 476)
+        Me.Panel166.Name = "Panel166"
+        Me.Panel166.Size = New System.Drawing.Size(249, 34)
+        Me.Panel166.TabIndex = 689
+        '
+        'Panel167
+        '
+        Me.Panel167.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel167.Controls.Add(Me.Label397)
+        Me.Panel167.Controls.Add(Me.RadioButton69)
+        Me.Panel167.Controls.Add(Me.RadioButton70)
+        Me.Panel167.Location = New System.Drawing.Point(1078, 437)
+        Me.Panel167.Name = "Panel167"
+        Me.Panel167.Size = New System.Drawing.Size(249, 34)
+        Me.Panel167.TabIndex = 690
+        '
+        'Label397
+        '
+        Me.Label397.AutoSize = True
+        Me.Label397.BackColor = System.Drawing.Color.Transparent
+        Me.Label397.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label397.Location = New System.Drawing.Point(10, 6)
+        Me.Label397.Name = "Label397"
+        Me.Label397.Size = New System.Drawing.Size(112, 24)
+        Me.Label397.TabIndex = 21
+        Me.Label397.Text = "Stock Lok:"
+        '
+        'RadioButton69
+        '
+        Me.RadioButton69.AutoSize = True
+        Me.RadioButton69.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton69.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton69.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton69.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton69.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton69.Name = "RadioButton69"
+        Me.RadioButton69.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton69.TabIndex = 162
+        Me.RadioButton69.Text = "Si"
+        Me.RadioButton69.UseVisualStyleBackColor = False
+        '
+        'RadioButton70
+        '
+        Me.RadioButton70.AutoSize = True
+        Me.RadioButton70.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton70.Checked = True
+        Me.RadioButton70.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton70.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton70.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton70.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton70.Name = "RadioButton70"
+        Me.RadioButton70.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton70.TabIndex = 163
+        Me.RadioButton70.TabStop = True
+        Me.RadioButton70.Text = "No"
+        Me.RadioButton70.UseVisualStyleBackColor = False
         '
         'CLIENTE
         '
@@ -8510,6 +8578,8 @@ Partial Class CLIENTE
         Me.Panel79.PerformLayout
         Me.Panel56.ResumeLayout(False)
         Me.Panel56.PerformLayout
+        Me.Panel167.ResumeLayout(False)
+        Me.Panel167.PerformLayout
         Me.ResumeLayout(False)
         Me.PerformLayout
 
@@ -9098,4 +9168,9 @@ Partial Class CLIENTE
     Friend WithEvents CheckBox33 As CheckBox
     Friend WithEvents TextBox123 As TextBox
     Friend WithEvents CheckBox34 As CheckBox
+    Friend WithEvents Panel166 As Panel
+    Friend WithEvents Panel167 As Panel
+    Friend WithEvents Label397 As Label
+    Friend WithEvents RadioButton69 As RadioButton
+    Friend WithEvents RadioButton70 As RadioButton
 End Class

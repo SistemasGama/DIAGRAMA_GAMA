@@ -120,12 +120,6 @@
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="Panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="TextBox364.ToolTip" xml:space="preserve">
     <value>El Cod. Trab. Gama N°, es el numero de registro de troqueles
  de la base troqueles, es de corrido.
@@ -289,9 +283,6 @@ Las OT que no se planifico, no tiene N° por lo que se ordena de acuerdo a las t
   <metadata name="Panel14.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel14.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -364,142 +355,12 @@ Las OT que no se planifico, no tiene N° por lo que se ordena de acuerdo a las t
   <data name="ComboBox375.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
-  <metadata name="Panel156.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="Panel7.ToolTip" xml:space="preserve">
-    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
-Ingreso por los MAQUINISTAS, y  SUPERVISORES.
-
-Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
-No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
-por no cumplir con su trabajo.
-
-Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
-1- Kilos buenos
-2- Tiradas
-3- Scrap Kilos
-
-Y al terminar darle el FIN de la estación
-Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
-EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
-  </data>
-  <data name="TextBox535.ToolTip" xml:space="preserve">
-    <value>El la cantidad de UNIDADES, que faltan para completar Pto. CONFIRMADO.
-Importante para no procesar mas de lo que el cliente quiere.
-También ayuda a negociar nuevos contratos y tener tiempo para llegada de MP.
-
-</value>
-  </data>
-  <data name="ComboBox2.ToolTip" xml:space="preserve">
-    <value>Cargar el numero de la OT.
-Escoger del listado desplegado.
-Trae todas las OT habilitadas para procesar.
-Todas estas están planificadas para realizar según el orden establecida por PLANIFICACION.
-En este listado desplegado están todas las OT que se deben imprimir.
-Para FILTRAR solamente las de interés de una maquina debe escoger una máquina.
-También cuentan con una planilla Excel a lado que pueden ordenar por troquel, por laminado etc para que sean más productivas otras estaciones.
-
-</value>
-  </data>
-  <data name="ComboBox5.ToolTip" xml:space="preserve">
-    <value>Se elige la máquina que se va imprimir.
-Con la elección de la máquina, filtra todo lo que 
-corresponde lo PLANIFICADO para esta máquina.
-Si hay más coincidencia COLOR y TROQUEL 
-Debe ser solicitado para aprovechar PRODUCTIVIDAD
-
-</value>
-  </data>
-  <data name="TextBox562.ToolTip" xml:space="preserve">
-    <value>Es el numero que se le dio, a una PLANIFICACION DE CARGA DE TRABAJO.
-Este numero también puede ayudar para ver la carga de trabajo que tiene,
- para el día escogido y va filtrar en la planilla Excel
-
-</value>
-  </data>
-  <data name="Button43.ToolTip" xml:space="preserve">
-    <value>Con este botón se llama a la planificación N° que quiere importar toda la carga de trabajo.
-También en la planilla Excel solo aparecerán lo planificado en las primeras 
-líneas y después todos los que tengan coincidencia de color y troquel.
-
-</value>
-  </data>
-  <data name="Button150.ToolTip" xml:space="preserve">
-    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
-sierto puntos para tener en cuenta RESCATADOS de la experiencia de la primera ves que puede aportar.
-
-Esta importacion debe ser resaltada con un color ROJO para 
-tener encuenta que no  fue cargada por COMERCIAL para ser CONSULTADA CON ELCOMERCIAL.
-
-El color para utilizar en todos los casos de importacion a verificar debe ESTAR EN COLOR ROJO LA LETRA. 
-
-Trabajo Nuevo: Al apretar el BOTON guarda toda la INFORMACION y le asigna un numero en el 
-LISTADO de ficha tecnica. Tambien se activa el boton de FICHA TECNICA cuando no fue realizado todavia este trabajo
-en la maquina escojida.
-Entonces solo se activara el BOTON DE FICHA TECNICA en dos casos que sea nuevo trabajo o no cuando 
-se hace en una nueva maquina.</value>
-  </data>
   <data name="Label203.ToolTip" xml:space="preserve">
     <value>Indica que este producto el contrato es para almacenar y entregas mensual.
 Todos los trabajos que son entrega mensual la primera semana de cada mes 
 Saldrá a expedición el recordatorio de entregar.
 
 </value>
-  </data>
-  <data name="Button49.ToolTip" xml:space="preserve">
-    <value>BOTON ROJO, graba los kilos pesado, que no sirven.
-
-VALIDACION: La sumatoria de los Kilos Buenos, + la devolución + el scrap 
-debe ser igual a lo recibido por la estacion anterior (+- %).
-El Scrap es la diferencia entre los kilos recibidos y los Kilos entregado a la 
-estación posterior.
-No el registrado por el operador
-</value>
-  </data>
-  <data name="TextBox8.ToolTip" xml:space="preserve">
-    <value>Suma los Kilos BUENOS + SCRAP + DEVOluCIÓN y resta los KILOS que entrego DEPOSITO. Esa es
-el resultado que debe aparecer aqui.
-
-Validación: debe ser "0" (+- %) si no es asi debe enviar un aviso a los celulares.
-Este ERROR debe accionar un envio automatico a CELULARES:
-Los celulares que se enviara este error va ser los indicado en el "Cuadro
-Aviso OT FIN"
-</value>
-  </data>
-  <data name="Button55.ToolTip" xml:space="preserve">
-    <value>BOTON AMARILLO, graba la carga pesada que se retornara al deposito.
-
-VALIDACION: La debolución nunca puede ser mayor que la cantidad 
-de kilos entregadoque la sumatoria de la estacion anterior. Por tanto
-la sumatoria de KILOS BUENOS + DEVOLUCION, no debe superar esa 
-cantidad de Kilos entregado. 
-Este ERROR debe accionar un envio automatico a CELULARES:
-Los celulares que se enviara este error va ser los indicado en el "Cuadro
-Aviso OT FIN"
-</value>
-  </data>
-  <data name="Button21.ToolTip" xml:space="preserve">
-    <value>BOTON VERDE graba la carga de las TIRADAS o HOJAS.
-
-VALIDACION: Nunca puede ser los TIRADA o HOJA,  MAYOR QUE LA ESTACION ANTERIOR.
-Debe tener ALERTA que supera los TIRADA o HOJA ESTACION ANTERIOR, y 
-debe TENER INDICACION VERIFICAR SUPERVISOR cual es el ERROR.
-Este ERROR debe accionar un envio automatico a CELULARES:
-Los celulares que se enviara este error va ser los indicado en el "Cuadro
-Aviso OT FIN"
-</value>
-  </data>
-  <data name="Button92.ToolTip" xml:space="preserve">
-    <value>BOTON AZUL, graba los Kilos pesados Buenos.
-VALIDACION: Nunca puede ser los KILOS MAYOR QUE LA ESTACION ANTERIOR.
-VALIDACION: no puede ser mas de la sumatoria del pedido mas demacia que 
-acepta el cliente y la demacia 3% hojas de ajuste 300 unidades
-Debe tener ALERTA que supera los KILOS ESTACION ANTERIOR, y debe 
-TENER INDICACION VERIFICAR SUPERVISOR cual es el ERROR.
-Este ERROR debe accionar un envio automatico a CELULARES:
-Los celulares que se enviara este error va ser los indicado en el "Cuadro
-Aviso OT FIN"</value>
   </data>
   <data name="CheckBox2.ToolTip" xml:space="preserve">
     <value>Es marcado por PLANIFICACION que tiene carácter de entrega urgente.
@@ -568,32 +429,150 @@ De la estación siguiente que su estación le dio FIN, de forma automática.
         QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
 </value>
   </data>
+  <data name="Button49.ToolTip" xml:space="preserve">
+    <value>BOTON ROJO, graba los kilos pesado, que no sirven.
+
+VALIDACION: La sumatoria de los Kilos Buenos, + la devolución + el scrap 
+debe ser igual a lo recibido por la estacion anterior (+- %).
+El Scrap es la diferencia entre los kilos recibidos y los Kilos entregado a la 
+estación posterior.
+No el registrado por el operador
+</value>
+  </data>
+  <data name="TextBox8.ToolTip" xml:space="preserve">
+    <value>Suma los Kilos BUENOS + SCRAP + DEVOluCIÓN y resta los KILOS que entrego DEPOSITO. Esa es
+el resultado que debe aparecer aqui.
+
+Validación: debe ser "0" (+- %) si no es asi debe enviar un aviso a los celulares.
+Este ERROR debe accionar un envio automatico a CELULARES:
+Los celulares que se enviara este error va ser los indicado en el "Cuadro
+Aviso OT FIN"
+</value>
+  </data>
+  <data name="Button55.ToolTip" xml:space="preserve">
+    <value>BOTON AMARILLO, graba la carga pesada que se retornara al deposito.
+
+VALIDACION: La debolución nunca puede ser mayor que la cantidad 
+de kilos entregadoque la sumatoria de la estacion anterior. Por tanto
+la sumatoria de KILOS BUENOS + DEVOLUCION, no debe superar esa 
+cantidad de Kilos entregado. 
+Este ERROR debe accionar un envio automatico a CELULARES:
+Los celulares que se enviara este error va ser los indicado en el "Cuadro
+Aviso OT FIN"
+</value>
+  </data>
+  <data name="Button21.ToolTip" xml:space="preserve">
+    <value>BOTON AZUL, graba los Kilos pesados Buenos.
+VALIDACION: Nunca puede ser los KILOS MAYOR QUE LA ESTACION ANTERIOR.
+VALIDACION: no puede ser más de la sumatoria del pedido más demasía que 
+acepta el cliente y la demasía 3% hojas de ajuste 300 unidades
+Debe tener ALERTA que supera las tiradas a ESTACION SUPERVISOR DE LA ES, y debe 
+TENER INDICACION VERIFICAR SUPERVISOR cual es el ERROR.
+Este ERROR debe accionar un envió automático a CELULARES, SUPERVISOR DE LA ESTACION
+
+</value>
+  </data>
+  <data name="Button92.ToolTip" xml:space="preserve">
+    <value>BOTON AZUL, graba los Kilos pesados Buenos.
+VALIDACION: Nunca puede ser los KILOS MAYOR QUE LA ESTACION ANTERIOR.
+VALIDACION: no puede ser más de la sumatoria del pedido más demasía que 
+acepta el cliente y la demasía 3% hojas de ajuste 300 unidades
+Debe tener ALERTA que supera los KILOS ESTACION ANTERIOR, y debe 
+TENER INDICACION VERIFICAR SUPERVISOR cual es el ERROR.
+Este ERROR debe accionar un envió automático a CELULARES, SUPERVISOR DE LA ESTACION
+
+</value>
+  </data>
+  <data name="TextBox535.ToolTip" xml:space="preserve">
+    <value>El la cantidad de UNIDADES, que faltan para completar Pto. CONFIRMADO.
+Importante para no procesar mas de lo que el cliente quiere.
+También ayuda a negociar nuevos contratos y tener tiempo para llegada de MP.
+
+</value>
+  </data>
+  <data name="ComboBox2.ToolTip" xml:space="preserve">
+    <value>Cargar el numero de la OT.
+Escoger del listado desplegado.
+Trae todas las OT habilitadas para procesar.
+Todas estas están planificadas para realizar según el orden establecida por PLANIFICACION.
+En este listado desplegado están todas las OT que se deben imprimir.
+Para FILTRAR solamente las de interés de una maquina debe escoger una máquina.
+También cuentan con una planilla Excel a lado que pueden ordenar por troquel, por laminado etc para que sean más productivas otras estaciones.
+
+</value>
+  </data>
+  <data name="ComboBox5.ToolTip" xml:space="preserve">
+    <value>Se elige la máquina que se va imprimir.
+Con la elección de la máquina, filtra todo lo que 
+corresponde lo PLANIFICADO para esta máquina.
+Si hay más coincidencia COLOR y TROQUEL 
+Debe ser solicitado para aprovechar PRODUCTIVIDAD
+
+</value>
+  </data>
+  <data name="Button43.ToolTip" xml:space="preserve">
+    <value>Con este botón se llama a la planificación N° que quiere importar toda la carga de trabajo.
+También en la planilla Excel solo aparecerán lo planificado en las primeras 
+líneas y después todos los que tengan coincidencia de color y troquel.
+
+</value>
+  </data>
+  <data name="Button150.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
+  </data>
   <metadata name="Panel156.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="Button11.ToolTip" xml:space="preserve">
     <value>ATENCION
-+ VALIDACION: no puede tener INICIO, si no tiene FIN o BAJAR el anterior trabajo
-+ VALIDACION: no puede tener FIN si no completa PEDIDO+DEMACIA 10% + AJUSTE
-+ Al finalizar un trabajo (FIN), debe ser cargado el INCIO del siguiente trabajo. El INCIO del trabajo 
-es CARGADO con las horas MUERTAS que son las del FIN del ANTERIOR y el INICIO de la OT cargada. 
-Estas horas MUERTAS son consideradas según MARCACION IMPRESOR PRESENTE y son excluidas las horas 
-de descanso del PERSONAL.
-+ Registra día y hora del INICIO (inicio desde el FIN anterior) (Esto registra HORA el TURNO).
-+ Envía un AVISO  al CELULAR SUPERVISOR se dio inicio. Envía CHECK LIST de la estación.
+INICIO: al apretar inicio toma la hora de fin del anterior trabajo
+siempre y cuando no tenga 24 horas pasada
+Automáticamente envía aviso al SUPERVISOR DE LA ESTACION,
+ que hay un inicio para liberar.
+
 
 </value>
   </data>
-  <data name="Button117.ToolTip" xml:space="preserve">
-    <value>El boton FIN bloquea la posibilidad de MODIFICACION por lo que
-deben verificar bien toda la los resultado de la carga.
-Si fue cargado mal inmediatamente comuniquen y asegurence que fue modificado
-para que NO PIERDAN EL PREMION.</value>
+  <data name="Button13.ToolTip" xml:space="preserve">
+    <value>ATENCION
+Una vez que libere el SUPERVISOR DE LA ESTACION debe informar apretando este botón.
+Automáticamente informa a CC que esta OT esta LIERADA.
+El día y la hora no pueden ser más cambiadas después de apretado el BOTON DE LIBERACION.
+Esto queda registrado el día y el turno que fuer realizado y el tiempo de ajuste.
+Cuando tenga fin las horas de PRODUCCION también se podrá tener por simple resta de LIBERACION Y FIN.
+
+
+</value>
+  </data>
+  <data name="Button23.ToolTip" xml:space="preserve">
+    <value>ATENCION
++ El trabajo se bajo.
++ Envia un AVISO  aL CELULAR GP, CC, Supervisor Troquelado,  Pegado y Planificación, que se bajo.
+No te puede modificar mas una ves apretador este boton la fecha y la hora, </value>
+  </data>
+  <data name="Panel7.ToolTip" xml:space="preserve">
+    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
+Ingreso por los MAQUINISTAS, y  SUPERVISORES.
+
+Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
+No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
+por no cumplir con su trabajo.
+
+Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
+1- Kilos buenos
+2- Tiradas
+3- Scrap Kilos
+
+Y al terminar darle el FIN de la estación
+Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
+EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
   </data>
   <metadata name="Panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel69.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="DataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -677,6 +656,18 @@ para que NO PIERDAN EL PREMION.</value>
   <metadata name="DataGridViewTextBoxColumn14.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="CheckedListBox4.ToolTip" xml:space="preserve">
+    <value>IMPRESION DIGITAL: Prueba con 80% de 
+aproximación al sistema OFFSET.
+
+CARPETA COLORES: carpeta firmada por el cliente.
+con colores minimo correcto y maximo.
+
+PIE IMPRESORA: cuando viene el cliente APROBAR.
+PANTALLA: cuando se sacan los colores por la PANTALLA.
+COMERCIAL: cuando aproba un COMERCIAL FIRMANDO.
+MUESTRA APORTADA: cuando trae el cliente una muestra firmada.</value>
+  </data>
   <data name="PictureBox15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -737,19 +728,34 @@ para que NO PIERDAN EL PREMION.</value>
         QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
 </value>
   </data>
+  <data name="ComboBox234.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
   <data name="ComboBox133.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
   <data name="ComboBox19.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
+  <data name="ComboBox233.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
   <data name="ComboBox17.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox232.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
   <data name="ComboBox28.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
+  <data name="ComboBox230.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
   <data name="ComboBox33.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox156.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
   <data name="ComboBox12.Items" xml:space="preserve">
@@ -824,6 +830,26 @@ para que NO PIERDAN EL PREMION.</value>
   <data name="ComboBox24.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
+  <data name="CheckedListBox1.ToolTip" xml:space="preserve">
+    <value>SUPERVISOR IMPRESION
+Corte en ESCUADRA: Verificar los 4 angulos si esta en 90 grados
+Gramaje: PESAR si tiene el gramaje indicada mas o menos 5% tolerancia.
+Fibra: debe estar PERPENDICULAR AL PEGADO, salvo que indique NO RESPETAR.
+Contenido: revisar visualmente si todas la partes del trabajo estan.
+Troquel: si las lineas coinciden con las imagenes,  si esta SANGRADO y si estan en la posicion correcta.
+Rango de Agua: 
+✅ En resumen (valores típicos):
+      Parámetro	             Valor recomendado
+      pH	                                 4.8 – 5.5
+      Conductividad 	     800 – 1500 µS/cm
+      Temperatura	                    10 – 15 °C
+       Dureza	                     8 – 12 °dH
+       Alcohol IPA	                     5 – 10 %
+       Aditivo mojado	        2 – 3 %
+
+Envase Primario: Mucha atención de los insumos correctos y uso del FILM STRETCH verde.
+Envase Primario: no tienen restricciones y uso del FILM STRETCH celeste..</value>
+  </data>
   <data name="TextBox239.Text" xml:space="preserve">
     <value>📋 CHECKLIST RÁPIDO DE PRODUCCIÓN
 ✔ Revición Encuadrado CORTE
@@ -868,11 +894,485 @@ ATENCIÓN
 ✔ Menos agua, más control densidad
 ✔ IR + aire caliente bien balanceados
 ✔ Barniz con menor gramaje
-✔ Presiones mínimas necesarias</value>
+✔ Presiones mínimas necesarias
+
+
+
+
+
+indicar cuales son los valores del agua en el sistema de impresion offset
+
+En el sistema de impresión offset, el agua (solución de mojado) debe mantenerse dentro de valores controlados para asegurar buena calidad de impresión, evitar emulsiones excesivas y mantener el equilibrio agua-tinta. Los principales valores a controlar son:
+
+1. pH
+
+Valor recomendado: 4.8 – 5.5
+
+Función:
+
+Mantener la plancha limpia.
+
+Evitar que la tinta invada las zonas no impresoras.
+
+Si el pH es muy alto → la plancha puede ensuciarse.
+
+Si el pH es muy bajo → puede afectar la estabilidad de la tinta y la plancha.
+
+2. Conductividad
+
+Valor aproximado: 800 – 1500 µS/cm (depende del fabricante del aditivo).
+
+Indica la cantidad de sales y aditivos presentes en el agua.
+
+Si es muy alta → exceso de químicos o contaminación.
+
+Si es muy baja → falta de aditivo en la solución.
+
+3. Temperatura
+
+Ideal: 10 – 15 °C
+
+Ayuda a mantener estable la emulsión tinta-agua y la viscosidad de la tinta.
+
+4. Dureza del agua
+
+Recomendado: 8 – 12 °dH (grados alemanes).
+
+Si el agua es muy dura puede producir depósitos de calcio en rodillos y planchas.
+
+5. Dosificación de alcohol isopropílico (IPA) (si se usa)
+
+Valor típico: 5 – 10 %
+
+Mejora la humectación y estabilidad del sistema.
+
+6. Dosificación de aditivo de mojado
+
+Generalmente: 2 – 3 % (según el proveedor).
+
+✅ En resumen (valores típicos):
+
+Parámetro	Valor recomendado
+pH	4.8 – 5.5
+Conductividad	800 – 1500 µS/cm
+Temperatura	10 – 15 °C
+Dureza	8 – 12 °dH
+Alcohol IPA	5 – 10 %
+Aditivo mojado	2 – 3 %
+
+💡 Consejo profesional:
+En imprentas con certificaciones de calidad como ISO 9001 o sistemas de control de procesos, es clave registrar diariamente pH y conductividad, porque el 80% de los problemas en offset provienen del mal equilibrio agua-tinta.
+
+Si quieres, también puedo explicarte:
+
+Los 7 problemas más comunes del agua en offset y cómo solucionarlos (muy útil para producción).
+
+Cómo controlar el agua para impresiones de packaging o cajas, que suele ser más exigente.
+
+si
+
+En impresión offset, muchos problemas de calidad se originan por un mal equilibrio entre agua y tinta. Estos son 7 problemas comunes del sistema de mojado y cómo solucionarlos:
+
+1. Emulsificación excesiva de la tinta
+
+Síntomas
+
+Colores lavados
+
+Secado lento
+
+Pérdida de densidad
+
+Causas
+
+Demasiada agua
+
+Temperatura alta
+
+pH incorrecto
+
+Solución
+
+Reducir el flujo de agua
+
+Mantener temperatura 10–15 °C
+
+Ajustar pH a 4.8 – 5.5
+
+2. Empaste o ensuciamiento de la plancha
+
+Síntomas
+
+Aparecen manchas en zonas blancas
+
+Fondo gris
+
+Causas
+
+Falta de agua
+
+pH alto
+
+Plancha mal procesada
+
+Solución
+
+Aumentar ligeramente el agua
+
+Ajustar pH
+
+Revisar revelado de planchas
+
+3. Velado (scumming)
+
+Síntomas
+
+Las zonas no impresoras empiezan a aceptar tinta.
+
+Causas
+
+pH demasiado alto
+
+Baja concentración de aditivo
+
+Conductividad baja
+
+Solución
+
+Ajustar aditivo de mojado
+
+Controlar conductividad 800–1500 µS/cm
+
+4. Rayas o marcas de agua
+
+Síntomas
+
+Líneas en la impresión
+
+Humectación irregular
+
+Causas
+
+Rodillos sucios o desgastados
+
+Mala distribución del agua
+
+Solución
+
+Limpieza del sistema de mojado
+
+Ajuste de presión de rodillos
+
+5. Acumulación de calcio
+
+Síntomas
+
+Depósitos blancos en rodillos
+
+Problemas de transferencia
+
+Causas
+
+Agua muy dura
+
+Reacción con papel estucado
+
+Solución
+
+Controlar dureza 8–12 °dH
+
+Usar aditivos anticálcicos
+
+6. Inestabilidad de color
+
+Síntomas
+
+Variaciones de densidad durante la tirada.
+
+Causas
+
+Cambios en el equilibrio agua-tinta
+
+Conductividad inestable
+
+Solución
+
+Control diario de pH y conductividad
+
+Estabilizar flujo de agua
+
+7. Espuma en el sistema de mojado
+
+Síntomas
+
+Aire en el circuito
+
+Humectación irregular
+
+Causas
+
+Exceso de aditivo
+
+Mala circulación
+
+Solución
+
+Ajustar dosificación
+
+Usar antiespumantes
+
+✅ Recomendación profesional para imprentas offset
+
+Controlar diariamente:
+
+Parámetro	Valor ideal
+pH	4.8 – 5.5
+Conductividad	800 – 1500 µS
+Temperatura	10 – 15 °C
+Alcohol IPA	5 – 10 %
+
+Registrar estos datos forma parte de buenas prácticas de impresión y control de calidad, especialmente en empresas con sistemas como ISO 9001 y ISO 22000, muy usados en impresión de packaging alimentario.
+
+💡 Si quieres, puedo prepararte también algo que muchos jefes de planta usan:
+
+Una hoja de control diaria para máquinas offset (pH, conductividad, temperatura, densidad) que ayuda mucho en auditorías y control de calidad.
+
+si
+
+Preparé una planilla de control diario para impresión offset que puedes usar en producción.
+
+control_diario_offset.xlsx
+Control Diario Offset
+
+La hoja permite registrar:
+
+Fecha
+
+Máquina
+
+Turno
+
+Operador
+
+pH de la solución de mojado
+
+Conductividad (µS/cm)
+
+Temperatura del agua
+
+Alcohol IPA %
+
+Aditivo %
+
+Densidad de tinta C, M, Y, K
+
+Observaciones de producción
+
+Valores recomendados para control rápido
+Parámetro	Valor ideal
+pH	4.8 – 5.5
+Conductividad	800 – 1500 µS
+Temperatura	10 – 15 °C
+Alcohol IPA	5 – 10 %
+Aditivo	2 – 3 %
+Ventajas de usar esta hoja
+
+Control del equilibrio agua-tinta
+
+Detectar problemas antes de que afecten la tirada
+
+Evidencia para auditorías de calidad como ISO 9001 o ISO 22000
+
+Mejora la estabilidad de color en tiradas largas
+
+✅ Si quieres, también puedo prepararte algo muy útil para imprentas:
+
+Manual corto de control de calidad para impresión offset (tipo documento para auditorías).
+
+Tabla profesional de densidades de tinta CMYK para offset.
+
+Los 12 parámetros que controlan las imprentas certificadas en packaging.
+
+Te puede servir mucho si trabajas con clientes corporativos exigentes. 
+
+si
+
+Perfecto. Te comparto una tabla profesional de densidades de tinta para impresión offset que se utiliza como referencia en control de calidad.
+
+Densidades recomendadas en offset (papel estucado)
+Color	Densidad recomendada
+Cian (C)	1.30 – 1.40
+Magenta (M)	1.35 – 1.45
+Amarillo (Y)	1.00 – 1.10
+Negro (K)	1.60 – 1.80
+Densidades recomendadas en papel obra o no estucado
+Color	Densidad recomendada
+Cian (C)	1.10 – 1.20
+Magenta (M)	1.15 – 1.25
+Amarillo (Y)	0.90 – 1.00
+Negro (K)	1.30 – 1.40
+Otros parámetros que se controlan en imprentas profesionales
+
+1️⃣ Ganancia de punto (Dot Gain)
+
+Valor normal: 12% – 18%
+
+2️⃣ Trapping (atrapado de tinta)
+
+Ideal: 70% – 90%
+
+3️⃣ Balance de grises
+
+Ajuste entre C + M + Y para mantener neutralidad.
+
+4️⃣ Contraste de impresión
+
+Debe mantenerse estable durante toda la tirada.
+
+Estos controles se utilizan en normas internacionales de impresión como ISO 12647-2, que define parámetros para calidad de color en offset.
+
+💡 Consejo de producción:
+Las imprentas que trabajan con packaging, alimentos o corporaciones grandes suelen controlar diariamente:
+
+pH del agua
+
+Conductividad
+
+Temperatura
+
+Densidad de tinta
+
+Ganancia de punto
+
+Esto permite repetibilidad de color entre tiradas, algo muy valorado por clientes grandes.
+
+Si quieres, puedo mostrarte también algo que muchos gerentes de imprenta consideran clave:
+
+✅ Los 15 controles que usan las imprentas más avanzadas de Latinoamérica para mantener calidad offset.
+(Te sorprenderá que casi ninguna imprenta controla todos).
+
+si
+
+Estos son los 15 controles de calidad que utilizan las imprentas offset más avanzadas para garantizar estabilidad, repetibilidad de color y cumplimiento de normas internacionales como ISO 12647-2.
+
+15 Controles clave en impresión offset profesional
+1. Control de pH del agua
+
+Valor ideal: 4.8 – 5.5
+Mantiene las zonas no impresoras de la plancha libres de tinta.
+
+2. Conductividad del agua
+
+Valor típico: 800 – 1500 µS/cm
+Indica concentración correcta de aditivos.
+
+3. Temperatura del sistema de mojado
+
+Ideal: 10 – 15 °C
+Evita emulsiones excesivas.
+
+4. Dosificación de alcohol IPA
+
+Normal: 5 – 10 %
+Mejora la humectación.
+
+5. Densidad de tinta
+
+Control con densitómetro.
+
+Valores aproximados:
+
+Color	Densidad
+Cian	1.30 – 1.40
+Magenta	1.35 – 1.45
+Amarillo	1.00 – 1.10
+Negro	1.60 – 1.80
+6. Ganancia de punto (Dot Gain)
+
+Ideal: 12% – 18%
+
+Controla cómo crece el punto de trama al imprimir.
+
+7. Balance de grises
+
+Ajuste correcto entre C + M + Y para obtener grises neutros.
+
+8. Trapping (atrapado de tinta)
+
+Valor ideal: 70% – 90%
+
+Garantiza correcta superposición de colores.
+
+9. Contraste de impresión
+
+Mide la diferencia entre áreas sólidas y tramas.
+
+10. Registro de color
+
+Control de alineación entre CMYK.
+
+11. Humectación uniforme
+
+Control del flujo de agua en la máquina.
+
+12. Presión de rodillos
+
+Ajuste correcto entre:
+
+rodillos de tinta
+
+rodillos de agua
+
+cilindros
+
+13. Limpieza del sistema de mojado
+
+Evita:
+
+bacterias
+
+depósitos de calcio
+
+contaminación química
+
+14. Control de papel
+
+Se verifica:
+
+humedad
+
+gramaje
+
+absorción
+
+estabilidad dimensional
+
+15. Control de secado de tinta
+
+Se revisa:
+
+oxidación
+
+absorción
+
+posibles repintes
+
+Algo que pocos saben en imprenta
+
+El 80% de los problemas de impresión offset vienen de solo tres variables:
+
+1️⃣ Agua
+2️⃣ Tinta
+3️⃣ Presión de rodillos
+
+Cuando estos tres factores están controlados, la producción se vuelve estable y repetible, algo fundamental para imprentas que trabajan con clientes corporativos o normas como:
+
+ISO 9001
+
+ISO 22000
+
+💡 Si quieres, puedo ayudarte también con algo muy útil para tu empresa:</value>
   </data>
-  <metadata name="Panel11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="PictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -1015,9 +1515,6 @@ ATENCIÓN
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
   <metadata name="Panel69.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel124.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="ComboBox231.Items" xml:space="preserve">
@@ -1343,26 +1840,6 @@ ATENCIÓN
         cN+ByyjHUMbDG8zpSUrez5b2e1/aPfbY8jMuPli8LUwzw9uZNX5r2v1tyrYcDkUUUV++H50FFFFABRRR
         QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
 </value>
-  </data>
-  <metadata name="Panel9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="Panel2.ToolTip" xml:space="preserve">
-    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
-Ingreso por los MAQUINISTAS, y  SUPERVISORES.
-
-Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
-No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
-por no cumplir con su trabajo.
-
-Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
-1- Kilos buenos
-2- Tiradas
-3- Scrap Kilos
-
-Y al terminar darle el FIN de la estación
-Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
-EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
   </data>
   <data name="ComboBox18.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
@@ -2037,9 +2514,23 @@ de descanso del PERSONAL.
   <metadata name="Panel9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel90.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="Panel2.ToolTip" xml:space="preserve">
+    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
+Ingreso por los MAQUINISTAS, y  SUPERVISORES.
+
+Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
+No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
+por no cumplir con su trabajo.
+
+Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
+1- Kilos buenos
+2- Tiradas
+3- Scrap Kilos
+
+Y al terminar darle el FIN de la estación
+Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
+EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
+  </data>
   <data name="PictureBox10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -2184,18 +2675,6 @@ de descanso del PERSONAL.
   <metadata name="Panel124.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="OT.ToolTip" xml:space="preserve">
-    <value> OT Digital
-Aquí está toda la información sobre la OT que se debe tener en cuenta,
- el trabajo y sobre todo LEER LAS INDICACIONES.
-Tanto por los MAQUINISTAS como por los SUPERVISORES y JEFATURAS
- para seguir correctamente las indicaciones
-
-</value>
-  </data>
-  <metadata name="Panel131.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="TextBox57.ToolTip" xml:space="preserve">
     <value>Suma la cantidad de gramos que tiene el HOJA a IMPRIMIR y resta la sumatoria 
 de todas las bocas y la diferencia da los GRAMOS de desperdicio LOGICO.
@@ -2241,9 +2720,13 @@ Pegue: 1,0 / Aleta cajon: 1 / Aleta Cruz 1,5)
   <metadata name="Panel34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="Button143.ToolTip" xml:space="preserve">
+    <value>Con este botón se llama a la planificación N° que quiere importar toda la carga de trabajo.
+También en la planilla Excel solo aparecerán lo planificado en las primeras 
+líneas y después todos los que tengan coincidencia de color y troquel.
+
+</value>
+  </data>
   <metadata name="Panel30.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2264,56 +2747,30 @@ Y al terminar darle el FIN de la estación
 Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
 EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
   </data>
-  <data name="TextBox9.ToolTip" xml:space="preserve">
-    <value>El la cantidad de UNIDADES, que faltan para completar Pto. CONFIRMADO.
-Importante para no procesar mas de lo que el cliente quiere.
-También ayuda a negociar nuevos contratos y tener tiempo para llegada de MP.
-
-</value>
-  </data>
-  <data name="ComboBox6.ToolTip" xml:space="preserve">
-    <value>Cargar el numero de la OT.
-Escoger del listado desplegado.
-Trae todas las OT habilitadas para procesar.
-Todas estas están planificadas para realizar según el orden establecida por PLANIFICACION.
-En este listado desplegado están todas las OT que se deben imprimir.
-Para FILTRAR solamente las de interés de una maquina debe escoger una máquina.
-También cuentan con una planilla Excel a lado que pueden ordenar por troquel, por laminado etc para que sean más productivas otras estaciones.
-
-</value>
-  </data>
-  <data name="ComboBox20.ToolTip" xml:space="preserve">
-    <value>Se elige la máquina que se va imprimir.
-Con la elección de la máquina, filtra todo lo que 
-corresponde lo PLANIFICADO para esta máquina.
-Si hay más coincidencia COLOR y TROQUEL 
-Debe ser solicitado para aprovechar PRODUCTIVIDAD
-
-</value>
-  </data>
-  <data name="TextBox544.ToolTip" xml:space="preserve">
-    <value>Es el numero que se le dio, a una PLANIFICACION DE CARGA DE TRABAJO.
-Este numero también puede ayudar para ver la carga de trabajo que tiene,
- para el día escogido y va filtrar en la planilla Excel
-
-</value>
-  </data>
-  <data name="Button143.ToolTip" xml:space="preserve">
-    <value>Con este botón se llama a la planificación N° que quiere importar toda la carga de trabajo.
-También en la planilla Excel solo aparecerán lo planificado en las primeras 
-líneas y después todos los que tengan coincidencia de color y troquel.
-
-</value>
-  </data>
-  <metadata name="Panel30.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="Panel131.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel83.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="OT.ToolTip" xml:space="preserve">
+    <value> OT Digital
+Aquí está toda la información sobre la OT que se debe tener en cuenta,
+ el trabajo y sobre todo LEER LAS INDICACIONES.
+Tanto por los MAQUINISTAS como por los SUPERVISORES y JEFATURAS
+ para seguir correctamente las indicaciones
+
+</value>
+  </data>
+  <data name="CheckedListBox5.ToolTip" xml:space="preserve">
+    <value>IMPRESION DIGITAL: Prueba con 80% de 
+aproximación al sistema OFFSET.
+
+CARPETA COLORES: carpeta firmada por el cliente.
+con colores minimo correcto y maximo.
+
+PIE IMPRESORA: cuando viene el cliente APROBAR.
+PANTALLA: cuando se sacan los colores por la PANTALLA.
+COMERCIAL: cuando aproba un COMERCIAL FIRMANDO.
+MUESTRA APORTADA: cuando trae el cliente una muestra firmada.</value>
+  </data>
   <data name="Label274.ToolTip" xml:space="preserve">
     <value>El desarrollo se realiza con las 3 dimensiones de la caja.
 Donde la primera dimensión e:
@@ -2334,9 +2791,6 @@ se guarda el arreglo del troquel / todos con el mismo número del troquel
 </value>
   </data>
   <metadata name="Panel83.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel87.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="PictureBox27.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -2399,6 +2853,9 @@ se guarda el arreglo del troquel / todos con el mismo número del troquel
         QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
 </value>
   </data>
+  <metadata name="Panel87.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="ComboBox354.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
@@ -4246,30 +4703,124 @@ se hace en una nueva maquina.</value>
         w/8Arm+lWnoFhlzOYLdWG6UluQvbg1JHq0aoBulH1o/5hkv+6K57UP8Aj7f8P5VSZEtD/9k=
 </value>
   </data>
-  <data name="PLANIFICAR.ToolTip" xml:space="preserve">
-    <value>Esta ventana sirve para PLANIFICAR el trabajo.
-Permite filtrar distintos perfiles y así elegir las Órdenes de Trabajo (OT) más adecuadas para esta estación.
-No solo ayuda a esta estación, sino que también brinda información útil para facilitar el trabajo en las siguientes estaciones.
-
-Ejemplo en Impresión:
-Conviene planificar la producción agrupando trabajos en CMYK o en el mismo color.
-De esta manera se reduce el tiempo de preparación y aumenta la productividad.
-
-Pero siempre se debe pensar en las estaciones siguientes:
-TROQUELADO, SELECCIÓN y PEGADO, donde conviene utilizar los mismos troqueles para optimizar el proceso.</value>
+  <data name="ComboBox320.ToolTip" xml:space="preserve">
+    <value>Troquel Gama N° Trae la lista completa de N° de troquel, que indica la OT N°. 
+pero se tiene la base datos troquel completa para elegir cualquiera y poder
+ fasilitar al planificador agrupar las OT con el mismo N° de troquel.</value>
   </data>
-  <metadata name="Panel265.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="ComboBox380.ToolTip" xml:space="preserve">
+    <value>Son colores CMYK
+El primero es AMARILLO
+Trae la OT o FICHA TECNICA y puede uno 
+modificar yfiltrar segun opciones MARCADA
+para ayudar al PLANIFICADOR ENCONTRAR 
+mas opciones de colores a ordenar.
+</value>
+  </data>
+  <data name="ComboBox379.ToolTip" xml:space="preserve">
+    <value>Son colores CMYK
+El primero es MAGENTA
+Trae la OT o FICHA TECNICA y puede uno 
+modificar yfiltrar segun opciones MARCADA
+para ayudar al PLANIFICADOR ENCONTRAR 
+mas opciones de colores a ordenar.
+</value>
+  </data>
+  <data name="ComboBox325.ToolTip" xml:space="preserve">
+    <value>Los que no son CMYK se agrupan segun tonalidad similar 
+al AZUL, o ROJO o VERDE o todos los CLAROS.
+Trae la OT o FICHA TECNICA y puede uno modificar y filtrar segun opciones 
+para ayudar al PLANIFICADOR ENCONTRAR mas opciones de colores a ordenar.
+</value>
+  </data>
+  <data name="ComboBox324.ToolTip" xml:space="preserve">
+    <value>Los que no son CMYK se agrupan segun tonalidad similar 
+al AZUL, o ROJO o VERDE o todos los CLAROS.
+Trae la OT o FICHA TECNICA y puede uno modificar y filtrar segun opciones 
+para ayudar al PLANIFICADOR ENCONTRAR mas opciones de colores a ordenar.
+</value>
+  </data>
+  <data name="ComboBox323.ToolTip" xml:space="preserve">
+    <value>Los que no son CMYK se agrupan segun tonalidad similar 
+al AZUL, o ROJO o VERDE o todos los CLAROS.
+Trae la OT o FICHA TECNICA y puede uno modificar y filtrar segun opciones 
+para ayudar al PLANIFICADOR ENCONTRAR mas opciones de colores a ordenar.
+</value>
+  </data>
+  <data name="ComboBox299.ToolTip" xml:space="preserve">
+    <value>Los que no son CMYK se agrupan segun tonalidad similar 
+al AZUL, o ROJO o VERDE o todos los CLAROS.
+Trae la OT o FICHA TECNICA y puede uno modificar y filtrar segun opciones 
+para ayudar al PLANIFICADOR ENCONTRAR mas opciones de colores a ordenar.
+</value>
+  </data>
+  <data name="CheckBox61.ToolTip" xml:space="preserve">
+    <value>Medida Estandar: al marcar selecciona todos los de
+ menos de 50kilos para adjudicar MP estandar.
+Facilitando de esta manera el PLANIFICAR a varias
+ estaciones para aumentar la produccion.
+EN KILOS SE COLOCA EL MAXIMO DE KILOS A FILTRAR.</value>
+  </data>
+  <data name="CheckBox174.ToolTip" xml:space="preserve">
+    <value>Informe rango OT de 1/31
+Saca informe de un determinado mes.
+Con esto se puede saber los OT que estan
+ atrasadas de otro meses.
+La ffecha indica el rango de meses a sacar 
+informe, puede estar filtrado por cualquier 
+otro elemento mas.</value>
+  </data>
   <data name="ComboBox252.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
   <data name="ComboBox22.ToolTip" xml:space="preserve">
-    <value>Se elige la maquina que se va imprimir.
-Con la eleccion de la maquina, filtra todo lo que corresponde lo PLANIFICADO para esta maquina.
-Si hay mas coensidencia COLOR y TROQUEL 
-Debe ser solicitado para aprobechar PRODUCTIVIDAD
+    <value>MAQUINA
+Se elige la máquina que se va imprimir.
+Con la elección de la máquina, filtra todo lo que corresponde lo PLANIFICADO para esta máquina.
+Si hay mas coincidencia COLOR y TROQUEL 
+Debe ser solicitado para aprovechar PRODUCTIVIDAD
+
+
 </value>
+  </data>
+  <data name="TextBox559.ToolTip" xml:space="preserve">
+    <value>DESARROLLO CLIENTE
+DATOS TROQUE DESARROLLOpero puede ser cambiado 
+para filtrar de acuedo a esa indicación, y encontrar 
+mas opciones coinsidentes.
+Es indicado en milimetro.
+Y tien opción de busqueda +- segun lo colocaddo
+La primera es ancho / anto 7 fondo
+</value>
+  </data>
+  <data name="TextBox260.ToolTip" xml:space="preserve">
+    <value>DESARROLLO CLIENTE
+DATOS TROQUE DESARROLLOpero puede ser cambiado 
+para filtrar de acuedo a esa indicación, y encontrar 
+mas opciones coinsidentes.
+Es indicado en milimetro.
+Y tien opción de busqueda +- segun lo colocaddo
+La primera es ancho / anto 7 fondo
+</value>
+  </data>
+  <data name="TextBox560.ToolTip" xml:space="preserve">
+    <value>DESARROLLO CLIENTE
+DATOS TROQUE DESARROLLOpero puede ser cambiado 
+para filtrar de acuedo a esa indicación, y encontrar 
+mas opciones coinsidentes.
+Es indicado en milimetro.
+Y tien opción de busqueda +- segun lo colocaddo
+La primera es ancho / anto 7 fondo
+</value>
+  </data>
+  <data name="TextBox307.ToolTip" xml:space="preserve">
+    <value>CODIGO CLIENTE TROQUEL; Trae DE LA BASE DE 
+DATOS TROQUE DESARROLLOpero puede ser cambiado 
+para filtrar de acuedo a esa indicación, y encontrar 
+mas opciones coinsidentes.
+Es indicado en milimetro.
+Y tien opción de busqueda +- segun lo colocaddo
+La primera es ancho / anto 7 fondo</value>
   </data>
   <metadata name="DataGridViewTextBoxColumn15.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -4298,7 +4849,19 @@ Debe ser solicitado para aprobechar PRODUCTIVIDAD
   <metadata name="DataGridViewCheckBoxColumn27.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="DataGridViewCheckBoxColumn28.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="ColorNegro.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColorCyan.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColorMagenta.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColorAmarillo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Am.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="DataGridViewCheckBoxColumn29.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -4308,15 +4871,6 @@ Debe ser solicitado para aprobechar PRODUCTIVIDAD
     <value>True</value>
   </metadata>
   <metadata name="DataGridViewCheckBoxColumn31.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn20.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn21.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn22.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="DataGridViewTextBoxColumn37.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -4361,6 +4915,18 @@ Debe ser solicitado para aprobechar PRODUCTIVIDAD
   <metadata name="Panel265.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="PLANIFICAR.ToolTip" xml:space="preserve">
+    <value>Esta ventana sirve para PLANIFICAR el trabajo.
+Permite filtrar distintos perfiles y así elegir las Órdenes de Trabajo (OT) más adecuadas para esta estación.
+No solo ayuda a esta estación, sino que también brinda información útil para facilitar el trabajo en las siguientes estaciones.
+
+Ejemplo en Impresión:
+Conviene planificar la producción agrupando trabajos en CMYK o en el mismo color.
+De esta manera se reduce el tiempo de preparación y aumenta la productividad.
+
+Pero siempre se debe pensar en las estaciones siguientes:
+TROQUELADO, SELECCIÓN y PEGADO, donde conviene utilizar los mismos troqueles para optimizar el proceso.</value>
+  </data>
   <data name="Button39.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -4729,15 +5295,6 @@ Debe ser solicitado para aprobechar PRODUCTIVIDAD
         4UUV8fwL/wAiOh6y/wDS2e9xL/yMany/9JQ+iiivtDwD/9k=
 </value>
   </data>
-  <data name="ENTREGA.ToolTip" xml:space="preserve">
-    <value>Se anualiza las entregas, las cantidades, si esta los % por encima o por
-debajo de lo solicitado y esto es muy importante porque determina las
-perdías que se tiene.
-También los días que estuvo en la estación y el retraso total días que 
-paso de la fecha entrega.
-
-</value>
-  </data>
   <metadata name="OtNumero.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -4804,12 +5361,14 @@ paso de la fecha entrega.
   <metadata name="FechafacturadoFin.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="META.ToolTip" xml:space="preserve">
-    <value>Para evaluar los PRESUPUESTOS REALIZADOS y comparar los confirmaciones
-o OT realizdo
-De esta forma se evaluan los contratos serrados si cumplen con la cantidad de 
-cambios que fue CONFIRMADO por el CLIENTE.
-La informacion de de cantidad como de Gs</value>
+  <data name="ENTREGA.ToolTip" xml:space="preserve">
+    <value>Se anualiza las entregas, las cantidades, si esta los % por encima o por
+debajo de lo solicitado y esto es muy importante porque determina las
+perdías que se tiene.
+También los días que estuvo en la estación y el retraso total días que 
+paso de la fecha entrega.
+
+</value>
   </data>
   <data name="TextBox493.Text" xml:space="preserve">
     <value>Comparar  las situación de cantidad Presupuestada de cambios, con la cantidad cambios o OT ingreso a la fecha.
@@ -4949,9 +5508,13 @@ También evaluar Gs, promedio según la cantidad de cambios o OT, con el promedi
   <metadata name="Proyeccion4kilos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel278.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="META.ToolTip" xml:space="preserve">
+    <value>Para evaluar los PRESUPUESTOS REALIZADOS y comparar los confirmaciones
+o OT realizdo
+De esta forma se evaluan los contratos serrados si cumplen con la cantidad de 
+cambios que fue CONFIRMADO por el CLIENTE.
+La informacion de de cantidad como de Gs</value>
+  </data>
   <data name="ComboBox111.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
@@ -5967,12 +6530,6 @@ CKB/ 430Gr / Espesor 0,44um / Canaleta 0,6 x 1,9
   <metadata name="Panel280.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel280.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel128.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="Panel128.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -6421,7 +6978,145 @@ Impresor: debe realizar lectura DENSITOMETRICA CONSTANTEMENTE para mantener colo
 ✔ Barniz con menor gramaje
 ✔ Presiones mínimas necesarias
 
-</value>
+
+
+
+
+
+
+cuales son los puntos que debe el supervisor de impresion verificar para el arranque de un trabajo de embalaje en una impresora offset,. Un CHECK LIST PARA EL SUPERVISOR 
+
+Perfecto, vamos a armar un checklist detallado para el supervisor de impresión antes del arranque de un trabajo de embalaje en una impresora offset. Esto incluye todos los puntos críticos que garantizan calidad, seguridad y eficiencia.
+
+CHECKLIST DE SUPERVISOR – ARRANQUE DE TRABAJO DE EMBALAJE OFFSET
+1️⃣ Revisión de archivos y diseño
+
+Verificar que los archivos digitales sean los correctos: tamaño, colores, resoluciones y sangrados.
+
+Confirmar que el PDF o arte final tenga todas las marcas de corte, registro y pliegues.
+
+Revisar simulaciones de color o pruebas digitales si aplican.
+
+Confirmar que los datos de impresión (tintas, número de tintas, colores especiales, barnices, laminados) sean correctos según pedido del cliente.
+
+2️⃣ Preparación de planchas y clichés
+
+Revisar que las planchas o clichés estén correctos y sin defectos.
+
+Verificar que la posición de registro esté acorde al diseño.
+
+Confirmar que las planchas tengan la sensibilidad y dureza correcta para el trabajo.
+
+3️⃣ Tintas y consumibles
+
+Confirmar que las tintas sean correctas (tipo, color y marca) y estén mezcladas correctamente.
+
+Revisar que los barnices, adhesivos o recubrimientos estén listos y compatibles.
+
+Verificar consumo de agua y que el sistema de mojado esté limpio y calibrado.
+
+4️⃣ Papel o cartón
+
+Comprobar que el tipo y gramaje de papel/cartón sea correcto.
+
+Verificar la humedad y planicidad del papel para evitar problemas de impresión.
+
+Confirmar que haya suficiente stock disponible para todo el tiraje.
+
+5️⃣ Maquinaria
+
+Verificar que la impresora offset esté limpia, lubricada y calibrada.
+
+Revisar que los rodillos, cilindros y guías estén en buen estado.
+
+Confirmar que la temperatura y presión de impresión sean correctas.
+
+Comprobar los sistemas de secado si se usan tintas UV o barnices especiales.
+
+6️⃣ Control de registro y ajustes
+
+Verificar el registro de color y posición con prueba inicial.
+
+Ajustar los niveles de tinta y agua.
+
+Comprobar que no haya manchas, rayas ni defectos mecánicos.
+
+7️⃣ Seguridad y ambiente
+
+Confirmar que el área de trabajo esté limpia y sin obstáculos.
+
+Verificar que los operadores tengan EPP adecuado (guantes, gafas, tapabocas si aplica).
+
+Revisar que no haya derrame de tintas o químicos y que exista ventilación adecuada.
+
+8️⃣ Documentación y comunicación
+
+Revisar que el pedido del cliente y las especificaciones estén visibles y claras.
+
+Confirmar que todo el personal involucrado esté informado sobre el trabajo.
+
+Registrar en hoja de arranque o sistema la verificación de cada ítem.
+
+Si quieres, puedo armarte una versión práctica tipo tabla lista para imprimir con casillas de verificación que el supervisor pueda usar directamente en planta. Esto facilita mucho la inspección diaria y reduce errores.
+
+¿Quieres que haga esa versión lista para usar?
+
+SI
+
+Perfecto, entonces te armo un CHECKLIST para supervisor de impresión offset de embalajes, en formato tabla lista para imprimir con casillas para marcar ✅ cada ítem. Esto se puede usar directamente en planta.
+
+CHECKLIST DE SUPERVISOR – IMPRESIÓN OFFSET DE EMBALAJE
+Nº	Ítem a Verificar	Detalle	✅
+1	Archivos y diseño	Confirmar que los archivos son correctos: tamaño, colores, sangrados y marcas de corte.	
+2	Archivos digitales	Revisar PDF/arte final, simulaciones de color y pruebas digitales.	
+3	Planchas/Clichés	Verificar posición, calidad y compatibilidad con el trabajo.	
+4	Tinta	Confirmar tipo, color, mezcla correcta y cantidad suficiente.	
+5	Barnices/Recubrimientos	Revisar compatibilidad y disponibilidad.	
+6	Sistema de agua/mojado	Comprobar limpieza, calibración y consumo correcto.	
+7	Papel/Cartón	Tipo, gramaje, humedad, planicidad y stock suficiente.	
+8	Maquinaria	Limpieza, lubricación, calibración, rodillos y cilindros en buen estado.	
+9	Temperatura y presión	Ajustar según tinta y tipo de papel/cartón.	
+10	Registro y color	Verificar prueba inicial, registro de color y ajustes de tinta/agua.	
+11	Control de defectos	Revisar que no haya manchas, rayas, arrugas o problemas mecánicos.	
+12	Seguridad personal	EPP adecuado para todo el personal: guantes, gafas, mascarillas.	
+13	Área de trabajo	Limpieza, ventilación, sin obstáculos y control de derrames.	
+14	Documentación	Pedido y especificaciones visibles para todo el personal.	
+15	Comunicación	Todos los operadores informados sobre el trabajo.	
+16	Registro de arranque	Completar hoja de verificación o sistema con todos los ítems marcados.	
+
+Si quieres, puedo hacer ahora una versión más visual tipo plantilla lista para imprimir, con casillas grandes y espacio para observaciones al lado de cada ítem, que los supervisores puedan usar directamente en la máquina. Esto facilita mucho la inspección rápida.
+
+¿Quieres que haga esa versión lista para imprimir?
+
+SI
+
+¡Perfecto! Te armo una plantilla lista para imprimir, con casillas grandes, espacio para observaciones y organizada de manera que el supervisor pueda usarla directamente en planta al arranque de cada trabajo.
+
+CHECKLIST DE SUPERVISOR – IMPRESIÓN OFFSET DE EMBALAJE
+
+Fecha: ___________     Trabajo: ___________     Operador: ___________
+
+Nº	Ítem a Verificar	Detalle	✅	Observaciones
+1	Archivos y diseño	Tamaño, colores, sangrado, marcas de corte correctos	☐	
+2	Archivos digitales	PDF/arte final correcto, simulaciones/pruebas de color	☐	
+3	Planchas/Clichés	Posición, calidad, compatibilidad con trabajo	☐	
+4	Tintas	Tipo, color, mezcla y cantidad correcta	☐	
+5	Barnices/Recubrimientos	Compatibilidad y disponibilidad	☐	
+6	Sistema de agua/mojado	Limpieza, calibración, consumo correcto	☐	
+7	Papel/Cartón	Tipo, gramaje, humedad, planicidad y stock suficiente	☐	
+8	Maquinaria	Limpieza, lubricación, calibración, rodillos/cilindros en buen estado	☐	
+9	Temperatura y presión	Ajuste correcto según tinta y tipo de papel	☐	
+10	Registro y color	Prueba inicial, registro y ajustes tinta/agua	☐	
+11	Control de defectos	Sin manchas, rayas, arrugas, problemas mecánicos	☐	
+12	Seguridad personal	EPP adecuado: guantes, gafas, tapabocas	☐	
+13	Área de trabajo	Limpia, ventilada, sin obstáculos, sin derrames	☐	
+14	Documentación	Pedido y especificaciones visibles para todos	☐	
+15	Comunicación	Todos los operadores informados sobre el trabajo	☐	
+16	Registro de arranque	Hoja de verificación completada	☐	
+
+💡 Recomendación: Imprimir en tamaño A4 o A3 para que las casillas y observaciones sean fáciles de llenar en planta. Se puede plastificar y usar con marcador borrable si se quiere reutilizar.
+
+Si quieres, puedo hacer una versión gráfica con diseño visual profesional, con casillas grandes, colores y secciones diferenciadas, lista para imprimir directamente y más atractiva para supervisores. Esto hace que el checklist sea más fácil de usar y revisar rápido.</value>
   </data>
   <data name="TextBox507.Text" xml:space="preserve">
     <value>Max MO: 65X48                Min  00X00 cm

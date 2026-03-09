@@ -24,20 +24,20 @@ Partial Class OT6
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OT6))
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.DESARROLLO = New System.Windows.Forms.TabPage()
@@ -161,8 +161,13 @@ Partial Class OT6
         Me.Label38 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.Panel166 = New System.Windows.Forms.Panel()
         Me.Panel13 = New System.Windows.Forms.Panel()
         Me.Label17 = New System.Windows.Forms.Label()
+        Me.Panel167 = New System.Windows.Forms.Panel()
+        Me.Label397 = New System.Windows.Forms.Label()
+        Me.RadioButton69 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton70 = New System.Windows.Forms.RadioButton()
         Me.Label90 = New System.Windows.Forms.Label()
         Me.Label91 = New System.Windows.Forms.Label()
         Me.Label100 = New System.Windows.Forms.Label()
@@ -216,6 +221,11 @@ Partial Class OT6
         Me.TROQUEL = New System.Windows.Forms.TabPage()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Panel27 = New System.Windows.Forms.Panel()
+        Me.Panel19 = New System.Windows.Forms.Panel()
+        Me.Panel20 = New System.Windows.Forms.Panel()
+        Me.Label76 = New System.Windows.Forms.Label()
+        Me.RadioButton31 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton32 = New System.Windows.Forms.RadioButton()
         Me.Label73 = New System.Windows.Forms.Label()
         Me.Label154 = New System.Windows.Forms.Label()
         Me.RadioButton17 = New System.Windows.Forms.RadioButton()
@@ -364,6 +374,11 @@ Partial Class OT6
         Me.Label175 = New System.Windows.Forms.Label()
         Me.FiltroTroqueles = New System.Windows.Forms.TabPage()
         Me.Panel15 = New System.Windows.Forms.Panel()
+        Me.Panel21 = New System.Windows.Forms.Panel()
+        Me.Panel23 = New System.Windows.Forms.Panel()
+        Me.Label92 = New System.Windows.Forms.Label()
+        Me.RadioButton35 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton40 = New System.Windows.Forms.RadioButton()
         Me.CheckBox32 = New System.Windows.Forms.CheckBox()
         Me.CheckBox33 = New System.Windows.Forms.CheckBox()
         Me.TextBox38 = New System.Windows.Forms.TextBox()
@@ -631,12 +646,14 @@ Partial Class OT6
         Me.Panel17.SuspendLayout
         Me.Panel10.SuspendLayout
         Me.Panel13.SuspendLayout
+        Me.Panel167.SuspendLayout
         Me.Panel8.SuspendLayout
         Me.Panel9.SuspendLayout
         Me.Panel5.SuspendLayout
         Me.TROQUEL.SuspendLayout
         Me.Panel6.SuspendLayout
         Me.Panel27.SuspendLayout
+        Me.Panel20.SuspendLayout
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel28.SuspendLayout
         Me.Panel119.SuspendLayout
@@ -644,6 +661,7 @@ Partial Class OT6
         Me.Panel7.SuspendLayout
         Me.FiltroTroqueles.SuspendLayout
         Me.Panel15.SuspendLayout
+        Me.Panel23.SuspendLayout
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel16.SuspendLayout
         Me.Panel40.SuspendLayout
@@ -1393,7 +1411,7 @@ Partial Class OT6
         Me.RadioButton38.AutoSize = True
         Me.RadioButton38.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton38.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton38.Location = New System.Drawing.Point(649, 53)
+        Me.RadioButton38.Location = New System.Drawing.Point(649, 55)
         Me.RadioButton38.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton38.Name = "RadioButton38"
         Me.RadioButton38.Size = New System.Drawing.Size(131, 33)
@@ -2287,7 +2305,9 @@ Partial Class OT6
         '
         Me.Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel10.Controls.Add(Me.Panel166)
         Me.Panel10.Controls.Add(Me.Panel13)
+        Me.Panel10.Controls.Add(Me.Panel167)
         Me.Panel10.Controls.Add(Me.Label90)
         Me.Panel10.Controls.Add(Me.Label91)
         Me.Panel10.Controls.Add(Me.Label100)
@@ -2305,6 +2325,14 @@ Partial Class OT6
         Me.Panel10.Size = New System.Drawing.Size(535, 344)
         Me.Panel10.TabIndex = 432
         Me.ToolTip1.SetToolTip(Me.Panel10, "Esta información viene de MP " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "y puede ser modificada. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'Panel166
+        '
+        Me.Panel166.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel166.Location = New System.Drawing.Point(251, 310)
+        Me.Panel166.Name = "Panel166"
+        Me.Panel166.Size = New System.Drawing.Size(249, 34)
+        Me.Panel166.TabIndex = 689
         '
         'Panel13
         '
@@ -2328,6 +2356,58 @@ Partial Class OT6
         Me.Label17.Size = New System.Drawing.Size(104, 35)
         Me.Label17.TabIndex = 6
         Me.Label17.Text = "FLEJE"
+        '
+        'Panel167
+        '
+        Me.Panel167.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel167.Controls.Add(Me.Label397)
+        Me.Panel167.Controls.Add(Me.RadioButton69)
+        Me.Panel167.Controls.Add(Me.RadioButton70)
+        Me.Panel167.Location = New System.Drawing.Point(101, 271)
+        Me.Panel167.Name = "Panel167"
+        Me.Panel167.Size = New System.Drawing.Size(249, 34)
+        Me.Panel167.TabIndex = 690
+        '
+        'Label397
+        '
+        Me.Label397.AutoSize = True
+        Me.Label397.BackColor = System.Drawing.Color.Transparent
+        Me.Label397.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label397.Location = New System.Drawing.Point(10, 6)
+        Me.Label397.Name = "Label397"
+        Me.Label397.Size = New System.Drawing.Size(112, 24)
+        Me.Label397.TabIndex = 21
+        Me.Label397.Text = "Stock Lok:"
+        '
+        'RadioButton69
+        '
+        Me.RadioButton69.AutoSize = True
+        Me.RadioButton69.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton69.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton69.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton69.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton69.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton69.Name = "RadioButton69"
+        Me.RadioButton69.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton69.TabIndex = 162
+        Me.RadioButton69.Text = "Si"
+        Me.RadioButton69.UseVisualStyleBackColor = False
+        '
+        'RadioButton70
+        '
+        Me.RadioButton70.AutoSize = True
+        Me.RadioButton70.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton70.Checked = True
+        Me.RadioButton70.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton70.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton70.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton70.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton70.Name = "RadioButton70"
+        Me.RadioButton70.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton70.TabIndex = 163
+        Me.RadioButton70.TabStop = True
+        Me.RadioButton70.Text = "No"
+        Me.RadioButton70.UseVisualStyleBackColor = False
         '
         'Label90
         '
@@ -3041,6 +3121,8 @@ Partial Class OT6
         '
         Me.Panel27.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel27.Controls.Add(Me.Panel19)
+        Me.Panel27.Controls.Add(Me.Panel20)
         Me.Panel27.Controls.Add(Me.Label73)
         Me.Panel27.Controls.Add(Me.Label154)
         Me.Panel27.Controls.Add(Me.RadioButton17)
@@ -3140,6 +3222,66 @@ Partial Class OT6
         Me.Panel27.TabIndex = 483
         Me.ToolTip1.SetToolTip(Me.Panel27, resources.GetString("Panel27.ToolTip"))
         '
+        'Panel19
+        '
+        Me.Panel19.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel19.Location = New System.Drawing.Point(545, 471)
+        Me.Panel19.Name = "Panel19"
+        Me.Panel19.Size = New System.Drawing.Size(249, 34)
+        Me.Panel19.TabIndex = 689
+        '
+        'Panel20
+        '
+        Me.Panel20.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel20.Controls.Add(Me.Label76)
+        Me.Panel20.Controls.Add(Me.RadioButton31)
+        Me.Panel20.Controls.Add(Me.RadioButton32)
+        Me.Panel20.Location = New System.Drawing.Point(395, 432)
+        Me.Panel20.Name = "Panel20"
+        Me.Panel20.Size = New System.Drawing.Size(249, 34)
+        Me.Panel20.TabIndex = 690
+        '
+        'Label76
+        '
+        Me.Label76.AutoSize = True
+        Me.Label76.BackColor = System.Drawing.Color.Transparent
+        Me.Label76.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label76.Location = New System.Drawing.Point(10, 6)
+        Me.Label76.Name = "Label76"
+        Me.Label76.Size = New System.Drawing.Size(112, 24)
+        Me.Label76.TabIndex = 21
+        Me.Label76.Text = "Stock Lok:"
+        '
+        'RadioButton31
+        '
+        Me.RadioButton31.AutoSize = True
+        Me.RadioButton31.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton31.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton31.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton31.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton31.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton31.Name = "RadioButton31"
+        Me.RadioButton31.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton31.TabIndex = 162
+        Me.RadioButton31.Text = "Si"
+        Me.RadioButton31.UseVisualStyleBackColor = False
+        '
+        'RadioButton32
+        '
+        Me.RadioButton32.AutoSize = True
+        Me.RadioButton32.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton32.Checked = True
+        Me.RadioButton32.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton32.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton32.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton32.Name = "RadioButton32"
+        Me.RadioButton32.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton32.TabIndex = 163
+        Me.RadioButton32.TabStop = True
+        Me.RadioButton32.Text = "No"
+        Me.RadioButton32.UseVisualStyleBackColor = False
+        '
         'Label73
         '
         Me.Label73.AutoSize = True
@@ -3211,7 +3353,7 @@ Partial Class OT6
         Me.Label46.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label46.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label46.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(469, 127)
+        Me.Label46.Location = New System.Drawing.Point(439, 127)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(119, 26)
         Me.Label46.TabIndex = 624
@@ -3222,9 +3364,9 @@ Partial Class OT6
         Me.TextBox43.BackColor = System.Drawing.Color.Lime
         Me.TextBox43.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox43.ForeColor = System.Drawing.Color.Black
-        Me.TextBox43.Location = New System.Drawing.Point(596, 123)
+        Me.TextBox43.Location = New System.Drawing.Point(566, 123)
         Me.TextBox43.Name = "TextBox43"
-        Me.TextBox43.Size = New System.Drawing.Size(48, 30)
+        Me.TextBox43.Size = New System.Drawing.Size(55, 30)
         Me.TextBox43.TabIndex = 625
         Me.TextBox43.Text = "00,0"
         Me.TextBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3261,9 +3403,9 @@ Partial Class OT6
         Me.TextBox50.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TextBox50.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox50.ForeColor = System.Drawing.Color.Black
-        Me.TextBox50.Location = New System.Drawing.Point(596, 159)
+        Me.TextBox50.Location = New System.Drawing.Point(566, 159)
         Me.TextBox50.Name = "TextBox50"
-        Me.TextBox50.Size = New System.Drawing.Size(48, 30)
+        Me.TextBox50.Size = New System.Drawing.Size(55, 30)
         Me.TextBox50.TabIndex = 617
         Me.TextBox50.Text = "00,0"
         Me.TextBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3275,7 +3417,7 @@ Partial Class OT6
         Me.Label48.AutoSize = True
         Me.Label48.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label48.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.Location = New System.Drawing.Point(492, 162)
+        Me.Label48.Location = New System.Drawing.Point(462, 162)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(96, 26)
         Me.Label48.TabIndex = 610
@@ -3286,7 +3428,7 @@ Partial Class OT6
         Me.Label51.AutoSize = True
         Me.Label51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label51.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(472, 375)
+        Me.Label51.Location = New System.Drawing.Point(442, 375)
         Me.Label51.Name = "Label51"
         Me.Label51.Size = New System.Drawing.Size(116, 26)
         Me.Label51.TabIndex = 611
@@ -3297,7 +3439,7 @@ Partial Class OT6
         Me.Label52.AutoSize = True
         Me.Label52.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(462, 340)
+        Me.Label52.Location = New System.Drawing.Point(432, 340)
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(126, 26)
         Me.Label52.TabIndex = 612
@@ -3308,7 +3450,7 @@ Partial Class OT6
         Me.Label53.AutoSize = True
         Me.Label53.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label53.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(510, 304)
+        Me.Label53.Location = New System.Drawing.Point(480, 304)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(78, 26)
         Me.Label53.TabIndex = 613
@@ -3319,7 +3461,7 @@ Partial Class OT6
         Me.Label54.AutoSize = True
         Me.Label54.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.Location = New System.Drawing.Point(449, 269)
+        Me.Label54.Location = New System.Drawing.Point(419, 269)
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(139, 26)
         Me.Label54.TabIndex = 614
@@ -3330,7 +3472,7 @@ Partial Class OT6
         Me.Label55.AutoSize = True
         Me.Label55.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label55.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(448, 232)
+        Me.Label55.Location = New System.Drawing.Point(418, 232)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(140, 26)
         Me.Label55.TabIndex = 615
@@ -3341,7 +3483,7 @@ Partial Class OT6
         Me.Label56.AutoSize = True
         Me.Label56.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label56.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.Location = New System.Drawing.Point(469, 197)
+        Me.Label56.Location = New System.Drawing.Point(439, 197)
         Me.Label56.Name = "Label56"
         Me.Label56.Size = New System.Drawing.Size(119, 26)
         Me.Label56.TabIndex = 616
@@ -3352,9 +3494,9 @@ Partial Class OT6
         Me.TextBox52.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TextBox52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox52.ForeColor = System.Drawing.Color.Black
-        Me.TextBox52.Location = New System.Drawing.Point(596, 375)
+        Me.TextBox52.Location = New System.Drawing.Point(566, 375)
         Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(48, 30)
+        Me.TextBox52.Size = New System.Drawing.Size(55, 30)
         Me.TextBox52.TabIndex = 618
         Me.TextBox52.Text = "00,0"
         Me.TextBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3366,9 +3508,9 @@ Partial Class OT6
         Me.TextBox53.BackColor = System.Drawing.Color.Lime
         Me.TextBox53.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox53.ForeColor = System.Drawing.Color.Black
-        Me.TextBox53.Location = New System.Drawing.Point(596, 339)
+        Me.TextBox53.Location = New System.Drawing.Point(566, 339)
         Me.TextBox53.Name = "TextBox53"
-        Me.TextBox53.Size = New System.Drawing.Size(48, 30)
+        Me.TextBox53.Size = New System.Drawing.Size(55, 30)
         Me.TextBox53.TabIndex = 619
         Me.TextBox53.Text = "00,0"
         Me.TextBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3380,9 +3522,9 @@ Partial Class OT6
         Me.TextBox54.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TextBox54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox54.ForeColor = System.Drawing.Color.Black
-        Me.TextBox54.Location = New System.Drawing.Point(596, 303)
+        Me.TextBox54.Location = New System.Drawing.Point(566, 303)
         Me.TextBox54.Name = "TextBox54"
-        Me.TextBox54.Size = New System.Drawing.Size(48, 30)
+        Me.TextBox54.Size = New System.Drawing.Size(55, 30)
         Me.TextBox54.TabIndex = 620
         Me.TextBox54.Text = "00,0"
         Me.TextBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3394,9 +3536,9 @@ Partial Class OT6
         Me.TextBox62.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TextBox62.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox62.ForeColor = System.Drawing.Color.Black
-        Me.TextBox62.Location = New System.Drawing.Point(596, 267)
+        Me.TextBox62.Location = New System.Drawing.Point(566, 267)
         Me.TextBox62.Name = "TextBox62"
-        Me.TextBox62.Size = New System.Drawing.Size(48, 30)
+        Me.TextBox62.Size = New System.Drawing.Size(55, 30)
         Me.TextBox62.TabIndex = 621
         Me.TextBox62.Text = "00,0"
         Me.TextBox62.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3408,9 +3550,9 @@ Partial Class OT6
         Me.TextBox63.BackColor = System.Drawing.Color.Lime
         Me.TextBox63.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox63.ForeColor = System.Drawing.Color.Black
-        Me.TextBox63.Location = New System.Drawing.Point(596, 231)
+        Me.TextBox63.Location = New System.Drawing.Point(566, 231)
         Me.TextBox63.Name = "TextBox63"
-        Me.TextBox63.Size = New System.Drawing.Size(48, 30)
+        Me.TextBox63.Size = New System.Drawing.Size(55, 30)
         Me.TextBox63.TabIndex = 622
         Me.TextBox63.Text = "00,0"
         Me.TextBox63.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3422,9 +3564,9 @@ Partial Class OT6
         Me.TextBox70.BackColor = System.Drawing.Color.Lime
         Me.TextBox70.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox70.ForeColor = System.Drawing.Color.Black
-        Me.TextBox70.Location = New System.Drawing.Point(596, 195)
+        Me.TextBox70.Location = New System.Drawing.Point(566, 195)
         Me.TextBox70.Name = "TextBox70"
-        Me.TextBox70.Size = New System.Drawing.Size(48, 30)
+        Me.TextBox70.Size = New System.Drawing.Size(55, 30)
         Me.TextBox70.TabIndex = 623
         Me.TextBox70.Text = "00,0"
         Me.TextBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -3436,7 +3578,7 @@ Partial Class OT6
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
         Me.PictureBox2.Location = New System.Drawing.Point(8, 158)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(424, 668)
+        Me.PictureBox2.Size = New System.Drawing.Size(381, 668)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 609
         Me.PictureBox2.TabStop = False
@@ -3861,7 +4003,7 @@ Partial Class OT6
         Me.Label61.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Label61.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label61.ForeColor = System.Drawing.Color.Blue
-        Me.Label61.Location = New System.Drawing.Point(515, 100)
+        Me.Label61.Location = New System.Drawing.Point(485, 100)
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(108, 24)
         Me.Label61.TabIndex = 569
@@ -4985,6 +5127,8 @@ Partial Class OT6
         '
         Me.Panel15.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel15.Controls.Add(Me.Panel21)
+        Me.Panel15.Controls.Add(Me.Panel23)
         Me.Panel15.Controls.Add(Me.CheckBox32)
         Me.Panel15.Controls.Add(Me.CheckBox33)
         Me.Panel15.Controls.Add(Me.TextBox38)
@@ -5015,6 +5159,66 @@ Partial Class OT6
         Me.Panel15.Name = "Panel15"
         Me.Panel15.Size = New System.Drawing.Size(1916, 950)
         Me.Panel15.TabIndex = 254
+        '
+        'Panel21
+        '
+        Me.Panel21.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel21.Location = New System.Drawing.Point(1045, 398)
+        Me.Panel21.Name = "Panel21"
+        Me.Panel21.Size = New System.Drawing.Size(249, 34)
+        Me.Panel21.TabIndex = 689
+        '
+        'Panel23
+        '
+        Me.Panel23.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel23.Controls.Add(Me.Label92)
+        Me.Panel23.Controls.Add(Me.RadioButton35)
+        Me.Panel23.Controls.Add(Me.RadioButton40)
+        Me.Panel23.Location = New System.Drawing.Point(895, 359)
+        Me.Panel23.Name = "Panel23"
+        Me.Panel23.Size = New System.Drawing.Size(249, 34)
+        Me.Panel23.TabIndex = 690
+        '
+        'Label92
+        '
+        Me.Label92.AutoSize = True
+        Me.Label92.BackColor = System.Drawing.Color.Transparent
+        Me.Label92.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label92.Location = New System.Drawing.Point(10, 6)
+        Me.Label92.Name = "Label92"
+        Me.Label92.Size = New System.Drawing.Size(112, 24)
+        Me.Label92.TabIndex = 21
+        Me.Label92.Text = "Stock Lok:"
+        '
+        'RadioButton35
+        '
+        Me.RadioButton35.AutoSize = True
+        Me.RadioButton35.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton35.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton35.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton35.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton35.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton35.Name = "RadioButton35"
+        Me.RadioButton35.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton35.TabIndex = 162
+        Me.RadioButton35.Text = "Si"
+        Me.RadioButton35.UseVisualStyleBackColor = False
+        '
+        'RadioButton40
+        '
+        Me.RadioButton40.AutoSize = True
+        Me.RadioButton40.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton40.Checked = True
+        Me.RadioButton40.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton40.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton40.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton40.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton40.Name = "RadioButton40"
+        Me.RadioButton40.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton40.TabIndex = 163
+        Me.RadioButton40.TabStop = True
+        Me.RadioButton40.Text = "No"
+        Me.RadioButton40.UseVisualStyleBackColor = False
         '
         'CheckBox32
         '
@@ -5052,49 +5256,49 @@ Partial Class OT6
         '
         'DataGridView3
         '
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.Format = "N0"
-        DataGridViewCellStyle15.NullValue = Nothing
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.Format = "N0"
+        DataGridViewCellStyle1.NullValue = Nothing
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.DataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IngresComer, Me.DataGridViewTextBoxColumn21, Me.DataGridViewTextBoxColumn20, Me.TroquelN, Me.AnchoCajaCerrada, Me.AltoCajaCerrada, Me.ProfundidaCajaCerrada, Me.MontajeMedidaA, Me.MontajeMedidaB, Me.Golpetroquelado, Me.EstanteTroquel, Me.TroquelActivo, Me.CambioFleje, Me.TroqPertinax, Me.TroqRelieve, Me.TroqStamp, Me.TroqDescart})
         Me.DataGridView3.Location = New System.Drawing.Point(14, 443)
         Me.DataGridView3.Name = "DataGridView3"
-        DataGridViewCellStyle27.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle13.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle13
         Me.DataGridView3.RowHeadersWidth = 62
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle28
+        DataGridViewCellStyle14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle14
         Me.DataGridView3.RowTemplate.Height = 28
         Me.DataGridView3.Size = New System.Drawing.Size(1823, 382)
         Me.DataGridView3.TabIndex = 255
         '
         'IngresComer
         '
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle17.Format = "g"
-        DataGridViewCellStyle17.NullValue = Nothing
-        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Blue
-        Me.IngresComer.DefaultCellStyle = DataGridViewCellStyle17
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.Format = "g"
+        DataGridViewCellStyle3.NullValue = Nothing
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue
+        Me.IngresComer.DefaultCellStyle = DataGridViewCellStyle3
         Me.IngresComer.DividerWidth = 5
         Me.IngresComer.HeaderText = "Ingreso Comercial"
         Me.IngresComer.MaxInputLength = 12
@@ -5106,10 +5310,10 @@ Partial Class OT6
         '
         'DataGridViewTextBoxColumn21
         '
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle18
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle4
         Me.DataGridViewTextBoxColumn21.DividerWidth = 5
         Me.DataGridViewTextBoxColumn21.HeaderText = "Nombre Cliente"
         Me.DataGridViewTextBoxColumn21.MaxInputLength = 500
@@ -5121,12 +5325,12 @@ Partial Class OT6
         '
         'DataGridViewTextBoxColumn20
         '
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle19.NullValue = Nothing
-        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn20.DefaultCellStyle = DataGridViewCellStyle19
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle5.NullValue = Nothing
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn20.DefaultCellStyle = DataGridViewCellStyle5
         Me.DataGridViewTextBoxColumn20.DividerWidth = 5
         Me.DataGridViewTextBoxColumn20.HeaderText = "Nombre Trabajo"
         Me.DataGridViewTextBoxColumn20.MaxInputLength = 12
@@ -5150,8 +5354,8 @@ Partial Class OT6
         '
         'AnchoCajaCerrada
         '
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.AnchoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.AnchoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle6
         Me.AnchoCajaCerrada.DividerWidth = 5
         Me.AnchoCajaCerrada.HeaderText = "Ancho "
         Me.AnchoCajaCerrada.MaxInputLength = 3
@@ -5163,8 +5367,8 @@ Partial Class OT6
         '
         'AltoCajaCerrada
         '
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.AltoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle21
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.AltoCajaCerrada.DefaultCellStyle = DataGridViewCellStyle7
         Me.AltoCajaCerrada.DividerWidth = 5
         Me.AltoCajaCerrada.HeaderText = "Alto "
         Me.AltoCajaCerrada.MaxInputLength = 3
@@ -5176,8 +5380,8 @@ Partial Class OT6
         '
         'ProfundidaCajaCerrada
         '
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        Me.ProfundidaCajaCerrada.DefaultCellStyle = DataGridViewCellStyle22
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.ProfundidaCajaCerrada.DefaultCellStyle = DataGridViewCellStyle8
         Me.ProfundidaCajaCerrada.DividerWidth = 5
         Me.ProfundidaCajaCerrada.HeaderText = "Profun."
         Me.ProfundidaCajaCerrada.MaxInputLength = 3
@@ -5189,8 +5393,8 @@ Partial Class OT6
         '
         'MontajeMedidaA
         '
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
-        Me.MontajeMedidaA.DefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
+        Me.MontajeMedidaA.DefaultCellStyle = DataGridViewCellStyle9
         Me.MontajeMedidaA.DividerWidth = 5
         Me.MontajeMedidaA.HeaderText = "MedidaA"
         Me.MontajeMedidaA.MaxInputLength = 4
@@ -5202,8 +5406,8 @@ Partial Class OT6
         '
         'MontajeMedidaB
         '
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.MontajeMedidaB.DefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.MontajeMedidaB.DefaultCellStyle = DataGridViewCellStyle10
         Me.MontajeMedidaB.DividerWidth = 5
         Me.MontajeMedidaB.HeaderText = "MedidaB"
         Me.MontajeMedidaB.MaxInputLength = 4
@@ -5215,8 +5419,8 @@ Partial Class OT6
         '
         'Golpetroquelado
         '
-        DataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        Me.Golpetroquelado.DefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        Me.Golpetroquelado.DefaultCellStyle = DataGridViewCellStyle11
         Me.Golpetroquelado.DividerWidth = 5
         Me.Golpetroquelado.HeaderText = "Golpe Tiene"
         Me.Golpetroquelado.MaxInputLength = 6
@@ -5249,10 +5453,10 @@ Partial Class OT6
         '
         'CambioFleje
         '
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle26.Format = "N0"
-        DataGridViewCellStyle26.NullValue = False
-        Me.CambioFleje.DefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle12.Format = "N0"
+        DataGridViewCellStyle12.NullValue = False
+        Me.CambioFleje.DefaultCellStyle = DataGridViewCellStyle12
         Me.CambioFleje.DividerWidth = 5
         Me.CambioFleje.HeaderText = "Camb. Fleje"
         Me.CambioFleje.MinimumWidth = 8
@@ -8341,6 +8545,8 @@ Partial Class OT6
         Me.Panel10.PerformLayout
         Me.Panel13.ResumeLayout(False)
         Me.Panel13.PerformLayout
+        Me.Panel167.ResumeLayout(False)
+        Me.Panel167.PerformLayout
         Me.Panel8.ResumeLayout(False)
         Me.Panel8.PerformLayout
         Me.Panel9.ResumeLayout(False)
@@ -8351,6 +8557,8 @@ Partial Class OT6
         Me.Panel6.ResumeLayout(False)
         Me.Panel27.ResumeLayout(False)
         Me.Panel27.PerformLayout
+        Me.Panel20.ResumeLayout(False)
+        Me.Panel20.PerformLayout
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel28.ResumeLayout(False)
         Me.Panel28.PerformLayout
@@ -8363,6 +8571,8 @@ Partial Class OT6
         Me.FiltroTroqueles.ResumeLayout(False)
         Me.Panel15.ResumeLayout(False)
         Me.Panel15.PerformLayout
+        Me.Panel23.ResumeLayout(False)
+        Me.Panel23.PerformLayout
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel16.ResumeLayout(False)
         Me.Panel16.PerformLayout
@@ -8962,4 +9172,19 @@ Partial Class OT6
     Friend WithEvents Button5 As Button
     Friend WithEvents Label61 As Label
     Friend WithEvents Label64 As Label
+    Friend WithEvents Panel166 As Panel
+    Friend WithEvents Panel167 As Panel
+    Friend WithEvents Label397 As Label
+    Friend WithEvents RadioButton69 As RadioButton
+    Friend WithEvents RadioButton70 As RadioButton
+    Friend WithEvents Panel19 As Panel
+    Friend WithEvents Panel20 As Panel
+    Friend WithEvents Label76 As Label
+    Friend WithEvents RadioButton31 As RadioButton
+    Friend WithEvents RadioButton32 As RadioButton
+    Friend WithEvents Panel21 As Panel
+    Friend WithEvents Panel23 As Panel
+    Friend WithEvents Label92 As Label
+    Friend WithEvents RadioButton35 As RadioButton
+    Friend WithEvents RadioButton40 As RadioButton
 End Class
