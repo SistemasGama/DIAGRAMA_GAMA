@@ -23,45 +23,101 @@ Partial Class MP
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim DataGridViewCellStyle97 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle98 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle123 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle124 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle125 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle126 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle147 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle148 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle127 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle128 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle129 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle130 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle131 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle132 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle133 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle134 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle135 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle136 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle137 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle138 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle139 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle140 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle141 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle142 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle143 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle144 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle145 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle146 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle75 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle76 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle95 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle96 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle99 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle100 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle101 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle102 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle103 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle104 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle105 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle106 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle107 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle108 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle109 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle110 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle111 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle112 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle113 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle114 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle115 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle116 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle117 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle118 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle119 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle120 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle121 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle122 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle77 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle78 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle79 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle80 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle81 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle82 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle83 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle84 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle85 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle86 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle87 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle88 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle89 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle90 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle91 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle92 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle93 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle94 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MP))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Panel141 = New System.Windows.Forms.Panel()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label452 = New System.Windows.Forms.Label()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Contabilidad = New System.Windows.Forms.TabPage()
         Me.Panel40 = New System.Windows.Forms.Panel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.CheckedListBox5 = New System.Windows.Forms.CheckedListBox()
+        Me.RadioButton79 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton80 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton81 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton82 = New System.Windows.Forms.RadioButton()
+        Me.DateTimePicker11 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker12 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker13 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker16 = New System.Windows.Forms.DateTimePicker()
+        Me.Label58 = New System.Windows.Forms.Label()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label59 = New System.Windows.Forms.Label()
         Me.Panel53 = New System.Windows.Forms.Panel()
         Me.Panel54 = New System.Windows.Forms.Panel()
         Me.Label280 = New System.Windows.Forms.Label()
@@ -79,7 +135,6 @@ Partial Class MP
         Me.TextBox141 = New System.Windows.Forms.TextBox()
         Me.TextBox144 = New System.Windows.Forms.TextBox()
         Me.TextBox145 = New System.Windows.Forms.TextBox()
-        Me.TextBox146 = New System.Windows.Forms.TextBox()
         Me.TextBox147 = New System.Windows.Forms.TextBox()
         Me.TextBox148 = New System.Windows.Forms.TextBox()
         Me.Panel51 = New System.Windows.Forms.Panel()
@@ -104,25 +159,10 @@ Partial Class MP
         Me.TextBox103 = New System.Windows.Forms.TextBox()
         Me.TextBox130 = New System.Windows.Forms.TextBox()
         Me.TextBox132 = New System.Windows.Forms.TextBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.CheckedListBox5 = New System.Windows.Forms.CheckedListBox()
-        Me.DateTimePicker93 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker94 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker95 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker96 = New System.Windows.Forms.DateTimePicker()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label58 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label59 = New System.Windows.Forms.Label()
         Me.Panel162 = New System.Windows.Forms.Panel()
+        Me.CheckBox30 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox29 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox28 = New System.Windows.Forms.CheckBox()
         Me.Label233 = New System.Windows.Forms.Label()
         Me.Label234 = New System.Windows.Forms.Label()
         Me.Label421 = New System.Windows.Forms.Label()
@@ -135,20 +175,24 @@ Partial Class MP
         Me.TextBox177 = New System.Windows.Forms.TextBox()
         Me.TextBox176 = New System.Windows.Forms.TextBox()
         Me.TextBox236 = New System.Windows.Forms.TextBox()
-        Me.TextBox151 = New System.Windows.Forms.TextBox()
-        Me.TextBox227 = New System.Windows.Forms.TextBox()
-        Me.TextBox193 = New System.Windows.Forms.TextBox()
-        Me.TextBox192 = New System.Windows.Forms.TextBox()
+        Me.ComboBox45 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox48 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox47 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox40 = New System.Windows.Forms.ComboBox()
         Me.Label187 = New System.Windows.Forms.Label()
         Me.Panel41 = New System.Windows.Forms.Panel()
+        Me.Button113 = New System.Windows.Forms.Button()
+        Me.Button117 = New System.Windows.Forms.Button()
+        Me.Button124 = New System.Windows.Forms.Button()
+        Me.Button163 = New System.Windows.Forms.Button()
+        Me.Button164 = New System.Windows.Forms.Button()
+        Me.Button165 = New System.Windows.Forms.Button()
         Me.Label236 = New System.Windows.Forms.Label()
         Me.Label237 = New System.Windows.Forms.Label()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Label62 = New System.Windows.Forms.Label()
-        Me.Label294 = New System.Windows.Forms.Label()
         Me.Label216 = New System.Windows.Forms.Label()
-        Me.Label293 = New System.Windows.Forms.Label()
         Me.Label192 = New System.Windows.Forms.Label()
         Me.Label292 = New System.Windows.Forms.Label()
         Me.Label295 = New System.Windows.Forms.Label()
@@ -165,6 +209,19 @@ Partial Class MP
         Me.TextBox80 = New System.Windows.Forms.TextBox()
         Me.TextBox126 = New System.Windows.Forms.TextBox()
         Me.Panel26 = New System.Windows.Forms.Panel()
+        Me.Label453 = New System.Windows.Forms.Label()
+        Me.Panel59 = New System.Windows.Forms.Panel()
+        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
+        Me.Panel29 = New System.Windows.Forms.Panel()
+        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
+        Me.Panel28 = New System.Windows.Forms.Panel()
+        Me.RadioButton18 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton19 = New System.Windows.Forms.RadioButton()
+        Me.Label154 = New System.Windows.Forms.Label()
+        Me.TextBox46 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel156 = New System.Windows.Forms.Panel()
         Me.Label392 = New System.Windows.Forms.Label()
         Me.RadioButton14 = New System.Windows.Forms.RadioButton()
@@ -177,213 +234,180 @@ Partial Class MP
         Me.ComboBox26 = New System.Windows.Forms.ComboBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.ComboBox12 = New System.Windows.Forms.ComboBox()
+        Me.TextBox232 = New System.Windows.Forms.TextBox()
         Me.TextBox231 = New System.Windows.Forms.TextBox()
-        Me.RadioButton18 = New System.Windows.Forms.RadioButton()
         Me.TextBox34 = New System.Windows.Forms.TextBox()
         Me.TextBox235 = New System.Windows.Forms.TextBox()
-        Me.Label154 = New System.Windows.Forms.Label()
         Me.TextBox234 = New System.Windows.Forms.TextBox()
-        Me.RadioButton17 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton19 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
         Me.TextBox226 = New System.Windows.Forms.TextBox()
-        Me.Label61 = New System.Windows.Forms.Label()
+        Me.ComboBox34 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox37 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox36 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox38 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox44 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox35 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.TextBox225 = New System.Windows.Forms.TextBox()
         Me.Label29 = New System.Windows.Forms.Label()
-        Me.Label469 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label395 = New System.Windows.Forms.Label()
         Me.Label162 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label164 = New System.Windows.Forms.Label()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label56 = New System.Windows.Forms.Label()
-        Me.Label54 = New System.Windows.Forms.Label()
         Me.Label463 = New System.Windows.Forms.Label()
-        Me.Label464 = New System.Windows.Forms.Label()
-        Me.Label462 = New System.Windows.Forms.Label()
         Me.Label461 = New System.Windows.Forms.Label()
-        Me.Label460 = New System.Windows.Forms.Label()
-        Me.Label459 = New System.Windows.Forms.Label()
-        Me.Label453 = New System.Windows.Forms.Label()
         Me.TextBox32 = New System.Windows.Forms.TextBox()
         Me.Panel24 = New System.Windows.Forms.Panel()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton8 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
+        Me.ComboBox41 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox39 = New System.Windows.Forms.ComboBox()
         Me.ComboBox10 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox43 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox42 = New System.Windows.Forms.ComboBox()
         Me.ComboBox9 = New System.Windows.Forms.ComboBox()
         Me.Panel25 = New System.Windows.Forms.Panel()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label155 = New System.Windows.Forms.Label()
-        Me.Label153 = New System.Windows.Forms.Label()
-        Me.Label73 = New System.Windows.Forms.Label()
         Me.Panel22 = New System.Windows.Forms.Panel()
         Me.Panel23 = New System.Windows.Forms.Panel()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.Label156 = New System.Windows.Forms.Label()
-        Me.TextBox56 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox35 = New System.Windows.Forms.TextBox()
-        Me.TextBox54 = New System.Windows.Forms.TextBox()
-        Me.Label173 = New System.Windows.Forms.Label()
-        Me.Label175 = New System.Windows.Forms.Label()
+        Me.Panel178 = New System.Windows.Forms.Panel()
+        Me.TextBox29 = New System.Windows.Forms.TextBox()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.TextBox28 = New System.Windows.Forms.TextBox()
+        Me.Label54 = New System.Windows.Forms.Label()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Panel177 = New System.Windows.Forms.Panel()
         Me.TextBox166 = New System.Windows.Forms.TextBox()
         Me.TextBox165 = New System.Windows.Forms.TextBox()
         Me.TextBox164 = New System.Windows.Forms.TextBox()
         Me.Label74 = New System.Windows.Forms.Label()
         Me.TextBox163 = New System.Windows.Forms.TextBox()
         Me.Label68 = New System.Windows.Forms.Label()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
         Me.Label66 = New System.Windows.Forms.Label()
-        Me.Label63 = New System.Windows.Forms.Label()
         Me.Label64 = New System.Windows.Forms.Label()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
-        Me.TextBox162 = New System.Windows.Forms.TextBox()
-        Me.TextBox55 = New System.Windows.Forms.TextBox()
-        Me.Label176 = New System.Windows.Forms.Label()
-        Me.Label177 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.ComboBox107 = New System.Windows.Forms.ComboBox()
+        Me.Panel176 = New System.Windows.Forms.Panel()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label156 = New System.Windows.Forms.Label()
+        Me.TextBox56 = New System.Windows.Forms.TextBox()
+        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.TextBox35 = New System.Windows.Forms.TextBox()
+        Me.TextBox54 = New System.Windows.Forms.TextBox()
         Me.Label60 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.ComboBox107 = New System.Windows.Forms.ComboBox()
+        Me.Entrada = New System.Windows.Forms.TabPage()
         Me.Panel31 = New System.Windows.Forms.Panel()
-        Me.Panel30 = New System.Windows.Forms.Panel()
-        Me.Panel161 = New System.Windows.Forms.Panel()
-        Me.DateTimePicker15 = New System.Windows.Forms.DateTimePicker()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
-        Me.TextBox37 = New System.Windows.Forms.TextBox()
-        Me.TextBox36 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Panel160 = New System.Windows.Forms.Panel()
-        Me.Panel158 = New System.Windows.Forms.Panel()
-        Me.Label396 = New System.Windows.Forms.Label()
-        Me.RadioButton67 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton68 = New System.Windows.Forms.RadioButton()
-        Me.Panel157 = New System.Windows.Forms.Panel()
-        Me.CheckBox185 = New System.Windows.Forms.CheckBox()
-        Me.Label167 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox13 = New System.Windows.Forms.ComboBox()
-        Me.CheckBox192 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox190 = New System.Windows.Forms.CheckBox()
-        Me.DateTimePicker14 = New System.Windows.Forms.DateTimePicker()
-        Me.CheckBox189 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox188 = New System.Windows.Forms.CheckBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.CheckedListBox2 = New System.Windows.Forms.CheckedListBox()
+        Me.Panel60 = New System.Windows.Forms.Panel()
+        Me.CheckBox24 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox43 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox44 = New System.Windows.Forms.CheckBox()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.CheckBox130 = New System.Windows.Forms.CheckBox()
+        Me.TextBox47 = New System.Windows.Forms.TextBox()
+        Me.TextBox84 = New System.Windows.Forms.TextBox()
+        Me.TextBox98 = New System.Windows.Forms.TextBox()
+        Me.TextBox133 = New System.Windows.Forms.TextBox()
+        Me.TextBox138 = New System.Windows.Forms.TextBox()
+        Me.TextBox179 = New System.Windows.Forms.TextBox()
+        Me.TextBox180 = New System.Windows.Forms.TextBox()
+        Me.TextBox181 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.Label188 = New System.Windows.Forms.Label()
+        Me.DateTimePicker9 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker10 = New System.Windows.Forms.DateTimePicker()
+        Me.Panel158 = New System.Windows.Forms.Panel()
+        Me.Label214 = New System.Windows.Forms.Label()
+        Me.Panel181 = New System.Windows.Forms.Panel()
+        Me.DateTimePicker43 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker44 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker45 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker46 = New System.Windows.Forms.DateTimePicker()
+        Me.Label215 = New System.Windows.Forms.Label()
+        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
+        Me.Button30 = New System.Windows.Forms.Button()
+        Me.Button31 = New System.Windows.Forms.Button()
+        Me.Button35 = New System.Windows.Forms.Button()
+        Me.Button94 = New System.Windows.Forms.Button()
+        Me.Panel182 = New System.Windows.Forms.Panel()
+        Me.Label217 = New System.Windows.Forms.Label()
+        Me.Panel183 = New System.Windows.Forms.Panel()
+        Me.ComboBox11 = New System.Windows.Forms.ComboBox()
+        Me.TextBox36 = New System.Windows.Forms.TextBox()
+        Me.TextBox37 = New System.Windows.Forms.TextBox()
+        Me.Panel157 = New System.Windows.Forms.Panel()
+        Me.ComboBox49 = New System.Windows.Forms.ComboBox()
+        Me.Label235 = New System.Windows.Forms.Label()
         Me.ComboBox16 = New System.Windows.Forms.ComboBox()
         Me.ComboBox15 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox11 = New System.Windows.Forms.ComboBox()
-        Me.Panel61 = New System.Windows.Forms.Panel()
-        Me.CheckBox160 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox182 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox183 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox184 = New System.Windows.Forms.CheckBox()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button30 = New System.Windows.Forms.Button()
-        Me.Button71 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
-        Me.Button68 = New System.Windows.Forms.Button()
-        Me.Button69 = New System.Windows.Forms.Button()
-        Me.DateTimePicker8 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker12 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker13 = New System.Windows.Forms.DateTimePicker()
-        Me.Panel138 = New System.Windows.Forms.Panel()
-        Me.Label382 = New System.Windows.Forms.Label()
-        Me.DateTimePicker77 = New System.Windows.Forms.DateTimePicker()
-        Me.TextBox83 = New System.Windows.Forms.TextBox()
-        Me.TextBox84 = New System.Windows.Forms.TextBox()
-        Me.TextBox85 = New System.Windows.Forms.TextBox()
-        Me.TextBox47 = New System.Windows.Forms.TextBox()
-        Me.TextBox240 = New System.Windows.Forms.TextBox()
-        Me.TextBox46 = New System.Windows.Forms.TextBox()
-        Me.TextBox40 = New System.Windows.Forms.TextBox()
-        Me.TextBox38 = New System.Windows.Forms.TextBox()
-        Me.TextBox241 = New System.Windows.Forms.TextBox()
-        Me.Label188 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label213 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label214 = New System.Windows.Forms.Label()
-        Me.Label215 = New System.Windows.Forms.Label()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.TextBox242 = New System.Windows.Forms.TextBox()
-        Me.TextBox243 = New System.Windows.Forms.TextBox()
-        Me.TextBox244 = New System.Windows.Forms.TextBox()
-        Me.TextBox245 = New System.Windows.Forms.TextBox()
-        Me.TextBox247 = New System.Windows.Forms.TextBox()
-        Me.TextBox255 = New System.Windows.Forms.TextBox()
-        Me.TextBox256 = New System.Windows.Forms.TextBox()
-        Me.TextBox257 = New System.Windows.Forms.TextBox()
-        Me.TextBox259 = New System.Windows.Forms.TextBox()
-        Me.TextBox268 = New System.Windows.Forms.TextBox()
-        Me.Label217 = New System.Windows.Forms.Label()
+        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
+        Me.Label221 = New System.Windows.Forms.Label()
         Me.Label218 = New System.Windows.Forms.Label()
-        Me.Label235 = New System.Windows.Forms.Label()
-        Me.Label368 = New System.Windows.Forms.Label()
+        Me.ComboBox13 = New System.Windows.Forms.ComboBox()
+        Me.Label167 = New System.Windows.Forms.Label()
+        Me.CheckBox185 = New System.Windows.Forms.CheckBox()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.CheckBox192 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox190 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox189 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox188 = New System.Windows.Forms.CheckBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox38 = New System.Windows.Forms.TextBox()
+        Me.TextBox27 = New System.Windows.Forms.TextBox()
+        Me.TextBox33 = New System.Windows.Forms.TextBox()
+        Me.TextBox40 = New System.Windows.Forms.TextBox()
+        Me.TextBox83 = New System.Windows.Forms.TextBox()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label213 = New System.Windows.Forms.Label()
+        Me.Panel184 = New System.Windows.Forms.Panel()
         Me.Label381 = New System.Windows.Forms.Label()
-        Me.Label386 = New System.Windows.Forms.Label()
-        Me.Label393 = New System.Windows.Forms.Label()
-        Me.Label398 = New System.Windows.Forms.Label()
-        Me.Label399 = New System.Windows.Forms.Label()
-        Me.Label404 = New System.Windows.Forms.Label()
-        Me.Panel33 = New System.Windows.Forms.Panel()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Label424 = New System.Windows.Forms.Label()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.DataGridView3 = New System.Windows.Forms.DataGridView()
         Me.Panel32 = New System.Windows.Forms.Panel()
-        Me.Label41 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.Panel28 = New System.Windows.Forms.Panel()
-        Me.Label178 = New System.Windows.Forms.Label()
+        Me.Salida = New System.Windows.Forms.TabPage()
+        Me.Panel13 = New System.Windows.Forms.Panel()
+        Me.Panel14 = New System.Windows.Forms.Panel()
+        Me.RadioButton83 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton84 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton85 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton86 = New System.Windows.Forms.RadioButton()
+        Me.CheckedListBox3 = New System.Windows.Forms.CheckedListBox()
+        Me.DateTimePicker17 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker18 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker19 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker21 = New System.Windows.Forms.DateTimePicker()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label396 = New System.Windows.Forms.Label()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button36 = New System.Windows.Forms.Button()
+        Me.Button37 = New System.Windows.Forms.Button()
+        Me.Button38 = New System.Windows.Forms.Button()
+        Me.Panel138 = New System.Windows.Forms.Panel()
+        Me.Label406 = New System.Windows.Forms.Label()
         Me.Label196 = New System.Windows.Forms.Label()
         Me.Label165 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn14 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn21 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Panel13 = New System.Windows.Forms.Panel()
         Me.RadioButton30 = New System.Windows.Forms.RadioButton()
         Me.Label197 = New System.Windows.Forms.Label()
         Me.Label231 = New System.Windows.Forms.Label()
         Me.RadioButton25 = New System.Windows.Forms.RadioButton()
         Me.Panel36 = New System.Windows.Forms.Panel()
         Me.Panel166 = New System.Windows.Forms.Panel()
-        Me.Panel167 = New System.Windows.Forms.Panel()
-        Me.Label397 = New System.Windows.Forms.Label()
-        Me.RadioButton69 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton70 = New System.Windows.Forms.RadioButton()
-        Me.Panel159 = New System.Windows.Forms.Panel()
-        Me.Label394 = New System.Windows.Forms.Label()
-        Me.RadioButton64 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton65 = New System.Windows.Forms.RadioButton()
         Me.Label203 = New System.Windows.Forms.Label()
         Me.ComboBox32 = New System.Windows.Forms.ComboBox()
         Me.ComboBox28 = New System.Windows.Forms.ComboBox()
@@ -410,7 +434,10 @@ Partial Class MP
         Me.Label38 = New System.Windows.Forms.Label()
         Me.Label204 = New System.Windows.Forms.Label()
         Me.TextBox91 = New System.Windows.Forms.TextBox()
-        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Panel159 = New System.Windows.Forms.Panel()
+        Me.Label394 = New System.Windows.Forms.Label()
+        Me.RadioButton64 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton65 = New System.Windows.Forms.RadioButton()
         Me.CheckBox42 = New System.Windows.Forms.CheckBox()
         Me.CheckBox40 = New System.Windows.Forms.CheckBox()
         Me.CheckBox39 = New System.Windows.Forms.CheckBox()
@@ -418,7 +445,9 @@ Partial Class MP
         Me.ComboBox17 = New System.Windows.Forms.ComboBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.ComboBox18 = New System.Windows.Forms.ComboBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.ComboBox19 = New System.Windows.Forms.ComboBox()
+        Me.Label407 = New System.Windows.Forms.Label()
         Me.TextBox127 = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox90 = New System.Windows.Forms.TextBox()
@@ -433,11 +462,6 @@ Partial Class MP
         Me.Label238 = New System.Windows.Forms.Label()
         Me.Label364 = New System.Windows.Forms.Label()
         Me.Label391 = New System.Windows.Forms.Label()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.Label160 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.ComboBox61 = New System.Windows.Forms.ComboBox()
         Me.Button27 = New System.Windows.Forms.Button()
         Me.Label208 = New System.Windows.Forms.Label()
@@ -446,28 +470,16 @@ Partial Class MP
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label158 = New System.Windows.Forms.Label()
-        Me.Panel14 = New System.Windows.Forms.Panel()
-        Me.CheckBox161 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox187 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox191 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox193 = New System.Windows.Forms.CheckBox()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button70 = New System.Windows.Forms.Button()
-        Me.Button72 = New System.Windows.Forms.Button()
-        Me.Button105 = New System.Windows.Forms.Button()
-        Me.Button106 = New System.Windows.Forms.Button()
-        Me.Button107 = New System.Windows.Forms.Button()
-        Me.DateTimePicker22 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker23 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker24 = New System.Windows.Forms.DateTimePicker()
-        Me.Panel164 = New System.Windows.Forms.Panel()
-        Me.Label15 = New System.Windows.Forms.Label()
         Me.Label487 = New System.Windows.Forms.Label()
         Me.Panel165 = New System.Windows.Forms.Panel()
+        Me.Button72 = New System.Windows.Forms.Button()
+        Me.Button73 = New System.Windows.Forms.Button()
+        Me.Button75 = New System.Windows.Forms.Button()
+        Me.Button76 = New System.Windows.Forms.Button()
+        Me.Button77 = New System.Windows.Forms.Button()
+        Me.Button78 = New System.Windows.Forms.Button()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label489 = New System.Windows.Forms.Label()
-        Me.Panel29 = New System.Windows.Forms.Panel()
-        Me.Label221 = New System.Windows.Forms.Label()
         Me.Panel34 = New System.Windows.Forms.Panel()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.RadioButton22 = New System.Windows.Forms.RadioButton()
@@ -483,7 +495,7 @@ Partial Class MP
         Me.Label230 = New System.Windows.Forms.Label()
         Me.Panel35 = New System.Windows.Forms.Panel()
         Me.Label222 = New System.Windows.Forms.Label()
-        Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.SGC = New System.Windows.Forms.TabPage()
         Me.Button22 = New System.Windows.Forms.Button()
         Me.Panel19 = New System.Windows.Forms.Panel()
         Me.Panel20 = New System.Windows.Forms.Panel()
@@ -678,19 +690,30 @@ Partial Class MP
         Me.Label466 = New System.Windows.Forms.Label()
         Me.Panel16 = New System.Windows.Forms.Panel()
         Me.Label21 = New System.Windows.Forms.Label()
-        Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.Presupuesto = New System.Windows.Forms.TabPage()
         Me.Panel42 = New System.Windows.Forms.Panel()
-        Me.Panel170 = New System.Windows.Forms.Panel()
         Me.Panel43 = New System.Windows.Forms.Panel()
+        Me.Panel142 = New System.Windows.Forms.Panel()
+        Me.RadioButton69 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton70 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton87 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton88 = New System.Windows.Forms.RadioButton()
+        Me.CheckedListBox4 = New System.Windows.Forms.CheckedListBox()
+        Me.DateTimePicker22 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker23 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker24 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker25 = New System.Windows.Forms.DateTimePicker()
+        Me.Label397 = New System.Windows.Forms.Label()
+        Me.Label409 = New System.Windows.Forms.Label()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button39 = New System.Windows.Forms.Button()
+        Me.Button40 = New System.Windows.Forms.Button()
+        Me.Button41 = New System.Windows.Forms.Button()
+        Me.Panel145 = New System.Windows.Forms.Panel()
+        Me.Label410 = New System.Windows.Forms.Label()
         Me.RadioButton63 = New System.Windows.Forms.RadioButton()
         Me.RadioButton43 = New System.Windows.Forms.RadioButton()
-        Me.Label328 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
         Me.Label390 = New System.Windows.Forms.Label()
-        Me.Label363 = New System.Windows.Forms.Label()
-        Me.TextBox133 = New System.Windows.Forms.TextBox()
-        Me.TextBox98 = New System.Windows.Forms.TextBox()
-        Me.TextBox138 = New System.Windows.Forms.TextBox()
         Me.Panel44 = New System.Windows.Forms.Panel()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
@@ -714,19 +737,32 @@ Partial Class MP
         Me.ComboBox85 = New System.Windows.Forms.ComboBox()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.Panel171 = New System.Windows.Forms.Panel()
-        Me.Label401 = New System.Windows.Forms.Label()
-        Me.RadioButton73 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton74 = New System.Windows.Forms.RadioButton()
         Me.Panel45 = New System.Windows.Forms.Panel()
+        Me.Label412 = New System.Windows.Forms.Label()
+        Me.Label413 = New System.Windows.Forms.Label()
+        Me.Label414 = New System.Windows.Forms.Label()
+        Me.TextBox154 = New System.Windows.Forms.TextBox()
+        Me.TextBox155 = New System.Windows.Forms.TextBox()
+        Me.TextBox156 = New System.Windows.Forms.TextBox()
+        Me.TextBox157 = New System.Windows.Forms.TextBox()
+        Me.Label415 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.Label273 = New System.Windows.Forms.Label()
         Me.ComboBox116 = New System.Windows.Forms.ComboBox()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.TextBox88 = New System.Windows.Forms.TextBox()
         Me.ComboBox112 = New System.Windows.Forms.ComboBox()
+        Me.Label160 = New System.Windows.Forms.Label()
+        Me.TextBox79 = New System.Windows.Forms.TextBox()
         Me.Label265 = New System.Windows.Forms.Label()
         Me.TextBox41 = New System.Windows.Forms.TextBox()
+        Me.TextBox85 = New System.Windows.Forms.TextBox()
         Me.RadioButton31 = New System.Windows.Forms.RadioButton()
         Me.TextBox96 = New System.Windows.Forms.TextBox()
+        Me.TextBox153 = New System.Windows.Forms.TextBox()
         Me.TextBox81 = New System.Windows.Forms.TextBox()
         Me.Label260 = New System.Windows.Forms.Label()
         Me.TextBox77 = New System.Windows.Forms.TextBox()
@@ -767,23 +803,13 @@ Partial Class MP
         Me.Panel47 = New System.Windows.Forms.Panel()
         Me.Label249 = New System.Windows.Forms.Label()
         Me.Panel48 = New System.Windows.Forms.Panel()
-        Me.Panel142 = New System.Windows.Forms.Panel()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox24 = New System.Windows.Forms.CheckBox()
-        Me.Button73 = New System.Windows.Forms.Button()
-        Me.Button75 = New System.Windows.Forms.Button()
-        Me.Button76 = New System.Windows.Forms.Button()
-        Me.Button77 = New System.Windows.Forms.Button()
-        Me.Button78 = New System.Windows.Forms.Button()
-        Me.DateTimePicker52 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker54 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker55 = New System.Windows.Forms.DateTimePicker()
-        Me.Panel145 = New System.Windows.Forms.Panel()
-        Me.Label454 = New System.Windows.Forms.Label()
+        Me.Panel170 = New System.Windows.Forms.Panel()
         Me.ComboBox111 = New System.Windows.Forms.ComboBox()
         Me.ComboBox104 = New System.Windows.Forms.ComboBox()
+        Me.Panel171 = New System.Windows.Forms.Panel()
+        Me.Label401 = New System.Windows.Forms.Label()
+        Me.RadioButton73 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton74 = New System.Windows.Forms.RadioButton()
         Me.ComboBox95 = New System.Windows.Forms.ComboBox()
         Me.ComboBox110 = New System.Windows.Forms.ComboBox()
         Me.ComboBox103 = New System.Windows.Forms.ComboBox()
@@ -818,7 +844,61 @@ Partial Class MP
         Me.Button49 = New System.Windows.Forms.Button()
         Me.Button43 = New System.Windows.Forms.Button()
         Me.Button47 = New System.Windows.Forms.Button()
-        Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.PreOC = New System.Windows.Forms.TabPage()
+        Me.Panel160 = New System.Windows.Forms.Panel()
+        Me.Panel164 = New System.Windows.Forms.Panel()
+        Me.CheckedListBox6 = New System.Windows.Forms.CheckedListBox()
+        Me.TextBox171 = New System.Windows.Forms.TextBox()
+        Me.TextBox151 = New System.Windows.Forms.TextBox()
+        Me.TextBox159 = New System.Windows.Forms.TextBox()
+        Me.TextBox170 = New System.Windows.Forms.TextBox()
+        Me.TextBox160 = New System.Windows.Forms.TextBox()
+        Me.TextBox161 = New System.Windows.Forms.TextBox()
+        Me.Label417 = New System.Windows.Forms.Label()
+        Me.Label427 = New System.Windows.Forms.Label()
+        Me.Label428 = New System.Windows.Forms.Label()
+        Me.RadioButton89 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton90 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton91 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton92 = New System.Windows.Forms.RadioButton()
+        Me.DateTimePicker28 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker29 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker41 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker42 = New System.Windows.Forms.DateTimePicker()
+        Me.Label420 = New System.Windows.Forms.Label()
+        Me.Label418 = New System.Windows.Forms.Label()
+        Me.Button44 = New System.Windows.Forms.Button()
+        Me.Button45 = New System.Windows.Forms.Button()
+        Me.Button46 = New System.Windows.Forms.Button()
+        Me.Button48 = New System.Windows.Forms.Button()
+        Me.Panel167 = New System.Windows.Forms.Panel()
+        Me.Label419 = New System.Windows.Forms.Label()
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.PreOCPedidoN = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.NombreFabrica = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewComboBoxColumn1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.TonPedido = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.NonbreMP = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.MPGramaje = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.MPum = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.Puntos = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewCheckBoxColumn1 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewComboBoxColumn2 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewTextBoxColumn34 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewTextBoxColumn35 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.TonUSS = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TotalTonUSS = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ClientesUtiliza = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.RigidezMD = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.RigidezCD = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn29 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn30 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn31 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Panel186 = New System.Windows.Forms.Panel()
+        Me.Label483 = New System.Windows.Forms.Label()
+        Me.OC = New System.Windows.Forms.TabPage()
         Me.Panel62 = New System.Windows.Forms.Panel()
         Me.Panel63 = New System.Windows.Forms.Panel()
         Me.Panel172 = New System.Windows.Forms.Panel()
@@ -987,7 +1067,7 @@ Partial Class MP
         Me.Label259 = New System.Windows.Forms.Label()
         Me.Panel67 = New System.Windows.Forms.Panel()
         Me.Label317 = New System.Windows.Forms.Label()
-        Me.TabPage8 = New System.Windows.Forms.TabPage()
+        Me.Informe = New System.Windows.Forms.TabPage()
         Me.Panel174 = New System.Windows.Forms.Panel()
         Me.Panel175 = New System.Windows.Forms.Panel()
         Me.Label403 = New System.Windows.Forms.Label()
@@ -1146,8 +1226,10 @@ Partial Class MP
         Me.Label77 = New System.Windows.Forms.Label()
         Me.Label76 = New System.Windows.Forms.Label()
         Me.Label75 = New System.Windows.Forms.Label()
+        Me.Label416 = New System.Windows.Forms.Label()
         Me.Label149 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
+        Me.Button42 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -1157,7 +1239,7 @@ Partial Class MP
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button25 = New System.Windows.Forms.Button()
-        Me.TabPage20 = New System.Windows.Forms.TabPage()
+        Me.Alerta = New System.Windows.Forms.TabPage()
         Me.Panel98 = New System.Windows.Forms.Panel()
         Me.Panel151 = New System.Windows.Forms.Panel()
         Me.CheckBox170 = New System.Windows.Forms.CheckBox()
@@ -1281,7 +1363,7 @@ Partial Class MP
         Me.Button52 = New System.Windows.Forms.Button()
         Me.Panel144 = New System.Windows.Forms.Panel()
         Me.Label376 = New System.Windows.Forms.Label()
-        Me.TabPage21 = New System.Windows.Forms.TabPage()
+        Me.Permiso = New System.Windows.Forms.TabPage()
         Me.Panel57 = New System.Windows.Forms.Panel()
         Me.Panel55 = New System.Windows.Forms.Panel()
         Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
@@ -1405,10 +1487,16 @@ Partial Class MP
         Me.Panel187 = New System.Windows.Forms.Panel()
         Me.Label411 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.MPCodigoCorto = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.EntradaNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MPPresupuestoN = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MPOrdenCompraN = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MPFacturaN = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.EmbarqueBLNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DespachoNumrto = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.EstacionEntrada = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.MPCodigoCorto = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.NombreMPProveedor = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.MPTotalGsFactura = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MPTotalUnidadesFactura = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MPCantidadUnidades = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -1417,53 +1505,55 @@ Partial Class MP
         Me.MPTotalitemsGuaranies = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MPTotalTotalGs = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MPTotalTotalUnidades = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPNombreQR = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MPNombreQRNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPBobinaN = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPConFSC = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.ISO22000 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.MPConFSC = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.MPcertificado = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.MPLoteN = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.MPVencimiento = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPDiametroCm = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MPConoCm = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MPDiametroCm = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.MPConoCm = New System.Windows.Forms.DataGridViewComboBoxColumn()
         Me.MPOtN = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.CheckBox28 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox29 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox30 = New System.Windows.Forms.CheckBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
-        Me.Label405 = New System.Windows.Forms.Label()
-        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox34 = New System.Windows.Forms.ComboBox()
-        Me.TextBox232 = New System.Windows.Forms.TextBox()
-        Me.ComboBox35 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox36 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox37 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox38 = New System.Windows.Forms.ComboBox()
-        Me.Button144 = New System.Windows.Forms.Button()
-        Me.Button148 = New System.Windows.Forms.Button()
-        Me.Button147 = New System.Windows.Forms.Button()
-        Me.Button146 = New System.Windows.Forms.Button()
-        Me.Button145 = New System.Windows.Forms.Button()
-        Me.ComboBox39 = New System.Windows.Forms.ComboBox()
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn22 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.EstacionSalida = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewComboBoxColumn3 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewComboBoxColumn4 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.TurnoSalidaMP = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Maquina = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.Maquinista = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.SalidaKilos = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.StockKilos = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn18 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewTextBoxColumn20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewComboBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewComboBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn21 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewComboBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewComboBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.TabControl1.SuspendLayout
-        Me.TabPage1.SuspendLayout
-        Me.Panel5.SuspendLayout
-        Me.Panel141.SuspendLayout
-        Me.TabPage2.SuspendLayout
+        Me.Contabilidad.SuspendLayout
         Me.Panel40.SuspendLayout
+        Me.Panel1.SuspendLayout
+        Me.Panel2.SuspendLayout
         Me.Panel53.SuspendLayout
         Me.Panel54.SuspendLayout
         Me.Panel51.SuspendLayout
         Me.Panel52.SuspendLayout
-        Me.Panel1.SuspendLayout
-        Me.Panel2.SuspendLayout
         Me.Panel162.SuspendLayout
         Me.Panel163.SuspendLayout
         Me.Panel41.SuspendLayout
         Me.Panel7.SuspendLayout
         Me.Panel8.SuspendLayout
         Me.Panel26.SuspendLayout
+        Me.Panel59.SuspendLayout
+        Me.Panel29.SuspendLayout
+        Me.Panel28.SuspendLayout
         Me.Panel156.SuspendLayout
         Me.Panel27.SuspendLayout
         Me.Panel24.SuspendLayout
@@ -1471,38 +1561,35 @@ Partial Class MP
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel22.SuspendLayout
         Me.Panel23.SuspendLayout
-        Me.TabPage3.SuspendLayout
+        Me.Panel178.SuspendLayout
+        Me.Panel177.SuspendLayout
+        Me.Panel176.SuspendLayout
+        Me.Entrada.SuspendLayout
         Me.Panel31.SuspendLayout
-        Me.Panel30.SuspendLayout
-        Me.Panel161.SuspendLayout
-        Me.Panel158.SuspendLayout
-        Me.Panel157.SuspendLayout
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel61.SuspendLayout
-        Me.Panel138.SuspendLayout
-        Me.Panel33.SuspendLayout
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel60.SuspendLayout
+        Me.Panel158.SuspendLayout
+        Me.Panel181.SuspendLayout
+        Me.Panel182.SuspendLayout
+        Me.Panel183.SuspendLayout
+        Me.Panel157.SuspendLayout
+        Me.Panel184.SuspendLayout
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel32.SuspendLayout
-        Me.TabPage4.SuspendLayout
-        Me.Panel28.SuspendLayout
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Salida.SuspendLayout
         Me.Panel13.SuspendLayout
-        Me.Panel36.SuspendLayout
-        Me.Panel167.SuspendLayout
-        Me.Panel159.SuspendLayout
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel37.SuspendLayout
         Me.Panel14.SuspendLayout
-        Me.Panel164.SuspendLayout
+        Me.Panel138.SuspendLayout
+        Me.Panel36.SuspendLayout
+        Me.Panel166.SuspendLayout
+        Me.Panel159.SuspendLayout
+        Me.Panel37.SuspendLayout
         Me.Panel165.SuspendLayout
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit
-        Me.Panel29.SuspendLayout
         Me.Panel34.SuspendLayout
         Me.Panel35.SuspendLayout
-        Me.TabPage5.SuspendLayout
+        Me.SGC.SuspendLayout
         Me.Panel19.SuspendLayout
         Me.Panel20.SuspendLayout
         Me.Panel21.SuspendLayout
@@ -1526,19 +1613,25 @@ Partial Class MP
         Me.Panel154.SuspendLayout
         Me.Panel155.SuspendLayout
         Me.Panel16.SuspendLayout
-        Me.TabPage6.SuspendLayout
+        Me.Presupuesto.SuspendLayout
         Me.Panel42.SuspendLayout
         Me.Panel43.SuspendLayout
+        Me.Panel142.SuspendLayout
+        Me.Panel145.SuspendLayout
         Me.Panel44.SuspendLayout
-        Me.Panel171.SuspendLayout
         Me.Panel45.SuspendLayout
         Me.Panel46.SuspendLayout
         Me.Panel47.SuspendLayout
         Me.Panel48.SuspendLayout
-        Me.Panel142.SuspendLayout
-        Me.Panel145.SuspendLayout
+        Me.Panel171.SuspendLayout
         Me.Panel49.SuspendLayout
-        Me.TabPage7.SuspendLayout
+        Me.PreOC.SuspendLayout
+        Me.Panel160.SuspendLayout
+        Me.Panel164.SuspendLayout
+        Me.Panel167.SuspendLayout
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.Panel186.SuspendLayout
+        Me.OC.SuspendLayout
         Me.Panel62.SuspendLayout
         Me.Panel63.SuspendLayout
         Me.Panel173.SuspendLayout
@@ -1552,7 +1645,7 @@ Partial Class MP
         Me.Panel68.SuspendLayout
         Me.Panel69.SuspendLayout
         Me.Panel67.SuspendLayout
-        Me.TabPage8.SuspendLayout
+        Me.Informe.SuspendLayout
         Me.Panel175.SuspendLayout
         Me.Panel149.SuspendLayout
         Me.Panel150.SuspendLayout
@@ -1586,7 +1679,7 @@ Partial Class MP
         Me.TabPage15.SuspendLayout
         Me.Panel139.SuspendLayout
         Me.Panel140.SuspendLayout
-        Me.TabPage20.SuspendLayout
+        Me.Alerta.SuspendLayout
         Me.Panel98.SuspendLayout
         Me.Panel151.SuspendLayout
         Me.Panel152.SuspendLayout
@@ -1636,25 +1729,27 @@ Partial Class MP
         Me.Panel111.SuspendLayout
         Me.Panel143.SuspendLayout
         Me.Panel144.SuspendLayout
-        Me.TabPage21.SuspendLayout
+        Me.Permiso.SuspendLayout
         Me.Panel57.SuspendLayout
         Me.Panel55.SuspendLayout
         Me.Panel58.SuspendLayout
         Me.Panel187.SuspendLayout
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit
         Me.SuspendLayout
         '
         'TabControl1
         '
-        Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Controls.Add(Me.TabPage3)
-        Me.TabControl1.Controls.Add(Me.TabPage4)
-        Me.TabControl1.Controls.Add(Me.TabPage5)
-        Me.TabControl1.Controls.Add(Me.TabPage6)
-        Me.TabControl1.Controls.Add(Me.TabPage7)
-        Me.TabControl1.Controls.Add(Me.TabPage8)
-        Me.TabControl1.Controls.Add(Me.TabPage20)
-        Me.TabControl1.Controls.Add(Me.TabPage21)
+        Me.TabControl1.Controls.Add(Me.Contabilidad)
+        Me.TabControl1.Controls.Add(Me.Entrada)
+        Me.TabControl1.Controls.Add(Me.Salida)
+        Me.TabControl1.Controls.Add(Me.SGC)
+        Me.TabControl1.Controls.Add(Me.Presupuesto)
+        Me.TabControl1.Controls.Add(Me.PreOC)
+        Me.TabControl1.Controls.Add(Me.OC)
+        Me.TabControl1.Controls.Add(Me.Informe)
+        Me.TabControl1.Controls.Add(Me.Alerta)
+        Me.TabControl1.Controls.Add(Me.Permiso)
         Me.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TabControl1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControl1.Location = New System.Drawing.Point(0, 0)
@@ -1665,83 +1760,27 @@ Partial Class MP
         Me.TabControl1.Size = New System.Drawing.Size(1924, 987)
         Me.TabControl1.TabIndex = 24
         '
-        'TabPage1
+        'Contabilidad
         '
-        Me.TabPage1.BackColor = System.Drawing.Color.Silver
-        Me.TabPage1.Controls.Add(Me.Panel5)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage1.Size = New System.Drawing.Size(1916, 950)
-        Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "Proveedor MP /"
-        '
-        'Panel5
-        '
-        Me.Panel5.BackColor = System.Drawing.Color.Lime
-        Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel5.Controls.Add(Me.Panel141)
-        Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel5.Location = New System.Drawing.Point(4, 4)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(1908, 942)
-        Me.Panel5.TabIndex = 161
-        '
-        'Panel141
-        '
-        Me.Panel141.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel141.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel141.Controls.Add(Me.Label18)
-        Me.Panel141.Controls.Add(Me.Label452)
-        Me.Panel141.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel141.Location = New System.Drawing.Point(0, 0)
-        Me.Panel141.Name = "Panel141"
-        Me.Panel141.Size = New System.Drawing.Size(1904, 43)
-        Me.Panel141.TabIndex = 0
-        '
-        'Label18
-        '
-        Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.White
-        Me.Label18.Location = New System.Drawing.Point(19, 5)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(537, 19)
-        Me.Label18.TabIndex = 259
-        Me.Label18.Text = "Pantalla: 1946/1043  /// Horejas: 1924/987 /// Primera ventana: 1900/930"
-        '
-        'Label452
-        '
-        Me.Label452.AutoSize = True
-        Me.Label452.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label452.ForeColor = System.Drawing.Color.White
-        Me.Label452.Location = New System.Drawing.Point(810, 5)
-        Me.Label452.Name = "Label452"
-        Me.Label452.Size = New System.Drawing.Size(243, 33)
-        Me.Label452.TabIndex = 6
-        Me.Label452.Text = "PROVEEDOR MP"
-        '
-        'TabPage2
-        '
-        Me.TabPage2.BackColor = System.Drawing.Color.Silver
-        Me.TabPage2.Controls.Add(Me.Panel40)
-        Me.TabPage2.ForeColor = System.Drawing.Color.Black
-        Me.TabPage2.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4)
-        Me.TabPage2.Size = New System.Drawing.Size(1916, 950)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Contabilidad /"
+        Me.Contabilidad.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Contabilidad.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Contabilidad.Controls.Add(Me.Panel40)
+        Me.Contabilidad.ForeColor = System.Drawing.Color.Black
+        Me.Contabilidad.Location = New System.Drawing.Point(4, 33)
+        Me.Contabilidad.Margin = New System.Windows.Forms.Padding(4)
+        Me.Contabilidad.Name = "Contabilidad"
+        Me.Contabilidad.Padding = New System.Windows.Forms.Padding(4)
+        Me.Contabilidad.Size = New System.Drawing.Size(1916, 950)
+        Me.Contabilidad.TabIndex = 1
+        Me.Contabilidad.Text = "Contabilidad /"
         '
         'Panel40
         '
         Me.Panel40.BackColor = System.Drawing.Color.Lime
         Me.Panel40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel40.Controls.Add(Me.Panel1)
         Me.Panel40.Controls.Add(Me.Panel53)
         Me.Panel40.Controls.Add(Me.Panel51)
-        Me.Panel40.Controls.Add(Me.Panel1)
         Me.Panel40.Controls.Add(Me.Panel162)
         Me.Panel40.Controls.Add(Me.Panel41)
         Me.Panel40.Controls.Add(Me.Panel7)
@@ -1751,13 +1790,256 @@ Partial Class MP
         Me.Panel40.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel40.Location = New System.Drawing.Point(4, 4)
         Me.Panel40.Name = "Panel40"
-        Me.Panel40.Size = New System.Drawing.Size(1908, 942)
+        Me.Panel40.Size = New System.Drawing.Size(1904, 938)
         Me.Panel40.TabIndex = 169
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel1.Controls.Add(Me.CheckedListBox5)
+        Me.Panel1.Controls.Add(Me.RadioButton79)
+        Me.Panel1.Controls.Add(Me.RadioButton80)
+        Me.Panel1.Controls.Add(Me.RadioButton81)
+        Me.Panel1.Controls.Add(Me.RadioButton82)
+        Me.Panel1.Controls.Add(Me.DateTimePicker11)
+        Me.Panel1.Controls.Add(Me.DateTimePicker12)
+        Me.Panel1.Controls.Add(Me.DateTimePicker13)
+        Me.Panel1.Controls.Add(Me.DateTimePicker16)
+        Me.Panel1.Controls.Add(Me.Label58)
+        Me.Panel1.Controls.Add(Me.Button12)
+        Me.Panel1.Controls.Add(Me.Button13)
+        Me.Panel1.Controls.Add(Me.Button16)
+        Me.Panel1.Controls.Add(Me.Button17)
+        Me.Panel1.Controls.Add(Me.Panel2)
+        Me.Panel1.Location = New System.Drawing.Point(1439, 522)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(450, 406)
+        Me.Panel1.TabIndex = 759
+        Me.ToolTip1.SetToolTip(Me.Panel1, "Las acciones que se pueden hacer con ciertos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " parámetros que esta en esta HOJA i" &
+        "ndicado" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'CheckedListBox5
+        '
+        Me.CheckedListBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.CheckedListBox5.Font = New System.Drawing.Font("Arial Black", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckedListBox5.FormattingEnabled = True
+        Me.CheckedListBox5.Items.AddRange(New Object() {"1", "2", "3"})
+        Me.CheckedListBox5.Location = New System.Drawing.Point(15, 180)
+        Me.CheckedListBox5.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckedListBox5.Name = "CheckedListBox5"
+        Me.CheckedListBox5.Size = New System.Drawing.Size(241, 214)
+        Me.CheckedListBox5.TabIndex = 755
+        Me.ToolTip1.SetToolTip(Me.CheckedListBox5, "Filtrar con el criterio marcado, el informe.")
+        '
+        'RadioButton79
+        '
+        Me.RadioButton79.AutoSize = True
+        Me.RadioButton79.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton79.Checked = True
+        Me.RadioButton79.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton79.Location = New System.Drawing.Point(19, 46)
+        Me.RadioButton79.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton79.Name = "RadioButton79"
+        Me.RadioButton79.Size = New System.Drawing.Size(110, 28)
+        Me.RadioButton79.TabIndex = 295
+        Me.RadioButton79.TabStop = True
+        Me.RadioButton79.Text = "Pantalla"
+        Me.RadioButton79.UseVisualStyleBackColor = False
+        '
+        'RadioButton80
+        '
+        Me.RadioButton80.AutoSize = True
+        Me.RadioButton80.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton80.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton80.Location = New System.Drawing.Point(19, 142)
+        Me.RadioButton80.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton80.Name = "RadioButton80"
+        Me.RadioButton80.Size = New System.Drawing.Size(132, 28)
+        Me.RadioButton80.TabIndex = 295
+        Me.RadioButton80.Text = "WhatsApp"
+        Me.RadioButton80.UseVisualStyleBackColor = False
+        '
+        'RadioButton81
+        '
+        Me.RadioButton81.AutoSize = True
+        Me.RadioButton81.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton81.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton81.Location = New System.Drawing.Point(19, 110)
+        Me.RadioButton81.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton81.Name = "RadioButton81"
+        Me.RadioButton81.Size = New System.Drawing.Size(84, 28)
+        Me.RadioButton81.TabIndex = 295
+        Me.RadioButton81.Text = "email"
+        Me.RadioButton81.UseVisualStyleBackColor = False
+        '
+        'RadioButton82
+        '
+        Me.RadioButton82.AutoSize = True
+        Me.RadioButton82.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton82.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton82.Location = New System.Drawing.Point(19, 78)
+        Me.RadioButton82.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton82.Name = "RadioButton82"
+        Me.RadioButton82.Size = New System.Drawing.Size(77, 28)
+        Me.RadioButton82.TabIndex = 295
+        Me.RadioButton82.Text = "Hoja"
+        Me.RadioButton82.UseVisualStyleBackColor = False
+        '
+        'DateTimePicker11
+        '
+        Me.DateTimePicker11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker11.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker11.Location = New System.Drawing.Point(23, 3580)
+        Me.DateTimePicker11.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker11.Name = "DateTimePicker11"
+        Me.DateTimePicker11.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker11.TabIndex = 247
+        '
+        'DateTimePicker12
+        '
+        Me.DateTimePicker12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker12.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker12.Location = New System.Drawing.Point(269, 128)
+        Me.DateTimePicker12.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker12.Name = "DateTimePicker12"
+        Me.DateTimePicker12.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker12.TabIndex = 688
+        '
+        'DateTimePicker13
+        '
+        Me.DateTimePicker13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker13.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker13.Location = New System.Drawing.Point(269, 92)
+        Me.DateTimePicker13.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker13.Name = "DateTimePicker13"
+        Me.DateTimePicker13.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker13.TabIndex = 688
+        '
+        'DateTimePicker16
+        '
+        Me.DateTimePicker16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker16.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker16.Location = New System.Drawing.Point(22, 3580)
+        Me.DateTimePicker16.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker16.Name = "DateTimePicker16"
+        Me.DateTimePicker16.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker16.TabIndex = 246
+        '
+        'Label58
+        '
+        Me.Label58.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label58.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.Location = New System.Drawing.Point(269, 55)
+        Me.Label58.Name = "Label58"
+        Me.Label58.Size = New System.Drawing.Size(147, 31)
+        Me.Label58.TabIndex = 245
+        Me.Label58.Text = "Rango Fecha"
+        Me.Label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Button12
+        '
+        Me.Button12.AutoSize = True
+        Me.Button12.BackColor = System.Drawing.Color.Lime
+        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button12.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button12.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button12.ForeColor = System.Drawing.Color.Black
+        Me.Button12.Location = New System.Drawing.Point(269, 280)
+        Me.Button12.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button12.Name = "Button12"
+        Me.Button12.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button12.Size = New System.Drawing.Size(163, 50)
+        Me.Button12.TabIndex = 239
+        Me.Button12.Text = "IMPRIME"
+        Me.Button12.UseVisualStyleBackColor = False
+        '
+        'Button13
+        '
+        Me.Button13.AutoSize = True
+        Me.Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button13.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.ForeColor = System.Drawing.Color.Black
+        Me.Button13.Location = New System.Drawing.Point(269, 174)
+        Me.Button13.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button13.Name = "Button13"
+        Me.Button13.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button13.Size = New System.Drawing.Size(163, 50)
+        Me.Button13.TabIndex = 240
+        Me.Button13.Text = "ENVIAR"
+        Me.Button13.UseVisualStyleBackColor = False
+        '
+        'Button16
+        '
+        Me.Button16.AutoSize = True
+        Me.Button16.BackColor = System.Drawing.Color.Yellow
+        Me.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button16.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button16.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button16.ForeColor = System.Drawing.Color.Black
+        Me.Button16.Location = New System.Drawing.Point(269, 332)
+        Me.Button16.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button16.Name = "Button16"
+        Me.Button16.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button16.Size = New System.Drawing.Size(163, 50)
+        Me.Button16.TabIndex = 237
+        Me.Button16.Text = "Grabar"
+        Me.Button16.UseVisualStyleBackColor = False
+        '
+        'Button17
+        '
+        Me.Button17.AutoSize = True
+        Me.Button17.BackColor = System.Drawing.Color.Red
+        Me.Button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button17.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button17.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button17.ForeColor = System.Drawing.Color.White
+        Me.Button17.Location = New System.Drawing.Point(269, 226)
+        Me.Button17.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button17.Name = "Button17"
+        Me.Button17.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button17.Size = New System.Drawing.Size(163, 50)
+        Me.Button17.TabIndex = 238
+        Me.Button17.Text = "ANULAR"
+        Me.Button17.UseVisualStyleBackColor = False
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel2.Controls.Add(Me.Label59)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(446, 43)
+        Me.Panel2.TabIndex = 0
+        '
+        'Label59
+        '
+        Me.Label59.AutoSize = True
+        Me.Label59.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label59.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label59.ForeColor = System.Drawing.Color.White
+        Me.Label59.Location = New System.Drawing.Point(175, 2)
+        Me.Label59.Name = "Label59"
+        Me.Label59.Size = New System.Drawing.Size(119, 35)
+        Me.Label59.TabIndex = 6
+        Me.Label59.Text = "SALIDA"
         '
         'Panel53
         '
         Me.Panel53.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel53.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel53.Controls.Add(Me.Panel54)
         Me.Panel53.Controls.Add(Me.TextBox136)
         Me.Panel53.Controls.Add(Me.Label281)
@@ -1773,12 +2055,11 @@ Partial Class MP
         Me.Panel53.Controls.Add(Me.TextBox141)
         Me.Panel53.Controls.Add(Me.TextBox144)
         Me.Panel53.Controls.Add(Me.TextBox145)
-        Me.Panel53.Controls.Add(Me.TextBox146)
         Me.Panel53.Controls.Add(Me.TextBox147)
         Me.Panel53.Controls.Add(Me.TextBox148)
-        Me.Panel53.Location = New System.Drawing.Point(343, 276)
+        Me.Panel53.Location = New System.Drawing.Point(407, 276)
         Me.Panel53.Name = "Panel53"
-        Me.Panel53.Size = New System.Drawing.Size(481, 327)
+        Me.Panel53.Size = New System.Drawing.Size(450, 318)
         Me.Panel53.TabIndex = 758
         Me.ToolTip1.SetToolTip(Me.Panel53, "Esta informacion trae de MP.")
         '
@@ -1790,7 +2071,7 @@ Partial Class MP
         Me.Panel54.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel54.Location = New System.Drawing.Point(0, 0)
         Me.Panel54.Name = "Panel54"
-        Me.Panel54.Size = New System.Drawing.Size(479, 43)
+        Me.Panel54.Size = New System.Drawing.Size(446, 43)
         Me.Panel54.TabIndex = 0
         '
         'Label280
@@ -1807,188 +2088,188 @@ Partial Class MP
         '
         'TextBox136
         '
-        Me.TextBox136.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox136.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox136.ForeColor = System.Drawing.Color.Black
-        Me.TextBox136.Location = New System.Drawing.Point(268, 254)
+        Me.TextBox136.Location = New System.Drawing.Point(257, 274)
         Me.TextBox136.Name = "TextBox136"
-        Me.TextBox136.Size = New System.Drawing.Size(202, 30)
+        Me.TextBox136.Size = New System.Drawing.Size(153, 28)
         Me.TextBox136.TabIndex = 23
-        Me.TextBox136.Text = "0,4 X 1,4 mm canal"
+        Me.TextBox136.Text = "0,4 X 1,4"
+        Me.ToolTip1.SetToolTip(Me.TextBox136, "La CANALETA que utiliza esta MP.")
         '
         'Label281
         '
         Me.Label281.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label281.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label281.Location = New System.Drawing.Point(15, 48)
+        Me.Label281.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label281.Location = New System.Drawing.Point(10, 53)
         Me.Label281.Name = "Label281"
-        Me.Label281.Size = New System.Drawing.Size(246, 26)
+        Me.Label281.Size = New System.Drawing.Size(239, 30)
         Me.Label281.TabIndex = 20
         Me.Label281.Text = "Cuño Relieve H. 5 mm:"
+        Me.Label281.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label151
         '
-        Me.Label151.AutoSize = True
         Me.Label151.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label151.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label151.Location = New System.Drawing.Point(15, 114)
+        Me.Label151.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label151.Location = New System.Drawing.Point(10, 125)
         Me.Label151.Name = "Label151"
-        Me.Label151.Size = New System.Drawing.Size(246, 26)
+        Me.Label151.Size = New System.Drawing.Size(239, 30)
         Me.Label151.TabIndex = 20
         Me.Label151.Text = "Cuño Relieve M. 1,5 mm:"
+        Me.Label151.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label286
         '
-        Me.Label286.AutoSize = True
         Me.Label286.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label286.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label286.Location = New System.Drawing.Point(15, 82)
+        Me.Label286.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label286.Location = New System.Drawing.Point(10, 90)
         Me.Label286.Name = "Label286"
-        Me.Label286.Size = New System.Drawing.Size(246, 26)
+        Me.Label286.Size = New System.Drawing.Size(239, 30)
         Me.Label286.TabIndex = 20
         Me.Label286.Text = "Cuño Relieve M. 1,0 mm:"
+        Me.Label286.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label287
         '
         Me.Label287.AutoSize = True
-        Me.Label287.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label287.Location = New System.Drawing.Point(260, 181)
+        Me.Label287.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label287.Location = New System.Drawing.Point(250, 200)
         Me.Label287.Name = "Label287"
-        Me.Label287.Size = New System.Drawing.Size(0, 24)
+        Me.Label287.Size = New System.Drawing.Size(0, 21)
         Me.Label287.TabIndex = 20
         '
         'Label288
         '
-        Me.Label288.AutoSize = True
         Me.Label288.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label288.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label288.Location = New System.Drawing.Point(2, 220)
+        Me.Label288.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label288.Location = New System.Drawing.Point(10, 235)
         Me.Label288.Name = "Label288"
-        Me.Label288.Size = New System.Drawing.Size(186, 26)
+        Me.Label288.Size = New System.Drawing.Size(174, 30)
         Me.Label288.TabIndex = 20
-        Me.Label288.Text = "PERTINAX de mm:"
+        Me.Label288.Text = "Pertinax de mm:"
+        Me.Label288.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label289
         '
-        Me.Label289.AutoSize = True
         Me.Label289.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label289.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label289.Location = New System.Drawing.Point(26, 254)
+        Me.Label289.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label289.Location = New System.Drawing.Point(83, 274)
         Me.Label289.Name = "Label289"
-        Me.Label289.Size = New System.Drawing.Size(162, 26)
+        Me.Label289.Size = New System.Drawing.Size(166, 30)
         Me.Label289.TabIndex = 20
         Me.Label289.Text = "CANALETA cm.:"
+        Me.Label289.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox139
         '
-        Me.TextBox139.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox139.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox139.ForeColor = System.Drawing.Color.Black
-        Me.TextBox139.Location = New System.Drawing.Point(269, 48)
+        Me.TextBox139.Location = New System.Drawing.Point(258, 53)
         Me.TextBox139.Name = "TextBox139"
-        Me.TextBox139.Size = New System.Drawing.Size(202, 30)
+        Me.TextBox139.Size = New System.Drawing.Size(153, 28)
         Me.TextBox139.TabIndex = 23
-        Me.TextBox139.Text = "Desbastado 1,2 mm"
+        Me.TextBox139.Text = "Desbastado 1,2"
+        Me.ToolTip1.SetToolTip(Me.TextBox139, "El cuño HEMBRA relieve cuerpo 5 mm." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Desbastado se debe indicar de cuanto." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Por l" &
+        "o general es de 1,2 mm lo recomendado.")
         '
         'Label290
         '
-        Me.Label290.AutoSize = True
         Me.Label290.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label290.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label290.Location = New System.Drawing.Point(10, 181)
+        Me.Label290.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label290.Location = New System.Drawing.Point(10, 198)
         Me.Label290.Name = "Label290"
-        Me.Label290.Size = New System.Drawing.Size(250, 26)
+        Me.Label290.Size = New System.Drawing.Size(239, 30)
         Me.Label290.TabIndex = 24
         Me.Label290.Text = "Cuño Stamping M. 1 mm:"
+        Me.Label290.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox152
         '
-        Me.TextBox152.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox152.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox152.ForeColor = System.Drawing.Color.Black
-        Me.TextBox152.Location = New System.Drawing.Point(269, 114)
+        Me.TextBox152.Location = New System.Drawing.Point(257, 125)
         Me.TextBox152.Name = "TextBox152"
-        Me.TextBox152.Size = New System.Drawing.Size(202, 30)
+        Me.TextBox152.Size = New System.Drawing.Size(153, 28)
         Me.TextBox152.TabIndex = 23
-        Me.TextBox152.Text = "Desbastado 0,7 mm"
+        Me.TextBox152.Text = "Desbastado 0,7"
+        Me.ToolTip1.SetToolTip(Me.TextBox152, "El cuño relieve MACHO cuerpo 1,5 mm, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "si NO va encima del pertinax de 0.5 mm." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "D" &
+        "esbastado se debe indicar de cuanto." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Por lo general es de 0.7 mm quedando 0.3 m" &
+        "m" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Es lo recomendado." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'Label291
         '
-        Me.Label291.AutoSize = True
         Me.Label291.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label291.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label291.Location = New System.Drawing.Point(13, 149)
+        Me.Label291.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label291.Location = New System.Drawing.Point(10, 161)
         Me.Label291.Name = "Label291"
-        Me.Label291.Size = New System.Drawing.Size(247, 26)
+        Me.Label291.Size = New System.Drawing.Size(239, 30)
         Me.Label291.TabIndex = 24
         Me.Label291.Text = "Cuño Stamping H. 5 mm:"
+        Me.Label291.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox141
         '
-        Me.TextBox141.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox141.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox141.ForeColor = System.Drawing.Color.Black
-        Me.TextBox141.Location = New System.Drawing.Point(269, 82)
+        Me.TextBox141.Location = New System.Drawing.Point(257, 89)
         Me.TextBox141.Name = "TextBox141"
-        Me.TextBox141.Size = New System.Drawing.Size(202, 30)
+        Me.TextBox141.Size = New System.Drawing.Size(153, 28)
         Me.TextBox141.TabIndex = 23
-        Me.TextBox141.Text = "Desbastado 0,7 mm"
+        Me.TextBox141.Text = "Desbastado 0,7"
+        Me.ToolTip1.SetToolTip(Me.TextBox141, "El cuño relieve MACHO cuerpo 1 mm, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "si va encima del pertinax de 0.5 mm." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Desbas" &
+        "tado se debe indicar de cuanto." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Por lo general es de 0.7 mm quedando 0.3 mm" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Es" &
+        " lo recomendado." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'TextBox144
         '
-        Me.TextBox144.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox144.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox144.ForeColor = System.Drawing.Color.Black
-        Me.TextBox144.Location = New System.Drawing.Point(268, 149)
+        Me.TextBox144.Location = New System.Drawing.Point(256, 161)
         Me.TextBox144.Name = "TextBox144"
-        Me.TextBox144.Size = New System.Drawing.Size(202, 30)
+        Me.TextBox144.Size = New System.Drawing.Size(153, 28)
         Me.TextBox144.TabIndex = 23
-        Me.TextBox144.Text = "Desbastado 2,0 mm"
+        Me.TextBox144.Text = "Desbastado 2,0"
+        Me.ToolTip1.SetToolTip(Me.TextBox144, "El cuño Hembra Stamping el cuerpo es de 5 mm." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "El desvastado de 2 mm por lo gener" &
+        "al se utiliza." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'TextBox145
         '
-        Me.TextBox145.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox145.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox145.ForeColor = System.Drawing.Color.Black
-        Me.TextBox145.Location = New System.Drawing.Point(268, 185)
+        Me.TextBox145.Location = New System.Drawing.Point(258, 197)
         Me.TextBox145.Name = "TextBox145"
-        Me.TextBox145.Size = New System.Drawing.Size(202, 30)
+        Me.TextBox145.Size = New System.Drawing.Size(153, 28)
         Me.TextBox145.TabIndex = 23
-        Me.TextBox145.Text = "Desbastado 0,7 mm"
-        '
-        'TextBox146
-        '
-        Me.TextBox146.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.TextBox146.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox146.ForeColor = System.Drawing.Color.Black
-        Me.TextBox146.Location = New System.Drawing.Point(190, 254)
-        Me.TextBox146.Name = "TextBox146"
-        Me.TextBox146.Size = New System.Drawing.Size(70, 30)
-        Me.TextBox146.TabIndex = 23
-        Me.TextBox146.Text = "0.000"
-        Me.TextBox146.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        Me.ToolTip1.SetToolTip(Me.TextBox146, "CANALETA cm: son los cm de canaleta que precisa para este TROQUEL" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Calcula  LITOP" &
-        "LAN los cm." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Se debe poder ajustar, la cantidad." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.TextBox145.Text = "Desbastado 0,7"
+        Me.ToolTip1.SetToolTip(Me.TextBox145, "El cuño Macho Stamping el cuerpo es de 1 mm." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "El desvastado de 0,7 mm por lo gene" &
+        "ral se utiliza." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'TextBox147
         '
-        Me.TextBox147.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox147.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox147.ForeColor = System.Drawing.Color.Black
-        Me.TextBox147.Location = New System.Drawing.Point(198, 217)
+        Me.TextBox147.Location = New System.Drawing.Point(195, 235)
         Me.TextBox147.Name = "TextBox147"
-        Me.TextBox147.Size = New System.Drawing.Size(49, 30)
+        Me.TextBox147.Size = New System.Drawing.Size(49, 28)
         Me.TextBox147.TabIndex = 23
         Me.TextBox147.Text = "0,5"
         Me.TextBox147.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'TextBox148
         '
-        Me.TextBox148.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox148.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox148.ForeColor = System.Drawing.Color.Black
-        Me.TextBox148.Location = New System.Drawing.Point(268, 221)
+        Me.TextBox148.Location = New System.Drawing.Point(256, 235)
         Me.TextBox148.Name = "TextBox148"
-        Me.TextBox148.Size = New System.Drawing.Size(202, 30)
+        Me.TextBox148.Size = New System.Drawing.Size(153, 28)
         Me.TextBox148.TabIndex = 23
-        Me.TextBox148.Text = "0,36 X 1,4 mm canal"
+        Me.TextBox148.Text = "0,36 X 1,4"
         '
         'Panel51
         '
         Me.Panel51.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel51.Controls.Add(Me.Panel52)
         Me.Panel51.Controls.Add(Me.Label220)
         Me.Panel51.Controls.Add(Me.Label223)
@@ -2009,9 +2290,9 @@ Partial Class MP
         Me.Panel51.Controls.Add(Me.TextBox103)
         Me.Panel51.Controls.Add(Me.TextBox130)
         Me.Panel51.Controls.Add(Me.TextBox132)
-        Me.Panel51.Location = New System.Drawing.Point(836, 497)
+        Me.Panel51.Location = New System.Drawing.Point(864, 497)
         Me.Panel51.Name = "Panel51"
-        Me.Panel51.Size = New System.Drawing.Size(572, 429)
+        Me.Panel51.Size = New System.Drawing.Size(563, 429)
         Me.Panel51.TabIndex = 757
         Me.ToolTip1.SetToolTip(Me.Panel51, "Esta información viene de MP " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "y puede ser modificada. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
@@ -2023,205 +2304,210 @@ Partial Class MP
         Me.Panel52.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel52.Location = New System.Drawing.Point(0, 0)
         Me.Panel52.Name = "Panel52"
-        Me.Panel52.Size = New System.Drawing.Size(570, 43)
+        Me.Panel52.Size = New System.Drawing.Size(559, 43)
         Me.Panel52.TabIndex = 0
         '
         'Label161
         '
-        Me.Label161.AutoSize = True
         Me.Label161.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label161.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label161.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label161.ForeColor = System.Drawing.Color.White
-        Me.Label161.Location = New System.Drawing.Point(196, 2)
+        Me.Label161.Location = New System.Drawing.Point(199, 2)
         Me.Label161.Name = "Label161"
-        Me.Label161.Size = New System.Drawing.Size(153, 35)
+        Me.Label161.Size = New System.Drawing.Size(153, 30)
         Me.Label161.TabIndex = 6
-        Me.Label161.Text = "TROQUEL"
+        Me.Label161.Text = "FLEJE"
+        Me.Label161.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label220
         '
-        Me.Label220.AutoSize = True
         Me.Label220.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label220.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label220.Location = New System.Drawing.Point(182, 50)
+        Me.Label220.Location = New System.Drawing.Point(28, 48)
         Me.Label220.Name = "Label220"
-        Me.Label220.Size = New System.Drawing.Size(240, 26)
+        Me.Label220.Size = New System.Drawing.Size(392, 30)
         Me.Label220.TabIndex = 20
         Me.Label220.Text = "Fleje CORTE Altura mm:"
+        Me.Label220.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label223
         '
-        Me.Label223.AutoSize = True
         Me.Label223.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label223.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label223.Location = New System.Drawing.Point(182, 88)
+        Me.Label223.Location = New System.Drawing.Point(28, 86)
         Me.Label223.Name = "Label223"
-        Me.Label223.Size = New System.Drawing.Size(240, 26)
+        Me.Label223.Size = New System.Drawing.Size(392, 30)
         Me.Label223.TabIndex = 20
         Me.Label223.Text = "Fleje MARCA Altura mm:"
+        Me.Label223.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'ComboBox33
         '
-        Me.ComboBox33.BackColor = System.Drawing.Color.White
+        Me.ComboBox33.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ComboBox33.DropDownWidth = 272
         Me.ComboBox33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox33.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox33.FormattingEnabled = True
         Me.ComboBox33.Items.AddRange(New Object() {"Corte 23,6 mm 2 X Nada 23,0 mm 2", "Corte 23,6 mm 4 X Marca 23,6 mm 4", "Corte 23,8 mm 5 X marca 23,6 mm 5", "Corte 23,8 mm 10 X marca 23,6 mm 10"})
-        Me.ComboBox33.Location = New System.Drawing.Point(232, 383)
+        Me.ComboBox33.Location = New System.Drawing.Point(260, 389)
         Me.ComboBox33.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox33.Name = "ComboBox33"
-        Me.ComboBox33.Size = New System.Drawing.Size(319, 27)
+        Me.ComboBox33.Size = New System.Drawing.Size(291, 27)
         Me.ComboBox33.TabIndex = 171
+        Me.ToolTip1.SetToolTip(Me.ComboBox33, "Escojer el adecuado segun experiencia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con este tipo de MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'ComboBox25
         '
-        Me.ComboBox25.BackColor = System.Drawing.Color.White
+        Me.ComboBox25.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ComboBox25.DropDownWidth = 272
         Me.ComboBox25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox25.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox25.FormattingEnabled = True
         Me.ComboBox25.Items.AddRange(New Object() {"Corte 23,6 mm 2 X Nada 23,0 mm 2", "Corte 23,6 mm 4 X Marca 23,6 mm 4", "Corte 23,8 mm 5 X marca 23,6 mm 5", "Corte 23,8 mm 10 X marca 23,6 mm 10"})
-        Me.ComboBox25.Location = New System.Drawing.Point(232, 344)
+        Me.ComboBox25.Location = New System.Drawing.Point(260, 350)
         Me.ComboBox25.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox25.Name = "ComboBox25"
-        Me.ComboBox25.Size = New System.Drawing.Size(319, 27)
+        Me.ComboBox25.Size = New System.Drawing.Size(291, 27)
         Me.ComboBox25.TabIndex = 171
+        Me.ToolTip1.SetToolTip(Me.ComboBox25, "Escojer el adecuado segun experiencia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con este tipo de MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'ComboBox8
         '
-        Me.ComboBox8.BackColor = System.Drawing.Color.White
+        Me.ComboBox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ComboBox8.DropDownWidth = 272
         Me.ComboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox8.FormattingEnabled = True
         Me.ComboBox8.Items.AddRange(New Object() {"Corte 23,6 mm 2 X Nada 23,0 mm 2", "Corte 23,6 mm 4 X Marca 23,6 mm 4", "Corte 23,8 mm 5 X marca 23,6 mm 5", "Corte 23,8 mm 10 X marca 23,6 mm 10"})
-        Me.ComboBox8.Location = New System.Drawing.Point(232, 309)
+        Me.ComboBox8.Location = New System.Drawing.Point(260, 315)
         Me.ComboBox8.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox8.Name = "ComboBox8"
-        Me.ComboBox8.Size = New System.Drawing.Size(319, 27)
+        Me.ComboBox8.Size = New System.Drawing.Size(291, 27)
         Me.ComboBox8.TabIndex = 171
+        Me.ToolTip1.SetToolTip(Me.ComboBox8, "Escojer el adecuado segun experiencia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con este tipo de MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'ComboBox5
         '
-        Me.ComboBox5.BackColor = System.Drawing.Color.White
+        Me.ComboBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ComboBox5.DropDownWidth = 272
         Me.ComboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox5.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"Corte 23,6 mm 2 X Nada 23,0 mm 2", "Corte 23,6 mm 4 X Marca 23,6 mm 4", "Corte 23,8 mm 5 X marca 23,6 mm 5", "Corte 23,8 mm 10 X marca 23,6 mm 10"})
-        Me.ComboBox5.Location = New System.Drawing.Point(232, 274)
+        Me.ComboBox5.Location = New System.Drawing.Point(260, 280)
         Me.ComboBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(319, 27)
+        Me.ComboBox5.Size = New System.Drawing.Size(291, 27)
         Me.ComboBox5.TabIndex = 171
+        Me.ToolTip1.SetToolTip(Me.ComboBox5, "Escojer el adecuado segun experiencia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con este tipo de MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'Label225
         '
-        Me.Label225.AutoSize = True
         Me.Label225.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label225.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label225.Location = New System.Drawing.Point(112, 384)
+        Me.Label225.Location = New System.Drawing.Point(28, 389)
         Me.Label225.Name = "Label225"
-        Me.Label225.Size = New System.Drawing.Size(113, 26)
+        Me.Label225.Size = New System.Drawing.Size(225, 29)
         Me.Label225.TabIndex = 20
         Me.Label225.Text = "Perforado:"
+        Me.Label225.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'ComboBox3
         '
-        Me.ComboBox3.BackColor = System.Drawing.Color.White
+        Me.ComboBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ComboBox3.DropDownWidth = 272
         Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Corte 23,6 mm 2 X Nada 23,0 mm 2", "Corte 23,6 mm 4 X Marca 23,6 mm 4", "Corte 23,8 mm 5 X marca 23,6 mm 5", "Corte 23,8 mm 10 X marca 23,6 mm 10"})
-        Me.ComboBox3.Location = New System.Drawing.Point(232, 239)
+        Me.ComboBox3.Location = New System.Drawing.Point(260, 245)
         Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(319, 27)
+        Me.ComboBox3.Size = New System.Drawing.Size(291, 27)
         Me.ComboBox3.TabIndex = 171
+        Me.ToolTip1.SetToolTip(Me.ComboBox3, "Escojer el adecuado segun experiencia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con este tipo de MP.")
         '
         'Label190
         '
-        Me.Label190.AutoSize = True
         Me.Label190.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label190.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label190.Location = New System.Drawing.Point(12, 345)
+        Me.Label190.Location = New System.Drawing.Point(28, 351)
         Me.Label190.Name = "Label190"
-        Me.Label190.Size = New System.Drawing.Size(213, 26)
+        Me.Label190.Size = New System.Drawing.Size(225, 30)
         Me.Label190.TabIndex = 20
         Me.Label190.Text = "P/remplaso marcado:"
+        Me.Label190.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label189
         '
-        Me.Label189.AutoSize = True
         Me.Label189.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label189.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label189.Location = New System.Drawing.Point(46, 310)
+        Me.Label189.Location = New System.Drawing.Point(28, 315)
         Me.Label189.Name = "Label189"
-        Me.Label189.Size = New System.Drawing.Size(179, 26)
+        Me.Label189.Size = New System.Drawing.Size(225, 30)
         Me.Label189.TabIndex = 20
         Me.Label189.Text = "Fondo 90 grados:"
+        Me.Label189.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label183
         '
-        Me.Label183.AutoSize = True
         Me.Label183.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label183.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label183.Location = New System.Drawing.Point(25, 275)
+        Me.Label183.Location = New System.Drawing.Point(28, 280)
         Me.Label183.Name = "Label183"
-        Me.Label183.Size = New System.Drawing.Size(200, 26)
+        Me.Label183.Size = New System.Drawing.Size(225, 27)
         Me.Label183.TabIndex = 20
         Me.Label183.Text = "P/arrancar exibidor:"
+        Me.Label183.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label224
         '
-        Me.Label224.AutoSize = True
         Me.Label224.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label224.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label224.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label224.Location = New System.Drawing.Point(180, 202)
+        Me.Label224.Location = New System.Drawing.Point(27, 201)
         Me.Label224.Name = "Label224"
-        Me.Label224.Size = New System.Drawing.Size(204, 26)
+        Me.Label224.Size = New System.Drawing.Size(524, 34)
         Me.Label224.TabIndex = 20
         Me.Label224.Text = "FLEJE PERFORADO"
+        Me.Label224.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label181
         '
-        Me.Label181.AutoSize = True
         Me.Label181.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label181.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label181.Location = New System.Drawing.Point(112, 240)
+        Me.Label181.Location = New System.Drawing.Point(28, 245)
         Me.Label181.Name = "Label181"
-        Me.Label181.Size = New System.Drawing.Size(113, 26)
+        Me.Label181.Size = New System.Drawing.Size(225, 28)
         Me.Label181.TabIndex = 20
         Me.Label181.Text = "P/ventana:"
+        Me.Label181.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label278
         '
-        Me.Label278.AutoSize = True
         Me.Label278.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label278.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label278.Location = New System.Drawing.Point(46, 164)
+        Me.Label278.Location = New System.Drawing.Point(28, 162)
         Me.Label278.Name = "Label278"
-        Me.Label278.Size = New System.Drawing.Size(376, 26)
+        Me.Label278.Size = New System.Drawing.Size(392, 30)
         Me.Label278.TabIndex = 20
         Me.Label278.Text = "PLATINA 1mm Marca profundidad mm:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label278.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label279
         '
-        Me.Label279.AutoSize = True
         Me.Label279.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label279.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label279.Location = New System.Drawing.Point(106, 126)
+        Me.Label279.Location = New System.Drawing.Point(28, 124)
         Me.Label279.Name = "Label279"
-        Me.Label279.Size = New System.Drawing.Size(316, 26)
+        Me.Label279.Size = New System.Drawing.Size(392, 30)
         Me.Label279.TabIndex = 20
         Me.Label279.Text = "PLATINA 1mm Marca Altura mm:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label279.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox102
         '
-        Me.TextBox102.BackColor = System.Drawing.Color.White
+        Me.TextBox102.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextBox102.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox102.ForeColor = System.Drawing.Color.Black
         Me.TextBox102.Location = New System.Drawing.Point(430, 48)
@@ -2235,7 +2521,7 @@ Partial Class MP
         '
         'TextBox103
         '
-        Me.TextBox103.BackColor = System.Drawing.Color.White
+        Me.TextBox103.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextBox103.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox103.ForeColor = System.Drawing.Color.Black
         Me.TextBox103.Location = New System.Drawing.Point(430, 86)
@@ -2249,7 +2535,7 @@ Partial Class MP
         '
         'TextBox130
         '
-        Me.TextBox130.BackColor = System.Drawing.Color.White
+        Me.TextBox130.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextBox130.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox130.ForeColor = System.Drawing.Color.Black
         Me.TextBox130.Location = New System.Drawing.Point(430, 162)
@@ -2264,7 +2550,7 @@ Partial Class MP
         '
         'TextBox132
         '
-        Me.TextBox132.BackColor = System.Drawing.Color.White
+        Me.TextBox132.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.TextBox132.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox132.ForeColor = System.Drawing.Color.Black
         Me.TextBox132.Location = New System.Drawing.Point(430, 124)
@@ -2276,262 +2562,10 @@ Partial Class MP
         "onado el CATON SELECCIONADO, Cod Gama MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Trae de MP pero tiene que tener opció" &
         "n de modificar." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel1.Controls.Add(Me.CheckedListBox5)
-        Me.Panel1.Controls.Add(Me.DateTimePicker93)
-        Me.Panel1.Controls.Add(Me.DateTimePicker94)
-        Me.Panel1.Controls.Add(Me.DateTimePicker95)
-        Me.Panel1.Controls.Add(Me.DateTimePicker96)
-        Me.Panel1.Controls.Add(Me.Label42)
-        Me.Panel1.Controls.Add(Me.Label58)
-        Me.Panel1.Controls.Add(Me.CheckBox1)
-        Me.Panel1.Controls.Add(Me.CheckBox2)
-        Me.Panel1.Controls.Add(Me.CheckBox3)
-        Me.Panel1.Controls.Add(Me.CheckBox6)
-        Me.Panel1.Controls.Add(Me.Button12)
-        Me.Panel1.Controls.Add(Me.Button16)
-        Me.Panel1.Controls.Add(Me.Button17)
-        Me.Panel1.Controls.Add(Me.Button13)
-        Me.Panel1.Controls.Add(Me.Panel2)
-        Me.Panel1.Location = New System.Drawing.Point(1424, 531)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(465, 386)
-        Me.Panel1.TabIndex = 756
-        Me.ToolTip1.SetToolTip(Me.Panel1, "Las acciones que se pueden hacer con ciertos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " parámetros que esta en esta HOJA i" &
-        "ndicado" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        '
-        'CheckedListBox5
-        '
-        Me.CheckedListBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.CheckedListBox5.Font = New System.Drawing.Font("Arial Black", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckedListBox5.FormattingEnabled = True
-        Me.CheckedListBox5.Items.AddRange(New Object() {"Troquel N°", "Nombre de LARGO MP", "Nombre CORTO MP", "Nombre LITOPLAN", "Encargado comercial ", "Filtrar por DESARROLLO ANCHO + ALTO + PROFUNDIDAD"})
-        Me.CheckedListBox5.Location = New System.Drawing.Point(18, 221)
-        Me.CheckedListBox5.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckedListBox5.Name = "CheckedListBox5"
-        Me.CheckedListBox5.Size = New System.Drawing.Size(241, 154)
-        Me.CheckedListBox5.TabIndex = 755
-        Me.ToolTip1.SetToolTip(Me.CheckedListBox5, "Filtrar con el criterio marcado, el informe.")
-        '
-        'DateTimePicker93
-        '
-        Me.DateTimePicker93.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker93.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker93.Location = New System.Drawing.Point(23, 3580)
-        Me.DateTimePicker93.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker93.Name = "DateTimePicker93"
-        Me.DateTimePicker93.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker93.TabIndex = 247
-        '
-        'DateTimePicker94
-        '
-        Me.DateTimePicker94.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker94.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker94.Location = New System.Drawing.Point(270, 119)
-        Me.DateTimePicker94.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker94.Name = "DateTimePicker94"
-        Me.DateTimePicker94.Size = New System.Drawing.Size(155, 30)
-        Me.DateTimePicker94.TabIndex = 688
-        '
-        'DateTimePicker95
-        '
-        Me.DateTimePicker95.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker95.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker95.Location = New System.Drawing.Point(270, 83)
-        Me.DateTimePicker95.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker95.Name = "DateTimePicker95"
-        Me.DateTimePicker95.Size = New System.Drawing.Size(155, 30)
-        Me.DateTimePicker95.TabIndex = 688
-        '
-        'DateTimePicker96
-        '
-        Me.DateTimePicker96.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker96.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker96.Location = New System.Drawing.Point(22, 3580)
-        Me.DateTimePicker96.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker96.Name = "DateTimePicker96"
-        Me.DateTimePicker96.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker96.TabIndex = 246
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label42.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label42.Location = New System.Drawing.Point(48, 187)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(131, 35)
-        Me.Label42.TabIndex = 245
-        Me.Label42.Text = "FILTRAR"
-        '
-        'Label58
-        '
-        Me.Label58.AutoSize = True
-        Me.Label58.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label58.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(270, 46)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(166, 31)
-        Me.Label58.TabIndex = 245
-        Me.Label58.Text = "Rango Fecha"
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(21, 150)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(158, 33)
-        Me.CheckBox1.TabIndex = 241
-        Me.CheckBox1.Text = "WhatsApp"
-        Me.CheckBox1.UseVisualStyleBackColor = True
-        '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox2.Location = New System.Drawing.Point(21, 116)
-        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(103, 33)
-        Me.CheckBox2.TabIndex = 242
-        Me.CheckBox2.Text = "Email"
-        Me.CheckBox2.UseVisualStyleBackColor = True
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Checked = True
-        Me.CheckBox3.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CheckBox3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox3.Location = New System.Drawing.Point(21, 48)
-        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(131, 33)
-        Me.CheckBox3.TabIndex = 243
-        Me.CheckBox3.Text = "Pantalla"
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
-        'CheckBox6
-        '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox6.Location = New System.Drawing.Point(21, 82)
-        Me.CheckBox6.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(91, 33)
-        Me.CheckBox6.TabIndex = 244
-        Me.CheckBox6.Text = "Hoja"
-        Me.CheckBox6.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.AutoSize = True
-        Me.Button12.BackColor = System.Drawing.Color.Lime
-        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button12.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button12.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.ForeColor = System.Drawing.Color.Black
-        Me.Button12.Location = New System.Drawing.Point(270, 271)
-        Me.Button12.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button12.Name = "Button12"
-        Me.Button12.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button12.Size = New System.Drawing.Size(173, 50)
-        Me.Button12.TabIndex = 239
-        Me.Button12.Text = "IMPRIME"
-        Me.Button12.UseVisualStyleBackColor = False
-        '
-        'Button16
-        '
-        Me.Button16.AutoSize = True
-        Me.Button16.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button16.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button16.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.ForeColor = System.Drawing.Color.Black
-        Me.Button16.Location = New System.Drawing.Point(270, 165)
-        Me.Button16.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button16.Name = "Button16"
-        Me.Button16.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button16.Size = New System.Drawing.Size(173, 50)
-        Me.Button16.TabIndex = 240
-        Me.Button16.Text = "ENVIAR"
-        Me.Button16.UseVisualStyleBackColor = False
-        '
-        'Button17
-        '
-        Me.Button17.AutoSize = True
-        Me.Button17.BackColor = System.Drawing.Color.Yellow
-        Me.Button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button17.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button17.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.ForeColor = System.Drawing.Color.Black
-        Me.Button17.Location = New System.Drawing.Point(270, 323)
-        Me.Button17.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button17.Name = "Button17"
-        Me.Button17.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button17.Size = New System.Drawing.Size(173, 50)
-        Me.Button17.TabIndex = 237
-        Me.Button17.Text = "Grabar"
-        Me.Button17.UseVisualStyleBackColor = False
-        '
-        'Button13
-        '
-        Me.Button13.AutoSize = True
-        Me.Button13.BackColor = System.Drawing.Color.Red
-        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button13.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.ForeColor = System.Drawing.Color.White
-        Me.Button13.Location = New System.Drawing.Point(270, 217)
-        Me.Button13.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button13.Name = "Button13"
-        Me.Button13.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button13.Size = New System.Drawing.Size(173, 50)
-        Me.Button13.TabIndex = 238
-        Me.Button13.Text = "ANULAR"
-        Me.Button13.UseVisualStyleBackColor = False
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel2.Controls.Add(Me.Label59)
-        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(461, 43)
-        Me.Panel2.TabIndex = 0
-        '
-        'Label59
-        '
-        Me.Label59.AutoSize = True
-        Me.Label59.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label59.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.ForeColor = System.Drawing.Color.White
-        Me.Label59.Location = New System.Drawing.Point(128, 2)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(119, 35)
-        Me.Label59.TabIndex = 6
-        Me.Label59.Text = "SALIDA"
-        '
         'Panel162
         '
         Me.Panel162.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel162.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel162.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel162.Controls.Add(Me.CheckBox30)
         Me.Panel162.Controls.Add(Me.CheckBox29)
         Me.Panel162.Controls.Add(Me.CheckBox28)
@@ -2545,81 +2579,131 @@ Partial Class MP
         Me.Panel162.Controls.Add(Me.TextBox177)
         Me.Panel162.Controls.Add(Me.TextBox176)
         Me.Panel162.Controls.Add(Me.TextBox236)
-        Me.Panel162.Controls.Add(Me.TextBox151)
-        Me.Panel162.Controls.Add(Me.TextBox227)
-        Me.Panel162.Controls.Add(Me.TextBox193)
-        Me.Panel162.Controls.Add(Me.TextBox192)
+        Me.Panel162.Controls.Add(Me.ComboBox45)
+        Me.Panel162.Controls.Add(Me.ComboBox48)
+        Me.Panel162.Controls.Add(Me.ComboBox47)
+        Me.Panel162.Controls.Add(Me.ComboBox40)
         Me.Panel162.Controls.Add(Me.Label187)
-        Me.Panel162.Location = New System.Drawing.Point(1424, 277)
+        Me.Panel162.Location = New System.Drawing.Point(1439, 277)
         Me.Panel162.Name = "Panel162"
-        Me.Panel162.Size = New System.Drawing.Size(463, 238)
+        Me.Panel162.Size = New System.Drawing.Size(448, 238)
         Me.Panel162.TabIndex = 567
+        '
+        'CheckBox30
+        '
+        Me.CheckBox30.AutoSize = True
+        Me.CheckBox30.Font = New System.Drawing.Font("Arial", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox30.ForeColor = System.Drawing.Color.Magenta
+        Me.CheckBox30.Location = New System.Drawing.Point(255, 199)
+        Me.CheckBox30.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox30.Name = "CheckBox30"
+        Me.CheckBox30.Size = New System.Drawing.Size(154, 30)
+        Me.CheckBox30.TabIndex = 276
+        Me.CheckBox30.Text = "Secundario"
+        Me.ToolTip1.SetToolTip(Me.CheckBox30, "Se marca si fue cargado el NOMBRE PRIMARIO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Si no esta cargado con Primario se m" &
+        "arca SECUNDARIO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.CheckBox30.UseVisualStyleBackColor = True
+        '
+        'CheckBox29
+        '
+        Me.CheckBox29.AutoSize = True
+        Me.CheckBox29.Font = New System.Drawing.Font("Arial", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox29.ForeColor = System.Drawing.Color.Magenta
+        Me.CheckBox29.Location = New System.Drawing.Point(111, 199)
+        Me.CheckBox29.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox29.Name = "CheckBox29"
+        Me.CheckBox29.Size = New System.Drawing.Size(123, 30)
+        Me.CheckBox29.TabIndex = 276
+        Me.CheckBox29.Text = "Primario"
+        Me.ToolTip1.SetToolTip(Me.CheckBox29, "Se marca si fue cargado el NOMBRE PRIMARIO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Si no esta cargado con Primario se m" &
+        "arca SECUNDARIO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.CheckBox29.UseVisualStyleBackColor = True
+        '
+        'CheckBox28
+        '
+        Me.CheckBox28.AutoSize = True
+        Me.CheckBox28.Font = New System.Drawing.Font("Arial", 11.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox28.ForeColor = System.Drawing.Color.Magenta
+        Me.CheckBox28.Location = New System.Drawing.Point(16, 198)
+        Me.CheckBox28.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox28.Name = "CheckBox28"
+        Me.CheckBox28.Size = New System.Drawing.Size(82, 30)
+        Me.CheckBox28.TabIndex = 276
+        Me.CheckBox28.Text = "FSC"
+        Me.ToolTip1.SetToolTip(Me.CheckBox28, "Se marca si fue cargado el código con FSC." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Se fue cargado con 000, no se marca." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.CheckBox28.UseVisualStyleBackColor = True
         '
         'Label233
         '
-        Me.Label233.AutoSize = True
         Me.Label233.BackColor = System.Drawing.Color.Transparent
-        Me.Label233.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label233.Location = New System.Drawing.Point(53, 123)
+        Me.Label233.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label233.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label233.Location = New System.Drawing.Point(10, 54)
         Me.Label233.Name = "Label233"
-        Me.Label233.Size = New System.Drawing.Size(130, 24)
+        Me.Label233.Size = New System.Drawing.Size(127, 24)
         Me.Label233.TabIndex = 270
         Me.Label233.Text = "Espesor um:"
+        Me.Label233.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label234
         '
-        Me.Label234.AutoSize = True
         Me.Label234.BackColor = System.Drawing.Color.Transparent
-        Me.Label234.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label234.Location = New System.Drawing.Point(276, 50)
+        Me.Label234.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label234.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label234.Location = New System.Drawing.Point(226, 51)
         Me.Label234.Name = "Label234"
-        Me.Label234.Size = New System.Drawing.Size(106, 24)
+        Me.Label234.Size = New System.Drawing.Size(122, 28)
         Me.Label234.TabIndex = 271
         Me.Label234.Text = "Humedad:"
+        Me.Label234.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label421
         '
-        Me.Label421.AutoSize = True
         Me.Label421.BackColor = System.Drawing.Color.Transparent
-        Me.Label421.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label421.Location = New System.Drawing.Point(276, 119)
+        Me.Label421.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label421.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label421.Location = New System.Drawing.Point(10, 164)
         Me.Label421.Name = "Label421"
-        Me.Label421.Size = New System.Drawing.Size(106, 24)
+        Me.Label421.Size = New System.Drawing.Size(127, 24)
         Me.Label421.TabIndex = 272
-        Me.Label421.Text = "Rigidez N:"
+        Me.Label421.Text = "Rigidez CD:"
+        Me.Label421.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label423
         '
-        Me.Label423.AutoSize = True
         Me.Label423.BackColor = System.Drawing.Color.Transparent
-        Me.Label423.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label423.Location = New System.Drawing.Point(276, 83)
+        Me.Label423.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label423.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label423.Location = New System.Drawing.Point(10, 133)
         Me.Label423.Name = "Label423"
-        Me.Label423.Size = New System.Drawing.Size(106, 24)
+        Me.Label423.Size = New System.Drawing.Size(127, 24)
         Me.Label423.TabIndex = 273
-        Me.Label423.Text = "Rigidez D:"
+        Me.Label423.Text = "Rigidez MD:"
+        Me.Label423.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label425
         '
-        Me.Label425.AutoSize = True
         Me.Label425.BackColor = System.Drawing.Color.Transparent
-        Me.Label425.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label425.Location = New System.Drawing.Point(16, 86)
+        Me.Label425.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label425.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label425.Location = New System.Drawing.Point(226, 125)
         Me.Label425.Name = "Label425"
-        Me.Label425.Size = New System.Drawing.Size(164, 24)
+        Me.Label425.Size = New System.Drawing.Size(122, 28)
         Me.Label425.TabIndex = 275
-        Me.Label425.Text = "Blancura Dorso:"
+        Me.Label425.Text = "Blancura D.:"
+        Me.Label425.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label426
         '
-        Me.Label426.AutoSize = True
         Me.Label426.BackColor = System.Drawing.Color.Transparent
-        Me.Label426.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label426.Location = New System.Drawing.Point(12, 50)
+        Me.Label426.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label426.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label426.Location = New System.Drawing.Point(226, 92)
         Me.Label426.Name = "Label426"
-        Me.Label426.Size = New System.Drawing.Size(168, 24)
+        Me.Label426.Size = New System.Drawing.Size(122, 28)
         Me.Label426.TabIndex = 275
-        Me.Label426.Text = "Blancura Frente:"
+        Me.Label426.Text = "Blancura F.:"
+        Me.Label426.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Panel163
         '
@@ -2631,7 +2715,7 @@ Partial Class MP
         Me.Panel163.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel163.Location = New System.Drawing.Point(0, 0)
         Me.Panel163.Name = "Panel163"
-        Me.Panel163.Size = New System.Drawing.Size(461, 43)
+        Me.Panel163.Size = New System.Drawing.Size(444, 43)
         Me.Panel163.TabIndex = 0
         '
         'Label470
@@ -2659,109 +2743,242 @@ Partial Class MP
         '
         'TextBox177
         '
-        Me.TextBox177.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox177.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox177.ForeColor = System.Drawing.Color.Black
-        Me.TextBox177.Location = New System.Drawing.Point(187, 85)
+        Me.TextBox177.Location = New System.Drawing.Point(354, 124)
         Me.TextBox177.Name = "TextBox177"
-        Me.TextBox177.Size = New System.Drawing.Size(55, 30)
+        Me.TextBox177.Size = New System.Drawing.Size(55, 28)
         Me.TextBox177.TabIndex = 24
         Me.TextBox177.Text = "0,00"
         Me.TextBox177.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox176
         '
-        Me.TextBox176.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox176.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox176.ForeColor = System.Drawing.Color.Black
-        Me.TextBox176.Location = New System.Drawing.Point(187, 49)
+        Me.TextBox176.Location = New System.Drawing.Point(356, 88)
         Me.TextBox176.Name = "TextBox176"
-        Me.TextBox176.Size = New System.Drawing.Size(55, 30)
+        Me.TextBox176.Size = New System.Drawing.Size(55, 28)
         Me.TextBox176.TabIndex = 24
         Me.TextBox176.Text = "0,00"
         Me.TextBox176.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox236
         '
-        Me.TextBox236.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox236.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox236.ForeColor = System.Drawing.Color.Black
-        Me.TextBox236.Location = New System.Drawing.Point(389, 49)
+        Me.TextBox236.Location = New System.Drawing.Point(354, 50)
         Me.TextBox236.Name = "TextBox236"
-        Me.TextBox236.Size = New System.Drawing.Size(55, 30)
+        Me.TextBox236.Size = New System.Drawing.Size(55, 28)
         Me.TextBox236.TabIndex = 24
         Me.TextBox236.Text = "000"
         Me.TextBox236.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox151
+        'ComboBox45
         '
-        Me.TextBox151.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox151.ForeColor = System.Drawing.Color.Black
-        Me.TextBox151.Location = New System.Drawing.Point(189, 159)
-        Me.TextBox151.Name = "TextBox151"
-        Me.TextBox151.Size = New System.Drawing.Size(55, 30)
-        Me.TextBox151.TabIndex = 24
-        Me.TextBox151.Text = "000"
-        Me.TextBox151.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ComboBox45.BackColor = System.Drawing.Color.White
+        Me.ComboBox45.DropDownWidth = 272
+        Me.ComboBox45.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox45.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox45.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox45.FormattingEnabled = True
+        Me.ComboBox45.Items.AddRange(New Object() {"250", "255", "260", "265", "275", "280", "285", "290", "300", "305", "310", "315", "320", "325", "330", "335", "340", "345", "350", "355", "360", "365", "370", "375", "380", "385", "390", "395", "400", "405", "410", "415", "420", "425", "430", "435", "440", "445", "450", "455", "460", "465", "470", "475", "480", "485", "490", "495", "500", "505", "510", "515", "520", "525", "530", "535", "540", "545", "550", "555", "560", "565", "570", "575", "580", "585", "590", "595", "600"})
+        Me.ComboBox45.Location = New System.Drawing.Point(144, 52)
+        Me.ComboBox45.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox45.Name = "ComboBox45"
+        Me.ComboBox45.Size = New System.Drawing.Size(66, 29)
+        Me.ComboBox45.TabIndex = 183
         '
-        'TextBox227
+        'ComboBox48
         '
-        Me.TextBox227.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox227.ForeColor = System.Drawing.Color.Black
-        Me.TextBox227.Location = New System.Drawing.Point(189, 123)
-        Me.TextBox227.Name = "TextBox227"
-        Me.TextBox227.Size = New System.Drawing.Size(55, 30)
-        Me.TextBox227.TabIndex = 24
-        Me.TextBox227.Text = "000"
-        Me.TextBox227.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ComboBox48.BackColor = System.Drawing.Color.White
+        Me.ComboBox48.DropDownWidth = 272
+        Me.ComboBox48.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox48.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox48.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox48.FormattingEnabled = True
+        Me.ComboBox48.Items.AddRange(New Object() {"9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"})
+        Me.ComboBox48.Location = New System.Drawing.Point(144, 164)
+        Me.ComboBox48.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox48.Name = "ComboBox48"
+        Me.ComboBox48.Size = New System.Drawing.Size(66, 29)
+        Me.ComboBox48.TabIndex = 183
         '
-        'TextBox193
+        'ComboBox47
         '
-        Me.TextBox193.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox193.ForeColor = System.Drawing.Color.Black
-        Me.TextBox193.Location = New System.Drawing.Point(389, 118)
-        Me.TextBox193.Name = "TextBox193"
-        Me.TextBox193.Size = New System.Drawing.Size(55, 30)
-        Me.TextBox193.TabIndex = 24
-        Me.TextBox193.Text = "000"
-        Me.TextBox193.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ComboBox47.BackColor = System.Drawing.Color.White
+        Me.ComboBox47.DropDownWidth = 272
+        Me.ComboBox47.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox47.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox47.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox47.FormattingEnabled = True
+        Me.ComboBox47.Items.AddRange(New Object() {"9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"})
+        Me.ComboBox47.Location = New System.Drawing.Point(144, 126)
+        Me.ComboBox47.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox47.Name = "ComboBox47"
+        Me.ComboBox47.Size = New System.Drawing.Size(66, 29)
+        Me.ComboBox47.TabIndex = 183
         '
-        'TextBox192
+        'ComboBox40
         '
-        Me.TextBox192.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox192.ForeColor = System.Drawing.Color.Black
-        Me.TextBox192.Location = New System.Drawing.Point(389, 82)
-        Me.TextBox192.Name = "TextBox192"
-        Me.TextBox192.Size = New System.Drawing.Size(55, 30)
-        Me.TextBox192.TabIndex = 24
-        Me.TextBox192.Text = "000"
-        Me.TextBox192.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ComboBox40.BackColor = System.Drawing.Color.White
+        Me.ComboBox40.DropDownWidth = 272
+        Me.ComboBox40.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox40.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox40.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox40.FormattingEnabled = True
+        Me.ComboBox40.Items.AddRange(New Object() {"9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"})
+        Me.ComboBox40.Location = New System.Drawing.Point(144, 89)
+        Me.ComboBox40.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox40.Name = "ComboBox40"
+        Me.ComboBox40.Size = New System.Drawing.Size(66, 29)
+        Me.ComboBox40.TabIndex = 183
         '
         'Label187
         '
-        Me.Label187.AutoSize = True
         Me.Label187.BackColor = System.Drawing.Color.Transparent
-        Me.Label187.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label187.Location = New System.Drawing.Point(96, 161)
+        Me.Label187.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label187.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label187.Location = New System.Drawing.Point(10, 96)
         Me.Label187.Name = "Label187"
-        Me.Label187.Size = New System.Drawing.Size(84, 24)
+        Me.Label187.Size = New System.Drawing.Size(127, 24)
         Me.Label187.TabIndex = 274
         Me.Label187.Text = "Puntos:"
+        Me.Label187.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Panel41
         '
         Me.Panel41.BackColor = System.Drawing.Color.Green
         Me.Panel41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel41.Controls.Add(Me.Button144)
-        Me.Panel41.Controls.Add(Me.Button148)
-        Me.Panel41.Controls.Add(Me.Button147)
-        Me.Panel41.Controls.Add(Me.Button146)
-        Me.Panel41.Controls.Add(Me.Button145)
+        Me.Panel41.Controls.Add(Me.Button113)
+        Me.Panel41.Controls.Add(Me.Button117)
+        Me.Panel41.Controls.Add(Me.Button124)
+        Me.Panel41.Controls.Add(Me.Button163)
+        Me.Panel41.Controls.Add(Me.Button164)
+        Me.Panel41.Controls.Add(Me.Button165)
         Me.Panel41.Controls.Add(Me.Label236)
         Me.Panel41.Controls.Add(Me.Label237)
         Me.Panel41.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel41.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel41.Location = New System.Drawing.Point(0, 0)
         Me.Panel41.Name = "Panel41"
-        Me.Panel41.Size = New System.Drawing.Size(1906, 43)
+        Me.Panel41.Size = New System.Drawing.Size(1902, 43)
         Me.Panel41.TabIndex = 0
+        '
+        'Button113
+        '
+        Me.Button113.BackColor = System.Drawing.Color.Yellow
+        Me.Button113.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button113.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button113.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button113.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button113.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button113.ForeColor = System.Drawing.Color.Black
+        Me.Button113.Location = New System.Drawing.Point(586, 4)
+        Me.Button113.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button113.Name = "Button113"
+        Me.Button113.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button113.Size = New System.Drawing.Size(230, 30)
+        Me.Button113.TabIndex = 253
+        Me.Button113.Text = "Trae  LITOPL Comercial"
+        Me.Button113.UseVisualStyleBackColor = False
+        '
+        'Button117
+        '
+        Me.Button117.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button117.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button117.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button117.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button117.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button117.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button117.ForeColor = System.Drawing.Color.Black
+        Me.Button117.Location = New System.Drawing.Point(419, 4)
+        Me.Button117.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button117.Name = "Button117"
+        Me.Button117.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button117.Size = New System.Drawing.Size(159, 30)
+        Me.Button117.TabIndex = 254
+        Me.Button117.Text = "Trae  LITOPLAN"
+        Me.ToolTip1.SetToolTip(Me.Button117, "Fondo CELESTE letras NEGRA trae" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " de la base datos LITOPLAN." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button117.UseVisualStyleBackColor = False
+        '
+        'Button124
+        '
+        Me.Button124.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Button124.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button124.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button124.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button124.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button124.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button124.ForeColor = System.Drawing.Color.Black
+        Me.Button124.Location = New System.Drawing.Point(262, 4)
+        Me.Button124.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button124.Name = "Button124"
+        Me.Button124.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button124.Size = New System.Drawing.Size(149, 30)
+        Me.Button124.TabIndex = 255
+        Me.Button124.Text = "Trae  Modifica"
+        Me.ToolTip1.SetToolTip(Me.Button124, "Fondo NARANJA letras NEGRA trae la" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " información y se puede cambiar." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button124.UseVisualStyleBackColor = False
+        '
+        'Button163
+        '
+        Me.Button163.BackColor = System.Drawing.Color.White
+        Me.Button163.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button163.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button163.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button163.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button163.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button163.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button163.Location = New System.Drawing.Point(164, 4)
+        Me.Button163.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button163.Name = "Button163"
+        Me.Button163.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button163.Size = New System.Drawing.Size(90, 30)
+        Me.Button163.TabIndex = 256
+        Me.Button163.Text = "Calcula"
+        Me.ToolTip1.SetToolTip(Me.Button163, "Fondo blanco letras VERDE indica que hace" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " un cálculo según la información de es" &
+        "e momento." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button163.UseVisualStyleBackColor = False
+        '
+        'Button164
+        '
+        Me.Button164.BackColor = System.Drawing.Color.White
+        Me.Button164.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button164.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button164.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button164.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button164.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button164.ForeColor = System.Drawing.Color.Fuchsia
+        Me.Button164.Location = New System.Drawing.Point(96, 4)
+        Me.Button164.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button164.Name = "Button164"
+        Me.Button164.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button164.Size = New System.Drawing.Size(59, 30)
+        Me.Button164.TabIndex = 257
+        Me.Button164.Text = "Trae"
+        Me.ToolTip1.SetToolTip(Me.Button164, "Fondo blanco letras ROSADA indica que" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " TRAE de alguna base de datos." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button164.UseVisualStyleBackColor = False
+        '
+        'Button165
+        '
+        Me.Button165.BackColor = System.Drawing.Color.White
+        Me.Button165.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button165.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button165.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button165.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button165.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button165.ForeColor = System.Drawing.Color.Black
+        Me.Button165.Location = New System.Drawing.Point(7, 4)
+        Me.Button165.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button165.Name = "Button165"
+        Me.Button165.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button165.Size = New System.Drawing.Size(81, 30)
+        Me.Button165.TabIndex = 258
+        Me.Button165.Text = "Cargar"
+        Me.ToolTip1.SetToolTip(Me.Button165, "Fondo blanco letras negra indica que que debe " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "estar habilitado para cargar la p" &
+        "ersona" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button165.UseVisualStyleBackColor = False
         '
         'Label236
         '
@@ -2769,7 +2986,7 @@ Partial Class MP
         Me.Label236.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label236.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label236.ForeColor = System.Drawing.Color.White
-        Me.Label236.Location = New System.Drawing.Point(797, 1)
+        Me.Label236.Location = New System.Drawing.Point(834, 0)
         Me.Label236.Name = "Label236"
         Me.Label236.Size = New System.Drawing.Size(224, 35)
         Me.Label236.TabIndex = 23
@@ -2789,11 +3006,9 @@ Partial Class MP
         'Panel7
         '
         Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel7.Controls.Add(Me.Panel8)
-        Me.Panel7.Controls.Add(Me.Label294)
         Me.Panel7.Controls.Add(Me.Label216)
-        Me.Panel7.Controls.Add(Me.Label293)
         Me.Panel7.Controls.Add(Me.Label192)
         Me.Panel7.Controls.Add(Me.Label292)
         Me.Panel7.Controls.Add(Me.Label295)
@@ -2809,9 +3024,9 @@ Partial Class MP
         Me.Panel7.Controls.Add(Me.TextBox104)
         Me.Panel7.Controls.Add(Me.TextBox80)
         Me.Panel7.Controls.Add(Me.TextBox126)
-        Me.Panel7.Location = New System.Drawing.Point(835, 276)
+        Me.Panel7.Location = New System.Drawing.Point(863, 276)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(573, 215)
+        Me.Panel7.Size = New System.Drawing.Size(563, 215)
         Me.Panel7.TabIndex = 566
         '
         'Panel8
@@ -2822,7 +3037,7 @@ Partial Class MP
         Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel8.Location = New System.Drawing.Point(0, 0)
         Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(571, 43)
+        Me.Panel8.Size = New System.Drawing.Size(559, 43)
         Me.Panel8.TabIndex = 0
         '
         'Label62
@@ -2837,211 +3052,211 @@ Partial Class MP
         Me.Label62.TabIndex = 6
         Me.Label62.Text = "Gs"
         '
-        'Label294
-        '
-        Me.Label294.AutoSize = True
-        Me.Label294.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label294.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label294.ForeColor = System.Drawing.Color.Blue
-        Me.Label294.Location = New System.Drawing.Point(450, 184)
-        Me.Label294.Name = "Label294"
-        Me.Label294.Size = New System.Drawing.Size(52, 24)
-        Me.Label294.TabIndex = 21
-        Me.Label294.Text = " Gr.:"
-        '
         'Label216
         '
-        Me.Label216.AutoSize = True
         Me.Label216.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label216.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label216.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label216.Location = New System.Drawing.Point(450, 148)
+        Me.Label216.Location = New System.Drawing.Point(486, 101)
         Me.Label216.Name = "Label216"
-        Me.Label216.Size = New System.Drawing.Size(52, 24)
+        Me.Label216.Size = New System.Drawing.Size(69, 30)
         Me.Label216.TabIndex = 21
-        Me.Label216.Text = " Gr.:"
-        '
-        'Label293
-        '
-        Me.Label293.AutoSize = True
-        Me.Label293.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label293.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label293.ForeColor = System.Drawing.Color.Blue
-        Me.Label293.Location = New System.Drawing.Point(265, 184)
-        Me.Label293.Name = "Label293"
-        Me.Label293.Size = New System.Drawing.Size(98, 24)
-        Me.Label293.TabIndex = 21
-        Me.Label293.Text = " Gs/Hoja:"
+        Me.Label216.Text = " Gr."
+        Me.Label216.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label192
         '
-        Me.Label192.AutoSize = True
         Me.Label192.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label192.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label192.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label192.Location = New System.Drawing.Point(265, 148)
+        Me.Label192.Location = New System.Drawing.Point(375, 101)
         Me.Label192.Name = "Label192"
-        Me.Label192.Size = New System.Drawing.Size(98, 24)
+        Me.Label192.Size = New System.Drawing.Size(96, 30)
         Me.Label192.TabIndex = 21
-        Me.Label192.Text = " Gs/Hoja:"
+        Me.Label192.Text = " Gs/Hoja"
+        Me.Label192.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label292
         '
-        Me.Label292.AutoSize = True
         Me.Label292.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label292.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label292.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label292.ForeColor = System.Drawing.Color.Blue
-        Me.Label292.Location = New System.Drawing.Point(9, 184)
+        Me.Label292.Location = New System.Drawing.Point(12, 173)
         Me.Label292.Name = "Label292"
-        Me.Label292.Size = New System.Drawing.Size(168, 24)
+        Me.Label292.Size = New System.Drawing.Size(252, 30)
         Me.Label292.TabIndex = 21
         Me.Label292.Text = "Litoplan Gs/Kls.:"
+        Me.Label292.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label295
         '
-        Me.Label295.AutoSize = True
         Me.Label295.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label295.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label295.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label295.Location = New System.Drawing.Point(45, 59)
+        Me.Label295.ForeColor = System.Drawing.Color.Red
+        Me.Label295.Location = New System.Drawing.Point(314, 52)
         Me.Label295.Name = "Label295"
-        Me.Label295.Size = New System.Drawing.Size(132, 24)
+        Me.Label295.Size = New System.Drawing.Size(145, 30)
         Me.Label295.TabIndex = 21
         Me.Label295.Text = "Cambio U$S:"
+        Me.Label295.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label324
         '
-        Me.Label324.AutoSize = True
         Me.Label324.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label324.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label324.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label324.Location = New System.Drawing.Point(317, 94)
+        Me.Label324.ForeColor = System.Drawing.Color.Black
+        Me.Label324.Location = New System.Drawing.Point(12, 90)
         Me.Label324.Name = "Label324"
-        Me.Label324.Size = New System.Drawing.Size(151, 24)
+        Me.Label324.Size = New System.Drawing.Size(196, 29)
         Me.Label324.TabIndex = 21
-        Me.Label324.Text = "Deposito U$S: "
+        Me.Label324.Text = "Deposito U$S/Kls.:"
+        Me.Label324.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label323
         '
-        Me.Label323.AutoSize = True
         Me.Label323.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label323.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label323.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label323.Location = New System.Drawing.Point(-1, 97)
+        Me.Label323.Location = New System.Drawing.Point(12, 52)
         Me.Label323.Name = "Label323"
-        Me.Label323.Size = New System.Drawing.Size(178, 24)
+        Me.Label323.Size = New System.Drawing.Size(195, 28)
         Me.Label323.TabIndex = 21
-        Me.Label323.Text = "Compra CIF U$S: "
+        Me.Label323.Text = "CIF U$S/kls.:"
+        Me.Label323.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label191
         '
-        Me.Label191.AutoSize = True
         Me.Label191.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label191.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label191.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label191.Location = New System.Drawing.Point(11, 148)
+        Me.Label191.Location = New System.Drawing.Point(12, 134)
         Me.Label191.Name = "Label191"
-        Me.Label191.Size = New System.Drawing.Size(166, 24)
+        Me.Label191.Size = New System.Drawing.Size(252, 30)
         Me.Label191.TabIndex = 21
-        Me.Label191.Text = "Contab. Gs/Kls.:"
+        Me.Label191.Text = "Contababilidad Gs/Kls.:"
+        Me.Label191.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox150
         '
         Me.TextBox150.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox150.ForeColor = System.Drawing.Color.Black
-        Me.TextBox150.Location = New System.Drawing.Point(506, 181)
+        Me.TextBox150.Location = New System.Drawing.Point(498, 173)
         Me.TextBox150.Name = "TextBox150"
         Me.TextBox150.Size = New System.Drawing.Size(46, 30)
         Me.TextBox150.TabIndex = 24
         Me.TextBox150.Text = "000"
         Me.TextBox150.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox150, "Los gramos que tiene este carton, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "por m2.")
         '
         'TextBox149
         '
         Me.TextBox149.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox149.ForeColor = System.Drawing.Color.Black
-        Me.TextBox149.Location = New System.Drawing.Point(366, 181)
+        Me.TextBox149.Location = New System.Drawing.Point(375, 173)
         Me.TextBox149.Name = "TextBox149"
-        Me.TextBox149.Size = New System.Drawing.Size(78, 30)
+        Me.TextBox149.Size = New System.Drawing.Size(96, 30)
         Me.TextBox149.TabIndex = 24
         Me.TextBox149.Text = "00.000"
         Me.TextBox149.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox149, "Es el valor LITOPLAN Gs/Hoja." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Que se calcula." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'TextBox135
         '
         Me.TextBox135.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox135.ForeColor = System.Drawing.Color.Black
-        Me.TextBox135.Location = New System.Drawing.Point(506, 145)
+        Me.TextBox135.Location = New System.Drawing.Point(498, 134)
         Me.TextBox135.Name = "TextBox135"
         Me.TextBox135.Size = New System.Drawing.Size(46, 30)
         Me.TextBox135.TabIndex = 24
         Me.TextBox135.Text = "000"
         Me.TextBox135.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox135, "Los gramos que tiene este carton, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "por m2.")
         '
         'TextBox142
         '
         Me.TextBox142.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox142.ForeColor = System.Drawing.Color.Black
-        Me.TextBox142.Location = New System.Drawing.Point(181, 181)
+        Me.TextBox142.Location = New System.Drawing.Point(275, 173)
         Me.TextBox142.Name = "TextBox142"
-        Me.TextBox142.Size = New System.Drawing.Size(83, 30)
+        Me.TextBox142.Size = New System.Drawing.Size(80, 30)
         Me.TextBox142.TabIndex = 24
-        Me.TextBox142.Text = "000.000"
+        Me.TextBox142.Text = "00.000"
         Me.TextBox142.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox142, "Es el valor LITOPLAN Gs/kls." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Que se calcula." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'TextBox131
         '
         Me.TextBox131.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox131.ForeColor = System.Drawing.Color.Black
-        Me.TextBox131.Location = New System.Drawing.Point(366, 145)
+        Me.TextBox131.Location = New System.Drawing.Point(375, 134)
         Me.TextBox131.Name = "TextBox131"
-        Me.TextBox131.Size = New System.Drawing.Size(78, 30)
+        Me.TextBox131.Size = New System.Drawing.Size(96, 30)
         Me.TextBox131.TabIndex = 24
         Me.TextBox131.Text = "00.000"
         Me.TextBox131.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox131, "Es el valor CONTABLE Gs/Hoja." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "que salio en su momento." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'TextBox129
         '
         Me.TextBox129.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox129.ForeColor = System.Drawing.Color.Black
-        Me.TextBox129.Location = New System.Drawing.Point(469, 91)
+        Me.TextBox129.Location = New System.Drawing.Point(214, 89)
         Me.TextBox129.Name = "TextBox129"
-        Me.TextBox129.Size = New System.Drawing.Size(83, 30)
+        Me.TextBox129.Size = New System.Drawing.Size(79, 30)
         Me.TextBox129.TabIndex = 24
         Me.TextBox129.Text = "00.000"
         Me.TextBox129.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox129, "Es el valor Depósito," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " U$S por Kilos." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'TextBox104
         '
         Me.TextBox104.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox104.ForeColor = System.Drawing.Color.Black
-        Me.TextBox104.Location = New System.Drawing.Point(181, 94)
+        Me.TextBox104.Location = New System.Drawing.Point(214, 51)
         Me.TextBox104.Name = "TextBox104"
-        Me.TextBox104.Size = New System.Drawing.Size(83, 30)
+        Me.TextBox104.Size = New System.Drawing.Size(79, 30)
         Me.TextBox104.TabIndex = 24
         Me.TextBox104.Text = "00.000"
         Me.TextBox104.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox104, "Es el valor CIF comprado," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " U$S por Kilos." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'TextBox80
         '
         Me.TextBox80.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox80.ForeColor = System.Drawing.Color.Black
-        Me.TextBox80.Location = New System.Drawing.Point(181, 56)
+        Me.TextBox80.Location = New System.Drawing.Point(465, 52)
         Me.TextBox80.Name = "TextBox80"
-        Me.TextBox80.Size = New System.Drawing.Size(83, 30)
+        Me.TextBox80.Size = New System.Drawing.Size(79, 30)
         Me.TextBox80.TabIndex = 24
         Me.TextBox80.Text = "00.000"
         Me.TextBox80.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox80, "Valor del Dolar en su momento.")
         '
         'TextBox126
         '
         Me.TextBox126.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox126.ForeColor = System.Drawing.Color.Black
-        Me.TextBox126.Location = New System.Drawing.Point(181, 145)
+        Me.TextBox126.Location = New System.Drawing.Point(275, 134)
         Me.TextBox126.Name = "TextBox126"
-        Me.TextBox126.Size = New System.Drawing.Size(83, 30)
+        Me.TextBox126.Size = New System.Drawing.Size(80, 30)
         Me.TextBox126.TabIndex = 24
-        Me.TextBox126.Text = "000.000"
+        Me.TextBox126.Text = "00.000"
         Me.TextBox126.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox126, "Es el valor CONTABLE Gs/kls." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "que salio en su momento." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'Panel26
         '
         Me.Panel26.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel26.Controls.Add(Me.Label453)
+        Me.Panel26.Controls.Add(Me.Panel59)
+        Me.Panel26.Controls.Add(Me.Panel29)
+        Me.Panel26.Controls.Add(Me.Panel28)
+        Me.Panel26.Controls.Add(Me.TextBox46)
+        Me.Panel26.Controls.Add(Me.Label1)
         Me.Panel26.Controls.Add(Me.Panel156)
         Me.Panel26.Controls.Add(Me.Label8)
         Me.Panel26.Controls.Add(Me.TextBox158)
@@ -3051,15 +3266,9 @@ Partial Class MP
         Me.Panel26.Controls.Add(Me.ComboBox12)
         Me.Panel26.Controls.Add(Me.TextBox232)
         Me.Panel26.Controls.Add(Me.TextBox231)
-        Me.Panel26.Controls.Add(Me.RadioButton18)
         Me.Panel26.Controls.Add(Me.TextBox34)
         Me.Panel26.Controls.Add(Me.TextBox235)
-        Me.Panel26.Controls.Add(Me.Label154)
         Me.Panel26.Controls.Add(Me.TextBox234)
-        Me.Panel26.Controls.Add(Me.RadioButton17)
-        Me.Panel26.Controls.Add(Me.RadioButton19)
-        Me.Panel26.Controls.Add(Me.RadioButton16)
-        Me.Panel26.Controls.Add(Me.TextBox29)
         Me.Panel26.Controls.Add(Me.TextBox226)
         Me.Panel26.Controls.Add(Me.ComboBox34)
         Me.Panel26.Controls.Add(Me.ComboBox7)
@@ -3067,55 +3276,225 @@ Partial Class MP
         Me.Panel26.Controls.Add(Me.ComboBox37)
         Me.Panel26.Controls.Add(Me.ComboBox36)
         Me.Panel26.Controls.Add(Me.ComboBox38)
+        Me.Panel26.Controls.Add(Me.ComboBox44)
         Me.Panel26.Controls.Add(Me.ComboBox35)
         Me.Panel26.Controls.Add(Me.ComboBox4)
-        Me.Panel26.Controls.Add(Me.Label61)
         Me.Panel26.Controls.Add(Me.TextBox225)
         Me.Panel26.Controls.Add(Me.Label29)
-        Me.Panel26.Controls.Add(Me.Label469)
+        Me.Panel26.Controls.Add(Me.Label4)
         Me.Panel26.Controls.Add(Me.Label395)
         Me.Panel26.Controls.Add(Me.Label162)
         Me.Panel26.Controls.Add(Me.Label7)
         Me.Panel26.Controls.Add(Me.Label164)
-        Me.Panel26.Controls.Add(Me.Label57)
-        Me.Panel26.Controls.Add(Me.Label4)
-        Me.Panel26.Controls.Add(Me.Label405)
-        Me.Panel26.Controls.Add(Me.Label56)
-        Me.Panel26.Controls.Add(Me.Label54)
         Me.Panel26.Controls.Add(Me.Label463)
-        Me.Panel26.Controls.Add(Me.Label464)
-        Me.Panel26.Controls.Add(Me.Label462)
         Me.Panel26.Controls.Add(Me.Label461)
-        Me.Panel26.Controls.Add(Me.Label460)
-        Me.Panel26.Controls.Add(Me.Label459)
-        Me.Panel26.Controls.Add(Me.Label453)
         Me.Panel26.Controls.Add(Me.TextBox32)
         Me.Panel26.Location = New System.Drawing.Point(7, 49)
         Me.Panel26.Name = "Panel26"
         Me.Panel26.Size = New System.Drawing.Size(1882, 216)
         Me.Panel26.TabIndex = 169
         '
+        'Label453
+        '
+        Me.Label453.AutoSize = True
+        Me.Label453.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label453.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label453.ForeColor = System.Drawing.Color.Blue
+        Me.Label453.Location = New System.Drawing.Point(8, 110)
+        Me.Label453.Name = "Label453"
+        Me.Label453.Size = New System.Drawing.Size(126, 19)
+        Me.Label453.TabIndex = 704
+        Me.Label453.Text = "Contab y amort"
+        '
+        'Panel59
+        '
+        Me.Panel59.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel59.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel59.Controls.Add(Me.RadioButton9)
+        Me.Panel59.Controls.Add(Me.RadioButton8)
+        Me.Panel59.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel59.Location = New System.Drawing.Point(1042, 49)
+        Me.Panel59.Name = "Panel59"
+        Me.Panel59.Size = New System.Drawing.Size(541, 38)
+        Me.Panel59.TabIndex = 652
+        '
+        'RadioButton9
+        '
+        Me.RadioButton9.AutoSize = True
+        Me.RadioButton9.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton9.Checked = True
+        Me.RadioButton9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton9.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton9.Location = New System.Drawing.Point(289, 2)
+        Me.RadioButton9.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton9.Name = "RadioButton9"
+        Me.RadioButton9.Size = New System.Drawing.Size(231, 28)
+        Me.RadioButton9.TabIndex = 162
+        Me.RadioButton9.TabStop = True
+        Me.RadioButton9.Text = "Costo PRODUCCION"
+        Me.ToolTip1.SetToolTip(Me.RadioButton9, "Si el costo es ADMINISTRATIVO o de PRODUCCIÓN.")
+        Me.RadioButton9.UseVisualStyleBackColor = False
+        '
+        'RadioButton8
+        '
+        Me.RadioButton8.AutoSize = True
+        Me.RadioButton8.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton8.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton8.Location = New System.Drawing.Point(15, 2)
+        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton8.Name = "RadioButton8"
+        Me.RadioButton8.Size = New System.Drawing.Size(266, 28)
+        Me.RadioButton8.TabIndex = 162
+        Me.RadioButton8.Text = "Costo ADMINISTRACION"
+        Me.ToolTip1.SetToolTip(Me.RadioButton8, "Si el costo es ADMINISTRATIVO o de PRODUCCIÓN.")
+        Me.RadioButton8.UseVisualStyleBackColor = False
+        '
+        'Panel29
+        '
+        Me.Panel29.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel29.Controls.Add(Me.RadioButton11)
+        Me.Panel29.Controls.Add(Me.RadioButton10)
+        Me.Panel29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel29.Location = New System.Drawing.Point(566, 48)
+        Me.Panel29.Name = "Panel29"
+        Me.Panel29.Size = New System.Drawing.Size(449, 39)
+        Me.Panel29.TabIndex = 652
+        '
+        'RadioButton11
+        '
+        Me.RadioButton11.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton11.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton11.Location = New System.Drawing.Point(213, 2)
+        Me.RadioButton11.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton11.Name = "RadioButton11"
+        Me.RadioButton11.Size = New System.Drawing.Size(205, 28)
+        Me.RadioButton11.TabIndex = 162
+        Me.RadioButton11.Text = "Costo INDIRECTO"
+        Me.ToolTip1.SetToolTip(Me.RadioButton11, "El costo si es DIRECTO o INDIRECTO para la contabilidad.")
+        Me.RadioButton11.UseVisualStyleBackColor = False
+        '
+        'RadioButton10
+        '
+        Me.RadioButton10.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton10.Checked = True
+        Me.RadioButton10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton10.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton10.Location = New System.Drawing.Point(19, 2)
+        Me.RadioButton10.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton10.Name = "RadioButton10"
+        Me.RadioButton10.Size = New System.Drawing.Size(186, 28)
+        Me.RadioButton10.TabIndex = 162
+        Me.RadioButton10.TabStop = True
+        Me.RadioButton10.Text = "Costo DIRECTO"
+        Me.ToolTip1.SetToolTip(Me.RadioButton10, "El costo si es DIRECTO o INDIRECTO para la contabilidad.")
+        Me.RadioButton10.UseVisualStyleBackColor = False
+        '
+        'Panel28
+        '
+        Me.Panel28.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel28.Controls.Add(Me.RadioButton18)
+        Me.Panel28.Controls.Add(Me.RadioButton19)
+        Me.Panel28.Controls.Add(Me.Label154)
+        Me.Panel28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel28.Location = New System.Drawing.Point(1612, 49)
+        Me.Panel28.Name = "Panel28"
+        Me.Panel28.Size = New System.Drawing.Size(242, 34)
+        Me.Panel28.TabIndex = 652
+        '
+        'RadioButton18
+        '
+        Me.RadioButton18.AutoSize = True
+        Me.RadioButton18.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton18.Checked = True
+        Me.RadioButton18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton18.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton18.Location = New System.Drawing.Point(105, 2)
+        Me.RadioButton18.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton18.Name = "RadioButton18"
+        Me.RadioButton18.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton18.TabIndex = 162
+        Me.RadioButton18.TabStop = True
+        Me.RadioButton18.Text = "Si"
+        Me.ToolTip1.SetToolTip(Me.RadioButton18, "Si esta ACTIVO o INACTIVO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Si la existencia es 0 VALIDA a INACTIVO")
+        Me.RadioButton18.UseVisualStyleBackColor = False
+        '
+        'RadioButton19
+        '
+        Me.RadioButton19.AutoSize = True
+        Me.RadioButton19.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton19.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton19.Location = New System.Drawing.Point(166, 1)
+        Me.RadioButton19.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton19.Name = "RadioButton19"
+        Me.RadioButton19.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton19.TabIndex = 163
+        Me.RadioButton19.Text = "No"
+        Me.RadioButton19.UseVisualStyleBackColor = False
+        '
+        'Label154
+        '
+        Me.Label154.BackColor = System.Drawing.Color.Transparent
+        Me.Label154.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label154.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label154.Location = New System.Drawing.Point(6, 4)
+        Me.Label154.Name = "Label154"
+        Me.Label154.Size = New System.Drawing.Size(92, 24)
+        Me.Label154.TabIndex = 21
+        Me.Label154.Text = "Activo:"
+        Me.Label154.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'TextBox46
+        '
+        Me.TextBox46.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox46.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox46.Location = New System.Drawing.Point(202, 57)
+        Me.TextBox46.Name = "TextBox46"
+        Me.TextBox46.Size = New System.Drawing.Size(112, 30)
+        Me.TextBox46.TabIndex = 703
+        Me.TextBox46.Text = "0.000.000"
+        Me.TextBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox46, "El N° de CODIFICADO de esta MP.")
+        '
+        'Label1
+        '
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(18, 58)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(178, 24)
+        Me.Label1.TabIndex = 702
+        Me.Label1.Text = "Codificado N°:"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'Panel156
         '
         Me.Panel156.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel156.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel156.Controls.Add(Me.Label392)
         Me.Panel156.Controls.Add(Me.RadioButton14)
         Me.Panel156.Controls.Add(Me.RadioButton15)
-        Me.Panel156.Location = New System.Drawing.Point(1548, 142)
+        Me.Panel156.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel156.Location = New System.Drawing.Point(1588, 171)
         Me.Panel156.Name = "Panel156"
-        Me.Panel156.Size = New System.Drawing.Size(277, 34)
+        Me.Panel156.Size = New System.Drawing.Size(266, 34)
         Me.Panel156.TabIndex = 652
         '
         'Label392
         '
-        Me.Label392.AutoSize = True
         Me.Label392.BackColor = System.Drawing.Color.Transparent
+        Me.Label392.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label392.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label392.Location = New System.Drawing.Point(10, 6)
+        Me.Label392.Location = New System.Drawing.Point(8, 5)
         Me.Label392.Name = "Label392"
-        Me.Label392.Size = New System.Drawing.Size(112, 24)
+        Me.Label392.Size = New System.Drawing.Size(124, 24)
         Me.Label392.TabIndex = 21
         Me.Label392.Text = "Stock Lok:"
+        Me.Label392.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'RadioButton14
         '
@@ -3123,12 +3502,13 @@ Partial Class MP
         Me.RadioButton14.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton14.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton14.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton14.Location = New System.Drawing.Point(139, 3)
         Me.RadioButton14.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton14.Name = "RadioButton14"
         Me.RadioButton14.Size = New System.Drawing.Size(53, 28)
         Me.RadioButton14.TabIndex = 162
         Me.RadioButton14.Text = "Si"
+        Me.ToolTip1.SetToolTip(Me.RadioButton14, "Si la MP es STOCK LOT o de FABRICACION es NO.")
         Me.RadioButton14.UseVisualStyleBackColor = False
         '
         'RadioButton15
@@ -3138,7 +3518,7 @@ Partial Class MP
         Me.RadioButton15.Checked = True
         Me.RadioButton15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton15.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton15.Location = New System.Drawing.Point(200, 3)
         Me.RadioButton15.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton15.Name = "RadioButton15"
         Me.RadioButton15.Size = New System.Drawing.Size(61, 28)
@@ -3149,25 +3529,26 @@ Partial Class MP
         '
         'Label8
         '
-        Me.Label8.AutoSize = True
+        Me.Label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(11, 118)
+        Me.Label8.Location = New System.Drawing.Point(18, 136)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(89, 24)
+        Me.Label8.Size = New System.Drawing.Size(133, 29)
         Me.Label8.TabIndex = 651
-        Me.Label8.Text = "Cod. N°:"
+        Me.Label8.Text = "Proveed. N°:"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox158
         '
-        Me.TextBox158.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox158.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox158.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox158.Location = New System.Drawing.Point(104, 113)
+        Me.TextBox158.Location = New System.Drawing.Point(164, 135)
         Me.TextBox158.Name = "TextBox158"
-        Me.TextBox158.Size = New System.Drawing.Size(124, 35)
+        Me.TextBox158.Size = New System.Drawing.Size(108, 30)
         Me.TextBox158.TabIndex = 650
         Me.TextBox158.Text = "0.000.000"
         Me.TextBox158.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        Me.ToolTip1.SetToolTip(Me.TextBox158, "Numera corrido cada " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "registro nuevo de MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.ToolTip1.SetToolTip(Me.TextBox158, "El N° de PROVEEDOR de esta MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'Panel27
         '
@@ -3179,7 +3560,7 @@ Partial Class MP
         Me.Panel27.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel27.Location = New System.Drawing.Point(0, 0)
         Me.Panel27.Name = "Panel27"
-        Me.Panel27.Size = New System.Drawing.Size(1880, 43)
+        Me.Panel27.Size = New System.Drawing.Size(1878, 43)
         Me.Panel27.TabIndex = 0
         '
         'Label194
@@ -3188,7 +3569,7 @@ Partial Class MP
         Me.Label194.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label194.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label194.ForeColor = System.Drawing.Color.White
-        Me.Label194.Location = New System.Drawing.Point(804, 2)
+        Me.Label194.Location = New System.Drawing.Point(841, 2)
         Me.Label194.Name = "Label194"
         Me.Label194.Size = New System.Drawing.Size(191, 35)
         Me.Label194.TabIndex = 23
@@ -3210,14 +3591,14 @@ Partial Class MP
         Me.ComboBox26.BackColor = System.Drawing.Color.MistyRose
         Me.ComboBox26.DropDownWidth = 272
         Me.ComboBox26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox26.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox26.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox26.ForeColor = System.Drawing.Color.Black
         Me.ComboBox26.FormattingEnabled = True
         Me.ComboBox26.Items.AddRange(New Object() {"PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "PAR/ESTA/PROV/CERTI/NOMB-INS/COL/MED/1X1X1X1X", "", "Codigo para contabilidad 43 digitos total (separador-) son 10 separadores"})
-        Me.ComboBox26.Location = New System.Drawing.Point(349, 156)
+        Me.ComboBox26.Location = New System.Drawing.Point(314, 175)
         Me.ComboBox26.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox26.Name = "ComboBox26"
-        Me.ComboBox26.Size = New System.Drawing.Size(636, 37)
+        Me.ComboBox26.Size = New System.Drawing.Size(601, 32)
         Me.ComboBox26.TabIndex = 167
         Me.ToolTip1.SetToolTip(Me.ComboBox26, "El nombre de la FRACA o el bróker.")
         '
@@ -3230,7 +3611,7 @@ Partial Class MP
         Me.ComboBox2.ForeColor = System.Drawing.Color.Black
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"B/PAPI/VIT/GRA/000X000/FSC/ISEGA/PRI/333 ", "B/PAPI/VIT/GRA/000X000/FSC/ISEGA/PRI/333 ", "B/PAPI/VIT/GRA/000X000/FSC/ISEGA/PRI/333 "})
-        Me.ComboBox2.Location = New System.Drawing.Point(1039, 65)
+        Me.ComboBox2.Location = New System.Drawing.Point(1043, 96)
         Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(479, 32)
@@ -3247,287 +3628,320 @@ Partial Class MP
         Me.ComboBox12.ForeColor = System.Drawing.Color.Black
         Me.ComboBox12.FormattingEnabled = True
         Me.ComboBox12.Items.AddRange(New Object() {" GRA/000X000/FSC/VIT/PRI", " GRA/000X000/FSC/VIT/PRI ", " GRA/000X000/FSC/VIT/PRI", " GRA/000X000/FSC/VIT/PRI", " GRA/000X000/FSC/VIT/PRI", " GRA/000X000/FSC/VIT/PRI"})
-        Me.ComboBox12.Location = New System.Drawing.Point(1530, 65)
+        Me.ComboBox12.Location = New System.Drawing.Point(1545, 96)
         Me.ComboBox12.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox12.Name = "ComboBox12"
-        Me.ComboBox12.Size = New System.Drawing.Size(287, 32)
+        Me.ComboBox12.Size = New System.Drawing.Size(304, 32)
         Me.ComboBox12.TabIndex = 167
         Me.ComboBox12.Text = "GRA/000X000/FSC/VIT/PRI"
         Me.ToolTip1.SetToolTip(Me.ComboBox12, resources.GetString("ComboBox12.ToolTip"))
+        '
+        'TextBox232
+        '
+        Me.TextBox232.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox232.ForeColor = System.Drawing.Color.Red
+        Me.TextBox232.Location = New System.Drawing.Point(583, 94)
+        Me.TextBox232.Name = "TextBox232"
+        Me.TextBox232.Size = New System.Drawing.Size(68, 35)
+        Me.TextBox232.TabIndex = 24
+        Me.TextBox232.Text = "MeB333"
+        Me.ToolTip1.SetToolTip(Me.TextBox232, resources.GetString("TextBox232.ToolTip"))
         '
         'TextBox231
         '
         Me.TextBox231.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox231.ForeColor = System.Drawing.Color.Black
-        Me.TextBox231.Location = New System.Drawing.Point(527, 71)
+        Me.TextBox231.Location = New System.Drawing.Point(511, 94)
         Me.TextBox231.Name = "TextBox231"
-        Me.TextBox231.Size = New System.Drawing.Size(53, 35)
+        Me.TextBox231.Size = New System.Drawing.Size(66, 35)
         Me.TextBox231.TabIndex = 24
-        Me.TextBox231.Text = "333"
+        Me.TextBox231.Text = "MeA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "333"
         Me.ToolTip1.SetToolTip(Me.TextBox231, "Medida de la BOBINA." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "No se coloca decimal " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Se coloca sin el decimal." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Important" &
-        "e completar siempre con 3 digitos." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Si la medida es menor colocar 0 adelante" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) &
-        "")
-        '
-        'RadioButton18
-        '
-        Me.RadioButton18.AutoSize = True
-        Me.RadioButton18.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton18.Checked = True
-        Me.RadioButton18.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.RadioButton18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton18.Location = New System.Drawing.Point(1746, 161)
-        Me.RadioButton18.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton18.Name = "RadioButton18"
-        Me.RadioButton18.Size = New System.Drawing.Size(61, 28)
-        Me.RadioButton18.TabIndex = 163
-        Me.RadioButton18.TabStop = True
-        Me.RadioButton18.Text = "No"
-        Me.RadioButton18.UseVisualStyleBackColor = False
+        "e completar siempre con 3 digitos." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Si la medida es menor a 3 digitos, colocar 0" &
+        " adelante" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'TextBox34
         '
-        Me.TextBox34.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox34.ForeColor = System.Drawing.Color.Black
-        Me.TextBox34.Location = New System.Drawing.Point(1632, 113)
+        Me.TextBox34.Location = New System.Drawing.Point(1642, 135)
         Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(199, 35)
+        Me.TextBox34.Size = New System.Drawing.Size(212, 30)
         Me.TextBox34.TabIndex = 24
         Me.TextBox34.Text = "Nombre QR MP"
-        Me.ToolTip1.SetToolTip(Me.TextBox34, "Numero de QR que identifica en el " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "inventario esta MP.")
+        Me.ToolTip1.SetToolTip(Me.TextBox34, "N° de QR que identifica en el " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "inventario esta MP.")
         '
         'TextBox235
         '
-        Me.TextBox235.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox235.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox235.ForeColor = System.Drawing.Color.Black
-        Me.TextBox235.Location = New System.Drawing.Point(1117, 113)
+        Me.TextBox235.Location = New System.Drawing.Point(1086, 135)
         Me.TextBox235.Name = "TextBox235"
-        Me.TextBox235.Size = New System.Drawing.Size(293, 35)
+        Me.TextBox235.Size = New System.Drawing.Size(366, 30)
         Me.TextBox235.TabIndex = 24
         Me.TextBox235.Text = "Nombre MP del Litoplan"
-        Me.ToolTip1.SetToolTip(Me.TextBox235, "Nombre MP de LTOPLAN. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "DEBE SER EXACTAMENTE IGUAL CON EL GRAMAJE." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Para que calc" &
-        "ule LITOPLAN en todas las opciones," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "de medida." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        '
-        'Label154
-        '
-        Me.Label154.AutoSize = True
-        Me.Label154.BackColor = System.Drawing.Color.Transparent
-        Me.Label154.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label154.Location = New System.Drawing.Point(1607, 187)
-        Me.Label154.Name = "Label154"
-        Me.Label154.Size = New System.Drawing.Size(76, 24)
-        Me.Label154.TabIndex = 21
-        Me.Label154.Text = "Activo:"
+        Me.ToolTip1.SetToolTip(Me.TextBox235, "Nombre MP de LTOPLAN. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Es muy importante que sea exactamente igual y asi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CALCUL" &
+        "ARA todas las opciones de medidas.")
         '
         'TextBox234
         '
-        Me.TextBox234.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox234.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox234.ForeColor = System.Drawing.Color.Black
-        Me.TextBox234.Location = New System.Drawing.Point(517, 113)
+        Me.TextBox234.Location = New System.Drawing.Point(527, 135)
         Me.TextBox234.Name = "TextBox234"
-        Me.TextBox234.Size = New System.Drawing.Size(323, 35)
+        Me.TextBox234.Size = New System.Drawing.Size(323, 30)
         Me.TextBox234.TabIndex = 24
         Me.TextBox234.Text = "Nombre MP del Proveedor"
-        Me.ToolTip1.SetToolTip(Me.TextBox234, "Nombre MP del Proveedor, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "como identifica la fábrica." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        '
-        'RadioButton17
-        '
-        Me.RadioButton17.AutoSize = True
-        Me.RadioButton17.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton17.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton17.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton17.Location = New System.Drawing.Point(1688, 184)
-        Me.RadioButton17.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton17.Name = "RadioButton17"
-        Me.RadioButton17.Size = New System.Drawing.Size(53, 28)
-        Me.RadioButton17.TabIndex = 162
-        Me.RadioButton17.Text = "Si"
-        Me.RadioButton17.UseVisualStyleBackColor = False
-        '
-        'RadioButton19
-        '
-        Me.RadioButton19.AutoSize = True
-        Me.RadioButton19.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton19.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton19.Location = New System.Drawing.Point(1689, 161)
-        Me.RadioButton19.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton19.Name = "RadioButton19"
-        Me.RadioButton19.Size = New System.Drawing.Size(53, 28)
-        Me.RadioButton19.TabIndex = 162
-        Me.RadioButton19.Text = "Si"
-        Me.RadioButton19.UseVisualStyleBackColor = False
-        '
-        'RadioButton16
-        '
-        Me.RadioButton16.AutoSize = True
-        Me.RadioButton16.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.RadioButton16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton16.Location = New System.Drawing.Point(1745, 183)
-        Me.RadioButton16.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton16.Name = "RadioButton16"
-        Me.RadioButton16.Size = New System.Drawing.Size(61, 28)
-        Me.RadioButton16.TabIndex = 163
-        Me.RadioButton16.Text = "No"
-        Me.RadioButton16.UseVisualStyleBackColor = False
-        '
-        'TextBox29
-        '
-        Me.TextBox29.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox29.ForeColor = System.Drawing.Color.Black
-        Me.TextBox29.Location = New System.Drawing.Point(1123, 157)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(33, 35)
-        Me.TextBox29.TabIndex = 24
-        Me.TextBox29.Text = "1"
-        Me.TextBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ToolTip1.SetToolTip(Me.TextBox234, "Nombre MP del Proveedor, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
         'TextBox226
         '
         Me.TextBox226.BackColor = System.Drawing.Color.MistyRose
         Me.TextBox226.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox226.ForeColor = System.Drawing.Color.Black
-        Me.TextBox226.Location = New System.Drawing.Point(104, 73)
+        Me.TextBox226.Location = New System.Drawing.Point(97, 96)
         Me.TextBox226.Name = "TextBox226"
         Me.TextBox226.Size = New System.Drawing.Size(44, 30)
         Me.TextBox226.TabIndex = 24
         Me.TextBox226.Text = "22"
+        Me.ToolTip1.SetToolTip(Me.TextBox226, "La amortización en años de este articulo.")
         '
-        'Label61
+        'ComboBox34
         '
-        Me.Label61.AutoSize = True
-        Me.Label61.BackColor = System.Drawing.Color.Transparent
-        Me.Label61.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.Location = New System.Drawing.Point(1572, 163)
-        Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(112, 24)
-        Me.Label61.TabIndex = 21
-        Me.Label61.Text = "Stock Lok:"
+        Me.ComboBox34.BackColor = System.Drawing.Color.White
+        Me.ComboBox34.DropDownWidth = 272
+        Me.ComboBox34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox34.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox34.FormattingEnabled = True
+        Me.ComboBox34.Items.AddRange(New Object() {"000", "FSC", "", "333"})
+        Me.ComboBox34.Location = New System.Drawing.Point(661, 95)
+        Me.ComboBox34.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox34.Name = "ComboBox34"
+        Me.ComboBox34.Size = New System.Drawing.Size(82, 32)
+        Me.ComboBox34.TabIndex = 183
+        Me.ComboBox34.Text = "000"
+        Me.ToolTip1.SetToolTip(Me.ComboBox34, "Si tiene FSC" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "No tiene FSC ""000""" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "333")
+        '
+        'ComboBox7
+        '
+        Me.ComboBox7.BackColor = System.Drawing.Color.White
+        Me.ComboBox7.DropDownWidth = 272
+        Me.ComboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox7.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox7.FormattingEnabled = True
+        Me.ComboBox7.Items.AddRange(New Object() {"SEC", "PRI"})
+        Me.ComboBox7.Location = New System.Drawing.Point(867, 95)
+        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox7.Name = "ComboBox7"
+        Me.ComboBox7.Size = New System.Drawing.Size(82, 32)
+        Me.ComboBox7.TabIndex = 183
+        Me.ComboBox7.Text = "SEC"
+        Me.ToolTip1.SetToolTip(Me.ComboBox7, "Tiene INAN para embalaje SECUNDARIO o PRIMARIO")
+        '
+        'ComboBox6
+        '
+        Me.ComboBox6.BackColor = System.Drawing.Color.White
+        Me.ComboBox6.DropDownWidth = 272
+        Me.ComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox6.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox6.FormattingEnabled = True
+        Me.ComboBox6.Items.AddRange(New Object() {"00000", "INAN0", "ANVISA", "CETEA", "RDC00", "GQSR0", "22000", "90010", "", "", "", "55555"})
+        Me.ComboBox6.Location = New System.Drawing.Point(752, 95)
+        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox6.Name = "ComboBox6"
+        Me.ComboBox6.Size = New System.Drawing.Size(104, 32)
+        Me.ComboBox6.TabIndex = 183
+        Me.ComboBox6.Text = "CERTF"
+        Me.ToolTip1.SetToolTip(Me.ComboBox6, "El certificado que tiene la MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'ComboBox37
+        '
+        Me.ComboBox37.BackColor = System.Drawing.Color.White
+        Me.ComboBox37.DropDownWidth = 272
+        Me.ComboBox37.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox37.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox37.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox37.FormattingEnabled = True
+        Me.ComboBox37.Items.AddRange(New Object() {"IBEM", "PAPI", "STOR", "PALE", "METS", "KORA", "TROE", "ROXE", "TROE", "", "", "", "", "4444"})
+        Me.ComboBox37.Location = New System.Drawing.Point(234, 95)
+        Me.ComboBox37.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox37.Name = "ComboBox37"
+        Me.ComboBox37.Size = New System.Drawing.Size(86, 32)
+        Me.ComboBox37.TabIndex = 183
+        Me.ComboBox37.Text = "Fabrica"
+        Me.ToolTip1.SetToolTip(Me.ComboBox37, "Listado de Fabricas MP.")
+        '
+        'ComboBox36
+        '
+        Me.ComboBox36.BackColor = System.Drawing.Color.White
+        Me.ComboBox36.DropDownWidth = 272
+        Me.ComboBox36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox36.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox36.FormattingEnabled = True
+        Me.ComboBox36.Items.AddRange(New Object() {"GC1", "GC2", "VIT", "SUP", "ILU", "OBR", "ALU", "AUT", "TRI", "DUP", "GEN", "", "", "", "333"})
+        Me.ComboBox36.Location = New System.Drawing.Point(336, 95)
+        Me.ComboBox36.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox36.Name = "ComboBox36"
+        Me.ComboBox36.Size = New System.Drawing.Size(78, 32)
+        Me.ComboBox36.TabIndex = 183
+        Me.ComboBox36.Text = "GC1"
+        Me.ToolTip1.SetToolTip(Me.ComboBox36, "El tipo de MP")
+        '
+        'ComboBox38
+        '
+        Me.ComboBox38.BackColor = System.Drawing.Color.White
+        Me.ComboBox38.DropDownWidth = 272
+        Me.ComboBox38.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox38.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox38.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox38.FormattingEnabled = True
+        Me.ComboBox38.Items.AddRange(New Object() {"B", "H", "", "", "", "1"})
+        Me.ComboBox38.Location = New System.Drawing.Point(158, 95)
+        Me.ComboBox38.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox38.Name = "ComboBox38"
+        Me.ComboBox38.Size = New System.Drawing.Size(60, 32)
+        Me.ComboBox38.TabIndex = 183
+        Me.ComboBox38.Text = "BOBINA"
+        Me.ToolTip1.SetToolTip(Me.ComboBox38, "B en el caso de que la MP sea BOBINA." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "H en el caso de que la MP sea HOJA.")
+        '
+        'ComboBox44
+        '
+        Me.ComboBox44.BackColor = System.Drawing.Color.White
+        Me.ComboBox44.DropDownWidth = 272
+        Me.ComboBox44.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox44.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox44.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox44.FormattingEnabled = True
+        Me.ComboBox44.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"})
+        Me.ComboBox44.Location = New System.Drawing.Point(479, 52)
+        Me.ComboBox44.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox44.Name = "ComboBox44"
+        Me.ComboBox44.Size = New System.Drawing.Size(79, 32)
+        Me.ComboBox44.TabIndex = 183
+        Me.ComboBox44.Text = "1"
+        Me.ToolTip1.SetToolTip(Me.ComboBox44, "Es el N° de DEPOSITO que se guarda." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Es importante tambien para la CONTABILIDAD.")
+        '
+        'ComboBox35
+        '
+        Me.ComboBox35.BackColor = System.Drawing.Color.White
+        Me.ComboBox35.DropDownWidth = 272
+        Me.ComboBox35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox35.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox35.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox35.FormattingEnabled = True
+        Me.ComboBox35.Items.AddRange(New Object() {"040", "056", "060", "070", "090", "115", "120", "130", "150", "170", "180", "190", "200", "205", "210", "215", "220", "225", "230", "235", "240", "245", "250", "255", "260", "265", "270", "275", "280", "285", "290", "300", "305", "310", "315", "320", "325", "330", "335", "340", "350", "360", "370", "380", "390", "400", "405", "415", "420", "425", "430", "440", "450", "460", "470", "480", "490", "500", "", "", "", "333"})
+        Me.ComboBox35.Location = New System.Drawing.Point(422, 95)
+        Me.ComboBox35.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox35.Name = "ComboBox35"
+        Me.ComboBox35.Size = New System.Drawing.Size(79, 32)
+        Me.ComboBox35.TabIndex = 183
+        Me.ComboBox35.Text = "GRAMAJE"
+        Me.ToolTip1.SetToolTip(Me.ComboBox35, "El Gramaje de la MP.")
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.BackColor = System.Drawing.Color.White
+        Me.ComboBox4.DropDownWidth = 272
+        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"BRA", "CIL", "USA", "EUR", "CHI", "IND", "NUE", "", "333"})
+        Me.ComboBox4.Location = New System.Drawing.Point(957, 95)
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(70, 32)
+        Me.ComboBox4.TabIndex = 183
+        Me.ComboBox4.Text = "PAIS"
+        Me.ToolTip1.SetToolTip(Me.ComboBox4, "El origen de la MP.")
         '
         'TextBox225
         '
         Me.TextBox225.BackColor = System.Drawing.Color.MistyRose
         Me.TextBox225.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox225.ForeColor = System.Drawing.Color.Black
-        Me.TextBox225.Location = New System.Drawing.Point(27, 73)
+        Me.TextBox225.Location = New System.Drawing.Point(17, 98)
         Me.TextBox225.Name = "TextBox225"
         Me.TextBox225.Size = New System.Drawing.Size(65, 30)
         Me.TextBox225.TabIndex = 24
         Me.TextBox225.Text = "4444"
+        Me.ToolTip1.SetToolTip(Me.TextBox225, "El  N° Contable que pertenece COD. CONTABLE ARTICULO")
         '
         'Label29
         '
-        Me.Label29.AutoSize = True
         Me.Label29.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label29.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(1431, 116)
+        Me.Label29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(1458, 136)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(196, 29)
+        Me.Label29.Size = New System.Drawing.Size(179, 29)
         Me.Label29.TabIndex = 21
         Me.Label29.Text = "Nombre QR MP:"
-        '
-        'Label469
-        '
-        Me.Label469.AutoSize = True
-        Me.Label469.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label469.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label469.Location = New System.Drawing.Point(855, 116)
-        Me.Label469.Name = "Label469"
-        Me.Label469.Size = New System.Drawing.Size(256, 29)
-        Me.Label469.TabIndex = 21
-        Me.Label469.Text = "Nombre Litoplan MP:"
-        '
-        'Label395
-        '
-        Me.Label395.AutoSize = True
-        Me.Label395.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label395.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label395.Location = New System.Drawing.Point(232, 116)
-        Me.Label395.Name = "Label395"
-        Me.Label395.Size = New System.Drawing.Size(279, 29)
-        Me.Label395.TabIndex = 21
-        Me.Label395.Text = "Nombre Proveedor MP:"
-        '
-        'Label162
-        '
-        Me.Label162.AutoSize = True
-        Me.Label162.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label162.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label162.Location = New System.Drawing.Point(15, 160)
-        Me.Label162.Name = "Label162"
-        Me.Label162.Size = New System.Drawing.Size(327, 29)
-        Me.Label162.TabIndex = 21
-        Me.Label162.Text = "Cod.. Contable  ARTICULO:"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(992, 160)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(130, 29)
-        Me.Label7.TabIndex = 21
-        Me.Label7.Text = "Deposito.:"
-        '
-        'Label164
-        '
-        Me.Label164.AutoSize = True
-        Me.Label164.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label164.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label164.Location = New System.Drawing.Point(1163, 160)
-        Me.Label164.Name = "Label164"
-        Me.Label164.Size = New System.Drawing.Size(152, 29)
-        Me.Label164.TabIndex = 21
-        Me.Label164.Text = "CTA./CONT.:"
-        '
-        'Label57
-        '
-        Me.Label57.AutoSize = True
-        Me.Label57.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label57.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.ForeColor = System.Drawing.Color.Blue
-        Me.Label57.Location = New System.Drawing.Point(1658, 45)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(112, 19)
-        Me.Label57.TabIndex = 21
-        Me.Label57.Text = "Codigo Corto"
+        Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label4
         '
-        Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Blue
-        Me.Label4.Location = New System.Drawing.Point(943, 42)
+        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(837, 135)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(42, 19)
+        Me.Label4.Size = New System.Drawing.Size(243, 30)
         Me.Label4.TabIndex = 21
-        Me.Label4.Text = "Pais"
+        Me.Label4.Text = "Nombre Litoplan MP:"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Label56
+        'Label395
         '
-        Me.Label56.AutoSize = True
-        Me.Label56.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label56.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.ForeColor = System.Drawing.Color.Blue
-        Me.Label56.Location = New System.Drawing.Point(1035, 45)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(114, 19)
-        Me.Label56.TabIndex = 21
-        Me.Label56.Text = "Codigo Largo"
+        Me.Label395.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label395.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label395.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label395.Location = New System.Drawing.Point(278, 135)
+        Me.Label395.Name = "Label395"
+        Me.Label395.Size = New System.Drawing.Size(243, 30)
+        Me.Label395.TabIndex = 21
+        Me.Label395.Text = "Nombre Proveedor MP:"
+        Me.Label395.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Label54
+        'Label162
         '
-        Me.Label54.AutoSize = True
-        Me.Label54.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label54.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.ForeColor = System.Drawing.Color.Blue
-        Me.Label54.Location = New System.Drawing.Point(750, 48)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(79, 19)
-        Me.Label54.TabIndex = 21
-        Me.Label54.Text = "SERTIFC"
+        Me.Label162.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label162.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label162.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label162.Location = New System.Drawing.Point(18, 175)
+        Me.Label162.Name = "Label162"
+        Me.Label162.Size = New System.Drawing.Size(289, 32)
+        Me.Label162.TabIndex = 21
+        Me.Label162.Text = "Cod. Contable  ARTICULO:"
+        Me.Label162.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label7
+        '
+        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(342, 55)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(130, 30)
+        Me.Label7.TabIndex = 21
+        Me.Label7.Text = "Deposito.:"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label164
+        '
+        Me.Label164.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label164.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label164.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label164.Location = New System.Drawing.Point(950, 176)
+        Me.Label164.Name = "Label164"
+        Me.Label164.Size = New System.Drawing.Size(152, 30)
+        Me.Label164.TabIndex = 21
+        Me.Label164.Text = "CTA./CONT.:"
+        Me.Label164.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label463
         '
@@ -3535,35 +3949,10 @@ Partial Class MP
         Me.Label463.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label463.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label463.ForeColor = System.Drawing.Color.Blue
-        Me.Label463.Location = New System.Drawing.Point(524, 49)
+        Me.Label463.Location = New System.Drawing.Point(524, 72)
         Me.Label463.Name = "Label463"
-        Me.Label463.Size = New System.Drawing.Size(137, 19)
+        Me.Label463.Size = New System.Drawing.Size(0, 19)
         Me.Label463.TabIndex = 21
-        Me.Label463.Text = "Medida A y B cm "
-        '
-        'Label464
-        '
-        Me.Label464.AutoSize = True
-        Me.Label464.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label464.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label464.ForeColor = System.Drawing.Color.Blue
-        Me.Label464.Location = New System.Drawing.Point(660, 49)
-        Me.Label464.Name = "Label464"
-        Me.Label464.Size = New System.Drawing.Size(42, 19)
-        Me.Label464.TabIndex = 21
-        Me.Label464.Text = "FSC"
-        '
-        'Label462
-        '
-        Me.Label462.AutoSize = True
-        Me.Label462.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label462.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label462.ForeColor = System.Drawing.Color.Blue
-        Me.Label462.Location = New System.Drawing.Point(445, 49)
-        Me.Label462.Name = "Label462"
-        Me.Label462.Size = New System.Drawing.Size(72, 19)
-        Me.Label462.TabIndex = 21
-        Me.Label462.Text = "Gramaje"
         '
         'Label461
         '
@@ -3571,133 +3960,68 @@ Partial Class MP
         Me.Label461.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label461.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label461.ForeColor = System.Drawing.Color.Blue
-        Me.Label461.Location = New System.Drawing.Point(353, 48)
+        Me.Label461.Location = New System.Drawing.Point(353, 72)
         Me.Label461.Name = "Label461"
-        Me.Label461.Size = New System.Drawing.Size(53, 19)
+        Me.Label461.Size = New System.Drawing.Size(0, 19)
         Me.Label461.TabIndex = 21
-        Me.Label461.Text = "GC1X"
-        '
-        'Label460
-        '
-        Me.Label460.AutoSize = True
-        Me.Label460.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label460.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label460.ForeColor = System.Drawing.Color.Blue
-        Me.Label460.Location = New System.Drawing.Point(248, 49)
-        Me.Label460.Name = "Label460"
-        Me.Label460.Size = New System.Drawing.Size(66, 19)
-        Me.Label460.TabIndex = 21
-        Me.Label460.Text = "Fabrica"
-        '
-        'Label459
-        '
-        Me.Label459.AutoSize = True
-        Me.Label459.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label459.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label459.ForeColor = System.Drawing.Color.Blue
-        Me.Label459.Location = New System.Drawing.Point(140, 48)
-        Me.Label459.Name = "Label459"
-        Me.Label459.Size = New System.Drawing.Size(64, 19)
-        Me.Label459.TabIndex = 21
-        Me.Label459.Text = "Bobina"
-        '
-        'Label453
-        '
-        Me.Label453.AutoSize = True
-        Me.Label453.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label453.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label453.ForeColor = System.Drawing.Color.Blue
-        Me.Label453.Location = New System.Drawing.Point(14, 48)
-        Me.Label453.Name = "Label453"
-        Me.Label453.Size = New System.Drawing.Size(126, 19)
-        Me.Label453.TabIndex = 21
-        Me.Label453.Text = "Contab y amort"
         '
         'TextBox32
         '
-        Me.TextBox32.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox32.ForeColor = System.Drawing.Color.Black
-        Me.TextBox32.Location = New System.Drawing.Point(1323, 157)
+        Me.TextBox32.Location = New System.Drawing.Point(1110, 175)
         Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New System.Drawing.Size(227, 35)
+        Me.TextBox32.Size = New System.Drawing.Size(227, 30)
         Me.TextBox32.TabIndex = 24
         Me.TextBox32.Text = "00000000-0-00-00"
         Me.TextBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ToolTip1.SetToolTip(Me.TextBox32, "Cuenta contable asociada de este Items.")
         '
         'Panel24
         '
         Me.Panel24.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel24.Controls.Add(Me.RadioButton9)
-        Me.Panel24.Controls.Add(Me.RadioButton10)
-        Me.Panel24.Controls.Add(Me.RadioButton8)
-        Me.Panel24.Controls.Add(Me.RadioButton11)
+        Me.Panel24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel24.Controls.Add(Me.ComboBox41)
         Me.Panel24.Controls.Add(Me.ComboBox39)
         Me.Panel24.Controls.Add(Me.ComboBox10)
+        Me.Panel24.Controls.Add(Me.ComboBox43)
+        Me.Panel24.Controls.Add(Me.ComboBox42)
         Me.Panel24.Controls.Add(Me.ComboBox9)
         Me.Panel24.Controls.Add(Me.Panel25)
-        Me.Panel24.Controls.Add(Me.Label153)
-        Me.Panel24.Controls.Add(Me.Label73)
-        Me.Panel24.Location = New System.Drawing.Point(346, 615)
+        Me.Panel24.Location = New System.Drawing.Point(407, 600)
         Me.Panel24.Name = "Panel24"
-        Me.Panel24.Size = New System.Drawing.Size(479, 311)
+        Me.Panel24.Size = New System.Drawing.Size(450, 323)
         Me.Panel24.TabIndex = 169
         '
-        'RadioButton9
+        'ComboBox41
         '
-        Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton9.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton9.Location = New System.Drawing.Point(188, 268)
-        Me.RadioButton9.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(231, 28)
-        Me.RadioButton9.TabIndex = 162
-        Me.RadioButton9.Text = "Costo PRODUCCION"
-        Me.RadioButton9.UseVisualStyleBackColor = False
+        Me.ComboBox41.BackColor = System.Drawing.Color.White
+        Me.ComboBox41.DropDownWidth = 272
+        Me.ComboBox41.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox41.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox41.FormattingEnabled = True
+        Me.ComboBox41.Items.AddRange(New Object() {"+595 981 198526 DI", "+595 981 793119 GA", "+595 982 159330 Contabilidad", "+595 985 908572 GC", "+595 985 908571 EC FERNANDO", "+595 985 930375 EC MIRTA", "+595 984 184130 EC ESTELA", "+595 982 314000 RECEPCION", "+595 982 221628 FACTURACION", "+595 981 299705 INFORMATICA", "+595 983 187305 RRHH", "+595 985 593014 COMPRAS ", "+595 992 927237 PREPRENSA", "+595 992 927228 PRESUPUESTOS", "+595 983 188834 PLANIFICACION", "+595 982 936196 JEFE DE PLANTA", "+595 983 711835 JE CC", "+595 992 927237 JE PREPRENSA", "+595 986 930877 JE MANTENIMIENTO", "+595 985 326271 JE EXPEDICION", "+595 985 753864 SU DEPOSITO", "+595 982 125480 SU IMPRESIÓN", "+595 981 294987 SU TROQUELADO", "+595 985 723195 SU PEGADO", "+595 985 592171 GUARDIA"})
+        Me.ComboBox41.Location = New System.Drawing.Point(63, 134)
+        Me.ComboBox41.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox41.Name = "ComboBox41"
+        Me.ComboBox41.Size = New System.Drawing.Size(316, 32)
+        Me.ComboBox41.TabIndex = 171
+        Me.ComboBox41.Text = "+595 985 593014 COMPRAS "
         '
-        'RadioButton10
+        'ComboBox39
         '
-        Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton10.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton10.Location = New System.Drawing.Point(13, 169)
-        Me.RadioButton10.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(186, 28)
-        Me.RadioButton10.TabIndex = 162
-        Me.RadioButton10.Text = "Costo DIRECTO"
-        Me.RadioButton10.UseVisualStyleBackColor = False
-        '
-        'RadioButton8
-        '
-        Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton8.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton8.Location = New System.Drawing.Point(188, 234)
-        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(266, 28)
-        Me.RadioButton8.TabIndex = 162
-        Me.RadioButton8.Text = "Costo ADMINISTRACION"
-        Me.RadioButton8.UseVisualStyleBackColor = False
-        '
-        'RadioButton11
-        '
-        Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton11.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton11.Location = New System.Drawing.Point(13, 203)
-        Me.RadioButton11.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(205, 28)
-        Me.RadioButton11.TabIndex = 162
-        Me.RadioButton11.Text = "Costo INDIRECTO"
-        Me.RadioButton11.UseVisualStyleBackColor = False
+        Me.ComboBox39.BackColor = System.Drawing.Color.White
+        Me.ComboBox39.DropDownWidth = 272
+        Me.ComboBox39.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox39.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox39.FormattingEnabled = True
+        Me.ComboBox39.Items.AddRange(New Object() {"+595 981 198526 DI", "+595 981 793119 GA", "+595 982 159330 Contabilidad", "+595 985 908572 GC", "+595 985 908571 EC FERNANDO", "+595 985 930375 EC MIRTA", "+595 984 184130 EC ESTELA", "+595 982 314000 RECEPCION", "+595 982 221628 FACTURACION", "+595 981 299705 INFORMATICA", "+595 983 187305 RRHH", "+595 985 593014 COMPRAS ", "+595 992 927237 PREPRENSA", "+595 992 927228 PRESUPUESTOS", "+595 983 188834 PLANIFICACION", "+595 982 936196 JEFE DE PLANTA", "+595 983 711835 JE CC", "+595 992 927237 JE PREPRENSA", "+595 986 930877 JE MANTENIMIENTO", "+595 985 326271 JE EXPEDICION", "+595 985 753864 SU DEPOSITO", "+595 982 125480 SU IMPRESIÓN", "+595 981 294987 SU TROQUELADO", "+595 985 723195 SU PEGADO", "+595 985 592171 GUARDIA"})
+        Me.ComboBox39.Location = New System.Drawing.Point(63, 94)
+        Me.ComboBox39.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox39.Name = "ComboBox39"
+        Me.ComboBox39.Size = New System.Drawing.Size(316, 32)
+        Me.ComboBox39.TabIndex = 171
+        Me.ComboBox39.Text = "+595 985 593014 COMPRAS "
         '
         'ComboBox10
         '
@@ -3707,26 +4031,58 @@ Partial Class MP
         Me.ComboBox10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox10.FormattingEnabled = True
         Me.ComboBox10.Items.AddRange(New Object() {"+595 981 198526 DI", "+595 981 793119 GA", "+595 982 159330 Contabilidad", "+595 985 908572 GC", "+595 985 908571 EC FERNANDO", "+595 985 930375 EC MIRTA", "+595 984 184130 EC ESTELA", "+595 982 314000 RECEPCION", "+595 982 221628 FACTURACION", "+595 981 299705 INFORMATICA", "+595 983 187305 RRHH", "+595 985 593014 COMPRAS ", "+595 992 927237 PREPRENSA", "+595 992 927228 PRESUPUESTOS", "+595 983 188834 PLANIFICACION", "+595 982 936196 JEFE DE PLANTA", "+595 983 711835 JE CC", "+595 992 927237 JE PREPRENSA", "+595 986 930877 JE MANTENIMIENTO", "+595 985 326271 JE EXPEDICION", "+595 985 753864 SU DEPOSITO", "+595 982 125480 SU IMPRESIÓN", "+595 981 294987 SU TROQUELADO", "+595 985 723195 SU PEGADO", "+595 985 592171 GUARDIA"})
-        Me.ComboBox10.Location = New System.Drawing.Point(151, 55)
+        Me.ComboBox10.Location = New System.Drawing.Point(63, 55)
         Me.ComboBox10.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox10.Name = "ComboBox10"
         Me.ComboBox10.Size = New System.Drawing.Size(316, 32)
         Me.ComboBox10.TabIndex = 171
         Me.ComboBox10.Text = "+595 985 593014 COMPRAS "
         '
+        'ComboBox43
+        '
+        Me.ComboBox43.BackColor = System.Drawing.Color.White
+        Me.ComboBox43.DropDownWidth = 272
+        Me.ComboBox43.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox43.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox43.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox43.FormattingEnabled = True
+        Me.ComboBox43.Items.AddRange(New Object() {"ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "", "Email de Gama "})
+        Me.ComboBox43.Location = New System.Drawing.Point(24, 270)
+        Me.ComboBox43.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox43.Name = "ComboBox43"
+        Me.ComboBox43.Size = New System.Drawing.Size(403, 32)
+        Me.ComboBox43.TabIndex = 175
+        Me.ComboBox43.Text = "compras@gama.com.py"
+        '
+        'ComboBox42
+        '
+        Me.ComboBox42.BackColor = System.Drawing.Color.White
+        Me.ComboBox42.DropDownWidth = 272
+        Me.ComboBox42.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox42.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox42.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox42.FormattingEnabled = True
+        Me.ComboBox42.Items.AddRange(New Object() {"ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "", "Email de Gama "})
+        Me.ComboBox42.Location = New System.Drawing.Point(24, 227)
+        Me.ComboBox42.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox42.Name = "ComboBox42"
+        Me.ComboBox42.Size = New System.Drawing.Size(403, 32)
+        Me.ComboBox42.TabIndex = 175
+        Me.ComboBox42.Text = "compras@gama.com.py"
+        '
         'ComboBox9
         '
         Me.ComboBox9.BackColor = System.Drawing.Color.White
         Me.ComboBox9.DropDownWidth = 272
         Me.ComboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox9.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox9.ForeColor = System.Drawing.Color.Black
         Me.ComboBox9.FormattingEnabled = True
         Me.ComboBox9.Items.AddRange(New Object() {"ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "ggggggggg@gama.com.py", "", "Email de Gama "})
-        Me.ComboBox9.Location = New System.Drawing.Point(90, 128)
+        Me.ComboBox9.Location = New System.Drawing.Point(24, 182)
         Me.ComboBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox9.Name = "ComboBox9"
-        Me.ComboBox9.Size = New System.Drawing.Size(377, 37)
+        Me.ComboBox9.Size = New System.Drawing.Size(403, 32)
         Me.ComboBox9.TabIndex = 175
         Me.ComboBox9.Text = "compras@gama.com.py"
         '
@@ -3741,7 +4097,7 @@ Partial Class MP
         Me.Panel25.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel25.Location = New System.Drawing.Point(0, 0)
         Me.Panel25.Name = "Panel25"
-        Me.Panel25.Size = New System.Drawing.Size(477, 43)
+        Me.Panel25.Size = New System.Drawing.Size(446, 43)
         Me.Panel25.TabIndex = 0
         '
         'PictureBox4
@@ -3760,11 +4116,11 @@ Partial Class MP
         Me.Label20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label20.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.White
-        Me.Label20.Location = New System.Drawing.Point(120, 1)
+        Me.Label20.Location = New System.Drawing.Point(158, 0)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(224, 35)
+        Me.Label20.Size = New System.Drawing.Size(162, 35)
         Me.Label20.TabIndex = 23
-        Me.Label20.Text = "CONTABILIDAD"
+        Me.Label20.Text = "Stock Bajo"
         '
         'Label155
         '
@@ -3777,64 +4133,19 @@ Partial Class MP
         Me.Label155.TabIndex = 5
         Me.Label155.Text = "CLIENTE"
         '
-        'Label153
-        '
-        Me.Label153.AutoSize = True
-        Me.Label153.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label153.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label153.Location = New System.Drawing.Point(13, 133)
-        Me.Label153.Name = "Label153"
-        Me.Label153.Size = New System.Drawing.Size(70, 26)
-        Me.Label153.TabIndex = 20
-        Me.Label153.Text = "Email:"
-        '
-        'Label73
-        '
-        Me.Label73.AutoSize = True
-        Me.Label73.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label73.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(12, 55)
-        Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(132, 26)
-        Me.Label73.TabIndex = 20
-        Me.Label73.Text = "Envio Alerta:"
-        '
         'Panel22
         '
         Me.Panel22.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel22.Controls.Add(Me.Panel23)
-        Me.Panel22.Controls.Add(Me.Label46)
-        Me.Panel22.Controls.Add(Me.Label156)
-        Me.Panel22.Controls.Add(Me.TextBox56)
-        Me.Panel22.Controls.Add(Me.TextBox14)
-        Me.Panel22.Controls.Add(Me.TextBox35)
-        Me.Panel22.Controls.Add(Me.TextBox54)
-        Me.Panel22.Controls.Add(Me.Label173)
-        Me.Panel22.Controls.Add(Me.Label175)
-        Me.Panel22.Controls.Add(Me.TextBox15)
-        Me.Panel22.Controls.Add(Me.TextBox166)
-        Me.Panel22.Controls.Add(Me.TextBox165)
-        Me.Panel22.Controls.Add(Me.TextBox164)
-        Me.Panel22.Controls.Add(Me.Label74)
-        Me.Panel22.Controls.Add(Me.TextBox163)
-        Me.Panel22.Controls.Add(Me.Label68)
-        Me.Panel22.Controls.Add(Me.TextBox28)
-        Me.Panel22.Controls.Add(Me.Label66)
-        Me.Panel22.Controls.Add(Me.Label63)
-        Me.Panel22.Controls.Add(Me.Label64)
-        Me.Panel22.Controls.Add(Me.TextBox30)
-        Me.Panel22.Controls.Add(Me.TextBox162)
-        Me.Panel22.Controls.Add(Me.TextBox55)
-        Me.Panel22.Controls.Add(Me.Label176)
-        Me.Panel22.Controls.Add(Me.Label177)
+        Me.Panel22.Controls.Add(Me.Panel178)
+        Me.Panel22.Controls.Add(Me.Panel177)
+        Me.Panel22.Controls.Add(Me.Panel176)
         Me.Panel22.Controls.Add(Me.Label3)
         Me.Panel22.Controls.Add(Me.ComboBox107)
-        Me.Panel22.Controls.Add(Me.Label60)
-        Me.Panel22.Controls.Add(Me.Label6)
         Me.Panel22.Location = New System.Drawing.Point(8, 276)
         Me.Panel22.Name = "Panel22"
-        Me.Panel22.Size = New System.Drawing.Size(326, 650)
+        Me.Panel22.Size = New System.Drawing.Size(393, 650)
         Me.Panel22.TabIndex = 169
         '
         'Panel23
@@ -3847,7 +4158,7 @@ Partial Class MP
         Me.Panel23.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel23.Location = New System.Drawing.Point(0, 0)
         Me.Panel23.Name = "Panel23"
-        Me.Panel23.Size = New System.Drawing.Size(324, 43)
+        Me.Panel23.Size = New System.Drawing.Size(389, 43)
         Me.Panel23.TabIndex = 0
         '
         'Label10
@@ -3856,7 +4167,7 @@ Partial Class MP
         Me.Label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label10.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(88, 2)
+        Me.Label10.Location = New System.Drawing.Point(129, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(140, 35)
         Me.Label10.TabIndex = 23
@@ -3873,280 +4184,336 @@ Partial Class MP
         Me.Label17.TabIndex = 5
         Me.Label17.Text = "CLIENTE"
         '
-        'Label46
+        'Panel178
         '
-        Me.Label46.AutoSize = True
-        Me.Label46.BackColor = System.Drawing.Color.Transparent
-        Me.Label46.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(36, 140)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(171, 24)
-        Me.Label46.TabIndex = 21
-        Me.Label46.Text = "Stock MP Pliego:"
+        Me.Panel178.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel178.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel178.Controls.Add(Me.TextBox29)
+        Me.Panel178.Controls.Add(Me.Label56)
+        Me.Panel178.Controls.Add(Me.TextBox28)
+        Me.Panel178.Controls.Add(Me.Label54)
+        Me.Panel178.Controls.Add(Me.TextBox15)
+        Me.Panel178.Controls.Add(Me.Label63)
+        Me.Panel178.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel178.Location = New System.Drawing.Point(11, 443)
+        Me.Panel178.Name = "Panel178"
+        Me.Panel178.Size = New System.Drawing.Size(366, 168)
+        Me.Panel178.TabIndex = 652
         '
-        'Label156
+        'TextBox29
         '
-        Me.Label156.AutoSize = True
-        Me.Label156.BackColor = System.Drawing.Color.Transparent
-        Me.Label156.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label156.Location = New System.Drawing.Point(58, 293)
-        Me.Label156.Name = "Label156"
-        Me.Label156.Size = New System.Drawing.Size(149, 24)
-        Me.Label156.TabIndex = 21
-        Me.Label156.Text = "Stock MP Kls.:"
+        Me.TextBox29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox29.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox29.Location = New System.Drawing.Point(304, 73)
+        Me.TextBox29.Name = "TextBox29"
+        Me.TextBox29.Size = New System.Drawing.Size(47, 30)
+        Me.TextBox29.TabIndex = 31
+        Me.TextBox29.Text = "0"
+        Me.TextBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ToolTip1.SetToolTip(Me.TextBox29, "La cantidad de meses que se cubre," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " con la totalidad de MP que se pidio." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Segun " &
+        "el promedio que se tiene de consumo.")
         '
-        'TextBox56
+        'Label56
         '
-        Me.TextBox56.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox56.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox56.Location = New System.Drawing.Point(215, 290)
-        Me.TextBox56.Name = "TextBox56"
-        Me.TextBox56.Size = New System.Drawing.Size(91, 30)
-        Me.TextBox56.TabIndex = 24
-        Me.TextBox56.Text = "000.000"
-        Me.TextBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Label56.BackColor = System.Drawing.Color.Transparent
+        Me.Label56.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label56.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Location = New System.Drawing.Point(8, 54)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(290, 49)
+        Me.Label56.TabIndex = 27
+        Me.Label56.Text = "Segun promedio de consumo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " en camino, Ton Meses:"
+        Me.Label56.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'TextBox14
+        'TextBox28
         '
-        Me.TextBox14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox14.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox14.Location = New System.Drawing.Point(215, 137)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(91, 30)
-        Me.TextBox14.TabIndex = 24
-        Me.TextBox14.Text = "000.000"
-        Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.TextBox28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox28.Location = New System.Drawing.Point(306, 15)
+        Me.TextBox28.Name = "TextBox28"
+        Me.TextBox28.Size = New System.Drawing.Size(47, 30)
+        Me.TextBox28.TabIndex = 31
+        Me.TextBox28.Text = "000"
+        Me.TextBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox28, "La sumatoria de todos los meses," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " que se coloco de MP, ancanza la" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "cantidad de t" &
+        "oneladas.")
         '
-        'TextBox35
+        'Label54
         '
-        Me.TextBox35.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox35.ForeColor = System.Drawing.Color.Black
-        Me.TextBox35.Location = New System.Drawing.Point(215, 326)
-        Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(91, 30)
-        Me.TextBox35.TabIndex = 24
-        Me.TextBox35.Text = "000.000"
-        Me.TextBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'TextBox54
-        '
-        Me.TextBox54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox54.ForeColor = System.Drawing.Color.Black
-        Me.TextBox54.Location = New System.Drawing.Point(215, 173)
-        Me.TextBox54.Name = "TextBox54"
-        Me.TextBox54.Size = New System.Drawing.Size(91, 30)
-        Me.TextBox54.TabIndex = 24
-        Me.TextBox54.Text = "000.000"
-        Me.TextBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'Label173
-        '
-        Me.Label173.AutoSize = True
-        Me.Label173.BackColor = System.Drawing.Color.Transparent
-        Me.Label173.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label173.Location = New System.Drawing.Point(54, 208)
-        Me.Label173.Name = "Label173"
-        Me.Label173.Size = New System.Drawing.Size(153, 24)
-        Me.Label173.TabIndex = 21
-        Me.Label173.Text = "SAP Gs/Pliego:"
-        '
-        'Label175
-        '
-        Me.Label175.AutoSize = True
-        Me.Label175.BackColor = System.Drawing.Color.Transparent
-        Me.Label175.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label175.Location = New System.Drawing.Point(79, 361)
-        Me.Label175.Name = "Label175"
-        Me.Label175.Size = New System.Drawing.Size(128, 24)
-        Me.Label175.TabIndex = 21
-        Me.Label175.Text = "SAP Gs/kls.:"
+        Me.Label54.BackColor = System.Drawing.Color.Transparent
+        Me.Label54.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.Location = New System.Drawing.Point(8, 15)
+        Me.Label54.Name = "Label54"
+        Me.Label54.Size = New System.Drawing.Size(290, 30)
+        Me.Label54.TabIndex = 27
+        Me.Label54.Text = "Confirmado MP total Ton.:"
+        Me.Label54.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox15
         '
         Me.TextBox15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox15.ForeColor = System.Drawing.Color.Black
-        Me.TextBox15.Location = New System.Drawing.Point(171, 583)
+        Me.TextBox15.Location = New System.Drawing.Point(306, 123)
         Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(38, 30)
+        Me.TextBox15.Size = New System.Drawing.Size(47, 30)
         Me.TextBox15.TabIndex = 24
         Me.TextBox15.Text = "00"
-        Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ToolTip1.SetToolTip(Me.TextBox15, "Fecha máxima para ingreso a produccón," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "siguiente mes.")
+        '
+        'Label63
+        '
+        Me.Label63.BackColor = System.Drawing.Color.Transparent
+        Me.Label63.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label63.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Location = New System.Drawing.Point(8, 123)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(290, 31)
+        Me.Label63.TabIndex = 21
+        Me.Label63.Text = "Pedir Hasta:"
+        Me.Label63.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Panel177
+        '
+        Me.Panel177.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel177.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel177.Controls.Add(Me.TextBox166)
+        Me.Panel177.Controls.Add(Me.TextBox165)
+        Me.Panel177.Controls.Add(Me.TextBox164)
+        Me.Panel177.Controls.Add(Me.Label74)
+        Me.Panel177.Controls.Add(Me.TextBox163)
+        Me.Panel177.Controls.Add(Me.Label68)
+        Me.Panel177.Controls.Add(Me.Label66)
+        Me.Panel177.Controls.Add(Me.Label64)
+        Me.Panel177.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel177.Location = New System.Drawing.Point(11, 269)
+        Me.Panel177.Name = "Panel177"
+        Me.Panel177.Size = New System.Drawing.Size(365, 155)
+        Me.Panel177.TabIndex = 652
         '
         'TextBox166
         '
         Me.TextBox166.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox166.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox166.Location = New System.Drawing.Point(252, 512)
+        Me.TextBox166.Location = New System.Drawing.Point(306, 78)
         Me.TextBox166.Name = "TextBox166"
-        Me.TextBox166.Size = New System.Drawing.Size(38, 30)
-        Me.TextBox166.TabIndex = 24
-        Me.TextBox166.Text = "00"
-        Me.TextBox166.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.TextBox166.Size = New System.Drawing.Size(47, 30)
+        Me.TextBox166.TabIndex = 29
+        Me.TextBox166.Text = "0"
+        Me.TextBox166.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ToolTip1.SetToolTip(Me.TextBox166, "Se dispone MP para la candidad de meses," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " segun promedio que se consume.")
         '
         'TextBox165
         '
         Me.TextBox165.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox165.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox165.Location = New System.Drawing.Point(252, 476)
+        Me.TextBox165.Location = New System.Drawing.Point(306, 42)
         Me.TextBox165.Name = "TextBox165"
-        Me.TextBox165.Size = New System.Drawing.Size(38, 30)
-        Me.TextBox165.TabIndex = 24
+        Me.TextBox165.Size = New System.Drawing.Size(47, 30)
+        Me.TextBox165.TabIndex = 30
         Me.TextBox165.Text = "00"
         Me.TextBox165.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox165, "El cantidad de MP que hay en el deposito.")
         '
         'TextBox164
         '
         Me.TextBox164.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox164.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox164.Location = New System.Drawing.Point(252, 440)
+        Me.TextBox164.Location = New System.Drawing.Point(306, 6)
         Me.TextBox164.Name = "TextBox164"
-        Me.TextBox164.Size = New System.Drawing.Size(38, 30)
-        Me.TextBox164.TabIndex = 24
-        Me.TextBox164.Text = "00"
+        Me.TextBox164.Size = New System.Drawing.Size(47, 30)
+        Me.TextBox164.TabIndex = 31
+        Me.TextBox164.Text = "000"
         Me.TextBox164.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox164, "El promedio de MP que se utiliza de TONELADAS.")
         '
         'Label74
         '
-        Me.Label74.AutoSize = True
         Me.Label74.BackColor = System.Drawing.Color.Transparent
+        Me.Label74.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label74.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.Location = New System.Drawing.Point(61, 514)
+        Me.Label74.Location = New System.Drawing.Point(7, 78)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(183, 24)
-        Me.Label74.TabIndex = 21
+        Me.Label74.Size = New System.Drawing.Size(291, 30)
+        Me.Label74.TabIndex = 25
         Me.Label74.Text = "Disponible Meses:"
+        Me.Label74.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox163
         '
         Me.TextBox163.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox163.ForeColor = System.Drawing.Color.Black
-        Me.TextBox163.Location = New System.Drawing.Point(252, 548)
+        Me.TextBox163.Location = New System.Drawing.Point(306, 114)
         Me.TextBox163.Name = "TextBox163"
-        Me.TextBox163.Size = New System.Drawing.Size(38, 30)
-        Me.TextBox163.TabIndex = 24
+        Me.TextBox163.Size = New System.Drawing.Size(47, 30)
+        Me.TextBox163.TabIndex = 32
         Me.TextBox163.Text = "0"
         Me.TextBox163.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ToolTip1.SetToolTip(Me.TextBox163, "Tiempo que demora en llegar la MO")
         '
         'Label68
         '
-        Me.Label68.AutoSize = True
         Me.Label68.BackColor = System.Drawing.Color.Transparent
+        Me.Label68.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label68.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.Location = New System.Drawing.Point(125, 478)
+        Me.Label68.Location = New System.Drawing.Point(7, 42)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(119, 24)
-        Me.Label68.TabIndex = 21
+        Me.Label68.Size = New System.Drawing.Size(291, 30)
+        Me.Label68.TabIndex = 26
         Me.Label68.Text = "Stock Ton.:"
-        '
-        'TextBox28
-        '
-        Me.TextBox28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox28.ForeColor = System.Drawing.Color.Black
-        Me.TextBox28.Location = New System.Drawing.Point(215, 398)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(91, 30)
-        Me.TextBox28.TabIndex = 24
-        Me.TextBox28.Text = "000.000"
-        Me.TextBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Label68.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label66
         '
-        Me.Label66.AutoSize = True
         Me.Label66.BackColor = System.Drawing.Color.Transparent
+        Me.Label66.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label66.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.Location = New System.Drawing.Point(27, 442)
+        Me.Label66.Location = New System.Drawing.Point(7, 6)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(217, 24)
-        Me.Label66.TabIndex = 21
+        Me.Label66.Size = New System.Drawing.Size(291, 30)
+        Me.Label66.TabIndex = 27
         Me.Label66.Text = "Promedio x Mes Ton.:"
-        '
-        'Label63
-        '
-        Me.Label63.AutoSize = True
-        Me.Label63.BackColor = System.Drawing.Color.Transparent
-        Me.Label63.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(21, 586)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(142, 24)
-        Me.Label63.TabIndex = 21
-        Me.Label63.Text = "Pedido Hasta:"
+        Me.Label66.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label64
         '
-        Me.Label64.AutoSize = True
         Me.Label64.BackColor = System.Drawing.Color.Transparent
+        Me.Label64.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label64.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label64.Location = New System.Drawing.Point(80, 550)
+        Me.Label64.Location = New System.Drawing.Point(7, 114)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(164, 24)
-        Me.Label64.TabIndex = 21
+        Me.Label64.Size = New System.Drawing.Size(291, 32)
+        Me.Label64.TabIndex = 28
         Me.Label64.Text = "Llega en Meses:"
+        Me.Label64.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'TextBox30
+        'Panel176
         '
-        Me.TextBox30.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox30.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox30.Location = New System.Drawing.Point(215, 362)
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(91, 30)
-        Me.TextBox30.TabIndex = 24
-        Me.TextBox30.Text = "000.000"
-        Me.TextBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Panel176.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel176.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel176.Controls.Add(Me.Label46)
+        Me.Panel176.Controls.Add(Me.Label156)
+        Me.Panel176.Controls.Add(Me.TextBox56)
+        Me.Panel176.Controls.Add(Me.TextBox14)
+        Me.Panel176.Controls.Add(Me.TextBox35)
+        Me.Panel176.Controls.Add(Me.TextBox54)
+        Me.Panel176.Controls.Add(Me.Label60)
+        Me.Panel176.Controls.Add(Me.Label6)
+        Me.Panel176.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel176.Location = New System.Drawing.Point(11, 97)
+        Me.Panel176.Name = "Panel176"
+        Me.Panel176.Size = New System.Drawing.Size(365, 158)
+        Me.Panel176.TabIndex = 652
         '
-        'TextBox162
+        'Label46
         '
-        Me.TextBox162.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox162.ForeColor = System.Drawing.Color.Black
-        Me.TextBox162.Location = New System.Drawing.Point(215, 245)
-        Me.TextBox162.Name = "TextBox162"
-        Me.TextBox162.Size = New System.Drawing.Size(91, 30)
-        Me.TextBox162.TabIndex = 24
-        Me.TextBox162.Text = "000.000"
-        Me.TextBox162.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Label46.BackColor = System.Drawing.Color.Transparent
+        Me.Label46.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label46.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.Location = New System.Drawing.Point(8, 9)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(253, 30)
+        Me.Label46.TabIndex = 173
+        Me.Label46.Text = "Stock MP Pliego:"
+        Me.Label46.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'TextBox55
+        'Label156
         '
-        Me.TextBox55.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox55.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox55.Location = New System.Drawing.Point(215, 209)
-        Me.TextBox55.Name = "TextBox55"
-        Me.TextBox55.Size = New System.Drawing.Size(91, 30)
-        Me.TextBox55.TabIndex = 24
-        Me.TextBox55.Text = "000.000"
-        Me.TextBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Label156.BackColor = System.Drawing.Color.Transparent
+        Me.Label156.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label156.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label156.Location = New System.Drawing.Point(8, 81)
+        Me.Label156.Name = "Label156"
+        Me.Label156.Size = New System.Drawing.Size(253, 30)
+        Me.Label156.TabIndex = 174
+        Me.Label156.Text = "Stock MP Kls.:"
+        Me.Label156.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Label176
+        'TextBox56
         '
-        Me.Label176.AutoSize = True
-        Me.Label176.BackColor = System.Drawing.Color.Transparent
-        Me.Label176.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label176.Location = New System.Drawing.Point(17, 242)
-        Me.Label176.Name = "Label176"
-        Me.Label176.Size = New System.Drawing.Size(190, 24)
-        Me.Label176.TabIndex = 21
-        Me.Label176.Text = "Litoplan Gs/Pliego:"
+        Me.TextBox56.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox56.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox56.Location = New System.Drawing.Point(269, 81)
+        Me.TextBox56.Name = "TextBox56"
+        Me.TextBox56.Size = New System.Drawing.Size(84, 30)
+        Me.TextBox56.TabIndex = 175
+        Me.TextBox56.Text = "000.000"
+        Me.TextBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox56, "Es la cantidad ACTIAL MP en Kls.")
         '
-        'Label177
+        'TextBox14
         '
-        Me.Label177.AutoSize = True
-        Me.Label177.BackColor = System.Drawing.Color.Transparent
-        Me.Label177.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label177.Location = New System.Drawing.Point(39, 395)
-        Me.Label177.Name = "Label177"
-        Me.Label177.Size = New System.Drawing.Size(168, 24)
-        Me.Label177.TabIndex = 21
-        Me.Label177.Text = "Litoplan Gs/Kls.:"
+        Me.TextBox14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox14.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox14.Location = New System.Drawing.Point(269, 9)
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New System.Drawing.Size(84, 30)
+        Me.TextBox14.TabIndex = 176
+        Me.TextBox14.Text = "000.000"
+        Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox14, "Es lo que se tiene en el DEPOSITO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "actualmente de MP PLIEGO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Trae esta Info de S" &
+        "AP.")
+        '
+        'TextBox35
+        '
+        Me.TextBox35.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox35.ForeColor = System.Drawing.Color.Black
+        Me.TextBox35.Location = New System.Drawing.Point(269, 117)
+        Me.TextBox35.Name = "TextBox35"
+        Me.TextBox35.Size = New System.Drawing.Size(84, 30)
+        Me.TextBox35.TabIndex = 177
+        Me.TextBox35.Text = "000.000"
+        Me.TextBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox35, "Es la cantidad mínima de MP en Kls., que" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "se considero en su momento adecuada.")
+        '
+        'TextBox54
+        '
+        Me.TextBox54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox54.ForeColor = System.Drawing.Color.Black
+        Me.TextBox54.Location = New System.Drawing.Point(269, 45)
+        Me.TextBox54.Name = "TextBox54"
+        Me.TextBox54.Size = New System.Drawing.Size(84, 30)
+        Me.TextBox54.TabIndex = 178
+        Me.TextBox54.Text = "000.000"
+        Me.TextBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox54, "Es lo que se considero adecuado tener " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "como mínimo en el DEPOSITO.")
+        '
+        'Label60
+        '
+        Me.Label60.BackColor = System.Drawing.Color.Transparent
+        Me.Label60.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label60.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label60.Location = New System.Drawing.Point(8, 117)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(253, 30)
+        Me.Label60.TabIndex = 179
+        Me.Label60.Text = "Stock Mínimo Kls.:"
+        Me.Label60.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label6
+        '
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(7, 45)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(253, 30)
+        Me.Label6.TabIndex = 180
+        Me.Label6.Text = "Stock Mínimo Piego:"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label3
         '
-        Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(79, 56)
+        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(18, 51)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(153, 24)
+        Me.Label3.Size = New System.Drawing.Size(152, 37)
         Me.Label3.TabIndex = 174
-        Me.Label3.Text = "MP p/Estación:"
+        Me.Label3.Text = "Estación:"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'ComboBox107
         '
@@ -4157,310 +4524,713 @@ Partial Class MP
         Me.ComboBox107.ForeColor = System.Drawing.Color.Black
         Me.ComboBox107.FormattingEnabled = True
         Me.ComboBox107.Items.AddRange(New Object() {"Administración", "Comercial", "Preprensa", "Troquel", "CC", "Resmado", "Corte", "Impresión", "UV", "Stampado", "Troquelado", "Doblado", "Descartonado", "Seleccionado", "Pegado 2D", "Pegado 3D", "Expedición", "Mantenimiento", "Tercerizado"})
-        Me.ComboBox107.Location = New System.Drawing.Point(41, 84)
+        Me.ComboBox107.Location = New System.Drawing.Point(177, 51)
         Me.ComboBox107.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox107.Name = "ComboBox107"
-        Me.ComboBox107.Size = New System.Drawing.Size(239, 37)
+        Me.ComboBox107.Size = New System.Drawing.Size(189, 37)
         Me.ComboBox107.TabIndex = 183
+        Me.ComboBox107.Text = "Impresión"
+        Me.ToolTip1.SetToolTip(Me.ComboBox107, "Elegir la ESTACION que pertenese este Items." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "El criterio si se usa en varias est" &
+        "aciones adjudicar " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "solo a la PRINCIPAL que se COMPRA.")
         '
-        'Label60
+        'Entrada
         '
-        Me.Label60.AutoSize = True
-        Me.Label60.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label60.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label60.Location = New System.Drawing.Point(19, 327)
-        Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(188, 24)
-        Me.Label60.TabIndex = 172
-        Me.Label60.Text = "Stock Mínimo Kls.:"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(2, 174)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(205, 24)
-        Me.Label6.TabIndex = 172
-        Me.Label6.Text = "Stock Mínimo Piego:"
-        '
-        'TabPage3
-        '
-        Me.TabPage3.BackColor = System.Drawing.Color.Silver
-        Me.TabPage3.Controls.Add(Me.Panel31)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(1916, 950)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "ENTRADA /"
+        Me.Entrada.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Entrada.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Entrada.Controls.Add(Me.Panel31)
+        Me.Entrada.Location = New System.Drawing.Point(4, 33)
+        Me.Entrada.Name = "Entrada"
+        Me.Entrada.Size = New System.Drawing.Size(1916, 950)
+        Me.Entrada.TabIndex = 2
+        Me.Entrada.Text = "ENTRADA /"
         '
         'Panel31
         '
-        Me.Panel31.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Panel31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel31.Controls.Add(Me.Panel30)
+        Me.Panel31.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Panel31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel31.Controls.Add(Me.PictureBox2)
+        Me.Panel31.Controls.Add(Me.CheckedListBox2)
+        Me.Panel31.Controls.Add(Me.Panel60)
+        Me.Panel31.Controls.Add(Me.Panel181)
+        Me.Panel31.Controls.Add(Me.Panel183)
+        Me.Panel31.Controls.Add(Me.PictureBox5)
         Me.Panel31.Controls.Add(Me.DataGridView3)
         Me.Panel31.Controls.Add(Me.Panel32)
         Me.Panel31.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel31.Location = New System.Drawing.Point(0, 0)
         Me.Panel31.Name = "Panel31"
-        Me.Panel31.Size = New System.Drawing.Size(1916, 950)
+        Me.Panel31.Size = New System.Drawing.Size(1912, 946)
         Me.Panel31.TabIndex = 160
         '
-        'Panel30
+        'PictureBox2
         '
-        Me.Panel30.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Panel30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel30.Controls.Add(Me.Panel161)
-        Me.Panel30.Controls.Add(Me.Panel160)
-        Me.Panel30.Controls.Add(Me.Panel158)
-        Me.Panel30.Controls.Add(Me.Panel157)
-        Me.Panel30.Controls.Add(Me.Label28)
-        Me.Panel30.Controls.Add(Me.PictureBox5)
-        Me.Panel30.Controls.Add(Me.ComboBox16)
-        Me.Panel30.Controls.Add(Me.ComboBox15)
-        Me.Panel30.Controls.Add(Me.ComboBox11)
-        Me.Panel30.Controls.Add(Me.Panel61)
-        Me.Panel30.Controls.Add(Me.DateTimePicker77)
-        Me.Panel30.Controls.Add(Me.TextBox83)
-        Me.Panel30.Controls.Add(Me.TextBox84)
-        Me.Panel30.Controls.Add(Me.TextBox85)
-        Me.Panel30.Controls.Add(Me.TextBox47)
-        Me.Panel30.Controls.Add(Me.TextBox240)
-        Me.Panel30.Controls.Add(Me.TextBox46)
-        Me.Panel30.Controls.Add(Me.TextBox40)
-        Me.Panel30.Controls.Add(Me.TextBox38)
-        Me.Panel30.Controls.Add(Me.TextBox241)
-        Me.Panel30.Controls.Add(Me.Label188)
-        Me.Panel30.Controls.Add(Me.Label16)
-        Me.Panel30.Controls.Add(Me.Label12)
-        Me.Panel30.Controls.Add(Me.Label213)
-        Me.Panel30.Controls.Add(Me.Label11)
-        Me.Panel30.Controls.Add(Me.Label214)
-        Me.Panel30.Controls.Add(Me.Label215)
-        Me.Panel30.Controls.Add(Me.RadioButton1)
-        Me.Panel30.Controls.Add(Me.RadioButton2)
-        Me.Panel30.Controls.Add(Me.TextBox242)
-        Me.Panel30.Controls.Add(Me.TextBox243)
-        Me.Panel30.Controls.Add(Me.TextBox244)
-        Me.Panel30.Controls.Add(Me.TextBox245)
-        Me.Panel30.Controls.Add(Me.TextBox247)
-        Me.Panel30.Controls.Add(Me.TextBox255)
-        Me.Panel30.Controls.Add(Me.TextBox256)
-        Me.Panel30.Controls.Add(Me.TextBox257)
-        Me.Panel30.Controls.Add(Me.TextBox259)
-        Me.Panel30.Controls.Add(Me.TextBox268)
-        Me.Panel30.Controls.Add(Me.Label217)
-        Me.Panel30.Controls.Add(Me.Label218)
-        Me.Panel30.Controls.Add(Me.Label235)
-        Me.Panel30.Controls.Add(Me.Label368)
-        Me.Panel30.Controls.Add(Me.Label381)
-        Me.Panel30.Controls.Add(Me.Label386)
-        Me.Panel30.Controls.Add(Me.Label393)
-        Me.Panel30.Controls.Add(Me.Label398)
-        Me.Panel30.Controls.Add(Me.Label399)
-        Me.Panel30.Controls.Add(Me.Label404)
-        Me.Panel30.Controls.Add(Me.Panel33)
-        Me.Panel30.Location = New System.Drawing.Point(7, 49)
-        Me.Panel30.Name = "Panel30"
-        Me.Panel30.Size = New System.Drawing.Size(1879, 462)
-        Me.Panel30.TabIndex = 638
+        Me.PictureBox2.ErrorImage = Nothing
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(1545, 376)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(135, 138)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 767
+        Me.PictureBox2.TabStop = False
         '
-        'Panel161
+        'CheckedListBox2
         '
-        Me.Panel161.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel161.Controls.Add(Me.DateTimePicker15)
-        Me.Panel161.Controls.Add(Me.TextBox33)
-        Me.Panel161.Controls.Add(Me.TextBox37)
-        Me.Panel161.Controls.Add(Me.TextBox36)
-        Me.Panel161.Controls.Add(Me.Label5)
-        Me.Panel161.Location = New System.Drawing.Point(7, 407)
-        Me.Panel161.Name = "Panel161"
-        Me.Panel161.Size = New System.Drawing.Size(1272, 48)
-        Me.Panel161.TabIndex = 653
+        Me.CheckedListBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.CheckedListBox2.Font = New System.Drawing.Font("Arial Black", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckedListBox2.FormattingEnabled = True
+        Me.CheckedListBox2.Items.AddRange(New Object() {"1", "2", "3"})
+        Me.CheckedListBox2.Location = New System.Drawing.Point(1201, 55)
+        Me.CheckedListBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckedListBox2.Name = "CheckedListBox2"
+        Me.CheckedListBox2.Size = New System.Drawing.Size(298, 454)
+        Me.CheckedListBox2.TabIndex = 762
+        Me.ToolTip1.SetToolTip(Me.CheckedListBox2, "Filtrar con el criterio marcado, el informe.")
         '
-        'DateTimePicker15
+        'Panel60
         '
-        Me.DateTimePicker15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker15.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker15.Location = New System.Drawing.Point(1133, 9)
-        Me.DateTimePicker15.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker15.Name = "DateTimePicker15"
-        Me.DateTimePicker15.Size = New System.Drawing.Size(135, 30)
-        Me.DateTimePicker15.TabIndex = 559
+        Me.Panel60.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel60.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel60.Controls.Add(Me.CheckBox24)
+        Me.Panel60.Controls.Add(Me.CheckBox43)
+        Me.Panel60.Controls.Add(Me.CheckBox44)
+        Me.Panel60.Controls.Add(Me.Button14)
+        Me.Panel60.Controls.Add(Me.CheckBox130)
+        Me.Panel60.Controls.Add(Me.TextBox47)
+        Me.Panel60.Controls.Add(Me.TextBox84)
+        Me.Panel60.Controls.Add(Me.TextBox98)
+        Me.Panel60.Controls.Add(Me.TextBox133)
+        Me.Panel60.Controls.Add(Me.TextBox138)
+        Me.Panel60.Controls.Add(Me.TextBox179)
+        Me.Panel60.Controls.Add(Me.TextBox180)
+        Me.Panel60.Controls.Add(Me.TextBox181)
+        Me.Panel60.Controls.Add(Me.Label12)
+        Me.Panel60.Controls.Add(Me.Label28)
+        Me.Panel60.Controls.Add(Me.Label61)
+        Me.Panel60.Controls.Add(Me.Label188)
+        Me.Panel60.Controls.Add(Me.DateTimePicker9)
+        Me.Panel60.Controls.Add(Me.DateTimePicker10)
+        Me.Panel60.Controls.Add(Me.Panel158)
+        Me.Panel60.Location = New System.Drawing.Point(9, 321)
+        Me.Panel60.Name = "Panel60"
+        Me.Panel60.Size = New System.Drawing.Size(1172, 193)
+        Me.Panel60.TabIndex = 764
         '
-        'TextBox33
+        'CheckBox24
         '
-        Me.TextBox33.BackColor = System.Drawing.Color.White
-        Me.TextBox33.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
-        Me.TextBox33.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox33.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox33.Location = New System.Drawing.Point(701, 9)
-        Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(425, 30)
-        Me.TextBox33.TabIndex = 558
-        Me.TextBox33.Text = "andres@ibema.com.br"
+        Me.CheckBox24.AutoSize = True
+        Me.CheckBox24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox24.Location = New System.Drawing.Point(771, 86)
+        Me.CheckBox24.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox24.Name = "CheckBox24"
+        Me.CheckBox24.Size = New System.Drawing.Size(54, 28)
+        Me.CheckBox24.TabIndex = 671
+        Me.CheckBox24.Text = "Si"
+        Me.CheckBox24.UseVisualStyleBackColor = True
+        '
+        'CheckBox43
+        '
+        Me.CheckBox43.AutoSize = True
+        Me.CheckBox43.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox43.Location = New System.Drawing.Point(771, 48)
+        Me.CheckBox43.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox43.Name = "CheckBox43"
+        Me.CheckBox43.Size = New System.Drawing.Size(54, 28)
+        Me.CheckBox43.TabIndex = 672
+        Me.CheckBox43.Text = "Si"
+        Me.CheckBox43.UseVisualStyleBackColor = True
+        '
+        'CheckBox44
+        '
+        Me.CheckBox44.AutoSize = True
+        Me.CheckBox44.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox44.Location = New System.Drawing.Point(771, 154)
+        Me.CheckBox44.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox44.Name = "CheckBox44"
+        Me.CheckBox44.Size = New System.Drawing.Size(54, 28)
+        Me.CheckBox44.TabIndex = 673
+        Me.CheckBox44.Text = "Si"
+        Me.CheckBox44.UseVisualStyleBackColor = True
+        '
+        'Button14
+        '
+        Me.Button14.AutoSize = True
+        Me.Button14.BackColor = System.Drawing.Color.Yellow
+        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button14.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.ForeColor = System.Drawing.Color.Black
+        Me.Button14.Location = New System.Drawing.Point(990, 128)
+        Me.Button14.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button14.Name = "Button14"
+        Me.Button14.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button14.Size = New System.Drawing.Size(164, 50)
+        Me.Button14.TabIndex = 237
+        Me.Button14.Text = "Grabar"
+        Me.Button14.UseVisualStyleBackColor = False
+        '
+        'CheckBox130
+        '
+        Me.CheckBox130.AutoSize = True
+        Me.CheckBox130.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox130.Location = New System.Drawing.Point(771, 120)
+        Me.CheckBox130.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox130.Name = "CheckBox130"
+        Me.CheckBox130.Size = New System.Drawing.Size(54, 28)
+        Me.CheckBox130.TabIndex = 674
+        Me.CheckBox130.Text = "Si"
+        Me.CheckBox130.UseVisualStyleBackColor = True
+        '
+        'TextBox47
+        '
+        Me.TextBox47.BackColor = System.Drawing.Color.White
+        Me.TextBox47.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox47.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox47.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox47.Location = New System.Drawing.Point(432, 117)
+        Me.TextBox47.Name = "TextBox47"
+        Me.TextBox47.Size = New System.Drawing.Size(321, 30)
+        Me.TextBox47.TabIndex = 666
+        Me.TextBox47.Text = "xxxxxxxxx@gama.com.py"
+        '
+        'TextBox84
+        '
+        Me.TextBox84.BackColor = System.Drawing.Color.White
+        Me.TextBox84.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox84.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox84.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox84.Location = New System.Drawing.Point(432, 151)
+        Me.TextBox84.Name = "TextBox84"
+        Me.TextBox84.Size = New System.Drawing.Size(321, 30)
+        Me.TextBox84.TabIndex = 667
+        Me.TextBox84.Text = "xxxxxxxxx@gama.com.py"
+        '
+        'TextBox98
+        '
+        Me.TextBox98.BackColor = System.Drawing.Color.White
+        Me.TextBox98.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox98.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox98.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox98.Location = New System.Drawing.Point(432, 83)
+        Me.TextBox98.Name = "TextBox98"
+        Me.TextBox98.Size = New System.Drawing.Size(321, 30)
+        Me.TextBox98.TabIndex = 668
+        Me.TextBox98.Text = "xxxxxxxxx@gama.com.py"
+        '
+        'TextBox133
+        '
+        Me.TextBox133.BackColor = System.Drawing.Color.White
+        Me.TextBox133.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox133.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox133.Location = New System.Drawing.Point(188, 117)
+        Me.TextBox133.Name = "TextBox133"
+        Me.TextBox133.Size = New System.Drawing.Size(230, 30)
+        Me.TextBox133.TabIndex = 663
+        Me.TextBox133.Text = "+595 981 123456789"
+        '
+        'TextBox138
+        '
+        Me.TextBox138.BackColor = System.Drawing.Color.White
+        Me.TextBox138.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox138.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox138.Location = New System.Drawing.Point(188, 151)
+        Me.TextBox138.Name = "TextBox138"
+        Me.TextBox138.Size = New System.Drawing.Size(230, 30)
+        Me.TextBox138.TabIndex = 664
+        Me.TextBox138.Text = "+595 981 123456789"
+        '
+        'TextBox179
+        '
+        Me.TextBox179.BackColor = System.Drawing.Color.White
+        Me.TextBox179.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox179.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox179.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox179.Location = New System.Drawing.Point(432, 49)
+        Me.TextBox179.Name = "TextBox179"
+        Me.TextBox179.Size = New System.Drawing.Size(321, 30)
+        Me.TextBox179.TabIndex = 669
+        Me.TextBox179.Text = "xxxxxxxxx@gama.com.py"
+        '
+        'TextBox180
+        '
+        Me.TextBox180.BackColor = System.Drawing.Color.White
+        Me.TextBox180.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox180.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox180.Location = New System.Drawing.Point(188, 83)
+        Me.TextBox180.Name = "TextBox180"
+        Me.TextBox180.Size = New System.Drawing.Size(230, 30)
+        Me.TextBox180.TabIndex = 665
+        Me.TextBox180.Text = "+595 981 123456789"
+        '
+        'TextBox181
+        '
+        Me.TextBox181.BackColor = System.Drawing.Color.White
+        Me.TextBox181.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox181.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox181.Location = New System.Drawing.Point(188, 49)
+        Me.TextBox181.Name = "TextBox181"
+        Me.TextBox181.Size = New System.Drawing.Size(230, 30)
+        Me.TextBox181.TabIndex = 670
+        Me.TextBox181.Text = "+595 981 123456789"
+        '
+        'Label12
+        '
+        Me.Label12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(29, 86)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(148, 24)
+        Me.Label12.TabIndex = 661
+        Me.Label12.Text = "CC:"
+        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label28
+        '
+        Me.Label28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(29, 154)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(148, 24)
+        Me.Label28.TabIndex = 660
+        Me.Label28.Text = "Planificación:"
+        Me.Label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label61
+        '
+        Me.Label61.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label61.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.Location = New System.Drawing.Point(29, 120)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(148, 24)
+        Me.Label61.TabIndex = 662
+        Me.Label61.Text = "Deposito:"
+        Me.Label61.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label188
+        '
+        Me.Label188.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label188.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label188.Location = New System.Drawing.Point(29, 52)
+        Me.Label188.Name = "Label188"
+        Me.Label188.Size = New System.Drawing.Size(148, 24)
+        Me.Label188.TabIndex = 659
+        Me.Label188.Text = "GA:"
+        Me.Label188.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'DateTimePicker9
+        '
+        Me.DateTimePicker9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker9.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker9.Location = New System.Drawing.Point(23, 3580)
+        Me.DateTimePicker9.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker9.Name = "DateTimePicker9"
+        Me.DateTimePicker9.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker9.TabIndex = 247
+        '
+        'DateTimePicker10
+        '
+        Me.DateTimePicker10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker10.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker10.Location = New System.Drawing.Point(22, 3580)
+        Me.DateTimePicker10.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker10.Name = "DateTimePicker10"
+        Me.DateTimePicker10.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker10.TabIndex = 246
+        '
+        'Panel158
+        '
+        Me.Panel158.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel158.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel158.Controls.Add(Me.Label214)
+        Me.Panel158.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel158.Location = New System.Drawing.Point(0, 0)
+        Me.Panel158.Name = "Panel158"
+        Me.Panel158.Size = New System.Drawing.Size(1168, 43)
+        Me.Panel158.TabIndex = 0
+        '
+        'Label214
+        '
+        Me.Label214.AutoSize = True
+        Me.Label214.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label214.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label214.ForeColor = System.Drawing.Color.White
+        Me.Label214.Location = New System.Drawing.Point(474, 0)
+        Me.Label214.Name = "Label214"
+        Me.Label214.Size = New System.Drawing.Size(101, 35)
+        Me.Label214.TabIndex = 6
+        Me.Label214.Text = "AVISO"
+        '
+        'Panel181
+        '
+        Me.Panel181.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel181.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel181.Controls.Add(Me.DateTimePicker43)
+        Me.Panel181.Controls.Add(Me.DateTimePicker44)
+        Me.Panel181.Controls.Add(Me.DateTimePicker45)
+        Me.Panel181.Controls.Add(Me.DateTimePicker46)
+        Me.Panel181.Controls.Add(Me.Label215)
+        Me.Panel181.Controls.Add(Me.CheckBox6)
+        Me.Panel181.Controls.Add(Me.CheckBox11)
+        Me.Panel181.Controls.Add(Me.CheckBox12)
+        Me.Panel181.Controls.Add(Me.CheckBox13)
+        Me.Panel181.Controls.Add(Me.Button30)
+        Me.Panel181.Controls.Add(Me.Button31)
+        Me.Panel181.Controls.Add(Me.Button35)
+        Me.Panel181.Controls.Add(Me.Button94)
+        Me.Panel181.Controls.Add(Me.Panel182)
+        Me.Panel181.Location = New System.Drawing.Point(1513, 58)
+        Me.Panel181.Name = "Panel181"
+        Me.Panel181.Size = New System.Drawing.Size(375, 306)
+        Me.Panel181.TabIndex = 765
+        Me.ToolTip1.SetToolTip(Me.Panel181, "Las acciones que se pueden hacer con ciertos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " parámetros que esta en esta HOJA i" &
+        "ndicado" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'DateTimePicker43
+        '
+        Me.DateTimePicker43.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker43.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker43.Location = New System.Drawing.Point(23, 3580)
+        Me.DateTimePicker43.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker43.Name = "DateTimePicker43"
+        Me.DateTimePicker43.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker43.TabIndex = 247
+        '
+        'DateTimePicker44
+        '
+        Me.DateTimePicker44.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker44.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker44.Location = New System.Drawing.Point(10, 261)
+        Me.DateTimePicker44.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker44.Name = "DateTimePicker44"
+        Me.DateTimePicker44.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker44.TabIndex = 688
+        '
+        'DateTimePicker45
+        '
+        Me.DateTimePicker45.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker45.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker45.Location = New System.Drawing.Point(10, 225)
+        Me.DateTimePicker45.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker45.Name = "DateTimePicker45"
+        Me.DateTimePicker45.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker45.TabIndex = 688
+        '
+        'DateTimePicker46
+        '
+        Me.DateTimePicker46.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker46.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker46.Location = New System.Drawing.Point(22, 3580)
+        Me.DateTimePicker46.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker46.Name = "DateTimePicker46"
+        Me.DateTimePicker46.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker46.TabIndex = 246
+        '
+        'Label215
+        '
+        Me.Label215.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label215.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label215.Location = New System.Drawing.Point(10, 188)
+        Me.Label215.Name = "Label215"
+        Me.Label215.Size = New System.Drawing.Size(155, 31)
+        Me.Label215.TabIndex = 245
+        Me.Label215.Text = "Rango Fecha"
+        Me.Label215.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'CheckBox6
+        '
+        Me.CheckBox6.AutoSize = True
+        Me.CheckBox6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox6.Location = New System.Drawing.Point(16, 147)
+        Me.CheckBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox6.Name = "CheckBox6"
+        Me.CheckBox6.Size = New System.Drawing.Size(133, 28)
+        Me.CheckBox6.TabIndex = 241
+        Me.CheckBox6.Text = "WhatsApp"
+        Me.CheckBox6.UseVisualStyleBackColor = True
+        '
+        'CheckBox11
+        '
+        Me.CheckBox11.AutoSize = True
+        Me.CheckBox11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox11.Location = New System.Drawing.Point(16, 113)
+        Me.CheckBox11.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox11.Name = "CheckBox11"
+        Me.CheckBox11.Size = New System.Drawing.Size(87, 28)
+        Me.CheckBox11.TabIndex = 242
+        Me.CheckBox11.Text = "Email"
+        Me.CheckBox11.UseVisualStyleBackColor = True
+        '
+        'CheckBox12
+        '
+        Me.CheckBox12.AutoSize = True
+        Me.CheckBox12.Checked = True
+        Me.CheckBox12.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox12.Location = New System.Drawing.Point(16, 45)
+        Me.CheckBox12.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox12.Name = "CheckBox12"
+        Me.CheckBox12.Size = New System.Drawing.Size(111, 28)
+        Me.CheckBox12.TabIndex = 243
+        Me.CheckBox12.Text = "Pantalla"
+        Me.CheckBox12.UseVisualStyleBackColor = True
+        '
+        'CheckBox13
+        '
+        Me.CheckBox13.AutoSize = True
+        Me.CheckBox13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox13.Location = New System.Drawing.Point(16, 79)
+        Me.CheckBox13.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox13.Name = "CheckBox13"
+        Me.CheckBox13.Size = New System.Drawing.Size(78, 28)
+        Me.CheckBox13.TabIndex = 244
+        Me.CheckBox13.Text = "Hoja"
+        Me.CheckBox13.UseVisualStyleBackColor = True
+        '
+        'Button30
+        '
+        Me.Button30.AutoSize = True
+        Me.Button30.BackColor = System.Drawing.Color.Lime
+        Me.Button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button30.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button30.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button30.ForeColor = System.Drawing.Color.Black
+        Me.Button30.Location = New System.Drawing.Point(192, 186)
+        Me.Button30.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button30.Name = "Button30"
+        Me.Button30.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button30.Size = New System.Drawing.Size(164, 50)
+        Me.Button30.TabIndex = 239
+        Me.Button30.Text = "IMPRIME"
+        Me.Button30.UseVisualStyleBackColor = False
+        '
+        'Button31
+        '
+        Me.Button31.AutoSize = True
+        Me.Button31.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button31.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button31.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button31.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button31.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button31.ForeColor = System.Drawing.Color.Black
+        Me.Button31.Location = New System.Drawing.Point(190, 77)
+        Me.Button31.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button31.Name = "Button31"
+        Me.Button31.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button31.Size = New System.Drawing.Size(164, 50)
+        Me.Button31.TabIndex = 240
+        Me.Button31.Text = "ENVIAR"
+        Me.Button31.UseVisualStyleBackColor = False
+        '
+        'Button35
+        '
+        Me.Button35.AutoSize = True
+        Me.Button35.BackColor = System.Drawing.Color.Yellow
+        Me.Button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button35.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button35.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button35.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button35.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button35.ForeColor = System.Drawing.Color.Black
+        Me.Button35.Location = New System.Drawing.Point(192, 239)
+        Me.Button35.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button35.Name = "Button35"
+        Me.Button35.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button35.Size = New System.Drawing.Size(164, 50)
+        Me.Button35.TabIndex = 237
+        Me.Button35.Text = "Grabar"
+        Me.Button35.UseVisualStyleBackColor = False
+        '
+        'Button94
+        '
+        Me.Button94.AutoSize = True
+        Me.Button94.BackColor = System.Drawing.Color.Red
+        Me.Button94.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button94.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button94.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button94.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button94.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button94.ForeColor = System.Drawing.Color.White
+        Me.Button94.Location = New System.Drawing.Point(190, 131)
+        Me.Button94.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button94.Name = "Button94"
+        Me.Button94.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button94.Size = New System.Drawing.Size(164, 50)
+        Me.Button94.TabIndex = 238
+        Me.Button94.Text = "ANULAR"
+        Me.Button94.UseVisualStyleBackColor = False
+        '
+        'Panel182
+        '
+        Me.Panel182.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel182.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel182.Controls.Add(Me.Label217)
+        Me.Panel182.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel182.Location = New System.Drawing.Point(0, 0)
+        Me.Panel182.Name = "Panel182"
+        Me.Panel182.Size = New System.Drawing.Size(371, 43)
+        Me.Panel182.TabIndex = 0
+        '
+        'Label217
+        '
+        Me.Label217.AutoSize = True
+        Me.Label217.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label217.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label217.ForeColor = System.Drawing.Color.White
+        Me.Label217.Location = New System.Drawing.Point(137, 0)
+        Me.Label217.Name = "Label217"
+        Me.Label217.Size = New System.Drawing.Size(119, 35)
+        Me.Label217.TabIndex = 6
+        Me.Label217.Text = "SALIDA"
+        '
+        'Panel183
+        '
+        Me.Panel183.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel183.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel183.Controls.Add(Me.ComboBox11)
+        Me.Panel183.Controls.Add(Me.TextBox36)
+        Me.Panel183.Controls.Add(Me.TextBox37)
+        Me.Panel183.Controls.Add(Me.Panel157)
+        Me.Panel183.Controls.Add(Me.Label5)
+        Me.Panel183.Controls.Add(Me.TextBox38)
+        Me.Panel183.Controls.Add(Me.TextBox27)
+        Me.Panel183.Controls.Add(Me.TextBox33)
+        Me.Panel183.Controls.Add(Me.TextBox40)
+        Me.Panel183.Controls.Add(Me.TextBox83)
+        Me.Panel183.Controls.Add(Me.Label33)
+        Me.Panel183.Controls.Add(Me.Label41)
+        Me.Panel183.Controls.Add(Me.Label42)
+        Me.Panel183.Controls.Add(Me.Label213)
+        Me.Panel183.Controls.Add(Me.Panel184)
+        Me.Panel183.Location = New System.Drawing.Point(9, 51)
+        Me.Panel183.Name = "Panel183"
+        Me.Panel183.Size = New System.Drawing.Size(1172, 257)
+        Me.Panel183.TabIndex = 763
+        Me.ToolTip1.SetToolTip(Me.Panel183, "Información principal del cliente." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'ComboBox11
+        '
+        Me.ComboBox11.BackColor = System.Drawing.Color.White
+        Me.ComboBox11.DropDownWidth = 272
+        Me.ComboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox11.FormattingEnabled = True
+        Me.ComboBox11.Items.AddRange(New Object() {"Numero de Proveedor"})
+        Me.ComboBox11.Location = New System.Drawing.Point(175, 47)
+        Me.ComboBox11.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox11.Name = "ComboBox11"
+        Me.ComboBox11.Size = New System.Drawing.Size(159, 32)
+        Me.ComboBox11.TabIndex = 707
+        Me.ComboBox11.Text = "N° LITOPLAN (Cod): eL Numero del Cliente, "
+        Me.ToolTip1.SetToolTip(Me.ComboBox11, "El N° del proveedor.")
+        '
+        'TextBox36
+        '
+        Me.TextBox36.BackColor = System.Drawing.Color.White
+        Me.TextBox36.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox36.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox36.Location = New System.Drawing.Point(793, 125)
+        Me.TextBox36.Name = "TextBox36"
+        Me.TextBox36.Size = New System.Drawing.Size(358, 30)
+        Me.TextBox36.TabIndex = 337
+        Me.TextBox36.Text = "(lito email) farmaceutica paraguaya@fapasa.com.py  "
+        Me.ToolTip1.SetToolTip(Me.TextBox36, "email Encargado de COMPRA")
         '
         'TextBox37
         '
         Me.TextBox37.BackColor = System.Drawing.Color.White
         Me.TextBox37.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox37.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox37.Location = New System.Drawing.Point(125, 9)
+        Me.TextBox37.Location = New System.Drawing.Point(577, 125)
         Me.TextBox37.Name = "TextBox37"
-        Me.TextBox37.Size = New System.Drawing.Size(334, 30)
-        Me.TextBox37.TabIndex = 556
-        Me.TextBox37.Text = "Proveedor"
-        '
-        'TextBox36
-        '
-        Me.TextBox36.BackColor = System.Drawing.Color.White
-        Me.TextBox36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox36.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox36.Location = New System.Drawing.Point(491, 9)
-        Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(204, 30)
-        Me.TextBox36.TabIndex = 557
-        Me.TextBox36.Text = "+595 981 123456789"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(16, 12)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(105, 26)
-        Me.Label5.TabIndex = 555
-        Me.Label5.Text = "Gama EV:"
-        '
-        'Panel160
-        '
-        Me.Panel160.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel160.Location = New System.Drawing.Point(778, 299)
-        Me.Panel160.Name = "Panel160"
-        Me.Panel160.Size = New System.Drawing.Size(249, 34)
-        Me.Panel160.TabIndex = 653
-        '
-        'Panel158
-        '
-        Me.Panel158.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel158.Controls.Add(Me.Label396)
-        Me.Panel158.Controls.Add(Me.RadioButton67)
-        Me.Panel158.Controls.Add(Me.RadioButton68)
-        Me.Panel158.Location = New System.Drawing.Point(1140, 157)
-        Me.Panel158.Name = "Panel158"
-        Me.Panel158.Size = New System.Drawing.Size(249, 34)
-        Me.Panel158.TabIndex = 653
-        '
-        'Label396
-        '
-        Me.Label396.AutoSize = True
-        Me.Label396.BackColor = System.Drawing.Color.Transparent
-        Me.Label396.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label396.Location = New System.Drawing.Point(10, 6)
-        Me.Label396.Name = "Label396"
-        Me.Label396.Size = New System.Drawing.Size(112, 24)
-        Me.Label396.TabIndex = 21
-        Me.Label396.Text = "Stock Lok:"
-        '
-        'RadioButton67
-        '
-        Me.RadioButton67.AutoSize = True
-        Me.RadioButton67.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton67.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton67.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton67.Location = New System.Drawing.Point(127, 4)
-        Me.RadioButton67.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton67.Name = "RadioButton67"
-        Me.RadioButton67.Size = New System.Drawing.Size(53, 28)
-        Me.RadioButton67.TabIndex = 162
-        Me.RadioButton67.Text = "Si"
-        Me.RadioButton67.UseVisualStyleBackColor = False
-        '
-        'RadioButton68
-        '
-        Me.RadioButton68.AutoSize = True
-        Me.RadioButton68.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton68.Checked = True
-        Me.RadioButton68.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.RadioButton68.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton68.Location = New System.Drawing.Point(183, 6)
-        Me.RadioButton68.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton68.Name = "RadioButton68"
-        Me.RadioButton68.Size = New System.Drawing.Size(61, 28)
-        Me.RadioButton68.TabIndex = 163
-        Me.RadioButton68.TabStop = True
-        Me.RadioButton68.Text = "No"
-        Me.RadioButton68.UseVisualStyleBackColor = False
+        Me.TextBox37.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox37.TabIndex = 336
+        Me.TextBox37.Text = "(LITO movil)+595 981 123456789 "
+        Me.ToolTip1.SetToolTip(Me.TextBox37, "Telefono Encargado de COMPRA")
         '
         'Panel157
         '
         Me.Panel157.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel157.Controls.Add(Me.CheckBox185)
+        Me.Panel157.Controls.Add(Me.ComboBox49)
+        Me.Panel157.Controls.Add(Me.Label235)
+        Me.Panel157.Controls.Add(Me.ComboBox16)
+        Me.Panel157.Controls.Add(Me.ComboBox15)
+        Me.Panel157.Controls.Add(Me.ComboBox14)
+        Me.Panel157.Controls.Add(Me.Label221)
+        Me.Panel157.Controls.Add(Me.Label218)
+        Me.Panel157.Controls.Add(Me.ComboBox13)
         Me.Panel157.Controls.Add(Me.Label167)
+        Me.Panel157.Controls.Add(Me.CheckBox185)
         Me.Panel157.Controls.Add(Me.Label19)
         Me.Panel157.Controls.Add(Me.Label13)
-        Me.Panel157.Controls.Add(Me.ComboBox14)
-        Me.Panel157.Controls.Add(Me.ComboBox13)
         Me.Panel157.Controls.Add(Me.CheckBox192)
         Me.Panel157.Controls.Add(Me.CheckBox190)
-        Me.Panel157.Controls.Add(Me.DateTimePicker14)
         Me.Panel157.Controls.Add(Me.CheckBox189)
         Me.Panel157.Controls.Add(Me.CheckBox188)
-        Me.Panel157.Location = New System.Drawing.Point(7, 351)
+        Me.Panel157.Location = New System.Drawing.Point(17, 166)
         Me.Panel157.Name = "Panel157"
-        Me.Panel157.Size = New System.Drawing.Size(1277, 39)
-        Me.Panel157.TabIndex = 653
+        Me.Panel157.Size = New System.Drawing.Size(1137, 84)
+        Me.Panel157.TabIndex = 706
         '
-        'CheckBox185
+        'ComboBox49
         '
-        Me.CheckBox185.AutoSize = True
-        Me.CheckBox185.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox185.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox185.Location = New System.Drawing.Point(1003, 5)
-        Me.CheckBox185.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox185.Name = "CheckBox185"
-        Me.CheckBox185.Size = New System.Drawing.Size(245, 28)
-        Me.CheckBox185.TabIndex = 624
-        Me.CheckBox185.Text = "Contra entreg Docum."
-        Me.CheckBox185.UseVisualStyleBackColor = False
+        Me.ComboBox49.BackColor = System.Drawing.Color.White
+        Me.ComboBox49.DropDownWidth = 272
+        Me.ComboBox49.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox49.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox49.FormattingEnabled = True
+        Me.ComboBox49.Items.AddRange(New Object() {"Numero de Proveedor"})
+        Me.ComboBox49.Location = New System.Drawing.Point(158, 7)
+        Me.ComboBox49.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox49.Name = "ComboBox49"
+        Me.ComboBox49.Size = New System.Drawing.Size(344, 32)
+        Me.ComboBox49.TabIndex = 707
+        Me.ComboBox49.Text = "Nombre MP del Proveedor"
+        Me.ToolTip1.SetToolTip(Me.ComboBox49, "El nombre que utiliza el fabricante")
         '
-        'Label167
+        'Label235
         '
-        Me.Label167.AutoSize = True
-        Me.Label167.BackColor = System.Drawing.Color.Transparent
-        Me.Label167.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label167.Location = New System.Drawing.Point(4, 7)
-        Me.Label167.Name = "Label167"
-        Me.Label167.Size = New System.Drawing.Size(119, 24)
-        Me.Label167.TabIndex = 620
-        Me.Label167.Text = "Contrato X:"
+        Me.Label235.BackColor = System.Drawing.Color.Transparent
+        Me.Label235.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label235.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label235.Location = New System.Drawing.Point(12, 8)
+        Me.Label235.Name = "Label235"
+        Me.Label235.Size = New System.Drawing.Size(132, 30)
+        Me.Label235.TabIndex = 708
+        Me.Label235.Text = "Nombre MP:"
+        Me.Label235.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Label19
+        'ComboBox16
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.BackColor = System.Drawing.Color.Transparent
-        Me.Label19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(380, 7)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(91, 24)
-        Me.Label19.TabIndex = 619
-        Me.Label19.Text = "Entrega:"
+        Me.ComboBox16.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox16.DropDownWidth = 272
+        Me.ComboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox16.FormattingEnabled = True
+        Me.ComboBox16.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox16.Location = New System.Drawing.Point(951, 45)
+        Me.ComboBox16.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox16.Name = "ComboBox16"
+        Me.ComboBox16.Size = New System.Drawing.Size(150, 32)
+        Me.ComboBox16.TabIndex = 707
         '
-        'Label13
+        'ComboBox15
         '
-        Me.Label13.AutoSize = True
-        Me.Label13.BackColor = System.Drawing.Color.Transparent
-        Me.Label13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(653, 7)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(112, 24)
-        Me.Label13.TabIndex = 618
-        Me.Label13.Text = "Pago Dias:"
+        Me.ComboBox15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox15.DropDownWidth = 272
+        Me.ComboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox15.FormattingEnabled = True
+        Me.ComboBox15.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox15.Location = New System.Drawing.Point(676, 45)
+        Me.ComboBox15.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox15.Name = "ComboBox15"
+        Me.ComboBox15.Size = New System.Drawing.Size(140, 32)
+        Me.ComboBox15.TabIndex = 707
         '
         'ComboBox14
         '
@@ -4469,12 +5239,36 @@ Partial Class MP
         Me.ComboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox14.FormattingEnabled = True
-        Me.ComboBox14.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "", "Contrato firmado por cantidad de meses inicio fecha"})
-        Me.ComboBox14.Location = New System.Drawing.Point(130, 3)
+        Me.ComboBox14.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox14.Location = New System.Drawing.Point(376, 45)
         Me.ComboBox14.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox14.Name = "ComboBox14"
-        Me.ComboBox14.Size = New System.Drawing.Size(77, 32)
-        Me.ComboBox14.TabIndex = 622
+        Me.ComboBox14.Size = New System.Drawing.Size(139, 32)
+        Me.ComboBox14.TabIndex = 707
+        '
+        'Label221
+        '
+        Me.Label221.BackColor = System.Drawing.Color.Transparent
+        Me.Label221.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label221.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label221.Location = New System.Drawing.Point(835, 45)
+        Me.Label221.Name = "Label221"
+        Me.Label221.Size = New System.Drawing.Size(102, 33)
+        Me.Label221.TabIndex = 618
+        Me.Label221.Text = "LLega:"
+        Me.Label221.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label218
+        '
+        Me.Label218.BackColor = System.Drawing.Color.Transparent
+        Me.Label218.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label218.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label218.Location = New System.Drawing.Point(550, 45)
+        Me.Label218.Name = "Label218"
+        Me.Label218.Size = New System.Drawing.Size(114, 33)
+        Me.Label218.TabIndex = 618
+        Me.Label218.Text = "Embarco:"
+        Me.Label218.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'ComboBox13
         '
@@ -4483,19 +5277,69 @@ Partial Class MP
         Me.ComboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ComboBox13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox13.FormattingEnabled = True
-        Me.ComboBox13.Items.AddRange(New Object() {"Diaria", "Semanal", "Mensual", "Anual", "1 mes", "2 meses", "3 meses", "4 meses", "5 meses", "6 meses", "7 meses", "8 meses", "9 meses", "10 meses", "11 meses", "12 meses", "", "Forma Pactada emtrega"})
-        Me.ComboBox13.Location = New System.Drawing.Point(479, 3)
+        Me.ComboBox13.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox13.Location = New System.Drawing.Point(96, 45)
         Me.ComboBox13.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox13.Name = "ComboBox13"
-        Me.ComboBox13.Size = New System.Drawing.Size(154, 32)
-        Me.ComboBox13.TabIndex = 621
+        Me.ComboBox13.Size = New System.Drawing.Size(138, 32)
+        Me.ComboBox13.TabIndex = 707
+        Me.ToolTip1.SetToolTip(Me.ComboBox13, "Me que realiso el pedido.")
+        '
+        'Label167
+        '
+        Me.Label167.BackColor = System.Drawing.Color.Transparent
+        Me.Label167.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label167.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label167.Location = New System.Drawing.Point(266, 45)
+        Me.Label167.Name = "Label167"
+        Me.Label167.Size = New System.Drawing.Size(96, 33)
+        Me.Label167.TabIndex = 618
+        Me.Label167.Text = "Fabrico:"
+        Me.Label167.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'CheckBox185
+        '
+        Me.CheckBox185.AutoSize = True
+        Me.CheckBox185.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox185.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox185.Location = New System.Drawing.Point(889, 9)
+        Me.CheckBox185.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox185.Name = "CheckBox185"
+        Me.CheckBox185.Size = New System.Drawing.Size(245, 28)
+        Me.CheckBox185.TabIndex = 624
+        Me.CheckBox185.Text = "Contra entreg Docum."
+        Me.CheckBox185.UseVisualStyleBackColor = False
+        '
+        'Label19
+        '
+        Me.Label19.BackColor = System.Drawing.Color.Transparent
+        Me.Label19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(14, 45)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(72, 33)
+        Me.Label19.TabIndex = 618
+        Me.Label19.Text = "Pidio:"
+        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label13
+        '
+        Me.Label13.BackColor = System.Drawing.Color.Transparent
+        Me.Label13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(521, 10)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(114, 26)
+        Me.Label13.TabIndex = 618
+        Me.Label13.Text = "Pago Dias:"
+        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'CheckBox192
         '
         Me.CheckBox192.AutoSize = True
         Me.CheckBox192.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox192.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox192.Location = New System.Drawing.Point(769, 5)
+        Me.CheckBox192.Location = New System.Drawing.Point(655, 9)
         Me.CheckBox192.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox192.Name = "CheckBox192"
         Me.CheckBox192.Size = New System.Drawing.Size(47, 28)
@@ -4508,7 +5352,7 @@ Partial Class MP
         Me.CheckBox190.AutoSize = True
         Me.CheckBox190.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox190.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox190.Location = New System.Drawing.Point(819, 5)
+        Me.CheckBox190.Location = New System.Drawing.Point(705, 9)
         Me.CheckBox190.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox190.Name = "CheckBox190"
         Me.CheckBox190.Size = New System.Drawing.Size(58, 28)
@@ -4516,22 +5360,12 @@ Partial Class MP
         Me.CheckBox190.Text = "30"
         Me.CheckBox190.UseVisualStyleBackColor = False
         '
-        'DateTimePicker14
-        '
-        Me.DateTimePicker14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker14.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker14.Location = New System.Drawing.Point(213, 4)
-        Me.DateTimePicker14.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker14.Name = "DateTimePicker14"
-        Me.DateTimePicker14.Size = New System.Drawing.Size(155, 30)
-        Me.DateTimePicker14.TabIndex = 623
-        '
         'CheckBox189
         '
         Me.CheckBox189.AutoSize = True
         Me.CheckBox189.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox189.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox189.Location = New System.Drawing.Point(881, 5)
+        Me.CheckBox189.Location = New System.Drawing.Point(767, 9)
         Me.CheckBox189.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox189.Name = "CheckBox189"
         Me.CheckBox189.Size = New System.Drawing.Size(58, 28)
@@ -4544,7 +5378,7 @@ Partial Class MP
         Me.CheckBox188.AutoSize = True
         Me.CheckBox188.BackColor = System.Drawing.Color.Transparent
         Me.CheckBox188.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox188.Location = New System.Drawing.Point(943, 5)
+        Me.CheckBox188.Location = New System.Drawing.Point(829, 9)
         Me.CheckBox188.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox188.Name = "CheckBox188"
         Me.CheckBox188.Size = New System.Drawing.Size(58, 28)
@@ -4552,823 +5386,207 @@ Partial Class MP
         Me.CheckBox188.Text = "90"
         Me.CheckBox188.UseVisualStyleBackColor = False
         '
-        'Label28
+        'Label5
         '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.ForeColor = System.Drawing.Color.Blue
-        Me.Label28.Location = New System.Drawing.Point(402, 210)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(487, 24)
-        Me.Label28.TabIndex = 641
-        Me.Label28.Text = "CADA INGRESO COMUNICA A ESTOS CELULARES"
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(1264, 208)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(178, 182)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 640
-        Me.PictureBox5.TabStop = False
-        '
-        'ComboBox16
-        '
-        Me.ComboBox16.BackColor = System.Drawing.Color.White
-        Me.ComboBox16.DropDownWidth = 272
-        Me.ComboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox16.FormattingEnabled = True
-        Me.ComboBox16.Items.AddRange(New Object() {"NOM. CORTO (LITO CARGO)"})
-        Me.ComboBox16.Location = New System.Drawing.Point(818, 52)
-        Me.ComboBox16.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox16.Name = "ComboBox16"
-        Me.ComboBox16.Size = New System.Drawing.Size(260, 32)
-        Me.ComboBox16.TabIndex = 639
-        '
-        'ComboBox15
-        '
-        Me.ComboBox15.BackColor = System.Drawing.Color.White
-        Me.ComboBox15.DropDownWidth = 272
-        Me.ComboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox15.FormattingEnabled = True
-        Me.ComboBox15.Items.AddRange(New Object() {"(LITO COD )"})
-        Me.ComboBox15.Location = New System.Drawing.Point(156, 52)
-        Me.ComboBox15.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox15.Name = "ComboBox15"
-        Me.ComboBox15.Size = New System.Drawing.Size(159, 32)
-        Me.ComboBox15.TabIndex = 639
-        Me.ComboBox15.Tag = ""
-        '
-        'ComboBox11
-        '
-        Me.ComboBox11.BackColor = System.Drawing.Color.White
-        Me.ComboBox11.DropDownWidth = 272
-        Me.ComboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox11.FormattingEnabled = True
-        Me.ComboBox11.Items.AddRange(New Object() {"NOMBRE CLIENTE (LITO EMPRESA )"})
-        Me.ComboBox11.Location = New System.Drawing.Point(330, 52)
-        Me.ComboBox11.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox11.Name = "ComboBox11"
-        Me.ComboBox11.Size = New System.Drawing.Size(474, 32)
-        Me.ComboBox11.TabIndex = 639
-        '
-        'Panel61
-        '
-        Me.Panel61.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel61.Controls.Add(Me.CheckBox160)
-        Me.Panel61.Controls.Add(Me.CheckBox182)
-        Me.Panel61.Controls.Add(Me.CheckBox183)
-        Me.Panel61.Controls.Add(Me.CheckBox184)
-        Me.Panel61.Controls.Add(Me.Button14)
-        Me.Panel61.Controls.Add(Me.Button30)
-        Me.Panel61.Controls.Add(Me.Button71)
-        Me.Panel61.Controls.Add(Me.Button35)
-        Me.Panel61.Controls.Add(Me.Button68)
-        Me.Panel61.Controls.Add(Me.Button69)
-        Me.Panel61.Controls.Add(Me.DateTimePicker8)
-        Me.Panel61.Controls.Add(Me.DateTimePicker12)
-        Me.Panel61.Controls.Add(Me.DateTimePicker13)
-        Me.Panel61.Controls.Add(Me.Panel138)
-        Me.Panel61.Location = New System.Drawing.Point(1457, 57)
-        Me.Panel61.Name = "Panel61"
-        Me.Panel61.Size = New System.Drawing.Size(359, 383)
-        Me.Panel61.TabIndex = 638
-        '
-        'CheckBox160
-        '
-        Me.CheckBox160.AutoSize = True
-        Me.CheckBox160.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox160.Location = New System.Drawing.Point(14, 128)
-        Me.CheckBox160.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox160.Name = "CheckBox160"
-        Me.CheckBox160.Size = New System.Drawing.Size(158, 33)
-        Me.CheckBox160.TabIndex = 241
-        Me.CheckBox160.Text = "WhatsApp"
-        Me.CheckBox160.UseVisualStyleBackColor = True
-        '
-        'CheckBox182
-        '
-        Me.CheckBox182.AutoSize = True
-        Me.CheckBox182.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox182.Location = New System.Drawing.Point(14, 100)
-        Me.CheckBox182.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox182.Name = "CheckBox182"
-        Me.CheckBox182.Size = New System.Drawing.Size(103, 33)
-        Me.CheckBox182.TabIndex = 242
-        Me.CheckBox182.Text = "Email"
-        Me.CheckBox182.UseVisualStyleBackColor = True
-        '
-        'CheckBox183
-        '
-        Me.CheckBox183.AutoSize = True
-        Me.CheckBox183.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox183.Location = New System.Drawing.Point(14, 45)
-        Me.CheckBox183.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox183.Name = "CheckBox183"
-        Me.CheckBox183.Size = New System.Drawing.Size(131, 33)
-        Me.CheckBox183.TabIndex = 243
-        Me.CheckBox183.Text = "Pantalla"
-        Me.CheckBox183.UseVisualStyleBackColor = True
-        '
-        'CheckBox184
-        '
-        Me.CheckBox184.AutoSize = True
-        Me.CheckBox184.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox184.Location = New System.Drawing.Point(14, 71)
-        Me.CheckBox184.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox184.Name = "CheckBox184"
-        Me.CheckBox184.Size = New System.Drawing.Size(91, 33)
-        Me.CheckBox184.TabIndex = 244
-        Me.CheckBox184.Text = "Hoja"
-        Me.CheckBox184.UseVisualStyleBackColor = True
-        '
-        'Button14
-        '
-        Me.Button14.AutoSize = True
-        Me.Button14.BackColor = System.Drawing.Color.Lime
-        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button14.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.ForeColor = System.Drawing.Color.Black
-        Me.Button14.Location = New System.Drawing.Point(182, 269)
-        Me.Button14.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button14.Name = "Button14"
-        Me.Button14.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button14.Size = New System.Drawing.Size(164, 50)
-        Me.Button14.TabIndex = 239
-        Me.Button14.Text = "IMPRIME"
-        Me.Button14.UseVisualStyleBackColor = False
-        '
-        'Button30
-        '
-        Me.Button30.AutoSize = True
-        Me.Button30.BackColor = System.Drawing.Color.Blue
-        Me.Button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button30.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button30.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button30.ForeColor = System.Drawing.Color.White
-        Me.Button30.Location = New System.Drawing.Point(180, 100)
-        Me.Button30.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button30.Name = "Button30"
-        Me.Button30.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button30.Size = New System.Drawing.Size(166, 50)
-        Me.Button30.TabIndex = 240
-        Me.Button30.Text = "Agregar"
-        Me.Button30.UseVisualStyleBackColor = False
-        '
-        'Button71
-        '
-        Me.Button71.AutoSize = True
-        Me.Button71.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button71.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button71.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button71.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button71.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button71.ForeColor = System.Drawing.Color.Black
-        Me.Button71.Location = New System.Drawing.Point(180, 45)
-        Me.Button71.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button71.Name = "Button71"
-        Me.Button71.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button71.Size = New System.Drawing.Size(166, 50)
-        Me.Button71.TabIndex = 240
-        Me.Button71.Text = "IMPORTAR"
-        Me.Button71.UseVisualStyleBackColor = False
-        '
-        'Button35
-        '
-        Me.Button35.AutoSize = True
-        Me.Button35.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button35.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button35.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button35.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button35.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button35.ForeColor = System.Drawing.Color.Black
-        Me.Button35.Location = New System.Drawing.Point(182, 214)
-        Me.Button35.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button35.Name = "Button35"
-        Me.Button35.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button35.Size = New System.Drawing.Size(164, 50)
-        Me.Button35.TabIndex = 240
-        Me.Button35.Text = "ENVIAR"
-        Me.Button35.UseVisualStyleBackColor = False
-        '
-        'Button68
-        '
-        Me.Button68.AutoSize = True
-        Me.Button68.BackColor = System.Drawing.Color.Yellow
-        Me.Button68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button68.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button68.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button68.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button68.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button68.ForeColor = System.Drawing.Color.Black
-        Me.Button68.Location = New System.Drawing.Point(184, 321)
-        Me.Button68.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button68.Name = "Button68"
-        Me.Button68.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button68.Size = New System.Drawing.Size(164, 50)
-        Me.Button68.TabIndex = 237
-        Me.Button68.Text = "Grabar"
-        Me.Button68.UseVisualStyleBackColor = False
-        '
-        'Button69
-        '
-        Me.Button69.AutoSize = True
-        Me.Button69.BackColor = System.Drawing.Color.Red
-        Me.Button69.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button69.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button69.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button69.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button69.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button69.ForeColor = System.Drawing.Color.White
-        Me.Button69.Location = New System.Drawing.Point(182, 156)
-        Me.Button69.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button69.Name = "Button69"
-        Me.Button69.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button69.Size = New System.Drawing.Size(164, 50)
-        Me.Button69.TabIndex = 238
-        Me.Button69.Text = "ANULAR"
-        Me.Button69.UseVisualStyleBackColor = False
-        '
-        'DateTimePicker8
-        '
-        Me.DateTimePicker8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker8.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker8.Location = New System.Drawing.Point(18, 333)
-        Me.DateTimePicker8.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker8.Name = "DateTimePicker8"
-        Me.DateTimePicker8.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker8.TabIndex = 237
-        '
-        'DateTimePicker12
-        '
-        Me.DateTimePicker12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker12.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker12.Location = New System.Drawing.Point(16, 281)
-        Me.DateTimePicker12.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker12.Name = "DateTimePicker12"
-        Me.DateTimePicker12.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker12.TabIndex = 237
-        '
-        'DateTimePicker13
-        '
-        Me.DateTimePicker13.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText
-        Me.DateTimePicker13.CalendarTitleForeColor = System.Drawing.Color.White
-        Me.DateTimePicker13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker13.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker13.Location = New System.Drawing.Point(16, 226)
-        Me.DateTimePicker13.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker13.Name = "DateTimePicker13"
-        Me.DateTimePicker13.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker13.TabIndex = 237
-        '
-        'Panel138
-        '
-        Me.Panel138.BackColor = System.Drawing.Color.Green
-        Me.Panel138.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel138.Controls.Add(Me.Label382)
-        Me.Panel138.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel138.Location = New System.Drawing.Point(0, 0)
-        Me.Panel138.Name = "Panel138"
-        Me.Panel138.Size = New System.Drawing.Size(357, 43)
-        Me.Panel138.TabIndex = 0
-        '
-        'Label382
-        '
-        Me.Label382.AutoSize = True
-        Me.Label382.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label382.ForeColor = System.Drawing.Color.White
-        Me.Label382.Location = New System.Drawing.Point(160, 4)
-        Me.Label382.Name = "Label382"
-        Me.Label382.Size = New System.Drawing.Size(117, 33)
-        Me.Label382.TabIndex = 6
-        Me.Label382.Text = "SALIDA"
-        '
-        'DateTimePicker77
-        '
-        Me.DateTimePicker77.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker77.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker77.Location = New System.Drawing.Point(1260, 137)
-        Me.DateTimePicker77.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker77.Name = "DateTimePicker77"
-        Me.DateTimePicker77.Size = New System.Drawing.Size(155, 30)
-        Me.DateTimePicker77.TabIndex = 352
-        '
-        'TextBox83
-        '
-        Me.TextBox83.BackColor = System.Drawing.Color.White
-        Me.TextBox83.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
-        Me.TextBox83.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox83.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox83.Location = New System.Drawing.Point(456, 306)
-        Me.TextBox83.Name = "TextBox83"
-        Me.TextBox83.Size = New System.Drawing.Size(354, 30)
-        Me.TextBox83.TabIndex = 333
-        Me.TextBox83.Text = "estela@gama.com.py"
-        '
-        'TextBox84
-        '
-        Me.TextBox84.BackColor = System.Drawing.Color.White
-        Me.TextBox84.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
-        Me.TextBox84.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox84.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox84.Location = New System.Drawing.Point(455, 270)
-        Me.TextBox84.Name = "TextBox84"
-        Me.TextBox84.Size = New System.Drawing.Size(354, 30)
-        Me.TextBox84.TabIndex = 332
-        Me.TextBox84.Text = "estela@gama.com.py"
-        '
-        'TextBox85
-        '
-        Me.TextBox85.BackColor = System.Drawing.Color.White
-        Me.TextBox85.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
-        Me.TextBox85.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox85.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox85.Location = New System.Drawing.Point(455, 234)
-        Me.TextBox85.Name = "TextBox85"
-        Me.TextBox85.Size = New System.Drawing.Size(354, 30)
-        Me.TextBox85.TabIndex = 331
-        Me.TextBox85.Text = "estela@gama.com.py"
-        '
-        'TextBox47
-        '
-        Me.TextBox47.BackColor = System.Drawing.Color.White
-        Me.TextBox47.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox47.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox47.Location = New System.Drawing.Point(239, 306)
-        Me.TextBox47.Name = "TextBox47"
-        Me.TextBox47.Size = New System.Drawing.Size(204, 30)
-        Me.TextBox47.TabIndex = 327
-        Me.TextBox47.Text = "+595 981 123456789"
-        '
-        'TextBox240
-        '
-        Me.TextBox240.BackColor = System.Drawing.Color.White
-        Me.TextBox240.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox240.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox240.Location = New System.Drawing.Point(239, 270)
-        Me.TextBox240.Name = "TextBox240"
-        Me.TextBox240.Size = New System.Drawing.Size(204, 30)
-        Me.TextBox240.TabIndex = 327
-        Me.TextBox240.Text = "+595 981 123456789"
-        '
-        'TextBox46
-        '
-        Me.TextBox46.BackColor = System.Drawing.Color.White
-        Me.TextBox46.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox46.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox46.Location = New System.Drawing.Point(1027, 306)
-        Me.TextBox46.Name = "TextBox46"
-        Me.TextBox46.Size = New System.Drawing.Size(204, 30)
-        Me.TextBox46.TabIndex = 341
-        Me.TextBox46.Text = "+595 981 123456789"
-        '
-        'TextBox40
-        '
-        Me.TextBox40.BackColor = System.Drawing.Color.White
-        Me.TextBox40.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox40.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox40.Location = New System.Drawing.Point(1027, 270)
-        Me.TextBox40.Name = "TextBox40"
-        Me.TextBox40.Size = New System.Drawing.Size(204, 30)
-        Me.TextBox40.TabIndex = 341
-        Me.TextBox40.Text = "+595 981 123456789"
+        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(17, 127)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(234, 26)
+        Me.Label5.TabIndex = 335
+        Me.Label5.Text = "Provee.  Enc, Cuenta:"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox38
         '
         Me.TextBox38.BackColor = System.Drawing.Color.White
+        Me.TextBox38.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox38.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox38.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox38.Location = New System.Drawing.Point(1027, 234)
+        Me.TextBox38.Location = New System.Drawing.Point(268, 125)
         Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New System.Drawing.Size(204, 30)
-        Me.TextBox38.TabIndex = 341
-        Me.TextBox38.Text = "+595 981 123456789"
+        Me.TextBox38.Size = New System.Drawing.Size(299, 30)
+        Me.TextBox38.TabIndex = 334
+        Me.TextBox38.Text = "(LITO NOMBRE )"
+        Me.ToolTip1.SetToolTip(Me.TextBox38, "Litoplan (NOMBRE) Nombre encargado de COMPRA")
         '
-        'TextBox241
+        'TextBox27
         '
-        Me.TextBox241.BackColor = System.Drawing.Color.White
-        Me.TextBox241.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox241.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox241.Location = New System.Drawing.Point(239, 234)
-        Me.TextBox241.Name = "TextBox241"
-        Me.TextBox241.Size = New System.Drawing.Size(204, 30)
-        Me.TextBox241.TabIndex = 341
-        Me.TextBox241.Text = "+595 981 123456789"
+        Me.TextBox27.BackColor = System.Drawing.Color.White
+        Me.TextBox27.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox27.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox27.Location = New System.Drawing.Point(177, 88)
+        Me.TextBox27.Name = "TextBox27"
+        Me.TextBox27.Size = New System.Drawing.Size(588, 30)
+        Me.TextBox27.TabIndex = 303
+        Me.TextBox27.Text = "DIRECCCION  (LITO DIRECCION )"
+        Me.ToolTip1.SetToolTip(Me.TextBox27, "Litoplan (DIRECCION) Es la dirección de la RAZON SOCIAL de facturación")
         '
-        'Label188
+        'TextBox33
         '
-        Me.Label188.AutoSize = True
-        Me.Label188.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label188.Location = New System.Drawing.Point(1136, 99)
-        Me.Label188.Name = "Label188"
-        Me.Label188.Size = New System.Drawing.Size(99, 24)
-        Me.Label188.TabIndex = 303
-        Me.Label188.Text = "Teléfono:"
+        Me.TextBox33.BackColor = System.Drawing.Color.White
+        Me.TextBox33.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox33.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox33.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox33.Location = New System.Drawing.Point(875, 88)
+        Me.TextBox33.Name = "TextBox33"
+        Me.TextBox33.Size = New System.Drawing.Size(276, 30)
+        Me.TextBox33.TabIndex = 304
+        Me.TextBox33.Text = "(LITO PAIS )"
+        Me.ToolTip1.SetToolTip(Me.TextBox33, "Litoplan (PAÍS): En nombre del PAÍS donde esta habilitó la razon social que se fa" &
+        "ctura." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Importante para la FACTURA ELECTRONICA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
-        'Label16
+        'TextBox40
         '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(903, 309)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(116, 24)
-        Me.Label16.TabIndex = 299
-        Me.Label16.Text = "Gama GG.:"
+        Me.TextBox40.BackColor = System.Drawing.Color.White
+        Me.TextBox40.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox40.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox40.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox40.Location = New System.Drawing.Point(349, 49)
+        Me.TextBox40.Name = "TextBox40"
+        Me.TextBox40.Size = New System.Drawing.Size(416, 30)
+        Me.TextBox40.TabIndex = 308
+        Me.TextBox40.Text = "NOMBRE CLIENTE (LITO EMPRESA )"
+        Me.ToolTip1.SetToolTip(Me.TextBox40, "LITOPLAN ((CARGO) ): El nombre de FACTURACION")
         '
-        'Label12
+        'TextBox83
         '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(905, 273)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(116, 24)
-        Me.Label12.TabIndex = 299
-        Me.Label12.Text = "Gama GG.:"
+        Me.TextBox83.BackColor = System.Drawing.Color.White
+        Me.TextBox83.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TextBox83.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox83.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox83.Location = New System.Drawing.Point(904, 49)
+        Me.TextBox83.Name = "TextBox83"
+        Me.TextBox83.Size = New System.Drawing.Size(247, 30)
+        Me.TextBox83.TabIndex = 310
+        Me.TextBox83.Text = "RUC  (LITO NIT )"
+        Me.ToolTip1.SetToolTip(Me.TextBox83, "LITOPLAN (NIT): El numero de RUC")
+        '
+        'Label33
+        '
+        Me.Label33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label33.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(782, 52)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(111, 26)
+        Me.Label33.TabIndex = 301
+        Me.Label33.Text = "NIT / RUC:"
+        Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label41
+        '
+        Me.Label41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label41.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(782, 90)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(81, 26)
+        Me.Label41.TabIndex = 300
+        Me.Label41.Text = "Pais:"
+        Me.Label41.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label42
+        '
+        Me.Label42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label42.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(16, 52)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(145, 26)
+        Me.Label42.TabIndex = 297
+        Me.Label42.Text = "Proveedor N°:"
+        Me.Label42.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label213
         '
-        Me.Label213.AutoSize = True
+        Me.Label213.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label213.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label213.Location = New System.Drawing.Point(823, 237)
+        Me.Label213.Location = New System.Drawing.Point(16, 90)
         Me.Label213.Name = "Label213"
-        Me.Label213.Size = New System.Drawing.Size(198, 24)
-        Me.Label213.TabIndex = 299
-        Me.Label213.Text = "Gama Planificación:"
+        Me.Label213.Size = New System.Drawing.Size(145, 26)
+        Me.Label213.TabIndex = 298
+        Me.Label213.Text = "Dirección:"
+        Me.Label213.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'Label11
+        'Panel184
         '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(126, 237)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(106, 24)
-        Me.Label11.TabIndex = 312
-        Me.Label11.Text = "Gama CC:"
-        '
-        'Label214
-        '
-        Me.Label214.AutoSize = True
-        Me.Label214.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label214.Location = New System.Drawing.Point(80, 273)
-        Me.Label214.Name = "Label214"
-        Me.Label214.Size = New System.Drawing.Size(152, 24)
-        Me.Label214.TabIndex = 312
-        Me.Label214.Text = "Gama Compra:"
-        '
-        'Label215
-        '
-        Me.Label215.AutoSize = True
-        Me.Label215.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label215.Location = New System.Drawing.Point(14, 309)
-        Me.Label215.Name = "Label215"
-        Me.Label215.Size = New System.Drawing.Size(218, 24)
-        Me.Label215.TabIndex = 298
-        Me.Label215.Text = "Gama Administración:"
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton1.Location = New System.Drawing.Point(1333, 177)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(109, 28)
-        Me.RadioButton1.TabIndex = 295
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Inactivo"
-        Me.RadioButton1.UseVisualStyleBackColor = False
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton2.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton2.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton2.Location = New System.Drawing.Point(1231, 177)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(94, 28)
-        Me.RadioButton2.TabIndex = 294
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Activo"
-        Me.RadioButton2.UseVisualStyleBackColor = False
-        '
-        'TextBox242
-        '
-        Me.TextBox242.BackColor = System.Drawing.Color.White
-        Me.TextBox242.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox242.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox242.Location = New System.Drawing.Point(1239, 96)
-        Me.TextBox242.Name = "TextBox242"
-        Me.TextBox242.Size = New System.Drawing.Size(203, 30)
-        Me.TextBox242.TabIndex = 292
-        Me.TextBox242.Text = "00000 (LITO telefono )"
-        Me.TextBox242.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'TextBox243
-        '
-        Me.TextBox243.BackColor = System.Drawing.Color.White
-        Me.TextBox243.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox243.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox243.Location = New System.Drawing.Point(1033, 96)
-        Me.TextBox243.Name = "TextBox243"
-        Me.TextBox243.Size = New System.Drawing.Size(97, 30)
-        Me.TextBox243.TabIndex = 292
-        Me.TextBox243.Text = "000 (LITO zip )"
-        Me.TextBox243.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'TextBox244
-        '
-        Me.TextBox244.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox244.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox244.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox244.Location = New System.Drawing.Point(1011, 176)
-        Me.TextBox244.Name = "TextBox244"
-        Me.TextBox244.Size = New System.Drawing.Size(205, 30)
-        Me.TextBox244.TabIndex = 276
-        Me.TextBox244.Text = "CKB (LITO CLASIF )"
-        '
-        'TextBox245
-        '
-        Me.TextBox245.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox245.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox245.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox245.Location = New System.Drawing.Point(156, 96)
-        Me.TextBox245.Name = "TextBox245"
-        Me.TextBox245.Size = New System.Drawing.Size(733, 30)
-        Me.TextBox245.TabIndex = 276
-        Me.TextBox245.Text = "DIRECCCION  (LITO DIRECCION )"
-        '
-        'TextBox247
-        '
-        Me.TextBox247.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox247.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox247.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox247.Location = New System.Drawing.Point(968, 137)
-        Me.TextBox247.Name = "TextBox247"
-        Me.TextBox247.Size = New System.Drawing.Size(276, 30)
-        Me.TextBox247.TabIndex = 276
-        Me.TextBox247.Text = "(LITO PAIS )"
-        '
-        'TextBox255
-        '
-        Me.TextBox255.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox255.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox255.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox255.Location = New System.Drawing.Point(620, 173)
-        Me.TextBox255.Name = "TextBox255"
-        Me.TextBox255.Size = New System.Drawing.Size(269, 30)
-        Me.TextBox255.TabIndex = 276
-        Me.TextBox255.Text = "XXX (LITO SEGMENTO)"
-        '
-        'TextBox256
-        '
-        Me.TextBox256.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox256.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox256.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox256.Location = New System.Drawing.Point(156, 173)
-        Me.TextBox256.Name = "TextBox256"
-        Me.TextBox256.Size = New System.Drawing.Size(276, 30)
-        Me.TextBox256.TabIndex = 276
-        Me.TextBox256.Text = "XXX (LITO TIPO)"
-        '
-        'TextBox257
-        '
-        Me.TextBox257.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox257.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox257.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox257.Location = New System.Drawing.Point(620, 137)
-        Me.TextBox257.Name = "TextBox257"
-        Me.TextBox257.Size = New System.Drawing.Size(269, 30)
-        Me.TextBox257.TabIndex = 276
-        Me.TextBox257.Text = "(LITO ESTADO )"
-        '
-        'TextBox259
-        '
-        Me.TextBox259.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox259.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox259.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox259.Location = New System.Drawing.Point(156, 137)
-        Me.TextBox259.Name = "TextBox259"
-        Me.TextBox259.Size = New System.Drawing.Size(366, 30)
-        Me.TextBox259.TabIndex = 276
-        Me.TextBox259.Text = "(LITO CIUDAD )"
-        '
-        'TextBox268
-        '
-        Me.TextBox268.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox268.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox268.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox268.Location = New System.Drawing.Point(1198, 54)
-        Me.TextBox268.Name = "TextBox268"
-        Me.TextBox268.Size = New System.Drawing.Size(244, 30)
-        Me.TextBox268.TabIndex = 276
-        Me.TextBox268.Text = "RUC  (LITO NIT )"
-        '
-        'Label217
-        '
-        Me.Label217.AutoSize = True
-        Me.Label217.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label217.Location = New System.Drawing.Point(900, 179)
-        Me.Label217.Name = "Label217"
-        Me.Label217.Size = New System.Drawing.Size(105, 24)
-        Me.Label217.TabIndex = 265
-        Me.Label217.Text = "Clasificar:"
-        '
-        'Label218
-        '
-        Me.Label218.AutoSize = True
-        Me.Label218.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label218.Location = New System.Drawing.Point(1084, 57)
-        Me.Label218.Name = "Label218"
-        Me.Label218.Size = New System.Drawing.Size(109, 24)
-        Me.Label218.TabIndex = 262
-        Me.Label218.Text = "NIT / RUC:"
-        '
-        'Label235
-        '
-        Me.Label235.AutoSize = True
-        Me.Label235.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label235.Location = New System.Drawing.Point(905, 140)
-        Me.Label235.Name = "Label235"
-        Me.Label235.Size = New System.Drawing.Size(57, 24)
-        Me.Label235.TabIndex = 259
-        Me.Label235.Text = "Pais:"
-        '
-        'Label368
-        '
-        Me.Label368.AutoSize = True
-        Me.Label368.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label368.Location = New System.Drawing.Point(901, 99)
-        Me.Label368.Name = "Label368"
-        Me.Label368.Size = New System.Drawing.Size(126, 24)
-        Me.Label368.TabIndex = 258
-        Me.Label368.Text = "Cod. Postal:"
+        Me.Panel184.BackColor = System.Drawing.Color.Green
+        Me.Panel184.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel184.Controls.Add(Me.Label381)
+        Me.Panel184.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel184.Location = New System.Drawing.Point(0, 0)
+        Me.Panel184.Name = "Panel184"
+        Me.Panel184.Size = New System.Drawing.Size(1168, 43)
+        Me.Panel184.TabIndex = 0
         '
         'Label381
         '
         Me.Label381.AutoSize = True
-        Me.Label381.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label381.Location = New System.Drawing.Point(6, 57)
+        Me.Label381.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label381.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label381.ForeColor = System.Drawing.Color.White
+        Me.Label381.Location = New System.Drawing.Point(490, 1)
         Me.Label381.Name = "Label381"
-        Me.Label381.Size = New System.Drawing.Size(143, 24)
-        Me.Label381.TabIndex = 255
-        Me.Label381.Text = "Proveedor N°:"
+        Me.Label381.Size = New System.Drawing.Size(194, 35)
+        Me.Label381.TabIndex = 6
+        Me.Label381.Text = "PROVEEDOR"
+        Me.Label381.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label386
+        'PictureBox5
         '
-        Me.Label386.AutoSize = True
-        Me.Label386.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label386.Location = New System.Drawing.Point(502, 176)
-        Me.Label386.Name = "Label386"
-        Me.Label386.Size = New System.Drawing.Size(112, 24)
-        Me.Label386.TabIndex = 266
-        Me.Label386.Text = "Segmento:"
-        '
-        'Label393
-        '
-        Me.Label393.AutoSize = True
-        Me.Label393.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label393.Location = New System.Drawing.Point(531, 140)
-        Me.Label393.Name = "Label393"
-        Me.Label393.Size = New System.Drawing.Size(83, 24)
-        Me.Label393.TabIndex = 257
-        Me.Label393.Text = "Estado:"
-        '
-        'Label398
-        '
-        Me.Label398.AutoSize = True
-        Me.Label398.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label398.Location = New System.Drawing.Point(91, 176)
-        Me.Label398.Name = "Label398"
-        Me.Label398.Size = New System.Drawing.Size(59, 24)
-        Me.Label398.TabIndex = 266
-        Me.Label398.Text = "Tipo:"
-        '
-        'Label399
-        '
-        Me.Label399.AutoSize = True
-        Me.Label399.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label399.Location = New System.Drawing.Point(67, 140)
-        Me.Label399.Name = "Label399"
-        Me.Label399.Size = New System.Drawing.Size(83, 24)
-        Me.Label399.TabIndex = 266
-        Me.Label399.Text = "Ciudad:"
-        '
-        'Label404
-        '
-        Me.Label404.AutoSize = True
-        Me.Label404.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label404.Location = New System.Drawing.Point(44, 99)
-        Me.Label404.Name = "Label404"
-        Me.Label404.Size = New System.Drawing.Size(106, 24)
-        Me.Label404.TabIndex = 256
-        Me.Label404.Text = "Dirección:"
-        '
-        'Panel33
-        '
-        Me.Panel33.BackColor = System.Drawing.Color.Navy
-        Me.Panel33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel33.Controls.Add(Me.PictureBox2)
-        Me.Panel33.Controls.Add(Me.Label424)
-        Me.Panel33.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel33.Location = New System.Drawing.Point(0, 0)
-        Me.Panel33.Name = "Panel33"
-        Me.Panel33.Size = New System.Drawing.Size(1875, 43)
-        Me.Panel33.TabIndex = 0
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(1769, -4)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(45, 40)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 612
-        Me.PictureBox2.TabStop = False
-        '
-        'Label424
-        '
-        Me.Label424.AutoSize = True
-        Me.Label424.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label424.ForeColor = System.Drawing.Color.White
-        Me.Label424.Location = New System.Drawing.Point(855, 0)
-        Me.Label424.Name = "Label424"
-        Me.Label424.Size = New System.Drawing.Size(115, 33)
-        Me.Label424.TabIndex = 6
-        Me.Label424.Text = "CARGA"
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
+        Me.PictureBox5.Location = New System.Drawing.Point(1717, 384)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(129, 130)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 704
+        Me.PictureBox5.TabStop = False
         '
         'DataGridView3
         '
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle1.Format = "N0"
-        DataGridViewCellStyle1.NullValue = Nothing
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle97.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle97.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle97.Format = "N0"
+        DataGridViewCellStyle97.NullValue = Nothing
+        DataGridViewCellStyle97.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle97
         Me.DataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle98.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle98.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle98.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle98.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle98.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle98.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle98.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle98
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.MPCodigoCorto, Me.MPPresupuestoN, Me.MPOrdenCompraN, Me.MPFacturaN, Me.MPTotalGsFactura, Me.MPTotalUnidadesFactura, Me.MPCantidadUnidades, Me.MPCantidadKilos, Me.MPGuaraniesteKilos, Me.MPTotalitemsGuaranies, Me.MPTotalTotalGs, Me.MPTotalTotalUnidades, Me.MPNombreQR, Me.MPNombreQRNumero, Me.MPBobinaN, Me.MPConFSC, Me.ISO22000, Me.MPLoteN, Me.MPVencimiento, Me.MPDiametroCm, Me.MPConoCm, Me.MPOtN})
+        Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.EntradaNumero, Me.MPPresupuestoN, Me.MPOrdenCompraN, Me.MPFacturaN, Me.EmbarqueBLNumero, Me.DespachoNumrto, Me.EstacionEntrada, Me.MPCodigoCorto, Me.NombreMPProveedor, Me.MPTotalGsFactura, Me.MPTotalUnidadesFactura, Me.MPCantidadUnidades, Me.MPCantidadKilos, Me.MPGuaraniesteKilos, Me.MPTotalitemsGuaranies, Me.MPTotalTotalGs, Me.MPTotalTotalUnidades, Me.MPNombreQRNumero, Me.MPConFSC, Me.MPcertificado, Me.MPLoteN, Me.MPVencimiento, Me.MPDiametroCm, Me.MPConoCm, Me.MPOtN})
         Me.DataGridView3.Location = New System.Drawing.Point(9, 528)
         Me.DataGridView3.Name = "DataGridView3"
-        DataGridViewCellStyle25.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle25.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle25.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle123.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle123.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle123.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle123.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle123.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle123.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle123
         Me.DataGridView3.RowHeadersWidth = 62
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle124.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle124
         Me.DataGridView3.RowTemplate.Height = 28
         Me.DataGridView3.Size = New System.Drawing.Size(1880, 413)
         Me.DataGridView3.TabIndex = 637
         '
         'Panel32
         '
-        Me.Panel32.BackColor = System.Drawing.Color.Navy
+        Me.Panel32.BackColor = System.Drawing.Color.Green
         Me.Panel32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel32.Controls.Add(Me.Label41)
         Me.Panel32.Controls.Add(Me.Label14)
         Me.Panel32.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel32.Location = New System.Drawing.Point(0, 0)
         Me.Panel32.Name = "Panel32"
-        Me.Panel32.Size = New System.Drawing.Size(1914, 43)
+        Me.Panel32.Size = New System.Drawing.Size(1908, 43)
         Me.Panel32.TabIndex = 0
-        '
-        'Label41
-        '
-        Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.ForeColor = System.Drawing.Color.White
-        Me.Label41.Location = New System.Drawing.Point(84, 11)
-        Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(537, 19)
-        Me.Label41.TabIndex = 260
-        Me.Label41.Text = "Pantalla: 1946/1043  /// Horejas: 1924/987 /// Primera ventana: 1900/930"
         '
         'Label14
         '
@@ -5381,53 +5599,302 @@ Partial Class MP
         Me.Label14.TabIndex = 6
         Me.Label14.Text = "ENTRADA "
         '
-        'TabPage4
+        'Salida
         '
-        Me.TabPage4.BackColor = System.Drawing.Color.Silver
-        Me.TabPage4.Controls.Add(Me.Panel28)
-        Me.TabPage4.Controls.Add(Me.Panel34)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(1916, 950)
-        Me.TabPage4.TabIndex = 3
-        Me.TabPage4.Text = "SALIDA /"
+        Me.Salida.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Salida.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Salida.Controls.Add(Me.Panel13)
+        Me.Salida.Controls.Add(Me.Panel34)
+        Me.Salida.Location = New System.Drawing.Point(4, 33)
+        Me.Salida.Name = "Salida"
+        Me.Salida.Size = New System.Drawing.Size(1916, 950)
+        Me.Salida.TabIndex = 3
+        Me.Salida.Text = "SALIDA /"
         '
-        'Panel28
+        'Panel13
         '
-        Me.Panel28.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Panel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel28.Controls.Add(Me.Label178)
-        Me.Panel28.Controls.Add(Me.Label196)
-        Me.Panel28.Controls.Add(Me.Label165)
-        Me.Panel28.Controls.Add(Me.DataGridView1)
-        Me.Panel28.Controls.Add(Me.Panel13)
-        Me.Panel28.Controls.Add(Me.Panel29)
-        Me.Panel28.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel28.Location = New System.Drawing.Point(0, 0)
-        Me.Panel28.Name = "Panel28"
-        Me.Panel28.Size = New System.Drawing.Size(1916, 950)
-        Me.Panel28.TabIndex = 258
+        Me.Panel13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel13.Controls.Add(Me.DataGridView1)
+        Me.Panel13.Controls.Add(Me.Panel14)
+        Me.Panel13.Controls.Add(Me.RadioButton30)
+        Me.Panel13.Controls.Add(Me.Label197)
+        Me.Panel13.Controls.Add(Me.Label231)
+        Me.Panel13.Controls.Add(Me.RadioButton25)
+        Me.Panel13.Controls.Add(Me.Panel36)
+        Me.Panel13.Controls.Add(Me.Label487)
+        Me.Panel13.Controls.Add(Me.Panel165)
+        Me.Panel13.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel13.Location = New System.Drawing.Point(0, 0)
+        Me.Panel13.Name = "Panel13"
+        Me.Panel13.Size = New System.Drawing.Size(1912, 946)
+        Me.Panel13.TabIndex = 639
         '
-        'Label178
+        'Panel14
         '
-        Me.Label178.AutoSize = True
-        Me.Label178.BackColor = System.Drawing.Color.Transparent
-        Me.Label178.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label178.Location = New System.Drawing.Point(192, 696)
-        Me.Label178.Name = "Label178"
-        Me.Label178.Size = New System.Drawing.Size(824, 120)
-        Me.Label178.TabIndex = 641
-        Me.Label178.Text = resources.GetString("Label178.Text")
+        Me.Panel14.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel14.Controls.Add(Me.RadioButton83)
+        Me.Panel14.Controls.Add(Me.RadioButton84)
+        Me.Panel14.Controls.Add(Me.RadioButton85)
+        Me.Panel14.Controls.Add(Me.RadioButton86)
+        Me.Panel14.Controls.Add(Me.CheckedListBox3)
+        Me.Panel14.Controls.Add(Me.DateTimePicker17)
+        Me.Panel14.Controls.Add(Me.DateTimePicker18)
+        Me.Panel14.Controls.Add(Me.DateTimePicker19)
+        Me.Panel14.Controls.Add(Me.DateTimePicker21)
+        Me.Panel14.Controls.Add(Me.Label15)
+        Me.Panel14.Controls.Add(Me.Label396)
+        Me.Panel14.Controls.Add(Me.Button11)
+        Me.Panel14.Controls.Add(Me.Button36)
+        Me.Panel14.Controls.Add(Me.Button37)
+        Me.Panel14.Controls.Add(Me.Button38)
+        Me.Panel14.Controls.Add(Me.Panel138)
+        Me.Panel14.Location = New System.Drawing.Point(1481, 51)
+        Me.Panel14.Name = "Panel14"
+        Me.Panel14.Size = New System.Drawing.Size(412, 406)
+        Me.Panel14.TabIndex = 758
+        Me.ToolTip1.SetToolTip(Me.Panel14, "Las acciones que se pueden hacer con ciertos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " parámetros que esta en esta HOJA i" &
+        "ndicado" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'RadioButton83
+        '
+        Me.RadioButton83.AutoSize = True
+        Me.RadioButton83.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton83.Checked = True
+        Me.RadioButton83.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton83.Location = New System.Drawing.Point(19, 46)
+        Me.RadioButton83.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton83.Name = "RadioButton83"
+        Me.RadioButton83.Size = New System.Drawing.Size(110, 28)
+        Me.RadioButton83.TabIndex = 295
+        Me.RadioButton83.TabStop = True
+        Me.RadioButton83.Text = "Pantalla"
+        Me.RadioButton83.UseVisualStyleBackColor = False
+        '
+        'RadioButton84
+        '
+        Me.RadioButton84.AutoSize = True
+        Me.RadioButton84.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton84.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton84.Location = New System.Drawing.Point(19, 142)
+        Me.RadioButton84.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton84.Name = "RadioButton84"
+        Me.RadioButton84.Size = New System.Drawing.Size(132, 28)
+        Me.RadioButton84.TabIndex = 295
+        Me.RadioButton84.Text = "WhatsApp"
+        Me.RadioButton84.UseVisualStyleBackColor = False
+        '
+        'RadioButton85
+        '
+        Me.RadioButton85.AutoSize = True
+        Me.RadioButton85.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton85.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton85.Location = New System.Drawing.Point(19, 110)
+        Me.RadioButton85.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton85.Name = "RadioButton85"
+        Me.RadioButton85.Size = New System.Drawing.Size(84, 28)
+        Me.RadioButton85.TabIndex = 295
+        Me.RadioButton85.Text = "email"
+        Me.RadioButton85.UseVisualStyleBackColor = False
+        '
+        'RadioButton86
+        '
+        Me.RadioButton86.AutoSize = True
+        Me.RadioButton86.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton86.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton86.Location = New System.Drawing.Point(19, 78)
+        Me.RadioButton86.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton86.Name = "RadioButton86"
+        Me.RadioButton86.Size = New System.Drawing.Size(77, 28)
+        Me.RadioButton86.TabIndex = 295
+        Me.RadioButton86.Text = "Hoja"
+        Me.RadioButton86.UseVisualStyleBackColor = False
+        '
+        'CheckedListBox3
+        '
+        Me.CheckedListBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.CheckedListBox3.Font = New System.Drawing.Font("Arial Black", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckedListBox3.FormattingEnabled = True
+        Me.CheckedListBox3.Items.AddRange(New Object() {"AAA"})
+        Me.CheckedListBox3.Location = New System.Drawing.Point(17, 216)
+        Me.CheckedListBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckedListBox3.Name = "CheckedListBox3"
+        Me.CheckedListBox3.Size = New System.Drawing.Size(203, 184)
+        Me.CheckedListBox3.TabIndex = 755
+        Me.ToolTip1.SetToolTip(Me.CheckedListBox3, "Filtrar con el criterio marcado, el informe.")
+        '
+        'DateTimePicker17
+        '
+        Me.DateTimePicker17.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker17.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker17.Location = New System.Drawing.Point(23, 3580)
+        Me.DateTimePicker17.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker17.Name = "DateTimePicker17"
+        Me.DateTimePicker17.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker17.TabIndex = 247
+        '
+        'DateTimePicker18
+        '
+        Me.DateTimePicker18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker18.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker18.Location = New System.Drawing.Point(228, 118)
+        Me.DateTimePicker18.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker18.Name = "DateTimePicker18"
+        Me.DateTimePicker18.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker18.TabIndex = 688
+        '
+        'DateTimePicker19
+        '
+        Me.DateTimePicker19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker19.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker19.Location = New System.Drawing.Point(228, 82)
+        Me.DateTimePicker19.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker19.Name = "DateTimePicker19"
+        Me.DateTimePicker19.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker19.TabIndex = 688
+        '
+        'DateTimePicker21
+        '
+        Me.DateTimePicker21.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker21.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker21.Location = New System.Drawing.Point(22, 3580)
+        Me.DateTimePicker21.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker21.Name = "DateTimePicker21"
+        Me.DateTimePicker21.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker21.TabIndex = 246
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label15.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label15.Location = New System.Drawing.Point(47, 182)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(131, 35)
+        Me.Label15.TabIndex = 245
+        Me.Label15.Text = "FILTRAR"
+        '
+        'Label396
+        '
+        Me.Label396.AutoSize = True
+        Me.Label396.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label396.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label396.Location = New System.Drawing.Point(228, 45)
+        Me.Label396.Name = "Label396"
+        Me.Label396.Size = New System.Drawing.Size(166, 31)
+        Me.Label396.TabIndex = 245
+        Me.Label396.Text = "Rango Fecha"
+        '
+        'Button11
+        '
+        Me.Button11.AutoSize = True
+        Me.Button11.BackColor = System.Drawing.Color.Lime
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button11.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.ForeColor = System.Drawing.Color.Black
+        Me.Button11.Location = New System.Drawing.Point(228, 270)
+        Me.Button11.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button11.Name = "Button11"
+        Me.Button11.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button11.Size = New System.Drawing.Size(173, 50)
+        Me.Button11.TabIndex = 239
+        Me.Button11.Text = "IMPRIME"
+        Me.Button11.UseVisualStyleBackColor = False
+        '
+        'Button36
+        '
+        Me.Button36.AutoSize = True
+        Me.Button36.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button36.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button36.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button36.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button36.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button36.ForeColor = System.Drawing.Color.Black
+        Me.Button36.Location = New System.Drawing.Point(228, 164)
+        Me.Button36.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button36.Name = "Button36"
+        Me.Button36.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button36.Size = New System.Drawing.Size(173, 50)
+        Me.Button36.TabIndex = 240
+        Me.Button36.Text = "ENVIAR"
+        Me.Button36.UseVisualStyleBackColor = False
+        '
+        'Button37
+        '
+        Me.Button37.AutoSize = True
+        Me.Button37.BackColor = System.Drawing.Color.Yellow
+        Me.Button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button37.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button37.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button37.ForeColor = System.Drawing.Color.Black
+        Me.Button37.Location = New System.Drawing.Point(228, 322)
+        Me.Button37.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button37.Name = "Button37"
+        Me.Button37.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button37.Size = New System.Drawing.Size(173, 50)
+        Me.Button37.TabIndex = 237
+        Me.Button37.Text = "Grabar"
+        Me.Button37.UseVisualStyleBackColor = False
+        '
+        'Button38
+        '
+        Me.Button38.AutoSize = True
+        Me.Button38.BackColor = System.Drawing.Color.Red
+        Me.Button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button38.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button38.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button38.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button38.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button38.ForeColor = System.Drawing.Color.White
+        Me.Button38.Location = New System.Drawing.Point(228, 216)
+        Me.Button38.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button38.Name = "Button38"
+        Me.Button38.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button38.Size = New System.Drawing.Size(173, 50)
+        Me.Button38.TabIndex = 238
+        Me.Button38.Text = "ANULAR"
+        Me.Button38.UseVisualStyleBackColor = False
+        '
+        'Panel138
+        '
+        Me.Panel138.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel138.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel138.Controls.Add(Me.Label406)
+        Me.Panel138.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel138.Location = New System.Drawing.Point(0, 0)
+        Me.Panel138.Name = "Panel138"
+        Me.Panel138.Size = New System.Drawing.Size(408, 43)
+        Me.Panel138.TabIndex = 0
+        '
+        'Label406
+        '
+        Me.Label406.AutoSize = True
+        Me.Label406.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label406.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label406.ForeColor = System.Drawing.Color.White
+        Me.Label406.Location = New System.Drawing.Point(128, 2)
+        Me.Label406.Name = "Label406"
+        Me.Label406.Size = New System.Drawing.Size(119, 35)
+        Me.Label406.TabIndex = 6
+        Me.Label406.Text = "SALIDA"
         '
         'Label196
         '
         Me.Label196.AutoSize = True
         Me.Label196.BackColor = System.Drawing.Color.Transparent
         Me.Label196.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label196.Location = New System.Drawing.Point(810, 831)
+        Me.Label196.Location = New System.Drawing.Point(766, 126)
         Me.Label196.Name = "Label196"
         Me.Label196.Size = New System.Drawing.Size(469, 24)
-        Me.Label196.TabIndex = 641
+        Me.Label196.TabIndex = 660
         Me.Label196.Text = "% maximo de salida con respecto a la OT validar"
         '
         'Label165
@@ -5435,205 +5902,17 @@ Partial Class MP
         Me.Label165.AutoSize = True
         Me.Label165.BackColor = System.Drawing.Color.Transparent
         Me.Label165.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label165.Location = New System.Drawing.Point(209, 836)
+        Me.Label165.Location = New System.Drawing.Point(165, 131)
         Me.Label165.Name = "Label165"
         Me.Label165.Size = New System.Drawing.Size(559, 24)
-        Me.Label165.TabIndex = 641
+        Me.Label165.TabIndex = 661
         Me.Label165.Text = "Debe tener opsio para el pedido si no hay colocar NO HAY"
-        '
-        'DataGridView1
-        '
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle27.Format = "N0"
-        DataGridViewCellStyle27.NullValue = Nothing
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle27
-        Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle28
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn13, Me.DataGridViewTextBoxColumn14, Me.DataGridViewTextBoxColumn15, Me.DataGridViewTextBoxColumn16, Me.DataGridViewTextBoxColumn17, Me.DataGridViewTextBoxColumn18, Me.DataGridViewTextBoxColumn19, Me.DataGridViewTextBoxColumn20, Me.DataGridViewTextBoxColumn21})
-        Me.DataGridView1.Location = New System.Drawing.Point(9, 595)
-        Me.DataGridView1.Name = "DataGridView1"
-        DataGridViewCellStyle29.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle29.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle29
-        Me.DataGridView1.RowHeadersWidth = 62
-        DataGridViewCellStyle30.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle30
-        Me.DataGridView1.RowTemplate.Height = 28
-        Me.DataGridView1.Size = New System.Drawing.Size(1886, 346)
-        Me.DataGridView1.TabIndex = 640
-        '
-        'DataGridViewTextBoxColumn1
-        '
-        Me.DataGridViewTextBoxColumn1.HeaderText = "MP Codigo Largo"
-        Me.DataGridViewTextBoxColumn1.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        Me.DataGridViewTextBoxColumn1.ToolTipText = "Cod dado en el ingreso en contabilidad"
-        Me.DataGridViewTextBoxColumn1.Width = 150
-        '
-        'DataGridViewTextBoxColumn2
-        '
-        Me.DataGridViewTextBoxColumn2.HeaderText = "MP Pto N°"
-        Me.DataGridViewTextBoxColumn2.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
-        Me.DataGridViewTextBoxColumn2.ToolTipText = "El lo que nos presupuestaron"
-        Me.DataGridViewTextBoxColumn2.Width = 150
-        '
-        'DataGridViewTextBoxColumn3
-        '
-        Me.DataGridViewTextBoxColumn3.HeaderText = "MP OC N°"
-        Me.DataGridViewTextBoxColumn3.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
-        Me.DataGridViewTextBoxColumn3.ToolTipText = "Es el numero de la orden de compra"
-        Me.DataGridViewTextBoxColumn3.Width = 150
-        '
-        'DataGridViewTextBoxColumn4
-        '
-        Me.DataGridViewTextBoxColumn4.HeaderText = "MP Fact. N°"
-        Me.DataGridViewTextBoxColumn4.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
-        Me.DataGridViewTextBoxColumn4.ToolTipText = "Numero de la Factura"
-        Me.DataGridViewTextBoxColumn4.Width = 150
-        '
-        'DataGridViewTextBoxColumn7
-        '
-        Me.DataGridViewTextBoxColumn7.HeaderText = "+Cant, Unid."
-        Me.DataGridViewTextBoxColumn7.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
-        Me.DataGridViewTextBoxColumn7.ToolTipText = "La cantida de unidades (Bobinas) de este items"
-        Me.DataGridViewTextBoxColumn7.Width = 150
-        '
-        'DataGridViewTextBoxColumn8
-        '
-        Me.DataGridViewTextBoxColumn8.HeaderText = "+Cant./Kls."
-        Me.DataGridViewTextBoxColumn8.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn8.Name = "DataGridViewTextBoxColumn8"
-        Me.DataGridViewTextBoxColumn8.ToolTipText = "Cantidad de Kilos comprado en un solo items."
-        Me.DataGridViewTextBoxColumn8.Width = 150
-        '
-        'DataGridViewTextBoxColumn9
-        '
-        Me.DataGridViewTextBoxColumn9.HeaderText = "+Gs./Kls."
-        Me.DataGridViewTextBoxColumn9.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn9.Name = "DataGridViewTextBoxColumn9"
-        Me.DataGridViewTextBoxColumn9.ToolTipText = "Gs por kilo que nos cotizaron en este itams"
-        Me.DataGridViewTextBoxColumn9.Width = 150
-        '
-        'DataGridViewTextBoxColumn10
-        '
-        Me.DataGridViewTextBoxColumn10.HeaderText = "+Total Gs Itens"
-        Me.DataGridViewTextBoxColumn10.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn10.Name = "DataGridViewTextBoxColumn10"
-        Me.DataGridViewTextBoxColumn10.ToolTipText = "Total de Gs de este items"
-        Me.DataGridViewTextBoxColumn10.Width = 150
-        '
-        'DataGridViewTextBoxColumn13
-        '
-        Me.DataGridViewTextBoxColumn13.HeaderText = "QR Nombre "
-        Me.DataGridViewTextBoxColumn13.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn13.Name = "DataGridViewTextBoxColumn13"
-        Me.DataGridViewTextBoxColumn13.ToolTipText = "Es el nombre corto para manejo del inventario"
-        Me.DataGridViewTextBoxColumn13.Width = 150
-        '
-        'DataGridViewTextBoxColumn14
-        '
-        Me.DataGridViewTextBoxColumn14.HeaderText = "QR N°"
-        Me.DataGridViewTextBoxColumn14.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn14.Name = "DataGridViewTextBoxColumn14"
-        Me.DataGridViewTextBoxColumn14.ToolTipText = "Este es el numero del articulo es uno solo para todas los items que coinside,"
-        Me.DataGridViewTextBoxColumn14.Width = 150
-        '
-        'DataGridViewTextBoxColumn15
-        '
-        Me.DataGridViewTextBoxColumn15.HeaderText = "QR Bobiva N°"
-        Me.DataGridViewTextBoxColumn15.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn15.Name = "DataGridViewTextBoxColumn15"
-        Me.DataGridViewTextBoxColumn15.ToolTipText = "El es numero de corrido que es dado por sistema sin repetir nunca, como nombre de" &
-    "l producto"
-        Me.DataGridViewTextBoxColumn15.Width = 150
-        '
-        'DataGridViewTextBoxColumn16
-        '
-        Me.DataGridViewTextBoxColumn16.HeaderText = "FSC"
-        Me.DataGridViewTextBoxColumn16.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn16.Name = "DataGridViewTextBoxColumn16"
-        Me.DataGridViewTextBoxColumn16.Width = 150
-        '
-        'DataGridViewTextBoxColumn17
-        '
-        Me.DataGridViewTextBoxColumn17.HeaderText = "Lte. N°"
-        Me.DataGridViewTextBoxColumn17.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn17.Name = "DataGridViewTextBoxColumn17"
-        Me.DataGridViewTextBoxColumn17.ToolTipText = "Es el numero de LOTE que es la fecha de ingreso."
-        Me.DataGridViewTextBoxColumn17.Width = 150
-        '
-        'DataGridViewTextBoxColumn18
-        '
-        Me.DataGridViewTextBoxColumn18.HeaderText = "Vto."
-        Me.DataGridViewTextBoxColumn18.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn18.Name = "DataGridViewTextBoxColumn18"
-        Me.DataGridViewTextBoxColumn18.ToolTipText = "Es el vencimiento dado por el fabricante"
-        Me.DataGridViewTextBoxColumn18.Width = 150
-        '
-        'DataGridViewTextBoxColumn19
-        '
-        Me.DataGridViewTextBoxColumn19.HeaderText = "OT N°"
-        Me.DataGridViewTextBoxColumn19.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn19.Name = "DataGridViewTextBoxColumn19"
-        Me.DataGridViewTextBoxColumn19.ToolTipText = "Es el numero de OT que se compro esta MP"
-        Me.DataGridViewTextBoxColumn19.Width = 150
-        '
-        'DataGridViewTextBoxColumn20
-        '
-        Me.DataGridViewTextBoxColumn20.HeaderText = "Diam. Cm."
-        Me.DataGridViewTextBoxColumn20.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn20.Name = "DataGridViewTextBoxColumn20"
-        Me.DataGridViewTextBoxColumn20.ToolTipText = "Es el diametro maximo que entra en la RESMADORA  1,80"
-        Me.DataGridViewTextBoxColumn20.Width = 150
-        '
-        'DataGridViewTextBoxColumn21
-        '
-        Me.DataGridViewTextBoxColumn21.HeaderText = "Cono Cm"
-        Me.DataGridViewTextBoxColumn21.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn21.Name = "DataGridViewTextBoxColumn21"
-        Me.DataGridViewTextBoxColumn21.ToolTipText = "Es el diametro ideal de 30 cm para el nucleo en el caso de carton"
-        Me.DataGridViewTextBoxColumn21.Width = 150
-        '
-        'Panel13
-        '
-        Me.Panel13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel13.Controls.Add(Me.RadioButton30)
-        Me.Panel13.Controls.Add(Me.Label197)
-        Me.Panel13.Controls.Add(Me.Label231)
-        Me.Panel13.Controls.Add(Me.RadioButton25)
-        Me.Panel13.Controls.Add(Me.Panel36)
-        Me.Panel13.Controls.Add(Me.Panel14)
-        Me.Panel13.Controls.Add(Me.Label487)
-        Me.Panel13.Controls.Add(Me.Panel165)
-        Me.Panel13.Location = New System.Drawing.Point(9, 49)
-        Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(1886, 540)
-        Me.Panel13.TabIndex = 639
         '
         'RadioButton30
         '
         Me.RadioButton30.AutoSize = True
         Me.RadioButton30.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton30.Checked = True
         Me.RadioButton30.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton30.Font = New System.Drawing.Font("Arial", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton30.Location = New System.Drawing.Point(1693, 479)
@@ -5679,44 +5958,16 @@ Partial Class MP
         Me.RadioButton25.Name = "RadioButton25"
         Me.RadioButton25.Size = New System.Drawing.Size(77, 47)
         Me.RadioButton25.TabIndex = 220
-        Me.RadioButton25.TabStop = True
         Me.RadioButton25.Text = "Si"
         Me.RadioButton25.UseVisualStyleBackColor = False
         '
         'Panel36
         '
+        Me.Panel36.AutoSize = True
         Me.Panel36.BackColor = System.Drawing.Color.PeachPuff
-        Me.Panel36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel36.Controls.Add(Me.Panel166)
-        Me.Panel36.Controls.Add(Me.Panel167)
         Me.Panel36.Controls.Add(Me.Panel159)
-        Me.Panel36.Controls.Add(Me.Label203)
-        Me.Panel36.Controls.Add(Me.ComboBox32)
-        Me.Panel36.Controls.Add(Me.ComboBox28)
-        Me.Panel36.Controls.Add(Me.ComboBox31)
-        Me.Panel36.Controls.Add(Me.ComboBox30)
-        Me.Panel36.Controls.Add(Me.ComboBox27)
-        Me.Panel36.Controls.Add(Me.ComboBox29)
-        Me.Panel36.Controls.Add(Me.ComboBox24)
-        Me.Panel36.Controls.Add(Me.ComboBox23)
-        Me.Panel36.Controls.Add(Me.ComboBox22)
-        Me.Panel36.Controls.Add(Me.TextBox128)
-        Me.Panel36.Controls.Add(Me.TextBox89)
-        Me.Panel36.Controls.Add(Me.Label201)
-        Me.Panel36.Controls.Add(Me.Label193)
-        Me.Panel36.Controls.Add(Me.DateTimePicker26)
-        Me.Panel36.Controls.Add(Me.Label226)
-        Me.Panel36.Controls.Add(Me.TextBox39)
-        Me.Panel36.Controls.Add(Me.ComboBox20)
-        Me.Panel36.Controls.Add(Me.ComboBox21)
-        Me.Panel36.Controls.Add(Me.ComboBox46)
-        Me.Panel36.Controls.Add(Me.Label186)
-        Me.Panel36.Controls.Add(Me.Label36)
-        Me.Panel36.Controls.Add(Me.Label202)
-        Me.Panel36.Controls.Add(Me.Label38)
-        Me.Panel36.Controls.Add(Me.Label204)
-        Me.Panel36.Controls.Add(Me.TextBox91)
-        Me.Panel36.Controls.Add(Me.Button9)
         Me.Panel36.Controls.Add(Me.CheckBox42)
         Me.Panel36.Controls.Add(Me.CheckBox40)
         Me.Panel36.Controls.Add(Me.CheckBox39)
@@ -5724,7 +5975,9 @@ Partial Class MP
         Me.Panel36.Controls.Add(Me.ComboBox17)
         Me.Panel36.Controls.Add(Me.ComboBox1)
         Me.Panel36.Controls.Add(Me.ComboBox18)
+        Me.Panel36.Controls.Add(Me.TextBox1)
         Me.Panel36.Controls.Add(Me.ComboBox19)
+        Me.Panel36.Controls.Add(Me.Label407)
         Me.Panel36.Controls.Add(Me.TextBox127)
         Me.Panel36.Controls.Add(Me.Label9)
         Me.Panel36.Controls.Add(Me.TextBox90)
@@ -5739,10 +5992,6 @@ Partial Class MP
         Me.Panel36.Controls.Add(Me.Label238)
         Me.Panel36.Controls.Add(Me.Label364)
         Me.Panel36.Controls.Add(Me.Label391)
-        Me.Panel36.Controls.Add(Me.PictureBox7)
-        Me.Panel36.Controls.Add(Me.PictureBox8)
-        Me.Panel36.Controls.Add(Me.Label160)
-        Me.Panel36.Controls.Add(Me.Label1)
         Me.Panel36.Controls.Add(Me.PictureBox6)
         Me.Panel36.Controls.Add(Me.ComboBox61)
         Me.Panel36.Controls.Add(Me.Button27)
@@ -5750,70 +5999,389 @@ Partial Class MP
         Me.Panel36.Controls.Add(Me.TextBox87)
         Me.Panel36.Controls.Add(Me.Panel37)
         Me.Panel36.Controls.Add(Me.Label158)
-        Me.Panel36.Location = New System.Drawing.Point(16, 49)
+        Me.Panel36.Location = New System.Drawing.Point(7, 49)
         Me.Panel36.Name = "Panel36"
-        Me.Panel36.Size = New System.Drawing.Size(1424, 484)
+        Me.Panel36.Size = New System.Drawing.Size(1459, 486)
         Me.Panel36.TabIndex = 170
         '
         'Panel166
         '
         Me.Panel166.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel166.Location = New System.Drawing.Point(535, 91)
+        Me.Panel166.Controls.Add(Me.Label203)
+        Me.Panel166.Controls.Add(Me.Label196)
+        Me.Panel166.Controls.Add(Me.Label165)
+        Me.Panel166.Controls.Add(Me.ComboBox32)
+        Me.Panel166.Controls.Add(Me.ComboBox28)
+        Me.Panel166.Controls.Add(Me.ComboBox31)
+        Me.Panel166.Controls.Add(Me.ComboBox30)
+        Me.Panel166.Controls.Add(Me.ComboBox27)
+        Me.Panel166.Controls.Add(Me.ComboBox29)
+        Me.Panel166.Controls.Add(Me.ComboBox24)
+        Me.Panel166.Controls.Add(Me.ComboBox23)
+        Me.Panel166.Controls.Add(Me.ComboBox22)
+        Me.Panel166.Controls.Add(Me.TextBox128)
+        Me.Panel166.Controls.Add(Me.TextBox89)
+        Me.Panel166.Controls.Add(Me.Label201)
+        Me.Panel166.Controls.Add(Me.Label193)
+        Me.Panel166.Controls.Add(Me.DateTimePicker26)
+        Me.Panel166.Controls.Add(Me.Label226)
+        Me.Panel166.Controls.Add(Me.TextBox39)
+        Me.Panel166.Controls.Add(Me.ComboBox20)
+        Me.Panel166.Controls.Add(Me.ComboBox21)
+        Me.Panel166.Controls.Add(Me.ComboBox46)
+        Me.Panel166.Controls.Add(Me.Label186)
+        Me.Panel166.Controls.Add(Me.Label36)
+        Me.Panel166.Controls.Add(Me.Label202)
+        Me.Panel166.Controls.Add(Me.Label38)
+        Me.Panel166.Controls.Add(Me.Label204)
+        Me.Panel166.Controls.Add(Me.TextBox91)
+        Me.Panel166.Location = New System.Drawing.Point(7, 198)
         Me.Panel166.Name = "Panel166"
-        Me.Panel166.Size = New System.Drawing.Size(249, 34)
+        Me.Panel166.Size = New System.Drawing.Size(1426, 207)
         Me.Panel166.TabIndex = 687
         '
-        'Panel167
+        'Label203
         '
-        Me.Panel167.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel167.Controls.Add(Me.Label397)
-        Me.Panel167.Controls.Add(Me.RadioButton69)
-        Me.Panel167.Controls.Add(Me.RadioButton70)
-        Me.Panel167.Location = New System.Drawing.Point(385, 52)
-        Me.Panel167.Name = "Panel167"
-        Me.Panel167.Size = New System.Drawing.Size(249, 34)
-        Me.Panel167.TabIndex = 688
+        Me.Label203.AutoSize = True
+        Me.Label203.BackColor = System.Drawing.Color.Transparent
+        Me.Label203.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label203.Location = New System.Drawing.Point(28, 166)
+        Me.Label203.Name = "Label203"
+        Me.Label203.Size = New System.Drawing.Size(111, 24)
+        Me.Label203.TabIndex = 711
+        Me.Label203.Text = "Bobina N°:"
         '
-        'Label397
+        'ComboBox32
         '
-        Me.Label397.AutoSize = True
-        Me.Label397.BackColor = System.Drawing.Color.Transparent
-        Me.Label397.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label397.Location = New System.Drawing.Point(10, 6)
-        Me.Label397.Name = "Label397"
-        Me.Label397.Size = New System.Drawing.Size(112, 24)
-        Me.Label397.TabIndex = 21
-        Me.Label397.Text = "Stock Lok:"
+        Me.ComboBox32.BackColor = System.Drawing.Color.White
+        Me.ComboBox32.DropDownWidth = 272
+        Me.ComboBox32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox32.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox32.FormattingEnabled = True
+        Me.ComboBox32.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
+        Me.ComboBox32.Location = New System.Drawing.Point(1223, 162)
+        Me.ComboBox32.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox32.Name = "ComboBox32"
+        Me.ComboBox32.Size = New System.Drawing.Size(137, 32)
+        Me.ComboBox32.TabIndex = 703
         '
-        'RadioButton69
+        'ComboBox28
         '
-        Me.RadioButton69.AutoSize = True
-        Me.RadioButton69.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton69.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton69.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton69.Location = New System.Drawing.Point(127, 4)
-        Me.RadioButton69.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton69.Name = "RadioButton69"
-        Me.RadioButton69.Size = New System.Drawing.Size(53, 28)
-        Me.RadioButton69.TabIndex = 162
-        Me.RadioButton69.Text = "Si"
-        Me.RadioButton69.UseVisualStyleBackColor = False
+        Me.ComboBox28.BackColor = System.Drawing.Color.White
+        Me.ComboBox28.DropDownWidth = 272
+        Me.ComboBox28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox28.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox28.FormattingEnabled = True
+        Me.ComboBox28.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
+        Me.ComboBox28.Location = New System.Drawing.Point(620, 162)
+        Me.ComboBox28.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox28.Name = "ComboBox28"
+        Me.ComboBox28.Size = New System.Drawing.Size(137, 32)
+        Me.ComboBox28.TabIndex = 704
         '
-        'RadioButton70
+        'ComboBox31
         '
-        Me.RadioButton70.AutoSize = True
-        Me.RadioButton70.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton70.Checked = True
-        Me.RadioButton70.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.RadioButton70.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton70.Location = New System.Drawing.Point(183, 6)
-        Me.RadioButton70.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton70.Name = "RadioButton70"
-        Me.RadioButton70.Size = New System.Drawing.Size(61, 28)
-        Me.RadioButton70.TabIndex = 163
-        Me.RadioButton70.TabStop = True
-        Me.RadioButton70.Text = "No"
-        Me.RadioButton70.UseVisualStyleBackColor = False
+        Me.ComboBox31.BackColor = System.Drawing.Color.White
+        Me.ComboBox31.DropDownWidth = 272
+        Me.ComboBox31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox31.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox31.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox31.FormattingEnabled = True
+        Me.ComboBox31.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
+        Me.ComboBox31.Location = New System.Drawing.Point(1073, 162)
+        Me.ComboBox31.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox31.Name = "ComboBox31"
+        Me.ComboBox31.Size = New System.Drawing.Size(137, 32)
+        Me.ComboBox31.TabIndex = 705
+        '
+        'ComboBox30
+        '
+        Me.ComboBox30.BackColor = System.Drawing.Color.White
+        Me.ComboBox30.DropDownWidth = 272
+        Me.ComboBox30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox30.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox30.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox30.FormattingEnabled = True
+        Me.ComboBox30.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
+        Me.ComboBox30.Location = New System.Drawing.Point(920, 162)
+        Me.ComboBox30.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox30.Name = "ComboBox30"
+        Me.ComboBox30.Size = New System.Drawing.Size(137, 32)
+        Me.ComboBox30.TabIndex = 706
+        '
+        'ComboBox27
+        '
+        Me.ComboBox27.BackColor = System.Drawing.Color.White
+        Me.ComboBox27.DropDownWidth = 272
+        Me.ComboBox27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox27.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox27.FormattingEnabled = True
+        Me.ComboBox27.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
+        Me.ComboBox27.Location = New System.Drawing.Point(470, 162)
+        Me.ComboBox27.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox27.Name = "ComboBox27"
+        Me.ComboBox27.Size = New System.Drawing.Size(137, 32)
+        Me.ComboBox27.TabIndex = 707
+        '
+        'ComboBox29
+        '
+        Me.ComboBox29.BackColor = System.Drawing.Color.White
+        Me.ComboBox29.DropDownWidth = 272
+        Me.ComboBox29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox29.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox29.FormattingEnabled = True
+        Me.ComboBox29.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
+        Me.ComboBox29.Location = New System.Drawing.Point(770, 162)
+        Me.ComboBox29.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox29.Name = "ComboBox29"
+        Me.ComboBox29.Size = New System.Drawing.Size(137, 32)
+        Me.ComboBox29.TabIndex = 708
+        '
+        'ComboBox24
+        '
+        Me.ComboBox24.BackColor = System.Drawing.Color.White
+        Me.ComboBox24.DropDownWidth = 272
+        Me.ComboBox24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox24.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox24.FormattingEnabled = True
+        Me.ComboBox24.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
+        Me.ComboBox24.Location = New System.Drawing.Point(317, 162)
+        Me.ComboBox24.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox24.Name = "ComboBox24"
+        Me.ComboBox24.Size = New System.Drawing.Size(137, 32)
+        Me.ComboBox24.TabIndex = 709
+        '
+        'ComboBox23
+        '
+        Me.ComboBox23.BackColor = System.Drawing.Color.White
+        Me.ComboBox23.DropDownWidth = 272
+        Me.ComboBox23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox23.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox23.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox23.FormattingEnabled = True
+        Me.ComboBox23.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
+        Me.ComboBox23.Location = New System.Drawing.Point(167, 162)
+        Me.ComboBox23.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox23.Name = "ComboBox23"
+        Me.ComboBox23.Size = New System.Drawing.Size(137, 32)
+        Me.ComboBox23.TabIndex = 710
+        '
+        'ComboBox22
+        '
+        Me.ComboBox22.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox22.DropDownWidth = 272
+        Me.ComboBox22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox22.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox22.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox22.FormattingEnabled = True
+        Me.ComboBox22.Items.AddRange(New Object() {" GRA/000X000/FSC/VITA", " GRA/000X000/FSC/VITA ", " GRA/000X000/FSC/VITA ", " GRA/000X000/FSC/VITA ", " GRA/000X000/FSC/VITA ", " GRA/000X000/FSC/VITA ", "", "NOMBRE MATERIA PRIMA CORTO PARA INFORME Y LITOPLAN QUE SOLO ACEPTA 30 DIGITOS"})
+        Me.ComboBox22.Location = New System.Drawing.Point(20, 102)
+        Me.ComboBox22.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox22.Name = "ComboBox22"
+        Me.ComboBox22.Size = New System.Drawing.Size(448, 37)
+        Me.ComboBox22.TabIndex = 702
+        '
+        'TextBox128
+        '
+        Me.TextBox128.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox128.ForeColor = System.Drawing.Color.Fuchsia
+        Me.TextBox128.Location = New System.Drawing.Point(1098, 103)
+        Me.TextBox128.Name = "TextBox128"
+        Me.TextBox128.Size = New System.Drawing.Size(98, 35)
+        Me.TextBox128.TabIndex = 701
+        Me.TextBox128.Text = "000.000"
+        Me.TextBox128.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'TextBox89
+        '
+        Me.TextBox89.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox89.ForeColor = System.Drawing.Color.Fuchsia
+        Me.TextBox89.Location = New System.Drawing.Point(704, 103)
+        Me.TextBox89.Name = "TextBox89"
+        Me.TextBox89.Size = New System.Drawing.Size(199, 35)
+        Me.TextBox89.TabIndex = 700
+        Me.TextBox89.Text = "Nombre QR MP"
+        '
+        'Label201
+        '
+        Me.Label201.BackColor = System.Drawing.Color.Transparent
+        Me.Label201.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label201.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label201.Location = New System.Drawing.Point(935, 106)
+        Me.Label201.Name = "Label201"
+        Me.Label201.Size = New System.Drawing.Size(150, 29)
+        Me.Label201.TabIndex = 698
+        Me.Label201.Text = "QR MP N°:"
+        Me.Label201.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label193
+        '
+        Me.Label193.BackColor = System.Drawing.Color.Transparent
+        Me.Label193.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label193.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label193.Location = New System.Drawing.Point(495, 106)
+        Me.Label193.Name = "Label193"
+        Me.Label193.Size = New System.Drawing.Size(204, 29)
+        Me.Label193.TabIndex = 697
+        Me.Label193.Text = "Nombre QR MP:"
+        Me.Label193.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'DateTimePicker26
+        '
+        Me.DateTimePicker26.CalendarForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.DateTimePicker26.CalendarTitleForeColor = System.Drawing.SystemColors.MenuHighlight
+        Me.DateTimePicker26.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker26.Format = System.Windows.Forms.DateTimePickerFormat.Time
+        Me.DateTimePicker26.Location = New System.Drawing.Point(211, 53)
+        Me.DateTimePicker26.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker26.Name = "DateTimePicker26"
+        Me.DateTimePicker26.Size = New System.Drawing.Size(172, 40)
+        Me.DateTimePicker26.TabIndex = 699
+        '
+        'Label226
+        '
+        Me.Label226.BackColor = System.Drawing.Color.Transparent
+        Me.Label226.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label226.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label226.Location = New System.Drawing.Point(890, 10)
+        Me.Label226.Name = "Label226"
+        Me.Label226.Size = New System.Drawing.Size(106, 35)
+        Me.Label226.TabIndex = 695
+        Me.Label226.Text = "Stock Kls."
+        Me.Label226.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'TextBox39
+        '
+        Me.TextBox39.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox39.ForeColor = System.Drawing.Color.Black
+        Me.TextBox39.Location = New System.Drawing.Point(890, 53)
+        Me.TextBox39.Name = "TextBox39"
+        Me.TextBox39.Size = New System.Drawing.Size(106, 40)
+        Me.TextBox39.TabIndex = 696
+        Me.TextBox39.Text = "00.000"
+        Me.TextBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'ComboBox20
+        '
+        Me.ComboBox20.BackColor = System.Drawing.Color.White
+        Me.ComboBox20.DropDownWidth = 272
+        Me.ComboBox20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox20.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox20.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox20.FormattingEnabled = True
+        Me.ComboBox20.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox20.Location = New System.Drawing.Point(555, 53)
+        Me.ComboBox20.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox20.Name = "ComboBox20"
+        Me.ComboBox20.Size = New System.Drawing.Size(199, 41)
+        Me.ComboBox20.TabIndex = 691
+        '
+        'ComboBox21
+        '
+        Me.ComboBox21.BackColor = System.Drawing.Color.White
+        Me.ComboBox21.DropDownWidth = 272
+        Me.ComboBox21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox21.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox21.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox21.FormattingEnabled = True
+        Me.ComboBox21.Items.AddRange(New Object() {"Numero de OT "})
+        Me.ComboBox21.Location = New System.Drawing.Point(20, 53)
+        Me.ComboBox21.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox21.Name = "ComboBox21"
+        Me.ComboBox21.Size = New System.Drawing.Size(183, 41)
+        Me.ComboBox21.TabIndex = 693
+        '
+        'ComboBox46
+        '
+        Me.ComboBox46.BackColor = System.Drawing.Color.White
+        Me.ComboBox46.DropDownWidth = 272
+        Me.ComboBox46.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox46.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox46.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox46.FormattingEnabled = True
+        Me.ComboBox46.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
+        Me.ComboBox46.Location = New System.Drawing.Point(391, 53)
+        Me.ComboBox46.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox46.Name = "ComboBox46"
+        Me.ComboBox46.Size = New System.Drawing.Size(155, 41)
+        Me.ComboBox46.TabIndex = 692
+        '
+        'Label186
+        '
+        Me.Label186.BackColor = System.Drawing.Color.Transparent
+        Me.Label186.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label186.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label186.Location = New System.Drawing.Point(211, 10)
+        Me.Label186.Name = "Label186"
+        Me.Label186.Size = New System.Drawing.Size(172, 35)
+        Me.Label186.TabIndex = 689
+        Me.Label186.Text = "Turno"
+        Me.Label186.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label36
+        '
+        Me.Label36.BackColor = System.Drawing.Color.Transparent
+        Me.Label36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Location = New System.Drawing.Point(555, 10)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(199, 35)
+        Me.Label36.TabIndex = 688
+        Me.Label36.Text = "Operador"
+        Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label202
+        '
+        Me.Label202.BackColor = System.Drawing.Color.Transparent
+        Me.Label202.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label202.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label202.Location = New System.Drawing.Point(391, 10)
+        Me.Label202.Name = "Label202"
+        Me.Label202.Size = New System.Drawing.Size(155, 35)
+        Me.Label202.TabIndex = 687
+        Me.Label202.Text = "Maquina"
+        Me.Label202.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label38
+        '
+        Me.Label38.BackColor = System.Drawing.Color.Transparent
+        Me.Label38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label38.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(770, 10)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(101, 35)
+        Me.Label38.TabIndex = 686
+        Me.Label38.Text = "Salida"
+        Me.Label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label204
+        '
+        Me.Label204.BackColor = System.Drawing.Color.Transparent
+        Me.Label204.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label204.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label204.Location = New System.Drawing.Point(20, 10)
+        Me.Label204.Name = "Label204"
+        Me.Label204.Size = New System.Drawing.Size(183, 35)
+        Me.Label204.TabIndex = 690
+        Me.Label204.Text = "OT. N° "
+        Me.Label204.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'TextBox91
+        '
+        Me.TextBox91.BackColor = System.Drawing.Color.Red
+        Me.TextBox91.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox91.ForeColor = System.Drawing.Color.White
+        Me.TextBox91.Location = New System.Drawing.Point(770, 53)
+        Me.TextBox91.Name = "TextBox91"
+        Me.TextBox91.Size = New System.Drawing.Size(101, 40)
+        Me.TextBox91.TabIndex = 694
+        Me.TextBox91.Text = "00.000"
+        Me.TextBox91.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Panel159
         '
@@ -5821,21 +6389,22 @@ Partial Class MP
         Me.Panel159.Controls.Add(Me.Label394)
         Me.Panel159.Controls.Add(Me.RadioButton64)
         Me.Panel159.Controls.Add(Me.RadioButton65)
-        Me.Panel159.Location = New System.Drawing.Point(727, 59)
+        Me.Panel159.Location = New System.Drawing.Point(880, 59)
         Me.Panel159.Name = "Panel159"
-        Me.Panel159.Size = New System.Drawing.Size(264, 34)
+        Me.Panel159.Size = New System.Drawing.Size(260, 34)
         Me.Panel159.TabIndex = 686
         '
         'Label394
         '
-        Me.Label394.AutoSize = True
         Me.Label394.BackColor = System.Drawing.Color.Transparent
+        Me.Label394.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label394.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label394.Location = New System.Drawing.Point(10, 6)
+        Me.Label394.Location = New System.Drawing.Point(3, 5)
         Me.Label394.Name = "Label394"
         Me.Label394.Size = New System.Drawing.Size(112, 24)
         Me.Label394.TabIndex = 21
-        Me.Label394.Text = "Stock Lok:"
+        Me.Label394.Text = "Anulada:"
+        Me.Label394.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'RadioButton64
         '
@@ -5843,7 +6412,7 @@ Partial Class MP
         Me.RadioButton64.BackColor = System.Drawing.Color.Transparent
         Me.RadioButton64.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton64.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton64.Location = New System.Drawing.Point(122, 6)
+        Me.RadioButton64.Location = New System.Drawing.Point(122, 4)
         Me.RadioButton64.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton64.Name = "RadioButton64"
         Me.RadioButton64.Size = New System.Drawing.Size(53, 28)
@@ -5858,7 +6427,7 @@ Partial Class MP
         Me.RadioButton65.Checked = True
         Me.RadioButton65.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.RadioButton65.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton65.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton65.Location = New System.Drawing.Point(74, 3)
         Me.RadioButton65.Margin = New System.Windows.Forms.Padding(4)
         Me.RadioButton65.Name = "RadioButton65"
         Me.RadioButton65.Size = New System.Drawing.Size(61, 28)
@@ -5867,364 +6436,11 @@ Partial Class MP
         Me.RadioButton65.Text = "No"
         Me.RadioButton65.UseVisualStyleBackColor = False
         '
-        'Label203
-        '
-        Me.Label203.AutoSize = True
-        Me.Label203.BackColor = System.Drawing.Color.Transparent
-        Me.Label203.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label203.Location = New System.Drawing.Point(55, 355)
-        Me.Label203.Name = "Label203"
-        Me.Label203.Size = New System.Drawing.Size(136, 29)
-        Me.Label203.TabIndex = 685
-        Me.Label203.Text = "Bobina N°:"
-        '
-        'ComboBox32
-        '
-        Me.ComboBox32.BackColor = System.Drawing.Color.White
-        Me.ComboBox32.DropDownWidth = 272
-        Me.ComboBox32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox32.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox32.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox32.FormattingEnabled = True
-        Me.ComboBox32.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
-        Me.ComboBox32.Location = New System.Drawing.Point(1250, 349)
-        Me.ComboBox32.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox32.Name = "ComboBox32"
-        Me.ComboBox32.Size = New System.Drawing.Size(137, 41)
-        Me.ComboBox32.TabIndex = 677
-        '
-        'ComboBox28
-        '
-        Me.ComboBox28.BackColor = System.Drawing.Color.White
-        Me.ComboBox28.DropDownWidth = 272
-        Me.ComboBox28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox28.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox28.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox28.FormattingEnabled = True
-        Me.ComboBox28.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
-        Me.ComboBox28.Location = New System.Drawing.Point(647, 349)
-        Me.ComboBox28.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox28.Name = "ComboBox28"
-        Me.ComboBox28.Size = New System.Drawing.Size(137, 41)
-        Me.ComboBox28.TabIndex = 678
-        '
-        'ComboBox31
-        '
-        Me.ComboBox31.BackColor = System.Drawing.Color.White
-        Me.ComboBox31.DropDownWidth = 272
-        Me.ComboBox31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox31.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox31.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox31.FormattingEnabled = True
-        Me.ComboBox31.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
-        Me.ComboBox31.Location = New System.Drawing.Point(1100, 349)
-        Me.ComboBox31.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox31.Name = "ComboBox31"
-        Me.ComboBox31.Size = New System.Drawing.Size(137, 41)
-        Me.ComboBox31.TabIndex = 679
-        '
-        'ComboBox30
-        '
-        Me.ComboBox30.BackColor = System.Drawing.Color.White
-        Me.ComboBox30.DropDownWidth = 272
-        Me.ComboBox30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox30.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox30.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox30.FormattingEnabled = True
-        Me.ComboBox30.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
-        Me.ComboBox30.Location = New System.Drawing.Point(947, 349)
-        Me.ComboBox30.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox30.Name = "ComboBox30"
-        Me.ComboBox30.Size = New System.Drawing.Size(137, 41)
-        Me.ComboBox30.TabIndex = 680
-        '
-        'ComboBox27
-        '
-        Me.ComboBox27.BackColor = System.Drawing.Color.White
-        Me.ComboBox27.DropDownWidth = 272
-        Me.ComboBox27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox27.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox27.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox27.FormattingEnabled = True
-        Me.ComboBox27.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
-        Me.ComboBox27.Location = New System.Drawing.Point(497, 349)
-        Me.ComboBox27.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox27.Name = "ComboBox27"
-        Me.ComboBox27.Size = New System.Drawing.Size(137, 41)
-        Me.ComboBox27.TabIndex = 681
-        '
-        'ComboBox29
-        '
-        Me.ComboBox29.BackColor = System.Drawing.Color.White
-        Me.ComboBox29.DropDownWidth = 272
-        Me.ComboBox29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox29.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox29.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox29.FormattingEnabled = True
-        Me.ComboBox29.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
-        Me.ComboBox29.Location = New System.Drawing.Point(797, 349)
-        Me.ComboBox29.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox29.Name = "ComboBox29"
-        Me.ComboBox29.Size = New System.Drawing.Size(137, 41)
-        Me.ComboBox29.TabIndex = 682
-        '
-        'ComboBox24
-        '
-        Me.ComboBox24.BackColor = System.Drawing.Color.White
-        Me.ComboBox24.DropDownWidth = 272
-        Me.ComboBox24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox24.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox24.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox24.FormattingEnabled = True
-        Me.ComboBox24.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
-        Me.ComboBox24.Location = New System.Drawing.Point(344, 349)
-        Me.ComboBox24.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox24.Name = "ComboBox24"
-        Me.ComboBox24.Size = New System.Drawing.Size(137, 41)
-        Me.ComboBox24.TabIndex = 683
-        '
-        'ComboBox23
-        '
-        Me.ComboBox23.BackColor = System.Drawing.Color.White
-        Me.ComboBox23.DropDownWidth = 272
-        Me.ComboBox23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox23.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox23.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox23.FormattingEnabled = True
-        Me.ComboBox23.Items.AddRange(New Object() {"Nombre Numero de la bobina que se corto"})
-        Me.ComboBox23.Location = New System.Drawing.Point(194, 349)
-        Me.ComboBox23.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox23.Name = "ComboBox23"
-        Me.ComboBox23.Size = New System.Drawing.Size(137, 41)
-        Me.ComboBox23.TabIndex = 684
-        '
-        'ComboBox22
-        '
-        Me.ComboBox22.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ComboBox22.DropDownWidth = 272
-        Me.ComboBox22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox22.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox22.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox22.FormattingEnabled = True
-        Me.ComboBox22.Items.AddRange(New Object() {" GRA/000X000/FSC/VITA", " GRA/000X000/FSC/VITA ", " GRA/000X000/FSC/VITA ", " GRA/000X000/FSC/VITA ", " GRA/000X000/FSC/VITA ", " GRA/000X000/FSC/VITA ", "", "NOMBRE MATERIA PRIMA CORTO PARA INFORME Y LITOPLAN QUE SOLO ACEPTA 30 DIGITOS"})
-        Me.ComboBox22.Location = New System.Drawing.Point(45, 299)
-        Me.ComboBox22.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox22.Name = "ComboBox22"
-        Me.ComboBox22.Size = New System.Drawing.Size(448, 37)
-        Me.ComboBox22.TabIndex = 676
-        '
-        'TextBox128
-        '
-        Me.TextBox128.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox128.ForeColor = System.Drawing.Color.Fuchsia
-        Me.TextBox128.Location = New System.Drawing.Point(1053, 300)
-        Me.TextBox128.Name = "TextBox128"
-        Me.TextBox128.Size = New System.Drawing.Size(98, 35)
-        Me.TextBox128.TabIndex = 675
-        Me.TextBox128.Text = "000.000"
-        Me.TextBox128.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'TextBox89
-        '
-        Me.TextBox89.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox89.ForeColor = System.Drawing.Color.Fuchsia
-        Me.TextBox89.Location = New System.Drawing.Point(709, 300)
-        Me.TextBox89.Name = "TextBox89"
-        Me.TextBox89.Size = New System.Drawing.Size(199, 35)
-        Me.TextBox89.TabIndex = 674
-        Me.TextBox89.Text = "Nombre QR MP"
-        '
-        'Label201
-        '
-        Me.Label201.AutoSize = True
-        Me.Label201.BackColor = System.Drawing.Color.Transparent
-        Me.Label201.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label201.Location = New System.Drawing.Point(914, 303)
-        Me.Label201.Name = "Label201"
-        Me.Label201.Size = New System.Drawing.Size(133, 29)
-        Me.Label201.TabIndex = 672
-        Me.Label201.Text = "QR MP N°:"
-        '
-        'Label193
-        '
-        Me.Label193.AutoSize = True
-        Me.Label193.BackColor = System.Drawing.Color.Transparent
-        Me.Label193.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label193.Location = New System.Drawing.Point(508, 303)
-        Me.Label193.Name = "Label193"
-        Me.Label193.Size = New System.Drawing.Size(196, 29)
-        Me.Label193.TabIndex = 671
-        Me.Label193.Text = "Nombre QR MP:"
-        '
-        'DateTimePicker26
-        '
-        Me.DateTimePicker26.CalendarForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.DateTimePicker26.CalendarTitleForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.DateTimePicker26.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker26.Format = System.Windows.Forms.DateTimePickerFormat.Time
-        Me.DateTimePicker26.Location = New System.Drawing.Point(264, 248)
-        Me.DateTimePicker26.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker26.Name = "DateTimePicker26"
-        Me.DateTimePicker26.Size = New System.Drawing.Size(172, 40)
-        Me.DateTimePicker26.TabIndex = 673
-        '
-        'Label226
-        '
-        Me.Label226.AutoSize = True
-        Me.Label226.BackColor = System.Drawing.Color.Transparent
-        Me.Label226.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label226.Location = New System.Drawing.Point(943, 222)
-        Me.Label226.Name = "Label226"
-        Me.Label226.Size = New System.Drawing.Size(106, 24)
-        Me.Label226.TabIndex = 669
-        Me.Label226.Text = "Stock Kls."
-        '
-        'TextBox39
-        '
-        Me.TextBox39.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox39.ForeColor = System.Drawing.Color.Black
-        Me.TextBox39.Location = New System.Drawing.Point(943, 248)
-        Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New System.Drawing.Size(106, 40)
-        Me.TextBox39.TabIndex = 670
-        Me.TextBox39.Text = "00.000"
-        Me.TextBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'ComboBox20
-        '
-        Me.ComboBox20.BackColor = System.Drawing.Color.White
-        Me.ComboBox20.DropDownWidth = 272
-        Me.ComboBox20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox20.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox20.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox20.FormattingEnabled = True
-        Me.ComboBox20.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
-        Me.ComboBox20.Location = New System.Drawing.Point(608, 248)
-        Me.ComboBox20.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox20.Name = "ComboBox20"
-        Me.ComboBox20.Size = New System.Drawing.Size(199, 41)
-        Me.ComboBox20.TabIndex = 665
-        '
-        'ComboBox21
-        '
-        Me.ComboBox21.BackColor = System.Drawing.Color.White
-        Me.ComboBox21.DropDownWidth = 272
-        Me.ComboBox21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox21.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox21.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox21.FormattingEnabled = True
-        Me.ComboBox21.Items.AddRange(New Object() {"Numero de OT "})
-        Me.ComboBox21.Location = New System.Drawing.Point(73, 248)
-        Me.ComboBox21.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox21.Name = "ComboBox21"
-        Me.ComboBox21.Size = New System.Drawing.Size(183, 41)
-        Me.ComboBox21.TabIndex = 667
-        '
-        'ComboBox46
-        '
-        Me.ComboBox46.BackColor = System.Drawing.Color.White
-        Me.ComboBox46.DropDownWidth = 272
-        Me.ComboBox46.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox46.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox46.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox46.FormattingEnabled = True
-        Me.ComboBox46.Items.AddRange(New Object() {"RESMADORA", "POLAR", "DIGITAL", "CD102", "MO66", "SORD", "GUI CHINA", "XL75", "UV78", "YAWA", "SKM", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "H1", "H2", "PL1", "PL2"})
-        Me.ComboBox46.Location = New System.Drawing.Point(444, 248)
-        Me.ComboBox46.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox46.Name = "ComboBox46"
-        Me.ComboBox46.Size = New System.Drawing.Size(155, 41)
-        Me.ComboBox46.TabIndex = 666
-        '
-        'Label186
-        '
-        Me.Label186.AutoSize = True
-        Me.Label186.BackColor = System.Drawing.Color.Transparent
-        Me.Label186.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label186.Location = New System.Drawing.Point(317, 222)
-        Me.Label186.Name = "Label186"
-        Me.Label186.Size = New System.Drawing.Size(66, 24)
-        Me.Label186.TabIndex = 663
-        Me.Label186.Text = "Turno"
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.BackColor = System.Drawing.Color.Transparent
-        Me.Label36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(657, 222)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(100, 24)
-        Me.Label36.TabIndex = 662
-        Me.Label36.Text = "Operador"
-        '
-        'Label202
-        '
-        Me.Label202.AutoSize = True
-        Me.Label202.BackColor = System.Drawing.Color.Transparent
-        Me.Label202.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label202.Location = New System.Drawing.Point(476, 222)
-        Me.Label202.Name = "Label202"
-        Me.Label202.Size = New System.Drawing.Size(90, 24)
-        Me.Label202.TabIndex = 661
-        Me.Label202.Text = "Maquina"
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.BackColor = System.Drawing.Color.Transparent
-        Me.Label38.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(840, 222)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(67, 24)
-        Me.Label38.TabIndex = 660
-        Me.Label38.Text = "Salida"
-        '
-        'Label204
-        '
-        Me.Label204.AutoSize = True
-        Me.Label204.BackColor = System.Drawing.Color.Transparent
-        Me.Label204.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label204.Location = New System.Drawing.Point(126, 222)
-        Me.Label204.Name = "Label204"
-        Me.Label204.Size = New System.Drawing.Size(77, 24)
-        Me.Label204.TabIndex = 664
-        Me.Label204.Text = "OT. N° "
-        '
-        'TextBox91
-        '
-        Me.TextBox91.BackColor = System.Drawing.Color.Red
-        Me.TextBox91.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox91.ForeColor = System.Drawing.Color.White
-        Me.TextBox91.Location = New System.Drawing.Point(823, 248)
-        Me.TextBox91.Name = "TextBox91"
-        Me.TextBox91.Size = New System.Drawing.Size(101, 40)
-        Me.TextBox91.TabIndex = 668
-        Me.TextBox91.Text = "00.000"
-        Me.TextBox91.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'Button9
-        '
-        Me.Button9.AutoSize = True
-        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button9.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.ForeColor = System.Drawing.Color.White
-        Me.Button9.Location = New System.Drawing.Point(12, 207)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button9.Name = "Button9"
-        Me.Button9.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button9.Size = New System.Drawing.Size(1395, 193)
-        Me.Button9.TabIndex = 659
-        Me.Button9.UseVisualStyleBackColor = False
-        '
         'CheckBox42
         '
         Me.CheckBox42.AutoSize = True
         Me.CheckBox42.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox42.Location = New System.Drawing.Point(655, 437)
+        Me.CheckBox42.Location = New System.Drawing.Point(657, 445)
         Me.CheckBox42.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox42.Name = "CheckBox42"
         Me.CheckBox42.Size = New System.Drawing.Size(62, 33)
@@ -6236,7 +6452,7 @@ Partial Class MP
         '
         Me.CheckBox40.AutoSize = True
         Me.CheckBox40.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox40.Location = New System.Drawing.Point(655, 404)
+        Me.CheckBox40.Location = New System.Drawing.Point(657, 412)
         Me.CheckBox40.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox40.Name = "CheckBox40"
         Me.CheckBox40.Size = New System.Drawing.Size(62, 33)
@@ -6248,7 +6464,7 @@ Partial Class MP
         '
         Me.CheckBox39.AutoSize = True
         Me.CheckBox39.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox39.Location = New System.Drawing.Point(1336, 437)
+        Me.CheckBox39.Location = New System.Drawing.Point(1338, 445)
         Me.CheckBox39.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox39.Name = "CheckBox39"
         Me.CheckBox39.Size = New System.Drawing.Size(62, 33)
@@ -6260,7 +6476,7 @@ Partial Class MP
         '
         Me.CheckBox31.AutoSize = True
         Me.CheckBox31.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox31.Location = New System.Drawing.Point(1336, 404)
+        Me.CheckBox31.Location = New System.Drawing.Point(1338, 412)
         Me.CheckBox31.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox31.Name = "CheckBox31"
         Me.CheckBox31.Size = New System.Drawing.Size(62, 33)
@@ -6276,7 +6492,7 @@ Partial Class MP
         Me.ComboBox17.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox17.FormattingEnabled = True
         Me.ComboBox17.Items.AddRange(New Object() {"NOM. CORTO (LITO CARGO)"})
-        Me.ComboBox17.Location = New System.Drawing.Point(819, 111)
+        Me.ComboBox17.Location = New System.Drawing.Point(834, 95)
         Me.ComboBox17.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox17.Name = "ComboBox17"
         Me.ComboBox17.Size = New System.Drawing.Size(251, 32)
@@ -6290,7 +6506,7 @@ Partial Class MP
         Me.ComboBox1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Numero de Presupuesto."})
-        Me.ComboBox1.Location = New System.Drawing.Point(153, 66)
+        Me.ComboBox1.Location = New System.Drawing.Point(452, 55)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(159, 32)
@@ -6304,11 +6520,22 @@ Partial Class MP
         Me.ComboBox18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox18.FormattingEnabled = True
         Me.ComboBox18.Items.AddRange(New Object() {"(LITO COD )"})
-        Me.ComboBox18.Location = New System.Drawing.Point(153, 111)
+        Me.ComboBox18.Location = New System.Drawing.Point(179, 95)
         Me.ComboBox18.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox18.Name = "ComboBox18"
         Me.ComboBox18.Size = New System.Drawing.Size(159, 32)
         Me.ComboBox18.TabIndex = 641
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox1.Location = New System.Drawing.Point(179, 54)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(112, 30)
+        Me.TextBox1.TabIndex = 701
+        Me.TextBox1.Text = "0.000.000"
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'ComboBox19
         '
@@ -6318,11 +6545,22 @@ Partial Class MP
         Me.ComboBox19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox19.FormattingEnabled = True
         Me.ComboBox19.Items.AddRange(New Object() {"NOMBRE CLIENTE (LITO EMPRESA )"})
-        Me.ComboBox19.Location = New System.Drawing.Point(331, 111)
+        Me.ComboBox19.Location = New System.Drawing.Point(346, 95)
         Me.ComboBox19.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox19.Name = "ComboBox19"
         Me.ComboBox19.Size = New System.Drawing.Size(474, 32)
         Me.ComboBox19.TabIndex = 642
+        '
+        'Label407
+        '
+        Me.Label407.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label407.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label407.Location = New System.Drawing.Point(10, 58)
+        Me.Label407.Name = "Label407"
+        Me.Label407.Size = New System.Drawing.Size(161, 24)
+        Me.Label407.TabIndex = 255
+        Me.Label407.Text = "Salida N°:"
+        Me.Label407.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox127
         '
@@ -6330,7 +6568,7 @@ Partial Class MP
         Me.TextBox127.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.TextBox127.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox127.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox127.Location = New System.Drawing.Point(1061, 405)
+        Me.TextBox127.Location = New System.Drawing.Point(1063, 413)
         Me.TextBox127.Name = "TextBox127"
         Me.TextBox127.Size = New System.Drawing.Size(262, 30)
         Me.TextBox127.TabIndex = 651
@@ -6338,13 +6576,14 @@ Partial Class MP
         '
         'Label9
         '
-        Me.Label9.AutoSize = True
+        Me.Label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(68, 69)
+        Me.Label9.Location = New System.Drawing.Point(324, 59)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(78, 24)
+        Me.Label9.Size = New System.Drawing.Size(121, 24)
         Me.Label9.TabIndex = 255
         Me.Label9.Text = "OT. N°:"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox90
         '
@@ -6352,7 +6591,7 @@ Partial Class MP
         Me.TextBox90.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.TextBox90.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox90.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox90.Location = New System.Drawing.Point(1061, 438)
+        Me.TextBox90.Location = New System.Drawing.Point(1063, 446)
         Me.TextBox90.Name = "TextBox90"
         Me.TextBox90.Size = New System.Drawing.Size(262, 30)
         Me.TextBox90.TabIndex = 651
@@ -6360,13 +6599,14 @@ Partial Class MP
         '
         'Label477
         '
-        Me.Label477.AutoSize = True
+        Me.Label477.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label477.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label477.Location = New System.Drawing.Point(4, 115)
+        Me.Label477.Location = New System.Drawing.Point(10, 98)
         Me.Label477.Name = "Label477"
-        Me.Label477.Size = New System.Drawing.Size(143, 24)
+        Me.Label477.Size = New System.Drawing.Size(161, 24)
         Me.Label477.TabIndex = 255
         Me.Label477.Text = "Proveedor N°:"
+        Me.Label477.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox44
         '
@@ -6374,7 +6614,7 @@ Partial Class MP
         Me.TextBox44.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.TextBox44.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox44.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox44.Location = New System.Drawing.Point(386, 438)
+        Me.TextBox44.Location = New System.Drawing.Point(388, 446)
         Me.TextBox44.Name = "TextBox44"
         Me.TextBox44.Size = New System.Drawing.Size(262, 30)
         Me.TextBox44.TabIndex = 651
@@ -6385,7 +6625,7 @@ Partial Class MP
         Me.TextBox93.BackColor = System.Drawing.Color.White
         Me.TextBox93.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox93.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox93.Location = New System.Drawing.Point(845, 405)
+        Me.TextBox93.Location = New System.Drawing.Point(847, 413)
         Me.TextBox93.Name = "TextBox93"
         Me.TextBox93.Size = New System.Drawing.Size(204, 30)
         Me.TextBox93.TabIndex = 649
@@ -6396,7 +6636,7 @@ Partial Class MP
         Me.TextBox86.BackColor = System.Drawing.Color.White
         Me.TextBox86.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox86.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox86.Location = New System.Drawing.Point(845, 438)
+        Me.TextBox86.Location = New System.Drawing.Point(847, 446)
         Me.TextBox86.Name = "TextBox86"
         Me.TextBox86.Size = New System.Drawing.Size(204, 30)
         Me.TextBox86.TabIndex = 649
@@ -6408,7 +6648,7 @@ Partial Class MP
         Me.TextBox254.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.TextBox254.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox254.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox254.Location = New System.Drawing.Point(386, 405)
+        Me.TextBox254.Location = New System.Drawing.Point(388, 413)
         Me.TextBox254.Name = "TextBox254"
         Me.TextBox254.Size = New System.Drawing.Size(262, 30)
         Me.TextBox254.TabIndex = 651
@@ -6419,7 +6659,7 @@ Partial Class MP
         Me.TextBox258.BackColor = System.Drawing.Color.White
         Me.TextBox258.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox258.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox258.Location = New System.Drawing.Point(165, 438)
+        Me.TextBox258.Location = New System.Drawing.Point(167, 446)
         Me.TextBox258.Name = "TextBox258"
         Me.TextBox258.Size = New System.Drawing.Size(204, 30)
         Me.TextBox258.TabIndex = 649
@@ -6430,7 +6670,7 @@ Partial Class MP
         Me.TextBox264.BackColor = System.Drawing.Color.White
         Me.TextBox264.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox264.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox264.Location = New System.Drawing.Point(165, 405)
+        Me.TextBox264.Location = New System.Drawing.Point(167, 413)
         Me.TextBox264.Name = "TextBox264"
         Me.TextBox264.Size = New System.Drawing.Size(204, 30)
         Me.TextBox264.TabIndex = 656
@@ -6438,110 +6678,60 @@ Partial Class MP
         '
         'Label198
         '
-        Me.Label198.AutoSize = True
+        Me.Label198.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label198.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label198.Location = New System.Drawing.Point(734, 408)
+        Me.Label198.Location = New System.Drawing.Point(711, 416)
         Me.Label198.Name = "Label198"
-        Me.Label198.Size = New System.Drawing.Size(106, 24)
+        Me.Label198.Size = New System.Drawing.Size(131, 24)
         Me.Label198.TabIndex = 648
         Me.Label198.Text = "Gama CC:"
+        Me.Label198.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label238
         '
-        Me.Label238.AutoSize = True
+        Me.Label238.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label238.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label238.Location = New System.Drawing.Point(19, 408)
+        Me.Label238.Location = New System.Drawing.Point(10, 416)
         Me.Label238.Name = "Label238"
-        Me.Label238.Size = New System.Drawing.Size(137, 24)
+        Me.Label238.Size = New System.Drawing.Size(148, 24)
         Me.Label238.TabIndex = 647
         Me.Label238.Text = "Gama Planif.:"
+        Me.Label238.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label364
         '
-        Me.Label364.AutoSize = True
+        Me.Label364.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label364.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label364.Location = New System.Drawing.Point(734, 441)
+        Me.Label364.Location = New System.Drawing.Point(711, 449)
         Me.Label364.Name = "Label364"
-        Me.Label364.Size = New System.Drawing.Size(107, 24)
+        Me.Label364.Size = New System.Drawing.Size(132, 24)
         Me.Label364.TabIndex = 648
         Me.Label364.Text = "Gama GP:"
+        Me.Label364.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label391
         '
-        Me.Label391.AutoSize = True
+        Me.Label391.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label391.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label391.Location = New System.Drawing.Point(14, 441)
+        Me.Label391.Location = New System.Drawing.Point(5, 449)
         Me.Label391.Name = "Label391"
-        Me.Label391.Size = New System.Drawing.Size(142, 24)
+        Me.Label391.Size = New System.Drawing.Size(148, 24)
         Me.Label391.TabIndex = 645
         Me.Label391.Text = "Gama Admin.:"
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.ErrorImage = Nothing
-        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(1321, 49)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(93, 123)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 612
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox8
-        '
-        Me.PictureBox8.ErrorImage = Nothing
-        Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
-        Me.PictureBox8.Location = New System.Drawing.Point(1222, 49)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(93, 123)
-        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox8.TabIndex = 612
-        Me.PictureBox8.TabStop = False
-        '
-        'Label160
-        '
-        Me.Label160.AutoSize = True
-        Me.Label160.BackColor = System.Drawing.Color.Transparent
-        Me.Label160.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label160.Location = New System.Drawing.Point(1335, 178)
-        Me.Label160.Name = "Label160"
-        Me.Label160.Size = New System.Drawing.Size(67, 24)
-        Me.Label160.TabIndex = 313
-        Me.Label160.Text = "Retiro"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(1238, 178)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(80, 24)
-        Me.Label1.TabIndex = 313
-        Me.Label1.Text = "Solicito"
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(1076, 49)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(134, 123)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 643
-        Me.PictureBox6.TabStop = False
+        Me.Label391.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'ComboBox61
         '
         Me.ComboBox61.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.ComboBox61.DropDownWidth = 272
         Me.ComboBox61.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox61.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox61.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox61.FormattingEnabled = True
         Me.ComboBox61.Items.AddRange(New Object() {"COMERCIAL", "DEPOSITO", "PREPRENSA", "TROQUEL", "CC (Legajo Impr y Troq)", "OT (Ajuste)", "PLANIFICACION", "IMPRESION", "UV", "LAMINADO", "STAMPADO", "TROQUELADO ", "DESCARTONADO", "SELECCIÓN ", "PEGADO (Automatico)", "PEGADO (PM)", "LIBERADO", "EXPEDICION", "MANTENIMIENTO", "", "Estacion a la que se entrega"})
-        Me.ComboBox61.Location = New System.Drawing.Point(153, 154)
+        Me.ComboBox61.Location = New System.Drawing.Point(176, 145)
         Me.ComboBox61.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox61.Name = "ComboBox61"
-        Me.ComboBox61.Size = New System.Drawing.Size(246, 37)
+        Me.ComboBox61.Size = New System.Drawing.Size(246, 32)
         Me.ComboBox61.TabIndex = 311
         '
         'Button27
@@ -6552,34 +6742,35 @@ Partial Class MP
         Me.Button27.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button27.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown
         Me.Button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
-        Me.Button27.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button27.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button27.ForeColor = System.Drawing.Color.Yellow
-        Me.Button27.Location = New System.Drawing.Point(407, 146)
+        Me.Button27.Location = New System.Drawing.Point(433, 138)
         Me.Button27.Margin = New System.Windows.Forms.Padding(4)
         Me.Button27.Name = "Button27"
         Me.Button27.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button27.Size = New System.Drawing.Size(217, 53)
+        Me.Button27.Size = New System.Drawing.Size(217, 43)
         Me.Button27.TabIndex = 274
         Me.Button27.Text = "ALERTA stock"
         Me.Button27.UseVisualStyleBackColor = False
         '
         'Label208
         '
-        Me.Label208.AutoSize = True
         Me.Label208.BackColor = System.Drawing.Color.Transparent
-        Me.Label208.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label208.Location = New System.Drawing.Point(26, 158)
+        Me.Label208.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label208.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label208.Location = New System.Drawing.Point(7, 149)
         Me.Label208.Name = "Label208"
-        Me.Label208.Size = New System.Drawing.Size(120, 29)
+        Me.Label208.Size = New System.Drawing.Size(161, 24)
         Me.Label208.TabIndex = 272
         Me.Label208.Text = "Estación:"
+        Me.Label208.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox87
         '
         Me.TextBox87.BackColor = System.Drawing.Color.White
         Me.TextBox87.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox87.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox87.Location = New System.Drawing.Point(789, 157)
+        Me.TextBox87.Location = New System.Drawing.Point(880, 146)
         Me.TextBox87.Name = "TextBox87"
         Me.TextBox87.Size = New System.Drawing.Size(202, 30)
         Me.TextBox87.TabIndex = 327
@@ -6595,19 +6786,20 @@ Partial Class MP
         Me.Panel37.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel37.Location = New System.Drawing.Point(0, 0)
         Me.Panel37.Name = "Panel37"
-        Me.Panel37.Size = New System.Drawing.Size(1422, 43)
+        Me.Panel37.Size = New System.Drawing.Size(1455, 43)
         Me.Panel37.TabIndex = 0
         '
         'Label26
         '
-        Me.Label26.AutoSize = True
+        Me.Label26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label26.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.Color.White
-        Me.Label26.Location = New System.Drawing.Point(630, 4)
+        Me.Label26.Location = New System.Drawing.Point(556, 4)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(152, 33)
+        Me.Label26.Size = New System.Drawing.Size(226, 33)
         Me.Label26.TabIndex = 23
         Me.Label26.Text = "ENTREGA"
+        Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label27
         '
@@ -6622,252 +6814,14 @@ Partial Class MP
         '
         'Label158
         '
-        Me.Label158.AutoSize = True
+        Me.Label158.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label158.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label158.Location = New System.Drawing.Point(631, 160)
+        Me.Label158.Location = New System.Drawing.Point(655, 149)
         Me.Label158.Name = "Label158"
-        Me.Label158.Size = New System.Drawing.Size(152, 24)
+        Me.Label158.Size = New System.Drawing.Size(219, 24)
         Me.Label158.TabIndex = 298
         Me.Label158.Text = "Gama Compra:"
-        '
-        'Panel14
-        '
-        Me.Panel14.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel14.Controls.Add(Me.CheckBox161)
-        Me.Panel14.Controls.Add(Me.CheckBox187)
-        Me.Panel14.Controls.Add(Me.CheckBox191)
-        Me.Panel14.Controls.Add(Me.CheckBox193)
-        Me.Panel14.Controls.Add(Me.Button11)
-        Me.Panel14.Controls.Add(Me.Button70)
-        Me.Panel14.Controls.Add(Me.Button72)
-        Me.Panel14.Controls.Add(Me.Button105)
-        Me.Panel14.Controls.Add(Me.Button106)
-        Me.Panel14.Controls.Add(Me.Button107)
-        Me.Panel14.Controls.Add(Me.DateTimePicker22)
-        Me.Panel14.Controls.Add(Me.DateTimePicker23)
-        Me.Panel14.Controls.Add(Me.DateTimePicker24)
-        Me.Panel14.Controls.Add(Me.Panel164)
-        Me.Panel14.Location = New System.Drawing.Point(1457, 57)
-        Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(359, 383)
-        Me.Panel14.TabIndex = 638
-        '
-        'CheckBox161
-        '
-        Me.CheckBox161.AutoSize = True
-        Me.CheckBox161.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox161.Location = New System.Drawing.Point(14, 128)
-        Me.CheckBox161.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox161.Name = "CheckBox161"
-        Me.CheckBox161.Size = New System.Drawing.Size(158, 33)
-        Me.CheckBox161.TabIndex = 241
-        Me.CheckBox161.Text = "WhatsApp"
-        Me.CheckBox161.UseVisualStyleBackColor = True
-        '
-        'CheckBox187
-        '
-        Me.CheckBox187.AutoSize = True
-        Me.CheckBox187.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox187.Location = New System.Drawing.Point(14, 100)
-        Me.CheckBox187.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox187.Name = "CheckBox187"
-        Me.CheckBox187.Size = New System.Drawing.Size(103, 33)
-        Me.CheckBox187.TabIndex = 242
-        Me.CheckBox187.Text = "Email"
-        Me.CheckBox187.UseVisualStyleBackColor = True
-        '
-        'CheckBox191
-        '
-        Me.CheckBox191.AutoSize = True
-        Me.CheckBox191.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox191.Location = New System.Drawing.Point(14, 45)
-        Me.CheckBox191.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox191.Name = "CheckBox191"
-        Me.CheckBox191.Size = New System.Drawing.Size(131, 33)
-        Me.CheckBox191.TabIndex = 243
-        Me.CheckBox191.Text = "Pantalla"
-        Me.CheckBox191.UseVisualStyleBackColor = True
-        '
-        'CheckBox193
-        '
-        Me.CheckBox193.AutoSize = True
-        Me.CheckBox193.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox193.Location = New System.Drawing.Point(14, 71)
-        Me.CheckBox193.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox193.Name = "CheckBox193"
-        Me.CheckBox193.Size = New System.Drawing.Size(91, 33)
-        Me.CheckBox193.TabIndex = 244
-        Me.CheckBox193.Text = "Hoja"
-        Me.CheckBox193.UseVisualStyleBackColor = True
-        '
-        'Button11
-        '
-        Me.Button11.AutoSize = True
-        Me.Button11.BackColor = System.Drawing.Color.Lime
-        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button11.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.ForeColor = System.Drawing.Color.Black
-        Me.Button11.Location = New System.Drawing.Point(182, 269)
-        Me.Button11.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button11.Name = "Button11"
-        Me.Button11.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button11.Size = New System.Drawing.Size(164, 50)
-        Me.Button11.TabIndex = 239
-        Me.Button11.Text = "IMPRIME"
-        Me.Button11.UseVisualStyleBackColor = False
-        '
-        'Button70
-        '
-        Me.Button70.AutoSize = True
-        Me.Button70.BackColor = System.Drawing.Color.Blue
-        Me.Button70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button70.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button70.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button70.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button70.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button70.ForeColor = System.Drawing.Color.White
-        Me.Button70.Location = New System.Drawing.Point(180, 100)
-        Me.Button70.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button70.Name = "Button70"
-        Me.Button70.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button70.Size = New System.Drawing.Size(166, 50)
-        Me.Button70.TabIndex = 240
-        Me.Button70.Text = "Agregar"
-        Me.Button70.UseVisualStyleBackColor = False
-        '
-        'Button72
-        '
-        Me.Button72.AutoSize = True
-        Me.Button72.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button72.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button72.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button72.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button72.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button72.ForeColor = System.Drawing.Color.Black
-        Me.Button72.Location = New System.Drawing.Point(180, 45)
-        Me.Button72.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button72.Name = "Button72"
-        Me.Button72.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button72.Size = New System.Drawing.Size(166, 50)
-        Me.Button72.TabIndex = 240
-        Me.Button72.Text = "IMPORTAR"
-        Me.Button72.UseVisualStyleBackColor = False
-        '
-        'Button105
-        '
-        Me.Button105.AutoSize = True
-        Me.Button105.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button105.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button105.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button105.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button105.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button105.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button105.ForeColor = System.Drawing.Color.Black
-        Me.Button105.Location = New System.Drawing.Point(182, 214)
-        Me.Button105.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button105.Name = "Button105"
-        Me.Button105.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button105.Size = New System.Drawing.Size(164, 50)
-        Me.Button105.TabIndex = 240
-        Me.Button105.Text = "ENVIAR"
-        Me.Button105.UseVisualStyleBackColor = False
-        '
-        'Button106
-        '
-        Me.Button106.AutoSize = True
-        Me.Button106.BackColor = System.Drawing.Color.Yellow
-        Me.Button106.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button106.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button106.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button106.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button106.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button106.ForeColor = System.Drawing.Color.Black
-        Me.Button106.Location = New System.Drawing.Point(184, 321)
-        Me.Button106.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button106.Name = "Button106"
-        Me.Button106.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button106.Size = New System.Drawing.Size(164, 50)
-        Me.Button106.TabIndex = 237
-        Me.Button106.Text = "Grabar"
-        Me.Button106.UseVisualStyleBackColor = False
-        '
-        'Button107
-        '
-        Me.Button107.AutoSize = True
-        Me.Button107.BackColor = System.Drawing.Color.Red
-        Me.Button107.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button107.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button107.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button107.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button107.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button107.ForeColor = System.Drawing.Color.White
-        Me.Button107.Location = New System.Drawing.Point(182, 156)
-        Me.Button107.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button107.Name = "Button107"
-        Me.Button107.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button107.Size = New System.Drawing.Size(164, 50)
-        Me.Button107.TabIndex = 238
-        Me.Button107.Text = "ANULAR"
-        Me.Button107.UseVisualStyleBackColor = False
-        '
-        'DateTimePicker22
-        '
-        Me.DateTimePicker22.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker22.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker22.Location = New System.Drawing.Point(18, 333)
-        Me.DateTimePicker22.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker22.Name = "DateTimePicker22"
-        Me.DateTimePicker22.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker22.TabIndex = 237
-        '
-        'DateTimePicker23
-        '
-        Me.DateTimePicker23.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker23.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker23.Location = New System.Drawing.Point(16, 281)
-        Me.DateTimePicker23.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker23.Name = "DateTimePicker23"
-        Me.DateTimePicker23.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker23.TabIndex = 237
-        '
-        'DateTimePicker24
-        '
-        Me.DateTimePicker24.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText
-        Me.DateTimePicker24.CalendarTitleForeColor = System.Drawing.Color.White
-        Me.DateTimePicker24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker24.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker24.Location = New System.Drawing.Point(16, 226)
-        Me.DateTimePicker24.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker24.Name = "DateTimePicker24"
-        Me.DateTimePicker24.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker24.TabIndex = 237
-        '
-        'Panel164
-        '
-        Me.Panel164.BackColor = System.Drawing.Color.Green
-        Me.Panel164.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel164.Controls.Add(Me.Label15)
-        Me.Panel164.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel164.Location = New System.Drawing.Point(0, 0)
-        Me.Panel164.Name = "Panel164"
-        Me.Panel164.Size = New System.Drawing.Size(357, 43)
-        Me.Panel164.TabIndex = 0
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.ForeColor = System.Drawing.Color.White
-        Me.Label15.Location = New System.Drawing.Point(120, 0)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(117, 33)
-        Me.Label15.TabIndex = 6
-        Me.Label15.Text = "SALIDA"
+        Me.Label158.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label487
         '
@@ -6883,13 +6837,134 @@ Partial Class MP
         '
         Me.Panel165.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Panel165.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel165.Controls.Add(Me.Button72)
+        Me.Panel165.Controls.Add(Me.Button73)
+        Me.Panel165.Controls.Add(Me.Button75)
+        Me.Panel165.Controls.Add(Me.Button76)
+        Me.Panel165.Controls.Add(Me.Button77)
+        Me.Panel165.Controls.Add(Me.Button78)
         Me.Panel165.Controls.Add(Me.PictureBox3)
         Me.Panel165.Controls.Add(Me.Label489)
         Me.Panel165.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel165.Location = New System.Drawing.Point(0, 0)
         Me.Panel165.Name = "Panel165"
-        Me.Panel165.Size = New System.Drawing.Size(1882, 43)
+        Me.Panel165.Size = New System.Drawing.Size(1908, 43)
         Me.Panel165.TabIndex = 0
+        '
+        'Button72
+        '
+        Me.Button72.BackColor = System.Drawing.Color.Yellow
+        Me.Button72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button72.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button72.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button72.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button72.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button72.ForeColor = System.Drawing.Color.Black
+        Me.Button72.Location = New System.Drawing.Point(586, 0)
+        Me.Button72.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button72.Name = "Button72"
+        Me.Button72.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button72.Size = New System.Drawing.Size(230, 31)
+        Me.Button72.TabIndex = 613
+        Me.Button72.Text = "Trae  LITOPL Comercial"
+        Me.Button72.UseVisualStyleBackColor = False
+        '
+        'Button73
+        '
+        Me.Button73.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button73.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button73.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button73.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button73.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button73.ForeColor = System.Drawing.Color.Black
+        Me.Button73.Location = New System.Drawing.Point(419, 0)
+        Me.Button73.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button73.Name = "Button73"
+        Me.Button73.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button73.Size = New System.Drawing.Size(159, 31)
+        Me.Button73.TabIndex = 614
+        Me.Button73.Text = "Trae  LITOPLAN"
+        Me.ToolTip1.SetToolTip(Me.Button73, "Fondo CELESTE letras NEGRA trae" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " de la base datos LITOPLAN." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button73.UseVisualStyleBackColor = False
+        '
+        'Button75
+        '
+        Me.Button75.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Button75.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button75.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button75.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button75.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button75.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button75.ForeColor = System.Drawing.Color.Black
+        Me.Button75.Location = New System.Drawing.Point(262, 0)
+        Me.Button75.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button75.Name = "Button75"
+        Me.Button75.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button75.Size = New System.Drawing.Size(149, 31)
+        Me.Button75.TabIndex = 615
+        Me.Button75.Text = "Trae  Modifica"
+        Me.ToolTip1.SetToolTip(Me.Button75, "Fondo NARANJA letras NEGRA trae la" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " información y se puede cambiar." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button75.UseVisualStyleBackColor = False
+        '
+        'Button76
+        '
+        Me.Button76.BackColor = System.Drawing.Color.White
+        Me.Button76.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button76.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button76.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button76.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button76.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button76.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button76.Location = New System.Drawing.Point(164, 0)
+        Me.Button76.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button76.Name = "Button76"
+        Me.Button76.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button76.Size = New System.Drawing.Size(90, 31)
+        Me.Button76.TabIndex = 616
+        Me.Button76.Text = "Calcula"
+        Me.ToolTip1.SetToolTip(Me.Button76, "Fondo blanco letras VERDE indica que hace" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " un cálculo según la información de es" &
+        "e momento." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button76.UseVisualStyleBackColor = False
+        '
+        'Button77
+        '
+        Me.Button77.BackColor = System.Drawing.Color.White
+        Me.Button77.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button77.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button77.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button77.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button77.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button77.ForeColor = System.Drawing.Color.Fuchsia
+        Me.Button77.Location = New System.Drawing.Point(96, 0)
+        Me.Button77.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button77.Name = "Button77"
+        Me.Button77.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button77.Size = New System.Drawing.Size(59, 31)
+        Me.Button77.TabIndex = 617
+        Me.Button77.Text = "Trae"
+        Me.ToolTip1.SetToolTip(Me.Button77, "Fondo blanco letras ROSADA indica que" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " TRAE de alguna base de datos." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button77.UseVisualStyleBackColor = False
+        '
+        'Button78
+        '
+        Me.Button78.BackColor = System.Drawing.Color.White
+        Me.Button78.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button78.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button78.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button78.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button78.Font = New System.Drawing.Font("Arial Black", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button78.ForeColor = System.Drawing.Color.Black
+        Me.Button78.Location = New System.Drawing.Point(7, 0)
+        Me.Button78.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button78.Name = "Button78"
+        Me.Button78.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button78.Size = New System.Drawing.Size(81, 31)
+        Me.Button78.TabIndex = 618
+        Me.Button78.Text = "Cargar"
+        Me.ToolTip1.SetToolTip(Me.Button78, "Fondo blanco letras negra indica que que debe " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "estar habilitado para cargar la p" &
+        "ersona" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.Button78.UseVisualStyleBackColor = False
         '
         'PictureBox3
         '
@@ -6903,36 +6978,15 @@ Partial Class MP
         '
         'Label489
         '
-        Me.Label489.AutoSize = True
+        Me.Label489.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label489.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label489.ForeColor = System.Drawing.Color.White
-        Me.Label489.Location = New System.Drawing.Point(760, 0)
+        Me.Label489.Location = New System.Drawing.Point(841, 0)
         Me.Label489.Name = "Label489"
-        Me.Label489.Size = New System.Drawing.Size(352, 33)
+        Me.Label489.Size = New System.Drawing.Size(230, 33)
         Me.Label489.TabIndex = 6
-        Me.Label489.Text = "CARGA MP ENCARGADO"
-        '
-        'Panel29
-        '
-        Me.Panel29.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel29.Controls.Add(Me.Label221)
-        Me.Panel29.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel29.Location = New System.Drawing.Point(0, 0)
-        Me.Panel29.Name = "Panel29"
-        Me.Panel29.Size = New System.Drawing.Size(1914, 43)
-        Me.Panel29.TabIndex = 0
-        '
-        'Label221
-        '
-        Me.Label221.AutoSize = True
-        Me.Label221.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label221.ForeColor = System.Drawing.Color.White
-        Me.Label221.Location = New System.Drawing.Point(876, 6)
-        Me.Label221.Name = "Label221"
-        Me.Label221.Size = New System.Drawing.Size(117, 33)
-        Me.Label221.TabIndex = 6
-        Me.Label221.Text = "SALIDA"
+        Me.Label489.Text = "SALIDA"
+        Me.Label489.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Panel34
         '
@@ -7142,23 +7196,24 @@ Partial Class MP
         Me.Label222.TabIndex = 6
         Me.Label222.Text = "INFO"
         '
-        'TabPage5
+        'SGC
         '
-        Me.TabPage5.BackColor = System.Drawing.Color.Silver
-        Me.TabPage5.Controls.Add(Me.Button22)
-        Me.TabPage5.Controls.Add(Me.Panel19)
-        Me.TabPage5.Controls.Add(Me.Button20)
-        Me.TabPage5.Controls.Add(Me.Button33)
-        Me.TabPage5.Controls.Add(Me.Button23)
-        Me.TabPage5.Controls.Add(Me.Button34)
-        Me.TabPage5.Controls.Add(Me.Button21)
-        Me.TabPage5.Controls.Add(Me.Button24)
-        Me.TabPage5.Controls.Add(Me.Panel11)
-        Me.TabPage5.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Size = New System.Drawing.Size(1916, 950)
-        Me.TabPage5.TabIndex = 4
-        Me.TabPage5.Text = "SGC /"
+        Me.SGC.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.SGC.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.SGC.Controls.Add(Me.Button22)
+        Me.SGC.Controls.Add(Me.Panel19)
+        Me.SGC.Controls.Add(Me.Button20)
+        Me.SGC.Controls.Add(Me.Button33)
+        Me.SGC.Controls.Add(Me.Button23)
+        Me.SGC.Controls.Add(Me.Button34)
+        Me.SGC.Controls.Add(Me.Button21)
+        Me.SGC.Controls.Add(Me.Button24)
+        Me.SGC.Controls.Add(Me.Panel11)
+        Me.SGC.Location = New System.Drawing.Point(4, 33)
+        Me.SGC.Name = "SGC"
+        Me.SGC.Size = New System.Drawing.Size(1916, 950)
+        Me.SGC.TabIndex = 4
+        Me.SGC.Text = "SGC /"
         '
         'Button22
         '
@@ -7357,7 +7412,7 @@ Partial Class MP
         Me.Panel11.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel11.Location = New System.Drawing.Point(0, 0)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(1916, 950)
+        Me.Panel11.Size = New System.Drawing.Size(1912, 946)
         Me.Panel11.TabIndex = 160
         '
         'Panel3
@@ -7929,7 +7984,7 @@ Partial Class MP
         Me.Panel12.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel12.Location = New System.Drawing.Point(0, 0)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(1914, 43)
+        Me.Panel12.Size = New System.Drawing.Size(1910, 43)
         Me.Panel12.TabIndex = 0
         '
         'Label163
@@ -9661,56 +9716,42 @@ Partial Class MP
         Me.Label21.TabIndex = 6
         Me.Label21.Text = "CC"
         '
-        'TabPage6
+        'Presupuesto
         '
-        Me.TabPage6.BackColor = System.Drawing.Color.Gainsboro
-        Me.TabPage6.Controls.Add(Me.Panel42)
-        Me.TabPage6.Controls.Add(Me.Button49)
-        Me.TabPage6.Controls.Add(Me.Button43)
-        Me.TabPage6.Controls.Add(Me.Button47)
-        Me.TabPage6.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Size = New System.Drawing.Size(1916, 950)
-        Me.TabPage6.TabIndex = 5
-        Me.TabPage6.Text = "Presupuesto /"
+        Me.Presupuesto.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Presupuesto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Presupuesto.Controls.Add(Me.Panel42)
+        Me.Presupuesto.Controls.Add(Me.Button49)
+        Me.Presupuesto.Controls.Add(Me.Button43)
+        Me.Presupuesto.Controls.Add(Me.Button47)
+        Me.Presupuesto.Location = New System.Drawing.Point(4, 33)
+        Me.Presupuesto.Name = "Presupuesto"
+        Me.Presupuesto.Size = New System.Drawing.Size(1916, 950)
+        Me.Presupuesto.TabIndex = 5
+        Me.Presupuesto.Text = "Presupuesto /"
         '
         'Panel42
         '
         Me.Panel42.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel42.Controls.Add(Me.Panel170)
         Me.Panel42.Controls.Add(Me.Panel43)
-        Me.Panel42.Controls.Add(Me.Panel171)
         Me.Panel42.Controls.Add(Me.Panel45)
         Me.Panel42.Controls.Add(Me.Panel47)
         Me.Panel42.Controls.Add(Me.Panel48)
         Me.Panel42.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel42.Location = New System.Drawing.Point(0, 0)
         Me.Panel42.Name = "Panel42"
-        Me.Panel42.Size = New System.Drawing.Size(1916, 950)
+        Me.Panel42.Size = New System.Drawing.Size(1912, 946)
         Me.Panel42.TabIndex = 259
-        '
-        'Panel170
-        '
-        Me.Panel170.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel170.Location = New System.Drawing.Point(922, 670)
-        Me.Panel170.Name = "Panel170"
-        Me.Panel170.Size = New System.Drawing.Size(249, 34)
-        Me.Panel170.TabIndex = 689
         '
         'Panel43
         '
         Me.Panel43.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel43.Controls.Add(Me.Panel142)
         Me.Panel43.Controls.Add(Me.RadioButton63)
         Me.Panel43.Controls.Add(Me.RadioButton43)
-        Me.Panel43.Controls.Add(Me.Label328)
-        Me.Panel43.Controls.Add(Me.Label33)
         Me.Panel43.Controls.Add(Me.Label390)
-        Me.Panel43.Controls.Add(Me.Label363)
-        Me.Panel43.Controls.Add(Me.TextBox133)
-        Me.Panel43.Controls.Add(Me.TextBox98)
-        Me.Panel43.Controls.Add(Me.TextBox138)
         Me.Panel43.Controls.Add(Me.Panel44)
         Me.Panel43.Controls.Add(Me.ComboBox70)
         Me.Panel43.Controls.Add(Me.ComboBox71)
@@ -9736,6 +9777,262 @@ Partial Class MP
         Me.Panel43.Name = "Panel43"
         Me.Panel43.Size = New System.Drawing.Size(1888, 228)
         Me.Panel43.TabIndex = 260
+        '
+        'Panel142
+        '
+        Me.Panel142.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel142.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel142.Controls.Add(Me.RadioButton69)
+        Me.Panel142.Controls.Add(Me.RadioButton70)
+        Me.Panel142.Controls.Add(Me.RadioButton87)
+        Me.Panel142.Controls.Add(Me.RadioButton88)
+        Me.Panel142.Controls.Add(Me.CheckedListBox4)
+        Me.Panel142.Controls.Add(Me.DateTimePicker22)
+        Me.Panel142.Controls.Add(Me.DateTimePicker23)
+        Me.Panel142.Controls.Add(Me.DateTimePicker24)
+        Me.Panel142.Controls.Add(Me.DateTimePicker25)
+        Me.Panel142.Controls.Add(Me.Label397)
+        Me.Panel142.Controls.Add(Me.Label409)
+        Me.Panel142.Controls.Add(Me.Button9)
+        Me.Panel142.Controls.Add(Me.Button39)
+        Me.Panel142.Controls.Add(Me.Button40)
+        Me.Panel142.Controls.Add(Me.Button41)
+        Me.Panel142.Controls.Add(Me.Panel145)
+        Me.Panel142.Location = New System.Drawing.Point(1494, 54)
+        Me.Panel142.Name = "Panel142"
+        Me.Panel142.Size = New System.Drawing.Size(412, 439)
+        Me.Panel142.TabIndex = 758
+        Me.ToolTip1.SetToolTip(Me.Panel142, "Las acciones que se pueden hacer con ciertos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " parámetros que esta en esta HOJA i" &
+        "ndicado" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'RadioButton69
+        '
+        Me.RadioButton69.AutoSize = True
+        Me.RadioButton69.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton69.Checked = True
+        Me.RadioButton69.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton69.Location = New System.Drawing.Point(19, 46)
+        Me.RadioButton69.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton69.Name = "RadioButton69"
+        Me.RadioButton69.Size = New System.Drawing.Size(110, 28)
+        Me.RadioButton69.TabIndex = 295
+        Me.RadioButton69.TabStop = True
+        Me.RadioButton69.Text = "Pantalla"
+        Me.RadioButton69.UseVisualStyleBackColor = False
+        '
+        'RadioButton70
+        '
+        Me.RadioButton70.AutoSize = True
+        Me.RadioButton70.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton70.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton70.Location = New System.Drawing.Point(19, 142)
+        Me.RadioButton70.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton70.Name = "RadioButton70"
+        Me.RadioButton70.Size = New System.Drawing.Size(132, 28)
+        Me.RadioButton70.TabIndex = 295
+        Me.RadioButton70.Text = "WhatsApp"
+        Me.RadioButton70.UseVisualStyleBackColor = False
+        '
+        'RadioButton87
+        '
+        Me.RadioButton87.AutoSize = True
+        Me.RadioButton87.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton87.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton87.Location = New System.Drawing.Point(19, 110)
+        Me.RadioButton87.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton87.Name = "RadioButton87"
+        Me.RadioButton87.Size = New System.Drawing.Size(84, 28)
+        Me.RadioButton87.TabIndex = 295
+        Me.RadioButton87.Text = "email"
+        Me.RadioButton87.UseVisualStyleBackColor = False
+        '
+        'RadioButton88
+        '
+        Me.RadioButton88.AutoSize = True
+        Me.RadioButton88.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton88.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton88.Location = New System.Drawing.Point(19, 78)
+        Me.RadioButton88.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton88.Name = "RadioButton88"
+        Me.RadioButton88.Size = New System.Drawing.Size(77, 28)
+        Me.RadioButton88.TabIndex = 295
+        Me.RadioButton88.Text = "Hoja"
+        Me.RadioButton88.UseVisualStyleBackColor = False
+        '
+        'CheckedListBox4
+        '
+        Me.CheckedListBox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.CheckedListBox4.Font = New System.Drawing.Font("Arial Black", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckedListBox4.FormattingEnabled = True
+        Me.CheckedListBox4.Items.AddRange(New Object() {"AAA"})
+        Me.CheckedListBox4.Location = New System.Drawing.Point(17, 216)
+        Me.CheckedListBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckedListBox4.Name = "CheckedListBox4"
+        Me.CheckedListBox4.Size = New System.Drawing.Size(203, 184)
+        Me.CheckedListBox4.TabIndex = 755
+        Me.ToolTip1.SetToolTip(Me.CheckedListBox4, "Filtrar con el criterio marcado, el informe.")
+        '
+        'DateTimePicker22
+        '
+        Me.DateTimePicker22.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker22.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker22.Location = New System.Drawing.Point(23, 3580)
+        Me.DateTimePicker22.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker22.Name = "DateTimePicker22"
+        Me.DateTimePicker22.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker22.TabIndex = 247
+        '
+        'DateTimePicker23
+        '
+        Me.DateTimePicker23.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker23.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker23.Location = New System.Drawing.Point(228, 118)
+        Me.DateTimePicker23.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker23.Name = "DateTimePicker23"
+        Me.DateTimePicker23.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker23.TabIndex = 688
+        '
+        'DateTimePicker24
+        '
+        Me.DateTimePicker24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker24.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker24.Location = New System.Drawing.Point(228, 82)
+        Me.DateTimePicker24.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker24.Name = "DateTimePicker24"
+        Me.DateTimePicker24.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker24.TabIndex = 688
+        '
+        'DateTimePicker25
+        '
+        Me.DateTimePicker25.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker25.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker25.Location = New System.Drawing.Point(22, 3580)
+        Me.DateTimePicker25.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker25.Name = "DateTimePicker25"
+        Me.DateTimePicker25.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker25.TabIndex = 246
+        '
+        'Label397
+        '
+        Me.Label397.AutoSize = True
+        Me.Label397.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label397.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label397.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label397.Location = New System.Drawing.Point(47, 182)
+        Me.Label397.Name = "Label397"
+        Me.Label397.Size = New System.Drawing.Size(131, 35)
+        Me.Label397.TabIndex = 245
+        Me.Label397.Text = "FILTRAR"
+        '
+        'Label409
+        '
+        Me.Label409.AutoSize = True
+        Me.Label409.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label409.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label409.Location = New System.Drawing.Point(228, 45)
+        Me.Label409.Name = "Label409"
+        Me.Label409.Size = New System.Drawing.Size(166, 31)
+        Me.Label409.TabIndex = 245
+        Me.Label409.Text = "Rango Fecha"
+        '
+        'Button9
+        '
+        Me.Button9.AutoSize = True
+        Me.Button9.BackColor = System.Drawing.Color.Lime
+        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button9.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.ForeColor = System.Drawing.Color.Black
+        Me.Button9.Location = New System.Drawing.Point(228, 270)
+        Me.Button9.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button9.Name = "Button9"
+        Me.Button9.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button9.Size = New System.Drawing.Size(173, 50)
+        Me.Button9.TabIndex = 239
+        Me.Button9.Text = "IMPRIME"
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'Button39
+        '
+        Me.Button39.AutoSize = True
+        Me.Button39.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button39.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button39.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button39.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button39.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button39.ForeColor = System.Drawing.Color.Black
+        Me.Button39.Location = New System.Drawing.Point(228, 164)
+        Me.Button39.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button39.Name = "Button39"
+        Me.Button39.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button39.Size = New System.Drawing.Size(173, 50)
+        Me.Button39.TabIndex = 240
+        Me.Button39.Text = "ENVIAR"
+        Me.Button39.UseVisualStyleBackColor = False
+        '
+        'Button40
+        '
+        Me.Button40.AutoSize = True
+        Me.Button40.BackColor = System.Drawing.Color.Yellow
+        Me.Button40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button40.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button40.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button40.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button40.ForeColor = System.Drawing.Color.Black
+        Me.Button40.Location = New System.Drawing.Point(228, 322)
+        Me.Button40.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button40.Name = "Button40"
+        Me.Button40.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button40.Size = New System.Drawing.Size(173, 50)
+        Me.Button40.TabIndex = 237
+        Me.Button40.Text = "Grabar"
+        Me.Button40.UseVisualStyleBackColor = False
+        '
+        'Button41
+        '
+        Me.Button41.AutoSize = True
+        Me.Button41.BackColor = System.Drawing.Color.Red
+        Me.Button41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button41.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button41.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button41.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button41.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button41.ForeColor = System.Drawing.Color.White
+        Me.Button41.Location = New System.Drawing.Point(228, 216)
+        Me.Button41.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button41.Name = "Button41"
+        Me.Button41.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button41.Size = New System.Drawing.Size(173, 50)
+        Me.Button41.TabIndex = 238
+        Me.Button41.Text = "ANULAR"
+        Me.Button41.UseVisualStyleBackColor = False
+        '
+        'Panel145
+        '
+        Me.Panel145.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel145.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel145.Controls.Add(Me.Label410)
+        Me.Panel145.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel145.Location = New System.Drawing.Point(0, 0)
+        Me.Panel145.Name = "Panel145"
+        Me.Panel145.Size = New System.Drawing.Size(408, 43)
+        Me.Panel145.TabIndex = 0
+        '
+        'Label410
+        '
+        Me.Label410.AutoSize = True
+        Me.Label410.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label410.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label410.ForeColor = System.Drawing.Color.White
+        Me.Label410.Location = New System.Drawing.Point(128, 2)
+        Me.Label410.Name = "Label410"
+        Me.Label410.Size = New System.Drawing.Size(119, 35)
+        Me.Label410.TabIndex = 6
+        Me.Label410.Text = "SALIDA"
         '
         'RadioButton63
         '
@@ -9767,28 +10064,6 @@ Partial Class MP
         Me.RadioButton43.Text = "Bobina"
         Me.RadioButton43.UseVisualStyleBackColor = False
         '
-        'Label328
-        '
-        Me.Label328.AutoSize = True
-        Me.Label328.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label328.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label328.Location = New System.Drawing.Point(1444, 64)
-        Me.Label328.Name = "Label328"
-        Me.Label328.Size = New System.Drawing.Size(100, 29)
-        Me.Label328.TabIndex = 177
-        Me.Label328.Text = "Nucleo:"
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label33.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(1637, 63)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(123, 29)
-        Me.Label33.TabIndex = 177
-        Me.Label33.Text = "Diametro:"
-        '
         'Label390
         '
         Me.Label390.AutoSize = True
@@ -9798,50 +10073,6 @@ Partial Class MP
         Me.Label390.Name = "Label390"
         Me.Label390.Size = New System.Drawing.Size(0, 29)
         Me.Label390.TabIndex = 178
-        '
-        'Label363
-        '
-        Me.Label363.AutoSize = True
-        Me.Label363.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label363.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label363.Location = New System.Drawing.Point(1292, 67)
-        Me.Label363.Name = "Label363"
-        Me.Label363.Size = New System.Drawing.Size(47, 29)
-        Me.Label363.TabIndex = 178
-        Me.Label363.Text = "N°:"
-        '
-        'TextBox133
-        '
-        Me.TextBox133.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox133.ForeColor = System.Drawing.Color.Black
-        Me.TextBox133.Location = New System.Drawing.Point(1759, 61)
-        Me.TextBox133.Name = "TextBox133"
-        Me.TextBox133.Size = New System.Drawing.Size(55, 35)
-        Me.TextBox133.TabIndex = 179
-        Me.TextBox133.Text = "000"
-        Me.TextBox133.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'TextBox98
-        '
-        Me.TextBox98.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox98.ForeColor = System.Drawing.Color.Black
-        Me.TextBox98.Location = New System.Drawing.Point(1548, 61)
-        Me.TextBox98.Name = "TextBox98"
-        Me.TextBox98.Size = New System.Drawing.Size(37, 35)
-        Me.TextBox98.TabIndex = 180
-        Me.TextBox98.Text = "30"
-        Me.TextBox98.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'TextBox138
-        '
-        Me.TextBox138.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox138.ForeColor = System.Drawing.Color.Black
-        Me.TextBox138.Location = New System.Drawing.Point(1342, 64)
-        Me.TextBox138.Name = "TextBox138"
-        Me.TextBox138.Size = New System.Drawing.Size(55, 35)
-        Me.TextBox138.TabIndex = 180
-        Me.TextBox138.Text = "000"
-        Me.TextBox138.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Panel44
         '
@@ -10162,70 +10393,35 @@ Partial Class MP
         Me.TextBox11.Text = "00000000-0-00-00"
         Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Panel171
-        '
-        Me.Panel171.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel171.Controls.Add(Me.Label401)
-        Me.Panel171.Controls.Add(Me.RadioButton73)
-        Me.Panel171.Controls.Add(Me.RadioButton74)
-        Me.Panel171.Location = New System.Drawing.Point(772, 631)
-        Me.Panel171.Name = "Panel171"
-        Me.Panel171.Size = New System.Drawing.Size(249, 34)
-        Me.Panel171.TabIndex = 690
-        '
-        'Label401
-        '
-        Me.Label401.AutoSize = True
-        Me.Label401.BackColor = System.Drawing.Color.Transparent
-        Me.Label401.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label401.Location = New System.Drawing.Point(10, 6)
-        Me.Label401.Name = "Label401"
-        Me.Label401.Size = New System.Drawing.Size(112, 24)
-        Me.Label401.TabIndex = 21
-        Me.Label401.Text = "Stock Lok:"
-        '
-        'RadioButton73
-        '
-        Me.RadioButton73.AutoSize = True
-        Me.RadioButton73.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton73.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton73.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton73.Location = New System.Drawing.Point(127, 4)
-        Me.RadioButton73.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton73.Name = "RadioButton73"
-        Me.RadioButton73.Size = New System.Drawing.Size(53, 28)
-        Me.RadioButton73.TabIndex = 162
-        Me.RadioButton73.Text = "Si"
-        Me.RadioButton73.UseVisualStyleBackColor = False
-        '
-        'RadioButton74
-        '
-        Me.RadioButton74.AutoSize = True
-        Me.RadioButton74.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton74.Checked = True
-        Me.RadioButton74.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.RadioButton74.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton74.Location = New System.Drawing.Point(183, 6)
-        Me.RadioButton74.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton74.Name = "RadioButton74"
-        Me.RadioButton74.Size = New System.Drawing.Size(61, 28)
-        Me.RadioButton74.TabIndex = 163
-        Me.RadioButton74.TabStop = True
-        Me.RadioButton74.Text = "No"
-        Me.RadioButton74.UseVisualStyleBackColor = False
-        '
         'Panel45
         '
         Me.Panel45.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel45.Controls.Add(Me.Label412)
+        Me.Panel45.Controls.Add(Me.Label413)
+        Me.Panel45.Controls.Add(Me.Label414)
+        Me.Panel45.Controls.Add(Me.TextBox154)
+        Me.Panel45.Controls.Add(Me.TextBox155)
+        Me.Panel45.Controls.Add(Me.TextBox156)
+        Me.Panel45.Controls.Add(Me.TextBox157)
+        Me.Panel45.Controls.Add(Me.Label415)
+        Me.Panel45.Controls.Add(Me.CheckBox1)
+        Me.Panel45.Controls.Add(Me.CheckBox2)
+        Me.Panel45.Controls.Add(Me.CheckBox3)
+        Me.Panel45.Controls.Add(Me.Label11)
         Me.Panel45.Controls.Add(Me.Label273)
         Me.Panel45.Controls.Add(Me.ComboBox116)
+        Me.Panel45.Controls.Add(Me.Label16)
         Me.Panel45.Controls.Add(Me.TextBox88)
         Me.Panel45.Controls.Add(Me.ComboBox112)
+        Me.Panel45.Controls.Add(Me.Label160)
+        Me.Panel45.Controls.Add(Me.TextBox79)
         Me.Panel45.Controls.Add(Me.Label265)
         Me.Panel45.Controls.Add(Me.TextBox41)
+        Me.Panel45.Controls.Add(Me.TextBox85)
         Me.Panel45.Controls.Add(Me.RadioButton31)
         Me.Panel45.Controls.Add(Me.TextBox96)
+        Me.Panel45.Controls.Add(Me.TextBox153)
         Me.Panel45.Controls.Add(Me.TextBox81)
         Me.Panel45.Controls.Add(Me.Label260)
         Me.Panel45.Controls.Add(Me.TextBox77)
@@ -10262,10 +10458,153 @@ Partial Class MP
         Me.Panel45.Controls.Add(Me.Label274)
         Me.Panel45.Controls.Add(Me.TextBox53)
         Me.Panel45.Controls.Add(Me.Button50)
-        Me.Panel45.Location = New System.Drawing.Point(13, 681)
+        Me.Panel45.Location = New System.Drawing.Point(13, 631)
         Me.Panel45.Name = "Panel45"
-        Me.Panel45.Size = New System.Drawing.Size(1896, 260)
+        Me.Panel45.Size = New System.Drawing.Size(1896, 310)
         Me.Panel45.TabIndex = 259
+        '
+        'Label412
+        '
+        Me.Label412.AutoSize = True
+        Me.Label412.BackColor = System.Drawing.Color.Transparent
+        Me.Label412.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label412.Location = New System.Drawing.Point(564, 271)
+        Me.Label412.Name = "Label412"
+        Me.Label412.Size = New System.Drawing.Size(130, 24)
+        Me.Label412.TabIndex = 323
+        Me.Label412.Text = "Espesor um:"
+        '
+        'Label413
+        '
+        Me.Label413.AutoSize = True
+        Me.Label413.BackColor = System.Drawing.Color.Transparent
+        Me.Label413.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label413.Location = New System.Drawing.Point(1221, 272)
+        Me.Label413.Name = "Label413"
+        Me.Label413.Size = New System.Drawing.Size(106, 24)
+        Me.Label413.TabIndex = 324
+        Me.Label413.Text = "Rigidez N:"
+        '
+        'Label414
+        '
+        Me.Label414.AutoSize = True
+        Me.Label414.BackColor = System.Drawing.Color.Transparent
+        Me.Label414.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label414.Location = New System.Drawing.Point(1004, 271)
+        Me.Label414.Name = "Label414"
+        Me.Label414.Size = New System.Drawing.Size(106, 24)
+        Me.Label414.TabIndex = 325
+        Me.Label414.Text = "Rigidez D:"
+        '
+        'TextBox154
+        '
+        Me.TextBox154.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox154.ForeColor = System.Drawing.Color.Black
+        Me.TextBox154.Location = New System.Drawing.Point(895, 268)
+        Me.TextBox154.Name = "TextBox154"
+        Me.TextBox154.Size = New System.Drawing.Size(55, 30)
+        Me.TextBox154.TabIndex = 319
+        Me.TextBox154.Text = "000"
+        Me.TextBox154.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox155
+        '
+        Me.TextBox155.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox155.ForeColor = System.Drawing.Color.Black
+        Me.TextBox155.Location = New System.Drawing.Point(700, 271)
+        Me.TextBox155.Name = "TextBox155"
+        Me.TextBox155.Size = New System.Drawing.Size(55, 30)
+        Me.TextBox155.TabIndex = 320
+        Me.TextBox155.Text = "000"
+        Me.TextBox155.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox156
+        '
+        Me.TextBox156.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox156.ForeColor = System.Drawing.Color.Black
+        Me.TextBox156.Location = New System.Drawing.Point(1334, 271)
+        Me.TextBox156.Name = "TextBox156"
+        Me.TextBox156.Size = New System.Drawing.Size(55, 30)
+        Me.TextBox156.TabIndex = 321
+        Me.TextBox156.Text = "000"
+        Me.TextBox156.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox157
+        '
+        Me.TextBox157.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox157.ForeColor = System.Drawing.Color.Black
+        Me.TextBox157.Location = New System.Drawing.Point(1117, 270)
+        Me.TextBox157.Name = "TextBox157"
+        Me.TextBox157.Size = New System.Drawing.Size(55, 30)
+        Me.TextBox157.TabIndex = 322
+        Me.TextBox157.Text = "000"
+        Me.TextBox157.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label415
+        '
+        Me.Label415.AutoSize = True
+        Me.Label415.BackColor = System.Drawing.Color.Transparent
+        Me.Label415.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label415.Location = New System.Drawing.Point(802, 270)
+        Me.Label415.Name = "Label415"
+        Me.Label415.Size = New System.Drawing.Size(84, 24)
+        Me.Label415.TabIndex = 326
+        Me.Label415.Text = "Puntos:"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.ForeColor = System.Drawing.Color.Magenta
+        Me.CheckBox1.Location = New System.Drawing.Point(1723, 214)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(170, 33)
+        Me.CheckBox1.TabIndex = 316
+        Me.CheckBox1.Text = "Secundario"
+        Me.ToolTip1.SetToolTip(Me.CheckBox1, "Se marca si fue cargado el NOMBRE PRIMARIO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Si no esta cargado con Primario se m" &
+        "arca SECUNDARIO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox2.ForeColor = System.Drawing.Color.Magenta
+        Me.CheckBox2.Location = New System.Drawing.Point(1565, 214)
+        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(136, 33)
+        Me.CheckBox2.TabIndex = 317
+        Me.CheckBox2.Text = "Primario"
+        Me.ToolTip1.SetToolTip(Me.CheckBox2, "Se marca si fue cargado el NOMBRE PRIMARIO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Si no esta cargado con Primario se m" &
+        "arca SECUNDARIO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox3.ForeColor = System.Drawing.Color.Magenta
+        Me.CheckBox3.Location = New System.Drawing.Point(1470, 214)
+        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(87, 33)
+        Me.CheckBox3.TabIndex = 318
+        Me.CheckBox3.Text = "FSC"
+        Me.ToolTip1.SetToolTip(Me.CheckBox3, "Se marca si fue cargado el código con FSC." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Se fue cargado con 000, no se marca." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.CheckBox3.UseVisualStyleBackColor = True
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label11.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(1129, 214)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(100, 29)
+        Me.Label11.TabIndex = 300
+        Me.Label11.Text = "Nucleo:"
         '
         'Label273
         '
@@ -10293,6 +10632,17 @@ Partial Class MP
         Me.ComboBox116.Size = New System.Drawing.Size(137, 37)
         Me.ComboBox116.TabIndex = 315
         '
+        'Label16
+        '
+        Me.Label16.AutoSize = True
+        Me.Label16.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label16.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(1276, 214)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(123, 29)
+        Me.Label16.TabIndex = 301
+        Me.Label16.Text = "Diametro:"
+        '
         'TextBox88
         '
         Me.TextBox88.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -10319,6 +10669,28 @@ Partial Class MP
         Me.ComboBox112.Size = New System.Drawing.Size(239, 37)
         Me.ComboBox112.TabIndex = 301
         '
+        'Label160
+        '
+        Me.Label160.AutoSize = True
+        Me.Label160.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label160.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label160.Location = New System.Drawing.Point(937, 214)
+        Me.Label160.Name = "Label160"
+        Me.Label160.Size = New System.Drawing.Size(136, 29)
+        Me.Label160.TabIndex = 302
+        Me.Label160.Text = "Bobina N°:"
+        '
+        'TextBox79
+        '
+        Me.TextBox79.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox79.ForeColor = System.Drawing.Color.Black
+        Me.TextBox79.Location = New System.Drawing.Point(1398, 211)
+        Me.TextBox79.Name = "TextBox79"
+        Me.TextBox79.Size = New System.Drawing.Size(55, 35)
+        Me.TextBox79.TabIndex = 303
+        Me.TextBox79.Text = "000"
+        Me.TextBox79.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
         'Label265
         '
         Me.Label265.AutoSize = True
@@ -10341,6 +10713,17 @@ Partial Class MP
         Me.TextBox41.TabIndex = 283
         Me.TextBox41.Text = "000.000"
         Me.TextBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'TextBox85
+        '
+        Me.TextBox85.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox85.ForeColor = System.Drawing.Color.Black
+        Me.TextBox85.Location = New System.Drawing.Point(1233, 211)
+        Me.TextBox85.Name = "TextBox85"
+        Me.TextBox85.Size = New System.Drawing.Size(37, 35)
+        Me.TextBox85.TabIndex = 304
+        Me.TextBox85.Text = "30"
+        Me.TextBox85.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'RadioButton31
         '
@@ -10368,6 +10751,17 @@ Partial Class MP
         Me.TextBox96.TabIndex = 283
         Me.TextBox96.Text = "00.000"
         Me.TextBox96.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'TextBox153
+        '
+        Me.TextBox153.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox153.ForeColor = System.Drawing.Color.Black
+        Me.TextBox153.Location = New System.Drawing.Point(1062, 211)
+        Me.TextBox153.Name = "TextBox153"
+        Me.TextBox153.Size = New System.Drawing.Size(55, 35)
+        Me.TextBox153.TabIndex = 305
+        Me.TextBox153.Text = "000"
+        Me.TextBox153.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'TextBox81
         '
@@ -10833,7 +11227,7 @@ Partial Class MP
         Me.Panel47.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel47.Location = New System.Drawing.Point(0, 0)
         Me.Panel47.Name = "Panel47"
-        Me.Panel47.Size = New System.Drawing.Size(1914, 43)
+        Me.Panel47.Size = New System.Drawing.Size(1910, 43)
         Me.Panel47.TabIndex = 0
         '
         'Label249
@@ -10851,9 +11245,10 @@ Partial Class MP
         '
         Me.Panel48.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel48.Controls.Add(Me.Panel142)
+        Me.Panel48.Controls.Add(Me.Panel170)
         Me.Panel48.Controls.Add(Me.ComboBox111)
         Me.Panel48.Controls.Add(Me.ComboBox104)
+        Me.Panel48.Controls.Add(Me.Panel171)
         Me.Panel48.Controls.Add(Me.ComboBox95)
         Me.Panel48.Controls.Add(Me.ComboBox110)
         Me.Panel48.Controls.Add(Me.ComboBox103)
@@ -10888,224 +11283,13 @@ Partial Class MP
         Me.Panel48.Size = New System.Drawing.Size(1890, 340)
         Me.Panel48.TabIndex = 170
         '
-        'Panel142
+        'Panel170
         '
-        Me.Panel142.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Panel142.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel142.Controls.Add(Me.CheckBox11)
-        Me.Panel142.Controls.Add(Me.CheckBox12)
-        Me.Panel142.Controls.Add(Me.CheckBox13)
-        Me.Panel142.Controls.Add(Me.CheckBox24)
-        Me.Panel142.Controls.Add(Me.Button73)
-        Me.Panel142.Controls.Add(Me.Button75)
-        Me.Panel142.Controls.Add(Me.Button76)
-        Me.Panel142.Controls.Add(Me.Button77)
-        Me.Panel142.Controls.Add(Me.Button78)
-        Me.Panel142.Controls.Add(Me.DateTimePicker52)
-        Me.Panel142.Controls.Add(Me.DateTimePicker54)
-        Me.Panel142.Controls.Add(Me.DateTimePicker55)
-        Me.Panel142.Controls.Add(Me.Panel145)
-        Me.Panel142.Location = New System.Drawing.Point(1470, 49)
-        Me.Panel142.Name = "Panel142"
-        Me.Panel142.Size = New System.Drawing.Size(365, 367)
-        Me.Panel142.TabIndex = 566
-        '
-        'CheckBox11
-        '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox11.Location = New System.Drawing.Point(12, 165)
-        Me.CheckBox11.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(158, 33)
-        Me.CheckBox11.TabIndex = 241
-        Me.CheckBox11.Text = "WhatsApp"
-        Me.CheckBox11.UseVisualStyleBackColor = True
-        '
-        'CheckBox12
-        '
-        Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox12.Location = New System.Drawing.Point(12, 128)
-        Me.CheckBox12.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(103, 33)
-        Me.CheckBox12.TabIndex = 242
-        Me.CheckBox12.Text = "Email"
-        Me.CheckBox12.UseVisualStyleBackColor = True
-        '
-        'CheckBox13
-        '
-        Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox13.Location = New System.Drawing.Point(12, 54)
-        Me.CheckBox13.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox13.Name = "CheckBox13"
-        Me.CheckBox13.Size = New System.Drawing.Size(131, 33)
-        Me.CheckBox13.TabIndex = 243
-        Me.CheckBox13.Text = "Pantalla"
-        Me.CheckBox13.UseVisualStyleBackColor = True
-        '
-        'CheckBox24
-        '
-        Me.CheckBox24.AutoSize = True
-        Me.CheckBox24.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox24.Location = New System.Drawing.Point(12, 91)
-        Me.CheckBox24.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox24.Name = "CheckBox24"
-        Me.CheckBox24.Size = New System.Drawing.Size(91, 33)
-        Me.CheckBox24.TabIndex = 244
-        Me.CheckBox24.Text = "Hoja"
-        Me.CheckBox24.UseVisualStyleBackColor = True
-        '
-        'Button73
-        '
-        Me.Button73.AutoSize = True
-        Me.Button73.BackColor = System.Drawing.Color.Lime
-        Me.Button73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button73.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button73.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button73.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button73.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button73.ForeColor = System.Drawing.Color.Black
-        Me.Button73.Location = New System.Drawing.Point(184, 254)
-        Me.Button73.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button73.Name = "Button73"
-        Me.Button73.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button73.Size = New System.Drawing.Size(164, 50)
-        Me.Button73.TabIndex = 239
-        Me.Button73.Text = "IMPRIME"
-        Me.Button73.UseVisualStyleBackColor = False
-        '
-        'Button75
-        '
-        Me.Button75.AutoSize = True
-        Me.Button75.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button75.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button75.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button75.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button75.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button75.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button75.ForeColor = System.Drawing.Color.Black
-        Me.Button75.Location = New System.Drawing.Point(184, 82)
-        Me.Button75.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button75.Name = "Button75"
-        Me.Button75.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button75.Size = New System.Drawing.Size(166, 50)
-        Me.Button75.TabIndex = 240
-        Me.Button75.Text = "IMPORTAR"
-        Me.Button75.UseVisualStyleBackColor = False
-        '
-        'Button76
-        '
-        Me.Button76.AutoSize = True
-        Me.Button76.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button76.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button76.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button76.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button76.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button76.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button76.ForeColor = System.Drawing.Color.Black
-        Me.Button76.Location = New System.Drawing.Point(184, 199)
-        Me.Button76.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button76.Name = "Button76"
-        Me.Button76.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button76.Size = New System.Drawing.Size(164, 50)
-        Me.Button76.TabIndex = 240
-        Me.Button76.Text = "ENVIAR"
-        Me.Button76.UseVisualStyleBackColor = False
-        '
-        'Button77
-        '
-        Me.Button77.AutoSize = True
-        Me.Button77.BackColor = System.Drawing.Color.Yellow
-        Me.Button77.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button77.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button77.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button77.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button77.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button77.ForeColor = System.Drawing.Color.Black
-        Me.Button77.Location = New System.Drawing.Point(186, 306)
-        Me.Button77.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button77.Name = "Button77"
-        Me.Button77.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button77.Size = New System.Drawing.Size(164, 50)
-        Me.Button77.TabIndex = 237
-        Me.Button77.Text = "Gravar"
-        Me.Button77.UseVisualStyleBackColor = False
-        '
-        'Button78
-        '
-        Me.Button78.AutoSize = True
-        Me.Button78.BackColor = System.Drawing.Color.Red
-        Me.Button78.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button78.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button78.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button78.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button78.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button78.ForeColor = System.Drawing.Color.White
-        Me.Button78.Location = New System.Drawing.Point(184, 141)
-        Me.Button78.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button78.Name = "Button78"
-        Me.Button78.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button78.Size = New System.Drawing.Size(164, 50)
-        Me.Button78.TabIndex = 238
-        Me.Button78.Text = "ANULAR"
-        Me.Button78.UseVisualStyleBackColor = False
-        '
-        'DateTimePicker52
-        '
-        Me.DateTimePicker52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker52.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker52.Location = New System.Drawing.Point(18, 318)
-        Me.DateTimePicker52.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker52.Name = "DateTimePicker52"
-        Me.DateTimePicker52.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker52.TabIndex = 237
-        '
-        'DateTimePicker54
-        '
-        Me.DateTimePicker54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker54.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker54.Location = New System.Drawing.Point(18, 266)
-        Me.DateTimePicker54.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker54.Name = "DateTimePicker54"
-        Me.DateTimePicker54.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker54.TabIndex = 237
-        '
-        'DateTimePicker55
-        '
-        Me.DateTimePicker55.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText
-        Me.DateTimePicker55.CalendarTitleForeColor = System.Drawing.Color.White
-        Me.DateTimePicker55.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker55.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker55.Location = New System.Drawing.Point(18, 211)
-        Me.DateTimePicker55.Margin = New System.Windows.Forms.Padding(4)
-        Me.DateTimePicker55.Name = "DateTimePicker55"
-        Me.DateTimePicker55.Size = New System.Drawing.Size(158, 30)
-        Me.DateTimePicker55.TabIndex = 237
-        '
-        'Panel145
-        '
-        Me.Panel145.BackColor = System.Drawing.Color.Green
-        Me.Panel145.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel145.Controls.Add(Me.Label454)
-        Me.Panel145.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel145.Location = New System.Drawing.Point(0, 0)
-        Me.Panel145.Name = "Panel145"
-        Me.Panel145.Size = New System.Drawing.Size(363, 43)
-        Me.Panel145.TabIndex = 0
-        '
-        'Label454
-        '
-        Me.Label454.AutoSize = True
-        Me.Label454.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label454.ForeColor = System.Drawing.Color.White
-        Me.Label454.Location = New System.Drawing.Point(160, 4)
-        Me.Label454.Name = "Label454"
-        Me.Label454.Size = New System.Drawing.Size(117, 33)
-        Me.Label454.TabIndex = 6
-        Me.Label454.Text = "SALIDA"
+        Me.Panel170.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel170.Location = New System.Drawing.Point(842, 289)
+        Me.Panel170.Name = "Panel170"
+        Me.Panel170.Size = New System.Drawing.Size(249, 34)
+        Me.Panel170.TabIndex = 689
         '
         'ComboBox111
         '
@@ -11134,6 +11318,58 @@ Partial Class MP
         Me.ComboBox104.Name = "ComboBox104"
         Me.ComboBox104.Size = New System.Drawing.Size(164, 37)
         Me.ComboBox104.TabIndex = 169
+        '
+        'Panel171
+        '
+        Me.Panel171.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel171.Controls.Add(Me.Label401)
+        Me.Panel171.Controls.Add(Me.RadioButton73)
+        Me.Panel171.Controls.Add(Me.RadioButton74)
+        Me.Panel171.Location = New System.Drawing.Point(770, 203)
+        Me.Panel171.Name = "Panel171"
+        Me.Panel171.Size = New System.Drawing.Size(249, 34)
+        Me.Panel171.TabIndex = 690
+        '
+        'Label401
+        '
+        Me.Label401.AutoSize = True
+        Me.Label401.BackColor = System.Drawing.Color.Transparent
+        Me.Label401.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label401.Location = New System.Drawing.Point(10, 6)
+        Me.Label401.Name = "Label401"
+        Me.Label401.Size = New System.Drawing.Size(112, 24)
+        Me.Label401.TabIndex = 21
+        Me.Label401.Text = "Stock Lok:"
+        '
+        'RadioButton73
+        '
+        Me.RadioButton73.AutoSize = True
+        Me.RadioButton73.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton73.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton73.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton73.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton73.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton73.Name = "RadioButton73"
+        Me.RadioButton73.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton73.TabIndex = 162
+        Me.RadioButton73.Text = "Si"
+        Me.RadioButton73.UseVisualStyleBackColor = False
+        '
+        'RadioButton74
+        '
+        Me.RadioButton74.AutoSize = True
+        Me.RadioButton74.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton74.Checked = True
+        Me.RadioButton74.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton74.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton74.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton74.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton74.Name = "RadioButton74"
+        Me.RadioButton74.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton74.TabIndex = 163
+        Me.RadioButton74.TabStop = True
+        Me.RadioButton74.Text = "No"
+        Me.RadioButton74.UseVisualStyleBackColor = False
         '
         'ComboBox95
         '
@@ -11604,15 +11840,835 @@ Partial Class MP
         Me.Button47.Text = "GRABAR"
         Me.Button47.UseVisualStyleBackColor = False
         '
-        'TabPage7
+        'PreOC
         '
-        Me.TabPage7.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.TabPage7.Controls.Add(Me.Panel62)
-        Me.TabPage7.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Size = New System.Drawing.Size(1916, 950)
-        Me.TabPage7.TabIndex = 6
-        Me.TabPage7.Text = "OC /"
+        Me.PreOC.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.PreOC.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PreOC.Controls.Add(Me.Panel160)
+        Me.PreOC.Location = New System.Drawing.Point(4, 33)
+        Me.PreOC.Name = "PreOC"
+        Me.PreOC.Size = New System.Drawing.Size(1916, 950)
+        Me.PreOC.TabIndex = 10
+        Me.PreOC.Text = "Pre OC /"
+        '
+        'Panel160
+        '
+        Me.Panel160.BackColor = System.Drawing.Color.Lime
+        Me.Panel160.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel160.Controls.Add(Me.Panel164)
+        Me.Panel160.Controls.Add(Me.DataGridView2)
+        Me.Panel160.Controls.Add(Me.Panel186)
+        Me.Panel160.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel160.Location = New System.Drawing.Point(0, 0)
+        Me.Panel160.Name = "Panel160"
+        Me.Panel160.Size = New System.Drawing.Size(1912, 946)
+        Me.Panel160.TabIndex = 261
+        '
+        'Panel164
+        '
+        Me.Panel164.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Panel164.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel164.Controls.Add(Me.CheckedListBox6)
+        Me.Panel164.Controls.Add(Me.TextBox171)
+        Me.Panel164.Controls.Add(Me.TextBox151)
+        Me.Panel164.Controls.Add(Me.TextBox159)
+        Me.Panel164.Controls.Add(Me.TextBox170)
+        Me.Panel164.Controls.Add(Me.TextBox160)
+        Me.Panel164.Controls.Add(Me.TextBox161)
+        Me.Panel164.Controls.Add(Me.Label417)
+        Me.Panel164.Controls.Add(Me.Label427)
+        Me.Panel164.Controls.Add(Me.Label428)
+        Me.Panel164.Controls.Add(Me.RadioButton89)
+        Me.Panel164.Controls.Add(Me.RadioButton90)
+        Me.Panel164.Controls.Add(Me.RadioButton91)
+        Me.Panel164.Controls.Add(Me.RadioButton92)
+        Me.Panel164.Controls.Add(Me.DateTimePicker28)
+        Me.Panel164.Controls.Add(Me.DateTimePicker29)
+        Me.Panel164.Controls.Add(Me.DateTimePicker41)
+        Me.Panel164.Controls.Add(Me.DateTimePicker42)
+        Me.Panel164.Controls.Add(Me.Label420)
+        Me.Panel164.Controls.Add(Me.Label418)
+        Me.Panel164.Controls.Add(Me.Button44)
+        Me.Panel164.Controls.Add(Me.Button45)
+        Me.Panel164.Controls.Add(Me.Button46)
+        Me.Panel164.Controls.Add(Me.Button48)
+        Me.Panel164.Controls.Add(Me.Panel167)
+        Me.Panel164.Location = New System.Drawing.Point(19, 62)
+        Me.Panel164.Name = "Panel164"
+        Me.Panel164.Size = New System.Drawing.Size(1871, 224)
+        Me.Panel164.TabIndex = 760
+        Me.ToolTip1.SetToolTip(Me.Panel164, "Las acciones que se pueden hacer con ciertos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " parámetros que esta en esta HOJA i" &
+        "ndicado" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'CheckedListBox6
+        '
+        Me.CheckedListBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.CheckedListBox6.Font = New System.Drawing.Font("Arial Black", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckedListBox6.FormattingEnabled = True
+        Me.CheckedListBox6.Items.AddRange(New Object() {"No va con CLIENTE UTILIZA.", "No va con Detalle OR"})
+        Me.CheckedListBox6.Location = New System.Drawing.Point(760, 82)
+        Me.CheckedListBox6.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckedListBox6.Name = "CheckedListBox6"
+        Me.CheckedListBox6.Size = New System.Drawing.Size(329, 124)
+        Me.CheckedListBox6.TabIndex = 766
+        Me.ToolTip1.SetToolTip(Me.CheckedListBox6, "Filtrar con el criterio marcado, el informe.")
+        '
+        'TextBox171
+        '
+        Me.TextBox171.BackColor = System.Drawing.Color.White
+        Me.TextBox171.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox171.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox171.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox171.Location = New System.Drawing.Point(386, 129)
+        Me.TextBox171.Name = "TextBox171"
+        Me.TextBox171.Size = New System.Drawing.Size(341, 30)
+        Me.TextBox171.TabIndex = 763
+        Me.TextBox171.Text = "estela@gama.com.py"
+        '
+        'TextBox151
+        '
+        Me.TextBox151.BackColor = System.Drawing.Color.White
+        Me.TextBox151.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox151.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox151.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox151.Location = New System.Drawing.Point(386, 92)
+        Me.TextBox151.Name = "TextBox151"
+        Me.TextBox151.Size = New System.Drawing.Size(341, 30)
+        Me.TextBox151.TabIndex = 763
+        Me.TextBox151.Text = "estela@gama.com.py"
+        '
+        'TextBox159
+        '
+        Me.TextBox159.BackColor = System.Drawing.Color.White
+        Me.TextBox159.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.TextBox159.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox159.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox159.Location = New System.Drawing.Point(385, 56)
+        Me.TextBox159.Name = "TextBox159"
+        Me.TextBox159.Size = New System.Drawing.Size(341, 30)
+        Me.TextBox159.TabIndex = 762
+        Me.TextBox159.Text = "estela@gama.com.py"
+        '
+        'TextBox170
+        '
+        Me.TextBox170.BackColor = System.Drawing.Color.White
+        Me.TextBox170.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox170.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox170.Location = New System.Drawing.Point(169, 129)
+        Me.TextBox170.Name = "TextBox170"
+        Me.TextBox170.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox170.TabIndex = 760
+        Me.TextBox170.Text = "+595 981 123456789"
+        '
+        'TextBox160
+        '
+        Me.TextBox160.BackColor = System.Drawing.Color.White
+        Me.TextBox160.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox160.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox160.Location = New System.Drawing.Point(169, 92)
+        Me.TextBox160.Name = "TextBox160"
+        Me.TextBox160.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox160.TabIndex = 760
+        Me.TextBox160.Text = "+595 981 123456789"
+        '
+        'TextBox161
+        '
+        Me.TextBox161.BackColor = System.Drawing.Color.White
+        Me.TextBox161.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox161.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox161.Location = New System.Drawing.Point(169, 56)
+        Me.TextBox161.Name = "TextBox161"
+        Me.TextBox161.Size = New System.Drawing.Size(204, 30)
+        Me.TextBox161.TabIndex = 761
+        Me.TextBox161.Text = "+595 981 123456789"
+        '
+        'Label417
+        '
+        Me.Label417.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label417.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label417.Location = New System.Drawing.Point(22, 132)
+        Me.Label417.Name = "Label417"
+        Me.Label417.Size = New System.Drawing.Size(141, 24)
+        Me.Label417.TabIndex = 759
+        Me.Label417.Text = "Presupuesto:"
+        Me.Label417.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label427
+        '
+        Me.Label427.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label427.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label427.Location = New System.Drawing.Point(22, 95)
+        Me.Label427.Name = "Label427"
+        Me.Label427.Size = New System.Drawing.Size(141, 24)
+        Me.Label427.TabIndex = 759
+        Me.Label427.Text = "Compra:"
+        Me.Label427.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label428
+        '
+        Me.Label428.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label428.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label428.Location = New System.Drawing.Point(22, 57)
+        Me.Label428.Name = "Label428"
+        Me.Label428.Size = New System.Drawing.Size(141, 24)
+        Me.Label428.TabIndex = 756
+        Me.Label428.Text = "GA.:"
+        Me.Label428.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'RadioButton89
+        '
+        Me.RadioButton89.AutoSize = True
+        Me.RadioButton89.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton89.Checked = True
+        Me.RadioButton89.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton89.Location = New System.Drawing.Point(1117, 53)
+        Me.RadioButton89.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton89.Name = "RadioButton89"
+        Me.RadioButton89.Size = New System.Drawing.Size(110, 28)
+        Me.RadioButton89.TabIndex = 295
+        Me.RadioButton89.TabStop = True
+        Me.RadioButton89.Text = "Pantalla"
+        Me.RadioButton89.UseVisualStyleBackColor = False
+        '
+        'RadioButton90
+        '
+        Me.RadioButton90.AutoSize = True
+        Me.RadioButton90.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton90.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton90.Location = New System.Drawing.Point(1117, 149)
+        Me.RadioButton90.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton90.Name = "RadioButton90"
+        Me.RadioButton90.Size = New System.Drawing.Size(132, 28)
+        Me.RadioButton90.TabIndex = 295
+        Me.RadioButton90.Text = "WhatsApp"
+        Me.RadioButton90.UseVisualStyleBackColor = False
+        '
+        'RadioButton91
+        '
+        Me.RadioButton91.AutoSize = True
+        Me.RadioButton91.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton91.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton91.Location = New System.Drawing.Point(1117, 117)
+        Me.RadioButton91.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton91.Name = "RadioButton91"
+        Me.RadioButton91.Size = New System.Drawing.Size(84, 28)
+        Me.RadioButton91.TabIndex = 295
+        Me.RadioButton91.Text = "email"
+        Me.RadioButton91.UseVisualStyleBackColor = False
+        '
+        'RadioButton92
+        '
+        Me.RadioButton92.AutoSize = True
+        Me.RadioButton92.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton92.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton92.Location = New System.Drawing.Point(1117, 85)
+        Me.RadioButton92.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton92.Name = "RadioButton92"
+        Me.RadioButton92.Size = New System.Drawing.Size(77, 28)
+        Me.RadioButton92.TabIndex = 295
+        Me.RadioButton92.Text = "Hoja"
+        Me.RadioButton92.UseVisualStyleBackColor = False
+        '
+        'DateTimePicker28
+        '
+        Me.DateTimePicker28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker28.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker28.Location = New System.Drawing.Point(23, 3580)
+        Me.DateTimePicker28.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker28.Name = "DateTimePicker28"
+        Me.DateTimePicker28.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker28.TabIndex = 247
+        '
+        'DateTimePicker29
+        '
+        Me.DateTimePicker29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker29.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker29.Location = New System.Drawing.Point(1296, 176)
+        Me.DateTimePicker29.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker29.Name = "DateTimePicker29"
+        Me.DateTimePicker29.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker29.TabIndex = 688
+        '
+        'DateTimePicker41
+        '
+        Me.DateTimePicker41.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker41.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker41.Location = New System.Drawing.Point(1296, 140)
+        Me.DateTimePicker41.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker41.Name = "DateTimePicker41"
+        Me.DateTimePicker41.Size = New System.Drawing.Size(155, 30)
+        Me.DateTimePicker41.TabIndex = 688
+        '
+        'DateTimePicker42
+        '
+        Me.DateTimePicker42.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker42.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker42.Location = New System.Drawing.Point(22, 3580)
+        Me.DateTimePicker42.Margin = New System.Windows.Forms.Padding(4)
+        Me.DateTimePicker42.Name = "DateTimePicker42"
+        Me.DateTimePicker42.Size = New System.Drawing.Size(158, 30)
+        Me.DateTimePicker42.TabIndex = 246
+        '
+        'Label420
+        '
+        Me.Label420.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label420.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label420.Location = New System.Drawing.Point(760, 47)
+        Me.Label420.Name = "Label420"
+        Me.Label420.Size = New System.Drawing.Size(329, 31)
+        Me.Label420.TabIndex = 245
+        Me.Label420.Text = "FILTRAR"
+        Me.Label420.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label418
+        '
+        Me.Label418.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label418.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label418.Location = New System.Drawing.Point(1284, 103)
+        Me.Label418.Name = "Label418"
+        Me.Label418.Size = New System.Drawing.Size(178, 31)
+        Me.Label418.TabIndex = 245
+        Me.Label418.Text = "Rango Fecha"
+        Me.Label418.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Button44
+        '
+        Me.Button44.AutoSize = True
+        Me.Button44.BackColor = System.Drawing.Color.Lime
+        Me.Button44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button44.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button44.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button44.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button44.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button44.ForeColor = System.Drawing.Color.Black
+        Me.Button44.Location = New System.Drawing.Point(1678, 104)
+        Me.Button44.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button44.Name = "Button44"
+        Me.Button44.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button44.Size = New System.Drawing.Size(173, 50)
+        Me.Button44.TabIndex = 239
+        Me.Button44.Text = "IMPRIME"
+        Me.Button44.UseVisualStyleBackColor = False
+        '
+        'Button45
+        '
+        Me.Button45.AutoSize = True
+        Me.Button45.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button45.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button45.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button45.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button45.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button45.ForeColor = System.Drawing.Color.Black
+        Me.Button45.Location = New System.Drawing.Point(1487, 104)
+        Me.Button45.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button45.Name = "Button45"
+        Me.Button45.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button45.Size = New System.Drawing.Size(173, 50)
+        Me.Button45.TabIndex = 240
+        Me.Button45.Text = "ENVIAR"
+        Me.Button45.UseVisualStyleBackColor = False
+        '
+        'Button46
+        '
+        Me.Button46.AutoSize = True
+        Me.Button46.BackColor = System.Drawing.Color.Yellow
+        Me.Button46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button46.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button46.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button46.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button46.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button46.ForeColor = System.Drawing.Color.Black
+        Me.Button46.Location = New System.Drawing.Point(1678, 156)
+        Me.Button46.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button46.Name = "Button46"
+        Me.Button46.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button46.Size = New System.Drawing.Size(173, 50)
+        Me.Button46.TabIndex = 237
+        Me.Button46.Text = "Grabar"
+        Me.Button46.UseVisualStyleBackColor = False
+        '
+        'Button48
+        '
+        Me.Button48.AutoSize = True
+        Me.Button48.BackColor = System.Drawing.Color.Red
+        Me.Button48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button48.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button48.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button48.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button48.Font = New System.Drawing.Font("Arial Black", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button48.ForeColor = System.Drawing.Color.White
+        Me.Button48.Location = New System.Drawing.Point(1487, 156)
+        Me.Button48.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button48.Name = "Button48"
+        Me.Button48.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button48.Size = New System.Drawing.Size(173, 50)
+        Me.Button48.TabIndex = 238
+        Me.Button48.Text = "ANULAR"
+        Me.Button48.UseVisualStyleBackColor = False
+        '
+        'Panel167
+        '
+        Me.Panel167.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel167.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel167.Controls.Add(Me.Label419)
+        Me.Panel167.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel167.Location = New System.Drawing.Point(0, 0)
+        Me.Panel167.Name = "Panel167"
+        Me.Panel167.Size = New System.Drawing.Size(1867, 43)
+        Me.Panel167.TabIndex = 0
+        '
+        'Label419
+        '
+        Me.Label419.AutoSize = True
+        Me.Label419.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label419.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label419.ForeColor = System.Drawing.Color.White
+        Me.Label419.Location = New System.Drawing.Point(831, 4)
+        Me.Label419.Name = "Label419"
+        Me.Label419.Size = New System.Drawing.Size(119, 35)
+        Me.Label419.TabIndex = 6
+        Me.Label419.Text = "SALIDA"
+        '
+        'DataGridView2
+        '
+        DataGridViewCellStyle125.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle125.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle125.Format = "N0"
+        DataGridViewCellStyle125.NullValue = Nothing
+        DataGridViewCellStyle125.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle125
+        Me.DataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.DataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
+        DataGridViewCellStyle126.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle126.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle126.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle126.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle126.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle126.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle126.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle126
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.PreOCPedidoN, Me.NombreFabrica, Me.DataGridViewComboBoxColumn1, Me.TonPedido, Me.NonbreMP, Me.MPGramaje, Me.MPum, Me.Puntos, Me.DataGridViewCheckBoxColumn1, Me.DataGridViewComboBoxColumn2, Me.DataGridViewTextBoxColumn34, Me.DataGridViewTextBoxColumn35, Me.TonUSS, Me.TotalTonUSS, Me.ClientesUtiliza, Me.RigidezMD, Me.RigidezCD, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn11, Me.DataGridViewTextBoxColumn29, Me.DataGridViewTextBoxColumn30, Me.DataGridViewTextBoxColumn31})
+        Me.DataGridView2.Location = New System.Drawing.Point(19, 300)
+        Me.DataGridView2.Name = "DataGridView2"
+        DataGridViewCellStyle147.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle147.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle147.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle147.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle147.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle147.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView2.RowHeadersDefaultCellStyle = DataGridViewCellStyle147
+        Me.DataGridView2.RowHeadersWidth = 62
+        DataGridViewCellStyle148.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView2.RowsDefaultCellStyle = DataGridViewCellStyle148
+        Me.DataGridView2.RowTemplate.Height = 28
+        Me.DataGridView2.Size = New System.Drawing.Size(1871, 622)
+        Me.DataGridView2.TabIndex = 638
+        '
+        'PreOCPedidoN
+        '
+        DataGridViewCellStyle127.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle127.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle127.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle127.Format = "N0"
+        DataGridViewCellStyle127.NullValue = Nothing
+        DataGridViewCellStyle127.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.PreOCPedidoN.DefaultCellStyle = DataGridViewCellStyle127
+        Me.PreOCPedidoN.DividerWidth = 5
+        Me.PreOCPedidoN.HeaderText = "Pre OC N°"
+        Me.PreOCPedidoN.MaxInputLength = 7
+        Me.PreOCPedidoN.MinimumWidth = 8
+        Me.PreOCPedidoN.Name = "PreOCPedidoN"
+        Me.PreOCPedidoN.ToolTipText = "Es el N° corrido del PRE OC. Es para todos los items el mismo N°."
+        Me.PreOCPedidoN.Width = 120
+        '
+        'NombreFabrica
+        '
+        DataGridViewCellStyle128.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle128.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle128.SelectionBackColor = System.Drawing.Color.Blue
+        Me.NombreFabrica.DefaultCellStyle = DataGridViewCellStyle128
+        Me.NombreFabrica.DividerWidth = 5
+        Me.NombreFabrica.HeaderText = "Nom Fabr"
+        Me.NombreFabrica.Items.AddRange(New Object() {"IBEM", "PAPI", "STOR", "PALE", "METS", "KORA", "TROE", "ROXE", "TROE"})
+        Me.NombreFabrica.MinimumWidth = 8
+        Me.NombreFabrica.Name = "NombreFabrica"
+        Me.NombreFabrica.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.NombreFabrica.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.NombreFabrica.ToolTipText = "El nombre del fabricante MP."
+        Me.NombreFabrica.Width = 150
+        '
+        'DataGridViewComboBoxColumn1
+        '
+        DataGridViewCellStyle129.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle129.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle129.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle129.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn1.DefaultCellStyle = DataGridViewCellStyle129
+        Me.DataGridViewComboBoxColumn1.DisplayStyleForCurrentCellOnly = True
+        Me.DataGridViewComboBoxColumn1.DividerWidth = 5
+        Me.DataGridViewComboBoxColumn1.HeaderText = "MP Codigo Corto"
+        Me.DataGridViewComboBoxColumn1.Items.AddRange(New Object() {"GRA/000X000/FSC/VIT/PRI"})
+        Me.DataGridViewComboBoxColumn1.MaxDropDownItems = 17
+        Me.DataGridViewComboBoxColumn1.MinimumWidth = 8
+        Me.DataGridViewComboBoxColumn1.Name = "DataGridViewComboBoxColumn1"
+        Me.DataGridViewComboBoxColumn1.ReadOnly = True
+        Me.DataGridViewComboBoxColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewComboBoxColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewComboBoxColumn1.ToolTipText = "Trae la lista total de MP código corto pre cargado, se escoge la opción que se pr" &
+    "ecisa. "
+        Me.DataGridViewComboBoxColumn1.Width = 300
+        '
+        'TonPedido
+        '
+        DataGridViewCellStyle130.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle130.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle130.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle130.Format = "N0"
+        DataGridViewCellStyle130.NullValue = Nothing
+        DataGridViewCellStyle130.SelectionBackColor = System.Drawing.Color.Blue
+        Me.TonPedido.DefaultCellStyle = DataGridViewCellStyle130
+        Me.TonPedido.DividerWidth = 5
+        Me.TonPedido.HeaderText = "Ton MP"
+        Me.TonPedido.MaxInputLength = 3
+        Me.TonPedido.MinimumWidth = 8
+        Me.TonPedido.Name = "TonPedido"
+        Me.TonPedido.ToolTipText = "La Cantidad de toneladas que se pretende pedir MP."
+        Me.TonPedido.Width = 70
+        '
+        'NonbreMP
+        '
+        DataGridViewCellStyle131.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle131.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle131.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle131.SelectionBackColor = System.Drawing.Color.Blue
+        Me.NonbreMP.DefaultCellStyle = DataGridViewCellStyle131
+        Me.NonbreMP.DividerWidth = 5
+        Me.NonbreMP.HeaderText = "Nombre MP Fabricante "
+        Me.NonbreMP.MinimumWidth = 8
+        Me.NonbreMP.Name = "NonbreMP"
+        Me.NonbreMP.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.NonbreMP.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.NonbreMP.ToolTipText = "Nombre tecnico conque se debe pedir la MO."
+        Me.NonbreMP.Width = 350
+        '
+        'MPGramaje
+        '
+        DataGridViewCellStyle132.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle132.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle132.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle132.Format = "N0"
+        DataGridViewCellStyle132.NullValue = Nothing
+        DataGridViewCellStyle132.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPGramaje.DefaultCellStyle = DataGridViewCellStyle132
+        Me.MPGramaje.DividerWidth = 5
+        Me.MPGramaje.HeaderText = "MP Gr. "
+        Me.MPGramaje.Items.AddRange(New Object() {"040", "056", "060", "070", "090", "115", "120", "130", "150", "170", "180", "190", "200", "205", "210", "215", "220", "225", "230", "235", "240", "245", "250", "255", "260", "265", "270", "275", "280", "285", "290", "300", "305", "310", "315", "320", "325", "330", "335", "340", "350", "360", "370", "380", "390", "400", "405", "415", "420", "425", "430", "440", "450", "460", "470", "480", "490", "500"})
+        Me.MPGramaje.MinimumWidth = 8
+        Me.MPGramaje.Name = "MPGramaje"
+        Me.MPGramaje.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MPGramaje.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.MPGramaje.ToolTipText = "Los gramos por m2 de la MP."
+        Me.MPGramaje.Width = 90
+        '
+        'MPum
+        '
+        DataGridViewCellStyle133.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle133.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle133.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle133.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPum.DefaultCellStyle = DataGridViewCellStyle133
+        Me.MPum.DividerWidth = 5
+        Me.MPum.HeaderText = "MP um"
+        Me.MPum.Items.AddRange(New Object() {"250", "255", "260", "265", "275", "280", "285", "290", "300", "305", "310", "315", "320", "325", "330", "335", "340", "345", "350", "355", "360", "365", "370", "375", "380", "385", "390", "395", "400", "405", "410", "415", "420", "425", "430", "435", "440", "445", "450", "455", "460", "465", "470", "475", "480", "485", "490", "495", "500", "505", "510", "515", "520", "525", "530", "535", "540", "545", "550", "555", "560", "565", "570", "575", "580", "585", "590", "595", "600"})
+        Me.MPum.MinimumWidth = 8
+        Me.MPum.Name = "MPum"
+        Me.MPum.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MPum.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.MPum.Width = 70
+        '
+        'Puntos
+        '
+        DataGridViewCellStyle134.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle134.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle134.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle134.Format = "N0"
+        DataGridViewCellStyle134.NullValue = Nothing
+        DataGridViewCellStyle134.SelectionBackColor = System.Drawing.Color.Blue
+        Me.Puntos.DefaultCellStyle = DataGridViewCellStyle134
+        Me.Puntos.DividerWidth = 5
+        Me.Puntos.HeaderText = "Pto."
+        Me.Puntos.Items.AddRange(New Object() {"9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"})
+        Me.Puntos.MinimumWidth = 8
+        Me.Puntos.Name = "Puntos"
+        Me.Puntos.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Puntos.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.Puntos.ToolTipText = "Es espesor del carton medido en PUNTOS."
+        Me.Puntos.Width = 80
+        '
+        'DataGridViewCheckBoxColumn1
+        '
+        DataGridViewCellStyle135.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle135.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle135.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle135.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewCheckBoxColumn1.DefaultCellStyle = DataGridViewCellStyle135
+        Me.DataGridViewCheckBoxColumn1.DividerWidth = 5
+        Me.DataGridViewCheckBoxColumn1.HeaderText = "FSC"
+        Me.DataGridViewCheckBoxColumn1.Items.AddRange(New Object() {"000", "FSC"})
+        Me.DataGridViewCheckBoxColumn1.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn1.Name = "DataGridViewCheckBoxColumn1"
+        Me.DataGridViewCheckBoxColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCheckBoxColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn1.ToolTipText = "Si cuenta con certificación FSC"
+        Me.DataGridViewCheckBoxColumn1.Width = 90
+        '
+        'DataGridViewComboBoxColumn2
+        '
+        DataGridViewCellStyle136.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle136.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle136.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle136.NullValue = Nothing
+        DataGridViewCellStyle136.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn2.DefaultCellStyle = DataGridViewCellStyle136
+        Me.DataGridViewComboBoxColumn2.DividerWidth = 5
+        Me.DataGridViewComboBoxColumn2.HeaderText = "Certif."
+        Me.DataGridViewComboBoxColumn2.Items.AddRange(New Object() {"00000", "INAN0", "ANVISA", "CETEA", "RDC00", "GQSR0", "22000", "90010"})
+        Me.DataGridViewComboBoxColumn2.MinimumWidth = 8
+        Me.DataGridViewComboBoxColumn2.Name = "DataGridViewComboBoxColumn2"
+        Me.DataGridViewComboBoxColumn2.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridViewComboBoxColumn2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewComboBoxColumn2.ToolTipText = "Es el tipo de certificado que tiene MP."
+        Me.DataGridViewComboBoxColumn2.Width = 150
+        '
+        'DataGridViewTextBoxColumn34
+        '
+        DataGridViewCellStyle137.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle137.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle137.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle137.Format = "N0"
+        DataGridViewCellStyle137.NullValue = Nothing
+        DataGridViewCellStyle137.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn34.DefaultCellStyle = DataGridViewCellStyle137
+        Me.DataGridViewTextBoxColumn34.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn34.HeaderText = "Dia. Cm."
+        Me.DataGridViewTextBoxColumn34.Items.AddRange(New Object() {"50", "100", "110", "120", "125", "130", "135", "140", "145", "150", "155", "160", "165", "170", "175", "180"})
+        Me.DataGridViewTextBoxColumn34.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn34.Name = "DataGridViewTextBoxColumn34"
+        Me.DataGridViewTextBoxColumn34.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn34.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewTextBoxColumn34.ToolTipText = "Es el diametro de la BOBINA, el máximo es 1,80 cm"
+        Me.DataGridViewTextBoxColumn34.Width = 80
+        '
+        'DataGridViewTextBoxColumn35
+        '
+        DataGridViewCellStyle138.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle138.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle138.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle138.Format = "N0"
+        DataGridViewCellStyle138.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn35.DefaultCellStyle = DataGridViewCellStyle138
+        Me.DataGridViewTextBoxColumn35.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn35.HeaderText = "Con Cm"
+        Me.DataGridViewTextBoxColumn35.Items.AddRange(New Object() {"30", "21", "7"})
+        Me.DataGridViewTextBoxColumn35.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn35.Name = "DataGridViewTextBoxColumn35"
+        Me.DataGridViewTextBoxColumn35.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn35.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewTextBoxColumn35.ToolTipText = "Es el diametro ideal de 30 cm para el nucleo en el caso de carton"
+        Me.DataGridViewTextBoxColumn35.Width = 80
+        '
+        'TonUSS
+        '
+        DataGridViewCellStyle139.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle139.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle139.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle139.Format = "N0"
+        DataGridViewCellStyle139.NullValue = Nothing
+        DataGridViewCellStyle139.SelectionBackColor = System.Drawing.Color.Blue
+        Me.TonUSS.DefaultCellStyle = DataGridViewCellStyle139
+        Me.TonUSS.DividerWidth = 5
+        Me.TonUSS.HeaderText = "Ton U$S"
+        Me.TonUSS.MaxInputLength = 4
+        Me.TonUSS.MinimumWidth = 8
+        Me.TonUSS.Name = "TonUSS"
+        Me.TonUSS.ToolTipText = "Precio por toneladas en U$S."
+        Me.TonUSS.Width = 150
+        '
+        'TotalTonUSS
+        '
+        DataGridViewCellStyle140.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle140.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle140.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle140.Format = "N0"
+        DataGridViewCellStyle140.NullValue = Nothing
+        DataGridViewCellStyle140.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TotalTonUSS.DefaultCellStyle = DataGridViewCellStyle140
+        Me.TotalTonUSS.DividerWidth = 5
+        Me.TotalTonUSS.HeaderText = "Total U$S"
+        Me.TotalTonUSS.MaxInputLength = 6
+        Me.TotalTonUSS.MinimumWidth = 8
+        Me.TotalTonUSS.Name = "TotalTonUSS"
+        Me.TotalTonUSS.ToolTipText = "Total U$S (Toneladas pedido x precio toneladas)"
+        Me.TotalTonUSS.Width = 120
+        '
+        'ClientesUtiliza
+        '
+        DataGridViewCellStyle141.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle141.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle141.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle141.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ClientesUtiliza.DefaultCellStyle = DataGridViewCellStyle141
+        Me.ClientesUtiliza.DividerWidth = 5
+        Me.ClientesUtiliza.HeaderText = "Clientes Utiliza"
+        Me.ClientesUtiliza.MaxInputLength = 250
+        Me.ClientesUtiliza.MinimumWidth = 8
+        Me.ClientesUtiliza.Name = "ClientesUtiliza"
+        Me.ClientesUtiliza.ToolTipText = "Comentarios clientes utilizan este Items."
+        Me.ClientesUtiliza.Width = 500
+        '
+        'RigidezMD
+        '
+        Me.RigidezMD.HeaderText = "Rig. MD"
+        Me.RigidezMD.MinimumWidth = 8
+        Me.RigidezMD.Name = "RigidezMD"
+        Me.RigidezMD.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.RigidezMD.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.RigidezMD.Width = 150
+        '
+        'RigidezCD
+        '
+        Me.RigidezCD.HeaderText = "Rig. CD"
+        Me.RigidezCD.MinimumWidth = 8
+        Me.RigidezCD.Name = "RigidezCD"
+        Me.RigidezCD.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.RigidezCD.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.RigidezCD.Width = 150
+        '
+        'DataGridViewTextBoxColumn6
+        '
+        DataGridViewCellStyle142.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle142.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle142.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle142.Format = "N0"
+        DataGridViewCellStyle142.NullValue = Nothing
+        DataGridViewCellStyle142.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle142
+        Me.DataGridViewTextBoxColumn6.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn6.HeaderText = "MP    OC N°"
+        Me.DataGridViewTextBoxColumn6.MaxInputLength = 10
+        Me.DataGridViewTextBoxColumn6.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
+        Me.DataGridViewTextBoxColumn6.ReadOnly = True
+        Me.DataGridViewTextBoxColumn6.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn6.ToolTipText = "Es el numero de la orden de compra."
+        Me.DataGridViewTextBoxColumn6.Width = 150
+        '
+        'DataGridViewTextBoxColumn11
+        '
+        DataGridViewCellStyle143.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle143.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle143.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle143.Format = "N0"
+        DataGridViewCellStyle143.NullValue = Nothing
+        DataGridViewCellStyle143.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn11.DefaultCellStyle = DataGridViewCellStyle143
+        Me.DataGridViewTextBoxColumn11.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn11.HeaderText = "MP    Fact N°"
+        Me.DataGridViewTextBoxColumn11.MaxInputLength = 10
+        Me.DataGridViewTextBoxColumn11.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn11.Name = "DataGridViewTextBoxColumn11"
+        Me.DataGridViewTextBoxColumn11.ReadOnly = True
+        Me.DataGridViewTextBoxColumn11.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn11.ToolTipText = "Numero de la Factura."
+        Me.DataGridViewTextBoxColumn11.Width = 150
+        '
+        'DataGridViewTextBoxColumn29
+        '
+        DataGridViewCellStyle144.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle144.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle144.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle144.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn29.DefaultCellStyle = DataGridViewCellStyle144
+        Me.DataGridViewTextBoxColumn29.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn29.HeaderText = "QR Nombre "
+        Me.DataGridViewTextBoxColumn29.MaxInputLength = 10
+        Me.DataGridViewTextBoxColumn29.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn29.Name = "DataGridViewTextBoxColumn29"
+        Me.DataGridViewTextBoxColumn29.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn29.ToolTipText = "Es el nombre corto para manejo del inventario."
+        Me.DataGridViewTextBoxColumn29.Width = 150
+        '
+        'DataGridViewTextBoxColumn30
+        '
+        DataGridViewCellStyle145.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle145.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle145.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle145.Format = "N0"
+        DataGridViewCellStyle145.NullValue = Nothing
+        DataGridViewCellStyle145.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn30.DefaultCellStyle = DataGridViewCellStyle145
+        Me.DataGridViewTextBoxColumn30.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn30.HeaderText = "QR N°"
+        Me.DataGridViewTextBoxColumn30.MaxInputLength = 4
+        Me.DataGridViewTextBoxColumn30.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn30.Name = "DataGridViewTextBoxColumn30"
+        Me.DataGridViewTextBoxColumn30.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn30.ToolTipText = "Este es el numero del articulo es uno solo para todas los items que coinside,"
+        Me.DataGridViewTextBoxColumn30.Width = 150
+        '
+        'DataGridViewTextBoxColumn31
+        '
+        DataGridViewCellStyle146.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle146.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle146.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle146.Format = "N0"
+        DataGridViewCellStyle146.NullValue = Nothing
+        DataGridViewCellStyle146.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn31.DefaultCellStyle = DataGridViewCellStyle146
+        Me.DataGridViewTextBoxColumn31.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn31.HeaderText = "QR Bo N°"
+        Me.DataGridViewTextBoxColumn31.MaxInputLength = 6
+        Me.DataGridViewTextBoxColumn31.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn31.Name = "DataGridViewTextBoxColumn31"
+        Me.DataGridViewTextBoxColumn31.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn31.ToolTipText = "El es numero de corrido que es dado por sistema sin repetir nunca, como nombre de" &
+    "l producto"
+        Me.DataGridViewTextBoxColumn31.Width = 150
+        '
+        'Panel186
+        '
+        Me.Panel186.BackColor = System.Drawing.Color.Green
+        Me.Panel186.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel186.Controls.Add(Me.Label483)
+        Me.Panel186.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel186.Location = New System.Drawing.Point(0, 0)
+        Me.Panel186.Name = "Panel186"
+        Me.Panel186.Size = New System.Drawing.Size(1910, 43)
+        Me.Panel186.TabIndex = 0
+        '
+        'Label483
+        '
+        Me.Label483.AutoSize = True
+        Me.Label483.Font = New System.Drawing.Font("Arial", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label483.ForeColor = System.Drawing.Color.White
+        Me.Label483.Location = New System.Drawing.Point(862, 6)
+        Me.Label483.Name = "Label483"
+        Me.Label483.Size = New System.Drawing.Size(109, 33)
+        Me.Label483.TabIndex = 6
+        Me.Label483.Text = "Pre OC"
+        '
+        'OC
+        '
+        Me.OC.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.OC.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.OC.Controls.Add(Me.Panel62)
+        Me.OC.Location = New System.Drawing.Point(4, 33)
+        Me.OC.Name = "OC"
+        Me.OC.Size = New System.Drawing.Size(1916, 950)
+        Me.OC.TabIndex = 6
+        Me.OC.Text = "OC /"
         '
         'Panel62
         '
@@ -11624,7 +12680,7 @@ Partial Class MP
         Me.Panel62.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel62.Location = New System.Drawing.Point(0, 0)
         Me.Panel62.Name = "Panel62"
-        Me.Panel62.Size = New System.Drawing.Size(1916, 950)
+        Me.Panel62.Size = New System.Drawing.Size(1912, 946)
         Me.Panel62.TabIndex = 260
         '
         'Panel63
@@ -13870,7 +14926,7 @@ Partial Class MP
         Me.Panel67.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel67.Location = New System.Drawing.Point(0, 0)
         Me.Panel67.Name = "Panel67"
-        Me.Panel67.Size = New System.Drawing.Size(1914, 43)
+        Me.Panel67.Size = New System.Drawing.Size(1910, 43)
         Me.Panel67.TabIndex = 0
         '
         'Label317
@@ -13884,46 +14940,48 @@ Partial Class MP
         Me.Label317.TabIndex = 6
         Me.Label317.Text = "OC"
         '
-        'TabPage8
+        'Informe
         '
-        Me.TabPage8.BackColor = System.Drawing.Color.White
-        Me.TabPage8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.TabPage8.Controls.Add(Me.Panel174)
-        Me.TabPage8.Controls.Add(Me.Panel175)
-        Me.TabPage8.Controls.Add(Me.Panel149)
-        Me.TabPage8.Controls.Add(Me.TextBox143)
-        Me.TabPage8.Controls.Add(Me.Label369)
-        Me.TabPage8.Controls.Add(Me.TabControl2)
-        Me.TabPage8.Controls.Add(Me.CheckBox16)
-        Me.TabPage8.Controls.Add(Me.CheckBox18)
-        Me.TabPage8.Controls.Add(Me.CheckBox17)
-        Me.TabPage8.Controls.Add(Me.CheckBox15)
-        Me.TabPage8.Controls.Add(Me.CheckBox14)
-        Me.TabPage8.Controls.Add(Me.Label77)
-        Me.TabPage8.Controls.Add(Me.Label76)
-        Me.TabPage8.Controls.Add(Me.Label75)
-        Me.TabPage8.Controls.Add(Me.Label149)
-        Me.TabPage8.Controls.Add(Me.Label37)
-        Me.TabPage8.Controls.Add(Me.Button8)
-        Me.TabPage8.Controls.Add(Me.Button7)
-        Me.TabPage8.Controls.Add(Me.Button6)
-        Me.TabPage8.Controls.Add(Me.Button5)
-        Me.TabPage8.Controls.Add(Me.Button4)
-        Me.TabPage8.Controls.Add(Me.Button3)
-        Me.TabPage8.Controls.Add(Me.Button2)
-        Me.TabPage8.Controls.Add(Me.Button1)
-        Me.TabPage8.Controls.Add(Me.Button25)
-        Me.TabPage8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TabPage8.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage8.Name = "TabPage8"
-        Me.TabPage8.Size = New System.Drawing.Size(1916, 950)
-        Me.TabPage8.TabIndex = 7
-        Me.TabPage8.Text = "Informe /"
+        Me.Informe.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Informe.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Informe.Controls.Add(Me.Panel174)
+        Me.Informe.Controls.Add(Me.Panel175)
+        Me.Informe.Controls.Add(Me.Panel149)
+        Me.Informe.Controls.Add(Me.TextBox143)
+        Me.Informe.Controls.Add(Me.Label369)
+        Me.Informe.Controls.Add(Me.TabControl2)
+        Me.Informe.Controls.Add(Me.CheckBox16)
+        Me.Informe.Controls.Add(Me.CheckBox18)
+        Me.Informe.Controls.Add(Me.CheckBox17)
+        Me.Informe.Controls.Add(Me.CheckBox15)
+        Me.Informe.Controls.Add(Me.CheckBox14)
+        Me.Informe.Controls.Add(Me.Label77)
+        Me.Informe.Controls.Add(Me.Label76)
+        Me.Informe.Controls.Add(Me.Label75)
+        Me.Informe.Controls.Add(Me.Label416)
+        Me.Informe.Controls.Add(Me.Label149)
+        Me.Informe.Controls.Add(Me.Label37)
+        Me.Informe.Controls.Add(Me.Button42)
+        Me.Informe.Controls.Add(Me.Button8)
+        Me.Informe.Controls.Add(Me.Button7)
+        Me.Informe.Controls.Add(Me.Button6)
+        Me.Informe.Controls.Add(Me.Button5)
+        Me.Informe.Controls.Add(Me.Button4)
+        Me.Informe.Controls.Add(Me.Button3)
+        Me.Informe.Controls.Add(Me.Button2)
+        Me.Informe.Controls.Add(Me.Button1)
+        Me.Informe.Controls.Add(Me.Button25)
+        Me.Informe.ForeColor = System.Drawing.Color.Black
+        Me.Informe.Location = New System.Drawing.Point(4, 33)
+        Me.Informe.Name = "Informe"
+        Me.Informe.Size = New System.Drawing.Size(1916, 950)
+        Me.Informe.TabIndex = 7
+        Me.Informe.Text = "Informe /"
         '
         'Panel174
         '
         Me.Panel174.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel174.Location = New System.Drawing.Point(516, 240)
+        Me.Panel174.Location = New System.Drawing.Point(1190, 296)
         Me.Panel174.Name = "Panel174"
         Me.Panel174.Size = New System.Drawing.Size(249, 34)
         Me.Panel174.TabIndex = 689
@@ -13934,7 +14992,7 @@ Partial Class MP
         Me.Panel175.Controls.Add(Me.Label403)
         Me.Panel175.Controls.Add(Me.RadioButton77)
         Me.Panel175.Controls.Add(Me.RadioButton78)
-        Me.Panel175.Location = New System.Drawing.Point(366, 201)
+        Me.Panel175.Location = New System.Drawing.Point(1040, 257)
         Me.Panel175.Name = "Panel175"
         Me.Panel175.Size = New System.Drawing.Size(249, 34)
         Me.Panel175.TabIndex = 690
@@ -15829,6 +16887,17 @@ Partial Class MP
         Me.Label75.TabIndex = 162
         Me.Label75.Text = "DEUDA VENCIDA Gs:"
         '
+        'Label416
+        '
+        Me.Label416.AutoSize = True
+        Me.Label416.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label416.ForeColor = System.Drawing.Color.Black
+        Me.Label416.Location = New System.Drawing.Point(302, 524)
+        Me.Label416.Name = "Label416"
+        Me.Label416.Size = New System.Drawing.Size(225, 29)
+        Me.Label416.TabIndex = 162
+        Me.Label416.Text = "ESTADO DE PAGO"
+        '
         'Label149
         '
         Me.Label149.AutoSize = True
@@ -15850,6 +16919,25 @@ Partial Class MP
         Me.Label37.Size = New System.Drawing.Size(227, 29)
         Me.Label37.TabIndex = 162
         Me.Label37.Text = "DEUDA TOTAL Gs:"
+        '
+        'Button42
+        '
+        Me.Button42.AutoSize = True
+        Me.Button42.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button42.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button42.FlatAppearance.MouseDownBackColor = System.Drawing.Color.SandyBrown
+        Me.Button42.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightGray
+        Me.Button42.Font = New System.Drawing.Font("Arial Black", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button42.ForeColor = System.Drawing.Color.Black
+        Me.Button42.Location = New System.Drawing.Point(36, 508)
+        Me.Button42.Margin = New System.Windows.Forms.Padding(4)
+        Me.Button42.Name = "Button42"
+        Me.Button42.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button42.Size = New System.Drawing.Size(226, 45)
+        Me.Button42.TabIndex = 161
+        Me.Button42.Text = "Importación"
+        Me.Button42.UseVisualStyleBackColor = False
         '
         'Button8
         '
@@ -16022,16 +17110,17 @@ Partial Class MP
         Me.Button25.Text = "Flujo Caja"
         Me.Button25.UseVisualStyleBackColor = False
         '
-        'TabPage20
+        'Alerta
         '
-        Me.TabPage20.BackColor = System.Drawing.Color.Silver
-        Me.TabPage20.Controls.Add(Me.Panel98)
-        Me.TabPage20.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage20.Name = "TabPage20"
-        Me.TabPage20.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage20.Size = New System.Drawing.Size(1916, 950)
-        Me.TabPage20.TabIndex = 8
-        Me.TabPage20.Text = "ALERTA /"
+        Me.Alerta.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Alerta.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Alerta.Controls.Add(Me.Panel98)
+        Me.Alerta.Location = New System.Drawing.Point(4, 33)
+        Me.Alerta.Name = "Alerta"
+        Me.Alerta.Padding = New System.Windows.Forms.Padding(3)
+        Me.Alerta.Size = New System.Drawing.Size(1916, 950)
+        Me.Alerta.TabIndex = 8
+        Me.Alerta.Text = "ALERTA /"
         '
         'Panel98
         '
@@ -16057,7 +17146,7 @@ Partial Class MP
         Me.Panel98.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel98.Location = New System.Drawing.Point(3, 3)
         Me.Panel98.Name = "Panel98"
-        Me.Panel98.Size = New System.Drawing.Size(1910, 944)
+        Me.Panel98.Size = New System.Drawing.Size(1906, 940)
         Me.Panel98.TabIndex = 261
         '
         'Panel151
@@ -17624,7 +18713,7 @@ Partial Class MP
         Me.Panel144.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel144.Location = New System.Drawing.Point(0, 0)
         Me.Panel144.Name = "Panel144"
-        Me.Panel144.Size = New System.Drawing.Size(1908, 43)
+        Me.Panel144.Size = New System.Drawing.Size(1904, 43)
         Me.Panel144.TabIndex = 0
         '
         'Label376
@@ -17638,16 +18727,17 @@ Partial Class MP
         Me.Label376.TabIndex = 6
         Me.Label376.Text = "ALERTA"
         '
-        'TabPage21
+        'Permiso
         '
-        Me.TabPage21.BackColor = System.Drawing.Color.Silver
-        Me.TabPage21.Controls.Add(Me.Panel57)
-        Me.TabPage21.Location = New System.Drawing.Point(4, 33)
-        Me.TabPage21.Name = "TabPage21"
-        Me.TabPage21.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage21.Size = New System.Drawing.Size(1916, 950)
-        Me.TabPage21.TabIndex = 9
-        Me.TabPage21.Text = "Permiso"
+        Me.Permiso.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Permiso.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Permiso.Controls.Add(Me.Panel57)
+        Me.Permiso.Location = New System.Drawing.Point(4, 33)
+        Me.Permiso.Name = "Permiso"
+        Me.Permiso.Padding = New System.Windows.Forms.Padding(3)
+        Me.Permiso.Size = New System.Drawing.Size(1916, 950)
+        Me.Permiso.TabIndex = 9
+        Me.Permiso.Text = "Permiso"
         '
         'Panel57
         '
@@ -17759,7 +18849,7 @@ Partial Class MP
         Me.Panel57.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel57.Location = New System.Drawing.Point(3, 3)
         Me.Panel57.Name = "Panel57"
-        Me.Panel57.Size = New System.Drawing.Size(1910, 944)
+        Me.Panel57.Size = New System.Drawing.Size(1906, 940)
         Me.Panel57.TabIndex = 262
         '
         'Panel55
@@ -19312,7 +20402,7 @@ Partial Class MP
         Me.Panel187.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel187.Location = New System.Drawing.Point(0, 0)
         Me.Panel187.Name = "Panel187"
-        Me.Panel187.Size = New System.Drawing.Size(1908, 43)
+        Me.Panel187.Size = New System.Drawing.Size(1904, 43)
         Me.Panel187.TabIndex = 0
         '
         'Label411
@@ -19326,13 +20416,166 @@ Partial Class MP
         Me.Label411.TabIndex = 6
         Me.Label411.Text = "PERMISO INGRESO"
         '
+        'DataGridView1
+        '
+        DataGridViewCellStyle75.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle75.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle75.Format = "N0"
+        DataGridViewCellStyle75.NullValue = Nothing
+        DataGridViewCellStyle75.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle75
+        Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
+        DataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle76.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle76.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle76.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle76.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle76.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle76.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle76
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn22, Me.EstacionSalida, Me.DataGridViewComboBoxColumn3, Me.DataGridViewComboBoxColumn4, Me.TurnoSalidaMP, Me.Maquina, Me.Maquinista, Me.SalidaKilos, Me.StockKilos, Me.DataGridViewTextBoxColumn18, Me.DataGridViewTextBoxColumn20, Me.DataGridViewComboBoxColumn5, Me.DataGridViewComboBoxColumn6, Me.DataGridViewTextBoxColumn21, Me.DataGridViewComboBoxColumn7, Me.DataGridViewComboBoxColumn8, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn7})
+        Me.DataGridView1.Location = New System.Drawing.Point(7, 541)
+        Me.DataGridView1.Name = "DataGridView1"
+        DataGridViewCellStyle95.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle95.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle95.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle95.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle95.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle95.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle95
+        Me.DataGridView1.RowHeadersWidth = 62
+        DataGridViewCellStyle96.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle96
+        Me.DataGridView1.RowTemplate.Height = 28
+        Me.DataGridView1.Size = New System.Drawing.Size(1880, 397)
+        Me.DataGridView1.TabIndex = 759
+        '
+        'EntradaNumero
+        '
+        DataGridViewCellStyle99.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle99.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle99.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle99.Format = "N0"
+        DataGridViewCellStyle99.NullValue = Nothing
+        DataGridViewCellStyle99.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.EntradaNumero.DefaultCellStyle = DataGridViewCellStyle99
+        Me.EntradaNumero.DividerWidth = 5
+        Me.EntradaNumero.HeaderText = "Entrada N°"
+        Me.EntradaNumero.MaxInputLength = 7
+        Me.EntradaNumero.MinimumWidth = 8
+        Me.EntradaNumero.Name = "EntradaNumero"
+        Me.EntradaNumero.ToolTipText = "Entrada Numera de corrido"
+        Me.EntradaNumero.Width = 150
+        '
+        'MPPresupuestoN
+        '
+        DataGridViewCellStyle100.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle100.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle100.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle100.Format = "N0"
+        DataGridViewCellStyle100.NullValue = Nothing
+        DataGridViewCellStyle100.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPPresupuestoN.DefaultCellStyle = DataGridViewCellStyle100
+        Me.MPPresupuestoN.DividerWidth = 5
+        Me.MPPresupuestoN.HeaderText = "Pto N°"
+        Me.MPPresupuestoN.MaxInputLength = 10
+        Me.MPPresupuestoN.MinimumWidth = 8
+        Me.MPPresupuestoN.Name = "MPPresupuestoN"
+        Me.MPPresupuestoN.ReadOnly = True
+        Me.MPPresupuestoN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPPresupuestoN.ToolTipText = "El lo que nos presupuestaron"
+        Me.MPPresupuestoN.Width = 120
+        '
+        'MPOrdenCompraN
+        '
+        DataGridViewCellStyle101.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle101.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle101.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle101.Format = "N0"
+        DataGridViewCellStyle101.NullValue = Nothing
+        DataGridViewCellStyle101.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPOrdenCompraN.DefaultCellStyle = DataGridViewCellStyle101
+        Me.MPOrdenCompraN.DividerWidth = 5
+        Me.MPOrdenCompraN.HeaderText = "MP    OC N°"
+        Me.MPOrdenCompraN.MaxInputLength = 10
+        Me.MPOrdenCompraN.MinimumWidth = 8
+        Me.MPOrdenCompraN.Name = "MPOrdenCompraN"
+        Me.MPOrdenCompraN.ReadOnly = True
+        Me.MPOrdenCompraN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPOrdenCompraN.ToolTipText = "Es el numero de la orden de compra"
+        Me.MPOrdenCompraN.Width = 120
+        '
+        'MPFacturaN
+        '
+        DataGridViewCellStyle102.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle102.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle102.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle102.Format = "N0"
+        DataGridViewCellStyle102.NullValue = Nothing
+        DataGridViewCellStyle102.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPFacturaN.DefaultCellStyle = DataGridViewCellStyle102
+        Me.MPFacturaN.DividerWidth = 5
+        Me.MPFacturaN.HeaderText = "MP    Fact N°"
+        Me.MPFacturaN.MaxInputLength = 10
+        Me.MPFacturaN.MinimumWidth = 8
+        Me.MPFacturaN.Name = "MPFacturaN"
+        Me.MPFacturaN.ReadOnly = True
+        Me.MPFacturaN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPFacturaN.ToolTipText = "Numero de la Factura"
+        Me.MPFacturaN.Width = 120
+        '
+        'EmbarqueBLNumero
+        '
+        DataGridViewCellStyle103.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle103.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle103.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle103.Format = "N0"
+        DataGridViewCellStyle103.NullValue = Nothing
+        DataGridViewCellStyle103.SelectionBackColor = System.Drawing.Color.Blue
+        Me.EmbarqueBLNumero.DefaultCellStyle = DataGridViewCellStyle103
+        Me.EmbarqueBLNumero.DividerWidth = 5
+        Me.EmbarqueBLNumero.HeaderText = "MP BL N°"
+        Me.EmbarqueBLNumero.MaxInputLength = 7
+        Me.EmbarqueBLNumero.MinimumWidth = 8
+        Me.EmbarqueBLNumero.Name = "EmbarqueBLNumero"
+        Me.EmbarqueBLNumero.ToolTipText = "N° del BL."
+        Me.EmbarqueBLNumero.Width = 120
+        '
+        'DespachoNumrto
+        '
+        Me.DespachoNumrto.DividerWidth = 5
+        Me.DespachoNumrto.HeaderText = "Despacho N°"
+        Me.DespachoNumrto.MaxInputLength = 7
+        Me.DespachoNumrto.MinimumWidth = 8
+        Me.DespachoNumrto.Name = "DespachoNumrto"
+        Me.DespachoNumrto.ToolTipText = "El numero de despacho"
+        Me.DespachoNumrto.Width = 120
+        '
+        'EstacionEntrada
+        '
+        DataGridViewCellStyle104.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle104.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle104.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle104.SelectionBackColor = System.Drawing.Color.Blue
+        Me.EstacionEntrada.DefaultCellStyle = DataGridViewCellStyle104
+        Me.EstacionEntrada.DividerWidth = 5
+        Me.EstacionEntrada.HeaderText = "Estacion Entr"
+        Me.EstacionEntrada.Items.AddRange(New Object() {"COMERCIAL", "DEPOSITO", "PREPRENSA", "TROQUEL", "CC (Legajo Impr y Troq)", "OT (Ajuste)", "PLANIFICACION", "IMPRESION", "UV", "LAMINADO", "STAMPADO", "TROQUELADO ", "DESCARTONADO", "SELECCIÓN ", "PEGADO (Automatico)", "PEGADO (PM)", "LIBERADO", "EXPEDICION", "MANTENIMIENTO"})
+        Me.EstacionEntrada.MinimumWidth = 8
+        Me.EstacionEntrada.Name = "EstacionEntrada"
+        Me.EstacionEntrada.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.EstacionEntrada.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.EstacionEntrada.Width = 150
+        '
         'MPCodigoCorto
         '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPCodigoCorto.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle105.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle105.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle105.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle105.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPCodigoCorto.DefaultCellStyle = DataGridViewCellStyle105
         Me.MPCodigoCorto.DisplayStyleForCurrentCellOnly = True
         Me.MPCodigoCorto.DividerWidth = 5
         Me.MPCodigoCorto.HeaderText = "MP Codigo Corto"
@@ -19346,72 +20589,32 @@ Partial Class MP
     "ecisa. "
         Me.MPCodigoCorto.Width = 300
         '
-        'MPPresupuestoN
+        'NombreMPProveedor
         '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle4.Format = "N0"
-        DataGridViewCellStyle4.NullValue = Nothing
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPPresupuestoN.DefaultCellStyle = DataGridViewCellStyle4
-        Me.MPPresupuestoN.DividerWidth = 5
-        Me.MPPresupuestoN.HeaderText = "MP    Pto N°"
-        Me.MPPresupuestoN.MaxInputLength = 10
-        Me.MPPresupuestoN.MinimumWidth = 8
-        Me.MPPresupuestoN.Name = "MPPresupuestoN"
-        Me.MPPresupuestoN.ReadOnly = True
-        Me.MPPresupuestoN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPPresupuestoN.ToolTipText = "El lo que nos presupuestaron"
-        Me.MPPresupuestoN.Width = 120
-        '
-        'MPOrdenCompraN
-        '
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle5.Format = "N0"
-        DataGridViewCellStyle5.NullValue = Nothing
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPOrdenCompraN.DefaultCellStyle = DataGridViewCellStyle5
-        Me.MPOrdenCompraN.DividerWidth = 5
-        Me.MPOrdenCompraN.HeaderText = "MP    OC N°"
-        Me.MPOrdenCompraN.MaxInputLength = 10
-        Me.MPOrdenCompraN.MinimumWidth = 8
-        Me.MPOrdenCompraN.Name = "MPOrdenCompraN"
-        Me.MPOrdenCompraN.ReadOnly = True
-        Me.MPOrdenCompraN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPOrdenCompraN.ToolTipText = "Es el numero de la orden de compra"
-        Me.MPOrdenCompraN.Width = 120
-        '
-        'MPFacturaN
-        '
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.Format = "N0"
-        DataGridViewCellStyle6.NullValue = Nothing
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPFacturaN.DefaultCellStyle = DataGridViewCellStyle6
-        Me.MPFacturaN.DividerWidth = 5
-        Me.MPFacturaN.HeaderText = "MP    Fact N°"
-        Me.MPFacturaN.MaxInputLength = 10
-        Me.MPFacturaN.MinimumWidth = 8
-        Me.MPFacturaN.Name = "MPFacturaN"
-        Me.MPFacturaN.ReadOnly = True
-        Me.MPFacturaN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPFacturaN.ToolTipText = "Numero de la Factura"
-        Me.MPFacturaN.Width = 120
+        DataGridViewCellStyle106.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle106.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle106.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle106.NullValue = Nothing
+        DataGridViewCellStyle106.SelectionBackColor = System.Drawing.Color.Blue
+        Me.NombreMPProveedor.DefaultCellStyle = DataGridViewCellStyle106
+        Me.NombreMPProveedor.DividerWidth = 5
+        Me.NombreMPProveedor.HeaderText = "Nombre MP del Proveedor"
+        Me.NombreMPProveedor.MinimumWidth = 8
+        Me.NombreMPProveedor.Name = "NombreMPProveedor"
+        Me.NombreMPProveedor.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.NombreMPProveedor.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.NombreMPProveedor.ToolTipText = "El el nombre Tecnico del Proveedor con el que se debe pedir."
+        Me.NombreMPProveedor.Width = 300
         '
         'MPTotalGsFactura
         '
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.Format = "N0"
-        DataGridViewCellStyle7.NullValue = Nothing
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalGsFactura.DefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle107.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle107.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle107.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle107.Format = "N0"
+        DataGridViewCellStyle107.NullValue = Nothing
+        DataGridViewCellStyle107.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPTotalGsFactura.DefaultCellStyle = DataGridViewCellStyle107
         Me.MPTotalGsFactura.DividerWidth = 5
         Me.MPTotalGsFactura.HeaderText = "Total Gs Factura "
         Me.MPTotalGsFactura.MaxInputLength = 10
@@ -19424,13 +20627,13 @@ Partial Class MP
         '
         'MPTotalUnidadesFactura
         '
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle8.Format = "N0"
-        DataGridViewCellStyle8.NullValue = Nothing
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalUnidadesFactura.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle108.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle108.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle108.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle108.Format = "N0"
+        DataGridViewCellStyle108.NullValue = Nothing
+        DataGridViewCellStyle108.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPTotalUnidadesFactura.DefaultCellStyle = DataGridViewCellStyle108
         Me.MPTotalUnidadesFactura.DividerWidth = 5
         Me.MPTotalUnidadesFactura.HeaderText = "Total Bob."
         Me.MPTotalUnidadesFactura.MaxInputLength = 3
@@ -19443,13 +20646,13 @@ Partial Class MP
         '
         'MPCantidadUnidades
         '
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.Format = "N0"
-        DataGridViewCellStyle9.NullValue = Nothing
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPCantidadUnidades.DefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle109.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle109.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle109.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle109.Format = "N0"
+        DataGridViewCellStyle109.NullValue = Nothing
+        DataGridViewCellStyle109.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPCantidadUnidades.DefaultCellStyle = DataGridViewCellStyle109
         Me.MPCantidadUnidades.DividerWidth = 5
         Me.MPCantidadUnidades.HeaderText = "+Cant, Bob."
         Me.MPCantidadUnidades.MaxInputLength = 3
@@ -19458,19 +20661,19 @@ Partial Class MP
         Me.MPCantidadUnidades.ReadOnly = True
         Me.MPCantidadUnidades.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.MPCantidadUnidades.ToolTipText = "La cantida de Bobinas de este items"
-        Me.MPCantidadUnidades.Width = 70
+        Me.MPCantidadUnidades.Width = 80
         '
         'MPCantidadKilos
         '
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle10.Format = "N0"
-        DataGridViewCellStyle10.NullValue = Nothing
-        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPCantidadKilos.DefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle110.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle110.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle110.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle110.Format = "N0"
+        DataGridViewCellStyle110.NullValue = Nothing
+        DataGridViewCellStyle110.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPCantidadKilos.DefaultCellStyle = DataGridViewCellStyle110
         Me.MPCantidadKilos.DividerWidth = 5
-        Me.MPCantidadKilos.HeaderText = "+Cant./Kls."
+        Me.MPCantidadKilos.HeaderText = "+Cant./ Kls."
         Me.MPCantidadKilos.MaxInputLength = 6
         Me.MPCantidadKilos.MinimumWidth = 8
         Me.MPCantidadKilos.Name = "MPCantidadKilos"
@@ -19481,15 +20684,15 @@ Partial Class MP
         '
         'MPGuaraniesteKilos
         '
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle11.Format = "N0"
-        DataGridViewCellStyle11.NullValue = Nothing
-        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPGuaraniesteKilos.DefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle111.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle111.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle111.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle111.Format = "N0"
+        DataGridViewCellStyle111.NullValue = Nothing
+        DataGridViewCellStyle111.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPGuaraniesteKilos.DefaultCellStyle = DataGridViewCellStyle111
         Me.MPGuaraniesteKilos.DividerWidth = 5
-        Me.MPGuaraniesteKilos.HeaderText = "+Gs./Kls."
+        Me.MPGuaraniesteKilos.HeaderText = "+Gs./ Kls."
         Me.MPGuaraniesteKilos.MaxInputLength = 6
         Me.MPGuaraniesteKilos.MinimumWidth = 8
         Me.MPGuaraniesteKilos.Name = "MPGuaraniesteKilos"
@@ -19500,15 +20703,15 @@ Partial Class MP
         '
         'MPTotalitemsGuaranies
         '
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle12.Format = "N0"
-        DataGridViewCellStyle12.NullValue = Nothing
-        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalitemsGuaranies.DefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle112.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle112.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle112.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle112.Format = "N0"
+        DataGridViewCellStyle112.NullValue = Nothing
+        DataGridViewCellStyle112.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPTotalitemsGuaranies.DefaultCellStyle = DataGridViewCellStyle112
         Me.MPTotalitemsGuaranies.DividerWidth = 5
-        Me.MPTotalitemsGuaranies.HeaderText = "+Total Gs Itens"
+        Me.MPTotalitemsGuaranies.HeaderText = "+Total     Gs Itens"
         Me.MPTotalitemsGuaranies.MaxInputLength = 10
         Me.MPTotalitemsGuaranies.MinimumWidth = 8
         Me.MPTotalitemsGuaranies.Name = "MPTotalitemsGuaranies"
@@ -19519,31 +20722,32 @@ Partial Class MP
         '
         'MPTotalTotalGs
         '
-        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle13.Format = "N0"
-        DataGridViewCellStyle13.NullValue = Nothing
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalTotalGs.DefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle113.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle113.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle113.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle113.Format = "N0"
+        DataGridViewCellStyle113.NullValue = Nothing
+        DataGridViewCellStyle113.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MPTotalTotalGs.DefaultCellStyle = DataGridViewCellStyle113
         Me.MPTotalTotalGs.DividerWidth = 5
         Me.MPTotalTotalGs.HeaderText = "-Total Tot. Gs"
         Me.MPTotalTotalGs.MaxInputLength = 10
         Me.MPTotalTotalGs.MinimumWidth = 8
         Me.MPTotalTotalGs.Name = "MPTotalTotalGs"
         Me.MPTotalTotalGs.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPTotalTotalGs.ToolTipText = "Este es el total de todos los items que al coincidir graba automaticamente"
+        Me.MPTotalTotalGs.ToolTipText = "Este es el total de todos los items que al coincidir graba automaticamente (valid" &
+    "a)"
         Me.MPTotalTotalGs.Width = 130
         '
         'MPTotalTotalUnidades
         '
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle14.Format = "N0"
-        DataGridViewCellStyle14.NullValue = Nothing
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalTotalUnidades.DefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle114.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle114.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle114.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle114.Format = "N0"
+        DataGridViewCellStyle114.NullValue = Nothing
+        DataGridViewCellStyle114.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MPTotalTotalUnidades.DefaultCellStyle = DataGridViewCellStyle114
         Me.MPTotalTotalUnidades.DividerWidth = 5
         Me.MPTotalTotalUnidades.HeaderText = "-Total T. Unid"
         Me.MPTotalTotalUnidades.MaxInputLength = 10
@@ -19551,105 +20755,69 @@ Partial Class MP
         Me.MPTotalTotalUnidades.Name = "MPTotalTotalUnidades"
         Me.MPTotalTotalUnidades.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.MPTotalTotalUnidades.ToolTipText = "Es el total de unidades (Bobinas) que fue cargado que debe coinsidir con el total" &
-    " unidades de la factua "
+    " unidades de la factua (VALIDA) "
         Me.MPTotalTotalUnidades.Width = 150
-        '
-        'MPNombreQR
-        '
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPNombreQR.DefaultCellStyle = DataGridViewCellStyle15
-        Me.MPNombreQR.DividerWidth = 5
-        Me.MPNombreQR.HeaderText = "QR Nombre "
-        Me.MPNombreQR.MaxInputLength = 10
-        Me.MPNombreQR.MinimumWidth = 8
-        Me.MPNombreQR.Name = "MPNombreQR"
-        Me.MPNombreQR.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPNombreQR.ToolTipText = "Es el nombre corto para manejo del inventario"
-        Me.MPNombreQR.Width = 150
         '
         'MPNombreQRNumero
         '
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle16.Format = "N0"
-        DataGridViewCellStyle16.NullValue = Nothing
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPNombreQRNumero.DefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle115.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle115.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle115.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle115.Format = "N0"
+        DataGridViewCellStyle115.NullValue = Nothing
+        DataGridViewCellStyle115.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPNombreQRNumero.DefaultCellStyle = DataGridViewCellStyle115
         Me.MPNombreQRNumero.DividerWidth = 5
-        Me.MPNombreQRNumero.HeaderText = "QR N°"
+        Me.MPNombreQRNumero.HeaderText = "EAN-13 N°"
         Me.MPNombreQRNumero.MaxInputLength = 4
         Me.MPNombreQRNumero.MinimumWidth = 8
         Me.MPNombreQRNumero.Name = "MPNombreQRNumero"
         Me.MPNombreQRNumero.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPNombreQRNumero.ToolTipText = "Este es el numero del articulo es uno solo para todas los items que coinside,"
-        Me.MPNombreQRNumero.Width = 50
-        '
-        'MPBobinaN
-        '
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle17.Format = "N0"
-        DataGridViewCellStyle17.NullValue = Nothing
-        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPBobinaN.DefaultCellStyle = DataGridViewCellStyle17
-        Me.MPBobinaN.DividerWidth = 5
-        Me.MPBobinaN.HeaderText = "QR Bo N°"
-        Me.MPBobinaN.MaxInputLength = 6
-        Me.MPBobinaN.MinimumWidth = 8
-        Me.MPBobinaN.Name = "MPBobinaN"
-        Me.MPBobinaN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPBobinaN.ToolTipText = "El es numero de corrido que es dado por sistema sin repetir nunca, como nombre de" &
-    "l producto"
-        Me.MPBobinaN.Width = 110
+        Me.MPNombreQRNumero.ToolTipText = "Primero Grupo N° Estación / Segundo Grupo Articulo / Tercer Grupo N° corrido"
         '
         'MPConFSC
         '
-        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle18.NullValue = False
-        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPConFSC.DefaultCellStyle = DataGridViewCellStyle18
+        DataGridViewCellStyle116.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle116.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle116.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPConFSC.DefaultCellStyle = DataGridViewCellStyle116
         Me.MPConFSC.DividerWidth = 5
         Me.MPConFSC.HeaderText = "FSC"
+        Me.MPConFSC.Items.AddRange(New Object() {"000", "FSC"})
         Me.MPConFSC.MinimumWidth = 8
         Me.MPConFSC.Name = "MPConFSC"
         Me.MPConFSC.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
         Me.MPConFSC.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.MPConFSC.ToolTipText = "Si tiene certificado FSC y si no tiene 000."
         Me.MPConFSC.Width = 60
         '
-        'ISO22000
+        'MPcertificado
         '
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle19.NullValue = Nothing
-        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Blue
-        Me.ISO22000.DefaultCellStyle = DataGridViewCellStyle19
-        Me.ISO22000.DividerWidth = 5
-        Me.ISO22000.HeaderText = "ISO22000"
-        Me.ISO22000.Items.AddRange(New Object() {"Secundario", "Primario"})
-        Me.ISO22000.MinimumWidth = 8
-        Me.ISO22000.Name = "ISO22000"
-        Me.ISO22000.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.ISO22000.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.ISO22000.ToolTipText = "Menú desplegable con las opciones solamente PRIMARIO y SECUNDARIO."
-        Me.ISO22000.Width = 80
+        DataGridViewCellStyle117.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle117.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle117.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle117.NullValue = Nothing
+        DataGridViewCellStyle117.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPcertificado.DefaultCellStyle = DataGridViewCellStyle117
+        Me.MPcertificado.DividerWidth = 5
+        Me.MPcertificado.HeaderText = "Certifi."
+        Me.MPcertificado.Items.AddRange(New Object() {"00000", "INAN0", "ANVISA", "CETEA", "RDC00", "GQSR0", "22000", "90010", "", "", "", "55555"})
+        Me.MPcertificado.MinimumWidth = 8
+        Me.MPcertificado.Name = "MPcertificado"
+        Me.MPcertificado.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.MPcertificado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.MPcertificado.ToolTipText = "Tipo de certificado que cuenta esta MP."
+        Me.MPcertificado.Width = 80
         '
         'MPLoteN
         '
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle20.Format = "d"
-        DataGridViewCellStyle20.NullValue = Nothing
-        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPLoteN.DefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle118.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle118.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle118.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle118.Format = "d"
+        DataGridViewCellStyle118.NullValue = Nothing
+        DataGridViewCellStyle118.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPLoteN.DefaultCellStyle = DataGridViewCellStyle118
         Me.MPLoteN.DividerWidth = 5
         Me.MPLoteN.HeaderText = "Lte. N°"
         Me.MPLoteN.MaxInputLength = 10
@@ -19661,13 +20829,13 @@ Partial Class MP
         '
         'MPVencimiento
         '
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle21.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle21.Format = "d"
-        DataGridViewCellStyle21.NullValue = Nothing
-        DataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPVencimiento.DefaultCellStyle = DataGridViewCellStyle21
+        DataGridViewCellStyle119.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle119.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle119.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle119.Format = "d"
+        DataGridViewCellStyle119.NullValue = Nothing
+        DataGridViewCellStyle119.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPVencimiento.DefaultCellStyle = DataGridViewCellStyle119
         Me.MPVencimiento.DividerWidth = 5
         Me.MPVencimiento.HeaderText = "Vto."
         Me.MPVencimiento.MaxInputLength = 10
@@ -19679,368 +20847,404 @@ Partial Class MP
         '
         'MPDiametroCm
         '
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle22.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle22.Format = "N0"
-        DataGridViewCellStyle22.NullValue = Nothing
-        DataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPDiametroCm.DefaultCellStyle = DataGridViewCellStyle22
+        DataGridViewCellStyle120.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle120.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle120.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle120.Format = "N0"
+        DataGridViewCellStyle120.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPDiametroCm.DefaultCellStyle = DataGridViewCellStyle120
         Me.MPDiametroCm.DividerWidth = 5
         Me.MPDiametroCm.HeaderText = "Dia. Cm."
-        Me.MPDiametroCm.MaxInputLength = 2
+        Me.MPDiametroCm.Items.AddRange(New Object() {"50", "100", "110", "120", "125", "130", "135", "140", "145", "150", "155", "160", "165", "170", "175", "180"})
         Me.MPDiametroCm.MinimumWidth = 8
         Me.MPDiametroCm.Name = "MPDiametroCm"
         Me.MPDiametroCm.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPDiametroCm.ToolTipText = "Es el diametro maximo que entra en la RESMADORA  1,80"
+        Me.MPDiametroCm.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.MPDiametroCm.ToolTipText = "Los centimetros que tiene la bobina de diametro, máximo 180 cm"
         Me.MPDiametroCm.Width = 60
         '
         'MPConoCm
         '
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle23.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle23.Format = "N0"
-        DataGridViewCellStyle23.NullValue = Nothing
-        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPConoCm.DefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle121.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle121.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle121.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle121.Format = "N0"
+        DataGridViewCellStyle121.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPConoCm.DefaultCellStyle = DataGridViewCellStyle121
         Me.MPConoCm.DividerWidth = 5
         Me.MPConoCm.HeaderText = "Con Cm"
-        Me.MPConoCm.MaxInputLength = 2
+        Me.MPConoCm.Items.AddRange(New Object() {"30", "21", "7"})
         Me.MPConoCm.MinimumWidth = 8
         Me.MPConoCm.Name = "MPConoCm"
         Me.MPConoCm.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.MPConoCm.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
         Me.MPConoCm.ToolTipText = "Es el diametro ideal de 30 cm para el nucleo en el caso de carton"
         Me.MPConoCm.Width = 60
         '
         'MPOtN
         '
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle24.Format = "N0"
-        DataGridViewCellStyle24.NullValue = Nothing
-        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPOtN.DefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle122.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle122.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle122.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle122.Format = "N0"
+        DataGridViewCellStyle122.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPOtN.DefaultCellStyle = DataGridViewCellStyle122
         Me.MPOtN.DividerWidth = 5
         Me.MPOtN.HeaderText = "OT N°"
-        Me.MPOtN.MaxInputLength = 10
         Me.MPOtN.MinimumWidth = 8
         Me.MPOtN.Name = "MPOtN"
         Me.MPOtN.ReadOnly = True
         Me.MPOtN.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.MPOtN.ToolTipText = "Es el numero de OT que se compro esta MP"
+        Me.MPOtN.ToolTipText = "MP para la OT N°."
         Me.MPOtN.Width = 150
         '
-        'CheckBox28
+        'DataGridViewTextBoxColumn1
         '
-        Me.CheckBox28.AutoSize = True
-        Me.CheckBox28.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox28.ForeColor = System.Drawing.Color.Magenta
-        Me.CheckBox28.Location = New System.Drawing.Point(14, 198)
-        Me.CheckBox28.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox28.Name = "CheckBox28"
-        Me.CheckBox28.Size = New System.Drawing.Size(87, 33)
-        Me.CheckBox28.TabIndex = 276
-        Me.CheckBox28.Text = "FSC"
-        Me.ToolTip1.SetToolTip(Me.CheckBox28, "Se marca si fue cargado el código con FSC." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Se fue cargado con 000, no se marca." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.CheckBox28.UseVisualStyleBackColor = True
+        DataGridViewCellStyle77.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle77.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle77.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle77.Format = "N0"
+        DataGridViewCellStyle77.NullValue = Nothing
+        DataGridViewCellStyle77.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DataGridViewTextBoxColumn1.DefaultCellStyle = DataGridViewCellStyle77
+        Me.DataGridViewTextBoxColumn1.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn1.HeaderText = "Salida N°"
+        Me.DataGridViewTextBoxColumn1.MaxInputLength = 7
+        Me.DataGridViewTextBoxColumn1.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        Me.DataGridViewTextBoxColumn1.ToolTipText = "Salida Numera de corrido"
+        Me.DataGridViewTextBoxColumn1.Width = 150
         '
-        'CheckBox29
+        'DataGridViewTextBoxColumn22
         '
-        Me.CheckBox29.AutoSize = True
-        Me.CheckBox29.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox29.ForeColor = System.Drawing.Color.Magenta
-        Me.CheckBox29.Location = New System.Drawing.Point(109, 198)
-        Me.CheckBox29.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox29.Name = "CheckBox29"
-        Me.CheckBox29.Size = New System.Drawing.Size(136, 33)
-        Me.CheckBox29.TabIndex = 276
-        Me.CheckBox29.Text = "Primario"
-        Me.ToolTip1.SetToolTip(Me.CheckBox29, "Se marca si fue cargado el NOMBRE PRIMARIO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Si no esta cargado con Primario se m" &
-        "arca SECUNDARIO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.CheckBox29.UseVisualStyleBackColor = True
+        DataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle78.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle78.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle78.Format = "N0"
+        DataGridViewCellStyle78.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn22.DefaultCellStyle = DataGridViewCellStyle78
+        Me.DataGridViewTextBoxColumn22.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn22.HeaderText = "OT N°"
+        Me.DataGridViewTextBoxColumn22.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn22.Name = "DataGridViewTextBoxColumn22"
+        Me.DataGridViewTextBoxColumn22.ReadOnly = True
+        Me.DataGridViewTextBoxColumn22.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn22.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewTextBoxColumn22.ToolTipText = "MP para la OT N°."
         '
-        'CheckBox30
+        'EstacionSalida
         '
-        Me.CheckBox30.AutoSize = True
-        Me.CheckBox30.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox30.ForeColor = System.Drawing.Color.Magenta
-        Me.CheckBox30.Location = New System.Drawing.Point(267, 198)
-        Me.CheckBox30.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox30.Name = "CheckBox30"
-        Me.CheckBox30.Size = New System.Drawing.Size(170, 33)
-        Me.CheckBox30.TabIndex = 276
-        Me.CheckBox30.Text = "Secundario"
-        Me.ToolTip1.SetToolTip(Me.CheckBox30, "Se marca si fue cargado el NOMBRE PRIMARIO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Si no esta cargado con Primario se m" &
-        "arca SECUNDARIO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.CheckBox30.UseVisualStyleBackColor = True
+        DataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle79.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle79.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle79.NullValue = Nothing
+        DataGridViewCellStyle79.SelectionBackColor = System.Drawing.Color.Blue
+        Me.EstacionSalida.DefaultCellStyle = DataGridViewCellStyle79
+        Me.EstacionSalida.DividerWidth = 5
+        Me.EstacionSalida.HeaderText = "Estación Sal"
+        Me.EstacionSalida.Items.AddRange(New Object() {"COMERCIAL", "DEPOSITO", "PREPRENSA", "TROQUEL", "CC (Legajo Impr y Troq)", "OT (Ajuste)", "PLANIFICACION", "IMPRESION", "UV", "LAMINADO", "STAMPADO", "TROQUELADO ", "DESCARTONADO", "SELECCIÓN ", "PEGADO (Automatico)", "PEGADO (PM)", "LIBERADO", "EXPEDICION", "MANTENIMIENTO"})
+        Me.EstacionSalida.MinimumWidth = 8
+        Me.EstacionSalida.Name = "EstacionSalida"
+        Me.EstacionSalida.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.EstacionSalida.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.EstacionSalida.Width = 150
         '
-        'ComboBox4
+        'DataGridViewComboBoxColumn3
         '
-        Me.ComboBox4.BackColor = System.Drawing.Color.White
-        Me.ComboBox4.DropDownWidth = 272
-        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox4.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"BRA", "CIL", "USA", "EUR", "CHI", "IND", "NUE", "", "333"})
-        Me.ComboBox4.Location = New System.Drawing.Point(945, 72)
-        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(70, 32)
-        Me.ComboBox4.TabIndex = 183
-        Me.ComboBox4.Text = "000"
-        Me.ToolTip1.SetToolTip(Me.ComboBox4, "El origen de la MP:")
+        DataGridViewCellStyle80.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle80.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle80.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle80.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn3.DefaultCellStyle = DataGridViewCellStyle80
+        Me.DataGridViewComboBoxColumn3.DisplayStyleForCurrentCellOnly = True
+        Me.DataGridViewComboBoxColumn3.DividerWidth = 5
+        Me.DataGridViewComboBoxColumn3.HeaderText = "MP Codigo Corto"
+        Me.DataGridViewComboBoxColumn3.MaxDropDownItems = 17
+        Me.DataGridViewComboBoxColumn3.MinimumWidth = 8
+        Me.DataGridViewComboBoxColumn3.Name = "DataGridViewComboBoxColumn3"
+        Me.DataGridViewComboBoxColumn3.ReadOnly = True
+        Me.DataGridViewComboBoxColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewComboBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewComboBoxColumn3.ToolTipText = "Trae la lista total de MP código corto pre cargado, se escoge la opción que se pr" &
+    "ecisa. "
+        Me.DataGridViewComboBoxColumn3.Width = 300
         '
-        'ComboBox6
+        'DataGridViewComboBoxColumn4
         '
-        Me.ComboBox6.BackColor = System.Drawing.Color.White
-        Me.ComboBox6.DropDownWidth = 272
-        Me.ComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox6.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Items.AddRange(New Object() {"00000", "INAN0", "ANVISA", "CETEA", "RDC00", "GQSR0", "22000", "90010", "", "", "", "55555"})
-        Me.ComboBox6.Location = New System.Drawing.Point(747, 72)
-        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(96, 32)
-        Me.ComboBox6.TabIndex = 183
-        Me.ComboBox6.Text = "00000"
-        Me.ToolTip1.SetToolTip(Me.ComboBox6, "El sertificado que tiene la MP.")
+        DataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle81.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle81.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle81.NullValue = Nothing
+        DataGridViewCellStyle81.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn4.DefaultCellStyle = DataGridViewCellStyle81
+        Me.DataGridViewComboBoxColumn4.DividerWidth = 5
+        Me.DataGridViewComboBoxColumn4.HeaderText = "Nombre MP del Proveedor"
+        Me.DataGridViewComboBoxColumn4.MinimumWidth = 8
+        Me.DataGridViewComboBoxColumn4.Name = "DataGridViewComboBoxColumn4"
+        Me.DataGridViewComboBoxColumn4.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridViewComboBoxColumn4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewComboBoxColumn4.ToolTipText = "El el nombre Tecnico del Proveedor con el que se debe pedir."
+        Me.DataGridViewComboBoxColumn4.Width = 300
         '
-        'Label405
+        'TurnoSalidaMP
         '
-        Me.Label405.AutoSize = True
-        Me.Label405.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label405.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label405.ForeColor = System.Drawing.Color.Blue
-        Me.Label405.Location = New System.Drawing.Point(852, 44)
-        Me.Label405.Name = "Label405"
-        Me.Label405.Size = New System.Drawing.Size(53, 19)
-        Me.Label405.TabIndex = 21
-        Me.Label405.Text = "Prima"
+        DataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle82.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle82.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle82.Format = "t"
+        DataGridViewCellStyle82.NullValue = Nothing
+        DataGridViewCellStyle82.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.TurnoSalidaMP.DefaultCellStyle = DataGridViewCellStyle82
+        Me.TurnoSalidaMP.DividerWidth = 5
+        Me.TurnoSalidaMP.HeaderText = "Turno Salida"
+        Me.TurnoSalidaMP.MaxInputLength = 4
+        Me.TurnoSalidaMP.MinimumWidth = 8
+        Me.TurnoSalidaMP.Name = "TurnoSalidaMP"
+        Me.TurnoSalidaMP.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.TurnoSalidaMP.ToolTipText = "El turno es definido por la hora."
         '
-        'ComboBox7
+        'Maquina
         '
-        Me.ComboBox7.BackColor = System.Drawing.Color.White
-        Me.ComboBox7.DropDownWidth = 272
-        Me.ComboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox7.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox7.FormattingEnabled = True
-        Me.ComboBox7.Items.AddRange(New Object() {"SEC", "PRI"})
-        Me.ComboBox7.Location = New System.Drawing.Point(859, 72)
-        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(70, 32)
-        Me.ComboBox7.TabIndex = 183
-        Me.ComboBox7.Text = "PRI"
+        Me.Maquina.HeaderText = "Maquina"
+        Me.Maquina.MinimumWidth = 8
+        Me.Maquina.Name = "Maquina"
+        Me.Maquina.Width = 150
         '
-        'ComboBox34
+        'Maquinista
         '
-        Me.ComboBox34.BackColor = System.Drawing.Color.White
-        Me.ComboBox34.DropDownWidth = 272
-        Me.ComboBox34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox34.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox34.FormattingEnabled = True
-        Me.ComboBox34.Items.AddRange(New Object() {"000", "FSC"})
-        Me.ComboBox34.Location = New System.Drawing.Point(661, 72)
-        Me.ComboBox34.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox34.Name = "ComboBox34"
-        Me.ComboBox34.Size = New System.Drawing.Size(70, 32)
-        Me.ComboBox34.TabIndex = 183
-        Me.ComboBox34.Text = "000"
-        Me.ToolTip1.SetToolTip(Me.ComboBox34, "Si tiene FSC" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "No tiene FSC ""000""" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "333")
+        Me.Maquinista.HeaderText = "Maquinista"
+        Me.Maquinista.MinimumWidth = 8
+        Me.Maquinista.Name = "Maquinista"
+        Me.Maquinista.Width = 150
         '
-        'TextBox232
+        'SalidaKilos
         '
-        Me.TextBox232.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox232.ForeColor = System.Drawing.Color.Red
-        Me.TextBox232.Location = New System.Drawing.Point(596, 71)
-        Me.TextBox232.Name = "TextBox232"
-        Me.TextBox232.Size = New System.Drawing.Size(49, 35)
-        Me.TextBox232.TabIndex = 24
-        Me.TextBox232.Text = "333"
-        Me.ToolTip1.SetToolTip(Me.TextBox232, "Medida de la FIBRA si es en PLIEGO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "No se coloca decimal " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Se coloca sin el desi" &
-        "mal." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Importante completar siempre con 3 digitos." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Si la medida es menor colocar" &
-        " 0 adelante" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.SalidaKilos.HeaderText = "Salida Kls."
+        Me.SalidaKilos.MinimumWidth = 8
+        Me.SalidaKilos.Name = "SalidaKilos"
+        Me.SalidaKilos.Width = 150
         '
-        'ComboBox35
+        'StockKilos
         '
-        Me.ComboBox35.BackColor = System.Drawing.Color.White
-        Me.ComboBox35.DropDownWidth = 272
-        Me.ComboBox35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox35.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox35.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox35.FormattingEnabled = True
-        Me.ComboBox35.Items.AddRange(New Object() {"040", "056", "060", "070", "090", "115", "120", "130", "150", "170", "180", "190", "200", "205", "210", "215", "220", "225", "230", "235", "240", "245", "250", "255", "260", "265", "270", "275", "280", "285", "290", "300", "305", "310", "315", "320", "325", "330", "335", "340", "350", "360", "370", "380", "390", "400", "405", "415", "420", "425", "430", "440", "450", "460", "470", "480", "490", "500", "", "", "", "333"})
-        Me.ComboBox35.Location = New System.Drawing.Point(441, 72)
-        Me.ComboBox35.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox35.Name = "ComboBox35"
-        Me.ComboBox35.Size = New System.Drawing.Size(70, 32)
-        Me.ComboBox35.TabIndex = 183
+        Me.StockKilos.HeaderText = "Stock Kls."
+        Me.StockKilos.MinimumWidth = 8
+        Me.StockKilos.Name = "StockKilos"
+        Me.StockKilos.Width = 150
         '
-        'ComboBox36
+        'DataGridViewTextBoxColumn18
         '
-        Me.ComboBox36.BackColor = System.Drawing.Color.White
-        Me.ComboBox36.DropDownWidth = 272
-        Me.ComboBox36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox36.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox36.FormattingEnabled = True
-        Me.ComboBox36.Items.AddRange(New Object() {"GC1", "GC2", "VIT", "SUP", "ILU", "OBR", "ALU", "AUT", "TRI", "DUP", "GEN", "", "", "", "333"})
-        Me.ComboBox36.Location = New System.Drawing.Point(355, 72)
-        Me.ComboBox36.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox36.Name = "ComboBox36"
-        Me.ComboBox36.Size = New System.Drawing.Size(70, 32)
-        Me.ComboBox36.TabIndex = 183
-        Me.ToolTip1.SetToolTip(Me.ComboBox36, "Elegir el tipo de MP")
+        DataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle83.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle83.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle83.Format = "N0"
+        DataGridViewCellStyle83.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn18.DefaultCellStyle = DataGridViewCellStyle83
+        Me.DataGridViewTextBoxColumn18.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn18.HeaderText = "EAN-13 N°"
+        Me.DataGridViewTextBoxColumn18.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn18.Name = "DataGridViewTextBoxColumn18"
+        Me.DataGridViewTextBoxColumn18.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn18.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewTextBoxColumn18.ToolTipText = "Primero Grupo N° Estación / Segundo Grupo Articulo / Tercer Grupo N° corrido"
+        Me.DataGridViewTextBoxColumn18.Width = 80
         '
-        'ComboBox37
+        'DataGridViewTextBoxColumn20
         '
-        Me.ComboBox37.BackColor = System.Drawing.Color.White
-        Me.ComboBox37.DropDownWidth = 272
-        Me.ComboBox37.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox37.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox37.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox37.FormattingEnabled = True
-        Me.ComboBox37.Items.AddRange(New Object() {"IBEM", "PAPI", "STOR", "PALE", "METS", "KORA", "TROE", "ROXE", "TROE"})
-        Me.ComboBox37.Location = New System.Drawing.Point(240, 72)
-        Me.ComboBox37.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox37.Name = "ComboBox37"
-        Me.ComboBox37.Size = New System.Drawing.Size(99, 32)
-        Me.ComboBox37.TabIndex = 183
+        DataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle84.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle84.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle84.Format = "d"
+        DataGridViewCellStyle84.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DataGridViewTextBoxColumn20.DefaultCellStyle = DataGridViewCellStyle84
+        Me.DataGridViewTextBoxColumn20.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn20.HeaderText = "Lte. N°"
+        Me.DataGridViewTextBoxColumn20.MaxInputLength = 100
+        Me.DataGridViewTextBoxColumn20.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn20.Name = "DataGridViewTextBoxColumn20"
+        Me.DataGridViewTextBoxColumn20.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn20.ToolTipText = "Es el N° de LOTE que es la fecha de ingreso."
+        Me.DataGridViewTextBoxColumn20.Width = 150
         '
-        'ComboBox38
+        'DataGridViewComboBoxColumn5
         '
-        Me.ComboBox38.BackColor = System.Drawing.Color.White
-        Me.ComboBox38.DropDownWidth = 272
-        Me.ComboBox38.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox38.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox38.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox38.FormattingEnabled = True
-        Me.ComboBox38.Items.AddRange(New Object() {"B", "H"})
-        Me.ComboBox38.Location = New System.Drawing.Point(164, 72)
-        Me.ComboBox38.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox38.Name = "ComboBox38"
-        Me.ComboBox38.Size = New System.Drawing.Size(60, 32)
-        Me.ComboBox38.TabIndex = 183
-        Me.ToolTip1.SetToolTip(Me.ComboBox38, "B en el caso de que la MP sea BOBINA." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "H en el caso de que la MP sea HOJA.")
+        DataGridViewCellStyle85.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle85.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle85.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DataGridViewComboBoxColumn5.DefaultCellStyle = DataGridViewCellStyle85
+        Me.DataGridViewComboBoxColumn5.DividerWidth = 5
+        Me.DataGridViewComboBoxColumn5.HeaderText = "FSC"
+        Me.DataGridViewComboBoxColumn5.MaxInputLength = 3
+        Me.DataGridViewComboBoxColumn5.MinimumWidth = 8
+        Me.DataGridViewComboBoxColumn5.Name = "DataGridViewComboBoxColumn5"
+        Me.DataGridViewComboBoxColumn5.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewComboBoxColumn5.ToolTipText = "Si tiene certificado FSC y si no tiene 000."
+        Me.DataGridViewComboBoxColumn5.Width = 60
         '
-        'Button144
+        'DataGridViewComboBoxColumn6
         '
-        Me.Button144.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button144.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button144.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button144.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button144.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button144.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button144.ForeColor = System.Drawing.Color.Black
-        Me.Button144.Location = New System.Drawing.Point(533, 5)
-        Me.Button144.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button144.Name = "Button144"
-        Me.Button144.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button144.Size = New System.Drawing.Size(195, 38)
-        Me.Button144.TabIndex = 247
-        Me.Button144.Text = "Trae  LITOPLAN"
-        Me.ToolTip1.SetToolTip(Me.Button144, "Fondo CELESTE letras NEGRA trae" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " de la base datos LITOPLAN." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.Button144.UseVisualStyleBackColor = False
+        DataGridViewCellStyle86.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle86.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle86.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle86.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DataGridViewComboBoxColumn6.DefaultCellStyle = DataGridViewCellStyle86
+        Me.DataGridViewComboBoxColumn6.DividerWidth = 5
+        Me.DataGridViewComboBoxColumn6.HeaderText = "Certifi."
+        Me.DataGridViewComboBoxColumn6.MinimumWidth = 8
+        Me.DataGridViewComboBoxColumn6.Name = "DataGridViewComboBoxColumn6"
+        Me.DataGridViewComboBoxColumn6.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridViewComboBoxColumn6.ToolTipText = "Tipo de certificado que cuenta esta MP."
+        Me.DataGridViewComboBoxColumn6.Width = 80
         '
-        'Button148
+        'DataGridViewTextBoxColumn21
         '
-        Me.Button148.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button148.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button148.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button148.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button148.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button148.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button148.ForeColor = System.Drawing.Color.Black
-        Me.Button148.Location = New System.Drawing.Point(348, 4)
-        Me.Button148.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button148.Name = "Button148"
-        Me.Button148.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button148.Size = New System.Drawing.Size(177, 38)
-        Me.Button148.TabIndex = 248
-        Me.Button148.Text = "Trae  Modifica"
-        Me.ToolTip1.SetToolTip(Me.Button148, "Fondo NARANJA letras NEGRA trae la" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " información y se puede cambiar." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.Button148.UseVisualStyleBackColor = False
+        DataGridViewCellStyle87.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle87.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle87.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle87.Format = "d"
+        DataGridViewCellStyle87.NullValue = Nothing
+        DataGridViewCellStyle87.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn21.DefaultCellStyle = DataGridViewCellStyle87
+        Me.DataGridViewTextBoxColumn21.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn21.HeaderText = "Vto."
+        Me.DataGridViewTextBoxColumn21.MaxInputLength = 10
+        Me.DataGridViewTextBoxColumn21.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn21.Name = "DataGridViewTextBoxColumn21"
+        Me.DataGridViewTextBoxColumn21.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn21.ToolTipText = "Es el vencimiento dado por el fabricante"
+        Me.DataGridViewTextBoxColumn21.Width = 150
         '
-        'Button147
+        'DataGridViewComboBoxColumn7
         '
-        Me.Button147.BackColor = System.Drawing.Color.White
-        Me.Button147.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button147.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button147.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button147.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button147.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button147.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button147.Location = New System.Drawing.Point(225, 4)
-        Me.Button147.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button147.Name = "Button147"
-        Me.Button147.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button147.Size = New System.Drawing.Size(104, 38)
-        Me.Button147.TabIndex = 249
-        Me.Button147.Text = "Calcula"
-        Me.ToolTip1.SetToolTip(Me.Button147, "Fondo blanco letras VERDE indica que hace" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " un cálculo según la información de es" &
-        "e momento." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.Button147.UseVisualStyleBackColor = False
+        DataGridViewCellStyle88.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle88.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle88.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle88.Format = "N0"
+        DataGridViewCellStyle88.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DataGridViewComboBoxColumn7.DefaultCellStyle = DataGridViewCellStyle88
+        Me.DataGridViewComboBoxColumn7.DividerWidth = 5
+        Me.DataGridViewComboBoxColumn7.HeaderText = "Dia. Cm."
+        Me.DataGridViewComboBoxColumn7.MaxInputLength = 80
+        Me.DataGridViewComboBoxColumn7.MinimumWidth = 8
+        Me.DataGridViewComboBoxColumn7.Name = "DataGridViewComboBoxColumn7"
+        Me.DataGridViewComboBoxColumn7.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewComboBoxColumn7.ToolTipText = "Los centimetros que tiene la bobina de diametro, máximo 180 cm"
+        Me.DataGridViewComboBoxColumn7.Width = 60
         '
-        'Button146
+        'DataGridViewComboBoxColumn8
         '
-        Me.Button146.BackColor = System.Drawing.Color.White
-        Me.Button146.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button146.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button146.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button146.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button146.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button146.ForeColor = System.Drawing.Color.Fuchsia
-        Me.Button146.Location = New System.Drawing.Point(122, 4)
-        Me.Button146.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button146.Name = "Button146"
-        Me.Button146.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button146.Size = New System.Drawing.Size(86, 38)
-        Me.Button146.TabIndex = 250
-        Me.Button146.Text = "Trae"
-        Me.ToolTip1.SetToolTip(Me.Button146, "Fondo blanco letras ROSADA indica que" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " TRAE de alguna base de datos." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.Button146.UseVisualStyleBackColor = False
+        DataGridViewCellStyle89.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle89.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle89.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle89.Format = "N0"
+        DataGridViewCellStyle89.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DataGridViewComboBoxColumn8.DefaultCellStyle = DataGridViewCellStyle89
+        Me.DataGridViewComboBoxColumn8.DividerWidth = 5
+        Me.DataGridViewComboBoxColumn8.HeaderText = "Con Cm"
+        Me.DataGridViewComboBoxColumn8.MaxInputLength = 80
+        Me.DataGridViewComboBoxColumn8.MinimumWidth = 8
+        Me.DataGridViewComboBoxColumn8.Name = "DataGridViewComboBoxColumn8"
+        Me.DataGridViewComboBoxColumn8.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewComboBoxColumn8.ToolTipText = "Es el diametro ideal de 30 cm para el nucleo en el caso de carton"
+        Me.DataGridViewComboBoxColumn8.Width = 60
         '
-        'Button145
+        'DataGridViewTextBoxColumn2
         '
-        Me.Button145.BackColor = System.Drawing.Color.White
-        Me.Button145.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button145.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button145.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.Button145.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.Button145.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button145.ForeColor = System.Drawing.Color.Black
-        Me.Button145.Location = New System.Drawing.Point(28, 3)
-        Me.Button145.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button145.Name = "Button145"
-        Me.Button145.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.Button145.Size = New System.Drawing.Size(86, 38)
-        Me.Button145.TabIndex = 251
-        Me.Button145.Text = "Carga"
-        Me.ToolTip1.SetToolTip(Me.Button145, "Fondo blanco letras negra indica que que debe " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "estar habilitado para cargar la p" &
-        "ersona" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.Button145.UseVisualStyleBackColor = False
+        DataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle90.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle90.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle90.Format = "N0"
+        DataGridViewCellStyle90.NullValue = Nothing
+        DataGridViewCellStyle90.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DataGridViewTextBoxColumn2.DefaultCellStyle = DataGridViewCellStyle90
+        Me.DataGridViewTextBoxColumn2.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn2.HeaderText = "Pto N°"
+        Me.DataGridViewTextBoxColumn2.MaxInputLength = 10
+        Me.DataGridViewTextBoxColumn2.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        Me.DataGridViewTextBoxColumn2.ReadOnly = True
+        Me.DataGridViewTextBoxColumn2.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn2.ToolTipText = "Presupuesto que pasaron."
+        Me.DataGridViewTextBoxColumn2.Width = 120
         '
-        'ComboBox39
+        'DataGridViewTextBoxColumn3
         '
-        Me.ComboBox39.BackColor = System.Drawing.Color.White
-        Me.ComboBox39.DropDownWidth = 272
-        Me.ComboBox39.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox39.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox39.FormattingEnabled = True
-        Me.ComboBox39.Items.AddRange(New Object() {"+595 981 198526 DI", "+595 981 793119 GA", "+595 982 159330 Contabilidad", "+595 985 908572 GC", "+595 985 908571 EC FERNANDO", "+595 985 930375 EC MIRTA", "+595 984 184130 EC ESTELA", "+595 982 314000 RECEPCION", "+595 982 221628 FACTURACION", "+595 981 299705 INFORMATICA", "+595 983 187305 RRHH", "+595 985 593014 COMPRAS ", "+595 992 927237 PREPRENSA", "+595 992 927228 PRESUPUESTOS", "+595 983 188834 PLANIFICACION", "+595 982 936196 JEFE DE PLANTA", "+595 983 711835 JE CC", "+595 992 927237 JE PREPRENSA", "+595 986 930877 JE MANTENIMIENTO", "+595 985 326271 JE EXPEDICION", "+595 985 753864 SU DEPOSITO", "+595 982 125480 SU IMPRESIÓN", "+595 981 294987 SU TROQUELADO", "+595 985 723195 SU PEGADO", "+595 985 592171 GUARDIA"})
-        Me.ComboBox39.Location = New System.Drawing.Point(151, 91)
-        Me.ComboBox39.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox39.Name = "ComboBox39"
-        Me.ComboBox39.Size = New System.Drawing.Size(316, 32)
-        Me.ComboBox39.TabIndex = 171
-        Me.ComboBox39.Text = "+595 985 593014 COMPRAS "
+        DataGridViewCellStyle91.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle91.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle91.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle91.Format = "N0"
+        DataGridViewCellStyle91.NullValue = Nothing
+        DataGridViewCellStyle91.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DataGridViewTextBoxColumn3.DefaultCellStyle = DataGridViewCellStyle91
+        Me.DataGridViewTextBoxColumn3.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn3.HeaderText = "MP    OC N°"
+        Me.DataGridViewTextBoxColumn3.MaxInputLength = 10
+        Me.DataGridViewTextBoxColumn3.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        Me.DataGridViewTextBoxColumn3.ReadOnly = True
+        Me.DataGridViewTextBoxColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn3.ToolTipText = "Es el numero de la orden de compra"
+        Me.DataGridViewTextBoxColumn3.Width = 120
+        '
+        'DataGridViewTextBoxColumn4
+        '
+        DataGridViewCellStyle92.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle92.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle92.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle92.Format = "N0"
+        DataGridViewCellStyle92.NullValue = Nothing
+        DataGridViewCellStyle92.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DataGridViewTextBoxColumn4.DefaultCellStyle = DataGridViewCellStyle92
+        Me.DataGridViewTextBoxColumn4.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn4.HeaderText = "MP    Fact N°"
+        Me.DataGridViewTextBoxColumn4.MaxInputLength = 10
+        Me.DataGridViewTextBoxColumn4.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        Me.DataGridViewTextBoxColumn4.ReadOnly = True
+        Me.DataGridViewTextBoxColumn4.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn4.ToolTipText = "Numero de la Factura"
+        Me.DataGridViewTextBoxColumn4.Width = 120
+        '
+        'DataGridViewTextBoxColumn5
+        '
+        DataGridViewCellStyle93.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle93.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle93.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle93.Format = "N0"
+        DataGridViewCellStyle93.NullValue = Nothing
+        DataGridViewCellStyle93.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DataGridViewTextBoxColumn5.DefaultCellStyle = DataGridViewCellStyle93
+        Me.DataGridViewTextBoxColumn5.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn5.HeaderText = "MP BL N°"
+        Me.DataGridViewTextBoxColumn5.MaxInputLength = 7
+        Me.DataGridViewTextBoxColumn5.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        Me.DataGridViewTextBoxColumn5.ToolTipText = "N° del BL."
+        Me.DataGridViewTextBoxColumn5.Width = 120
+        '
+        'DataGridViewTextBoxColumn7
+        '
+        DataGridViewCellStyle94.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle94.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle94.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DataGridViewTextBoxColumn7.DefaultCellStyle = DataGridViewCellStyle94
+        Me.DataGridViewTextBoxColumn7.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn7.HeaderText = "Despacho N°"
+        Me.DataGridViewTextBoxColumn7.MaxInputLength = 7
+        Me.DataGridViewTextBoxColumn7.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
+        Me.DataGridViewTextBoxColumn7.ToolTipText = "El numero de despacho"
+        Me.DataGridViewTextBoxColumn7.Width = 120
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.ErrorImage = Nothing
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
+        Me.PictureBox6.Location = New System.Drawing.Point(1184, 53)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(216, 123)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 643
+        Me.PictureBox6.TabStop = False
         '
         'MP
         '
@@ -20052,12 +21256,12 @@ Partial Class MP
         Me.Text = "MP"
         Me.ToolTip1.SetToolTip(Me, resources.GetString("$this.ToolTip"))
         Me.TabControl1.ResumeLayout(False)
-        Me.TabPage1.ResumeLayout(False)
-        Me.Panel5.ResumeLayout(False)
-        Me.Panel141.ResumeLayout(False)
-        Me.Panel141.PerformLayout
-        Me.TabPage2.ResumeLayout(False)
+        Me.Contabilidad.ResumeLayout(False)
         Me.Panel40.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout
         Me.Panel53.ResumeLayout(False)
         Me.Panel53.PerformLayout
         Me.Panel54.ResumeLayout(False)
@@ -20065,11 +21269,6 @@ Partial Class MP
         Me.Panel51.ResumeLayout(False)
         Me.Panel51.PerformLayout
         Me.Panel52.ResumeLayout(False)
-        Me.Panel52.PerformLayout
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout
         Me.Panel162.ResumeLayout(False)
         Me.Panel162.PerformLayout
         Me.Panel163.ResumeLayout(False)
@@ -20082,72 +21281,72 @@ Partial Class MP
         Me.Panel8.PerformLayout
         Me.Panel26.ResumeLayout(False)
         Me.Panel26.PerformLayout
+        Me.Panel59.ResumeLayout(False)
+        Me.Panel59.PerformLayout
+        Me.Panel29.ResumeLayout(False)
+        Me.Panel28.ResumeLayout(False)
+        Me.Panel28.PerformLayout
         Me.Panel156.ResumeLayout(False)
         Me.Panel156.PerformLayout
         Me.Panel27.ResumeLayout(False)
         Me.Panel27.PerformLayout
         Me.Panel24.ResumeLayout(False)
-        Me.Panel24.PerformLayout
         Me.Panel25.ResumeLayout(False)
         Me.Panel25.PerformLayout
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel22.ResumeLayout(False)
-        Me.Panel22.PerformLayout
         Me.Panel23.ResumeLayout(False)
         Me.Panel23.PerformLayout
-        Me.TabPage3.ResumeLayout(False)
+        Me.Panel178.ResumeLayout(False)
+        Me.Panel178.PerformLayout
+        Me.Panel177.ResumeLayout(False)
+        Me.Panel177.PerformLayout
+        Me.Panel176.ResumeLayout(False)
+        Me.Panel176.PerformLayout
+        Me.Entrada.ResumeLayout(False)
         Me.Panel31.ResumeLayout(False)
-        Me.Panel30.ResumeLayout(False)
-        Me.Panel30.PerformLayout
-        Me.Panel161.ResumeLayout(False)
-        Me.Panel161.PerformLayout
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel60.ResumeLayout(False)
+        Me.Panel60.PerformLayout
         Me.Panel158.ResumeLayout(False)
         Me.Panel158.PerformLayout
+        Me.Panel181.ResumeLayout(False)
+        Me.Panel181.PerformLayout
+        Me.Panel182.ResumeLayout(False)
+        Me.Panel182.PerformLayout
+        Me.Panel183.ResumeLayout(False)
+        Me.Panel183.PerformLayout
         Me.Panel157.ResumeLayout(False)
         Me.Panel157.PerformLayout
+        Me.Panel184.ResumeLayout(False)
+        Me.Panel184.PerformLayout
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel61.ResumeLayout(False)
-        Me.Panel61.PerformLayout
-        Me.Panel138.ResumeLayout(False)
-        Me.Panel138.PerformLayout
-        Me.Panel33.ResumeLayout(False)
-        Me.Panel33.PerformLayout
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel32.ResumeLayout(False)
         Me.Panel32.PerformLayout
-        Me.TabPage4.ResumeLayout(False)
-        Me.Panel28.ResumeLayout(False)
-        Me.Panel28.PerformLayout
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Salida.ResumeLayout(False)
         Me.Panel13.ResumeLayout(False)
         Me.Panel13.PerformLayout
-        Me.Panel36.ResumeLayout(False)
-        Me.Panel36.PerformLayout
-        Me.Panel167.ResumeLayout(False)
-        Me.Panel167.PerformLayout
-        Me.Panel159.ResumeLayout(False)
-        Me.Panel159.PerformLayout
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel37.ResumeLayout(False)
-        Me.Panel37.PerformLayout
         Me.Panel14.ResumeLayout(False)
         Me.Panel14.PerformLayout
-        Me.Panel164.ResumeLayout(False)
-        Me.Panel164.PerformLayout
+        Me.Panel138.ResumeLayout(False)
+        Me.Panel138.PerformLayout
+        Me.Panel36.ResumeLayout(False)
+        Me.Panel36.PerformLayout
+        Me.Panel166.ResumeLayout(False)
+        Me.Panel166.PerformLayout
+        Me.Panel159.ResumeLayout(False)
+        Me.Panel159.PerformLayout
+        Me.Panel37.ResumeLayout(False)
+        Me.Panel37.PerformLayout
         Me.Panel165.ResumeLayout(False)
-        Me.Panel165.PerformLayout
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit
-        Me.Panel29.ResumeLayout(False)
-        Me.Panel29.PerformLayout
         Me.Panel34.ResumeLayout(False)
         Me.Panel34.PerformLayout
         Me.Panel35.ResumeLayout(False)
         Me.Panel35.PerformLayout
-        Me.TabPage5.ResumeLayout(False)
-        Me.TabPage5.PerformLayout
+        Me.SGC.ResumeLayout(False)
+        Me.SGC.PerformLayout
         Me.Panel19.ResumeLayout(False)
         Me.Panel20.ResumeLayout(False)
         Me.Panel20.PerformLayout
@@ -20188,15 +21387,17 @@ Partial Class MP
         Me.Panel155.PerformLayout
         Me.Panel16.ResumeLayout(False)
         Me.Panel16.PerformLayout
-        Me.TabPage6.ResumeLayout(False)
-        Me.TabPage6.PerformLayout
+        Me.Presupuesto.ResumeLayout(False)
+        Me.Presupuesto.PerformLayout
         Me.Panel42.ResumeLayout(False)
         Me.Panel43.ResumeLayout(False)
         Me.Panel43.PerformLayout
+        Me.Panel142.ResumeLayout(False)
+        Me.Panel142.PerformLayout
+        Me.Panel145.ResumeLayout(False)
+        Me.Panel145.PerformLayout
         Me.Panel44.ResumeLayout(False)
         Me.Panel44.PerformLayout
-        Me.Panel171.ResumeLayout(False)
-        Me.Panel171.PerformLayout
         Me.Panel45.ResumeLayout(False)
         Me.Panel45.PerformLayout
         Me.Panel46.ResumeLayout(False)
@@ -20205,13 +21406,20 @@ Partial Class MP
         Me.Panel47.PerformLayout
         Me.Panel48.ResumeLayout(False)
         Me.Panel48.PerformLayout
-        Me.Panel142.ResumeLayout(False)
-        Me.Panel142.PerformLayout
-        Me.Panel145.ResumeLayout(False)
-        Me.Panel145.PerformLayout
+        Me.Panel171.ResumeLayout(False)
+        Me.Panel171.PerformLayout
         Me.Panel49.ResumeLayout(False)
         Me.Panel49.PerformLayout
-        Me.TabPage7.ResumeLayout(False)
+        Me.PreOC.ResumeLayout(False)
+        Me.Panel160.ResumeLayout(False)
+        Me.Panel164.ResumeLayout(False)
+        Me.Panel164.PerformLayout
+        Me.Panel167.ResumeLayout(False)
+        Me.Panel167.PerformLayout
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Panel186.ResumeLayout(False)
+        Me.Panel186.PerformLayout
+        Me.OC.ResumeLayout(False)
         Me.Panel62.ResumeLayout(False)
         Me.Panel63.ResumeLayout(False)
         Me.Panel63.PerformLayout
@@ -20237,8 +21445,8 @@ Partial Class MP
         Me.Panel69.PerformLayout
         Me.Panel67.ResumeLayout(False)
         Me.Panel67.PerformLayout
-        Me.TabPage8.ResumeLayout(False)
-        Me.TabPage8.PerformLayout
+        Me.Informe.ResumeLayout(False)
+        Me.Informe.PerformLayout
         Me.Panel175.ResumeLayout(False)
         Me.Panel175.PerformLayout
         Me.Panel149.ResumeLayout(False)
@@ -20292,7 +21500,7 @@ Partial Class MP
         Me.Panel139.ResumeLayout(False)
         Me.Panel140.ResumeLayout(False)
         Me.Panel140.PerformLayout
-        Me.TabPage20.ResumeLayout(False)
+        Me.Alerta.ResumeLayout(False)
         Me.Panel98.ResumeLayout(False)
         Me.Panel151.ResumeLayout(False)
         Me.Panel151.PerformLayout
@@ -20375,7 +21583,7 @@ Partial Class MP
         Me.Panel143.PerformLayout
         Me.Panel144.ResumeLayout(False)
         Me.Panel144.PerformLayout
-        Me.TabPage21.ResumeLayout(False)
+        Me.Permiso.ResumeLayout(False)
         Me.Panel57.ResumeLayout(False)
         Me.Panel57.PerformLayout
         Me.Panel55.ResumeLayout(False)
@@ -20384,17 +21592,17 @@ Partial Class MP
         Me.Panel58.PerformLayout
         Me.Panel187.ResumeLayout(False)
         Me.Panel187.PerformLayout
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents TabControl1 As TabControl
-    Friend WithEvents TabPage1 As TabPage
-    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents Entrada As TabPage
     Friend WithEvents Panel31 As Panel
     Friend WithEvents Panel32 As Panel
     Friend WithEvents Label14 As Label
-    Friend WithEvents TabPage4 As TabPage
-    Friend WithEvents Panel28 As Panel
+    Friend WithEvents Salida As TabPage
     Friend WithEvents Panel34 As Panel
     Friend WithEvents RadioButton3 As RadioButton
     Friend WithEvents RadioButton22 As RadioButton
@@ -20413,8 +21621,6 @@ Partial Class MP
     Friend WithEvents Label231 As Label
     Friend WithEvents Panel35 As Panel
     Friend WithEvents Label222 As Label
-    Friend WithEvents Panel29 As Panel
-    Friend WithEvents Label221 As Label
     Friend WithEvents Panel36 As Panel
     Friend WithEvents ComboBox61 As ComboBox
     Friend WithEvents Button27 As Button
@@ -20422,8 +21628,8 @@ Partial Class MP
     Friend WithEvents Panel37 As Panel
     Friend WithEvents Label26 As Label
     Friend WithEvents Label27 As Label
-    Friend WithEvents TabPage5 As TabPage
-    Friend WithEvents TabPage6 As TabPage
+    Friend WithEvents SGC As TabPage
+    Friend WithEvents Presupuesto As TabPage
     Friend WithEvents Panel42 As Panel
     Friend WithEvents Panel45 As Panel
     Friend WithEvents Label273 As Label
@@ -20499,7 +21705,7 @@ Partial Class MP
     Friend WithEvents ComboBox97 As ComboBox
     Friend WithEvents ComboBox101 As ComboBox
     Friend WithEvents ComboBox98 As ComboBox
-    Friend WithEvents TabPage7 As TabPage
+    Friend WithEvents OC As TabPage
     Friend WithEvents Panel62 As Panel
     Friend WithEvents Panel65 As Panel
     Friend WithEvents DateTimePicker53 As DateTimePicker
@@ -20555,7 +21761,7 @@ Partial Class MP
     Friend WithEvents Label259 As Label
     Friend WithEvents Panel67 As Panel
     Friend WithEvents Label317 As Label
-    Friend WithEvents TabPage8 As TabPage
+    Friend WithEvents Informe As TabPage
     Friend WithEvents TabControl2 As TabControl
     Friend WithEvents TabPage9 As TabPage
     Friend WithEvents Panel73 As Panel
@@ -20703,7 +21909,7 @@ Partial Class MP
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Button25 As Button
-    Friend WithEvents TabPage20 As TabPage
+    Friend WithEvents Alerta As TabPage
     Friend WithEvents Panel98 As Panel
     Friend WithEvents Panel124 As Panel
     Friend WithEvents Panel125 As Panel
@@ -20840,7 +22046,6 @@ Partial Class MP
     Friend WithEvents Panel64 As Panel
     Friend WithEvents Label307 As Label
     Friend WithEvents Label308 As Label
-    Friend WithEvents ComboBox86 As ComboBox
     Friend WithEvents ComboBox87 As ComboBox
     Friend WithEvents ComboBox88 As ComboBox
     Friend WithEvents ComboBox89 As ComboBox
@@ -20850,20 +22055,13 @@ Partial Class MP
     Friend WithEvents Label310 As Label
     Friend WithEvents ComboBox129 As ComboBox
     Friend WithEvents ComboBox130 As ComboBox
-    Friend WithEvents Label311 As Label
     Friend WithEvents ComboBox131 As ComboBox
-    Friend WithEvents Label312 As Label
     Friend WithEvents ComboBox132 As ComboBox
     Friend WithEvents ComboBox133 As ComboBox
     Friend WithEvents ComboBox134 As ComboBox
     Friend WithEvents Label322 As Label
     Friend WithEvents ComboBox135 As ComboBox
     Friend WithEvents Button19 As Button
-    Friend WithEvents TextBox108 As TextBox
-    Friend WithEvents Label33 As Label
-    Friend WithEvents Label363 As Label
-    Friend WithEvents TextBox133 As TextBox
-    Friend WithEvents TextBox138 As TextBox
     Friend WithEvents Label309 As Label
     Friend WithEvents Label362 As Label
     Friend WithEvents TextBox134 As TextBox
@@ -20940,7 +22138,7 @@ Partial Class MP
     Friend WithEvents ComboBox122 As ComboBox
     Friend WithEvents TextBox143 As TextBox
     Friend WithEvents Label369 As Label
-    Friend WithEvents TabPage21 As TabPage
+    Friend WithEvents Permiso As TabPage
     Friend WithEvents Panel57 As Panel
     Friend WithEvents Panel187 As Panel
     Friend WithEvents Label411 As Label
@@ -20951,8 +22149,6 @@ Partial Class MP
     Friend WithEvents Label385 As Label
     Friend WithEvents ComboBox162 As ComboBox
     Friend WithEvents CheckBox81 As CheckBox
-    Friend WithEvents Label328 As Label
-    Friend WithEvents TextBox98 As TextBox
     Friend WithEvents Label326 As Label
     Friend WithEvents Label387 As Label
     Friend WithEvents Label388 As Label
@@ -21056,24 +22252,6 @@ Partial Class MP
     Friend WithEvents RadioButton63 As RadioButton
     Friend WithEvents RadioButton43 As RadioButton
     Friend WithEvents Label390 As Label
-    Friend WithEvents Panel5 As Panel
-    Friend WithEvents Panel141 As Panel
-    Friend WithEvents Label452 As Label
-    Friend WithEvents Panel142 As Panel
-    Friend WithEvents CheckBox11 As CheckBox
-    Friend WithEvents CheckBox12 As CheckBox
-    Friend WithEvents CheckBox13 As CheckBox
-    Friend WithEvents CheckBox24 As CheckBox
-    Friend WithEvents Button73 As Button
-    Friend WithEvents Button75 As Button
-    Friend WithEvents Button76 As Button
-    Friend WithEvents Button77 As Button
-    Friend WithEvents Button78 As Button
-    Friend WithEvents DateTimePicker52 As DateTimePicker
-    Friend WithEvents DateTimePicker54 As DateTimePicker
-    Friend WithEvents DateTimePicker55 As DateTimePicker
-    Friend WithEvents Panel145 As Panel
-    Friend WithEvents Label454 As Label
     Friend WithEvents Panel147 As Panel
     Friend WithEvents CheckBox162 As CheckBox
     Friend WithEvents CheckBox163 As CheckBox
@@ -21120,82 +22298,12 @@ Partial Class MP
     Friend WithEvents Panel152 As Panel
     Friend WithEvents Label457 As Label
     Friend WithEvents DataGridView3 As DataGridView
-    Friend WithEvents Panel30 As Panel
-    Friend WithEvents DateTimePicker14 As DateTimePicker
-    Friend WithEvents CheckBox185 As CheckBox
-    Friend WithEvents CheckBox188 As CheckBox
-    Friend WithEvents CheckBox189 As CheckBox
-    Friend WithEvents CheckBox190 As CheckBox
-    Friend WithEvents CheckBox192 As CheckBox
-    Friend WithEvents ComboBox13 As ComboBox
-    Friend WithEvents ComboBox14 As ComboBox
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label167 As Label
-    Friend WithEvents DateTimePicker77 As DateTimePicker
-    Friend WithEvents TextBox83 As TextBox
-    Friend WithEvents TextBox84 As TextBox
-    Friend WithEvents TextBox85 As TextBox
-    Friend WithEvents TextBox240 As TextBox
-    Friend WithEvents TextBox241 As TextBox
-    Friend WithEvents Label188 As Label
-    Friend WithEvents Label213 As Label
-    Friend WithEvents Label214 As Label
-    Friend WithEvents Label215 As Label
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents TextBox242 As TextBox
-    Friend WithEvents TextBox243 As TextBox
-    Friend WithEvents TextBox244 As TextBox
-    Friend WithEvents TextBox245 As TextBox
-    Friend WithEvents TextBox247 As TextBox
-    Friend WithEvents TextBox255 As TextBox
-    Friend WithEvents TextBox256 As TextBox
-    Friend WithEvents TextBox257 As TextBox
-    Friend WithEvents TextBox259 As TextBox
-    Friend WithEvents TextBox268 As TextBox
-    Friend WithEvents Label217 As Label
-    Friend WithEvents Label218 As Label
-    Friend WithEvents Label235 As Label
-    Friend WithEvents Label368 As Label
-    Friend WithEvents Label381 As Label
-    Friend WithEvents Label386 As Label
-    Friend WithEvents Label393 As Label
-    Friend WithEvents Label398 As Label
-    Friend WithEvents Label399 As Label
-    Friend WithEvents Label404 As Label
-    Friend WithEvents Panel33 As Panel
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents Label424 As Label
-    Friend WithEvents TextBox47 As TextBox
-    Friend WithEvents Button71 As Button
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents TextBox40 As TextBox
-    Friend WithEvents TextBox38 As TextBox
-    Friend WithEvents TextBox46 As TextBox
-    Friend WithEvents Label16 As Label
     Friend WithEvents Button20 As Button
     Friend WithEvents Button33 As Button
     Friend WithEvents Button23 As Button
     Friend WithEvents Button34 As Button
     Friend WithEvents Button21 As Button
     Friend WithEvents Button24 As Button
-    Friend WithEvents Panel61 As Panel
-    Friend WithEvents CheckBox160 As CheckBox
-    Friend WithEvents CheckBox182 As CheckBox
-    Friend WithEvents CheckBox183 As CheckBox
-    Friend WithEvents CheckBox184 As CheckBox
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button30 As Button
-    Friend WithEvents Button35 As Button
-    Friend WithEvents Button68 As Button
-    Friend WithEvents Button69 As Button
-    Friend WithEvents DateTimePicker8 As DateTimePicker
-    Friend WithEvents DateTimePicker12 As DateTimePicker
-    Friend WithEvents DateTimePicker13 As DateTimePicker
-    Friend WithEvents Panel138 As Panel
-    Friend WithEvents Label382 As Label
     Friend WithEvents Button22 As Button
     Friend WithEvents Panel19 As Panel
     Friend WithEvents Panel20 As Panel
@@ -21203,62 +22311,16 @@ Partial Class MP
     Friend WithEvents Panel21 As Panel
     Friend WithEvents Label205 As Label
     Friend WithEvents Label206 As Label
-    Friend WithEvents ComboBox11 As ComboBox
-    Friend WithEvents ComboBox16 As ComboBox
-    Friend WithEvents ComboBox15 As ComboBox
     Friend WithEvents Panel13 As Panel
-    Friend WithEvents Panel14 As Panel
-    Friend WithEvents CheckBox161 As CheckBox
-    Friend WithEvents CheckBox187 As CheckBox
-    Friend WithEvents CheckBox191 As CheckBox
-    Friend WithEvents CheckBox193 As CheckBox
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button70 As Button
-    Friend WithEvents Button72 As Button
-    Friend WithEvents Button105 As Button
-    Friend WithEvents Button106 As Button
-    Friend WithEvents Button107 As Button
-    Friend WithEvents DateTimePicker22 As DateTimePicker
-    Friend WithEvents DateTimePicker23 As DateTimePicker
-    Friend WithEvents DateTimePicker24 As DateTimePicker
-    Friend WithEvents Panel164 As Panel
-    Friend WithEvents Label15 As Label
     Friend WithEvents Panel165 As Panel
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents Label489 As Label
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents Label28 As Label
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn7 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn8 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn9 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn10 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn13 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn14 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn15 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn16 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn17 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn18 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn19 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn20 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn21 As DataGridViewTextBoxColumn
     Friend WithEvents TextBox87 As TextBox
     Friend WithEvents Label158 As Label
-    Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents Label160 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label178 As Label
-    Friend WithEvents Label165 As Label
     Friend WithEvents TextBox258 As TextBox
     Friend WithEvents TextBox264 As TextBox
     Friend WithEvents Label238 As Label
     Friend WithEvents Label391 As Label
-    Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents Label197 As Label
     Friend WithEvents CheckBox31 As CheckBox
     Friend WithEvents CheckBox42 As CheckBox
@@ -21272,8 +22334,7 @@ Partial Class MP
     Friend WithEvents TextBox254 As TextBox
     Friend WithEvents Label198 As Label
     Friend WithEvents Label364 As Label
-    Friend WithEvents Label196 As Label
-    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents Contabilidad As TabPage
     Friend WithEvents Panel40 As Panel
     Friend WithEvents Panel162 As Panel
     Friend WithEvents Label233 As Label
@@ -21288,9 +22349,6 @@ Partial Class MP
     Friend WithEvents TextBox177 As TextBox
     Friend WithEvents TextBox176 As TextBox
     Friend WithEvents TextBox236 As TextBox
-    Friend WithEvents TextBox227 As TextBox
-    Friend WithEvents TextBox193 As TextBox
-    Friend WithEvents TextBox192 As TextBox
     Friend WithEvents Panel41 As Panel
     Friend WithEvents Label236 As Label
     Friend WithEvents Label237 As Label
@@ -21298,47 +22356,7 @@ Partial Class MP
     Friend WithEvents Panel8 As Panel
     Friend WithEvents Label62 As Label
     Friend WithEvents Label187 As Label
-    Friend WithEvents Panel26 As Panel
-    Friend WithEvents Panel27 As Panel
-    Friend WithEvents Label194 As Label
-    Friend WithEvents Label195 As Label
-    Friend WithEvents ComboBox26 As ComboBox
-    Friend WithEvents ComboBox12 As ComboBox
-    Friend WithEvents TextBox231 As TextBox
-    Friend WithEvents RadioButton18 As RadioButton
-    Friend WithEvents TextBox34 As TextBox
-    Friend WithEvents TextBox235 As TextBox
-    Friend WithEvents Label154 As Label
-    Friend WithEvents TextBox234 As TextBox
-    Friend WithEvents RadioButton17 As RadioButton
-    Friend WithEvents RadioButton19 As RadioButton
-    Friend WithEvents RadioButton16 As RadioButton
-    Friend WithEvents TextBox29 As TextBox
-    Friend WithEvents TextBox226 As TextBox
-    Friend WithEvents Label61 As Label
-    Friend WithEvents TextBox225 As TextBox
-    Friend WithEvents Label29 As Label
-    Friend WithEvents Label469 As Label
-    Friend WithEvents Label395 As Label
-    Friend WithEvents Label162 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Label164 As Label
-    Friend WithEvents Label57 As Label
-    Friend WithEvents Label56 As Label
-    Friend WithEvents Label54 As Label
-    Friend WithEvents Label463 As Label
-    Friend WithEvents Label464 As Label
-    Friend WithEvents Label462 As Label
-    Friend WithEvents Label461 As Label
-    Friend WithEvents Label460 As Label
-    Friend WithEvents Label459 As Label
-    Friend WithEvents Label453 As Label
-    Friend WithEvents TextBox32 As TextBox
     Friend WithEvents Panel24 As Panel
-    Friend WithEvents RadioButton9 As RadioButton
-    Friend WithEvents RadioButton10 As RadioButton
-    Friend WithEvents RadioButton8 As RadioButton
-    Friend WithEvents RadioButton11 As RadioButton
     Friend WithEvents ComboBox10 As ComboBox
     Friend WithEvents ComboBox9 As ComboBox
     Friend WithEvents Panel25 As Panel
@@ -21349,73 +22367,18 @@ Partial Class MP
     Friend WithEvents Panel23 As Panel
     Friend WithEvents Label10 As Label
     Friend WithEvents Label17 As Label
-    Friend WithEvents Label46 As Label
-    Friend WithEvents Label156 As Label
-    Friend WithEvents TextBox56 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox35 As TextBox
-    Friend WithEvents TextBox54 As TextBox
-    Friend WithEvents Label173 As Label
-    Friend WithEvents Label175 As Label
     Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox166 As TextBox
-    Friend WithEvents TextBox165 As TextBox
-    Friend WithEvents TextBox164 As TextBox
-    Friend WithEvents Label74 As Label
-    Friend WithEvents TextBox163 As TextBox
-    Friend WithEvents Label68 As Label
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents Label66 As Label
     Friend WithEvents Label63 As Label
-    Friend WithEvents Label64 As Label
-    Friend WithEvents TextBox30 As TextBox
-    Friend WithEvents TextBox162 As TextBox
-    Friend WithEvents TextBox55 As TextBox
-    Friend WithEvents Label176 As Label
-    Friend WithEvents Label177 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents ComboBox107 As ComboBox
-    Friend WithEvents Label60 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox158 As TextBox
     Friend WithEvents ComboBox17 As ComboBox
     Friend WithEvents ComboBox18 As ComboBox
     Friend WithEvents ComboBox19 As ComboBox
     Friend WithEvents Label477 As Label
     Friend WithEvents Label487 As Label
-    Friend WithEvents Label203 As Label
-    Friend WithEvents ComboBox32 As ComboBox
-    Friend WithEvents ComboBox28 As ComboBox
-    Friend WithEvents ComboBox31 As ComboBox
-    Friend WithEvents ComboBox30 As ComboBox
-    Friend WithEvents ComboBox27 As ComboBox
-    Friend WithEvents ComboBox29 As ComboBox
-    Friend WithEvents ComboBox24 As ComboBox
-    Friend WithEvents ComboBox23 As ComboBox
-    Friend WithEvents ComboBox22 As ComboBox
-    Friend WithEvents TextBox128 As TextBox
-    Friend WithEvents TextBox89 As TextBox
-    Friend WithEvents Label201 As Label
-    Friend WithEvents Label193 As Label
-    Friend WithEvents DateTimePicker26 As DateTimePicker
-    Friend WithEvents Label226 As Label
-    Friend WithEvents TextBox39 As TextBox
-    Friend WithEvents ComboBox20 As ComboBox
-    Friend WithEvents ComboBox21 As ComboBox
-    Friend WithEvents ComboBox46 As ComboBox
-    Friend WithEvents Label186 As Label
-    Friend WithEvents Label36 As Label
-    Friend WithEvents Label202 As Label
-    Friend WithEvents Label38 As Label
-    Friend WithEvents Label204 As Label
-    Friend WithEvents TextBox91 As TextBox
-    Friend WithEvents Button9 As Button
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label9 As Label
     Friend WithEvents ToolTip1 As ToolTip
-    Friend WithEvents Label18 As Label
     Friend WithEvents Panel11 As Panel
     Friend WithEvents Panel12 As Panel
     Friend WithEvents Label163 As Label
@@ -21536,25 +22499,6 @@ Partial Class MP
     Friend WithEvents Label466 As Label
     Friend WithEvents Panel16 As Panel
     Friend WithEvents Label21 As Label
-    Friend WithEvents Label41 As Label
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents DateTimePicker93 As DateTimePicker
-    Friend WithEvents DateTimePicker94 As DateTimePicker
-    Friend WithEvents DateTimePicker95 As DateTimePicker
-    Friend WithEvents DateTimePicker96 As DateTimePicker
-    Friend WithEvents Label58 As Label
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox6 As CheckBox
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents Label59 As Label
-    Friend WithEvents Label42 As Label
     Friend WithEvents CheckedListBox5 As CheckedListBox
     Friend WithEvents Panel3 As Panel
     Friend WithEvents TextBox2 As TextBox
@@ -21637,14 +22581,10 @@ Partial Class MP
     Friend WithEvents TextBox141 As TextBox
     Friend WithEvents TextBox144 As TextBox
     Friend WithEvents TextBox145 As TextBox
-    Friend WithEvents TextBox146 As TextBox
     Friend WithEvents TextBox147 As TextBox
     Friend WithEvents TextBox148 As TextBox
-    Friend WithEvents TextBox151 As TextBox
     Friend WithEvents Label151 As Label
     Friend WithEvents TextBox152 As TextBox
-    Friend WithEvents Label153 As Label
-    Friend WithEvents Label73 As Label
     Friend WithEvents Label190 As Label
     Friend WithEvents Label189 As Label
     Friend WithEvents Label183 As Label
@@ -21653,9 +22593,7 @@ Partial Class MP
     Friend WithEvents Label191 As Label
     Friend WithEvents TextBox131 As TextBox
     Friend WithEvents TextBox126 As TextBox
-    Friend WithEvents Label294 As Label
     Friend WithEvents Label216 As Label
-    Friend WithEvents Label293 As Label
     Friend WithEvents Label292 As Label
     Friend WithEvents TextBox150 As TextBox
     Friend WithEvents TextBox149 As TextBox
@@ -21693,31 +22631,11 @@ Partial Class MP
     Friend WithEvents Button32 As Button
     Friend WithEvents Panel58 As Panel
     Friend WithEvents Label389 As Label
-    Friend WithEvents Panel156 As Panel
-    Friend WithEvents Label392 As Label
-    Friend WithEvents RadioButton14 As RadioButton
-    Friend WithEvents RadioButton15 As RadioButton
-    Friend WithEvents Panel157 As Panel
-    Friend WithEvents Panel158 As Panel
-    Friend WithEvents Label396 As Label
-    Friend WithEvents RadioButton67 As RadioButton
-    Friend WithEvents RadioButton68 As RadioButton
     Friend WithEvents Panel159 As Panel
     Friend WithEvents Label394 As Label
     Friend WithEvents RadioButton64 As RadioButton
     Friend WithEvents RadioButton65 As RadioButton
-    Friend WithEvents Panel161 As Panel
-    Friend WithEvents DateTimePicker15 As DateTimePicker
-    Friend WithEvents TextBox33 As TextBox
-    Friend WithEvents TextBox37 As TextBox
-    Friend WithEvents TextBox36 As TextBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Panel160 As Panel
     Friend WithEvents Panel166 As Panel
-    Friend WithEvents Panel167 As Panel
-    Friend WithEvents Label397 As Label
-    Friend WithEvents RadioButton69 As RadioButton
-    Friend WithEvents RadioButton70 As RadioButton
     Friend WithEvents Panel168 As Panel
     Friend WithEvents Panel169 As Panel
     Friend WithEvents Label400 As Label
@@ -21738,10 +22656,346 @@ Partial Class MP
     Friend WithEvents Label403 As Label
     Friend WithEvents RadioButton77 As RadioButton
     Friend WithEvents RadioButton78 As RadioButton
-    Friend WithEvents MPCodigoCorto As DataGridViewComboBoxColumn
+    Friend WithEvents CheckBox30 As CheckBox
+    Friend WithEvents CheckBox29 As CheckBox
+    Friend WithEvents CheckBox28 As CheckBox
+    Friend WithEvents ComboBox39 As ComboBox
+    Friend WithEvents Label196 As Label
+    Friend WithEvents Label165 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents RadioButton79 As RadioButton
+    Friend WithEvents RadioButton80 As RadioButton
+    Friend WithEvents RadioButton81 As RadioButton
+    Friend WithEvents RadioButton82 As RadioButton
+    Friend WithEvents DateTimePicker11 As DateTimePicker
+    Friend WithEvents DateTimePicker12 As DateTimePicker
+    Friend WithEvents DateTimePicker13 As DateTimePicker
+    Friend WithEvents DateTimePicker16 As DateTimePicker
+    Friend WithEvents Label58 As Label
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button16 As Button
+    Friend WithEvents Button17 As Button
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label59 As Label
+    Friend WithEvents Panel14 As Panel
+    Friend WithEvents RadioButton83 As RadioButton
+    Friend WithEvents RadioButton84 As RadioButton
+    Friend WithEvents RadioButton85 As RadioButton
+    Friend WithEvents RadioButton86 As RadioButton
+    Friend WithEvents CheckedListBox3 As CheckedListBox
+    Friend WithEvents DateTimePicker17 As DateTimePicker
+    Friend WithEvents DateTimePicker18 As DateTimePicker
+    Friend WithEvents DateTimePicker19 As DateTimePicker
+    Friend WithEvents DateTimePicker21 As DateTimePicker
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label396 As Label
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Button36 As Button
+    Friend WithEvents Button37 As Button
+    Friend WithEvents Button38 As Button
+    Friend WithEvents Panel138 As Panel
+    Friend WithEvents Label406 As Label
+    Friend WithEvents Label203 As Label
+    Friend WithEvents ComboBox32 As ComboBox
+    Friend WithEvents ComboBox28 As ComboBox
+    Friend WithEvents ComboBox31 As ComboBox
+    Friend WithEvents ComboBox30 As ComboBox
+    Friend WithEvents ComboBox27 As ComboBox
+    Friend WithEvents ComboBox29 As ComboBox
+    Friend WithEvents ComboBox24 As ComboBox
+    Friend WithEvents ComboBox23 As ComboBox
+    Friend WithEvents ComboBox22 As ComboBox
+    Friend WithEvents TextBox128 As TextBox
+    Friend WithEvents TextBox89 As TextBox
+    Friend WithEvents Label201 As Label
+    Friend WithEvents Label193 As Label
+    Friend WithEvents DateTimePicker26 As DateTimePicker
+    Friend WithEvents Label226 As Label
+    Friend WithEvents TextBox39 As TextBox
+    Friend WithEvents ComboBox20 As ComboBox
+    Friend WithEvents ComboBox21 As ComboBox
+    Friend WithEvents ComboBox46 As ComboBox
+    Friend WithEvents Label186 As Label
+    Friend WithEvents Label36 As Label
+    Friend WithEvents Label202 As Label
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Label204 As Label
+    Friend WithEvents TextBox91 As TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label407 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label160 As Label
+    Friend WithEvents TextBox79 As TextBox
+    Friend WithEvents TextBox85 As TextBox
+    Friend WithEvents TextBox153 As TextBox
+    Friend WithEvents Panel142 As Panel
+    Friend WithEvents RadioButton69 As RadioButton
+    Friend WithEvents RadioButton70 As RadioButton
+    Friend WithEvents RadioButton87 As RadioButton
+    Friend WithEvents RadioButton88 As RadioButton
+    Friend WithEvents CheckedListBox4 As CheckedListBox
+    Friend WithEvents DateTimePicker22 As DateTimePicker
+    Friend WithEvents DateTimePicker23 As DateTimePicker
+    Friend WithEvents DateTimePicker24 As DateTimePicker
+    Friend WithEvents DateTimePicker25 As DateTimePicker
+    Friend WithEvents Label397 As Label
+    Friend WithEvents Label409 As Label
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button39 As Button
+    Friend WithEvents Button40 As Button
+    Friend WithEvents Button41 As Button
+    Friend WithEvents Panel145 As Panel
+    Friend WithEvents Label410 As Label
+    Friend WithEvents Label412 As Label
+    Friend WithEvents Label413 As Label
+    Friend WithEvents Label414 As Label
+    Friend WithEvents TextBox154 As TextBox
+    Friend WithEvents TextBox155 As TextBox
+    Friend WithEvents TextBox156 As TextBox
+    Friend WithEvents TextBox157 As TextBox
+    Friend WithEvents Label415 As Label
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents Label416 As Label
+    Friend WithEvents Button42 As Button
+    Friend WithEvents ComboBox86 As ComboBox
+    Friend WithEvents Label311 As Label
+    Friend WithEvents Label312 As Label
+    Friend WithEvents TextBox108 As TextBox
+    Friend WithEvents PreOC As TabPage
+    Friend WithEvents Panel160 As Panel
+    Friend WithEvents Panel186 As Panel
+    Friend WithEvents Label483 As Label
+    Friend WithEvents DataGridView2 As DataGridView
+    Friend WithEvents ComboBox40 As ComboBox
+    Friend WithEvents Panel164 As Panel
+    Friend WithEvents RadioButton89 As RadioButton
+    Friend WithEvents RadioButton90 As RadioButton
+    Friend WithEvents RadioButton91 As RadioButton
+    Friend WithEvents RadioButton92 As RadioButton
+    Friend WithEvents DateTimePicker28 As DateTimePicker
+    Friend WithEvents DateTimePicker29 As DateTimePicker
+    Friend WithEvents DateTimePicker41 As DateTimePicker
+    Friend WithEvents DateTimePicker42 As DateTimePicker
+    Friend WithEvents Label418 As Label
+    Friend WithEvents Button44 As Button
+    Friend WithEvents Button45 As Button
+    Friend WithEvents Button46 As Button
+    Friend WithEvents Button48 As Button
+    Friend WithEvents Panel167 As Panel
+    Friend WithEvents Label419 As Label
+    Friend WithEvents CheckedListBox6 As CheckedListBox
+    Friend WithEvents TextBox171 As TextBox
+    Friend WithEvents TextBox151 As TextBox
+    Friend WithEvents TextBox159 As TextBox
+    Friend WithEvents TextBox170 As TextBox
+    Friend WithEvents TextBox160 As TextBox
+    Friend WithEvents TextBox161 As TextBox
+    Friend WithEvents Label417 As Label
+    Friend WithEvents Label427 As Label
+    Friend WithEvents Label428 As Label
+    Friend WithEvents Label420 As Label
+    Friend WithEvents ComboBox41 As ComboBox
+    Friend WithEvents ComboBox43 As ComboBox
+    Friend WithEvents ComboBox42 As ComboBox
+    Friend WithEvents Panel26 As Panel
+    Friend WithEvents Panel59 As Panel
+    Friend WithEvents RadioButton9 As RadioButton
+    Friend WithEvents RadioButton8 As RadioButton
+    Friend WithEvents Panel28 As Panel
+    Friend WithEvents RadioButton18 As RadioButton
+    Friend WithEvents RadioButton19 As RadioButton
+    Friend WithEvents Label154 As Label
+    Friend WithEvents Panel29 As Panel
+    Friend WithEvents RadioButton11 As RadioButton
+    Friend WithEvents RadioButton10 As RadioButton
+    Friend WithEvents TextBox46 As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Panel156 As Panel
+    Friend WithEvents Label392 As Label
+    Friend WithEvents RadioButton14 As RadioButton
+    Friend WithEvents RadioButton15 As RadioButton
+    Friend WithEvents Label8 As Label
+    Friend WithEvents TextBox158 As TextBox
+    Friend WithEvents Panel27 As Panel
+    Friend WithEvents Label194 As Label
+    Friend WithEvents Label195 As Label
+    Friend WithEvents ComboBox26 As ComboBox
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents ComboBox12 As ComboBox
+    Friend WithEvents TextBox232 As TextBox
+    Friend WithEvents TextBox231 As TextBox
+    Friend WithEvents TextBox34 As TextBox
+    Friend WithEvents TextBox235 As TextBox
+    Friend WithEvents TextBox234 As TextBox
+    Friend WithEvents TextBox226 As TextBox
+    Friend WithEvents ComboBox34 As ComboBox
+    Friend WithEvents ComboBox7 As ComboBox
+    Friend WithEvents ComboBox6 As ComboBox
+    Friend WithEvents ComboBox37 As ComboBox
+    Friend WithEvents ComboBox36 As ComboBox
+    Friend WithEvents ComboBox38 As ComboBox
+    Friend WithEvents ComboBox35 As ComboBox
+    Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents TextBox225 As TextBox
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label395 As Label
+    Friend WithEvents Label162 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label164 As Label
+    Friend WithEvents Label463 As Label
+    Friend WithEvents Label461 As Label
+    Friend WithEvents TextBox32 As TextBox
+    Friend WithEvents Label453 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents ComboBox44 As ComboBox
+    Friend WithEvents Panel176 As Panel
+    Friend WithEvents Panel178 As Panel
+    Friend WithEvents Panel177 As Panel
+    Friend WithEvents Label46 As Label
+    Friend WithEvents Label156 As Label
+    Friend WithEvents TextBox56 As TextBox
+    Friend WithEvents TextBox14 As TextBox
+    Friend WithEvents TextBox35 As TextBox
+    Friend WithEvents TextBox54 As TextBox
+    Friend WithEvents Label60 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TextBox166 As TextBox
+    Friend WithEvents TextBox165 As TextBox
+    Friend WithEvents TextBox164 As TextBox
+    Friend WithEvents Label74 As Label
+    Friend WithEvents TextBox163 As TextBox
+    Friend WithEvents Label68 As Label
+    Friend WithEvents Label66 As Label
+    Friend WithEvents Label64 As Label
+    Friend WithEvents TextBox29 As TextBox
+    Friend WithEvents Label56 As Label
+    Friend WithEvents TextBox28 As TextBox
+    Friend WithEvents Label54 As Label
+    Friend WithEvents ComboBox45 As ComboBox
+    Friend WithEvents ComboBox48 As ComboBox
+    Friend WithEvents ComboBox47 As ComboBox
+    Friend WithEvents PreOCPedidoN As DataGridViewTextBoxColumn
+    Friend WithEvents NombreFabrica As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewComboBoxColumn1 As DataGridViewComboBoxColumn
+    Friend WithEvents TonPedido As DataGridViewTextBoxColumn
+    Friend WithEvents NonbreMP As DataGridViewComboBoxColumn
+    Friend WithEvents MPGramaje As DataGridViewComboBoxColumn
+    Friend WithEvents MPum As DataGridViewComboBoxColumn
+    Friend WithEvents Puntos As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn1 As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewComboBoxColumn2 As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn34 As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn35 As DataGridViewComboBoxColumn
+    Friend WithEvents TonUSS As DataGridViewTextBoxColumn
+    Friend WithEvents TotalTonUSS As DataGridViewTextBoxColumn
+    Friend WithEvents ClientesUtiliza As DataGridViewTextBoxColumn
+    Friend WithEvents RigidezMD As DataGridViewComboBoxColumn
+    Friend WithEvents RigidezCD As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn6 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn11 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn29 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn30 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn31 As DataGridViewTextBoxColumn
+    Friend WithEvents Button113 As Button
+    Friend WithEvents Button117 As Button
+    Friend WithEvents Button124 As Button
+    Friend WithEvents Button163 As Button
+    Friend WithEvents Button164 As Button
+    Friend WithEvents Button165 As Button
+    Friend WithEvents Button72 As Button
+    Friend WithEvents Button73 As Button
+    Friend WithEvents Button75 As Button
+    Friend WithEvents Button76 As Button
+    Friend WithEvents Button77 As Button
+    Friend WithEvents Button78 As Button
+    Friend WithEvents Panel157 As Panel
+    Friend WithEvents CheckBox185 As CheckBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents CheckBox192 As CheckBox
+    Friend WithEvents CheckBox190 As CheckBox
+    Friend WithEvents CheckBox189 As CheckBox
+    Friend WithEvents CheckBox188 As CheckBox
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents CheckedListBox2 As CheckedListBox
+    Friend WithEvents Panel60 As Panel
+    Friend WithEvents DateTimePicker9 As DateTimePicker
+    Friend WithEvents DateTimePicker10 As DateTimePicker
+    Friend WithEvents Panel158 As Panel
+    Friend WithEvents Label214 As Label
+    Friend WithEvents Panel181 As Panel
+    Friend WithEvents DateTimePicker43 As DateTimePicker
+    Friend WithEvents DateTimePicker44 As DateTimePicker
+    Friend WithEvents DateTimePicker45 As DateTimePicker
+    Friend WithEvents DateTimePicker46 As DateTimePicker
+    Friend WithEvents Label215 As Label
+    Friend WithEvents CheckBox6 As CheckBox
+    Friend WithEvents CheckBox11 As CheckBox
+    Friend WithEvents CheckBox12 As CheckBox
+    Friend WithEvents CheckBox13 As CheckBox
+    Friend WithEvents Button30 As Button
+    Friend WithEvents Button31 As Button
+    Friend WithEvents Button35 As Button
+    Friend WithEvents Button94 As Button
+    Friend WithEvents Panel182 As Panel
+    Friend WithEvents Label217 As Label
+    Friend WithEvents Panel183 As Panel
+    Friend WithEvents Panel184 As Panel
+    Friend WithEvents Label381 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents TextBox27 As TextBox
+    Friend WithEvents TextBox33 As TextBox
+    Friend WithEvents TextBox40 As TextBox
+    Friend WithEvents TextBox83 As TextBox
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Label41 As Label
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label213 As Label
+    Friend WithEvents TextBox36 As TextBox
+    Friend WithEvents TextBox37 As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents TextBox38 As TextBox
+    Friend WithEvents Button14 As Button
+    Friend WithEvents ComboBox11 As ComboBox
+    Friend WithEvents CheckBox24 As CheckBox
+    Friend WithEvents CheckBox43 As CheckBox
+    Friend WithEvents CheckBox44 As CheckBox
+    Friend WithEvents CheckBox130 As CheckBox
+    Friend WithEvents TextBox47 As TextBox
+    Friend WithEvents TextBox84 As TextBox
+    Friend WithEvents TextBox98 As TextBox
+    Friend WithEvents TextBox133 As TextBox
+    Friend WithEvents TextBox138 As TextBox
+    Friend WithEvents TextBox179 As TextBox
+    Friend WithEvents TextBox180 As TextBox
+    Friend WithEvents TextBox181 As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label61 As Label
+    Friend WithEvents Label188 As Label
+    Friend WithEvents ComboBox13 As ComboBox
+    Friend WithEvents Label19 As Label
+    Friend WithEvents ComboBox16 As ComboBox
+    Friend WithEvents ComboBox15 As ComboBox
+    Friend WithEvents ComboBox14 As ComboBox
+    Friend WithEvents Label221 As Label
+    Friend WithEvents Label218 As Label
+    Friend WithEvents Label167 As Label
+    Friend WithEvents Label235 As Label
+    Friend WithEvents ComboBox49 As ComboBox
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents EntradaNumero As DataGridViewTextBoxColumn
     Friend WithEvents MPPresupuestoN As DataGridViewTextBoxColumn
     Friend WithEvents MPOrdenCompraN As DataGridViewTextBoxColumn
     Friend WithEvents MPFacturaN As DataGridViewTextBoxColumn
+    Friend WithEvents EmbarqueBLNumero As DataGridViewTextBoxColumn
+    Friend WithEvents DespachoNumrto As DataGridViewTextBoxColumn
+    Friend WithEvents EstacionEntrada As DataGridViewComboBoxColumn
+    Friend WithEvents MPCodigoCorto As DataGridViewComboBoxColumn
+    Friend WithEvents NombreMPProveedor As DataGridViewComboBoxColumn
     Friend WithEvents MPTotalGsFactura As DataGridViewTextBoxColumn
     Friend WithEvents MPTotalUnidadesFactura As DataGridViewTextBoxColumn
     Friend WithEvents MPCantidadUnidades As DataGridViewTextBoxColumn
@@ -21750,33 +23004,35 @@ Partial Class MP
     Friend WithEvents MPTotalitemsGuaranies As DataGridViewTextBoxColumn
     Friend WithEvents MPTotalTotalGs As DataGridViewTextBoxColumn
     Friend WithEvents MPTotalTotalUnidades As DataGridViewTextBoxColumn
-    Friend WithEvents MPNombreQR As DataGridViewTextBoxColumn
     Friend WithEvents MPNombreQRNumero As DataGridViewTextBoxColumn
-    Friend WithEvents MPBobinaN As DataGridViewTextBoxColumn
-    Friend WithEvents MPConFSC As DataGridViewCheckBoxColumn
-    Friend WithEvents ISO22000 As DataGridViewComboBoxColumn
+    Friend WithEvents MPConFSC As DataGridViewComboBoxColumn
+    Friend WithEvents MPcertificado As DataGridViewComboBoxColumn
     Friend WithEvents MPLoteN As DataGridViewTextBoxColumn
     Friend WithEvents MPVencimiento As DataGridViewTextBoxColumn
-    Friend WithEvents MPDiametroCm As DataGridViewTextBoxColumn
-    Friend WithEvents MPConoCm As DataGridViewTextBoxColumn
+    Friend WithEvents MPDiametroCm As DataGridViewComboBoxColumn
+    Friend WithEvents MPConoCm As DataGridViewComboBoxColumn
     Friend WithEvents MPOtN As DataGridViewTextBoxColumn
-    Friend WithEvents CheckBox30 As CheckBox
-    Friend WithEvents CheckBox29 As CheckBox
-    Friend WithEvents CheckBox28 As CheckBox
-    Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents ComboBox6 As ComboBox
-    Friend WithEvents ComboBox7 As ComboBox
-    Friend WithEvents Label405 As Label
-    Friend WithEvents ComboBox34 As ComboBox
-    Friend WithEvents TextBox232 As TextBox
-    Friend WithEvents ComboBox35 As ComboBox
-    Friend WithEvents ComboBox36 As ComboBox
-    Friend WithEvents ComboBox37 As ComboBox
-    Friend WithEvents ComboBox38 As ComboBox
-    Friend WithEvents Button144 As Button
-    Friend WithEvents Button148 As Button
-    Friend WithEvents Button147 As Button
-    Friend WithEvents Button146 As Button
-    Friend WithEvents Button145 As Button
-    Friend WithEvents ComboBox39 As ComboBox
+    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn22 As DataGridViewComboBoxColumn
+    Friend WithEvents EstacionSalida As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewComboBoxColumn3 As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewComboBoxColumn4 As DataGridViewComboBoxColumn
+    Friend WithEvents TurnoSalidaMP As DataGridViewTextBoxColumn
+    Friend WithEvents Maquina As DataGridViewComboBoxColumn
+    Friend WithEvents Maquinista As DataGridViewComboBoxColumn
+    Friend WithEvents SalidaKilos As DataGridViewTextBoxColumn
+    Friend WithEvents StockKilos As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn18 As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn20 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewComboBoxColumn5 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewComboBoxColumn6 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn21 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewComboBoxColumn7 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewComboBoxColumn8 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn5 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn7 As DataGridViewTextBoxColumn
+    Friend WithEvents PictureBox6 As PictureBox
 End Class

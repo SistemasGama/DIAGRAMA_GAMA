@@ -27,7 +27,12 @@ Partial Class CLIENTE
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Panel23 = New System.Windows.Forms.Panel()
+        Me.Panel166 = New System.Windows.Forms.Panel()
         Me.TextBox137 = New System.Windows.Forms.TextBox()
+        Me.Panel167 = New System.Windows.Forms.Panel()
+        Me.Label397 = New System.Windows.Forms.Label()
+        Me.RadioButton69 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton70 = New System.Windows.Forms.RadioButton()
         Me.TextBox134 = New System.Windows.Forms.TextBox()
         Me.TextBox158 = New System.Windows.Forms.TextBox()
         Me.TextBox22 = New System.Windows.Forms.TextBox()
@@ -608,14 +613,18 @@ Partial Class CLIENTE
         Me.Label169 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Panel166 = New System.Windows.Forms.Panel()
-        Me.Panel167 = New System.Windows.Forms.Panel()
-        Me.Label397 = New System.Windows.Forms.Label()
-        Me.RadioButton69 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton70 = New System.Windows.Forms.RadioButton()
+        Me.ComboBox16 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox15 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
+        Me.Label221 = New System.Windows.Forms.Label()
+        Me.Label218 = New System.Windows.Forms.Label()
+        Me.ComboBox13 = New System.Windows.Forms.ComboBox()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label48 = New System.Windows.Forms.Label()
         Me.TabPage3.SuspendLayout
         Me.Panel3.SuspendLayout
         Me.Panel23.SuspendLayout
+        Me.Panel167.SuspendLayout
         Me.Panel22.SuspendLayout
         Me.Panel36.SuspendLayout
         Me.Panel35.SuspendLayout
@@ -698,7 +707,6 @@ Partial Class CLIENTE
         Me.Panel46.SuspendLayout
         Me.Panel79.SuspendLayout
         Me.Panel56.SuspendLayout
-        Me.Panel167.SuspendLayout
         Me.SuspendLayout
         '
         'TabPage3
@@ -869,6 +877,14 @@ Partial Class CLIENTE
         Me.Panel23.Size = New System.Drawing.Size(1880, 621)
         Me.Panel23.TabIndex = 160
         '
+        'Panel166
+        '
+        Me.Panel166.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel166.Location = New System.Drawing.Point(1228, 476)
+        Me.Panel166.Name = "Panel166"
+        Me.Panel166.Size = New System.Drawing.Size(249, 34)
+        Me.Panel166.TabIndex = 689
+        '
         'TextBox137
         '
         Me.TextBox137.BackColor = System.Drawing.Color.White
@@ -881,6 +897,58 @@ Partial Class CLIENTE
         Me.TextBox137.Text = "0.000"
         Me.TextBox137.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.ToolTip1.SetToolTip(Me.TextBox137, "Gs x atraso en el pago.")
+        '
+        'Panel167
+        '
+        Me.Panel167.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel167.Controls.Add(Me.Label397)
+        Me.Panel167.Controls.Add(Me.RadioButton69)
+        Me.Panel167.Controls.Add(Me.RadioButton70)
+        Me.Panel167.Location = New System.Drawing.Point(1078, 437)
+        Me.Panel167.Name = "Panel167"
+        Me.Panel167.Size = New System.Drawing.Size(249, 34)
+        Me.Panel167.TabIndex = 690
+        '
+        'Label397
+        '
+        Me.Label397.AutoSize = True
+        Me.Label397.BackColor = System.Drawing.Color.Transparent
+        Me.Label397.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label397.Location = New System.Drawing.Point(10, 6)
+        Me.Label397.Name = "Label397"
+        Me.Label397.Size = New System.Drawing.Size(112, 24)
+        Me.Label397.TabIndex = 21
+        Me.Label397.Text = "Stock Lok:"
+        '
+        'RadioButton69
+        '
+        Me.RadioButton69.AutoSize = True
+        Me.RadioButton69.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton69.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton69.ForeColor = System.Drawing.Color.Black
+        Me.RadioButton69.Location = New System.Drawing.Point(127, 4)
+        Me.RadioButton69.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton69.Name = "RadioButton69"
+        Me.RadioButton69.Size = New System.Drawing.Size(53, 28)
+        Me.RadioButton69.TabIndex = 162
+        Me.RadioButton69.Text = "Si"
+        Me.RadioButton69.UseVisualStyleBackColor = False
+        '
+        'RadioButton70
+        '
+        Me.RadioButton70.AutoSize = True
+        Me.RadioButton70.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton70.Checked = True
+        Me.RadioButton70.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.RadioButton70.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton70.Location = New System.Drawing.Point(183, 6)
+        Me.RadioButton70.Margin = New System.Windows.Forms.Padding(4)
+        Me.RadioButton70.Name = "RadioButton70"
+        Me.RadioButton70.Size = New System.Drawing.Size(61, 28)
+        Me.RadioButton70.TabIndex = 163
+        Me.RadioButton70.TabStop = True
+        Me.RadioButton70.Text = "No"
+        Me.RadioButton70.UseVisualStyleBackColor = False
         '
         'TextBox134
         '
@@ -2724,6 +2792,14 @@ Partial Class CLIENTE
         '
         Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel5.Controls.Add(Me.ComboBox16)
+        Me.Panel5.Controls.Add(Me.ComboBox15)
+        Me.Panel5.Controls.Add(Me.ComboBox14)
+        Me.Panel5.Controls.Add(Me.Label221)
+        Me.Panel5.Controls.Add(Me.Label218)
+        Me.Panel5.Controls.Add(Me.ComboBox13)
+        Me.Panel5.Controls.Add(Me.Label42)
+        Me.Panel5.Controls.Add(Me.Label48)
         Me.Panel5.Controls.Add(Me.PictureBox1)
         Me.Panel5.Controls.Add(Me.Label173)
         Me.Panel5.Controls.Add(Me.ComboBox35)
@@ -8365,65 +8441,110 @@ Partial Class CLIENTE
         Me.Label1.Size = New System.Drawing.Size(0, 33)
         Me.Label1.TabIndex = 15
         '
-        'Panel166
+        'ComboBox16
         '
-        Me.Panel166.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel166.Location = New System.Drawing.Point(1228, 476)
-        Me.Panel166.Name = "Panel166"
-        Me.Panel166.Size = New System.Drawing.Size(249, 34)
-        Me.Panel166.TabIndex = 689
+        Me.ComboBox16.BackColor = System.Drawing.Color.White
+        Me.ComboBox16.DropDownWidth = 272
+        Me.ComboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox16.FormattingEnabled = True
+        Me.ComboBox16.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox16.Location = New System.Drawing.Point(1705, 104)
+        Me.ComboBox16.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox16.Name = "ComboBox16"
+        Me.ComboBox16.Size = New System.Drawing.Size(150, 32)
+        Me.ComboBox16.TabIndex = 712
         '
-        'Panel167
+        'ComboBox15
         '
-        Me.Panel167.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.Panel167.Controls.Add(Me.Label397)
-        Me.Panel167.Controls.Add(Me.RadioButton69)
-        Me.Panel167.Controls.Add(Me.RadioButton70)
-        Me.Panel167.Location = New System.Drawing.Point(1078, 437)
-        Me.Panel167.Name = "Panel167"
-        Me.Panel167.Size = New System.Drawing.Size(249, 34)
-        Me.Panel167.TabIndex = 690
+        Me.ComboBox15.BackColor = System.Drawing.Color.White
+        Me.ComboBox15.DropDownWidth = 272
+        Me.ComboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox15.FormattingEnabled = True
+        Me.ComboBox15.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox15.Location = New System.Drawing.Point(1424, 104)
+        Me.ComboBox15.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox15.Name = "ComboBox15"
+        Me.ComboBox15.Size = New System.Drawing.Size(140, 32)
+        Me.ComboBox15.TabIndex = 713
         '
-        'Label397
+        'ComboBox14
         '
-        Me.Label397.AutoSize = True
-        Me.Label397.BackColor = System.Drawing.Color.Transparent
-        Me.Label397.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label397.Location = New System.Drawing.Point(10, 6)
-        Me.Label397.Name = "Label397"
-        Me.Label397.Size = New System.Drawing.Size(112, 24)
-        Me.Label397.TabIndex = 21
-        Me.Label397.Text = "Stock Lok:"
+        Me.ComboBox14.BackColor = System.Drawing.Color.White
+        Me.ComboBox14.DropDownWidth = 272
+        Me.ComboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox14.FormattingEnabled = True
+        Me.ComboBox14.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox14.Location = New System.Drawing.Point(1115, 104)
+        Me.ComboBox14.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox14.Name = "ComboBox14"
+        Me.ComboBox14.Size = New System.Drawing.Size(139, 32)
+        Me.ComboBox14.TabIndex = 714
         '
-        'RadioButton69
+        'Label221
         '
-        Me.RadioButton69.AutoSize = True
-        Me.RadioButton69.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton69.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton69.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton69.Location = New System.Drawing.Point(127, 4)
-        Me.RadioButton69.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton69.Name = "RadioButton69"
-        Me.RadioButton69.Size = New System.Drawing.Size(53, 28)
-        Me.RadioButton69.TabIndex = 162
-        Me.RadioButton69.Text = "Si"
-        Me.RadioButton69.UseVisualStyleBackColor = False
+        Me.Label221.BackColor = System.Drawing.Color.Transparent
+        Me.Label221.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label221.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label221.Location = New System.Drawing.Point(1606, 107)
+        Me.Label221.Name = "Label221"
+        Me.Label221.Size = New System.Drawing.Size(85, 26)
+        Me.Label221.TabIndex = 708
+        Me.Label221.Text = "LLega:"
+        Me.Label221.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'RadioButton70
+        'Label218
         '
-        Me.RadioButton70.AutoSize = True
-        Me.RadioButton70.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton70.Checked = True
-        Me.RadioButton70.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.RadioButton70.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton70.Location = New System.Drawing.Point(183, 6)
-        Me.RadioButton70.Margin = New System.Windows.Forms.Padding(4)
-        Me.RadioButton70.Name = "RadioButton70"
-        Me.RadioButton70.Size = New System.Drawing.Size(61, 28)
-        Me.RadioButton70.TabIndex = 163
-        Me.RadioButton70.TabStop = True
-        Me.RadioButton70.Text = "No"
-        Me.RadioButton70.UseVisualStyleBackColor = False
+        Me.Label218.BackColor = System.Drawing.Color.Transparent
+        Me.Label218.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label218.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label218.Location = New System.Drawing.Point(1296, 107)
+        Me.Label218.Name = "Label218"
+        Me.Label218.Size = New System.Drawing.Size(114, 26)
+        Me.Label218.TabIndex = 709
+        Me.Label218.Text = "Embarco:"
+        Me.Label218.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'ComboBox13
+        '
+        Me.ComboBox13.BackColor = System.Drawing.Color.White
+        Me.ComboBox13.DropDownWidth = 272
+        Me.ComboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox13.FormattingEnabled = True
+        Me.ComboBox13.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox13.Location = New System.Drawing.Point(844, 104)
+        Me.ComboBox13.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox13.Name = "ComboBox13"
+        Me.ComboBox13.Size = New System.Drawing.Size(138, 32)
+        Me.ComboBox13.TabIndex = 715
+        Me.ToolTip1.SetToolTip(Me.ComboBox13, "Me que realiso el pedido.")
+        '
+        'Label42
+        '
+        Me.Label42.BackColor = System.Drawing.Color.Transparent
+        Me.Label42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label42.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(1005, 107)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(96, 26)
+        Me.Label42.TabIndex = 710
+        Me.Label42.Text = "Fabrico:"
+        Me.Label42.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label48
+        '
+        Me.Label48.BackColor = System.Drawing.Color.Transparent
+        Me.Label48.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label48.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.Location = New System.Drawing.Point(762, 107)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(72, 26)
+        Me.Label48.TabIndex = 711
+        Me.Label48.Text = "Pidio:"
+        Me.Label48.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'CLIENTE
         '
@@ -8440,6 +8561,8 @@ Partial Class CLIENTE
         Me.Panel3.PerformLayout
         Me.Panel23.ResumeLayout(False)
         Me.Panel23.PerformLayout
+        Me.Panel167.ResumeLayout(False)
+        Me.Panel167.PerformLayout
         Me.Panel22.ResumeLayout(False)
         Me.Panel22.PerformLayout
         Me.Panel36.ResumeLayout(False)
@@ -8578,8 +8701,6 @@ Partial Class CLIENTE
         Me.Panel79.PerformLayout
         Me.Panel56.ResumeLayout(False)
         Me.Panel56.PerformLayout
-        Me.Panel167.ResumeLayout(False)
-        Me.Panel167.PerformLayout
         Me.ResumeLayout(False)
         Me.PerformLayout
 
@@ -9173,4 +9294,12 @@ Partial Class CLIENTE
     Friend WithEvents Label397 As Label
     Friend WithEvents RadioButton69 As RadioButton
     Friend WithEvents RadioButton70 As RadioButton
+    Friend WithEvents ComboBox16 As ComboBox
+    Friend WithEvents ComboBox15 As ComboBox
+    Friend WithEvents ComboBox14 As ComboBox
+    Friend WithEvents Label221 As Label
+    Friend WithEvents Label218 As Label
+    Friend WithEvents ComboBox13 As ComboBox
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label48 As Label
 End Class
