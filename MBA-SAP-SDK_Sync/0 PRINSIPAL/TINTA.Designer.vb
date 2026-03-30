@@ -130,7 +130,6 @@ Partial Class TINTA
         Me.Panel27 = New System.Windows.Forms.Panel()
         Me.Label90 = New System.Windows.Forms.Label()
         Me.Panel34 = New System.Windows.Forms.Panel()
-        Me.TextBox126 = New System.Windows.Forms.TextBox()
         Me.Label351 = New System.Windows.Forms.Label()
         Me.Label105 = New System.Windows.Forms.Label()
         Me.RadioButton13 = New System.Windows.Forms.RadioButton()
@@ -645,6 +644,8 @@ Partial Class TINTA
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.ComboBox93 = New System.Windows.Forms.ComboBox()
+        Me.Label257 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout
         Me.Panel75.SuspendLayout
         Me.Panel1.SuspendLayout
@@ -803,7 +804,7 @@ Partial Class TINTA
         Me.Panel5.Controls.Add(Me.Panel26)
         Me.Panel5.Controls.Add(Me.Panel34)
         Me.Panel5.Controls.Add(Me.Panel36)
-        Me.Panel5.Location = New System.Drawing.Point(183, 46)
+        Me.Panel5.Location = New System.Drawing.Point(3, 111)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(1859, 899)
         Me.Panel5.TabIndex = 208
@@ -2167,7 +2168,8 @@ Partial Class TINTA
         '
         Me.Panel34.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel34.Controls.Add(Me.TextBox126)
+        Me.Panel34.Controls.Add(Me.ComboBox93)
+        Me.Panel34.Controls.Add(Me.Label257)
         Me.Panel34.Controls.Add(Me.Label351)
         Me.Panel34.Controls.Add(Me.Label105)
         Me.Panel34.Controls.Add(Me.RadioButton13)
@@ -2208,16 +2210,6 @@ Partial Class TINTA
         Me.Panel34.Name = "Panel34"
         Me.Panel34.Size = New System.Drawing.Size(1813, 260)
         Me.Panel34.TabIndex = 206
-        '
-        'TextBox126
-        '
-        Me.TextBox126.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox126.ForeColor = System.Drawing.Color.Black
-        Me.TextBox126.Location = New System.Drawing.Point(318, 211)
-        Me.TextBox126.Name = "TextBox126"
-        Me.TextBox126.Size = New System.Drawing.Size(1459, 35)
-        Me.TextBox126.TabIndex = 174
-        Me.TextBox126.Text = "TOYO LIOCOLOR VERDE TKCOLOR09/L"
         '
         'Label351
         '
@@ -8943,6 +8935,33 @@ Partial Class TINTA
         Me.Label1.Size = New System.Drawing.Size(157, 33)
         Me.Label1.TabIndex = 6
         '
+        'ComboBox93
+        '
+        Me.ComboBox93.BackColor = System.Drawing.Color.White
+        Me.ComboBox93.DropDownWidth = 272
+        Me.ComboBox93.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox93.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox93.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox93.FormattingEnabled = True
+        Me.ComboBox93.Items.AddRange(New Object() {"Folia", "Hotman", "Liopack", "Lio"})
+        Me.ComboBox93.Location = New System.Drawing.Point(1246, 214)
+        Me.ComboBox93.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox93.Name = "ComboBox93"
+        Me.ComboBox93.Size = New System.Drawing.Size(224, 32)
+        Me.ComboBox93.TabIndex = 716
+        Me.ComboBox93.Text = "Folia"
+        '
+        'Label257
+        '
+        Me.Label257.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label257.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label257.Location = New System.Drawing.Point(1093, 216)
+        Me.Label257.Name = "Label257"
+        Me.Label257.Size = New System.Drawing.Size(136, 30)
+        Me.Label257.TabIndex = 715
+        Me.Label257.Text = "Tinta Familia:"
+        Me.Label257.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'TINTA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -9502,7 +9521,6 @@ Partial Class TINTA
     Friend WithEvents ComboBox44 As ComboBox
     Friend WithEvents ComboBox38 As ComboBox
     Friend WithEvents ComboBox36 As ComboBox
-    Friend WithEvents TextBox126 As TextBox
     Friend WithEvents Label351 As Label
     Friend WithEvents Panel6 As Panel
     Friend WithEvents ComboBox4 As ComboBox
@@ -9693,4 +9711,6 @@ Partial Class TINTA
     Friend WithEvents Button13 As Button
     Friend WithEvents Panel51 As Panel
     Friend WithEvents Label180 As Label
+    Friend WithEvents ComboBox93 As ComboBox
+    Friend WithEvents Label257 As Label
 End Class

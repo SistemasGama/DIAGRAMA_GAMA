@@ -6,4 +6,8 @@
     Private Sub Button148_Click(sender As Object, e As EventArgs) Handles Button148.Click
 
     End Sub
+
+    Private Sub Panel46_Paint(sender As Object, e As PaintEventArgs) Handles Panel46.Paint
+
+    End Sub
 End Class

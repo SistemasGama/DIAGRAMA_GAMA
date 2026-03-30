@@ -120,7 +120,94 @@
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="Panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="DataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewComboBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewComboBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn13.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn14.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn15.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewCheckBoxColumn16.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
@@ -184,9 +271,6 @@
         QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
 </value>
   </data>
-  <metadata name="Panel14.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="Panel14.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -262,33 +346,14 @@
   <data name="ComboBox375.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
-  <metadata name="Panel156.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="Panel7.ToolTip" xml:space="preserve">
-    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
-Ingreso por los MAQUINISTAS, y  SUPERVISORES.
-
-Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
-No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
-por no cumplir con su trabajo.
-
-Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
-1- Kilos buenos
-2- Tiradas
-3- Scrap Kilos
-
-Y al terminar darle el FIN de la estación
-Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
-EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
-  </data>
-  <data name="Button150.ToolTip" xml:space="preserve">
-    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
-Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
-
-Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
-
-</value>
+  <data name="TextBox366.ToolTip" xml:space="preserve">
+    <value>Cuando va impreso el LOGO FSC esta
+indicado por COMERCIAL en LITOPLAN.
+Aparece en la OT a lado de OT numero
+el cuadro FSCMIX en color amarillo
+Debe estar en este caso IMPRESO previa
+autorizacion de SGC que FSC autorizo tamaño
+lugar y color</value>
   </data>
   <data name="Button11.ToolTip" xml:space="preserve">
     <value>ATENCION
@@ -482,12 +547,34 @@ líneas y después todos los que tengan coincidencia de color y troquel.
   <metadata name="Panel156.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="Panel7.ToolTip" xml:space="preserve">
+    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
+Ingreso por los MAQUINISTAS, y  SUPERVISORES.
+
+Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
+No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
+por no cumplir con su trabajo.
+
+Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
+1- Kilos buenos
+2- Tiradas
+3- Scrap Kilos
+
+Y al terminar darle el FIN de la estación
+Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
+EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
+  </data>
   <metadata name="Panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel69.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="Button221.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
+  </data>
   <data name="CheckedListBox4.ToolTip" xml:space="preserve">
     <value>IMPRESION DIGITAL: Prueba con 80% de 
 aproximación al sistema OFFSET.
@@ -1205,9 +1292,6 @@ ISO 22000
 
 💡 Si quieres, puedo ayudarte también con algo muy útil para tu empresa:</value>
   </data>
-  <metadata name="Panel11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="PictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -1350,9 +1434,6 @@ ISO 22000
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
   <metadata name="Panel69.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel124.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="ComboBox231.Items" xml:space="preserve">
@@ -1679,26 +1760,6 @@ ISO 22000
         QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
 </value>
   </data>
-  <metadata name="Panel9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="Panel2.ToolTip" xml:space="preserve">
-    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
-Ingreso por los MAQUINISTAS, y  SUPERVISORES.
-
-Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
-No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
-por no cumplir con su trabajo.
-
-Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
-1- Kilos buenos
-2- Tiradas
-3- Scrap Kilos
-
-Y al terminar darle el FIN de la estación
-Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
-EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
-  </data>
   <data name="ComboBox15.ToolTip" xml:space="preserve">
     <value>Se elige la máquina que se va imprimir.
 Con la elección de la máquina, filtra todo lo que 
@@ -1793,9 +1854,23 @@ de descanso del PERSONAL.
   <metadata name="Panel9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel90.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="Panel2.ToolTip" xml:space="preserve">
+    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
+Ingreso por los MAQUINISTAS, y  SUPERVISORES.
+
+Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
+No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
+por no cumplir con su trabajo.
+
+Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
+1- Kilos buenos
+2- Tiradas
+3- Scrap Kilos
+
+Y al terminar darle el FIN de la estación
+Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
+EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
+  </data>
   <data name="PictureBox10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -1940,49 +2015,15 @@ de descanso del PERSONAL.
   <metadata name="Panel124.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="OT.ToolTip" xml:space="preserve">
-    <value> OT Digital
-Aquí está toda la información sobre la OT que se debe tener en cuenta,
- el trabajo y sobre todo LEER LAS INDICACIONES.
-Tanto por los MAQUINISTAS como por los SUPERVISORES y JEFATURAS
- para seguir correctamente las indicaciones
-
-</value>
-  </data>
-  <metadata name="Panel131.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="TextBox57.ToolTip" xml:space="preserve">
+  <data name="TextBox105.ToolTip" xml:space="preserve">
     <value>Suma la cantidad de gramos que tiene el HOJA a IMPRIMIR y resta la sumatoria 
 de todas las bocas y la diferencia da los GRAMOS de desperdicio LOGICO.
 Es la parte interna entre las cajas + los bordes cotizado.</value>
   </data>
-  <data name="CheckBox62.ToolTip" xml:space="preserve">
-    <value>La validación no permite que la lista de
- troquel de este MONTAJE sea diferente 
-COD. Troquel Cliente DIFERENTE.
-Salvo que este indicada la CASILLA "SI", 
-autoriza que sea echo troqueles diferentes,
- con el mismo color.
-
-</value>
-  </data>
-  <data name="Label587.ToolTip" xml:space="preserve">
-    <value>Validar para grabar esta OT, compuestas.
-Si una de las OT se pretende agregar un CAJA con diferente tratamiento de BARNIZ ACUOSO,
- no permite que grave y sale una advertencia que no se puede realizar 2 tipos de barniz ACUOSO en el mismo pliego.
-evitando así errores de MONTAJE
-
-</value>
-  </data>
-  <data name="Label104.ToolTip" xml:space="preserve">
-    <value>La primera línea es el N° OT de la hoja "BUSCAR Maquina o OT N°"
-En el mismo renglón están toda la info de esta OT.
-Los renglones siguientes son OT que forman parte de este montaje.
-Coinciden los COLORES y TROQUEL
-Son agregado por PRE PRENSA cuales serán agregado a este montaje
- por coincidencia en lo mencionado y cantidad.
-Las opciones que le aparece de OT estara filtrada por coincidencia de TROQUEL
+  <data name="TextBox106.ToolTip" xml:space="preserve">
+    <value>Los gamos scrap lógico calcula de la siguiente manera.
+La diferencia entre Kilos total y la multiplicación de cantidad por los Kilos por unidad, teniendo en cuenta solamente los pliegos justos para el pedido.
+Los Kilos scrap por ajuste, es la cantidad de kilos total pedido menos el total de kilos recibidos.
 
 </value>
   </data>
@@ -1994,12 +2035,46 @@ a tipo Manual 4x2x4 impresa por una cara 4x0 colores sobre papel Manual: (Ancho:
 Pegue: 1,0 / Aleta cajon: 1 / Aleta Cruz 1,5)
  Bond 60 terminado 1 cara barniz A. Brillo+UV </value>
   </data>
+  <data name="Label797.ToolTip" xml:space="preserve">
+    <value>El desarrollo se realiza con las 3 dimensiones de la caja.
+Donde la primera dimensión e:
+ANCHO
+ALTO 
+PROFUNDIDAD
+Se tienen tas 3 dimensiones de la siguiente manera:
+ANCHO es MIRANDO LA CAJA y levantando la solapa de cierre, no importa
+Como queda el texto.
+Con el mismo punto de vista el alto y la profundidad es tomada como tal.
+Trae de estas medida de DESARROLLO TROQUEL
+
+</value>
+  </data>
+  <data name="TextBox96.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+</value>
+  </data>
   <metadata name="Panel34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="TextBox131.ToolTip" xml:space="preserve">
+    <value>Cuando va impreso el LOGO FSC esta
+indicado por COMERCIAL en LITOPLAN.
+Aparece en la OT a lado de OT numero
+el cuadro FSCMIX en color amarillo
+Debe estar en este caso IMPRESO previa
+autorizacion de SGC que FSC autorizo tamaño
+lugar y color</value>
+  </data>
+  <data name="Button143.ToolTip" xml:space="preserve">
+    <value>Con este botón se llama a la planificación N° que quiere importar toda la carga de trabajo.
+También en la planilla Excel solo aparecerán lo planificado en las primeras 
+líneas y después todos los que tengan coincidencia de color y troquel.
+
+</value>
+  </data>
   <metadata name="Panel30.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2020,19 +2095,30 @@ Y al terminar darle el FIN de la estación
 Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
 EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
   </data>
-  <data name="Button143.ToolTip" xml:space="preserve">
-    <value>Con este botón se llama a la planificación N° que quiere importar toda la carga de trabajo.
-También en la planilla Excel solo aparecerán lo planificado en las primeras 
-líneas y después todos los que tengan coincidencia de color y troquel.
-
-</value>
-  </data>
-  <metadata name="Panel30.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="Panel131.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="OT.ToolTip" xml:space="preserve">
+    <value> OT Digital
+Aquí está toda la información sobre la OT que se debe tener en cuenta,
+ el trabajo y sobre todo LEER LAS INDICACIONES.
+Tanto por los MAQUINISTAS como por los SUPERVISORES y JEFATURAS
+ para seguir correctamente las indicaciones
+
+</value>
+  </data>
+  <data name="CheckedListBox5.ToolTip" xml:space="preserve">
+    <value>IMPRESION DIGITAL: Prueba con 80% de 
+aproximación al sistema OFFSET.
+
+CARPETA COLORES: carpeta firmada por el cliente.
+con colores minimo correcto y maximo.
+
+PIE IMPRESORA: cuando viene el cliente APROBAR.
+PANTALLA: cuando se sacan los colores por la PANTALLA.
+COMERCIAL: cuando aproba un COMERCIAL FIRMANDO.
+MUESTRA APORTADA: cuando trae el cliente una muestra firmada.</value>
+  </data>
   <data name="Label274.ToolTip" xml:space="preserve">
     <value>El desarrollo se realiza con las 3 dimensiones de la caja.
 Donde la primera dimensión e:
@@ -2053,21 +2139,6 @@ se guarda el arreglo del troquel / todos con el mismo número del troquel
 </value>
   </data>
   <metadata name="Panel83.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="CheckedListBox5.ToolTip" xml:space="preserve">
-    <value>IMPRESION DIGITAL: Prueba con 80% de 
-aproximación al sistema OFFSET.
-
-CARPETA COLORES: carpeta firmada por el cliente.
-con colores minimo correcto y maximo.
-
-PIE IMPRESORA: cuando viene el cliente APROBAR.
-PANTALLA: cuando se sacan los colores por la PANTALLA.
-COMERCIAL: cuando aproba un COMERCIAL FIRMANDO.
-MUESTRA APORTADA: cuando trae el cliente una muestra firmada.</value>
-  </data>
-  <metadata name="Panel87.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="PictureBox27.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -3980,25 +4051,12 @@ se hace en una nueva maquina.</value>
         w/8Arm+lWnoFhlzOYLdWG6UluQvbg1JHq0aoBulH1o/5hkv+6K57UP8Aj7f8P5VSZEtD/9k=
 </value>
   </data>
-  <data name="PLANIFICAR.ToolTip" xml:space="preserve">
-    <value>Esta ventana sirve para PLANIFICAR el trabajo.
-Permite filtrar distintos perfiles y así elegir las Órdenes de Trabajo (OT) más adecuadas para esta estación.
-No solo ayuda a esta estación, sino que también brinda información útil para facilitar el trabajo en las siguientes estaciones.
-
-Ejemplo en Impresión:
-Conviene planificar la producción agrupando trabajos en CMYK o en el mismo color.
-De esta manera se reduce el tiempo de preparación y aumenta la productividad.
-
-Pero siempre se debe pensar en las estaciones siguientes:
-TROQUELADO, SELECCIÓN y PEGADO, donde conviene utilizar los mismos troqueles para optimizar el proceso.</value>
-  </data>
-  <metadata name="Panel265.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="ComboBox320.ToolTip" xml:space="preserve">
-    <value>Troquel Gama N° Trae la lista completa de N° de troquel, que indica la OT N°. 
-pero se tiene la base datos troquel completa para elegir cualquiera y poder
- fasilitar al planificador agrupar las OT con el mismo N° de troquel.</value>
+  <data name="CheckBox61.ToolTip" xml:space="preserve">
+    <value>Al seleccionar medida estandar se escoje MEDIDA A ejemplo, 
+como condicionante de filtrar, acompañada de la condicion, 
+que esta la fibra o no.
+Para filtrar tambien tiene se tiene en cuenta que el tope de
+kilos registrado.</value>
   </data>
   <data name="ComboBox380.ToolTip" xml:space="preserve">
     <value>Son colores CMYK
@@ -4046,13 +4104,6 @@ Trae la OT o FICHA TECNICA y puede uno modificar y filtrar segun opciones
 para ayudar al PLANIFICADOR ENCONTRAR mas opciones de colores a ordenar.
 </value>
   </data>
-  <data name="CheckBox61.ToolTip" xml:space="preserve">
-    <value>Medida Estandar: al marcar selecciona todos los de
- menos de 50kilos para adjudicar MP estandar.
-Facilitando de esta manera el PLANIFICAR a varias
- estaciones para aumentar la produccion.
-EN KILOS SE COLOCA EL MAXIMO DE KILOS A FILTRAR.</value>
-  </data>
   <data name="CheckBox174.ToolTip" xml:space="preserve">
     <value>Informe rango OT de 1/31
 Saca informe de un determinado mes.
@@ -4064,6 +4115,11 @@ otro elemento mas.</value>
   </data>
   <data name="ComboBox252.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox320.ToolTip" xml:space="preserve">
+    <value>Troquel Gama N° Trae la lista completa de N° de troquel, que indica la OT N°. 
+pero se tiene la base datos troquel completa para elegir cualquiera y poder
+ fasilitar al planificador agrupar las OT con el mismo N° de troquel.</value>
   </data>
   <data name="ComboBox22.ToolTip" xml:space="preserve">
     <value>MAQUINA
@@ -4207,6 +4263,18 @@ La primera es ancho / anto 7 fondo</value>
   <metadata name="Panel265.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="PLANIFICAR.ToolTip" xml:space="preserve">
+    <value>Esta ventana sirve para PLANIFICAR el trabajo.
+Permite filtrar distintos perfiles y así elegir las Órdenes de Trabajo (OT) más adecuadas para esta estación.
+No solo ayuda a esta estación, sino que también brinda información útil para facilitar el trabajo en las siguientes estaciones.
+
+Ejemplo en Impresión:
+Conviene planificar la producción agrupando trabajos en CMYK o en el mismo color.
+De esta manera se reduce el tiempo de preparación y aumenta la productividad.
+
+Pero siempre se debe pensar en las estaciones siguientes:
+TROQUELADO, SELECCIÓN y PEGADO, donde conviene utilizar los mismos troqueles para optimizar el proceso.</value>
+  </data>
   <data name="Button39.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -4575,15 +4643,6 @@ La primera es ancho / anto 7 fondo</value>
         4UUV8fwL/wAiOh6y/wDS2e9xL/yMany/9JQ+iiivtDwD/9k=
 </value>
   </data>
-  <data name="ENTREGA.ToolTip" xml:space="preserve">
-    <value>Se anualiza las entregas, las cantidades, si esta los % por encima o por
-debajo de lo solicitado y esto es muy importante porque determina las
-perdías que se tiene.
-También los días que estuvo en la estación y el retraso total días que 
-paso de la fecha entrega.
-
-</value>
-  </data>
   <metadata name="OtNumero.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -4650,12 +4709,14 @@ paso de la fecha entrega.
   <metadata name="FechafacturadoFin.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="META.ToolTip" xml:space="preserve">
-    <value>Para evaluar los PRESUPUESTOS REALIZADOS y comparar los confirmaciones
-o OT realizdo
-De esta forma se evaluan los contratos serrados si cumplen con la cantidad de 
-cambios que fue CONFIRMADO por el CLIENTE.
-La informacion de de cantidad como de Gs</value>
+  <data name="ENTREGA.ToolTip" xml:space="preserve">
+    <value>Se anualiza las entregas, las cantidades, si esta los % por encima o por
+debajo de lo solicitado y esto es muy importante porque determina las
+perdías que se tiene.
+También los días que estuvo en la estación y el retraso total días que 
+paso de la fecha entrega.
+
+</value>
   </data>
   <data name="TextBox493.Text" xml:space="preserve">
     <value>Comparar  las situación de cantidad Presupuestada de cambios, con la cantidad cambios o OT ingreso a la fecha.
@@ -4795,9 +4856,13 @@ También evaluar Gs, promedio según la cantidad de cambios o OT, con el promedi
   <metadata name="Proyeccion4kilos.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel278.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="META.ToolTip" xml:space="preserve">
+    <value>Para evaluar los PRESUPUESTOS REALIZADOS y comparar los confirmaciones
+o OT realizdo
+De esta forma se evaluan los contratos serrados si cumplen con la cantidad de 
+cambios que fue CONFIRMADO por el CLIENTE.
+La informacion de de cantidad como de Gs</value>
+  </data>
   <data name="ComboBox111.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
@@ -5813,10 +5878,41 @@ CKB/ 430Gr / Espesor 0,44um / Canaleta 0,6 x 1,9
   <metadata name="Panel280.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel280.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel128.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="TextBox632.ToolTip" xml:space="preserve">
+    <value>Suma la cantidad de gramos que tiene el HOJA a IMPRIMIR y resta la sumatoria 
+de todas las bocas y la diferencia da los GRAMOS de desperdicio LOGICO.
+Es la parte interna entre las cajas + los bordes cotizado.</value>
+  </data>
+  <data name="CheckBox209.ToolTip" xml:space="preserve">
+    <value>La validación no permite que la lista de
+ troquel de este MONTAJE sea diferente 
+COD. Troquel Cliente DIFERENTE.
+Salvo que este indicada la CASILLA "SI", 
+autoriza que sea echo troqueles diferentes,
+ con el mismo color.
+
+</value>
+  </data>
+  <data name="Label756.ToolTip" xml:space="preserve">
+    <value>Validar para grabar esta OT, compuestas.
+Si una de las OT se pretende agregar un CAJA con diferente tratamiento de BARNIZ ACUOSO,
+ no permite que grave y sale una advertencia que no se puede realizar 2 tipos de barniz ACUOSO en el mismo pliego.
+evitando así errores de MONTAJE
+
+</value>
+  </data>
+  <data name="Label760.ToolTip" xml:space="preserve">
+    <value>La primera línea es el N° OT de la hoja "BUSCAR Maquina o OT N°"
+En el mismo renglón están toda la info de esta OT.
+Los renglones siguientes son OT que forman parte de este montaje.
+Coinciden los COLORES y TROQUEL
+Son agregado por PRE PRENSA cuales serán agregado a este montaje
+ por coincidencia en lo mencionado y cantidad.
+Las opciones que le aparece de OT estara filtrada por coincidencia de TROQUEL
+
+</value>
+  </data>
+  <metadata name="Panel415.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Panel128.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -6483,102 +6579,6 @@ Max REMADORA: ANCHO: 180 cm  DIAMET.:180 cm
         QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
 </value>
   </data>
-  <metadata name="Panel6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewComboBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewComboBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn13.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn14.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn15.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewCheckBoxColumn16.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn11.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>39</value>
   </metadata>
