@@ -10,4 +10,24 @@
     Private Sub Panel46_Paint(sender As Object, e As PaintEventArgs) Handles Panel46.Paint
 
     End Sub
+
+    Private Sub Panel151_Paint(sender As Object, e As PaintEventArgs) Handles Panel151.Paint
+
+    End Sub
+
+    Private Sub ComboBox26_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Panel247_Paint(sender As Object, e As PaintEventArgs) Handles Panel247.Paint
+
+    End Sub
+
+    Private Sub CheckedListBox2_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Panel239_Paint(sender As Object, e As PaintEventArgs) Handles Panel239.Paint
+
+    End Sub
 End Class
