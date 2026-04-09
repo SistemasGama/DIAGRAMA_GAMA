@@ -1,5 +1,5 @@
 ﻿Public Class OT_IMPRESION
-    Private Sub DataGridView3_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView3.CellContentClick
+    Private Sub DataGridView3_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) 
 
     End Sub
 
@@ -19,7 +19,7 @@
 
     End Sub
 
-    Private Sub Panel247_Paint(sender As Object, e As PaintEventArgs) Handles Panel247.Paint
+    Private Sub Panel247_Paint(sender As Object, e As PaintEventArgs) 
 
     End Sub
 
@@ -27,7 +27,15 @@
 
     End Sub
 
-    Private Sub Panel239_Paint(sender As Object, e As PaintEventArgs) Handles Panel239.Paint
+    Private Sub Panel239_Paint(sender As Object, e As PaintEventArgs) 
+
+    End Sub
+
+    Private Sub Panel250_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
+    Private Sub CheckBox214_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
 End Class

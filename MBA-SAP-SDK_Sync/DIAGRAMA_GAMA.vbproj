@@ -112,12 +112,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="0 EMERGENTE\OT IMPRESION A.Designer.vb">
-      <DependentUpon>OT IMPRESION A.vb</DependentUpon>
-    </Compile>
-    <Compile Include="0 EMERGENTE\OT IMPRESION A.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Conexion.vb" />
     <Compile Include="DIAGRAMA GAMA JLMB\Herramientas.Designer.vb">
       <DependentUpon>Herramientas.vb</DependentUpon>
@@ -125,22 +119,22 @@
     <Compile Include="DIAGRAMA GAMA JLMB\Herramientas.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 OT\OT IMPRESION.Designer.vb">
-      <DependentUpon>OT IMPRESION.vb</DependentUpon>
+    <Compile Include="0 OT\OT_IMPRESION.Designer.vb">
+      <DependentUpon>OT_IMPRESION.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 OT\OT IMPRESION.vb">
+    <Compile Include="0 OT\OT_IMPRESION.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 OT\OT PREPRENSA.Designer.vb">
-      <DependentUpon>OT PREPRENSA.vb</DependentUpon>
+    <Compile Include="0 OT\OT_PREPRENSA.Designer.vb">
+      <DependentUpon>OT_PREPRENSA.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 OT\OT PREPRENSA.vb">
+    <Compile Include="0 OT\OT_PREPRENSA.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 OT\OT TROQUELADO.Designer.vb">
-      <DependentUpon>OT TROQUELADO.vb</DependentUpon>
+    <Compile Include="0 OT\OT_TROQUELADO.Designer.vb">
+      <DependentUpon>OT_TROQUELADO.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 OT\OT TROQUELADO.vb">
+    <Compile Include="0 OT\OT_TROQUELADO.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 PRINSIPAL\INSUMO.Designer.vb">
@@ -197,10 +191,10 @@
     <Compile Include="DIAGRAMA GAMA JLMB\RRHH.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 LIBRE\OT17.Designer.vb">
-      <DependentUpon>OT17.vb</DependentUpon>
+    <Compile Include="0 OT\OT_PLANIFICACION.Designer.vb">
+      <DependentUpon>OT_PLANIFICACION.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 LIBRE\OT17.vb">
+    <Compile Include="0 OT\OT_PLANIFICACION.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 LIBRE\OT18.Designer.vb">
@@ -227,10 +221,10 @@
     <Compile Include="0 PRINSIPAL\TINTA.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 PRINSIPAL\TROQUEL.Designer.vb">
-      <DependentUpon>TROQUEL.vb</DependentUpon>
+    <Compile Include="0 PRINSIPAL\OT_TROQUEL.Designer.vb">
+      <DependentUpon>OT_TROQUEL.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 PRINSIPAL\TROQUEL.vb">
+    <Compile Include="0 PRINSIPAL\OT_TROQUEL.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DIAGRAMA GAMA JLMB\IMPRIMIR PTO.Designer.vb">
@@ -258,20 +252,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="0 EMERGENTE\OT IMPRESION A.resx">
-      <DependentUpon>OT IMPRESION A.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\Herramientas.resx">
       <DependentUpon>Herramientas.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 OT\OT IMPRESION.resx">
-      <DependentUpon>OT IMPRESION.vb</DependentUpon>
+    <EmbeddedResource Include="0 OT\OT_IMPRESION.resx">
+      <DependentUpon>OT_IMPRESION.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 OT\OT PREPRENSA.resx">
-      <DependentUpon>OT PREPRENSA.vb</DependentUpon>
+    <EmbeddedResource Include="0 OT\OT_PREPRENSA.resx">
+      <DependentUpon>OT_PREPRENSA.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 OT\OT TROQUELADO.resx">
-      <DependentUpon>OT TROQUELADO.vb</DependentUpon>
+    <EmbeddedResource Include="0 OT\OT_TROQUELADO.resx">
+      <DependentUpon>OT_TROQUELADO.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 PRINSIPAL\INSUMO.resx">
       <DependentUpon>INSUMO.vb</DependentUpon>
@@ -300,8 +291,8 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\RRHH.resx">
       <DependentUpon>RRHH.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 LIBRE\OT17.resx">
-      <DependentUpon>OT17.vb</DependentUpon>
+    <EmbeddedResource Include="0 OT\OT_PLANIFICACION.resx">
+      <DependentUpon>OT_PLANIFICACION.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 LIBRE\OT18.resx">
       <DependentUpon>OT18.vb</DependentUpon>
@@ -315,8 +306,8 @@
     <EmbeddedResource Include="0 PRINSIPAL\TINTA.resx">
       <DependentUpon>TINTA.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 PRINSIPAL\TROQUEL.resx">
-      <DependentUpon>TROQUEL.vb</DependentUpon>
+    <EmbeddedResource Include="0 PRINSIPAL\OT_TROQUEL.resx">
+      <DependentUpon>OT_TROQUEL.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\IMPRIMIR PTO.resx">
       <DependentUpon>IMPRIMIR PTO.vb</DependentUpon>
@@ -364,6 +355,8 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="0 EMERGENTE\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

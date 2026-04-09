@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|c:\\users\\josemondolo\\source\\repos\\diagrama_gama\\mba-sap-sdk_sync\\0 ot\\ot impresion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\0 ot\\ot impresion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|c:\\users\\josemondolo\\source\\repos\\diagrama_gama\\mba-sap-sdk_sync\\0 ot\\ot_troquelado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\0 ot\\ot_troquelado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|c:\\users\\josemondolo\\source\\repos\\diagrama_gama\\mba-sap-sdk_sync\\0 prinsipal\\troquel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\0 prinsipal\\troquel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|c:\\users\\josemondolo\\source\\repos\\diagrama_gama\\mba-sap-sdk_sync\\0 ot\\ot_planificacion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\0 ot\\ot_planificacion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\mba-sap-sdk_sync\\0 prinsipal\\mp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|c:\\users\\josemondolo\\source\\repos\\diagrama_gama\\mba-sap-sdk_sync\\0 ot\\ot_planificacion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\0 ot\\ot_planificacion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|c:\\users\\josemondolo\\source\\repos\\diagrama_gama\\mba-sap-sdk_sync\\0 prinsipal\\mp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\0 prinsipal\\mp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
@@ -27,37 +31,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OT IMPRESION.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT IMPRESION.vb",
-              "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\0 OT\\OT IMPRESION.vb",
-              "ToolTip": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT IMPRESION.vb [Dise\u00F1o]",
-              "RelativeToolTip": "MBA-SAP-SDK_Sync\\0 OT\\OT IMPRESION.vb [Dise\u00F1o]",
+              "Title": "OT_TROQUELADO.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT_TROQUELADO.vb",
+              "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\0 OT\\OT_TROQUELADO.vb",
+              "ToolTip": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT_TROQUELADO.vb [Dise\u00F1o]",
+              "RelativeToolTip": "MBA-SAP-SDK_Sync\\0 OT\\OT_TROQUELADO.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-03T15:15:56.108Z",
+              "WhenOpened": "2026-04-09T14:26:12.872Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "OT_PLANIFICACION.vb",
+              "DocumentMoniker": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb",
+              "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb",
+              "ToolTip": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb",
+              "RelativeToolTip": "MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-09T14:17:44.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MP.vb [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 PRINSIPAL\\MP.vb",
               "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\0 PRINSIPAL\\MP.vb",
               "ToolTip": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 PRINSIPAL\\MP.vb [Dise\u00F1o]",
               "RelativeToolTip": "MBA-SAP-SDK_Sync\\0 PRINSIPAL\\MP.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-02T13:48:39.837Z",
+              "WhenOpened": "2026-04-09T13:52:45.642Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TROQUEL.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 PRINSIPAL\\TROQUEL.vb",
-              "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\0 PRINSIPAL\\TROQUEL.vb",
-              "ToolTip": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 PRINSIPAL\\TROQUEL.vb [Dise\u00F1o]",
-              "RelativeToolTip": "MBA-SAP-SDK_Sync\\0 PRINSIPAL\\TROQUEL.vb [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "OT_PLANIFICACION.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb",
+              "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb",
+              "ToolTip": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb [Dise\u00F1o]",
+              "RelativeToolTip": "MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-04-02T13:40:47.073Z",
+              "WhenOpened": "2026-04-09T13:43:42.475Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

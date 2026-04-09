@@ -1,4 +1,4 @@
-﻿Public Class OT6
+﻿Public Class OT_TROQUEL
     Private Sub Label154_Click(sender As Object, e As EventArgs) Handles Label154.Click
 
     End Sub
