@@ -38,4 +38,16 @@
     Private Sub CheckBox214_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub CheckBox114_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox114.CheckedChanged
+
+    End Sub
+
+    Private Sub CheckBox118_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox118.CheckedChanged
+
+    End Sub
+
+    Private Sub CheckBox5_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox5.CheckedChanged
+
+    End Sub
 End Class
