@@ -112,6 +112,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="0 PRINSIPAL\INSUMOS.Designer.vb">
+      <DependentUpon>INSUMOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 PRINSIPAL\INSUMOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Conexion.vb" />
     <Compile Include="DIAGRAMA GAMA JLMB\Herramientas.Designer.vb">
       <DependentUpon>Herramientas.vb</DependentUpon>
@@ -135,12 +141,6 @@
       <DependentUpon>OT_TROQUELADO.vb</DependentUpon>
     </Compile>
     <Compile Include="0 OT\OT_TROQUELADO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="0 PRINSIPAL\INSUMO.Designer.vb">
-      <DependentUpon>INSUMO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="0 PRINSIPAL\INSUMO.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 PRINSIPAL\MP.Designer.vb">
@@ -252,6 +252,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="0 PRINSIPAL\INSUMOS.resx">
+      <DependentUpon>INSUMOS.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\Herramientas.resx">
       <DependentUpon>Herramientas.vb</DependentUpon>
     </EmbeddedResource>
@@ -263,9 +266,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="0 OT\OT_TROQUELADO.resx">
       <DependentUpon>OT_TROQUELADO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="0 PRINSIPAL\INSUMO.resx">
-      <DependentUpon>INSUMO.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 PRINSIPAL\MP.resx">
       <DependentUpon>MP.vb</DependentUpon>

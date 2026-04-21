@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class INSUMO
+Partial Class INSUMOS
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -23,166 +23,164 @@ Partial Class INSUMO
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(INSUMO))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle31 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle32 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle33 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle51 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle52 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle34 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle35 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle36 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle37 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle38 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle39 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle40 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle41 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle42 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle43 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle44 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle45 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle46 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle47 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle48 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle49 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle50 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle53 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle54 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle56 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle57 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle55 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle58 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle59 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle76 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle77 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle60 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle61 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle62 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle63 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle64 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle65 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle66 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle67 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle68 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle69 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle70 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle71 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle72 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle73 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle74 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle75 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle78 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle79 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle95 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle96 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle80 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle81 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle82 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle83 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle84 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle85 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle86 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle87 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle88 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle89 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle90 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle91 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle92 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle93 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle94 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle97 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle98 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle125 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle126 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle99 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle100 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle101 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle102 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle103 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle104 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle105 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle106 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle107 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle108 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle109 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle110 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle111 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle112 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle113 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle114 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle115 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle116 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle117 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle118 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle119 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle120 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle121 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle122 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle123 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle124 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle127 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle128 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle156 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle157 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle129 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle130 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle131 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle132 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle133 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle134 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle135 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle136 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle137 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle138 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle139 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle140 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle141 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle142 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle143 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle144 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle145 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle146 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle147 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle148 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle149 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle150 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle151 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle152 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle153 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle154 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle155 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
-        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MP))
+        Dim DataGridViewCellStyle805 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle806 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle834 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle835 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle807 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle808 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle809 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle810 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle811 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle812 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle813 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle814 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle815 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle816 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle817 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle818 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle819 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle820 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle821 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle822 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle823 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle824 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle825 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle826 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle827 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle828 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle829 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle830 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle831 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle832 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle833 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle836 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle837 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle855 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle856 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle838 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle839 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle840 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle841 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle842 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle843 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle844 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle845 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle846 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle847 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle848 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle849 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle850 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle851 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle852 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle853 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle854 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle857 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle858 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle860 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle861 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle859 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle862 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle863 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle880 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle881 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle864 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle865 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle866 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle867 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle868 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle869 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle870 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle871 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle872 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle873 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle874 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle875 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle876 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle877 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle878 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle879 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle786 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle787 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle803 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle804 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle788 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle789 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle790 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle791 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle792 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle793 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle794 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle795 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle796 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle797 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle798 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle799 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle800 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle801 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle802 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle882 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle883 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle910 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle911 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle884 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle885 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle886 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle887 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle888 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle889 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle890 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle891 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle892 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle893 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle894 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle895 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle896 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle897 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle898 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle899 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle900 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle901 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle902 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle903 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle904 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle905 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle906 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle907 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle908 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle909 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle912 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle913 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle941 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle942 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle914 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle915 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle916 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle917 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle918 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle919 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle920 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle921 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle922 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle923 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle924 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle925 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle926 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle927 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle928 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle929 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle930 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle931 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle932 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle933 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle934 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle935 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle936 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle937 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle938 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle939 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle940 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.Contabilidad = New System.Windows.Forms.TabPage()
         Me.Panel40 = New System.Windows.Forms.Panel()
@@ -444,23 +442,6 @@ Partial Class INSUMO
         Me.TextBox36 = New System.Windows.Forms.TextBox()
         Me.TextBox37 = New System.Windows.Forms.TextBox()
         Me.Panel157 = New System.Windows.Forms.Panel()
-        Me.ComboBox41 = New System.Windows.Forms.ComboBox()
-        Me.Label91 = New System.Windows.Forms.Label()
-        Me.TextBox205 = New System.Windows.Forms.TextBox()
-        Me.Label257 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox137 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox151 = New System.Windows.Forms.CheckBox()
-        Me.ComboBox16 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox15 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
-        Me.Label221 = New System.Windows.Forms.Label()
-        Me.Label218 = New System.Windows.Forms.Label()
-        Me.ComboBox13 = New System.Windows.Forms.ComboBox()
-        Me.Label167 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox38 = New System.Windows.Forms.TextBox()
         Me.TextBox27 = New System.Windows.Forms.TextBox()
@@ -1609,8 +1590,24 @@ Partial Class INSUMO
         Me.ComboBox138 = New System.Windows.Forms.ComboBox()
         Me.Panel187 = New System.Windows.Forms.Panel()
         Me.Label411 = New System.Windows.Forms.Label()
-        Me.Label105 = New System.Windows.Forms.Label()
-        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).BeginInit
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.ComboBox41 = New System.Windows.Forms.ComboBox()
+        Me.Label91 = New System.Windows.Forms.Label()
+        Me.TextBox205 = New System.Windows.Forms.TextBox()
+        Me.Label257 = New System.Windows.Forms.Label()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox137 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox151 = New System.Windows.Forms.CheckBox()
+        Me.ComboBox16 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox15 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
+        Me.Label221 = New System.Windows.Forms.Label()
+        Me.Label218 = New System.Windows.Forms.Label()
+        Me.ComboBox13 = New System.Windows.Forms.ComboBox()
+        Me.Label167 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout
         Me.Contabilidad.SuspendLayout
         Me.Panel40.SuspendLayout
@@ -1837,7 +1834,7 @@ Partial Class INSUMO
         Me.TabControl1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(1924, 987)
-        Me.TabControl1.TabIndex = 25
+        Me.TabControl1.TabIndex = 24
         '
         'Contabilidad
         '
@@ -1908,7 +1905,7 @@ Partial Class INSUMO
         Me.CheckedListBox5.Location = New System.Drawing.Point(16, 177)
         Me.CheckedListBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckedListBox5.Name = "CheckedListBox5"
-        Me.CheckedListBox5.Size = New System.Drawing.Size(241, 73)
+        Me.CheckedListBox5.Size = New System.Drawing.Size(241, 94)
         Me.CheckedListBox5.TabIndex = 755
         Me.ToolTip1.SetToolTip(Me.CheckedListBox5, "Filtrar con el criterio marcado, el informe.")
         '
@@ -2952,7 +2949,6 @@ Partial Class INSUMO
         '
         Me.Panel41.BackColor = System.Drawing.Color.Green
         Me.Panel41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel41.Controls.Add(Me.Label105)
         Me.Panel41.Controls.Add(Me.Button113)
         Me.Panel41.Controls.Add(Me.Button117)
         Me.Panel41.Controls.Add(Me.Button124)
@@ -5078,7 +5074,7 @@ Partial Class INSUMO
         Me.CheckedListBox2.Location = New System.Drawing.Point(154, 52)
         Me.CheckedListBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckedListBox2.Name = "CheckedListBox2"
-        Me.CheckedListBox2.Size = New System.Drawing.Size(194, 165)
+        Me.CheckedListBox2.Size = New System.Drawing.Size(194, 179)
         Me.CheckedListBox2.TabIndex = 762
         Me.ToolTip1.SetToolTip(Me.CheckedListBox2, "Filtrar con el criterio marcado, el informe.")
         '
@@ -5335,227 +5331,6 @@ Partial Class INSUMO
         Me.Panel157.Size = New System.Drawing.Size(1137, 84)
         Me.Panel157.TabIndex = 706
         '
-        'ComboBox41
-        '
-        Me.ComboBox41.BackColor = System.Drawing.Color.White
-        Me.ComboBox41.DropDownWidth = 272
-        Me.ComboBox41.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox41.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox41.ForeColor = System.Drawing.Color.Black
-        Me.ComboBox41.FormattingEnabled = True
-        Me.ComboBox41.Items.AddRange(New Object() {"Folia", "Hotman", "Liopack", "Lio"})
-        Me.ComboBox41.Location = New System.Drawing.Point(986, 10)
-        Me.ComboBox41.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox41.Name = "ComboBox41"
-        Me.ComboBox41.Size = New System.Drawing.Size(133, 28)
-        Me.ComboBox41.TabIndex = 731
-        Me.ComboBox41.Text = "Folia"
-        '
-        'Label91
-        '
-        Me.Label91.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label91.Location = New System.Drawing.Point(487, 10)
-        Me.Label91.Name = "Label91"
-        Me.Label91.Size = New System.Drawing.Size(186, 26)
-        Me.Label91.TabIndex = 729
-        Me.Label91.Text = "Comprometido Kls:"
-        Me.Label91.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'TextBox205
-        '
-        Me.TextBox205.BackColor = System.Drawing.Color.White
-        Me.TextBox205.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox205.ForeColor = System.Drawing.Color.Magenta
-        Me.TextBox205.Location = New System.Drawing.Point(679, 10)
-        Me.TextBox205.Name = "TextBox205"
-        Me.TextBox205.Size = New System.Drawing.Size(89, 26)
-        Me.TextBox205.TabIndex = 715
-        Me.TextBox205.Text = "000.000"
-        Me.TextBox205.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        Me.ToolTip1.SetToolTip(Me.TextBox205, "Kilos de MP comprometido del tipo elegido.")
-        '
-        'Label257
-        '
-        Me.Label257.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label257.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label257.Location = New System.Drawing.Point(833, 10)
-        Me.Label257.Name = "Label257"
-        Me.Label257.Size = New System.Drawing.Size(136, 26)
-        Me.Label257.TabIndex = 730
-        Me.Label257.Text = "Tinta Familia:"
-        Me.Label257.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(18, 12)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(192, 24)
-        Me.CheckBox1.TabIndex = 724
-        Me.CheckBox1.Text = "Contra entreg Docum."
-        Me.CheckBox1.UseVisualStyleBackColor = False
-        '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox2.Location = New System.Drawing.Point(422, 12)
-        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(53, 24)
-        Me.CheckBox2.TabIndex = 725
-        Me.CheckBox2.Text = "90"
-        Me.CheckBox2.UseVisualStyleBackColor = False
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox3.Location = New System.Drawing.Point(360, 12)
-        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(53, 24)
-        Me.CheckBox3.TabIndex = 726
-        Me.CheckBox3.Text = "60"
-        Me.CheckBox3.UseVisualStyleBackColor = False
-        '
-        'CheckBox137
-        '
-        Me.CheckBox137.AutoSize = True
-        Me.CheckBox137.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox137.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox137.Location = New System.Drawing.Point(298, 12)
-        Me.CheckBox137.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox137.Name = "CheckBox137"
-        Me.CheckBox137.Size = New System.Drawing.Size(53, 24)
-        Me.CheckBox137.TabIndex = 727
-        Me.CheckBox137.Text = "30"
-        Me.CheckBox137.UseVisualStyleBackColor = False
-        '
-        'CheckBox151
-        '
-        Me.CheckBox151.AutoSize = True
-        Me.CheckBox151.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox151.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox151.Location = New System.Drawing.Point(248, 12)
-        Me.CheckBox151.Margin = New System.Windows.Forms.Padding(4)
-        Me.CheckBox151.Name = "CheckBox151"
-        Me.CheckBox151.Size = New System.Drawing.Size(44, 24)
-        Me.CheckBox151.TabIndex = 728
-        Me.CheckBox151.Text = "0"
-        Me.CheckBox151.UseVisualStyleBackColor = False
-        '
-        'ComboBox16
-        '
-        Me.ComboBox16.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ComboBox16.DropDownWidth = 272
-        Me.ComboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox16.FormattingEnabled = True
-        Me.ComboBox16.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
-        Me.ComboBox16.Location = New System.Drawing.Point(955, 48)
-        Me.ComboBox16.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox16.Name = "ComboBox16"
-        Me.ComboBox16.Size = New System.Drawing.Size(150, 28)
-        Me.ComboBox16.TabIndex = 721
-        '
-        'ComboBox15
-        '
-        Me.ComboBox15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ComboBox15.DropDownWidth = 272
-        Me.ComboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox15.FormattingEnabled = True
-        Me.ComboBox15.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
-        Me.ComboBox15.Location = New System.Drawing.Point(680, 48)
-        Me.ComboBox15.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox15.Name = "ComboBox15"
-        Me.ComboBox15.Size = New System.Drawing.Size(140, 28)
-        Me.ComboBox15.TabIndex = 722
-        '
-        'ComboBox14
-        '
-        Me.ComboBox14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ComboBox14.DropDownWidth = 272
-        Me.ComboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox14.FormattingEnabled = True
-        Me.ComboBox14.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
-        Me.ComboBox14.Location = New System.Drawing.Point(389, 48)
-        Me.ComboBox14.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox14.Name = "ComboBox14"
-        Me.ComboBox14.Size = New System.Drawing.Size(139, 28)
-        Me.ComboBox14.TabIndex = 723
-        '
-        'Label221
-        '
-        Me.Label221.BackColor = System.Drawing.Color.Transparent
-        Me.Label221.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label221.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label221.Location = New System.Drawing.Point(839, 48)
-        Me.Label221.Name = "Label221"
-        Me.Label221.Size = New System.Drawing.Size(102, 26)
-        Me.Label221.TabIndex = 719
-        Me.Label221.Text = "LLega:"
-        Me.Label221.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label218
-        '
-        Me.Label218.BackColor = System.Drawing.Color.Transparent
-        Me.Label218.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label218.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label218.Location = New System.Drawing.Point(554, 48)
-        Me.Label218.Name = "Label218"
-        Me.Label218.Size = New System.Drawing.Size(114, 26)
-        Me.Label218.TabIndex = 717
-        Me.Label218.Text = "Embarca:"
-        Me.Label218.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'ComboBox13
-        '
-        Me.ComboBox13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ComboBox13.DropDownWidth = 272
-        Me.ComboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox13.FormattingEnabled = True
-        Me.ComboBox13.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
-        Me.ComboBox13.Location = New System.Drawing.Point(120, 48)
-        Me.ComboBox13.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox13.Name = "ComboBox13"
-        Me.ComboBox13.Size = New System.Drawing.Size(138, 28)
-        Me.ComboBox13.TabIndex = 720
-        Me.ToolTip1.SetToolTip(Me.ComboBox13, "Me que realiso el pedido.")
-        '
-        'Label167
-        '
-        Me.Label167.BackColor = System.Drawing.Color.Transparent
-        Me.Label167.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label167.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label167.Location = New System.Drawing.Point(279, 48)
-        Me.Label167.Name = "Label167"
-        Me.Label167.Size = New System.Drawing.Size(96, 26)
-        Me.Label167.TabIndex = 718
-        Me.Label167.Text = "Fabrica:"
-        Me.Label167.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label19
-        '
-        Me.Label19.BackColor = System.Drawing.Color.Transparent
-        Me.Label19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(18, 48)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(95, 26)
-        Me.Label19.TabIndex = 716
-        Me.Label19.Text = "Pedido:"
-        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
         'Label5
         '
         Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
@@ -5703,48 +5478,48 @@ Partial Class INSUMO
         '
         'DataGridView3
         '
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle1.Format = "N0"
-        DataGridViewCellStyle1.NullValue = Nothing
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle805.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle805.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle805.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle805.Format = "N0"
+        DataGridViewCellStyle805.NullValue = Nothing
+        DataGridViewCellStyle805.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView3.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle805
         Me.DataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle806.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle806.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle806.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle806.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle806.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle806.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle806.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle806
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.EstacionEntrada, Me.EntradaNumero, Me.MPsalidaNumero, Me.ClienteOTnumero, Me.FacturoTrabajoNumero, Me.MPbalanceMasaNumero, Me.NombreTrabajo, Me.CategoriaFSC, Me.ImprimeFSC, Me.CodigoFSC, Me.GamaNumeroFSC, Me.MPcomproConFSCkilos, Me.MPScrapConFSCkilos, Me.MPstockConFSCkilos, Me.MPcomproSinFSCkilos, Me.MPScrapSinFSCkilos, Me.MPStockSinFSCkilos, Me.MPpresupuestoNumero, Me.MPordenCompraNumer, Me.MPproformaNumeroEntrada, Me.MPFacturaNumer, Me.MPBLNumer, Me.MPdespachoNumer, Me.MPCodigoCorto, Me.MPnombreProveedo, Me.MPnombreCarton, Me.EAN13Desposito, Me.EAN13materiaprima, Me.EAN13numerado, Me.MPEAN13Numero, Me.MPTotalFacturaGs, Me.MPTotalFacturaBobinas, Me.TotalFacturaKilos, Me.MPitamsGs, Me.MPitemsBobinas, Me.MPitemsKilos, Me.MPTotalTotalGs, Me.MPTotalTotalBobinas, Me.TotalTotalKilos, Me.MPcertificado, Me.MPDiametroCm, Me.MPConoCm, Me.MPumEspeso, Me.MPpunto, Me.MPrigidesMD, Me.MPrigidesCD, Me.MPLoteNumero, Me.MPVencimiento, Me.MPcomprometidoKilos, Me.MPsituacionKilos})
         Me.DataGridView3.Location = New System.Drawing.Point(-6336, 542)
         Me.DataGridView3.Name = "DataGridView3"
-        DataGridViewCellStyle30.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle30.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle30.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle30
+        DataGridViewCellStyle834.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle834.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle834.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle834.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle834.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle834.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView3.RowHeadersDefaultCellStyle = DataGridViewCellStyle834
         Me.DataGridView3.RowHeadersWidth = 62
-        DataGridViewCellStyle31.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle31
+        DataGridViewCellStyle835.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView3.RowsDefaultCellStyle = DataGridViewCellStyle835
         Me.DataGridView3.RowTemplate.Height = 28
         Me.DataGridView3.Size = New System.Drawing.Size(8272, 396)
         Me.DataGridView3.TabIndex = 637
         '
         'EstacionEntrada
         '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Blue
-        Me.EstacionEntrada.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle807.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle807.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle807.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle807.SelectionBackColor = System.Drawing.Color.Blue
+        Me.EstacionEntrada.DefaultCellStyle = DataGridViewCellStyle807
         Me.EstacionEntrada.DividerWidth = 5
         Me.EstacionEntrada.HeaderText = "Estación Entrada"
         Me.EstacionEntrada.Items.AddRange(New Object() {"Comercial", "PrePrensa", "CC (Legajo Impr y Troq)", "Troquel", "Planificación", "Deposito", "Impresion", "Plastificaficado", "UV", "Stampado", "Troquelado ", "Descartonado", "Selección", "Pegadp 2D", "Pegadp 3D", "Pegado(PM)", "Liberado", "Expedicion", "Mantenimiento"})
@@ -5757,13 +5532,13 @@ Partial Class INSUMO
         '
         'EntradaNumero
         '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle4.Format = "N0"
-        DataGridViewCellStyle4.NullValue = Nothing
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.EntradaNumero.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle808.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle808.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle808.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle808.Format = "N0"
+        DataGridViewCellStyle808.NullValue = Nothing
+        DataGridViewCellStyle808.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.EntradaNumero.DefaultCellStyle = DataGridViewCellStyle808
         Me.EntradaNumero.DividerWidth = 5
         Me.EntradaNumero.HeaderText = "MP Entrada N°"
         Me.EntradaNumero.MaxInputLength = 7
@@ -5783,12 +5558,12 @@ Partial Class INSUMO
         '
         'ClienteOTnumero
         '
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle5.Format = "N0"
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Blue
-        Me.ClienteOTnumero.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle809.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle809.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle809.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle809.Format = "N0"
+        DataGridViewCellStyle809.SelectionBackColor = System.Drawing.Color.Blue
+        Me.ClienteOTnumero.DefaultCellStyle = DataGridViewCellStyle809
         Me.ClienteOTnumero.DividerWidth = 5
         Me.ClienteOTnumero.HeaderText = "Cliente OT N°"
         Me.ClienteOTnumero.MinimumWidth = 8
@@ -5800,13 +5575,13 @@ Partial Class INSUMO
         '
         'FacturoTrabajoNumero
         '
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.Format = "N0"
-        DataGridViewCellStyle6.NullValue = Nothing
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Blue
-        Me.FacturoTrabajoNumero.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle810.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle810.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle810.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle810.Format = "N0"
+        DataGridViewCellStyle810.NullValue = Nothing
+        DataGridViewCellStyle810.SelectionBackColor = System.Drawing.Color.Blue
+        Me.FacturoTrabajoNumero.DefaultCellStyle = DataGridViewCellStyle810
         Me.FacturoTrabajoNumero.DividerWidth = 5
         Me.FacturoTrabajoNumero.HeaderText = "Cliente Factura N°"
         Me.FacturoTrabajoNumero.MaxInputLength = 10
@@ -5828,12 +5603,12 @@ Partial Class INSUMO
         '
         'NombreTrabajo
         '
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black
-        Me.NombreTrabajo.DefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle811.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle811.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle811.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle811.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle811.SelectionForeColor = System.Drawing.Color.Black
+        Me.NombreTrabajo.DefaultCellStyle = DataGridViewCellStyle811
         Me.NombreTrabajo.DividerWidth = 10
         Me.NombreTrabajo.HeaderText = "Cliente Nombre Trabajo"
         Me.NombreTrabajo.MinimumWidth = 8
@@ -5852,14 +5627,14 @@ Partial Class INSUMO
         '
         'ImprimeFSC
         '
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle8.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle8.NullValue = Nothing
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Yellow
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black
-        Me.ImprimeFSC.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle812.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle812.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle812.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle812.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle812.NullValue = Nothing
+        DataGridViewCellStyle812.SelectionBackColor = System.Drawing.Color.Yellow
+        DataGridViewCellStyle812.SelectionForeColor = System.Drawing.Color.Black
+        Me.ImprimeFSC.DefaultCellStyle = DataGridViewCellStyle812
         Me.ImprimeFSC.DividerWidth = 5
         Me.ImprimeFSC.HeaderText = "MP Imprime FSC"
         Me.ImprimeFSC.MinimumWidth = 8
@@ -5900,13 +5675,13 @@ Partial Class INSUMO
         '
         'MPScrapConFSCkilos
         '
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.Format = "N0"
-        DataGridViewCellStyle9.NullValue = Nothing
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MPScrapConFSCkilos.DefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle813.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle813.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle813.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle813.Format = "N0"
+        DataGridViewCellStyle813.NullValue = Nothing
+        DataGridViewCellStyle813.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MPScrapConFSCkilos.DefaultCellStyle = DataGridViewCellStyle813
         Me.MPScrapConFSCkilos.DividerWidth = 5
         Me.MPScrapConFSCkilos.HeaderText = "MP Scrap Con FSC Kls"
         Me.MPScrapConFSCkilos.MaxInputLength = 6
@@ -5962,13 +5737,13 @@ Partial Class INSUMO
         '
         'MPordenCompraNumer
         '
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle10.Format = "N0"
-        DataGridViewCellStyle10.NullValue = Nothing
-        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPordenCompraNumer.DefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle814.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle814.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle814.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle814.Format = "N0"
+        DataGridViewCellStyle814.NullValue = Nothing
+        DataGridViewCellStyle814.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPordenCompraNumer.DefaultCellStyle = DataGridViewCellStyle814
         Me.MPordenCompraNumer.DividerWidth = 5
         Me.MPordenCompraNumer.HeaderText = "MP      OC N°"
         Me.MPordenCompraNumer.MaxInputLength = 10
@@ -5990,13 +5765,13 @@ Partial Class INSUMO
         '
         'MPFacturaNumer
         '
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle11.Format = "N0"
-        DataGridViewCellStyle11.NullValue = Nothing
-        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPFacturaNumer.DefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle815.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle815.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle815.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle815.Format = "N0"
+        DataGridViewCellStyle815.NullValue = Nothing
+        DataGridViewCellStyle815.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPFacturaNumer.DefaultCellStyle = DataGridViewCellStyle815
         Me.MPFacturaNumer.DividerWidth = 5
         Me.MPFacturaNumer.HeaderText = "MP    Factura N°"
         Me.MPFacturaNumer.MaxInputLength = 10
@@ -6009,13 +5784,13 @@ Partial Class INSUMO
         '
         'MPBLNumer
         '
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle12.Format = "N0"
-        DataGridViewCellStyle12.NullValue = Nothing
-        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPBLNumer.DefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle816.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle816.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle816.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle816.Format = "N0"
+        DataGridViewCellStyle816.NullValue = Nothing
+        DataGridViewCellStyle816.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPBLNumer.DefaultCellStyle = DataGridViewCellStyle816
         Me.MPBLNumer.DividerWidth = 5
         Me.MPBLNumer.HeaderText = "MP        BL N°"
         Me.MPBLNumer.MaxInputLength = 7
@@ -6036,11 +5811,11 @@ Partial Class INSUMO
         '
         'MPCodigoCorto
         '
-        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPCodigoCorto.DefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle817.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle817.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle817.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle817.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPCodigoCorto.DefaultCellStyle = DataGridViewCellStyle817
         Me.MPCodigoCorto.DisplayStyleForCurrentCellOnly = True
         Me.MPCodigoCorto.DividerWidth = 5
         Me.MPCodigoCorto.HeaderText = "MP Código Corto"
@@ -6056,12 +5831,12 @@ Partial Class INSUMO
         '
         'MPnombreProveedo
         '
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle14.NullValue = Nothing
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPnombreProveedo.DefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle818.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle818.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle818.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle818.NullValue = Nothing
+        DataGridViewCellStyle818.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPnombreProveedo.DefaultCellStyle = DataGridViewCellStyle818
         Me.MPnombreProveedo.DividerWidth = 5
         Me.MPnombreProveedo.HeaderText = "MP Nombre Proveedor"
         Me.MPnombreProveedo.MinimumWidth = 8
@@ -6111,13 +5886,13 @@ Partial Class INSUMO
         '
         'MPEAN13Numero
         '
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.Format = "N0"
-        DataGridViewCellStyle15.NullValue = Nothing
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPEAN13Numero.DefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle819.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle819.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle819.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle819.Format = "N0"
+        DataGridViewCellStyle819.NullValue = Nothing
+        DataGridViewCellStyle819.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPEAN13Numero.DefaultCellStyle = DataGridViewCellStyle819
         Me.MPEAN13Numero.DividerWidth = 10
         Me.MPEAN13Numero.HeaderText = "EAN-13 N° Cod. Barra"
         Me.MPEAN13Numero.MaxInputLength = 4
@@ -6129,13 +5904,13 @@ Partial Class INSUMO
         '
         'MPTotalFacturaGs
         '
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle16.Format = "N0"
-        DataGridViewCellStyle16.NullValue = Nothing
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalFacturaGs.DefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle820.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle820.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle820.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle820.Format = "N0"
+        DataGridViewCellStyle820.NullValue = Nothing
+        DataGridViewCellStyle820.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPTotalFacturaGs.DefaultCellStyle = DataGridViewCellStyle820
         Me.MPTotalFacturaGs.DividerWidth = 5
         Me.MPTotalFacturaGs.HeaderText = "+MP Total Fact. Gs."
         Me.MPTotalFacturaGs.MaxInputLength = 10
@@ -6148,13 +5923,13 @@ Partial Class INSUMO
         '
         'MPTotalFacturaBobinas
         '
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle17.Format = "N0"
-        DataGridViewCellStyle17.NullValue = Nothing
-        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPTotalFacturaBobinas.DefaultCellStyle = DataGridViewCellStyle17
+        DataGridViewCellStyle821.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle821.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle821.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle821.Format = "N0"
+        DataGridViewCellStyle821.NullValue = Nothing
+        DataGridViewCellStyle821.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPTotalFacturaBobinas.DefaultCellStyle = DataGridViewCellStyle821
         Me.MPTotalFacturaBobinas.DividerWidth = 5
         Me.MPTotalFacturaBobinas.HeaderText = "+MP Total Fact. Bob. "
         Me.MPTotalFacturaBobinas.MaxInputLength = 3
@@ -6176,13 +5951,13 @@ Partial Class INSUMO
         '
         'MPitamsGs
         '
-        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle18.Format = "N0"
-        DataGridViewCellStyle18.NullValue = Nothing
-        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPitamsGs.DefaultCellStyle = DataGridViewCellStyle18
+        DataGridViewCellStyle822.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle822.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle822.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle822.Format = "N0"
+        DataGridViewCellStyle822.NullValue = Nothing
+        DataGridViewCellStyle822.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPitamsGs.DefaultCellStyle = DataGridViewCellStyle822
         Me.MPitamsGs.DividerWidth = 5
         Me.MPitamsGs.HeaderText = "*MP Items Gs."
         Me.MPitamsGs.MaxInputLength = 6
@@ -6195,13 +5970,13 @@ Partial Class INSUMO
         '
         'MPitemsBobinas
         '
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle19.Format = "N0"
-        DataGridViewCellStyle19.NullValue = Nothing
-        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPitemsBobinas.DefaultCellStyle = DataGridViewCellStyle19
+        DataGridViewCellStyle823.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle823.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle823.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle823.Format = "N0"
+        DataGridViewCellStyle823.NullValue = Nothing
+        DataGridViewCellStyle823.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPitemsBobinas.DefaultCellStyle = DataGridViewCellStyle823
         Me.MPitemsBobinas.DividerWidth = 5
         Me.MPitemsBobinas.HeaderText = "*MP Items Bobin."
         Me.MPitemsBobinas.MaxInputLength = 3
@@ -6214,13 +5989,13 @@ Partial Class INSUMO
         '
         'MPitemsKilos
         '
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle20.Format = "N0"
-        DataGridViewCellStyle20.NullValue = Nothing
-        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPitemsKilos.DefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle824.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle824.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle824.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle824.Format = "N0"
+        DataGridViewCellStyle824.NullValue = Nothing
+        DataGridViewCellStyle824.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPitemsKilos.DefaultCellStyle = DataGridViewCellStyle824
         Me.MPitemsKilos.DividerWidth = 10
         Me.MPitemsKilos.HeaderText = "*MP Items Kls."
         Me.MPitemsKilos.MaxInputLength = 6
@@ -6233,13 +6008,13 @@ Partial Class INSUMO
         '
         'MPTotalTotalGs
         '
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle21.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle21.Format = "N0"
-        DataGridViewCellStyle21.NullValue = Nothing
-        DataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MPTotalTotalGs.DefaultCellStyle = DataGridViewCellStyle21
+        DataGridViewCellStyle825.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle825.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle825.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle825.Format = "N0"
+        DataGridViewCellStyle825.NullValue = Nothing
+        DataGridViewCellStyle825.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MPTotalTotalGs.DefaultCellStyle = DataGridViewCellStyle825
         Me.MPTotalTotalGs.DividerWidth = 5
         Me.MPTotalTotalGs.HeaderText = "-MP Total Total Gs"
         Me.MPTotalTotalGs.MaxInputLength = 10
@@ -6252,13 +6027,13 @@ Partial Class INSUMO
         '
         'MPTotalTotalBobinas
         '
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle22.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle22.Format = "N0"
-        DataGridViewCellStyle22.NullValue = Nothing
-        DataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MPTotalTotalBobinas.DefaultCellStyle = DataGridViewCellStyle22
+        DataGridViewCellStyle826.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle826.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle826.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle826.Format = "N0"
+        DataGridViewCellStyle826.NullValue = Nothing
+        DataGridViewCellStyle826.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MPTotalTotalBobinas.DefaultCellStyle = DataGridViewCellStyle826
         Me.MPTotalTotalBobinas.DividerWidth = 5
         Me.MPTotalTotalBobinas.HeaderText = "-MP Total Total Bob."
         Me.MPTotalTotalBobinas.MaxInputLength = 10
@@ -6281,12 +6056,12 @@ Partial Class INSUMO
         '
         'MPcertificado
         '
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle23.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle23.NullValue = Nothing
-        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPcertificado.DefaultCellStyle = DataGridViewCellStyle23
+        DataGridViewCellStyle827.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle827.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle827.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle827.NullValue = Nothing
+        DataGridViewCellStyle827.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPcertificado.DefaultCellStyle = DataGridViewCellStyle827
         Me.MPcertificado.DividerWidth = 5
         Me.MPcertificado.HeaderText = "MP Certificado"
         Me.MPcertificado.Items.AddRange(New Object() {"00000", "INAN0", "ANVISA", "CETEA", "RDC00", "GQSR0", "22000", "90010", "", "", "", "55555"})
@@ -6299,12 +6074,12 @@ Partial Class INSUMO
         '
         'MPDiametroCm
         '
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle24.Format = "N0"
-        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPDiametroCm.DefaultCellStyle = DataGridViewCellStyle24
+        DataGridViewCellStyle828.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle828.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle828.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle828.Format = "N0"
+        DataGridViewCellStyle828.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPDiametroCm.DefaultCellStyle = DataGridViewCellStyle828
         Me.MPDiametroCm.DividerWidth = 5
         Me.MPDiametroCm.HeaderText = "MP Diametro Bobina"
         Me.MPDiametroCm.Items.AddRange(New Object() {"50", "100", "110", "120", "125", "130", "135", "140", "145", "150", "155", "160", "165", "170", "175", "180"})
@@ -6317,12 +6092,12 @@ Partial Class INSUMO
         '
         'MPConoCm
         '
-        DataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle25.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle25.Format = "N0"
-        DataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPConoCm.DefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle829.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle829.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle829.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle829.Format = "N0"
+        DataGridViewCellStyle829.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPConoCm.DefaultCellStyle = DataGridViewCellStyle829
         Me.MPConoCm.DividerWidth = 5
         Me.MPConoCm.HeaderText = "MP Cono Bobina"
         Me.MPConoCm.Items.AddRange(New Object() {"30", "21", "7"})
@@ -6371,13 +6146,13 @@ Partial Class INSUMO
         '
         'MPLoteNumero
         '
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle26.Format = "d"
-        DataGridViewCellStyle26.NullValue = Nothing
-        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPLoteNumero.DefaultCellStyle = DataGridViewCellStyle26
+        DataGridViewCellStyle830.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle830.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle830.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle830.Format = "d"
+        DataGridViewCellStyle830.NullValue = Nothing
+        DataGridViewCellStyle830.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPLoteNumero.DefaultCellStyle = DataGridViewCellStyle830
         Me.MPLoteNumero.DividerWidth = 5
         Me.MPLoteNumero.HeaderText = "MP Lte. N°"
         Me.MPLoteNumero.MaxInputLength = 10
@@ -6389,13 +6164,13 @@ Partial Class INSUMO
         '
         'MPVencimiento
         '
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle27.Format = "d"
-        DataGridViewCellStyle27.NullValue = Nothing
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPVencimiento.DefaultCellStyle = DataGridViewCellStyle27
+        DataGridViewCellStyle831.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle831.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle831.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle831.Format = "d"
+        DataGridViewCellStyle831.NullValue = Nothing
+        DataGridViewCellStyle831.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPVencimiento.DefaultCellStyle = DataGridViewCellStyle831
         Me.MPVencimiento.DividerWidth = 10
         Me.MPVencimiento.HeaderText = "MP Vto."
         Me.MPVencimiento.MaxInputLength = 10
@@ -6407,13 +6182,13 @@ Partial Class INSUMO
         '
         'MPcomprometidoKilos
         '
-        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle28.Format = "N0"
-        DataGridViewCellStyle28.NullValue = Nothing
-        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MPcomprometidoKilos.DefaultCellStyle = DataGridViewCellStyle28
+        DataGridViewCellStyle832.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle832.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle832.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle832.Format = "N0"
+        DataGridViewCellStyle832.NullValue = Nothing
+        DataGridViewCellStyle832.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MPcomprometidoKilos.DefaultCellStyle = DataGridViewCellStyle832
         Me.MPcomprometidoKilos.DividerWidth = 5
         Me.MPcomprometidoKilos.HeaderText = "MP Kls. Comprometido "
         Me.MPcomprometidoKilos.MinimumWidth = 8
@@ -6423,13 +6198,13 @@ Partial Class INSUMO
         '
         'MPsituacionKilos
         '
-        DataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle29.Format = "N0"
-        DataGridViewCellStyle29.NullValue = Nothing
-        DataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MPsituacionKilos.DefaultCellStyle = DataGridViewCellStyle29
+        DataGridViewCellStyle833.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle833.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle833.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle833.Format = "N0"
+        DataGridViewCellStyle833.NullValue = Nothing
+        DataGridViewCellStyle833.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MPsituacionKilos.DefaultCellStyle = DataGridViewCellStyle833
         Me.MPsituacionKilos.DividerWidth = 5
         Me.MPsituacionKilos.HeaderText = "MP Kls. Situacion"
         Me.MPsituacionKilos.MinimumWidth = 8
@@ -6955,7 +6730,7 @@ Partial Class INSUMO
         Me.CheckedListBox3.Location = New System.Drawing.Point(161, 51)
         Me.CheckedListBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckedListBox3.Name = "CheckedListBox3"
-        Me.CheckedListBox3.Size = New System.Drawing.Size(190, 119)
+        Me.CheckedListBox3.Size = New System.Drawing.Size(190, 129)
         Me.CheckedListBox3.TabIndex = 768
         Me.ToolTip1.SetToolTip(Me.CheckedListBox3, "Filtrar con el criterio marcado, el informe.")
         '
@@ -7461,49 +7236,49 @@ Partial Class INSUMO
         '
         'DataGridView1
         '
-        DataGridViewCellStyle32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle32.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle32.Format = "N0"
-        DataGridViewCellStyle32.NullValue = Nothing
-        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle32
+        DataGridViewCellStyle836.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle836.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle836.Format = "N0"
+        DataGridViewCellStyle836.NullValue = Nothing
+        DataGridViewCellStyle836.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle836
         Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle33.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle33.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle33
+        DataGridViewCellStyle837.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle837.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle837.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle837.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle837.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle837.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle837.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle837
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.SalidaNumero, Me.OTNumero, Me.EstacionSalida, Me.MPCodigoCortoSalida, Me.NombreMPProveedorSalida, Me.TurnoSalidaMP, Me.EAN13compuesto, Me.Maquina, Me.Maquinista, Me.SalidaKilos, Me.StockKilos, Me.EAN13Numero, Me.LoteNumero, Me.FSC, Me.CertificadoNumero, Me.VencimientoFecha, Me.DiametoBobinaCm, Me.ConoBobinaCm, Me.PresupuestoNumero, Me.MPOrdenCompraNumero, Me.MPFacturaNumero, Me.MPBLNumero, Me.DespachoNumero})
         Me.DataGridView1.Location = New System.Drawing.Point(9, 473)
         Me.DataGridView1.Name = "DataGridView1"
-        DataGridViewCellStyle51.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle51.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle51.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle51.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle51.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle51
+        DataGridViewCellStyle855.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle855.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle855.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle855.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle855.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle855.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle855
         Me.DataGridView1.RowHeadersWidth = 62
-        DataGridViewCellStyle52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle52
+        DataGridViewCellStyle856.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle856
         Me.DataGridView1.RowTemplate.Height = 28
         Me.DataGridView1.Size = New System.Drawing.Size(3170, 458)
         Me.DataGridView1.TabIndex = 759
         '
         'SalidaNumero
         '
-        DataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle34.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle34.Format = "N0"
-        DataGridViewCellStyle34.NullValue = Nothing
-        DataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.SalidaNumero.DefaultCellStyle = DataGridViewCellStyle34
+        DataGridViewCellStyle838.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle838.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle838.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle838.Format = "N0"
+        DataGridViewCellStyle838.NullValue = Nothing
+        DataGridViewCellStyle838.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.SalidaNumero.DefaultCellStyle = DataGridViewCellStyle838
         Me.SalidaNumero.DividerWidth = 5
         Me.SalidaNumero.HeaderText = "Salida N°"
         Me.SalidaNumero.MaxInputLength = 7
@@ -7514,12 +7289,12 @@ Partial Class INSUMO
         '
         'OTNumero
         '
-        DataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle35.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle35.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle35.Format = "N0"
-        DataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.Blue
-        Me.OTNumero.DefaultCellStyle = DataGridViewCellStyle35
+        DataGridViewCellStyle839.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle839.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle839.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle839.Format = "N0"
+        DataGridViewCellStyle839.SelectionBackColor = System.Drawing.Color.Blue
+        Me.OTNumero.DefaultCellStyle = DataGridViewCellStyle839
         Me.OTNumero.DividerWidth = 5
         Me.OTNumero.HeaderText = "OT N°"
         Me.OTNumero.MinimumWidth = 8
@@ -7532,12 +7307,12 @@ Partial Class INSUMO
         '
         'EstacionSalida
         '
-        DataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle36.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle36.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle36.NullValue = Nothing
-        DataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.Blue
-        Me.EstacionSalida.DefaultCellStyle = DataGridViewCellStyle36
+        DataGridViewCellStyle840.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle840.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle840.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle840.NullValue = Nothing
+        DataGridViewCellStyle840.SelectionBackColor = System.Drawing.Color.Blue
+        Me.EstacionSalida.DefaultCellStyle = DataGridViewCellStyle840
         Me.EstacionSalida.DividerWidth = 5
         Me.EstacionSalida.HeaderText = "Estación Salida"
         Me.EstacionSalida.Items.AddRange(New Object() {"Comercial", "PrePrensa", "CC (Legajo Impr y Troq)", "Troquel", "Planificación", "Deposito", "Impresion", "Plastificaficado", "UV", "Stampado", "Troquelado ", "Descartonado", "Selección", "Pegadp 2D", "Pegadp 3D", "Pegado(PM)", "Liberado", "Expedicion", "Mantenimiento"})
@@ -7558,12 +7333,12 @@ Partial Class INSUMO
         '
         'NombreMPProveedorSalida
         '
-        DataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle37.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle37.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle37.NullValue = Nothing
-        DataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.Blue
-        Me.NombreMPProveedorSalida.DefaultCellStyle = DataGridViewCellStyle37
+        DataGridViewCellStyle841.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle841.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle841.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle841.NullValue = Nothing
+        DataGridViewCellStyle841.SelectionBackColor = System.Drawing.Color.Blue
+        Me.NombreMPProveedorSalida.DefaultCellStyle = DataGridViewCellStyle841
         Me.NombreMPProveedorSalida.DividerWidth = 5
         Me.NombreMPProveedorSalida.HeaderText = "Nombre MP del Proveedor"
         Me.NombreMPProveedorSalida.MinimumWidth = 8
@@ -7576,13 +7351,13 @@ Partial Class INSUMO
         '
         'TurnoSalidaMP
         '
-        DataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle38.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle38.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle38.Format = "t"
-        DataGridViewCellStyle38.NullValue = Nothing
-        DataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.TurnoSalidaMP.DefaultCellStyle = DataGridViewCellStyle38
+        DataGridViewCellStyle842.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle842.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle842.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle842.Format = "t"
+        DataGridViewCellStyle842.NullValue = Nothing
+        DataGridViewCellStyle842.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.TurnoSalidaMP.DefaultCellStyle = DataGridViewCellStyle842
         Me.TurnoSalidaMP.DividerWidth = 5
         Me.TurnoSalidaMP.HeaderText = "Turno Salida"
         Me.TurnoSalidaMP.MaxInputLength = 4
@@ -7639,12 +7414,12 @@ Partial Class INSUMO
         '
         'EAN13Numero
         '
-        DataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle39.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle39.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle39.Format = "N0"
-        DataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.Blue
-        Me.EAN13Numero.DefaultCellStyle = DataGridViewCellStyle39
+        DataGridViewCellStyle843.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle843.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle843.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle843.Format = "N0"
+        DataGridViewCellStyle843.SelectionBackColor = System.Drawing.Color.Blue
+        Me.EAN13Numero.DefaultCellStyle = DataGridViewCellStyle843
         Me.EAN13Numero.DividerWidth = 5
         Me.EAN13Numero.HeaderText = "EAN-13 N°"
         Me.EAN13Numero.MinimumWidth = 8
@@ -7656,12 +7431,12 @@ Partial Class INSUMO
         '
         'LoteNumero
         '
-        DataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle40.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle40.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle40.Format = "d"
-        DataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.LoteNumero.DefaultCellStyle = DataGridViewCellStyle40
+        DataGridViewCellStyle844.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle844.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle844.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle844.Format = "d"
+        DataGridViewCellStyle844.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.LoteNumero.DefaultCellStyle = DataGridViewCellStyle844
         Me.LoteNumero.DividerWidth = 5
         Me.LoteNumero.HeaderText = "Lte. N°"
         Me.LoteNumero.MaxInputLength = 100
@@ -7673,10 +7448,10 @@ Partial Class INSUMO
         '
         'FSC
         '
-        DataGridViewCellStyle41.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle41.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle41.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.FSC.DefaultCellStyle = DataGridViewCellStyle41
+        DataGridViewCellStyle845.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle845.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle845.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.FSC.DefaultCellStyle = DataGridViewCellStyle845
         Me.FSC.DividerWidth = 5
         Me.FSC.HeaderText = "FSC"
         Me.FSC.MinimumWidth = 8
@@ -7688,11 +7463,11 @@ Partial Class INSUMO
         '
         'CertificadoNumero
         '
-        DataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle42.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle42.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle42.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.CertificadoNumero.DefaultCellStyle = DataGridViewCellStyle42
+        DataGridViewCellStyle846.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle846.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle846.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle846.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.CertificadoNumero.DefaultCellStyle = DataGridViewCellStyle846
         Me.CertificadoNumero.DividerWidth = 5
         Me.CertificadoNumero.HeaderText = "Certifi."
         Me.CertificadoNumero.MinimumWidth = 8
@@ -7703,13 +7478,13 @@ Partial Class INSUMO
         '
         'VencimientoFecha
         '
-        DataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle43.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle43.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle43.Format = "d"
-        DataGridViewCellStyle43.NullValue = Nothing
-        DataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.VencimientoFecha.DefaultCellStyle = DataGridViewCellStyle43
+        DataGridViewCellStyle847.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle847.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle847.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle847.Format = "d"
+        DataGridViewCellStyle847.NullValue = Nothing
+        DataGridViewCellStyle847.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.VencimientoFecha.DefaultCellStyle = DataGridViewCellStyle847
         Me.VencimientoFecha.DividerWidth = 5
         Me.VencimientoFecha.HeaderText = "Vto."
         Me.VencimientoFecha.MaxInputLength = 10
@@ -7721,12 +7496,12 @@ Partial Class INSUMO
         '
         'DiametoBobinaCm
         '
-        DataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle44.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle44.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle44.Format = "N0"
-        DataGridViewCellStyle44.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.DiametoBobinaCm.DefaultCellStyle = DataGridViewCellStyle44
+        DataGridViewCellStyle848.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle848.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle848.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle848.Format = "N0"
+        DataGridViewCellStyle848.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DiametoBobinaCm.DefaultCellStyle = DataGridViewCellStyle848
         Me.DiametoBobinaCm.DividerWidth = 5
         Me.DiametoBobinaCm.HeaderText = "Dia. Cm."
         Me.DiametoBobinaCm.MaxInputLength = 80
@@ -7738,12 +7513,12 @@ Partial Class INSUMO
         '
         'ConoBobinaCm
         '
-        DataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle45.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle45.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle45.Format = "N0"
-        DataGridViewCellStyle45.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.ConoBobinaCm.DefaultCellStyle = DataGridViewCellStyle45
+        DataGridViewCellStyle849.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle849.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle849.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle849.Format = "N0"
+        DataGridViewCellStyle849.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.ConoBobinaCm.DefaultCellStyle = DataGridViewCellStyle849
         Me.ConoBobinaCm.DividerWidth = 5
         Me.ConoBobinaCm.HeaderText = "Con Cm"
         Me.ConoBobinaCm.MaxInputLength = 80
@@ -7755,13 +7530,13 @@ Partial Class INSUMO
         '
         'PresupuestoNumero
         '
-        DataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle46.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle46.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle46.Format = "N0"
-        DataGridViewCellStyle46.NullValue = Nothing
-        DataGridViewCellStyle46.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.PresupuestoNumero.DefaultCellStyle = DataGridViewCellStyle46
+        DataGridViewCellStyle850.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle850.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle850.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle850.Format = "N0"
+        DataGridViewCellStyle850.NullValue = Nothing
+        DataGridViewCellStyle850.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.PresupuestoNumero.DefaultCellStyle = DataGridViewCellStyle850
         Me.PresupuestoNumero.DividerWidth = 5
         Me.PresupuestoNumero.HeaderText = "Pto N°"
         Me.PresupuestoNumero.MaxInputLength = 10
@@ -7774,13 +7549,13 @@ Partial Class INSUMO
         '
         'MPOrdenCompraNumero
         '
-        DataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle47.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle47.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle47.Format = "N0"
-        DataGridViewCellStyle47.NullValue = Nothing
-        DataGridViewCellStyle47.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.MPOrdenCompraNumero.DefaultCellStyle = DataGridViewCellStyle47
+        DataGridViewCellStyle851.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle851.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle851.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle851.Format = "N0"
+        DataGridViewCellStyle851.NullValue = Nothing
+        DataGridViewCellStyle851.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.MPOrdenCompraNumero.DefaultCellStyle = DataGridViewCellStyle851
         Me.MPOrdenCompraNumero.DividerWidth = 5
         Me.MPOrdenCompraNumero.HeaderText = "MP    OC N°"
         Me.MPOrdenCompraNumero.MaxInputLength = 10
@@ -7793,13 +7568,13 @@ Partial Class INSUMO
         '
         'MPFacturaNumero
         '
-        DataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle48.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle48.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle48.Format = "N0"
-        DataGridViewCellStyle48.NullValue = Nothing
-        DataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.MPFacturaNumero.DefaultCellStyle = DataGridViewCellStyle48
+        DataGridViewCellStyle852.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle852.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle852.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle852.Format = "N0"
+        DataGridViewCellStyle852.NullValue = Nothing
+        DataGridViewCellStyle852.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.MPFacturaNumero.DefaultCellStyle = DataGridViewCellStyle852
         Me.MPFacturaNumero.DividerWidth = 5
         Me.MPFacturaNumero.HeaderText = "MP    Fact N°"
         Me.MPFacturaNumero.MaxInputLength = 10
@@ -7812,13 +7587,13 @@ Partial Class INSUMO
         '
         'MPBLNumero
         '
-        DataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle49.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle49.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle49.Format = "N0"
-        DataGridViewCellStyle49.NullValue = Nothing
-        DataGridViewCellStyle49.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.MPBLNumero.DefaultCellStyle = DataGridViewCellStyle49
+        DataGridViewCellStyle853.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle853.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle853.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle853.Format = "N0"
+        DataGridViewCellStyle853.NullValue = Nothing
+        DataGridViewCellStyle853.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.MPBLNumero.DefaultCellStyle = DataGridViewCellStyle853
         Me.MPBLNumero.DividerWidth = 5
         Me.MPBLNumero.HeaderText = "MP BL N°"
         Me.MPBLNumero.MaxInputLength = 7
@@ -7829,10 +7604,10 @@ Partial Class INSUMO
         '
         'DespachoNumero
         '
-        DataGridViewCellStyle50.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle50.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.DespachoNumero.DefaultCellStyle = DataGridViewCellStyle50
+        DataGridViewCellStyle854.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle854.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle854.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DespachoNumero.DefaultCellStyle = DataGridViewCellStyle854
         Me.DespachoNumero.DividerWidth = 5
         Me.DespachoNumero.HeaderText = "Despacho N°"
         Me.DespachoNumero.MaxInputLength = 7
@@ -10656,33 +10431,33 @@ Partial Class INSUMO
         '
         'DataGridView7
         '
-        DataGridViewCellStyle53.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView7.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle53
+        DataGridViewCellStyle857.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView7.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle857
         Me.DataGridView7.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.DataGridView7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView7.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle54.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle54.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle54.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle54.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView7.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle54
+        DataGridViewCellStyle858.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle858.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle858.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle858.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle858.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle858.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle858.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView7.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle858
         Me.DataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView7.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn15, Me.PresupuestoNumeroAC, Me.OCnumeroAC, Me.OTnumeroAC, Me.OTkilosIngresoAC, Me.EntregaFecha, Me.MPcodigoCortoAC, Me.MPcostoToneladaUSS, Me.TroquelCodigoCortoAC, Me.MPordenCompraNume, Me.MPnumeroProforma, Me.MPcomprometidaAC, Me.MPcomprometidaKilosAC, Me.MPimportar, Me.MPexistenciaKilosAC, Me.Llegada0MPKilos, Me.MPLlega0USS, Me.Faltant0MPkilos, Me.LLegada1MPkilosAC, Me.MPLlega1USS, Me.Faltante1MPkilos, Me.Llegada2MPkilosAC, Me.MPLlega2USS, Me.Faltante2MPkilos, Me.Llegada3MPkilosAC, Me.MPLlega3USS, Me.Faltante3MPkilos, Me.ParaTrabajoX1AC, Me.ParaTrabajoX2AC, Me.ParaTrabajoX3AC})
         Me.DataGridView7.Location = New System.Drawing.Point(-1549, 155)
         Me.DataGridView7.Name = "DataGridView7"
-        DataGridViewCellStyle56.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle56.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle56.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle56.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle56.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView7.RowHeadersDefaultCellStyle = DataGridViewCellStyle56
+        DataGridViewCellStyle860.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle860.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle860.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle860.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle860.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle860.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView7.RowHeadersDefaultCellStyle = DataGridViewCellStyle860
         Me.DataGridView7.RowHeadersWidth = 62
-        DataGridViewCellStyle57.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView7.RowsDefaultCellStyle = DataGridViewCellStyle57
+        DataGridViewCellStyle861.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView7.RowsDefaultCellStyle = DataGridViewCellStyle861
         Me.DataGridView7.RowTemplate.Height = 28
         Me.DataGridView7.Size = New System.Drawing.Size(3664, 769)
         Me.DataGridView7.TabIndex = 888
@@ -10690,12 +10465,12 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn15
         '
-        DataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle55.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle55.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle55.Format = "N0"
-        DataGridViewCellStyle55.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.DataGridViewTextBoxColumn15.DefaultCellStyle = DataGridViewCellStyle55
+        DataGridViewCellStyle859.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle859.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle859.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle859.Format = "N0"
+        DataGridViewCellStyle859.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DataGridViewTextBoxColumn15.DefaultCellStyle = DataGridViewCellStyle859
         Me.DataGridViewTextBoxColumn15.DividerWidth = 5
         Me.DataGridViewTextBoxColumn15.HeaderText = "Análisis Comp. N° "
         Me.DataGridViewTextBoxColumn15.MaxInputLength = 7
@@ -11346,49 +11121,49 @@ Partial Class INSUMO
         '
         'DataGridView4
         '
-        DataGridViewCellStyle58.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle58.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle58.Format = "N0"
-        DataGridViewCellStyle58.NullValue = Nothing
-        DataGridViewCellStyle58.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle58
+        DataGridViewCellStyle862.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle862.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle862.Format = "N0"
+        DataGridViewCellStyle862.NullValue = Nothing
+        DataGridViewCellStyle862.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView4.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle862
         Me.DataGridView4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle59.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle59.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle59.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle59.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle59.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle59.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle59
+        DataGridViewCellStyle863.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle863.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle863.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle863.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle863.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle863.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle863.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView4.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle863
         Me.DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView4.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.PresupuestoNumer, Me.MPocNumero, Me.MPproformaNumero, Me.MPFacturaNumeroPresupuesto, Me.MPCodigoCortoPresupuesto, Me.NombreFabricaMP, Me.NombreMPFabrica, Me.MPGramos, Me.MPumespesor, Me.FSCPresupuestar, Me.Certificado, Me.DiametroBobinaPresupuestar, Me.ConoDiametroBobinaPresupuestar, Me.RigidesMPmd, Me.RigidesMPcd, Me.ToneladaMP, Me.ToneladaUSSunitario, Me.ToneladasTotaluss, Me.ClienteUtiliza})
         Me.DataGridView4.Location = New System.Drawing.Point(-507, 532)
         Me.DataGridView4.Name = "DataGridView4"
-        DataGridViewCellStyle76.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle76.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle76.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle76.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle76.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle76.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView4.RowHeadersDefaultCellStyle = DataGridViewCellStyle76
+        DataGridViewCellStyle880.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle880.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle880.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle880.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle880.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle880.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView4.RowHeadersDefaultCellStyle = DataGridViewCellStyle880
         Me.DataGridView4.RowHeadersWidth = 62
-        DataGridViewCellStyle77.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView4.RowsDefaultCellStyle = DataGridViewCellStyle77
+        DataGridViewCellStyle881.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView4.RowsDefaultCellStyle = DataGridViewCellStyle881
         Me.DataGridView4.RowTemplate.Height = 28
         Me.DataGridView4.Size = New System.Drawing.Size(3388, 397)
         Me.DataGridView4.TabIndex = 766
         '
         'PresupuestoNumer
         '
-        DataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle60.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle60.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle60.Format = "N0"
-        DataGridViewCellStyle60.NullValue = Nothing
-        DataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.PresupuestoNumer.DefaultCellStyle = DataGridViewCellStyle60
+        DataGridViewCellStyle864.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle864.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle864.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle864.Format = "N0"
+        DataGridViewCellStyle864.NullValue = Nothing
+        DataGridViewCellStyle864.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.PresupuestoNumer.DefaultCellStyle = DataGridViewCellStyle864
         Me.PresupuestoNumer.DividerWidth = 5
         Me.PresupuestoNumer.HeaderText = "MP Pto. N°"
         Me.PresupuestoNumer.MaxInputLength = 7
@@ -11399,13 +11174,13 @@ Partial Class INSUMO
         '
         'MPocNumero
         '
-        DataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle61.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle61.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle61.Format = "N0"
-        DataGridViewCellStyle61.NullValue = Nothing
-        DataGridViewCellStyle61.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPocNumero.DefaultCellStyle = DataGridViewCellStyle61
+        DataGridViewCellStyle865.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle865.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle865.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle865.Format = "N0"
+        DataGridViewCellStyle865.NullValue = Nothing
+        DataGridViewCellStyle865.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPocNumero.DefaultCellStyle = DataGridViewCellStyle865
         Me.MPocNumero.DividerWidth = 5
         Me.MPocNumero.HeaderText = "MP       OC N°"
         Me.MPocNumero.MaxInputLength = 10
@@ -11418,13 +11193,13 @@ Partial Class INSUMO
         '
         'MPproformaNumero
         '
-        DataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle62.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle62.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle62.Format = "N0"
-        DataGridViewCellStyle62.NullValue = Nothing
-        DataGridViewCellStyle62.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPproformaNumero.DefaultCellStyle = DataGridViewCellStyle62
+        DataGridViewCellStyle866.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle866.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle866.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle866.Format = "N0"
+        DataGridViewCellStyle866.NullValue = Nothing
+        DataGridViewCellStyle866.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPproformaNumero.DefaultCellStyle = DataGridViewCellStyle866
         Me.MPproformaNumero.DividerWidth = 5
         Me.MPproformaNumero.HeaderText = "MP    Proforma N°"
         Me.MPproformaNumero.MaxInputLength = 7
@@ -11435,13 +11210,13 @@ Partial Class INSUMO
         '
         'MPFacturaNumeroPresupuesto
         '
-        DataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle63.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle63.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle63.Format = "N0"
-        DataGridViewCellStyle63.NullValue = Nothing
-        DataGridViewCellStyle63.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPFacturaNumeroPresupuesto.DefaultCellStyle = DataGridViewCellStyle63
+        DataGridViewCellStyle867.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle867.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle867.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle867.Format = "N0"
+        DataGridViewCellStyle867.NullValue = Nothing
+        DataGridViewCellStyle867.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPFacturaNumeroPresupuesto.DefaultCellStyle = DataGridViewCellStyle867
         Me.MPFacturaNumeroPresupuesto.DividerWidth = 10
         Me.MPFacturaNumeroPresupuesto.HeaderText = "MP    Fact N°"
         Me.MPFacturaNumeroPresupuesto.MaxInputLength = 10
@@ -11464,10 +11239,10 @@ Partial Class INSUMO
         '
         'NombreFabricaMP
         '
-        DataGridViewCellStyle64.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle64.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle64.SelectionBackColor = System.Drawing.Color.Blue
-        Me.NombreFabricaMP.DefaultCellStyle = DataGridViewCellStyle64
+        DataGridViewCellStyle868.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle868.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle868.SelectionBackColor = System.Drawing.Color.Blue
+        Me.NombreFabricaMP.DefaultCellStyle = DataGridViewCellStyle868
         Me.NombreFabricaMP.DividerWidth = 5
         Me.NombreFabricaMP.HeaderText = "MP Fabricante"
         Me.NombreFabricaMP.Items.AddRange(New Object() {"IBEM", "PAPI", "STOR", "PALE", "METS", "KORA", "TROE", "ROXE", "TROE"})
@@ -11480,11 +11255,11 @@ Partial Class INSUMO
         '
         'NombreMPFabrica
         '
-        DataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle65.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle65.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle65.SelectionBackColor = System.Drawing.Color.Blue
-        Me.NombreMPFabrica.DefaultCellStyle = DataGridViewCellStyle65
+        DataGridViewCellStyle869.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle869.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle869.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle869.SelectionBackColor = System.Drawing.Color.Blue
+        Me.NombreMPFabrica.DefaultCellStyle = DataGridViewCellStyle869
         Me.NombreMPFabrica.DividerWidth = 5
         Me.NombreMPFabrica.HeaderText = "MP Nombre Carton"
         Me.NombreMPFabrica.MinimumWidth = 8
@@ -11496,13 +11271,13 @@ Partial Class INSUMO
         '
         'MPGramos
         '
-        DataGridViewCellStyle66.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle66.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle66.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle66.Format = "N0"
-        DataGridViewCellStyle66.NullValue = Nothing
-        DataGridViewCellStyle66.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPGramos.DefaultCellStyle = DataGridViewCellStyle66
+        DataGridViewCellStyle870.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle870.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle870.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle870.Format = "N0"
+        DataGridViewCellStyle870.NullValue = Nothing
+        DataGridViewCellStyle870.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPGramos.DefaultCellStyle = DataGridViewCellStyle870
         Me.MPGramos.DividerWidth = 5
         Me.MPGramos.HeaderText = "MP Gr. "
         Me.MPGramos.Items.AddRange(New Object() {"040", "056", "060", "070", "090", "115", "120", "130", "150", "170", "180", "190", "200", "205", "210", "215", "220", "225", "230", "235", "240", "245", "250", "255", "260", "265", "270", "275", "280", "285", "290", "300", "305", "310", "315", "320", "325", "330", "335", "340", "350", "360", "370", "380", "390", "400", "405", "415", "420", "425", "430", "440", "450", "460", "470", "480", "490", "500"})
@@ -11515,11 +11290,11 @@ Partial Class INSUMO
         '
         'MPumespesor
         '
-        DataGridViewCellStyle67.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle67.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle67.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle67.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPumespesor.DefaultCellStyle = DataGridViewCellStyle67
+        DataGridViewCellStyle871.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle871.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle871.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle871.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPumespesor.DefaultCellStyle = DataGridViewCellStyle871
         Me.MPumespesor.DividerWidth = 5
         Me.MPumespesor.HeaderText = "MP um"
         Me.MPumespesor.Items.AddRange(New Object() {"250", "255", "260", "265", "275", "280", "285", "290", "300", "305", "310", "315", "320", "325", "330", "335", "340", "345", "350", "355", "360", "365", "370", "375", "380", "385", "390", "395", "400", "405", "410", "415", "420", "425", "430", "435", "440", "445", "450", "455", "460", "465", "470", "475", "480", "485", "490", "495", "500", "505", "510", "515", "520", "525", "530", "535", "540", "545", "550", "555", "560", "565", "570", "575", "580", "585", "590", "595", "600"})
@@ -11532,11 +11307,11 @@ Partial Class INSUMO
         '
         'FSCPresupuestar
         '
-        DataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle68.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle68.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle68.SelectionBackColor = System.Drawing.Color.Blue
-        Me.FSCPresupuestar.DefaultCellStyle = DataGridViewCellStyle68
+        DataGridViewCellStyle872.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle872.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle872.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle872.SelectionBackColor = System.Drawing.Color.Blue
+        Me.FSCPresupuestar.DefaultCellStyle = DataGridViewCellStyle872
         Me.FSCPresupuestar.DividerWidth = 5
         Me.FSCPresupuestar.HeaderText = "MP FSC"
         Me.FSCPresupuestar.Items.AddRange(New Object() {"000", "FSC"})
@@ -11549,12 +11324,12 @@ Partial Class INSUMO
         '
         'Certificado
         '
-        DataGridViewCellStyle69.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle69.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle69.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle69.NullValue = Nothing
-        DataGridViewCellStyle69.SelectionBackColor = System.Drawing.Color.Blue
-        Me.Certificado.DefaultCellStyle = DataGridViewCellStyle69
+        DataGridViewCellStyle873.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle873.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle873.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle873.NullValue = Nothing
+        DataGridViewCellStyle873.SelectionBackColor = System.Drawing.Color.Blue
+        Me.Certificado.DefaultCellStyle = DataGridViewCellStyle873
         Me.Certificado.DividerWidth = 5
         Me.Certificado.HeaderText = "MP Certificación"
         Me.Certificado.Items.AddRange(New Object() {"00000", "INAN0", "ANVISA", "CETEA", "RDC00", "GQSR0", "22000", "90010"})
@@ -11567,13 +11342,13 @@ Partial Class INSUMO
         '
         'DiametroBobinaPresupuestar
         '
-        DataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle70.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle70.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle70.Format = "N0"
-        DataGridViewCellStyle70.NullValue = Nothing
-        DataGridViewCellStyle70.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DiametroBobinaPresupuestar.DefaultCellStyle = DataGridViewCellStyle70
+        DataGridViewCellStyle874.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle874.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle874.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle874.Format = "N0"
+        DataGridViewCellStyle874.NullValue = Nothing
+        DataGridViewCellStyle874.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DiametroBobinaPresupuestar.DefaultCellStyle = DataGridViewCellStyle874
         Me.DiametroBobinaPresupuestar.DividerWidth = 5
         Me.DiametroBobinaPresupuestar.HeaderText = "MP Diametro Bobina"
         Me.DiametroBobinaPresupuestar.Items.AddRange(New Object() {"50", "100", "110", "120", "125", "130", "135", "140", "145", "150", "155", "160", "165", "170", "175", "180"})
@@ -11586,12 +11361,12 @@ Partial Class INSUMO
         '
         'ConoDiametroBobinaPresupuestar
         '
-        DataGridViewCellStyle71.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle71.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle71.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle71.Format = "N0"
-        DataGridViewCellStyle71.SelectionBackColor = System.Drawing.Color.Blue
-        Me.ConoDiametroBobinaPresupuestar.DefaultCellStyle = DataGridViewCellStyle71
+        DataGridViewCellStyle875.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle875.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle875.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle875.Format = "N0"
+        DataGridViewCellStyle875.SelectionBackColor = System.Drawing.Color.Blue
+        Me.ConoDiametroBobinaPresupuestar.DefaultCellStyle = DataGridViewCellStyle875
         Me.ConoDiametroBobinaPresupuestar.DividerWidth = 5
         Me.ConoDiametroBobinaPresupuestar.HeaderText = "MP Cono Bobina"
         Me.ConoDiametroBobinaPresupuestar.Items.AddRange(New Object() {"30", "21", "7"})
@@ -11626,13 +11401,13 @@ Partial Class INSUMO
         '
         'ToneladaMP
         '
-        DataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle72.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle72.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle72.Format = "N0"
-        DataGridViewCellStyle72.NullValue = Nothing
-        DataGridViewCellStyle72.SelectionBackColor = System.Drawing.Color.Blue
-        Me.ToneladaMP.DefaultCellStyle = DataGridViewCellStyle72
+        DataGridViewCellStyle876.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle876.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle876.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle876.Format = "N0"
+        DataGridViewCellStyle876.NullValue = Nothing
+        DataGridViewCellStyle876.SelectionBackColor = System.Drawing.Color.Blue
+        Me.ToneladaMP.DefaultCellStyle = DataGridViewCellStyle876
         Me.ToneladaMP.DividerWidth = 5
         Me.ToneladaMP.HeaderText = "MP     Total kls."
         Me.ToneladaMP.MaxInputLength = 3
@@ -11643,13 +11418,13 @@ Partial Class INSUMO
         '
         'ToneladaUSSunitario
         '
-        DataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle73.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle73.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle73.Format = "N0"
-        DataGridViewCellStyle73.NullValue = Nothing
-        DataGridViewCellStyle73.SelectionBackColor = System.Drawing.Color.Blue
-        Me.ToneladaUSSunitario.DefaultCellStyle = DataGridViewCellStyle73
+        DataGridViewCellStyle877.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle877.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle877.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle877.Format = "N0"
+        DataGridViewCellStyle877.NullValue = Nothing
+        DataGridViewCellStyle877.SelectionBackColor = System.Drawing.Color.Blue
+        Me.ToneladaUSSunitario.DefaultCellStyle = DataGridViewCellStyle877
         Me.ToneladaUSSunitario.DividerWidth = 5
         Me.ToneladaUSSunitario.HeaderText = "MP    unidad U$S"
         Me.ToneladaUSSunitario.MaxInputLength = 4
@@ -11660,13 +11435,13 @@ Partial Class INSUMO
         '
         'ToneladasTotaluss
         '
-        DataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle74.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle74.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle74.Format = "N0"
-        DataGridViewCellStyle74.NullValue = Nothing
-        DataGridViewCellStyle74.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.ToneladasTotaluss.DefaultCellStyle = DataGridViewCellStyle74
+        DataGridViewCellStyle878.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle878.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle878.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle878.Format = "N0"
+        DataGridViewCellStyle878.NullValue = Nothing
+        DataGridViewCellStyle878.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ToneladasTotaluss.DefaultCellStyle = DataGridViewCellStyle878
         Me.ToneladasTotaluss.DividerWidth = 5
         Me.ToneladasTotaluss.HeaderText = "MP/Ton U$S"
         Me.ToneladasTotaluss.MaxInputLength = 6
@@ -11677,11 +11452,11 @@ Partial Class INSUMO
         '
         'ClienteUtiliza
         '
-        DataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle75.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle75.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle75.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.ClienteUtiliza.DefaultCellStyle = DataGridViewCellStyle75
+        DataGridViewCellStyle879.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle879.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle879.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle879.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ClienteUtiliza.DefaultCellStyle = DataGridViewCellStyle879
         Me.ClienteUtiliza.DividerWidth = 15
         Me.ClienteUtiliza.HeaderText = "Clientes Utiliza"
         Me.ClienteUtiliza.MaxInputLength = 250
@@ -12041,7 +11816,7 @@ Partial Class INSUMO
         Me.CheckedListBox4.Location = New System.Drawing.Point(183, 50)
         Me.CheckedListBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckedListBox4.Name = "CheckedListBox4"
-        Me.CheckedListBox4.Size = New System.Drawing.Size(237, 119)
+        Me.CheckedListBox4.Size = New System.Drawing.Size(237, 129)
         Me.CheckedListBox4.TabIndex = 762
         Me.ToolTip1.SetToolTip(Me.CheckedListBox4, "Filtrar con el criterio marcado, el informe.")
         '
@@ -12843,7 +12618,7 @@ Partial Class INSUMO
         Me.CheckedListBox6.Location = New System.Drawing.Point(1197, 53)
         Me.CheckedListBox6.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckedListBox6.Name = "CheckedListBox6"
-        Me.CheckedListBox6.Size = New System.Drawing.Size(298, 441)
+        Me.CheckedListBox6.Size = New System.Drawing.Size(298, 454)
         Me.CheckedListBox6.TabIndex = 770
         Me.ToolTip1.SetToolTip(Me.CheckedListBox6, "Filtrar con el criterio marcado, el informe.")
         '
@@ -13818,49 +13593,49 @@ Partial Class INSUMO
         '
         'DataGridView2
         '
-        DataGridViewCellStyle78.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle78.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle78.Format = "N0"
-        DataGridViewCellStyle78.NullValue = Nothing
-        DataGridViewCellStyle78.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle78
+        DataGridViewCellStyle786.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle786.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle786.Format = "N0"
+        DataGridViewCellStyle786.NullValue = Nothing
+        DataGridViewCellStyle786.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle786
         Me.DataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle79.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle79.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle79.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle79.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle79.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle79.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle79
+        DataGridViewCellStyle787.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle787.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle787.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle787.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle787.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle787.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle787.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView2.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle787
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.MPocNumer, Me.AnalisisCompraNumero, Me.MPproformaNumer, Me.MPcodigoCortoOC, Me.MPNonbreFabricante, Me.MPgramaj, Me.MPum, Me.MPpuntos, Me.MPconFSC, Me.MPcertificadoOC, Me.MPdiametroBobinaOC, Me.MPconoDiametro, Me.MPtotalToneladas, Me.MPcostoToneladaUSSoc, Me.MPtotalUSSoc, Me.RigidezMD, Me.MPRigidezCD, Me.Trabajo1, Me.Trabajo2, Me.Trabajo3})
         Me.DataGridView2.Location = New System.Drawing.Point(-598, 530)
         Me.DataGridView2.Name = "DataGridView2"
-        DataGridViewCellStyle95.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle95.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle95.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle95.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle95.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle95.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView2.RowHeadersDefaultCellStyle = DataGridViewCellStyle95
+        DataGridViewCellStyle803.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle803.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle803.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle803.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle803.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle803.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView2.RowHeadersDefaultCellStyle = DataGridViewCellStyle803
         Me.DataGridView2.RowHeadersWidth = 62
-        DataGridViewCellStyle96.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView2.RowsDefaultCellStyle = DataGridViewCellStyle96
+        DataGridViewCellStyle804.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView2.RowsDefaultCellStyle = DataGridViewCellStyle804
         Me.DataGridView2.RowTemplate.Height = 28
         Me.DataGridView2.Size = New System.Drawing.Size(4371, 390)
         Me.DataGridView2.TabIndex = 638
         '
         'MPocNumer
         '
-        DataGridViewCellStyle80.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle80.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle80.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle80.Format = "N0"
-        DataGridViewCellStyle80.NullValue = Nothing
-        DataGridViewCellStyle80.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MPocNumer.DefaultCellStyle = DataGridViewCellStyle80
+        DataGridViewCellStyle788.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle788.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle788.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle788.Format = "N0"
+        DataGridViewCellStyle788.NullValue = Nothing
+        DataGridViewCellStyle788.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MPocNumer.DefaultCellStyle = DataGridViewCellStyle788
         Me.MPocNumer.DividerWidth = 5
         Me.MPocNumer.HeaderText = "MP OC N°"
         Me.MPocNumer.MaxInputLength = 7
@@ -13881,13 +13656,13 @@ Partial Class INSUMO
         '
         'MPproformaNumer
         '
-        DataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle81.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle81.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle81.Format = "N0"
-        DataGridViewCellStyle81.NullValue = Nothing
-        DataGridViewCellStyle81.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPproformaNumer.DefaultCellStyle = DataGridViewCellStyle81
+        DataGridViewCellStyle789.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle789.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle789.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle789.Format = "N0"
+        DataGridViewCellStyle789.NullValue = Nothing
+        DataGridViewCellStyle789.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPproformaNumer.DefaultCellStyle = DataGridViewCellStyle789
         Me.MPproformaNumer.DividerWidth = 5
         Me.MPproformaNumer.HeaderText = "MP N° Proforma"
         Me.MPproformaNumer.MaxInputLength = 7
@@ -13898,11 +13673,11 @@ Partial Class INSUMO
         '
         'MPcodigoCortoOC
         '
-        DataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle82.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle82.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle82.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPcodigoCortoOC.DefaultCellStyle = DataGridViewCellStyle82
+        DataGridViewCellStyle790.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle790.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle790.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle790.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPcodigoCortoOC.DefaultCellStyle = DataGridViewCellStyle790
         Me.MPcodigoCortoOC.DisplayStyleForCurrentCellOnly = True
         Me.MPcodigoCortoOC.DividerWidth = 5
         Me.MPcodigoCortoOC.HeaderText = "MP Codigo Corto"
@@ -13919,11 +13694,11 @@ Partial Class INSUMO
         '
         'MPNonbreFabricante
         '
-        DataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle83.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle83.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle83.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPNonbreFabricante.DefaultCellStyle = DataGridViewCellStyle83
+        DataGridViewCellStyle791.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle791.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle791.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle791.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPNonbreFabricante.DefaultCellStyle = DataGridViewCellStyle791
         Me.MPNonbreFabricante.DividerWidth = 5
         Me.MPNonbreFabricante.HeaderText = "MP Nombre Fabricante "
         Me.MPNonbreFabricante.MinimumWidth = 8
@@ -13935,13 +13710,13 @@ Partial Class INSUMO
         '
         'MPgramaj
         '
-        DataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle84.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle84.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle84.Format = "N0"
-        DataGridViewCellStyle84.NullValue = Nothing
-        DataGridViewCellStyle84.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPgramaj.DefaultCellStyle = DataGridViewCellStyle84
+        DataGridViewCellStyle792.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle792.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle792.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle792.Format = "N0"
+        DataGridViewCellStyle792.NullValue = Nothing
+        DataGridViewCellStyle792.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPgramaj.DefaultCellStyle = DataGridViewCellStyle792
         Me.MPgramaj.DividerWidth = 5
         Me.MPgramaj.HeaderText = "MP Gr. "
         Me.MPgramaj.Items.AddRange(New Object() {"040", "056", "060", "070", "090", "115", "120", "130", "150", "170", "180", "190", "200", "205", "210", "215", "220", "225", "230", "235", "240", "245", "250", "255", "260", "265", "270", "275", "280", "285", "290", "300", "305", "310", "315", "320", "325", "330", "335", "340", "350", "360", "370", "380", "390", "400", "405", "415", "420", "425", "430", "440", "450", "460", "470", "480", "490", "500"})
@@ -13954,11 +13729,11 @@ Partial Class INSUMO
         '
         'MPum
         '
-        DataGridViewCellStyle85.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle85.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle85.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle85.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPum.DefaultCellStyle = DataGridViewCellStyle85
+        DataGridViewCellStyle793.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle793.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle793.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle793.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPum.DefaultCellStyle = DataGridViewCellStyle793
         Me.MPum.DividerWidth = 5
         Me.MPum.HeaderText = "MP um"
         Me.MPum.Items.AddRange(New Object() {"250", "255", "260", "265", "275", "280", "285", "290", "300", "305", "310", "315", "320", "325", "330", "335", "340", "345", "350", "355", "360", "365", "370", "375", "380", "385", "390", "395", "400", "405", "410", "415", "420", "425", "430", "435", "440", "445", "450", "455", "460", "465", "470", "475", "480", "485", "490", "495", "500", "505", "510", "515", "520", "525", "530", "535", "540", "545", "550", "555", "560", "565", "570", "575", "580", "585", "590", "595", "600"})
@@ -13971,13 +13746,13 @@ Partial Class INSUMO
         '
         'MPpuntos
         '
-        DataGridViewCellStyle86.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle86.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle86.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle86.Format = "N0"
-        DataGridViewCellStyle86.NullValue = Nothing
-        DataGridViewCellStyle86.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPpuntos.DefaultCellStyle = DataGridViewCellStyle86
+        DataGridViewCellStyle794.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle794.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle794.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle794.Format = "N0"
+        DataGridViewCellStyle794.NullValue = Nothing
+        DataGridViewCellStyle794.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPpuntos.DefaultCellStyle = DataGridViewCellStyle794
         Me.MPpuntos.DividerWidth = 5
         Me.MPpuntos.HeaderText = "MP Puntos"
         Me.MPpuntos.Items.AddRange(New Object() {"9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"})
@@ -13990,11 +13765,11 @@ Partial Class INSUMO
         '
         'MPconFSC
         '
-        DataGridViewCellStyle87.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle87.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle87.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle87.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPconFSC.DefaultCellStyle = DataGridViewCellStyle87
+        DataGridViewCellStyle795.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle795.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle795.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle795.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPconFSC.DefaultCellStyle = DataGridViewCellStyle795
         Me.MPconFSC.DividerWidth = 5
         Me.MPconFSC.HeaderText = "MP FSC"
         Me.MPconFSC.Items.AddRange(New Object() {"000", "FSC"})
@@ -14007,12 +13782,12 @@ Partial Class INSUMO
         '
         'MPcertificadoOC
         '
-        DataGridViewCellStyle88.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle88.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle88.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle88.NullValue = Nothing
-        DataGridViewCellStyle88.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPcertificadoOC.DefaultCellStyle = DataGridViewCellStyle88
+        DataGridViewCellStyle796.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle796.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle796.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle796.NullValue = Nothing
+        DataGridViewCellStyle796.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPcertificadoOC.DefaultCellStyle = DataGridViewCellStyle796
         Me.MPcertificadoOC.DividerWidth = 5
         Me.MPcertificadoOC.HeaderText = "MP Certif."
         Me.MPcertificadoOC.Items.AddRange(New Object() {"00000", "INAN0", "ANVISA", "CETEA", "RDC00", "GQSR0", "22000", "90010"})
@@ -14025,13 +13800,13 @@ Partial Class INSUMO
         '
         'MPdiametroBobinaOC
         '
-        DataGridViewCellStyle89.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle89.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle89.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle89.Format = "N0"
-        DataGridViewCellStyle89.NullValue = Nothing
-        DataGridViewCellStyle89.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPdiametroBobinaOC.DefaultCellStyle = DataGridViewCellStyle89
+        DataGridViewCellStyle797.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle797.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle797.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle797.Format = "N0"
+        DataGridViewCellStyle797.NullValue = Nothing
+        DataGridViewCellStyle797.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPdiametroBobinaOC.DefaultCellStyle = DataGridViewCellStyle797
         Me.MPdiametroBobinaOC.DividerWidth = 5
         Me.MPdiametroBobinaOC.HeaderText = "MP Dia. Cm."
         Me.MPdiametroBobinaOC.Items.AddRange(New Object() {"50", "100", "110", "120", "125", "130", "135", "140", "145", "150", "155", "160", "165", "170", "175", "180"})
@@ -14044,12 +13819,12 @@ Partial Class INSUMO
         '
         'MPconoDiametro
         '
-        DataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle90.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle90.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle90.Format = "N0"
-        DataGridViewCellStyle90.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPconoDiametro.DefaultCellStyle = DataGridViewCellStyle90
+        DataGridViewCellStyle798.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle798.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle798.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle798.Format = "N0"
+        DataGridViewCellStyle798.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPconoDiametro.DefaultCellStyle = DataGridViewCellStyle798
         Me.MPconoDiametro.DividerWidth = 5
         Me.MPconoDiametro.HeaderText = "MP Cono Cm"
         Me.MPconoDiametro.Items.AddRange(New Object() {"30", "21", "7"})
@@ -14062,13 +13837,13 @@ Partial Class INSUMO
         '
         'MPtotalToneladas
         '
-        DataGridViewCellStyle91.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle91.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle91.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle91.Format = "N0"
-        DataGridViewCellStyle91.NullValue = Nothing
-        DataGridViewCellStyle91.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPtotalToneladas.DefaultCellStyle = DataGridViewCellStyle91
+        DataGridViewCellStyle799.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle799.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle799.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle799.Format = "N0"
+        DataGridViewCellStyle799.NullValue = Nothing
+        DataGridViewCellStyle799.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPtotalToneladas.DefaultCellStyle = DataGridViewCellStyle799
         Me.MPtotalToneladas.DividerWidth = 5
         Me.MPtotalToneladas.HeaderText = "MP Total Ton."
         Me.MPtotalToneladas.MaxInputLength = 3
@@ -14079,13 +13854,13 @@ Partial Class INSUMO
         '
         'MPcostoToneladaUSSoc
         '
-        DataGridViewCellStyle92.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle92.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle92.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle92.Format = "N0"
-        DataGridViewCellStyle92.NullValue = Nothing
-        DataGridViewCellStyle92.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPcostoToneladaUSSoc.DefaultCellStyle = DataGridViewCellStyle92
+        DataGridViewCellStyle800.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle800.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle800.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle800.Format = "N0"
+        DataGridViewCellStyle800.NullValue = Nothing
+        DataGridViewCellStyle800.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPcostoToneladaUSSoc.DefaultCellStyle = DataGridViewCellStyle800
         Me.MPcostoToneladaUSSoc.DividerWidth = 5
         Me.MPcostoToneladaUSSoc.HeaderText = "MP costo Ton U$S"
         Me.MPcostoToneladaUSSoc.MaxInputLength = 4
@@ -14096,13 +13871,13 @@ Partial Class INSUMO
         '
         'MPtotalUSSoc
         '
-        DataGridViewCellStyle93.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle93.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle93.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle93.Format = "N0"
-        DataGridViewCellStyle93.NullValue = Nothing
-        DataGridViewCellStyle93.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.MPtotalUSSoc.DefaultCellStyle = DataGridViewCellStyle93
+        DataGridViewCellStyle801.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle801.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle801.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle801.Format = "N0"
+        DataGridViewCellStyle801.NullValue = Nothing
+        DataGridViewCellStyle801.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.MPtotalUSSoc.DefaultCellStyle = DataGridViewCellStyle801
         Me.MPtotalUSSoc.DividerWidth = 5
         Me.MPtotalUSSoc.HeaderText = "MP Total U$S"
         Me.MPtotalUSSoc.MaxInputLength = 6
@@ -14135,11 +13910,11 @@ Partial Class INSUMO
         '
         'Trabajo1
         '
-        DataGridViewCellStyle94.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle94.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle94.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle94.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Trabajo1.DefaultCellStyle = DataGridViewCellStyle94
+        DataGridViewCellStyle802.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle802.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle802.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle802.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Trabajo1.DefaultCellStyle = DataGridViewCellStyle802
         Me.Trabajo1.DividerWidth = 5
         Me.Trabajo1.HeaderText = "Trabajo 1"
         Me.Trabajo1.MaxInputLength = 250
@@ -15107,49 +14882,49 @@ Partial Class INSUMO
         '
         'DataGridView5
         '
-        DataGridViewCellStyle97.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle97.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle97.Format = "N0"
-        DataGridViewCellStyle97.NullValue = Nothing
-        DataGridViewCellStyle97.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView5.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle97
+        DataGridViewCellStyle882.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle882.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle882.Format = "N0"
+        DataGridViewCellStyle882.NullValue = Nothing
+        DataGridViewCellStyle882.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView5.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle882
         Me.DataGridView5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView5.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle98.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle98.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle98.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle98.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle98.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle98.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle98.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView5.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle98
+        DataGridViewCellStyle883.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle883.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle883.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle883.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle883.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle883.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle883.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView5.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle883
         Me.DataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView5.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.FechaUltimaAutualizacion, Me.MPpago, Me.PresupuestoNumeroSeguimiento, Me.OrdenCompraNumero, Me.MPproforma, Me.BLnumero, Me.MPllegadatrasbordo, Me.MPsalidaTrasbordo, Me.MPllegadaAsuncion, Me.EntradaNumeroSeguimiento, Me.FacturaNumeroSeguimiento, Me.DespachoNumeroSeguimiento, Me.Estacion, Me.MPtoneladas, Me.MPuss, Me.MPtotalUSS, Me.MPcodigoCortoSeguimiento, Me.NombreMPproveedorSeguimiento, Me.EAN13numeroSeguimiento, Me.FSCseguimiento, Me.CertificadoNumeroSeguimiento, Me.LoteNumeroESeguimiento, Me.VtoFechaSeguimiento, Me.DiametoBobina, Me.ConoDiametro, Me.OTnumeroSeguimiento})
         Me.DataGridView5.Location = New System.Drawing.Point(12, 611)
         Me.DataGridView5.Name = "DataGridView5"
-        DataGridViewCellStyle125.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle125.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle125.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle125.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle125.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle125.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView5.RowHeadersDefaultCellStyle = DataGridViewCellStyle125
+        DataGridViewCellStyle910.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle910.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle910.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle910.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle910.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle910.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView5.RowHeadersDefaultCellStyle = DataGridViewCellStyle910
         Me.DataGridView5.RowHeadersWidth = 62
-        DataGridViewCellStyle126.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView5.RowsDefaultCellStyle = DataGridViewCellStyle126
+        DataGridViewCellStyle911.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView5.RowsDefaultCellStyle = DataGridViewCellStyle911
         Me.DataGridView5.RowTemplate.Height = 28
         Me.DataGridView5.Size = New System.Drawing.Size(1880, 328)
         Me.DataGridView5.TabIndex = 769
         '
         'FechaUltimaAutualizacion
         '
-        DataGridViewCellStyle99.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle99.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle99.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle99.Format = "g"
-        DataGridViewCellStyle99.NullValue = Nothing
-        DataGridViewCellStyle99.SelectionBackColor = System.Drawing.Color.Blue
-        Me.FechaUltimaAutualizacion.DefaultCellStyle = DataGridViewCellStyle99
+        DataGridViewCellStyle884.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle884.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle884.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle884.Format = "g"
+        DataGridViewCellStyle884.NullValue = Nothing
+        DataGridViewCellStyle884.SelectionBackColor = System.Drawing.Color.Blue
+        Me.FechaUltimaAutualizacion.DefaultCellStyle = DataGridViewCellStyle884
         Me.FechaUltimaAutualizacion.DividerWidth = 5
         Me.FechaUltimaAutualizacion.HeaderText = "Fecha Hoy"
         Me.FechaUltimaAutualizacion.MaxInputLength = 12
@@ -15160,12 +14935,12 @@ Partial Class INSUMO
         '
         'MPpago
         '
-        DataGridViewCellStyle100.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle100.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle100.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle100.NullValue = "False"
-        DataGridViewCellStyle100.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPpago.DefaultCellStyle = DataGridViewCellStyle100
+        DataGridViewCellStyle885.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle885.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle885.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle885.NullValue = "False"
+        DataGridViewCellStyle885.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPpago.DefaultCellStyle = DataGridViewCellStyle885
         Me.MPpago.DividerWidth = 5
         Me.MPpago.HeaderText = "Pago"
         Me.MPpago.MinimumWidth = 8
@@ -15176,12 +14951,12 @@ Partial Class INSUMO
         '
         'PresupuestoNumeroSeguimiento
         '
-        DataGridViewCellStyle101.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle101.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle101.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle101.Format = "N0"
-        DataGridViewCellStyle101.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.PresupuestoNumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle101
+        DataGridViewCellStyle886.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle886.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle886.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle886.Format = "N0"
+        DataGridViewCellStyle886.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.PresupuestoNumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle886
         Me.PresupuestoNumeroSeguimiento.DividerWidth = 5
         Me.PresupuestoNumeroSeguimiento.HeaderText = "Pto N°"
         Me.PresupuestoNumeroSeguimiento.MinimumWidth = 8
@@ -15194,12 +14969,12 @@ Partial Class INSUMO
         '
         'OrdenCompraNumero
         '
-        DataGridViewCellStyle102.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle102.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle102.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle102.Format = "N0"
-        DataGridViewCellStyle102.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.OrdenCompraNumero.DefaultCellStyle = DataGridViewCellStyle102
+        DataGridViewCellStyle887.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle887.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle887.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle887.Format = "N0"
+        DataGridViewCellStyle887.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.OrdenCompraNumero.DefaultCellStyle = DataGridViewCellStyle887
         Me.OrdenCompraNumero.DividerWidth = 5
         Me.OrdenCompraNumero.HeaderText = "OC N°"
         Me.OrdenCompraNumero.MinimumWidth = 8
@@ -15212,12 +14987,12 @@ Partial Class INSUMO
         '
         'MPproforma
         '
-        DataGridViewCellStyle103.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle103.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle103.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle103.Format = "N0"
-        DataGridViewCellStyle103.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPproforma.DefaultCellStyle = DataGridViewCellStyle103
+        DataGridViewCellStyle888.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle888.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle888.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle888.Format = "N0"
+        DataGridViewCellStyle888.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPproforma.DefaultCellStyle = DataGridViewCellStyle888
         Me.MPproforma.DividerWidth = 5
         Me.MPproforma.HeaderText = "+N° Proforma"
         Me.MPproforma.MinimumWidth = 8
@@ -15229,13 +15004,13 @@ Partial Class INSUMO
         '
         'BLnumero
         '
-        DataGridViewCellStyle104.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle104.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle104.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle104.Format = "N0"
-        DataGridViewCellStyle104.NullValue = Nothing
-        DataGridViewCellStyle104.SelectionBackColor = System.Drawing.Color.Blue
-        Me.BLnumero.DefaultCellStyle = DataGridViewCellStyle104
+        DataGridViewCellStyle889.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle889.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle889.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle889.Format = "N0"
+        DataGridViewCellStyle889.NullValue = Nothing
+        DataGridViewCellStyle889.SelectionBackColor = System.Drawing.Color.Blue
+        Me.BLnumero.DefaultCellStyle = DataGridViewCellStyle889
         Me.BLnumero.DividerWidth = 5
         Me.BLnumero.HeaderText = "+BL N°"
         Me.BLnumero.MaxInputLength = 7
@@ -15246,12 +15021,12 @@ Partial Class INSUMO
         '
         'MPllegadatrasbordo
         '
-        DataGridViewCellStyle105.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle105.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle105.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle105.NullValue = False
-        DataGridViewCellStyle105.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPllegadatrasbordo.DefaultCellStyle = DataGridViewCellStyle105
+        DataGridViewCellStyle890.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle890.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle890.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle890.NullValue = False
+        DataGridViewCellStyle890.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPllegadatrasbordo.DefaultCellStyle = DataGridViewCellStyle890
         Me.MPllegadatrasbordo.DividerWidth = 5
         Me.MPllegadatrasbordo.HeaderText = "+Llegada Trasbor."
         Me.MPllegadatrasbordo.MinimumWidth = 8
@@ -15262,12 +15037,12 @@ Partial Class INSUMO
         '
         'MPsalidaTrasbordo
         '
-        DataGridViewCellStyle106.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle106.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle106.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle106.NullValue = False
-        DataGridViewCellStyle106.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPsalidaTrasbordo.DefaultCellStyle = DataGridViewCellStyle106
+        DataGridViewCellStyle891.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle891.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle891.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle891.NullValue = False
+        DataGridViewCellStyle891.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPsalidaTrasbordo.DefaultCellStyle = DataGridViewCellStyle891
         Me.MPsalidaTrasbordo.DividerWidth = 5
         Me.MPsalidaTrasbordo.HeaderText = "+Salida Trasbor."
         Me.MPsalidaTrasbordo.MinimumWidth = 8
@@ -15278,12 +15053,12 @@ Partial Class INSUMO
         '
         'MPllegadaAsuncion
         '
-        DataGridViewCellStyle107.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle107.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle107.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle107.NullValue = False
-        DataGridViewCellStyle107.SelectionBackColor = System.Drawing.Color.Blue
-        Me.MPllegadaAsuncion.DefaultCellStyle = DataGridViewCellStyle107
+        DataGridViewCellStyle892.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle892.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle892.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle892.NullValue = False
+        DataGridViewCellStyle892.SelectionBackColor = System.Drawing.Color.Blue
+        Me.MPllegadaAsuncion.DefaultCellStyle = DataGridViewCellStyle892
         Me.MPllegadaAsuncion.DividerWidth = 5
         Me.MPllegadaAsuncion.HeaderText = "+LLegada Asunc."
         Me.MPllegadaAsuncion.MinimumWidth = 8
@@ -15294,12 +15069,12 @@ Partial Class INSUMO
         '
         'EntradaNumeroSeguimiento
         '
-        DataGridViewCellStyle108.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle108.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle108.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle108.Format = "N0"
-        DataGridViewCellStyle108.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.EntradaNumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle108
+        DataGridViewCellStyle893.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle893.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle893.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle893.Format = "N0"
+        DataGridViewCellStyle893.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.EntradaNumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle893
         Me.EntradaNumeroSeguimiento.DividerWidth = 5
         Me.EntradaNumeroSeguimiento.HeaderText = "Entrada N°"
         Me.EntradaNumeroSeguimiento.MinimumWidth = 8
@@ -15310,13 +15085,13 @@ Partial Class INSUMO
         '
         'FacturaNumeroSeguimiento
         '
-        DataGridViewCellStyle109.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle109.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle109.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle109.Format = "N0"
-        DataGridViewCellStyle109.NullValue = Nothing
-        DataGridViewCellStyle109.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.FacturaNumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle109
+        DataGridViewCellStyle894.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle894.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle894.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle894.Format = "N0"
+        DataGridViewCellStyle894.NullValue = Nothing
+        DataGridViewCellStyle894.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.FacturaNumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle894
         Me.FacturaNumeroSeguimiento.DividerWidth = 5
         Me.FacturaNumeroSeguimiento.HeaderText = "Factura N°"
         Me.FacturaNumeroSeguimiento.MaxInputLength = 10
@@ -15329,13 +15104,13 @@ Partial Class INSUMO
         '
         'DespachoNumeroSeguimiento
         '
-        DataGridViewCellStyle110.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle110.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle110.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle110.Format = "N0"
-        DataGridViewCellStyle110.NullValue = Nothing
-        DataGridViewCellStyle110.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.DespachoNumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle110
+        DataGridViewCellStyle895.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle895.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle895.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle895.Format = "N0"
+        DataGridViewCellStyle895.NullValue = Nothing
+        DataGridViewCellStyle895.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DespachoNumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle895
         Me.DespachoNumeroSeguimiento.DividerWidth = 5
         Me.DespachoNumeroSeguimiento.HeaderText = "Despacho N°"
         Me.DespachoNumeroSeguimiento.MaxInputLength = 7
@@ -15346,11 +15121,11 @@ Partial Class INSUMO
         '
         'Estacion
         '
-        DataGridViewCellStyle111.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle111.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle111.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle111.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.Estacion.DefaultCellStyle = DataGridViewCellStyle111
+        DataGridViewCellStyle896.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle896.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle896.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle896.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.Estacion.DefaultCellStyle = DataGridViewCellStyle896
         Me.Estacion.DividerWidth = 5
         Me.Estacion.HeaderText = "Estación"
         Me.Estacion.MinimumWidth = 8
@@ -15361,13 +15136,13 @@ Partial Class INSUMO
         '
         'MPtoneladas
         '
-        DataGridViewCellStyle112.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle112.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle112.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle112.Format = "N0"
-        DataGridViewCellStyle112.NullValue = Nothing
-        DataGridViewCellStyle112.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.MPtoneladas.DefaultCellStyle = DataGridViewCellStyle112
+        DataGridViewCellStyle897.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle897.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle897.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle897.Format = "N0"
+        DataGridViewCellStyle897.NullValue = Nothing
+        DataGridViewCellStyle897.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.MPtoneladas.DefaultCellStyle = DataGridViewCellStyle897
         Me.MPtoneladas.DividerWidth = 5
         Me.MPtoneladas.HeaderText = "Total Tonel. "
         Me.MPtoneladas.MaxInputLength = 7
@@ -15378,13 +15153,13 @@ Partial Class INSUMO
         '
         'MPuss
         '
-        DataGridViewCellStyle113.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle113.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle113.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle113.Format = "N0"
-        DataGridViewCellStyle113.NullValue = Nothing
-        DataGridViewCellStyle113.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.MPuss.DefaultCellStyle = DataGridViewCellStyle113
+        DataGridViewCellStyle898.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle898.Font = New System.Drawing.Font("Microsoft YaHei UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle898.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle898.Format = "N0"
+        DataGridViewCellStyle898.NullValue = Nothing
+        DataGridViewCellStyle898.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.MPuss.DefaultCellStyle = DataGridViewCellStyle898
         Me.MPuss.DividerWidth = 5
         Me.MPuss.HeaderText = "Ton. U$S"
         Me.MPuss.MaxInputLength = 4
@@ -15395,13 +15170,13 @@ Partial Class INSUMO
         '
         'MPtotalUSS
         '
-        DataGridViewCellStyle114.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle114.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle114.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle114.Format = "N0"
-        DataGridViewCellStyle114.NullValue = Nothing
-        DataGridViewCellStyle114.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.MPtotalUSS.DefaultCellStyle = DataGridViewCellStyle114
+        DataGridViewCellStyle899.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle899.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle899.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle899.Format = "N0"
+        DataGridViewCellStyle899.NullValue = Nothing
+        DataGridViewCellStyle899.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.MPtotalUSS.DefaultCellStyle = DataGridViewCellStyle899
         Me.MPtotalUSS.DividerWidth = 5
         Me.MPtotalUSS.HeaderText = "Total U$S"
         Me.MPtotalUSS.MaxInputLength = 4
@@ -15412,11 +15187,11 @@ Partial Class INSUMO
         '
         'MPcodigoCortoSeguimiento
         '
-        DataGridViewCellStyle115.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle115.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle115.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle115.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.MPcodigoCortoSeguimiento.DefaultCellStyle = DataGridViewCellStyle115
+        DataGridViewCellStyle900.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle900.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle900.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle900.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.MPcodigoCortoSeguimiento.DefaultCellStyle = DataGridViewCellStyle900
         Me.MPcodigoCortoSeguimiento.DividerWidth = 5
         Me.MPcodigoCortoSeguimiento.HeaderText = "MP Codigo Corto"
         Me.MPcodigoCortoSeguimiento.MaxInputLength = 200
@@ -15430,11 +15205,11 @@ Partial Class INSUMO
         '
         'NombreMPproveedorSeguimiento
         '
-        DataGridViewCellStyle116.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle116.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle116.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle116.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.NombreMPproveedorSeguimiento.DefaultCellStyle = DataGridViewCellStyle116
+        DataGridViewCellStyle901.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle901.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle901.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle901.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.NombreMPproveedorSeguimiento.DefaultCellStyle = DataGridViewCellStyle901
         Me.NombreMPproveedorSeguimiento.DividerWidth = 5
         Me.NombreMPproveedorSeguimiento.HeaderText = "Nombre MP del Proveedor"
         Me.NombreMPproveedorSeguimiento.MaxInputLength = 80
@@ -15446,13 +15221,13 @@ Partial Class INSUMO
         '
         'EAN13numeroSeguimiento
         '
-        DataGridViewCellStyle117.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle117.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle117.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle117.Format = "N0"
-        DataGridViewCellStyle117.NullValue = Nothing
-        DataGridViewCellStyle117.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.EAN13numeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle117
+        DataGridViewCellStyle902.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle902.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle902.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle902.Format = "N0"
+        DataGridViewCellStyle902.NullValue = Nothing
+        DataGridViewCellStyle902.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.EAN13numeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle902
         Me.EAN13numeroSeguimiento.DividerWidth = 5
         Me.EAN13numeroSeguimiento.HeaderText = "EAN-13 N°"
         Me.EAN13numeroSeguimiento.MaxInputLength = 4
@@ -15464,10 +15239,10 @@ Partial Class INSUMO
         '
         'FSCseguimiento
         '
-        DataGridViewCellStyle118.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle118.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle118.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.FSCseguimiento.DefaultCellStyle = DataGridViewCellStyle118
+        DataGridViewCellStyle903.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle903.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle903.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.FSCseguimiento.DefaultCellStyle = DataGridViewCellStyle903
         Me.FSCseguimiento.DividerWidth = 5
         Me.FSCseguimiento.HeaderText = "FSC"
         Me.FSCseguimiento.Items.AddRange(New Object() {"000", "FSC"})
@@ -15480,12 +15255,12 @@ Partial Class INSUMO
         '
         'CertificadoNumeroSeguimiento
         '
-        DataGridViewCellStyle119.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle119.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle119.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle119.NullValue = Nothing
-        DataGridViewCellStyle119.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.CertificadoNumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle119
+        DataGridViewCellStyle904.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle904.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle904.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle904.NullValue = Nothing
+        DataGridViewCellStyle904.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.CertificadoNumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle904
         Me.CertificadoNumeroSeguimiento.DividerWidth = 5
         Me.CertificadoNumeroSeguimiento.HeaderText = "Certifi."
         Me.CertificadoNumeroSeguimiento.Items.AddRange(New Object() {"00000", "INAN0", "ANVISA", "CETEA", "RDC00", "GQSR0", "22000", "90010", "", "", "", "55555"})
@@ -15498,13 +15273,13 @@ Partial Class INSUMO
         '
         'LoteNumeroESeguimiento
         '
-        DataGridViewCellStyle120.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle120.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle120.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle120.Format = "d"
-        DataGridViewCellStyle120.NullValue = Nothing
-        DataGridViewCellStyle120.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.LoteNumeroESeguimiento.DefaultCellStyle = DataGridViewCellStyle120
+        DataGridViewCellStyle905.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle905.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle905.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle905.Format = "d"
+        DataGridViewCellStyle905.NullValue = Nothing
+        DataGridViewCellStyle905.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.LoteNumeroESeguimiento.DefaultCellStyle = DataGridViewCellStyle905
         Me.LoteNumeroESeguimiento.DividerWidth = 5
         Me.LoteNumeroESeguimiento.HeaderText = "Lte. N°"
         Me.LoteNumeroESeguimiento.MaxInputLength = 10
@@ -15516,13 +15291,13 @@ Partial Class INSUMO
         '
         'VtoFechaSeguimiento
         '
-        DataGridViewCellStyle121.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle121.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle121.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle121.Format = "d"
-        DataGridViewCellStyle121.NullValue = Nothing
-        DataGridViewCellStyle121.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.VtoFechaSeguimiento.DefaultCellStyle = DataGridViewCellStyle121
+        DataGridViewCellStyle906.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle906.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle906.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle906.Format = "d"
+        DataGridViewCellStyle906.NullValue = Nothing
+        DataGridViewCellStyle906.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.VtoFechaSeguimiento.DefaultCellStyle = DataGridViewCellStyle906
         Me.VtoFechaSeguimiento.DividerWidth = 5
         Me.VtoFechaSeguimiento.HeaderText = "Vto."
         Me.VtoFechaSeguimiento.MaxInputLength = 10
@@ -15534,12 +15309,12 @@ Partial Class INSUMO
         '
         'DiametoBobina
         '
-        DataGridViewCellStyle122.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle122.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle122.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle122.Format = "N0"
-        DataGridViewCellStyle122.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.DiametoBobina.DefaultCellStyle = DataGridViewCellStyle122
+        DataGridViewCellStyle907.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle907.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle907.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle907.Format = "N0"
+        DataGridViewCellStyle907.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.DiametoBobina.DefaultCellStyle = DataGridViewCellStyle907
         Me.DiametoBobina.DividerWidth = 5
         Me.DiametoBobina.HeaderText = "Dia. Cm."
         Me.DiametoBobina.Items.AddRange(New Object() {"50", "100", "110", "120", "125", "130", "135", "140", "145", "150", "155", "160", "165", "170", "175", "180"})
@@ -15552,12 +15327,12 @@ Partial Class INSUMO
         '
         'ConoDiametro
         '
-        DataGridViewCellStyle123.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle123.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle123.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle123.Format = "N0"
-        DataGridViewCellStyle123.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.ConoDiametro.DefaultCellStyle = DataGridViewCellStyle123
+        DataGridViewCellStyle908.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle908.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle908.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle908.Format = "N0"
+        DataGridViewCellStyle908.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.ConoDiametro.DefaultCellStyle = DataGridViewCellStyle908
         Me.ConoDiametro.DividerWidth = 5
         Me.ConoDiametro.HeaderText = "Con Cm"
         Me.ConoDiametro.Items.AddRange(New Object() {"30", "21", "7"})
@@ -15570,12 +15345,12 @@ Partial Class INSUMO
         '
         'OTnumeroSeguimiento
         '
-        DataGridViewCellStyle124.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle124.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle124.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle124.Format = "N0"
-        DataGridViewCellStyle124.SelectionBackColor = System.Drawing.Color.Fuchsia
-        Me.OTnumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle124
+        DataGridViewCellStyle909.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle909.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle909.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle909.Format = "N0"
+        DataGridViewCellStyle909.SelectionBackColor = System.Drawing.Color.Fuchsia
+        Me.OTnumeroSeguimiento.DefaultCellStyle = DataGridViewCellStyle909
         Me.OTnumeroSeguimiento.DividerWidth = 5
         Me.OTnumeroSeguimiento.HeaderText = "OT N°"
         Me.OTnumeroSeguimiento.MaxInputLength = 7
@@ -15595,7 +15370,7 @@ Partial Class INSUMO
         Me.CheckedListBox7.Location = New System.Drawing.Point(1204, 53)
         Me.CheckedListBox7.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckedListBox7.Name = "CheckedListBox7"
-        Me.CheckedListBox7.Size = New System.Drawing.Size(298, 211)
+        Me.CheckedListBox7.Size = New System.Drawing.Size(298, 229)
         Me.CheckedListBox7.TabIndex = 766
         Me.ToolTip1.SetToolTip(Me.CheckedListBox7, "Filtrar con el criterio marcado, el informe.")
         '
@@ -16313,48 +16088,48 @@ Partial Class INSUMO
         '
         'DataGridView6
         '
-        DataGridViewCellStyle127.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle127.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle127.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle127.Format = "N0"
-        DataGridViewCellStyle127.NullValue = Nothing
-        DataGridViewCellStyle127.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridView6.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle127
+        DataGridViewCellStyle912.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle912.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle912.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle912.Format = "N0"
+        DataGridViewCellStyle912.NullValue = Nothing
+        DataGridViewCellStyle912.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridView6.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle912
         Me.DataGridView6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView6.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
-        DataGridViewCellStyle128.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle128.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle128.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle128.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle128.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle128.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle128.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView6.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle128
+        DataGridViewCellStyle913.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle913.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle913.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle913.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle913.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle913.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle913.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView6.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle913
         Me.DataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView6.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewComboBoxColumn1, Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewComboBoxColumn2, Me.DataGridViewComboBoxColumn3, Me.DataGridViewComboBoxColumn4, Me.DataGridViewComboBoxColumn5, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn11, Me.DataGridViewTextBoxColumn12, Me.DataGridViewTextBoxColumn13, Me.DataGridViewTextBoxColumn14, Me.DataGridViewTextBoxColumn16, Me.DataGridViewTextBoxColumn17, Me.DataGridViewTextBoxColumn18, Me.DataGridViewTextBoxColumn19, Me.DataGridViewComboBoxColumn6, Me.DataGridViewComboBoxColumn7, Me.DataGridViewComboBoxColumn8, Me.DataGridViewTextBoxColumn20, Me.DataGridViewTextBoxColumn21, Me.DataGridViewTextBoxColumn22, Me.DataGridViewTextBoxColumn23, Me.DataGridViewTextBoxColumn24, Me.DataGridViewTextBoxColumn25, Me.DataGridViewTextBoxColumn26, Me.DataGridViewTextBoxColumn27, Me.DataGridViewTextBoxColumn28, Me.DataGridViewTextBoxColumn29, Me.DataGridViewTextBoxColumn30, Me.DataGridViewTextBoxColumn31, Me.DataGridViewTextBoxColumn32, Me.DataGridViewComboBoxColumn9, Me.DataGridViewComboBoxColumn10, Me.DataGridViewComboBoxColumn11, Me.DataGridViewComboBoxColumn12, Me.DataGridViewComboBoxColumn13, Me.DataGridViewComboBoxColumn14, Me.DataGridViewComboBoxColumn15, Me.DataGridViewTextBoxColumn33, Me.DataGridViewTextBoxColumn34, Me.DataGridViewTextBoxColumn35, Me.DataGridViewTextBoxColumn36})
         Me.DataGridView6.Location = New System.Drawing.Point(9, 535)
         Me.DataGridView6.Name = "DataGridView6"
-        DataGridViewCellStyle156.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle156.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle156.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle156.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle156.SelectionForeColor = System.Drawing.Color.AliceBlue
-        DataGridViewCellStyle156.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView6.RowHeadersDefaultCellStyle = DataGridViewCellStyle156
+        DataGridViewCellStyle941.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle941.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle941.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle941.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle941.SelectionForeColor = System.Drawing.Color.AliceBlue
+        DataGridViewCellStyle941.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView6.RowHeadersDefaultCellStyle = DataGridViewCellStyle941
         Me.DataGridView6.RowHeadersWidth = 62
-        DataGridViewCellStyle157.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DataGridView6.RowsDefaultCellStyle = DataGridViewCellStyle157
+        DataGridViewCellStyle942.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DataGridView6.RowsDefaultCellStyle = DataGridViewCellStyle942
         Me.DataGridView6.RowTemplate.Height = 28
         Me.DataGridView6.Size = New System.Drawing.Size(8272, 396)
         Me.DataGridView6.TabIndex = 767
         '
         'DataGridViewComboBoxColumn1
         '
-        DataGridViewCellStyle129.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle129.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle129.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle129.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewComboBoxColumn1.DefaultCellStyle = DataGridViewCellStyle129
+        DataGridViewCellStyle914.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle914.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle914.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle914.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn1.DefaultCellStyle = DataGridViewCellStyle914
         Me.DataGridViewComboBoxColumn1.DividerWidth = 5
         Me.DataGridViewComboBoxColumn1.HeaderText = "Estación Entrada"
         Me.DataGridViewComboBoxColumn1.Items.AddRange(New Object() {"Comercial", "PrePrensa", "CC (Legajo Impr y Troq)", "Troquel", "Planificación", "Deposito", "Impresion", "Plastificaficado", "UV", "Stampado", "Troquelado ", "Descartonado", "Selección", "Pegadp 2D", "Pegadp 3D", "Pegado(PM)", "Liberado", "Expedicion", "Mantenimiento"})
@@ -16367,13 +16142,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn1
         '
-        DataGridViewCellStyle130.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle130.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle130.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle130.Format = "N0"
-        DataGridViewCellStyle130.NullValue = Nothing
-        DataGridViewCellStyle130.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.DataGridViewTextBoxColumn1.DefaultCellStyle = DataGridViewCellStyle130
+        DataGridViewCellStyle915.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle915.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle915.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle915.Format = "N0"
+        DataGridViewCellStyle915.NullValue = Nothing
+        DataGridViewCellStyle915.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DataGridViewTextBoxColumn1.DefaultCellStyle = DataGridViewCellStyle915
         Me.DataGridViewTextBoxColumn1.DividerWidth = 5
         Me.DataGridViewTextBoxColumn1.HeaderText = "MP Entrada N°"
         Me.DataGridViewTextBoxColumn1.MaxInputLength = 7
@@ -16393,12 +16168,12 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn3
         '
-        DataGridViewCellStyle131.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle131.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle131.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle131.Format = "N0"
-        DataGridViewCellStyle131.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn3.DefaultCellStyle = DataGridViewCellStyle131
+        DataGridViewCellStyle916.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle916.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle916.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle916.Format = "N0"
+        DataGridViewCellStyle916.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn3.DefaultCellStyle = DataGridViewCellStyle916
         Me.DataGridViewTextBoxColumn3.DividerWidth = 5
         Me.DataGridViewTextBoxColumn3.HeaderText = "Cliente OT N°"
         Me.DataGridViewTextBoxColumn3.MinimumWidth = 8
@@ -16410,13 +16185,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn4
         '
-        DataGridViewCellStyle132.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle132.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle132.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle132.Format = "N0"
-        DataGridViewCellStyle132.NullValue = Nothing
-        DataGridViewCellStyle132.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn4.DefaultCellStyle = DataGridViewCellStyle132
+        DataGridViewCellStyle917.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle917.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle917.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle917.Format = "N0"
+        DataGridViewCellStyle917.NullValue = Nothing
+        DataGridViewCellStyle917.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn4.DefaultCellStyle = DataGridViewCellStyle917
         Me.DataGridViewTextBoxColumn4.DividerWidth = 5
         Me.DataGridViewTextBoxColumn4.HeaderText = "Cliente Factura N°"
         Me.DataGridViewTextBoxColumn4.MaxInputLength = 10
@@ -16438,12 +16213,12 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn6
         '
-        DataGridViewCellStyle133.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle133.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle133.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle133.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle133.SelectionForeColor = System.Drawing.Color.Black
-        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle133
+        DataGridViewCellStyle918.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle918.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle918.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle918.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle918.SelectionForeColor = System.Drawing.Color.Black
+        Me.DataGridViewTextBoxColumn6.DefaultCellStyle = DataGridViewCellStyle918
         Me.DataGridViewTextBoxColumn6.DividerWidth = 10
         Me.DataGridViewTextBoxColumn6.HeaderText = "Cliente Nombre Trabajo"
         Me.DataGridViewTextBoxColumn6.MinimumWidth = 8
@@ -16462,14 +16237,14 @@ Partial Class INSUMO
         '
         'DataGridViewComboBoxColumn3
         '
-        DataGridViewCellStyle134.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle134.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle134.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle134.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle134.NullValue = Nothing
-        DataGridViewCellStyle134.SelectionBackColor = System.Drawing.Color.Yellow
-        DataGridViewCellStyle134.SelectionForeColor = System.Drawing.Color.Black
-        Me.DataGridViewComboBoxColumn3.DefaultCellStyle = DataGridViewCellStyle134
+        DataGridViewCellStyle919.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle919.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle919.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle919.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle919.NullValue = Nothing
+        DataGridViewCellStyle919.SelectionBackColor = System.Drawing.Color.Yellow
+        DataGridViewCellStyle919.SelectionForeColor = System.Drawing.Color.Black
+        Me.DataGridViewComboBoxColumn3.DefaultCellStyle = DataGridViewCellStyle919
         Me.DataGridViewComboBoxColumn3.DividerWidth = 5
         Me.DataGridViewComboBoxColumn3.HeaderText = "MP Imprime FSC"
         Me.DataGridViewComboBoxColumn3.MinimumWidth = 8
@@ -16510,13 +16285,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn8
         '
-        DataGridViewCellStyle135.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle135.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle135.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle135.Format = "N0"
-        DataGridViewCellStyle135.NullValue = Nothing
-        DataGridViewCellStyle135.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.DataGridViewTextBoxColumn8.DefaultCellStyle = DataGridViewCellStyle135
+        DataGridViewCellStyle920.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle920.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle920.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle920.Format = "N0"
+        DataGridViewCellStyle920.NullValue = Nothing
+        DataGridViewCellStyle920.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DataGridViewTextBoxColumn8.DefaultCellStyle = DataGridViewCellStyle920
         Me.DataGridViewTextBoxColumn8.DividerWidth = 5
         Me.DataGridViewTextBoxColumn8.HeaderText = "MP Scrap Con FSC Kls"
         Me.DataGridViewTextBoxColumn8.MaxInputLength = 6
@@ -16572,13 +16347,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn14
         '
-        DataGridViewCellStyle136.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle136.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle136.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle136.Format = "N0"
-        DataGridViewCellStyle136.NullValue = Nothing
-        DataGridViewCellStyle136.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn14.DefaultCellStyle = DataGridViewCellStyle136
+        DataGridViewCellStyle921.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle921.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle921.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle921.Format = "N0"
+        DataGridViewCellStyle921.NullValue = Nothing
+        DataGridViewCellStyle921.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn14.DefaultCellStyle = DataGridViewCellStyle921
         Me.DataGridViewTextBoxColumn14.DividerWidth = 5
         Me.DataGridViewTextBoxColumn14.HeaderText = "MP      OC N°"
         Me.DataGridViewTextBoxColumn14.MaxInputLength = 10
@@ -16600,13 +16375,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn17
         '
-        DataGridViewCellStyle137.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle137.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle137.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle137.Format = "N0"
-        DataGridViewCellStyle137.NullValue = Nothing
-        DataGridViewCellStyle137.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn17.DefaultCellStyle = DataGridViewCellStyle137
+        DataGridViewCellStyle922.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle922.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle922.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle922.Format = "N0"
+        DataGridViewCellStyle922.NullValue = Nothing
+        DataGridViewCellStyle922.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn17.DefaultCellStyle = DataGridViewCellStyle922
         Me.DataGridViewTextBoxColumn17.DividerWidth = 5
         Me.DataGridViewTextBoxColumn17.HeaderText = "MP    Factura N°"
         Me.DataGridViewTextBoxColumn17.MaxInputLength = 10
@@ -16619,13 +16394,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn18
         '
-        DataGridViewCellStyle138.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle138.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle138.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle138.Format = "N0"
-        DataGridViewCellStyle138.NullValue = Nothing
-        DataGridViewCellStyle138.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn18.DefaultCellStyle = DataGridViewCellStyle138
+        DataGridViewCellStyle923.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle923.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle923.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle923.Format = "N0"
+        DataGridViewCellStyle923.NullValue = Nothing
+        DataGridViewCellStyle923.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn18.DefaultCellStyle = DataGridViewCellStyle923
         Me.DataGridViewTextBoxColumn18.DividerWidth = 5
         Me.DataGridViewTextBoxColumn18.HeaderText = "MP        BL N°"
         Me.DataGridViewTextBoxColumn18.MaxInputLength = 7
@@ -16646,11 +16421,11 @@ Partial Class INSUMO
         '
         'DataGridViewComboBoxColumn6
         '
-        DataGridViewCellStyle139.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle139.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle139.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle139.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewComboBoxColumn6.DefaultCellStyle = DataGridViewCellStyle139
+        DataGridViewCellStyle924.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle924.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle924.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle924.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn6.DefaultCellStyle = DataGridViewCellStyle924
         Me.DataGridViewComboBoxColumn6.DisplayStyleForCurrentCellOnly = True
         Me.DataGridViewComboBoxColumn6.DividerWidth = 5
         Me.DataGridViewComboBoxColumn6.HeaderText = "MP Código Corto"
@@ -16666,12 +16441,12 @@ Partial Class INSUMO
         '
         'DataGridViewComboBoxColumn7
         '
-        DataGridViewCellStyle140.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle140.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle140.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle140.NullValue = Nothing
-        DataGridViewCellStyle140.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewComboBoxColumn7.DefaultCellStyle = DataGridViewCellStyle140
+        DataGridViewCellStyle925.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle925.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle925.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle925.NullValue = Nothing
+        DataGridViewCellStyle925.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn7.DefaultCellStyle = DataGridViewCellStyle925
         Me.DataGridViewComboBoxColumn7.DividerWidth = 5
         Me.DataGridViewComboBoxColumn7.HeaderText = "MP Nombre Proveedor"
         Me.DataGridViewComboBoxColumn7.MinimumWidth = 8
@@ -16721,13 +16496,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn23
         '
-        DataGridViewCellStyle141.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle141.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle141.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle141.Format = "N0"
-        DataGridViewCellStyle141.NullValue = Nothing
-        DataGridViewCellStyle141.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn23.DefaultCellStyle = DataGridViewCellStyle141
+        DataGridViewCellStyle926.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle926.Font = New System.Drawing.Font("Arial Black", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle926.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle926.Format = "N0"
+        DataGridViewCellStyle926.NullValue = Nothing
+        DataGridViewCellStyle926.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn23.DefaultCellStyle = DataGridViewCellStyle926
         Me.DataGridViewTextBoxColumn23.DividerWidth = 10
         Me.DataGridViewTextBoxColumn23.HeaderText = "EAN-13 N° Cod. Barra"
         Me.DataGridViewTextBoxColumn23.MaxInputLength = 4
@@ -16739,13 +16514,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn24
         '
-        DataGridViewCellStyle142.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle142.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle142.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle142.Format = "N0"
-        DataGridViewCellStyle142.NullValue = Nothing
-        DataGridViewCellStyle142.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn24.DefaultCellStyle = DataGridViewCellStyle142
+        DataGridViewCellStyle927.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle927.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle927.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle927.Format = "N0"
+        DataGridViewCellStyle927.NullValue = Nothing
+        DataGridViewCellStyle927.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn24.DefaultCellStyle = DataGridViewCellStyle927
         Me.DataGridViewTextBoxColumn24.DividerWidth = 5
         Me.DataGridViewTextBoxColumn24.HeaderText = "+MP Total Fact. Gs."
         Me.DataGridViewTextBoxColumn24.MaxInputLength = 10
@@ -16758,13 +16533,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn25
         '
-        DataGridViewCellStyle143.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle143.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle143.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle143.Format = "N0"
-        DataGridViewCellStyle143.NullValue = Nothing
-        DataGridViewCellStyle143.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn25.DefaultCellStyle = DataGridViewCellStyle143
+        DataGridViewCellStyle928.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle928.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle928.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle928.Format = "N0"
+        DataGridViewCellStyle928.NullValue = Nothing
+        DataGridViewCellStyle928.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn25.DefaultCellStyle = DataGridViewCellStyle928
         Me.DataGridViewTextBoxColumn25.DividerWidth = 5
         Me.DataGridViewTextBoxColumn25.HeaderText = "+MP Total Fact. Bob. "
         Me.DataGridViewTextBoxColumn25.MaxInputLength = 3
@@ -16786,13 +16561,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn27
         '
-        DataGridViewCellStyle144.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle144.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle144.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle144.Format = "N0"
-        DataGridViewCellStyle144.NullValue = Nothing
-        DataGridViewCellStyle144.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn27.DefaultCellStyle = DataGridViewCellStyle144
+        DataGridViewCellStyle929.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle929.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle929.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle929.Format = "N0"
+        DataGridViewCellStyle929.NullValue = Nothing
+        DataGridViewCellStyle929.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn27.DefaultCellStyle = DataGridViewCellStyle929
         Me.DataGridViewTextBoxColumn27.DividerWidth = 5
         Me.DataGridViewTextBoxColumn27.HeaderText = "*MP Items Gs."
         Me.DataGridViewTextBoxColumn27.MaxInputLength = 6
@@ -16805,13 +16580,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn28
         '
-        DataGridViewCellStyle145.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle145.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle145.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle145.Format = "N0"
-        DataGridViewCellStyle145.NullValue = Nothing
-        DataGridViewCellStyle145.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn28.DefaultCellStyle = DataGridViewCellStyle145
+        DataGridViewCellStyle930.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle930.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle930.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle930.Format = "N0"
+        DataGridViewCellStyle930.NullValue = Nothing
+        DataGridViewCellStyle930.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn28.DefaultCellStyle = DataGridViewCellStyle930
         Me.DataGridViewTextBoxColumn28.DividerWidth = 5
         Me.DataGridViewTextBoxColumn28.HeaderText = "*MP Items Bobin."
         Me.DataGridViewTextBoxColumn28.MaxInputLength = 3
@@ -16824,13 +16599,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn29
         '
-        DataGridViewCellStyle146.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle146.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle146.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle146.Format = "N0"
-        DataGridViewCellStyle146.NullValue = Nothing
-        DataGridViewCellStyle146.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn29.DefaultCellStyle = DataGridViewCellStyle146
+        DataGridViewCellStyle931.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle931.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle931.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle931.Format = "N0"
+        DataGridViewCellStyle931.NullValue = Nothing
+        DataGridViewCellStyle931.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn29.DefaultCellStyle = DataGridViewCellStyle931
         Me.DataGridViewTextBoxColumn29.DividerWidth = 10
         Me.DataGridViewTextBoxColumn29.HeaderText = "*MP Items Kls."
         Me.DataGridViewTextBoxColumn29.MaxInputLength = 6
@@ -16843,13 +16618,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn30
         '
-        DataGridViewCellStyle147.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle147.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle147.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle147.Format = "N0"
-        DataGridViewCellStyle147.NullValue = Nothing
-        DataGridViewCellStyle147.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.DataGridViewTextBoxColumn30.DefaultCellStyle = DataGridViewCellStyle147
+        DataGridViewCellStyle932.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle932.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle932.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle932.Format = "N0"
+        DataGridViewCellStyle932.NullValue = Nothing
+        DataGridViewCellStyle932.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DataGridViewTextBoxColumn30.DefaultCellStyle = DataGridViewCellStyle932
         Me.DataGridViewTextBoxColumn30.DividerWidth = 5
         Me.DataGridViewTextBoxColumn30.HeaderText = "-MP Total Total Gs"
         Me.DataGridViewTextBoxColumn30.MaxInputLength = 10
@@ -16862,13 +16637,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn31
         '
-        DataGridViewCellStyle148.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle148.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle148.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle148.Format = "N0"
-        DataGridViewCellStyle148.NullValue = Nothing
-        DataGridViewCellStyle148.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.DataGridViewTextBoxColumn31.DefaultCellStyle = DataGridViewCellStyle148
+        DataGridViewCellStyle933.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle933.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle933.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle933.Format = "N0"
+        DataGridViewCellStyle933.NullValue = Nothing
+        DataGridViewCellStyle933.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DataGridViewTextBoxColumn31.DefaultCellStyle = DataGridViewCellStyle933
         Me.DataGridViewTextBoxColumn31.DividerWidth = 5
         Me.DataGridViewTextBoxColumn31.HeaderText = "-MP Total Total Bob."
         Me.DataGridViewTextBoxColumn31.MaxInputLength = 10
@@ -16891,12 +16666,12 @@ Partial Class INSUMO
         '
         'DataGridViewComboBoxColumn9
         '
-        DataGridViewCellStyle149.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle149.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle149.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle149.NullValue = Nothing
-        DataGridViewCellStyle149.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewComboBoxColumn9.DefaultCellStyle = DataGridViewCellStyle149
+        DataGridViewCellStyle934.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle934.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle934.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle934.NullValue = Nothing
+        DataGridViewCellStyle934.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn9.DefaultCellStyle = DataGridViewCellStyle934
         Me.DataGridViewComboBoxColumn9.DividerWidth = 5
         Me.DataGridViewComboBoxColumn9.HeaderText = "MP Certificado"
         Me.DataGridViewComboBoxColumn9.Items.AddRange(New Object() {"00000", "INAN0", "ANVISA", "CETEA", "RDC00", "GQSR0", "22000", "90010", "", "", "", "55555"})
@@ -16909,12 +16684,12 @@ Partial Class INSUMO
         '
         'DataGridViewComboBoxColumn10
         '
-        DataGridViewCellStyle150.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle150.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle150.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle150.Format = "N0"
-        DataGridViewCellStyle150.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewComboBoxColumn10.DefaultCellStyle = DataGridViewCellStyle150
+        DataGridViewCellStyle935.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle935.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle935.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle935.Format = "N0"
+        DataGridViewCellStyle935.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn10.DefaultCellStyle = DataGridViewCellStyle935
         Me.DataGridViewComboBoxColumn10.DividerWidth = 5
         Me.DataGridViewComboBoxColumn10.HeaderText = "MP Diametro Bobina"
         Me.DataGridViewComboBoxColumn10.Items.AddRange(New Object() {"50", "100", "110", "120", "125", "130", "135", "140", "145", "150", "155", "160", "165", "170", "175", "180"})
@@ -16927,12 +16702,12 @@ Partial Class INSUMO
         '
         'DataGridViewComboBoxColumn11
         '
-        DataGridViewCellStyle151.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle151.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle151.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle151.Format = "N0"
-        DataGridViewCellStyle151.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewComboBoxColumn11.DefaultCellStyle = DataGridViewCellStyle151
+        DataGridViewCellStyle936.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle936.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle936.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle936.Format = "N0"
+        DataGridViewCellStyle936.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn11.DefaultCellStyle = DataGridViewCellStyle936
         Me.DataGridViewComboBoxColumn11.DividerWidth = 5
         Me.DataGridViewComboBoxColumn11.HeaderText = "MP Cono Bobina"
         Me.DataGridViewComboBoxColumn11.Items.AddRange(New Object() {"30", "21", "7"})
@@ -16981,13 +16756,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn33
         '
-        DataGridViewCellStyle152.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle152.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle152.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle152.Format = "d"
-        DataGridViewCellStyle152.NullValue = Nothing
-        DataGridViewCellStyle152.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn33.DefaultCellStyle = DataGridViewCellStyle152
+        DataGridViewCellStyle937.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle937.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle937.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle937.Format = "d"
+        DataGridViewCellStyle937.NullValue = Nothing
+        DataGridViewCellStyle937.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn33.DefaultCellStyle = DataGridViewCellStyle937
         Me.DataGridViewTextBoxColumn33.DividerWidth = 5
         Me.DataGridViewTextBoxColumn33.HeaderText = "MP Lte. N°"
         Me.DataGridViewTextBoxColumn33.MaxInputLength = 10
@@ -16999,13 +16774,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn34
         '
-        DataGridViewCellStyle153.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle153.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle153.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle153.Format = "d"
-        DataGridViewCellStyle153.NullValue = Nothing
-        DataGridViewCellStyle153.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn34.DefaultCellStyle = DataGridViewCellStyle153
+        DataGridViewCellStyle938.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle938.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle938.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle938.Format = "d"
+        DataGridViewCellStyle938.NullValue = Nothing
+        DataGridViewCellStyle938.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn34.DefaultCellStyle = DataGridViewCellStyle938
         Me.DataGridViewTextBoxColumn34.DividerWidth = 10
         Me.DataGridViewTextBoxColumn34.HeaderText = "MP Vto."
         Me.DataGridViewTextBoxColumn34.MaxInputLength = 10
@@ -17017,13 +16792,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn35
         '
-        DataGridViewCellStyle154.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle154.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle154.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle154.Format = "N0"
-        DataGridViewCellStyle154.NullValue = Nothing
-        DataGridViewCellStyle154.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.DataGridViewTextBoxColumn35.DefaultCellStyle = DataGridViewCellStyle154
+        DataGridViewCellStyle939.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle939.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle939.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle939.Format = "N0"
+        DataGridViewCellStyle939.NullValue = Nothing
+        DataGridViewCellStyle939.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DataGridViewTextBoxColumn35.DefaultCellStyle = DataGridViewCellStyle939
         Me.DataGridViewTextBoxColumn35.DividerWidth = 5
         Me.DataGridViewTextBoxColumn35.HeaderText = "MP Kls. Comprometido "
         Me.DataGridViewTextBoxColumn35.MinimumWidth = 8
@@ -17033,13 +16808,13 @@ Partial Class INSUMO
         '
         'DataGridViewTextBoxColumn36
         '
-        DataGridViewCellStyle155.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle155.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle155.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle155.Format = "N0"
-        DataGridViewCellStyle155.NullValue = Nothing
-        DataGridViewCellStyle155.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.DataGridViewTextBoxColumn36.DefaultCellStyle = DataGridViewCellStyle155
+        DataGridViewCellStyle940.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle940.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle940.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle940.Format = "N0"
+        DataGridViewCellStyle940.NullValue = Nothing
+        DataGridViewCellStyle940.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DataGridViewTextBoxColumn36.DefaultCellStyle = DataGridViewCellStyle940
         Me.DataGridViewTextBoxColumn36.DividerWidth = 5
         Me.DataGridViewTextBoxColumn36.HeaderText = "MP Kls. Situacion"
         Me.DataGridViewTextBoxColumn36.MinimumWidth = 8
@@ -17425,7 +17200,7 @@ Partial Class INSUMO
         Me.CheckedListBox9.Location = New System.Drawing.Point(157, 50)
         Me.CheckedListBox9.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckedListBox9.Name = "CheckedListBox9"
-        Me.CheckedListBox9.Size = New System.Drawing.Size(182, 165)
+        Me.CheckedListBox9.Size = New System.Drawing.Size(182, 179)
         Me.CheckedListBox9.TabIndex = 762
         Me.ToolTip1.SetToolTip(Me.CheckedListBox9, "Filtrar con el criterio marcado, el informe.")
         '
@@ -19671,7 +19446,7 @@ Partial Class INSUMO
         Me.CheckedListBox1.Location = New System.Drawing.Point(177, 70)
         Me.CheckedListBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckedListBox1.Name = "CheckedListBox1"
-        Me.CheckedListBox1.Size = New System.Drawing.Size(241, 165)
+        Me.CheckedListBox1.Size = New System.Drawing.Size(241, 184)
         Me.CheckedListBox1.TabIndex = 755
         Me.ToolTip1.SetToolTip(Me.CheckedListBox1, "Filtrar con el criterio marcado, el informe.")
         '
@@ -21202,27 +20977,236 @@ Partial Class INSUMO
         Me.Label411.TabIndex = 6
         Me.Label411.Text = "PERMISO INGRESO"
         '
-        'Label105
+        'ComboBox41
         '
-        Me.Label105.AutoSize = True
-        Me.Label105.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label105.ForeColor = System.Drawing.Color.White
-        Me.Label105.Location = New System.Drawing.Point(181, 10)
-        Me.Label105.Name = "Label105"
-        Me.Label105.Size = New System.Drawing.Size(537, 19)
-        Me.Label105.TabIndex = 260
-        Me.Label105.Text = "Pantalla: 1946/1043  /// Horejas: 1924/987 /// Primera ventana: 1900/930"
+        Me.ComboBox41.BackColor = System.Drawing.Color.White
+        Me.ComboBox41.DropDownWidth = 272
+        Me.ComboBox41.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox41.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox41.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox41.FormattingEnabled = True
+        Me.ComboBox41.Items.AddRange(New Object() {"Folia", "Hotman", "Liopack", "Lio"})
+        Me.ComboBox41.Location = New System.Drawing.Point(986, 10)
+        Me.ComboBox41.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox41.Name = "ComboBox41"
+        Me.ComboBox41.Size = New System.Drawing.Size(133, 26)
+        Me.ComboBox41.TabIndex = 731
+        Me.ComboBox41.Text = "Folia"
         '
-        'INSUMO
+        'Label91
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
+        Me.Label91.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label91.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label91.Location = New System.Drawing.Point(487, 10)
+        Me.Label91.Name = "Label91"
+        Me.Label91.Size = New System.Drawing.Size(186, 26)
+        Me.Label91.TabIndex = 729
+        Me.Label91.Text = "Comprometido Kls:"
+        Me.Label91.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'TextBox205
+        '
+        Me.TextBox205.BackColor = System.Drawing.Color.White
+        Me.TextBox205.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox205.ForeColor = System.Drawing.Color.Magenta
+        Me.TextBox205.Location = New System.Drawing.Point(679, 10)
+        Me.TextBox205.Name = "TextBox205"
+        Me.TextBox205.Size = New System.Drawing.Size(89, 26)
+        Me.TextBox205.TabIndex = 715
+        Me.TextBox205.Text = "000.000"
+        Me.TextBox205.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox205, "Kilos de MP comprometido del tipo elegido.")
+        '
+        'Label257
+        '
+        Me.Label257.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label257.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label257.Location = New System.Drawing.Point(833, 10)
+        Me.Label257.Name = "Label257"
+        Me.Label257.Size = New System.Drawing.Size(136, 26)
+        Me.Label257.TabIndex = 730
+        Me.Label257.Text = "Tinta Familia:"
+        Me.Label257.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(18, 12)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(187, 22)
+        Me.CheckBox1.TabIndex = 724
+        Me.CheckBox1.Text = "Contra entreg Docum."
+        Me.CheckBox1.UseVisualStyleBackColor = False
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox2.Location = New System.Drawing.Point(422, 12)
+        Me.CheckBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(52, 22)
+        Me.CheckBox2.TabIndex = 725
+        Me.CheckBox2.Text = "90"
+        Me.CheckBox2.UseVisualStyleBackColor = False
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox3.Location = New System.Drawing.Point(360, 12)
+        Me.CheckBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(52, 22)
+        Me.CheckBox3.TabIndex = 726
+        Me.CheckBox3.Text = "60"
+        Me.CheckBox3.UseVisualStyleBackColor = False
+        '
+        'CheckBox137
+        '
+        Me.CheckBox137.AutoSize = True
+        Me.CheckBox137.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox137.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox137.Location = New System.Drawing.Point(298, 12)
+        Me.CheckBox137.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox137.Name = "CheckBox137"
+        Me.CheckBox137.Size = New System.Drawing.Size(52, 22)
+        Me.CheckBox137.TabIndex = 727
+        Me.CheckBox137.Text = "30"
+        Me.CheckBox137.UseVisualStyleBackColor = False
+        '
+        'CheckBox151
+        '
+        Me.CheckBox151.AutoSize = True
+        Me.CheckBox151.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox151.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox151.Location = New System.Drawing.Point(248, 12)
+        Me.CheckBox151.Margin = New System.Windows.Forms.Padding(4)
+        Me.CheckBox151.Name = "CheckBox151"
+        Me.CheckBox151.Size = New System.Drawing.Size(43, 22)
+        Me.CheckBox151.TabIndex = 728
+        Me.CheckBox151.Text = "0"
+        Me.CheckBox151.UseVisualStyleBackColor = False
+        '
+        'ComboBox16
+        '
+        Me.ComboBox16.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox16.DropDownWidth = 272
+        Me.ComboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox16.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox16.FormattingEnabled = True
+        Me.ComboBox16.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox16.Location = New System.Drawing.Point(955, 48)
+        Me.ComboBox16.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox16.Name = "ComboBox16"
+        Me.ComboBox16.Size = New System.Drawing.Size(150, 26)
+        Me.ComboBox16.TabIndex = 721
+        '
+        'ComboBox15
+        '
+        Me.ComboBox15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox15.DropDownWidth = 272
+        Me.ComboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox15.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox15.FormattingEnabled = True
+        Me.ComboBox15.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox15.Location = New System.Drawing.Point(680, 48)
+        Me.ComboBox15.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox15.Name = "ComboBox15"
+        Me.ComboBox15.Size = New System.Drawing.Size(140, 26)
+        Me.ComboBox15.TabIndex = 722
+        '
+        'ComboBox14
+        '
+        Me.ComboBox14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox14.DropDownWidth = 272
+        Me.ComboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox14.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox14.FormattingEnabled = True
+        Me.ComboBox14.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox14.Location = New System.Drawing.Point(389, 48)
+        Me.ComboBox14.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox14.Name = "ComboBox14"
+        Me.ComboBox14.Size = New System.Drawing.Size(139, 26)
+        Me.ComboBox14.TabIndex = 723
+        '
+        'Label221
+        '
+        Me.Label221.BackColor = System.Drawing.Color.Transparent
+        Me.Label221.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label221.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label221.Location = New System.Drawing.Point(839, 48)
+        Me.Label221.Name = "Label221"
+        Me.Label221.Size = New System.Drawing.Size(102, 26)
+        Me.Label221.TabIndex = 719
+        Me.Label221.Text = "LLega:"
+        Me.Label221.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label218
+        '
+        Me.Label218.BackColor = System.Drawing.Color.Transparent
+        Me.Label218.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label218.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label218.Location = New System.Drawing.Point(554, 48)
+        Me.Label218.Name = "Label218"
+        Me.Label218.Size = New System.Drawing.Size(114, 26)
+        Me.Label218.TabIndex = 717
+        Me.Label218.Text = "Embarca:"
+        Me.Label218.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'ComboBox13
+        '
+        Me.ComboBox13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ComboBox13.DropDownWidth = 272
+        Me.ComboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox13.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox13.FormattingEnabled = True
+        Me.ComboBox13.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setimbre", "Octubre", "Noviembre", "Diciembre"})
+        Me.ComboBox13.Location = New System.Drawing.Point(120, 48)
+        Me.ComboBox13.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox13.Name = "ComboBox13"
+        Me.ComboBox13.Size = New System.Drawing.Size(138, 26)
+        Me.ComboBox13.TabIndex = 720
+        Me.ToolTip1.SetToolTip(Me.ComboBox13, "Me que realiso el pedido.")
+        '
+        'Label167
+        '
+        Me.Label167.BackColor = System.Drawing.Color.Transparent
+        Me.Label167.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label167.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label167.Location = New System.Drawing.Point(279, 48)
+        Me.Label167.Name = "Label167"
+        Me.Label167.Size = New System.Drawing.Size(96, 26)
+        Me.Label167.TabIndex = 718
+        Me.Label167.Text = "Fabrica:"
+        Me.Label167.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label19
+        '
+        Me.Label19.BackColor = System.Drawing.Color.Transparent
+        Me.Label19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label19.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(18, 48)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(95, 26)
+        Me.Label19.TabIndex = 716
+        Me.Label19.Text = "Pedido:"
+        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'MP
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1924, 987)
         Me.Controls.Add(Me.TabControl1)
-        Me.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(177, Byte))
-        Me.Name = "INSUMO"
-        Me.Text = "INSUMO"
-        CType(Me.BindingSource1, System.ComponentModel.ISupportInitialize).EndInit
+        Me.Name = "MP"
+        Me.Text = "MP"
+        Me.ToolTip1.SetToolTip(Me, resources.GetString("$this.ToolTip"))
         Me.TabControl1.ResumeLayout(False)
         Me.Contabilidad.ResumeLayout(False)
         Me.Panel40.ResumeLayout(False)
@@ -21552,13 +21536,403 @@ Partial Class INSUMO
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents BindingSource1 As BindingSource
-    Friend WithEvents ToolTip1 As ToolTip
     Friend WithEvents TabControl1 As TabControl
+    Friend WithEvents Entrada As TabPage
+    Friend WithEvents Panel31 As Panel
+    Friend WithEvents Panel32 As Panel
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Salida As TabPage
+    Friend WithEvents Panel34 As Panel
+    Friend WithEvents RadioButton3 As RadioButton
+    Friend WithEvents RadioButton22 As RadioButton
+    Friend WithEvents RadioButton23 As RadioButton
+    Friend WithEvents RadioButton24 As RadioButton
+    Friend WithEvents RadioButton26 As RadioButton
+    Friend WithEvents RadioButton27 As RadioButton
+    Friend WithEvents RadioButton28 As RadioButton
+    Friend WithEvents RadioButton29 As RadioButton
+    Friend WithEvents Label227 As Label
+    Friend WithEvents Label228 As Label
+    Friend WithEvents Label229 As Label
+    Friend WithEvents Label230 As Label
+    Friend WithEvents Panel35 As Panel
+    Friend WithEvents Label222 As Label
+    Friend WithEvents SGC As TabPage
+    Friend WithEvents Presupuesto As TabPage
+    Friend WithEvents Button43 As Button
+    Friend WithEvents Button49 As Button
+    Friend WithEvents Button47 As Button
+    Friend WithEvents Seguimiento As TabPage
+    Friend WithEvents Panel62 As Panel
+    Friend WithEvents Panel67 As Panel
+    Friend WithEvents Label317 As Label
+    Friend WithEvents Alerta As TabPage
+    Friend WithEvents Panel98 As Panel
+    Friend WithEvents Panel124 As Panel
+    Friend WithEvents Panel125 As Panel
+    Friend WithEvents TextBox121 As TextBox
+    Friend WithEvents Panel126 As Panel
+    Friend WithEvents Label352 As Label
+    Friend WithEvents Label353 As Label
+    Friend WithEvents Button63 As Button
+    Friend WithEvents Panel113 As Panel
+    Friend WithEvents Panel114 As Panel
+    Friend WithEvents TextBox118 As TextBox
+    Friend WithEvents Panel115 As Panel
+    Friend WithEvents Label346 As Label
+    Friend WithEvents Label347 As Label
+    Friend WithEvents Button60 As Button
+    Friend WithEvents Panel101 As Panel
+    Friend WithEvents Panel102 As Panel
+    Friend WithEvents TextBox115 As TextBox
+    Friend WithEvents Panel103 As Panel
+    Friend WithEvents Label340 As Label
+    Friend WithEvents Label341 As Label
+    Friend WithEvents Button57 As Button
+    Friend WithEvents Panel88 As Panel
+    Friend WithEvents Panel89 As Panel
+    Friend WithEvents TextBox112 As TextBox
+    Friend WithEvents Panel90 As Panel
+    Friend WithEvents Label334 As Label
+    Friend WithEvents Label335 As Label
+    Friend WithEvents Button54 As Button
+    Friend WithEvents Panel135 As Panel
+    Friend WithEvents Panel136 As Panel
+    Friend WithEvents TextBox124 As TextBox
+    Friend WithEvents Panel137 As Panel
+    Friend WithEvents Label358 As Label
+    Friend WithEvents Label359 As Label
+    Friend WithEvents Button66 As Button
+    Friend WithEvents Panel85 As Panel
+    Friend WithEvents Panel87 As Panel
+    Friend WithEvents Label332 As Label
+    Friend WithEvents Label333 As Label
+    Friend WithEvents Button51 As Button
+    Friend WithEvents Panel116 As Panel
+    Friend WithEvents Panel117 As Panel
+    Friend WithEvents TextBox119 As TextBox
+    Friend WithEvents Panel118 As Panel
+    Friend WithEvents Label348 As Label
+    Friend WithEvents Label349 As Label
+    Friend WithEvents Button61 As Button
+    Friend WithEvents Panel91 As Panel
+    Friend WithEvents Panel92 As Panel
+    Friend WithEvents TextBox113 As TextBox
+    Friend WithEvents Panel93 As Panel
+    Friend WithEvents Label336 As Label
+    Friend WithEvents Label337 As Label
+    Friend WithEvents Button55 As Button
+    Friend WithEvents Panel76 As Panel
+    Friend WithEvents Panel111 As Panel
+    Friend WithEvents TextBox13 As TextBox
+    Friend WithEvents Panel143 As Panel
+    Friend WithEvents Label329 As Label
+    Friend WithEvents Label330 As Label
+    Friend WithEvents Button52 As Button
+    Friend WithEvents Panel144 As Panel
+    Friend WithEvents Label376 As Label
+    Friend WithEvents Panel86 As Panel
+    Friend WithEvents TextBox107 As TextBox
+    Friend WithEvents Permiso As TabPage
+    Friend WithEvents Panel57 As Panel
+    Friend WithEvents Panel187 As Panel
+    Friend WithEvents Label411 As Label
+    Friend WithEvents Label383 As Label
+    Friend WithEvents ComboBox138 As ComboBox
+    Friend WithEvents CheckBox80 As CheckBox
+    Friend WithEvents Label384 As Label
+    Friend WithEvents Label385 As Label
+    Friend WithEvents ComboBox162 As ComboBox
+    Friend WithEvents CheckBox81 As CheckBox
+    Friend WithEvents ComboBox163 As ComboBox
+    Friend WithEvents ComboBox195 As ComboBox
+    Friend WithEvents ComboBox177 As ComboBox
+    Friend WithEvents ComboBox194 As ComboBox
+    Friend WithEvents ComboBox174 As ComboBox
+    Friend WithEvents ComboBox193 As ComboBox
+    Friend WithEvents ComboBox171 As ComboBox
+    Friend WithEvents ComboBox192 As ComboBox
+    Friend WithEvents ComboBox168 As ComboBox
+    Friend WithEvents ComboBox209 As ComboBox
+    Friend WithEvents ComboBox191 As ComboBox
+    Friend WithEvents ComboBox165 As ComboBox
+    Friend WithEvents ComboBox208 As ComboBox
+    Friend WithEvents ComboBox190 As ComboBox
+    Friend WithEvents CheckBox127 As CheckBox
+    Friend WithEvents CheckBox103 As CheckBox
+    Friend WithEvents CheckBox126 As CheckBox
+    Friend WithEvents CheckBox99 As CheckBox
+    Friend WithEvents CheckBox125 As CheckBox
+    Friend WithEvents CheckBox95 As CheckBox
+    Friend WithEvents CheckBox124 As CheckBox
+    Friend WithEvents CheckBox91 As CheckBox
+    Friend WithEvents CheckBox147 As CheckBox
+    Friend WithEvents CheckBox123 As CheckBox
+    Friend WithEvents CheckBox87 As CheckBox
+    Friend WithEvents CheckBox146 As CheckBox
+    Friend WithEvents CheckBox122 As CheckBox
+    Friend WithEvents CheckBox83 As CheckBox
+    Friend WithEvents CheckBox121 As CheckBox
+    Friend WithEvents CheckBox102 As CheckBox
+    Friend WithEvents CheckBox120 As CheckBox
+    Friend WithEvents CheckBox98 As CheckBox
+    Friend WithEvents CheckBox119 As CheckBox
+    Friend WithEvents CheckBox94 As CheckBox
+    Friend WithEvents CheckBox118 As CheckBox
+    Friend WithEvents CheckBox90 As CheckBox
+    Friend WithEvents CheckBox141 As CheckBox
+    Friend WithEvents CheckBox117 As CheckBox
+    Friend WithEvents CheckBox86 As CheckBox
+    Friend WithEvents CheckBox140 As CheckBox
+    Friend WithEvents CheckBox116 As CheckBox
+    Friend WithEvents CheckBox115 As CheckBox
+    Friend WithEvents CheckBox101 As CheckBox
+    Friend WithEvents CheckBox114 As CheckBox
+    Friend WithEvents CheckBox97 As CheckBox
+    Friend WithEvents CheckBox113 As CheckBox
+    Friend WithEvents CheckBox93 As CheckBox
+    Friend WithEvents CheckBox112 As CheckBox
+    Friend WithEvents CheckBox89 As CheckBox
+    Friend WithEvents CheckBox135 As CheckBox
+    Friend WithEvents CheckBox111 As CheckBox
+    Friend WithEvents CheckBox85 As CheckBox
+    Friend WithEvents CheckBox134 As CheckBox
+    Friend WithEvents CheckBox110 As CheckBox
+    Friend WithEvents CheckBox109 As CheckBox
+    Friend WithEvents CheckBox100 As CheckBox
+    Friend WithEvents CheckBox108 As CheckBox
+    Friend WithEvents CheckBox96 As CheckBox
+    Friend WithEvents CheckBox107 As CheckBox
+    Friend WithEvents CheckBox92 As CheckBox
+    Friend WithEvents CheckBox106 As CheckBox
+    Friend WithEvents CheckBox88 As CheckBox
+    Friend WithEvents CheckBox129 As CheckBox
+    Friend WithEvents CheckBox105 As CheckBox
+    Friend WithEvents CheckBox84 As CheckBox
+    Friend WithEvents CheckBox128 As CheckBox
+    Friend WithEvents CheckBox104 As CheckBox
+    Friend WithEvents ComboBox189 As ComboBox
+    Friend WithEvents ComboBox188 As ComboBox
+    Friend WithEvents ComboBox176 As ComboBox
+    Friend WithEvents ComboBox187 As ComboBox
+    Friend WithEvents ComboBox175 As ComboBox
+    Friend WithEvents ComboBox186 As ComboBox
+    Friend WithEvents ComboBox173 As ComboBox
+    Friend WithEvents ComboBox185 As ComboBox
+    Friend WithEvents ComboBox172 As ComboBox
+    Friend WithEvents ComboBox184 As ComboBox
+    Friend WithEvents ComboBox170 As ComboBox
+    Friend WithEvents ComboBox183 As ComboBox
+    Friend WithEvents ComboBox169 As ComboBox
+    Friend WithEvents ComboBox182 As ComboBox
+    Friend WithEvents ComboBox199 As ComboBox
+    Friend WithEvents ComboBox167 As ComboBox
+    Friend WithEvents ComboBox181 As ComboBox
+    Friend WithEvents ComboBox198 As ComboBox
+    Friend WithEvents ComboBox166 As ComboBox
+    Friend WithEvents ComboBox180 As ComboBox
+    Friend WithEvents ComboBox197 As ComboBox
+    Friend WithEvents ComboBox164 As ComboBox
+    Friend WithEvents ComboBox179 As ComboBox
+    Friend WithEvents ComboBox196 As ComboBox
+    Friend WithEvents ComboBox161 As ComboBox
+    Friend WithEvents ComboBox178 As ComboBox
+    Friend WithEvents DataGridView3 As DataGridView
+    Friend WithEvents Button20 As Button
+    Friend WithEvents Button33 As Button
+    Friend WithEvents Button23 As Button
+    Friend WithEvents Button34 As Button
+    Friend WithEvents Button21 As Button
+    Friend WithEvents Button24 As Button
+    Friend WithEvents Button22 As Button
+    Friend WithEvents Panel19 As Panel
+    Friend WithEvents Panel20 As Panel
+    Friend WithEvents TextBox239 As TextBox
+    Friend WithEvents Panel21 As Panel
+    Friend WithEvents Label205 As Label
+    Friend WithEvents Label206 As Label
+    Friend WithEvents Panel13 As Panel
+    Friend WithEvents Panel165 As Panel
+    Friend WithEvents Label489 As Label
     Friend WithEvents Contabilidad As TabPage
     Friend WithEvents Panel40 As Panel
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Panel162 As Panel
+    Friend WithEvents Label233 As Label
+    Friend WithEvents Label234 As Label
+    Friend WithEvents Label421 As Label
+    Friend WithEvents Label423 As Label
+    Friend WithEvents Label425 As Label
+    Friend WithEvents Label426 As Label
+    Friend WithEvents Panel163 As Panel
+    Friend WithEvents Label470 As Label
+    Friend WithEvents Label471 As Label
+    Friend WithEvents TextBox177 As TextBox
+    Friend WithEvents TextBox176 As TextBox
+    Friend WithEvents TextBox236 As TextBox
+    Friend WithEvents Panel41 As Panel
+    Friend WithEvents Label236 As Label
+    Friend WithEvents Label237 As Label
+    Friend WithEvents Panel7 As Panel
+    Friend WithEvents Panel8 As Panel
+    Friend WithEvents Label62 As Label
+    Friend WithEvents Label187 As Label
+    Friend WithEvents Panel24 As Panel
+    Friend WithEvents ComboBox10 As ComboBox
+    Friend WithEvents Panel25 As Panel
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label155 As Label
+    Friend WithEvents Panel22 As Panel
+    Friend WithEvents Panel23 As Panel
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents TextBox15 As TextBox
+    Friend WithEvents Label63 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents ComboBox107 As ComboBox
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents Panel11 As Panel
+    Friend WithEvents Panel12 As Panel
+    Friend WithEvents Label163 As Label
+    Friend WithEvents Panel17 As Panel
+    Friend WithEvents Panel18 As Panel
+    Friend WithEvents Label22 As Label
+    Friend WithEvents TextBox57 As TextBox
+    Friend WithEvents TextBox58 As TextBox
+    Friend WithEvents TextBox59 As TextBox
+    Friend WithEvents TextBox60 As TextBox
+    Friend WithEvents TextBox61 As TextBox
+    Friend WithEvents TextBox62 As TextBox
+    Friend WithEvents TextBox63 As TextBox
+    Friend WithEvents TextBox64 As TextBox
+    Friend WithEvents TextBox65 As TextBox
+    Friend WithEvents TextBox66 As TextBox
+    Friend WithEvents TextBox67 As TextBox
+    Friend WithEvents TextBox68 As TextBox
+    Friend WithEvents TextBox69 As TextBox
+    Friend WithEvents TextBox70 As TextBox
+    Friend WithEvents TextBox71 As TextBox
+    Friend WithEvents TextBox72 As TextBox
+    Friend WithEvents TextBox73 As TextBox
+    Friend WithEvents TextBox74 As TextBox
+    Friend WithEvents TextBox75 As TextBox
+    Friend WithEvents TextBox76 As TextBox
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label170 As Label
+    Friend WithEvents Label171 As Label
+    Friend WithEvents Label174 As Label
+    Friend WithEvents Label180 As Label
+    Friend WithEvents Label182 As Label
+    Friend WithEvents Label184 As Label
+    Friend WithEvents DateTimePicker30 As DateTimePicker
+    Friend WithEvents Label185 As Label
+    Friend WithEvents DateTimePicker31 As DateTimePicker
+    Friend WithEvents DateTimePicker32 As DateTimePicker
+    Friend WithEvents DateTimePicker33 As DateTimePicker
+    Friend WithEvents DateTimePicker34 As DateTimePicker
+    Friend WithEvents DateTimePicker35 As DateTimePicker
+    Friend WithEvents DateTimePicker36 As DateTimePicker
+    Friend WithEvents DateTimePicker37 As DateTimePicker
+    Friend WithEvents DateTimePicker38 As DateTimePicker
+    Friend WithEvents DateTimePicker39 As DateTimePicker
+    Friend WithEvents Panel15 As Panel
+    Friend WithEvents Panel153 As Panel
+    Friend WithEvents Panel154 As Panel
+    Friend WithEvents TextBox442 As TextBox
+    Friend WithEvents Panel155 As Panel
+    Friend WithEvents Label465 As Label
+    Friend WithEvents Label466 As Label
+    Friend WithEvents Panel16 As Panel
+    Friend WithEvents Label21 As Label
     Friend WithEvents CheckedListBox5 As CheckedListBox
+    Friend WithEvents Panel6 As Panel
+    Friend WithEvents Panel9 As Panel
+    Friend WithEvents TextBox52 As TextBox
+    Friend WithEvents Panel10 As Panel
+    Friend WithEvents Label210 As Label
+    Friend WithEvents Label211 As Label
+    Friend WithEvents Panel51 As Panel
+    Friend WithEvents Panel52 As Panel
+    Friend WithEvents Label161 As Label
+    Friend WithEvents Label220 As Label
+    Friend WithEvents Label223 As Label
+    Friend WithEvents Label279 As Label
+    Friend WithEvents TextBox102 As TextBox
+    Friend WithEvents TextBox103 As TextBox
+    Friend WithEvents TextBox130 As TextBox
+    Friend WithEvents TextBox132 As TextBox
+    Friend WithEvents Panel53 As Panel
+    Friend WithEvents Panel54 As Panel
+    Friend WithEvents Label280 As Label
+    Friend WithEvents TextBox136 As TextBox
+    Friend WithEvents Label281 As Label
+    Friend WithEvents Label286 As Label
+    Friend WithEvents Label287 As Label
+    Friend WithEvents Label288 As Label
+    Friend WithEvents Label289 As Label
+    Friend WithEvents TextBox139 As TextBox
+    Friend WithEvents Label290 As Label
+    Friend WithEvents Label291 As Label
+    Friend WithEvents TextBox141 As TextBox
+    Friend WithEvents TextBox144 As TextBox
+    Friend WithEvents TextBox145 As TextBox
+    Friend WithEvents TextBox147 As TextBox
+    Friend WithEvents TextBox148 As TextBox
+    Friend WithEvents Label151 As Label
+    Friend WithEvents TextBox152 As TextBox
+    Friend WithEvents Label190 As Label
+    Friend WithEvents Label189 As Label
+    Friend WithEvents Label183 As Label
+    Friend WithEvents Label181 As Label
+    Friend WithEvents Label192 As Label
+    Friend WithEvents Label191 As Label
+    Friend WithEvents TextBox131 As TextBox
+    Friend WithEvents TextBox126 As TextBox
+    Friend WithEvents Label216 As Label
+    Friend WithEvents Label292 As Label
+    Friend WithEvents TextBox150 As TextBox
+    Friend WithEvents TextBox149 As TextBox
+    Friend WithEvents TextBox135 As TextBox
+    Friend WithEvents TextBox142 As TextBox
+    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents Label278 As Label
+    Friend WithEvents ComboBox25 As ComboBox
+    Friend WithEvents ComboBox8 As ComboBox
+    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents Label224 As Label
+    Friend WithEvents ComboBox33 As ComboBox
+    Friend WithEvents Label225 As Label
+    Friend WithEvents Label295 As Label
+    Friend WithEvents TextBox80 As TextBox
+    Friend WithEvents Label324 As Label
+    Friend WithEvents Label323 As Label
+    Friend WithEvents TextBox129 As TextBox
+    Friend WithEvents TextBox104 As TextBox
+    Friend WithEvents Panel55 As Panel
+    Friend WithEvents CheckedListBox1 As CheckedListBox
+    Friend WithEvents DateTimePicker3 As DateTimePicker
+    Friend WithEvents DateTimePicker4 As DateTimePicker
+    Friend WithEvents DateTimePicker5 As DateTimePicker
+    Friend WithEvents DateTimePicker6 As DateTimePicker
+    Friend WithEvents Label360 As Label
+    Friend WithEvents Label367 As Label
+    Friend WithEvents CheckBox7 As CheckBox
+    Friend WithEvents CheckBox8 As CheckBox
+    Friend WithEvents CheckBox9 As CheckBox
+    Friend WithEvents CheckBox10 As CheckBox
+    Friend WithEvents Button10 As Button
+    Friend WithEvents Button28 As Button
+    Friend WithEvents Button29 As Button
+    Friend WithEvents Button32 As Button
+    Friend WithEvents Panel58 As Panel
+    Friend WithEvents Label389 As Label
+    Friend WithEvents CheckBox30 As CheckBox
+    Friend WithEvents CheckBox29 As CheckBox
+    Friend WithEvents CheckBox28 As CheckBox
+    Friend WithEvents ComboBox39 As ComboBox
+    Friend WithEvents Panel1 As Panel
     Friend WithEvents RadioButton79 As RadioButton
     Friend WithEvents RadioButton80 As RadioButton
     Friend WithEvents RadioButton81 As RadioButton
@@ -21572,113 +21946,23 @@ Partial Class INSUMO
     Friend WithEvents Button16 As Button
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label59 As Label
-    Friend WithEvents Panel53 As Panel
-    Friend WithEvents Panel54 As Panel
-    Friend WithEvents Label280 As Label
-    Friend WithEvents TextBox136 As TextBox
-    Friend WithEvents Label281 As Label
-    Friend WithEvents Label151 As Label
-    Friend WithEvents Label286 As Label
-    Friend WithEvents Label287 As Label
-    Friend WithEvents Label288 As Label
-    Friend WithEvents Label289 As Label
-    Friend WithEvents TextBox139 As TextBox
-    Friend WithEvents Label290 As Label
-    Friend WithEvents TextBox152 As TextBox
-    Friend WithEvents Label291 As Label
-    Friend WithEvents TextBox141 As TextBox
-    Friend WithEvents TextBox144 As TextBox
-    Friend WithEvents TextBox145 As TextBox
-    Friend WithEvents TextBox147 As TextBox
-    Friend WithEvents TextBox148 As TextBox
-    Friend WithEvents Panel51 As Panel
-    Friend WithEvents Panel52 As Panel
-    Friend WithEvents Label161 As Label
-    Friend WithEvents Label220 As Label
-    Friend WithEvents Label223 As Label
-    Friend WithEvents ComboBox33 As ComboBox
-    Friend WithEvents ComboBox25 As ComboBox
-    Friend WithEvents ComboBox8 As ComboBox
-    Friend WithEvents ComboBox5 As ComboBox
-    Friend WithEvents Label225 As Label
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents Label190 As Label
-    Friend WithEvents Label189 As Label
-    Friend WithEvents Label183 As Label
-    Friend WithEvents Label224 As Label
-    Friend WithEvents Label181 As Label
-    Friend WithEvents Label278 As Label
-    Friend WithEvents Label279 As Label
-    Friend WithEvents TextBox102 As TextBox
-    Friend WithEvents TextBox103 As TextBox
-    Friend WithEvents TextBox130 As TextBox
-    Friend WithEvents TextBox132 As TextBox
-    Friend WithEvents Panel162 As Panel
-    Friend WithEvents CheckBox30 As CheckBox
-    Friend WithEvents CheckBox29 As CheckBox
-    Friend WithEvents CheckBox28 As CheckBox
-    Friend WithEvents Panel100 As Panel
-    Friend WithEvents TextBox215 As TextBox
-    Friend WithEvents Label108 As Label
-    Friend WithEvents TextBox211 As TextBox
-    Friend WithEvents TextBox181 As TextBox
-    Friend WithEvents Label233 As Label
-    Friend WithEvents Label234 As Label
-    Friend WithEvents Label421 As Label
-    Friend WithEvents Label423 As Label
-    Friend WithEvents Label425 As Label
-    Friend WithEvents Label426 As Label
-    Friend WithEvents Panel163 As Panel
-    Friend WithEvents Label470 As Label
-    Friend WithEvents Label471 As Label
-    Friend WithEvents TextBox177 As TextBox
-    Friend WithEvents TextBox176 As TextBox
-    Friend WithEvents TextBox236 As TextBox
-    Friend WithEvents ComboBox45 As ComboBox
-    Friend WithEvents ComboBox48 As ComboBox
-    Friend WithEvents ComboBox47 As ComboBox
+    Friend WithEvents OC As TabPage
+    Friend WithEvents Panel160 As Panel
+    Friend WithEvents Panel186 As Panel
+    Friend WithEvents Label483 As Label
+    Friend WithEvents DataGridView2 As DataGridView
     Friend WithEvents ComboBox40 As ComboBox
-    Friend WithEvents Label187 As Label
-    Friend WithEvents Panel41 As Panel
-    Friend WithEvents Button113 As Button
-    Friend WithEvents Button117 As Button
-    Friend WithEvents Button124 As Button
-    Friend WithEvents Button163 As Button
-    Friend WithEvents Button164 As Button
-    Friend WithEvents Button165 As Button
-    Friend WithEvents Label236 As Label
-    Friend WithEvents Label237 As Label
-    Friend WithEvents Panel7 As Panel
-    Friend WithEvents Panel8 As Panel
-    Friend WithEvents Label62 As Label
-    Friend WithEvents Label216 As Label
-    Friend WithEvents Label192 As Label
-    Friend WithEvents Label292 As Label
-    Friend WithEvents Label295 As Label
-    Friend WithEvents Label324 As Label
-    Friend WithEvents Label323 As Label
-    Friend WithEvents Label191 As Label
-    Friend WithEvents TextBox150 As TextBox
-    Friend WithEvents TextBox149 As TextBox
-    Friend WithEvents TextBox135 As TextBox
-    Friend WithEvents TextBox142 As TextBox
-    Friend WithEvents TextBox131 As TextBox
-    Friend WithEvents TextBox129 As TextBox
-    Friend WithEvents TextBox104 As TextBox
-    Friend WithEvents TextBox80 As TextBox
-    Friend WithEvents TextBox126 As TextBox
     Friend WithEvents Panel26 As Panel
-    Friend WithEvents Label453 As Label
     Friend WithEvents Panel59 As Panel
     Friend WithEvents RadioButton9 As RadioButton
     Friend WithEvents RadioButton8 As RadioButton
-    Friend WithEvents Panel29 As Panel
-    Friend WithEvents RadioButton11 As RadioButton
-    Friend WithEvents RadioButton10 As RadioButton
     Friend WithEvents Panel28 As Panel
     Friend WithEvents RadioButton18 As RadioButton
     Friend WithEvents RadioButton19 As RadioButton
     Friend WithEvents Label154 As Label
+    Friend WithEvents Panel29 As Panel
+    Friend WithEvents RadioButton11 As RadioButton
+    Friend WithEvents RadioButton10 As RadioButton
     Friend WithEvents TextBox46 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label8 As Label
@@ -21701,60 +21985,23 @@ Partial Class INSUMO
     Friend WithEvents ComboBox37 As ComboBox
     Friend WithEvents ComboBox36 As ComboBox
     Friend WithEvents ComboBox38 As ComboBox
-    Friend WithEvents ComboBox44 As ComboBox
     Friend WithEvents ComboBox35 As ComboBox
     Friend WithEvents ComboBox4 As ComboBox
     Friend WithEvents TextBox225 As TextBox
     Friend WithEvents Label29 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents Label395 As Label
     Friend WithEvents Label162 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents Label50 As Label
     Friend WithEvents Label164 As Label
     Friend WithEvents Label463 As Label
     Friend WithEvents Label461 As Label
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox32 As TextBox
-    Friend WithEvents Panel39 As Panel
-    Friend WithEvents ComboBox93 As ComboBox
-    Friend WithEvents Panel50 As Panel
-    Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents Label235 As Label
-    Friend WithEvents Label255 As Label
-    Friend WithEvents Label256 As Label
-    Friend WithEvents Panel24 As Panel
-    Friend WithEvents ComboBox39 As ComboBox
-    Friend WithEvents ComboBox10 As ComboBox
-    Friend WithEvents ComboBox9 As ComboBox
-    Friend WithEvents Panel25 As Panel
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents Label20 As Label
-    Friend WithEvents Label155 As Label
-    Friend WithEvents Panel22 As Panel
-    Friend WithEvents Panel23 As Panel
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label17 As Label
-    Friend WithEvents Panel178 As Panel
-    Friend WithEvents TextBox29 As TextBox
-    Friend WithEvents Label56 As Label
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents Label54 As Label
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents Label63 As Label
-    Friend WithEvents Panel177 As Panel
-    Friend WithEvents TextBox166 As TextBox
-    Friend WithEvents TextBox165 As TextBox
-    Friend WithEvents TextBox164 As TextBox
-    Friend WithEvents Label74 As Label
-    Friend WithEvents TextBox163 As TextBox
-    Friend WithEvents Label68 As Label
-    Friend WithEvents Label66 As Label
-    Friend WithEvents Label64 As Label
+    Friend WithEvents Label453 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents ComboBox44 As ComboBox
     Friend WithEvents Panel176 As Panel
+    Friend WithEvents Panel178 As Panel
+    Friend WithEvents Panel177 As Panel
     Friend WithEvents Label46 As Label
     Friend WithEvents Label156 As Label
     Friend WithEvents TextBox56 As TextBox
@@ -21763,33 +22010,36 @@ Partial Class INSUMO
     Friend WithEvents TextBox54 As TextBox
     Friend WithEvents Label60 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents ComboBox107 As ComboBox
-    Friend WithEvents Entrada As TabPage
-    Friend WithEvents Panel31 As Panel
-    Friend WithEvents Label98 As Label
-    Friend WithEvents Panel38 As Panel
-    Friend WithEvents DateTimePicker62 As DateTimePicker
-    Friend WithEvents DateTimePicker63 As DateTimePicker
-    Friend WithEvents Panel99 As Panel
-    Friend WithEvents Label101 As Label
+    Friend WithEvents TextBox166 As TextBox
+    Friend WithEvents TextBox165 As TextBox
+    Friend WithEvents TextBox164 As TextBox
+    Friend WithEvents Label74 As Label
+    Friend WithEvents TextBox163 As TextBox
+    Friend WithEvents Label68 As Label
+    Friend WithEvents Label66 As Label
+    Friend WithEvents Label64 As Label
+    Friend WithEvents TextBox29 As TextBox
+    Friend WithEvents Label56 As Label
+    Friend WithEvents TextBox28 As TextBox
+    Friend WithEvents Label54 As Label
+    Friend WithEvents ComboBox45 As ComboBox
+    Friend WithEvents ComboBox48 As ComboBox
+    Friend WithEvents ComboBox47 As ComboBox
+    Friend WithEvents Button113 As Button
+    Friend WithEvents Button117 As Button
+    Friend WithEvents Button124 As Button
+    Friend WithEvents Button163 As Button
+    Friend WithEvents Button164 As Button
+    Friend WithEvents Button165 As Button
+    Friend WithEvents Button72 As Button
+    Friend WithEvents Button73 As Button
+    Friend WithEvents Button75 As Button
+    Friend WithEvents Button76 As Button
+    Friend WithEvents Button77 As Button
+    Friend WithEvents Button78 As Button
+    Friend WithEvents Panel157 As Panel
+    Friend WithEvents CheckedListBox2 As CheckedListBox
     Friend WithEvents Panel60 As Panel
-    Friend WithEvents Panel107 As Panel
-    Friend WithEvents Panel108 As Panel
-    Friend WithEvents TextBox117 As TextBox
-    Friend WithEvents CheckBox24 As CheckBox
-    Friend WithEvents CheckBox43 As CheckBox
-    Friend WithEvents CheckBox44 As CheckBox
-    Friend WithEvents CheckBox130 As CheckBox
-    Friend WithEvents TextBox47 As TextBox
-    Friend WithEvents TextBox84 As TextBox
-    Friend WithEvents TextBox98 As TextBox
-    Friend WithEvents TextBox133 As TextBox
-    Friend WithEvents TextBox138 As TextBox
-    Friend WithEvents TextBox180 As TextBox
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label28 As Label
-    Friend WithEvents Label61 As Label
     Friend WithEvents DateTimePicker9 As DateTimePicker
     Friend WithEvents DateTimePicker10 As DateTimePicker
     Friend WithEvents Panel158 As Panel
@@ -21797,7 +22047,6 @@ Partial Class INSUMO
     Friend WithEvents Panel181 As Panel
     Friend WithEvents DateTimePicker43 As DateTimePicker
     Friend WithEvents DateTimePicker44 As DateTimePicker
-    Friend WithEvents CheckedListBox2 As CheckedListBox
     Friend WithEvents DateTimePicker45 As DateTimePicker
     Friend WithEvents DateTimePicker46 As DateTimePicker
     Friend WithEvents Label215 As Label
@@ -21811,29 +22060,8 @@ Partial Class INSUMO
     Friend WithEvents Panel182 As Panel
     Friend WithEvents Label217 As Label
     Friend WithEvents Panel183 As Panel
-    Friend WithEvents ComboBox11 As ComboBox
-    Friend WithEvents TextBox36 As TextBox
-    Friend WithEvents TextBox37 As TextBox
-    Friend WithEvents Panel157 As Panel
-    Friend WithEvents ComboBox41 As ComboBox
-    Friend WithEvents Label91 As Label
-    Friend WithEvents TextBox205 As TextBox
-    Friend WithEvents Label257 As Label
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox137 As CheckBox
-    Friend WithEvents CheckBox151 As CheckBox
-    Friend WithEvents ComboBox16 As ComboBox
-    Friend WithEvents ComboBox15 As ComboBox
-    Friend WithEvents ComboBox14 As ComboBox
-    Friend WithEvents Label221 As Label
-    Friend WithEvents Label218 As Label
-    Friend WithEvents ComboBox13 As ComboBox
-    Friend WithEvents Label167 As Label
-    Friend WithEvents Label19 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox38 As TextBox
+    Friend WithEvents Panel184 As Panel
+    Friend WithEvents Label381 As Label
     Friend WithEvents TextBox27 As TextBox
     Friend WithEvents TextBox33 As TextBox
     Friend WithEvents TextBox40 As TextBox
@@ -21842,9 +22070,750 @@ Partial Class INSUMO
     Friend WithEvents Label41 As Label
     Friend WithEvents Label42 As Label
     Friend WithEvents Label213 As Label
-    Friend WithEvents Panel184 As Panel
-    Friend WithEvents Label381 As Label
-    Friend WithEvents DataGridView3 As DataGridView
+    Friend WithEvents TextBox36 As TextBox
+    Friend WithEvents TextBox37 As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents TextBox38 As TextBox
+    Friend WithEvents ComboBox11 As ComboBox
+    Friend WithEvents CheckBox24 As CheckBox
+    Friend WithEvents CheckBox43 As CheckBox
+    Friend WithEvents CheckBox44 As CheckBox
+    Friend WithEvents CheckBox130 As CheckBox
+    Friend WithEvents TextBox47 As TextBox
+    Friend WithEvents TextBox84 As TextBox
+    Friend WithEvents TextBox98 As TextBox
+    Friend WithEvents TextBox133 As TextBox
+    Friend WithEvents TextBox138 As TextBox
+    Friend WithEvents TextBox180 As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label61 As Label
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents CheckedListBox3 As CheckedListBox
+    Friend WithEvents Panel5 As Panel
+    Friend WithEvents CheckBox31 As CheckBox
+    Friend WithEvents CheckBox39 As CheckBox
+    Friend WithEvents CheckBox40 As CheckBox
+    Friend WithEvents CheckBox42 As CheckBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox30 As TextBox
+    Friend WithEvents TextBox39 As TextBox
+    Friend WithEvents TextBox44 As TextBox
+    Friend WithEvents TextBox55 As TextBox
+    Friend WithEvents TextBox86 As TextBox
+    Friend WithEvents TextBox87 As TextBox
+    Friend WithEvents TextBox89 As TextBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents DateTimePicker7 As DateTimePicker
+    Friend WithEvents DateTimePicker8 As DateTimePicker
+    Friend WithEvents Panel14 As Panel
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Panel30 As Panel
+    Friend WithEvents DateTimePicker14 As DateTimePicker
+    Friend WithEvents DateTimePicker15 As DateTimePicker
+    Friend WithEvents DateTimePicker17 As DateTimePicker
+    Friend WithEvents DateTimePicker18 As DateTimePicker
+    Friend WithEvents Label36 As Label
+    Friend WithEvents CheckBox131 As CheckBox
+    Friend WithEvents CheckBox132 As CheckBox
+    Friend WithEvents CheckBox133 As CheckBox
+    Friend WithEvents CheckBox136 As CheckBox
+    Friend WithEvents Button27 As Button
+    Friend WithEvents Button37 As Button
+    Friend WithEvents Button38 As Button
+    Friend WithEvents Panel33 As Panel
+    Friend WithEvents Label38 As Label
+    Friend WithEvents Panel36 As Panel
+    Friend WithEvents Panel37 As Panel
+    Friend WithEvents TextBox146 As TextBox
+    Friend WithEvents Label178 As Label
+    Friend WithEvents Panel61 As Panel
+    Friend WithEvents Label193 As Label
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents Label516 As Label
+    Friend WithEvents Label568 As Label
+    Friend WithEvents DateTimePicker128 As DateTimePicker
+    Friend WithEvents Label748 As Label
+    Friend WithEvents DateTimePicker129 As DateTimePicker
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox329 As TextBox
+    Friend WithEvents TextBox330 As TextBox
+    Friend WithEvents TextBox331 As TextBox
+    Friend WithEvents TextBox332 As TextBox
+    Friend WithEvents TextBox334 As TextBox
+    Friend WithEvents TextBox335 As TextBox
+    Friend WithEvents TextBox336 As TextBox
+    Friend WithEvents TextBox337 As TextBox
+    Friend WithEvents TextBox339 As TextBox
+    Friend WithEvents TextBox340 As TextBox
+    Friend WithEvents TextBox341 As TextBox
+    Friend WithEvents TextBox342 As TextBox
+    Friend WithEvents TextBox344 As TextBox
+    Friend WithEvents Label43 As Label
+    Friend WithEvents Label44 As Label
+    Friend WithEvents Label45 As Label
+    Friend WithEvents Label47 As Label
+    Friend WithEvents Panel4 As Panel
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label49 As Label
+    Friend WithEvents Panel188 As Panel
+    Friend WithEvents RadioButton54 As RadioButton
+    Friend WithEvents RadioButton55 As RadioButton
+    Friend WithEvents Panel185 As Panel
+    Friend WithEvents RadioButton50 As RadioButton
+    Friend WithEvents RadioButton53 As RadioButton
+    Friend WithEvents Panel180 As Panel
+    Friend WithEvents RadioButton47 As RadioButton
+    Friend WithEvents RadioButton48 As RadioButton
+    Friend WithEvents Panel179 As Panel
+    Friend WithEvents RadioButton44 As RadioButton
+    Friend WithEvents RadioButton46 As RadioButton
+    Friend WithEvents Panel166 As Panel
+    Friend WithEvents RadioButton40 As RadioButton
+    Friend WithEvents RadioButton42 As RadioButton
+    Friend WithEvents Panel161 As Panel
+    Friend WithEvents RadioButton25 As RadioButton
+    Friend WithEvents RadioButton30 As RadioButton
+    Friend WithEvents Panel168 As Panel
+    Friend WithEvents RadioButton51 As RadioButton
+    Friend WithEvents RadioButton52 As RadioButton
+    Friend WithEvents Panel138 As Panel
+    Friend WithEvents RadioButton38 As RadioButton
+    Friend WithEvents RadioButton49 As RadioButton
+    Friend WithEvents Panel159 As Panel
+    Friend WithEvents RadioButton16 As RadioButton
+    Friend WithEvents RadioButton17 As RadioButton
+    Friend WithEvents Panel141 As Panel
+    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents RadioButton2 As RadioButton
+    Friend WithEvents Label50 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Panel56 As Panel
+    Friend WithEvents ComboBox17 As ComboBox
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents Panel146 As Panel
+    Friend WithEvents Label65 As Label
+    Friend WithEvents Label67 As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents ComboBox22 As ComboBox
+    Friend WithEvents Label51 As Label
+    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents DateTimePicker21 As DateTimePicker
+    Friend WithEvents DateTimePicker19 As DateTimePicker
+    Friend WithEvents Label55 As Label
+    Friend WithEvents Label57 As Label
+    Friend WithEvents ComboBox27 As ComboBox
+    Friend WithEvents ComboBox24 As ComboBox
+    Friend WithEvents ComboBox23 As ComboBox
+    Friend WithEvents Label70 As Label
+    Friend WithEvents Label69 As Label
+    Friend WithEvents Label53 As Label
+    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents TextBox9 As TextBox
+    Friend WithEvents DateTimePicker48 As DateTimePicker
+    Friend WithEvents DateTimePicker47 As DateTimePicker
+    Friend WithEvents DateTimePicker26 As DateTimePicker
+    Friend WithEvents ComboBox28 As ComboBox
+    Friend WithEvents Label52 As Label
+    Friend WithEvents TextBox26 As TextBox
+    Friend WithEvents DateTimePicker49 As DateTimePicker
+    Friend WithEvents Panel42 As Panel
+    Friend WithEvents CheckedListBox4 As CheckedListBox
+    Friend WithEvents Panel43 As Panel
+    Friend WithEvents DateTimePicker20 As DateTimePicker
+    Friend WithEvents DateTimePicker22 As DateTimePicker
+    Friend WithEvents Panel44 As Panel
+    Friend WithEvents Label34 As Label
+    Friend WithEvents Panel45 As Panel
+    Friend WithEvents DateTimePicker23 As DateTimePicker
+    Friend WithEvents DateTimePicker24 As DateTimePicker
+    Friend WithEvents DateTimePicker25 As DateTimePicker
+    Friend WithEvents DateTimePicker27 As DateTimePicker
+    Friend WithEvents Label35 As Label
+    Friend WithEvents CheckBox138 As CheckBox
+    Friend WithEvents CheckBox139 As CheckBox
+    Friend WithEvents CheckBox142 As CheckBox
+    Friend WithEvents CheckBox143 As CheckBox
+    Friend WithEvents Button15 As Button
+    Friend WithEvents Button18 As Button
+    Friend WithEvents Button26 As Button
+    Friend WithEvents Button39 As Button
+    Friend WithEvents Panel46 As Panel
+    Friend WithEvents Label71 As Label
+    Friend WithEvents Panel47 As Panel
+    Friend WithEvents ComboBox29 As ComboBox
+    Friend WithEvents TextBox49 As TextBox
+    Friend WithEvents TextBox50 As TextBox
+    Friend WithEvents CheckBox144 As CheckBox
+    Friend WithEvents Label166 As Label
+    Friend WithEvents CheckBox145 As CheckBox
+    Friend WithEvents CheckBox148 As CheckBox
+    Friend WithEvents CheckBox149 As CheckBox
+    Friend WithEvents CheckBox150 As CheckBox
+    Friend WithEvents Label168 As Label
+    Friend WithEvents TextBox51 As TextBox
+    Friend WithEvents TextBox77 As TextBox
+    Friend WithEvents TextBox78 As TextBox
+    Friend WithEvents TextBox79 As TextBox
+    Friend WithEvents Label169 As Label
+    Friend WithEvents Label173 As Label
+    Friend WithEvents Label175 As Label
+    Friend WithEvents Panel49 As Panel
+    Friend WithEvents Label177 As Label
+    Friend WithEvents Panel142 As Panel
+    Friend WithEvents Label179 As Label
+    Friend WithEvents ComboBox18 As ComboBox
+    Friend WithEvents ComboBox19 As ComboBox
+    Friend WithEvents ComboBox20 As ComboBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label16 As Label
+    Friend WithEvents ComboBox21 As ComboBox
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents ComboBox50 As ComboBox
+    Friend WithEvents ComboBox49 As ComboBox
+    Friend WithEvents TextBox85 As TextBox
+    Friend WithEvents TextBox43 As TextBox
+    Friend WithEvents TextBox82 As TextBox
+    Friend WithEvents TextBox42 As TextBox
+    Friend WithEvents TextBox81 As TextBox
+    Friend WithEvents TextBox41 As TextBox
+    Friend WithEvents TextBox53 As TextBox
+    Friend WithEvents TextBox48 As TextBox
+    Friend WithEvents TextBox31 As TextBox
+    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents TextBox45 As TextBox
+    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents ComboBox51 As ComboBox
+    Friend WithEvents TextBox95 As TextBox
+    Friend WithEvents TextBox93 As TextBox
+    Friend WithEvents TextBox92 As TextBox
+    Friend WithEvents TextBox91 As TextBox
+    Friend WithEvents TextBox90 As TextBox
+    Friend WithEvents TextBox88 As TextBox
+    Friend WithEvents DataGridView4 As DataGridView
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents CheckedListBox6 As CheckedListBox
+    Friend WithEvents Panel48 As Panel
+    Friend WithEvents CheckBox152 As CheckBox
+    Friend WithEvents CheckBox153 As CheckBox
+    Friend WithEvents CheckBox154 As CheckBox
+    Friend WithEvents CheckBox155 As CheckBox
+    Friend WithEvents TextBox96 As TextBox
+    Friend WithEvents TextBox97 As TextBox
+    Friend WithEvents TextBox99 As TextBox
+    Friend WithEvents TextBox100 As TextBox
+    Friend WithEvents TextBox101 As TextBox
+    Friend WithEvents TextBox127 As TextBox
+    Friend WithEvents TextBox128 As TextBox
+    Friend WithEvents TextBox151 As TextBox
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label158 As Label
+    Friend WithEvents Label159 As Label
+    Friend WithEvents Label160 As Label
+    Friend WithEvents DateTimePicker28 As DateTimePicker
+    Friend WithEvents DateTimePicker29 As DateTimePicker
+    Friend WithEvents Panel145 As Panel
+    Friend WithEvents Label165 As Label
+    Friend WithEvents Panel156 As Panel
+    Friend WithEvents DateTimePicker40 As DateTimePicker
+    Friend WithEvents DateTimePicker41 As DateTimePicker
+    Friend WithEvents DateTimePicker42 As DateTimePicker
+    Friend WithEvents DateTimePicker50 As DateTimePicker
+    Friend WithEvents Label176 As Label
+    Friend WithEvents CheckBox156 As CheckBox
+    Friend WithEvents CheckBox157 As CheckBox
+    Friend WithEvents CheckBox158 As CheckBox
+    Friend WithEvents CheckBox159 As CheckBox
+    Friend WithEvents Button40 As Button
+    Friend WithEvents Button41 As Button
+    Friend WithEvents Button44 As Button
+    Friend WithEvents Button45 As Button
+    Friend WithEvents Panel164 As Panel
+    Friend WithEvents Label186 As Label
+    Friend WithEvents Panel167 As Panel
+    Friend WithEvents ComboBox52 As ComboBox
+    Friend WithEvents TextBox153 As TextBox
+    Friend WithEvents TextBox154 As TextBox
+    Friend WithEvents Panel169 As Panel
+    Friend WithEvents CheckBox160 As CheckBox
+    Friend WithEvents CheckBox161 As CheckBox
+    Friend WithEvents CheckBox174 As CheckBox
+    Friend WithEvents CheckBox175 As CheckBox
+    Friend WithEvents CheckBox176 As CheckBox
+    Friend WithEvents Label200 As Label
+    Friend WithEvents TextBox155 As TextBox
+    Friend WithEvents TextBox156 As TextBox
+    Friend WithEvents TextBox157 As TextBox
+    Friend WithEvents TextBox159 As TextBox
+    Friend WithEvents TextBox160 As TextBox
+    Friend WithEvents Label201 As Label
+    Friend WithEvents Label202 As Label
+    Friend WithEvents Label203 As Label
+    Friend WithEvents Label204 As Label
+    Friend WithEvents Panel170 As Panel
+    Friend WithEvents Label207 As Label
+    Friend WithEvents CheckedListBox7 As CheckedListBox
+    Friend WithEvents Panel63 As Panel
+    Friend WithEvents DateTimePicker51 As DateTimePicker
+    Friend WithEvents DateTimePicker52 As DateTimePicker
+    Friend WithEvents DateTimePicker54 As DateTimePicker
+    Friend WithEvents DateTimePicker55 As DateTimePicker
+    Friend WithEvents CheckBox162 As CheckBox
+    Friend WithEvents CheckBox163 As CheckBox
+    Friend WithEvents CheckBox164 As CheckBox
+    Friend WithEvents CheckBox165 As CheckBox
+    Friend WithEvents Button19 As Button
+    Friend WithEvents Button46 As Button
+    Friend WithEvents Button48 As Button
+    Friend WithEvents Panel64 As Panel
+    Friend WithEvents Label209 As Label
+    Friend WithEvents Panel147 As Panel
+    Friend WithEvents ComboBox57 As ComboBox
+    Friend WithEvents TextBox105 As TextBox
+    Friend WithEvents TextBox108 As TextBox
+    Friend WithEvents Panel148 As Panel
+    Friend WithEvents CheckBox177 As CheckBox
+    Friend WithEvents CheckBox178 As CheckBox
+    Friend WithEvents CheckBox179 As CheckBox
+    Friend WithEvents CheckBox180 As CheckBox
+    Friend WithEvents CheckBox181 As CheckBox
+    Friend WithEvents Label238 As Label
+    Friend WithEvents TextBox125 As TextBox
+    Friend WithEvents TextBox134 As TextBox
+    Friend WithEvents TextBox137 As TextBox
+    Friend WithEvents TextBox140 As TextBox
+    Friend WithEvents TextBox161 As TextBox
+    Friend WithEvents Label239 As Label
+    Friend WithEvents Label240 As Label
+    Friend WithEvents Label241 As Label
+    Friend WithEvents Label243 As Label
+    Friend WithEvents Panel171 As Panel
+    Friend WithEvents Label244 As Label
+    Friend WithEvents DataGridView5 As DataGridView
+    Friend WithEvents Panel70 As Panel
+    Friend WithEvents Label318 As Label
+    Friend WithEvents Panel71 As Panel
+    Friend WithEvents Label319 As Label
+    Friend WithEvents Label320 As Label
+    Friend WithEvents Label245 As Label
+    Friend WithEvents TextBox106 As TextBox
+    Friend WithEvents Label248 As Label
+    Friend WithEvents Label246 As Label
+    Friend WithEvents Label249 As Label
+    Friend WithEvents CheckBox76 As CheckBox
+    Friend WithEvents CheckBox52 As CheckBox
+    Friend WithEvents CheckBox51 As CheckBox
+    Friend WithEvents CheckBox50 As CheckBox
+    Friend WithEvents CheckBox49 As CheckBox
+    Friend WithEvents CheckBox48 As CheckBox
+    Friend WithEvents CheckBox47 As CheckBox
+    Friend WithEvents Label242 As Label
+    Friend WithEvents TextBox111 As TextBox
+    Friend WithEvents TextBox110 As TextBox
+    Friend WithEvents TextBox109 As TextBox
+    Friend WithEvents CheckBox78 As CheckBox
+    Friend WithEvents CheckBox72 As CheckBox
+    Friend WithEvents CheckBox67 As CheckBox
+    Friend WithEvents CheckBox62 As CheckBox
+    Friend WithEvents CheckBox77 As CheckBox
+    Friend WithEvents CheckBox71 As CheckBox
+    Friend WithEvents CheckBox66 As CheckBox
+    Friend WithEvents CheckBox61 As CheckBox
+    Friend WithEvents TextBox182 As TextBox
+    Friend WithEvents TextBox174 As TextBox
+    Friend WithEvents TextBox171 As TextBox
+    Friend WithEvents TextBox168 As TextBox
+    Friend WithEvents TextBox178 As TextBox
+    Friend WithEvents TextBox173 As TextBox
+    Friend WithEvents TextBox170 As TextBox
+    Friend WithEvents TextBox167 As TextBox
+    Friend WithEvents TextBox175 As TextBox
+    Friend WithEvents TextBox172 As TextBox
+    Friend WithEvents TextBox169 As TextBox
+    Friend WithEvents TextBox162 As TextBox
+    Friend WithEvents CheckBox75 As CheckBox
+    Friend WithEvents CheckBox70 As CheckBox
+    Friend WithEvents CheckBox65 As CheckBox
+    Friend WithEvents CheckBox54 As CheckBox
+    Friend WithEvents CheckBox74 As CheckBox
+    Friend WithEvents CheckBox69 As CheckBox
+    Friend WithEvents CheckBox64 As CheckBox
+    Friend WithEvents CheckBox53 As CheckBox
+    Friend WithEvents CheckBox73 As CheckBox
+    Friend WithEvents CheckBox68 As CheckBox
+    Friend WithEvents CheckBox63 As CheckBox
+    Friend WithEvents Button53 As Button
+    Friend WithEvents Panel107 As Panel
+    Friend WithEvents Panel108 As Panel
+    Friend WithEvents TextBox117 As TextBox
+    Friend WithEvents Panel112 As Panel
+    Friend WithEvents Panel128 As Panel
+    Friend WithEvents TextBox183 As TextBox
+    Friend WithEvents Panel131 As Panel
+    Friend WithEvents Panel151 As Panel
+    Friend WithEvents TextBox184 As TextBox
+    Friend WithEvents CheckBox34 As CheckBox
+    Friend WithEvents CheckBox33 As CheckBox
+    Friend WithEvents TextBox187 As TextBox
+    Friend WithEvents TextBox186 As TextBox
+    Friend WithEvents TextBox185 As TextBox
+    Friend WithEvents CheckBox32 As CheckBox
+    Friend WithEvents CheckBox5 As CheckBox
+    Friend WithEvents CheckBox4 As CheckBox
+    Friend WithEvents Label247 As Label
+    Friend WithEvents CheckBox41 As CheckBox
+    Friend WithEvents CheckBox38 As CheckBox
+    Friend WithEvents CheckBox37 As CheckBox
+    Friend WithEvents CheckBox36 As CheckBox
+    Friend WithEvents CheckBox35 As CheckBox
+    Friend WithEvents Panel132 As Panel
+    Friend WithEvents Panel133 As Panel
+    Friend WithEvents TextBox123 As TextBox
+    Friend WithEvents Panel134 As Panel
+    Friend WithEvents Label356 As Label
+    Friend WithEvents Label357 As Label
+    Friend WithEvents Button65 As Button
+    Friend WithEvents Panel121 As Panel
+    Friend WithEvents Panel122 As Panel
+    Friend WithEvents TextBox120 As TextBox
+    Friend WithEvents Panel123 As Panel
+    Friend WithEvents Label350 As Label
+    Friend WithEvents Label351 As Label
+    Friend WithEvents Button62 As Button
+    Friend WithEvents Panel68 As Panel
+    Friend WithEvents Panel69 As Panel
+    Friend WithEvents TextBox188 As TextBox
+    Friend WithEvents Panel152 As Panel
+    Friend WithEvents Label252 As Label
+    Friend WithEvents Label253 As Label
+    Friend WithEvents Button59 As Button
+    Friend WithEvents Panel65 As Panel
+    Friend WithEvents Panel66 As Panel
+    Friend WithEvents TextBox122 As TextBox
+    Friend WithEvents Panel127 As Panel
+    Friend WithEvents Label250 As Label
+    Friend WithEvents Label251 As Label
+    Friend WithEvents Button64 As Button
+    Friend WithEvents Panel94 As Panel
+    Friend WithEvents Panel95 As Panel
+    Friend WithEvents TextBox114 As TextBox
+    Friend WithEvents Panel96 As Panel
+    Friend WithEvents Label338 As Label
+    Friend WithEvents Label339 As Label
+    Friend WithEvents Button56 As Button
+    Friend WithEvents Panel104 As Panel
+    Friend WithEvents Panel105 As Panel
+    Friend WithEvents TextBox116 As TextBox
+    Friend WithEvents Panel106 As Panel
+    Friend WithEvents Label342 As Label
+    Friend WithEvents Label343 As Label
+    Friend WithEvents Button58 As Button
+    Friend WithEvents Panel172 As Panel
+    Friend WithEvents DateTimePicker53 As DateTimePicker
+    Friend WithEvents DateTimePicker56 As DateTimePicker
+    Friend WithEvents DateTimePicker57 As DateTimePicker
+    Friend WithEvents DateTimePicker58 As DateTimePicker
+    Friend WithEvents Label208 As Label
+    Friend WithEvents CheckBox45 As CheckBox
+    Friend WithEvents CheckBox46 As CheckBox
+    Friend WithEvents CheckBox55 As CheckBox
+    Friend WithEvents CheckBox56 As CheckBox
+    Friend WithEvents Button68 As Button
+    Friend WithEvents Button69 As Button
+    Friend WithEvents Button70 As Button
+    Friend WithEvents Button71 As Button
+    Friend WithEvents Panel173 As Panel
+    Friend WithEvents Label254 As Label
+    Friend WithEvents Button67 As Button
+    Friend WithEvents Button50 As Button
+    Friend WithEvents FSCinforme As TabPage
+    Friend WithEvents ComboBox53 As ComboBox
+    Friend WithEvents ComboBox54 As ComboBox
+    Friend WithEvents ComboBox55 As ComboBox
+    Friend WithEvents Label196 As Label
+    Friend WithEvents Label197 As Label
+    Friend WithEvents ComboBox56 As ComboBox
+    Friend WithEvents Label198 As Label
+    Friend WithEvents Label199 As Label
+    Friend WithEvents ComboBox58 As ComboBox
+    Friend WithEvents ComboBox59 As ComboBox
+    Friend WithEvents ComboBox60 As ComboBox
+    Friend WithEvents Label219 As Label
+    Friend WithEvents Label226 As Label
+    Friend WithEvents ComboBox61 As ComboBox
+    Friend WithEvents Label231 As Label
+    Friend WithEvents Label232 As Label
+    Friend WithEvents ComboBox30 As ComboBox
+    Friend WithEvents ComboBox31 As ComboBox
+    Friend WithEvents ComboBox32 As ComboBox
+    Friend WithEvents Label72 As Label
+    Friend WithEvents Label73 As Label
+    Friend WithEvents ComboBox46 As ComboBox
+    Friend WithEvents Label153 As Label
+    Friend WithEvents Label157 As Label
+    Friend WithEvents Panel39 As Panel
+    Friend WithEvents Panel50 As Panel
+    Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents Label235 As Label
+    Friend WithEvents Label255 As Label
+    Friend WithEvents ComboBox9 As ComboBox
+    Friend WithEvents ComboBox93 As ComboBox
+    Friend WithEvents Label256 As Label
+    Friend WithEvents ComboBox42 As ComboBox
+    Friend WithEvents Label258 As Label
+    Friend WithEvents ComboBox43 As ComboBox
+    Friend WithEvents Label259 As Label
+    Friend WithEvents TextBox189 As TextBox
+    Friend WithEvents Label263 As Label
+    Friend WithEvents TextBox94 As TextBox
+    Friend WithEvents Label260 As Label
+    Friend WithEvents TextBox190 As TextBox
+    Friend WithEvents Label267 As Label
+    Friend WithEvents FechaUltimaAutualizacion As DataGridViewTextBoxColumn
+    Friend WithEvents MPpago As DataGridViewCheckBoxColumn
+    Friend WithEvents PresupuestoNumeroSeguimiento As DataGridViewComboBoxColumn
+    Friend WithEvents OrdenCompraNumero As DataGridViewComboBoxColumn
+    Friend WithEvents MPproforma As DataGridViewComboBoxColumn
+    Friend WithEvents BLnumero As DataGridViewTextBoxColumn
+    Friend WithEvents MPllegadatrasbordo As DataGridViewCheckBoxColumn
+    Friend WithEvents MPsalidaTrasbordo As DataGridViewCheckBoxColumn
+    Friend WithEvents MPllegadaAsuncion As DataGridViewCheckBoxColumn
+    Friend WithEvents EntradaNumeroSeguimiento As DataGridViewTextBoxColumn
+    Friend WithEvents FacturaNumeroSeguimiento As DataGridViewTextBoxColumn
+    Friend WithEvents DespachoNumeroSeguimiento As DataGridViewTextBoxColumn
+    Friend WithEvents Estacion As DataGridViewTextBoxColumn
+    Friend WithEvents MPtoneladas As DataGridViewTextBoxColumn
+    Friend WithEvents MPuss As DataGridViewTextBoxColumn
+    Friend WithEvents MPtotalUSS As DataGridViewTextBoxColumn
+    Friend WithEvents MPcodigoCortoSeguimiento As DataGridViewTextBoxColumn
+    Friend WithEvents NombreMPproveedorSeguimiento As DataGridViewTextBoxColumn
+    Friend WithEvents EAN13numeroSeguimiento As DataGridViewTextBoxColumn
+    Friend WithEvents FSCseguimiento As DataGridViewComboBoxColumn
+    Friend WithEvents CertificadoNumeroSeguimiento As DataGridViewComboBoxColumn
+    Friend WithEvents LoteNumeroESeguimiento As DataGridViewTextBoxColumn
+    Friend WithEvents VtoFechaSeguimiento As DataGridViewTextBoxColumn
+    Friend WithEvents DiametoBobina As DataGridViewComboBoxColumn
+    Friend WithEvents ConoDiametro As DataGridViewComboBoxColumn
+    Friend WithEvents OTnumeroSeguimiento As DataGridViewTextBoxColumn
+    Friend WithEvents AnalisisCompraMP As TabPage
+    Friend WithEvents Panel195 As Panel
+    Friend WithEvents Panel209 As Panel
+    Friend WithEvents Button112 As Button
+    Friend WithEvents Button144 As Button
+    Friend WithEvents Button148 As Button
+    Friend WithEvents Button147 As Button
+    Friend WithEvents Button146 As Button
+    Friend WithEvents Button145 As Button
+    Friend WithEvents Label314 As Label
+    Friend WithEvents DataGridView7 As DataGridView
+    Friend WithEvents Label277 As Label
+    Friend WithEvents TextBox201 As TextBox
+    Friend WithEvents Label285 As Label
+    Friend WithEvents Label284 As Label
+    Friend WithEvents Label283 As Label
+    Friend WithEvents Label282 As Label
+    Friend WithEvents Label276 As Label
+    Friend WithEvents TextBox199 As TextBox
+    Friend WithEvents TextBox197 As TextBox
+    Friend WithEvents TextBox198 As TextBox
+    Friend WithEvents TextBox192 As TextBox
+    Friend WithEvents TextBox191 As TextBox
+    Friend WithEvents Label293 As Label
+    Friend WithEvents Label275 As Label
+    Friend WithEvents TextBox202 As TextBox
+    Friend WithEvents TextBox200 As TextBox
+    Friend WithEvents CheckBox57 As CheckBox
+    Friend WithEvents Panel72 As Panel
+    Friend WithEvents CheckedListBox9 As CheckedListBox
+    Friend WithEvents Panel73 As Panel
+    Friend WithEvents Panel74 As Panel
+    Friend WithEvents Panel75 As Panel
+    Friend WithEvents TextBox17 As TextBox
+    Friend WithEvents CheckBox14 As CheckBox
+    Friend WithEvents CheckBox15 As CheckBox
+    Friend WithEvents CheckBox16 As CheckBox
+    Friend WithEvents CheckBox17 As CheckBox
+    Friend WithEvents TextBox18 As TextBox
+    Friend WithEvents TextBox19 As TextBox
+    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents TextBox21 As TextBox
+    Friend WithEvents TextBox22 As TextBox
+    Friend WithEvents TextBox23 As TextBox
+    Friend WithEvents TextBox24 As TextBox
+    Friend WithEvents TextBox25 As TextBox
+    Friend WithEvents Label37 As Label
+    Friend WithEvents Label39 As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents Label75 As Label
+    Friend WithEvents DateTimePicker59 As DateTimePicker
+    Friend WithEvents DateTimePicker60 As DateTimePicker
+    Friend WithEvents Panel77 As Panel
+    Friend WithEvents Label76 As Label
+    Friend WithEvents Panel78 As Panel
+    Friend WithEvents DateTimePicker61 As DateTimePicker
+    Friend WithEvents DateTimePicker66 As DateTimePicker
+    Friend WithEvents DateTimePicker67 As DateTimePicker
+    Friend WithEvents DateTimePicker68 As DateTimePicker
+    Friend WithEvents Label77 As Label
+    Friend WithEvents CheckBox18 As CheckBox
+    Friend WithEvents CheckBox19 As CheckBox
+    Friend WithEvents CheckBox20 As CheckBox
+    Friend WithEvents CheckBox21 As CheckBox
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Panel79 As Panel
+    Friend WithEvents Label78 As Label
+    Friend WithEvents Panel80 As Panel
+    Friend WithEvents ComboBox62 As ComboBox
+    Friend WithEvents TextBox143 As TextBox
+    Friend WithEvents TextBox193 As TextBox
+    Friend WithEvents Panel81 As Panel
+    Friend WithEvents ComboBox63 As ComboBox
+    Friend WithEvents Label79 As Label
+    Friend WithEvents CheckBox22 As CheckBox
+    Friend WithEvents CheckBox23 As CheckBox
+    Friend WithEvents CheckBox25 As CheckBox
+    Friend WithEvents CheckBox26 As CheckBox
+    Friend WithEvents CheckBox27 As CheckBox
+    Friend WithEvents ComboBox65 As ComboBox
+    Friend WithEvents ComboBox69 As ComboBox
+    Friend WithEvents ComboBox70 As ComboBox
+    Friend WithEvents Label80 As Label
+    Friend WithEvents Label81 As Label
+    Friend WithEvents ComboBox71 As ComboBox
+    Friend WithEvents Label82 As Label
+    Friend WithEvents Label83 As Label
+    Friend WithEvents Label84 As Label
+    Friend WithEvents TextBox194 As TextBox
+    Friend WithEvents TextBox195 As TextBox
+    Friend WithEvents TextBox196 As TextBox
+    Friend WithEvents TextBox203 As TextBox
+    Friend WithEvents TextBox204 As TextBox
+    Friend WithEvents Label85 As Label
+    Friend WithEvents Label86 As Label
+    Friend WithEvents Label87 As Label
+    Friend WithEvents Label88 As Label
+    Friend WithEvents Panel82 As Panel
+    Friend WithEvents Label89 As Label
+    Friend WithEvents Panel83 As Panel
+    Friend WithEvents Label90 As Label
+    Friend WithEvents MPocNumer As DataGridViewTextBoxColumn
+    Friend WithEvents AnalisisCompraNumero As DataGridViewTextBoxColumn
+    Friend WithEvents MPproformaNumer As DataGridViewTextBoxColumn
+    Friend WithEvents MPcodigoCortoOC As DataGridViewComboBoxColumn
+    Friend WithEvents MPNonbreFabricante As DataGridViewComboBoxColumn
+    Friend WithEvents MPgramaj As DataGridViewComboBoxColumn
+    Friend WithEvents MPum As DataGridViewComboBoxColumn
+    Friend WithEvents MPpuntos As DataGridViewComboBoxColumn
+    Friend WithEvents MPconFSC As DataGridViewComboBoxColumn
+    Friend WithEvents MPcertificadoOC As DataGridViewComboBoxColumn
+    Friend WithEvents MPdiametroBobinaOC As DataGridViewComboBoxColumn
+    Friend WithEvents MPconoDiametro As DataGridViewComboBoxColumn
+    Friend WithEvents MPtotalToneladas As DataGridViewTextBoxColumn
+    Friend WithEvents MPcostoToneladaUSSoc As DataGridViewTextBoxColumn
+    Friend WithEvents MPtotalUSSoc As DataGridViewTextBoxColumn
+    Friend WithEvents RigidezMD As DataGridViewComboBoxColumn
+    Friend WithEvents MPRigidezCD As DataGridViewComboBoxColumn
+    Friend WithEvents Trabajo1 As DataGridViewTextBoxColumn
+    Friend WithEvents Trabajo2 As DataGridViewTextBoxColumn
+    Friend WithEvents Trabajo3 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn15 As DataGridViewTextBoxColumn
+    Friend WithEvents PresupuestoNumeroAC As DataGridViewTextBoxColumn
+    Friend WithEvents OCnumeroAC As DataGridViewTextBoxColumn
+    Friend WithEvents OTnumeroAC As DataGridViewTextBoxColumn
+    Friend WithEvents OTkilosIngresoAC As DataGridViewTextBoxColumn
+    Friend WithEvents EntregaFecha As DataGridViewTextBoxColumn
+    Friend WithEvents MPcodigoCortoAC As DataGridViewTextBoxColumn
+    Friend WithEvents MPcostoToneladaUSS As DataGridViewTextBoxColumn
+    Friend WithEvents TroquelCodigoCortoAC As DataGridViewTextBoxColumn
+    Friend WithEvents MPordenCompraNume As DataGridViewTextBoxColumn
+    Friend WithEvents MPnumeroProforma As DataGridViewTextBoxColumn
+    Friend WithEvents MPcomprometidaAC As DataGridViewCheckBoxColumn
+    Friend WithEvents MPcomprometidaKilosAC As DataGridViewTextBoxColumn
+    Friend WithEvents MPimportar As DataGridViewCheckBoxColumn
+    Friend WithEvents MPexistenciaKilosAC As DataGridViewTextBoxColumn
+    Friend WithEvents Llegada0MPKilos As DataGridViewTextBoxColumn
+    Friend WithEvents MPLlega0USS As DataGridViewTextBoxColumn
+    Friend WithEvents Faltant0MPkilos As DataGridViewTextBoxColumn
+    Friend WithEvents LLegada1MPkilosAC As DataGridViewTextBoxColumn
+    Friend WithEvents MPLlega1USS As DataGridViewTextBoxColumn
+    Friend WithEvents Faltante1MPkilos As DataGridViewTextBoxColumn
+    Friend WithEvents Llegada2MPkilosAC As DataGridViewTextBoxColumn
+    Friend WithEvents MPLlega2USS As DataGridViewTextBoxColumn
+    Friend WithEvents Faltante2MPkilos As DataGridViewTextBoxColumn
+    Friend WithEvents Llegada3MPkilosAC As DataGridViewTextBoxColumn
+    Friend WithEvents MPLlega3USS As DataGridViewTextBoxColumn
+    Friend WithEvents Faltante3MPkilos As DataGridViewTextBoxColumn
+    Friend WithEvents ParaTrabajoX1AC As DataGridViewTextBoxColumn
+    Friend WithEvents ParaTrabajoX2AC As DataGridViewTextBoxColumn
+    Friend WithEvents ParaTrabajoX3AC As DataGridViewTextBoxColumn
+    Friend WithEvents Label92 As Label
+    Friend WithEvents TextBox206 As TextBox
+    Friend WithEvents Label93 As Label
+    Friend WithEvents TextBox207 As TextBox
+    Friend WithEvents Label94 As Label
+    Friend WithEvents TextBox208 As TextBox
+    Friend WithEvents Label95 As Label
+    Friend WithEvents TextBox209 As TextBox
+    Friend WithEvents Label96 As Label
+    Friend WithEvents TextBox210 As TextBox
+    Friend WithEvents Panel38 As Panel
+    Friend WithEvents DateTimePicker62 As DateTimePicker
+    Friend WithEvents DateTimePicker63 As DateTimePicker
+    Friend WithEvents Panel99 As Panel
+    Friend WithEvents Label101 As Label
+    Friend WithEvents TextBox214 As TextBox
+    Friend WithEvents TextBox213 As TextBox
+    Friend WithEvents TextBox212 As TextBox
+    Friend WithEvents Label97 As Label
+    Friend WithEvents SalidaNumero As DataGridViewTextBoxColumn
+    Friend WithEvents OTNumero As DataGridViewComboBoxColumn
+    Friend WithEvents EstacionSalida As DataGridViewComboBoxColumn
+    Friend WithEvents MPCodigoCortoSalida As DataGridViewComboBoxColumn
+    Friend WithEvents NombreMPProveedorSalida As DataGridViewComboBoxColumn
+    Friend WithEvents TurnoSalidaMP As DataGridViewTextBoxColumn
+    Friend WithEvents EAN13compuesto As DataGridViewTextBoxColumn
+    Friend WithEvents Maquina As DataGridViewComboBoxColumn
+    Friend WithEvents Maquinista As DataGridViewComboBoxColumn
+    Friend WithEvents SalidaKilos As DataGridViewTextBoxColumn
+    Friend WithEvents StockKilos As DataGridViewTextBoxColumn
+    Friend WithEvents EAN13Numero As DataGridViewComboBoxColumn
+    Friend WithEvents LoteNumero As DataGridViewTextBoxColumn
+    Friend WithEvents FSC As DataGridViewComboBoxColumn
+    Friend WithEvents CertificadoNumero As DataGridViewTextBoxColumn
+    Friend WithEvents VencimientoFecha As DataGridViewTextBoxColumn
+    Friend WithEvents DiametoBobinaCm As DataGridViewTextBoxColumn
+    Friend WithEvents ConoBobinaCm As DataGridViewTextBoxColumn
+    Friend WithEvents PresupuestoNumero As DataGridViewTextBoxColumn
+    Friend WithEvents MPOrdenCompraNumero As DataGridViewTextBoxColumn
+    Friend WithEvents MPFacturaNumero As DataGridViewTextBoxColumn
+    Friend WithEvents MPBLNumero As DataGridViewTextBoxColumn
+    Friend WithEvents DespachoNumero As DataGridViewTextBoxColumn
+    Friend WithEvents CheckBox58 As CheckBox
+    Friend WithEvents Panel84 As Panel
+    Friend WithEvents DateTimePicker64 As DateTimePicker
+    Friend WithEvents DateTimePicker65 As DateTimePicker
+    Friend WithEvents Panel109 As Panel
+    Friend WithEvents Label103 As Label
+    Friend WithEvents Label98 As Label
+    Friend WithEvents Panel97 As Panel
+    Friend WithEvents DateTimePicker69 As DateTimePicker
+    Friend WithEvents DateTimePicker70 As DateTimePicker
+    Friend WithEvents Panel119 As Panel
+    Friend WithEvents Label104 As Label
     Friend WithEvents EstacionEntrada As DataGridViewComboBoxColumn
     Friend WithEvents EntradaNumero As DataGridViewTextBoxColumn
     Friend WithEvents MPsalidaNumero As DataGridViewTextBoxColumn
@@ -21895,726 +22864,6 @@ Partial Class INSUMO
     Friend WithEvents MPVencimiento As DataGridViewTextBoxColumn
     Friend WithEvents MPcomprometidoKilos As DataGridViewTextBoxColumn
     Friend WithEvents MPsituacionKilos As DataGridViewTextBoxColumn
-    Friend WithEvents Panel32 As Panel
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Salida As TabPage
-    Friend WithEvents Panel13 As Panel
-    Friend WithEvents Panel84 As Panel
-    Friend WithEvents TextBox265 As TextBox
-    Friend WithEvents TextBox264 As TextBox
-    Friend WithEvents TextBox263 As TextBox
-    Friend WithEvents Label100 As Label
-    Friend WithEvents Label261 As Label
-    Friend WithEvents Label102 As Label
-    Friend WithEvents DateTimePicker64 As DateTimePicker
-    Friend WithEvents DateTimePicker65 As DateTimePicker
-    Friend WithEvents Panel109 As Panel
-    Friend WithEvents Label103 As Label
-    Friend WithEvents Panel5 As Panel
-    Friend WithEvents Panel112 As Panel
-    Friend WithEvents Panel128 As Panel
-    Friend WithEvents TextBox183 As TextBox
-    Friend WithEvents CheckBox31 As CheckBox
-    Friend WithEvents CheckBox39 As CheckBox
-    Friend WithEvents CheckBox40 As CheckBox
-    Friend WithEvents CheckBox42 As CheckBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox30 As TextBox
-    Friend WithEvents TextBox39 As TextBox
-    Friend WithEvents TextBox44 As TextBox
-    Friend WithEvents TextBox55 As TextBox
-    Friend WithEvents TextBox86 As TextBox
-    Friend WithEvents TextBox87 As TextBox
-    Friend WithEvents TextBox89 As TextBox
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label15 As Label
-    Friend WithEvents Label18 As Label
-    Friend WithEvents Label26 As Label
-    Friend WithEvents DateTimePicker7 As DateTimePicker
-    Friend WithEvents DateTimePicker8 As DateTimePicker
-    Friend WithEvents Panel14 As Panel
-    Friend WithEvents Label27 As Label
-    Friend WithEvents Panel30 As Panel
-    Friend WithEvents DateTimePicker14 As DateTimePicker
-    Friend WithEvents CheckedListBox3 As CheckedListBox
-    Friend WithEvents DateTimePicker15 As DateTimePicker
-    Friend WithEvents DateTimePicker17 As DateTimePicker
-    Friend WithEvents DateTimePicker18 As DateTimePicker
-    Friend WithEvents Label36 As Label
-    Friend WithEvents CheckBox131 As CheckBox
-    Friend WithEvents CheckBox132 As CheckBox
-    Friend WithEvents CheckBox133 As CheckBox
-    Friend WithEvents CheckBox136 As CheckBox
-    Friend WithEvents Button27 As Button
-    Friend WithEvents Button37 As Button
-    Friend WithEvents Button38 As Button
-    Friend WithEvents Panel33 As Panel
-    Friend WithEvents Label38 As Label
-    Friend WithEvents Panel36 As Panel
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Panel37 As Panel
-    Friend WithEvents Label92 As Label
-    Friend WithEvents TextBox206 As TextBox
-    Friend WithEvents TextBox190 As TextBox
-    Friend WithEvents Label267 As Label
-    Friend WithEvents ComboBox42 As ComboBox
-    Friend WithEvents Label258 As Label
-    Friend WithEvents ComboBox18 As ComboBox
-    Friend WithEvents ComboBox19 As ComboBox
-    Friend WithEvents ComboBox20 As ComboBox
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label16 As Label
-    Friend WithEvents ComboBox21 As ComboBox
-    Friend WithEvents Label31 As Label
-    Friend WithEvents Label32 As Label
-    Friend WithEvents TextBox214 As TextBox
-    Friend WithEvents TextBox213 As TextBox
-    Friend WithEvents TextBox212 As TextBox
-    Friend WithEvents Label97 As Label
-    Friend WithEvents TextBox146 As TextBox
-    Friend WithEvents Label178 As Label
-    Friend WithEvents Panel61 As Panel
-    Friend WithEvents Label193 As Label
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents SalidaNumero As DataGridViewTextBoxColumn
-    Friend WithEvents OTNumero As DataGridViewComboBoxColumn
-    Friend WithEvents EstacionSalida As DataGridViewComboBoxColumn
-    Friend WithEvents MPCodigoCortoSalida As DataGridViewComboBoxColumn
-    Friend WithEvents NombreMPProveedorSalida As DataGridViewComboBoxColumn
-    Friend WithEvents TurnoSalidaMP As DataGridViewTextBoxColumn
-    Friend WithEvents EAN13compuesto As DataGridViewTextBoxColumn
-    Friend WithEvents Maquina As DataGridViewComboBoxColumn
-    Friend WithEvents Maquinista As DataGridViewComboBoxColumn
-    Friend WithEvents SalidaKilos As DataGridViewTextBoxColumn
-    Friend WithEvents StockKilos As DataGridViewTextBoxColumn
-    Friend WithEvents EAN13Numero As DataGridViewComboBoxColumn
-    Friend WithEvents LoteNumero As DataGridViewTextBoxColumn
-    Friend WithEvents FSC As DataGridViewComboBoxColumn
-    Friend WithEvents CertificadoNumero As DataGridViewTextBoxColumn
-    Friend WithEvents VencimientoFecha As DataGridViewTextBoxColumn
-    Friend WithEvents DiametoBobinaCm As DataGridViewTextBoxColumn
-    Friend WithEvents ConoBobinaCm As DataGridViewTextBoxColumn
-    Friend WithEvents PresupuestoNumero As DataGridViewTextBoxColumn
-    Friend WithEvents MPOrdenCompraNumero As DataGridViewTextBoxColumn
-    Friend WithEvents MPFacturaNumero As DataGridViewTextBoxColumn
-    Friend WithEvents MPBLNumero As DataGridViewTextBoxColumn
-    Friend WithEvents DespachoNumero As DataGridViewTextBoxColumn
-    Friend WithEvents Panel165 As Panel
-    Friend WithEvents Button72 As Button
-    Friend WithEvents Button73 As Button
-    Friend WithEvents Button75 As Button
-    Friend WithEvents Button76 As Button
-    Friend WithEvents Button77 As Button
-    Friend WithEvents Button78 As Button
-    Friend WithEvents Label489 As Label
-    Friend WithEvents Panel34 As Panel
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton22 As RadioButton
-    Friend WithEvents RadioButton23 As RadioButton
-    Friend WithEvents RadioButton24 As RadioButton
-    Friend WithEvents RadioButton26 As RadioButton
-    Friend WithEvents RadioButton27 As RadioButton
-    Friend WithEvents RadioButton28 As RadioButton
-    Friend WithEvents RadioButton29 As RadioButton
-    Friend WithEvents Label227 As Label
-    Friend WithEvents Label228 As Label
-    Friend WithEvents Label229 As Label
-    Friend WithEvents Label230 As Label
-    Friend WithEvents Panel35 As Panel
-    Friend WithEvents Label222 As Label
-    Friend WithEvents SGC As TabPage
-    Friend WithEvents Button22 As Button
-    Friend WithEvents Panel19 As Panel
-    Friend WithEvents Panel20 As Panel
-    Friend WithEvents TextBox239 As TextBox
-    Friend WithEvents Panel21 As Panel
-    Friend WithEvents Label205 As Label
-    Friend WithEvents Label206 As Label
-    Friend WithEvents Button20 As Button
-    Friend WithEvents Button33 As Button
-    Friend WithEvents Button23 As Button
-    Friend WithEvents Button34 As Button
-    Friend WithEvents Button21 As Button
-    Friend WithEvents Button24 As Button
-    Friend WithEvents Panel11 As Panel
-    Friend WithEvents Panel172 As Panel
-    Friend WithEvents Button67 As Button
-    Friend WithEvents Button50 As Button
-    Friend WithEvents DateTimePicker53 As DateTimePicker
-    Friend WithEvents DateTimePicker56 As DateTimePicker
-    Friend WithEvents DateTimePicker57 As DateTimePicker
-    Friend WithEvents DateTimePicker58 As DateTimePicker
-    Friend WithEvents Label208 As Label
-    Friend WithEvents CheckBox45 As CheckBox
-    Friend WithEvents CheckBox46 As CheckBox
-    Friend WithEvents CheckBox55 As CheckBox
-    Friend WithEvents CheckBox56 As CheckBox
-    Friend WithEvents Button68 As Button
-    Friend WithEvents Button69 As Button
-    Friend WithEvents Button70 As Button
-    Friend WithEvents Button71 As Button
-    Friend WithEvents Panel173 As Panel
-    Friend WithEvents Label254 As Label
-    Friend WithEvents Panel56 As Panel
-    Friend WithEvents ComboBox27 As ComboBox
-    Friend WithEvents ComboBox24 As ComboBox
-    Friend WithEvents ComboBox23 As ComboBox
-    Friend WithEvents Label70 As Label
-    Friend WithEvents Label69 As Label
-    Friend WithEvents Label53 As Label
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents DateTimePicker48 As DateTimePicker
-    Friend WithEvents DateTimePicker47 As DateTimePicker
-    Friend WithEvents DateTimePicker26 As DateTimePicker
-    Friend WithEvents ComboBox28 As ComboBox
-    Friend WithEvents ComboBox22 As ComboBox
-    Friend WithEvents ComboBox17 As ComboBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents DateTimePicker2 As DateTimePicker
-    Friend WithEvents Label52 As Label
-    Friend WithEvents Panel146 As Panel
-    Friend WithEvents Label65 As Label
-    Friend WithEvents Label67 As Label
-    Friend WithEvents Label51 As Label
-    Friend WithEvents Label55 As Label
-    Friend WithEvents TextBox26 As TextBox
-    Friend WithEvents Label30 As Label
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents Label57 As Label
-    Friend WithEvents DateTimePicker49 As DateTimePicker
-    Friend WithEvents Label2 As Label
-    Friend WithEvents DateTimePicker21 As DateTimePicker
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents DateTimePicker19 As DateTimePicker
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents ComboBox43 As ComboBox
-    Friend WithEvents Label259 As Label
-    Friend WithEvents Label516 As Label
-    Friend WithEvents Label568 As Label
-    Friend WithEvents DateTimePicker128 As DateTimePicker
-    Friend WithEvents Label748 As Label
-    Friend WithEvents DateTimePicker129 As DateTimePicker
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox329 As TextBox
-    Friend WithEvents TextBox330 As TextBox
-    Friend WithEvents TextBox331 As TextBox
-    Friend WithEvents TextBox332 As TextBox
-    Friend WithEvents TextBox334 As TextBox
-    Friend WithEvents TextBox335 As TextBox
-    Friend WithEvents TextBox336 As TextBox
-    Friend WithEvents TextBox337 As TextBox
-    Friend WithEvents TextBox339 As TextBox
-    Friend WithEvents TextBox340 As TextBox
-    Friend WithEvents TextBox341 As TextBox
-    Friend WithEvents TextBox342 As TextBox
-    Friend WithEvents TextBox344 As TextBox
-    Friend WithEvents Label43 As Label
-    Friend WithEvents Label44 As Label
-    Friend WithEvents Label45 As Label
-    Friend WithEvents Label47 As Label
-    Friend WithEvents Panel4 As Panel
-    Friend WithEvents Label48 As Label
-    Friend WithEvents Label49 As Label
-    Friend WithEvents Panel12 As Panel
-    Friend WithEvents Label163 As Label
-    Friend WithEvents Panel17 As Panel
-    Friend WithEvents Panel188 As Panel
-    Friend WithEvents RadioButton54 As RadioButton
-    Friend WithEvents RadioButton55 As RadioButton
-    Friend WithEvents Panel185 As Panel
-    Friend WithEvents RadioButton50 As RadioButton
-    Friend WithEvents RadioButton53 As RadioButton
-    Friend WithEvents Panel180 As Panel
-    Friend WithEvents RadioButton47 As RadioButton
-    Friend WithEvents RadioButton48 As RadioButton
-    Friend WithEvents Panel179 As Panel
-    Friend WithEvents RadioButton44 As RadioButton
-    Friend WithEvents RadioButton46 As RadioButton
-    Friend WithEvents Panel166 As Panel
-    Friend WithEvents RadioButton40 As RadioButton
-    Friend WithEvents RadioButton42 As RadioButton
-    Friend WithEvents Panel161 As Panel
-    Friend WithEvents RadioButton25 As RadioButton
-    Friend WithEvents RadioButton30 As RadioButton
-    Friend WithEvents Panel168 As Panel
-    Friend WithEvents RadioButton51 As RadioButton
-    Friend WithEvents RadioButton52 As RadioButton
-    Friend WithEvents Panel138 As Panel
-    Friend WithEvents RadioButton38 As RadioButton
-    Friend WithEvents RadioButton49 As RadioButton
-    Friend WithEvents Panel159 As Panel
-    Friend WithEvents RadioButton16 As RadioButton
-    Friend WithEvents RadioButton17 As RadioButton
-    Friend WithEvents Panel141 As Panel
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents Panel18 As Panel
-    Friend WithEvents Label22 As Label
-    Friend WithEvents TextBox57 As TextBox
-    Friend WithEvents TextBox58 As TextBox
-    Friend WithEvents TextBox59 As TextBox
-    Friend WithEvents TextBox60 As TextBox
-    Friend WithEvents TextBox61 As TextBox
-    Friend WithEvents TextBox62 As TextBox
-    Friend WithEvents TextBox63 As TextBox
-    Friend WithEvents TextBox64 As TextBox
-    Friend WithEvents TextBox65 As TextBox
-    Friend WithEvents TextBox66 As TextBox
-    Friend WithEvents TextBox67 As TextBox
-    Friend WithEvents TextBox68 As TextBox
-    Friend WithEvents TextBox69 As TextBox
-    Friend WithEvents TextBox70 As TextBox
-    Friend WithEvents TextBox71 As TextBox
-    Friend WithEvents TextBox72 As TextBox
-    Friend WithEvents TextBox73 As TextBox
-    Friend WithEvents TextBox74 As TextBox
-    Friend WithEvents TextBox75 As TextBox
-    Friend WithEvents TextBox76 As TextBox
-    Friend WithEvents Label23 As Label
-    Friend WithEvents Label24 As Label
-    Friend WithEvents Label25 As Label
-    Friend WithEvents Label170 As Label
-    Friend WithEvents Label171 As Label
-    Friend WithEvents Label174 As Label
-    Friend WithEvents Label180 As Label
-    Friend WithEvents Label182 As Label
-    Friend WithEvents Label184 As Label
-    Friend WithEvents DateTimePicker30 As DateTimePicker
-    Friend WithEvents Label185 As Label
-    Friend WithEvents DateTimePicker31 As DateTimePicker
-    Friend WithEvents DateTimePicker32 As DateTimePicker
-    Friend WithEvents DateTimePicker33 As DateTimePicker
-    Friend WithEvents DateTimePicker34 As DateTimePicker
-    Friend WithEvents DateTimePicker35 As DateTimePicker
-    Friend WithEvents DateTimePicker36 As DateTimePicker
-    Friend WithEvents DateTimePicker37 As DateTimePicker
-    Friend WithEvents DateTimePicker38 As DateTimePicker
-    Friend WithEvents DateTimePicker39 As DateTimePicker
-    Friend WithEvents Panel15 As Panel
-    Friend WithEvents Panel6 As Panel
-    Friend WithEvents Panel9 As Panel
-    Friend WithEvents TextBox52 As TextBox
-    Friend WithEvents Panel10 As Panel
-    Friend WithEvents Label210 As Label
-    Friend WithEvents Label211 As Label
-    Friend WithEvents Panel153 As Panel
-    Friend WithEvents Panel154 As Panel
-    Friend WithEvents TextBox442 As TextBox
-    Friend WithEvents Panel155 As Panel
-    Friend WithEvents Label465 As Label
-    Friend WithEvents Label466 As Label
-    Friend WithEvents Panel16 As Panel
-    Friend WithEvents Label21 As Label
-    Friend WithEvents AnalisisCompraMP As TabPage
-    Friend WithEvents Panel195 As Panel
-    Friend WithEvents DataGridView7 As DataGridView
-    Friend WithEvents DataGridViewTextBoxColumn15 As DataGridViewTextBoxColumn
-    Friend WithEvents PresupuestoNumeroAC As DataGridViewTextBoxColumn
-    Friend WithEvents OCnumeroAC As DataGridViewTextBoxColumn
-    Friend WithEvents OTnumeroAC As DataGridViewTextBoxColumn
-    Friend WithEvents OTkilosIngresoAC As DataGridViewTextBoxColumn
-    Friend WithEvents EntregaFecha As DataGridViewTextBoxColumn
-    Friend WithEvents MPcodigoCortoAC As DataGridViewTextBoxColumn
-    Friend WithEvents MPcostoToneladaUSS As DataGridViewTextBoxColumn
-    Friend WithEvents TroquelCodigoCortoAC As DataGridViewTextBoxColumn
-    Friend WithEvents MPordenCompraNume As DataGridViewTextBoxColumn
-    Friend WithEvents MPnumeroProforma As DataGridViewTextBoxColumn
-    Friend WithEvents MPcomprometidaAC As DataGridViewCheckBoxColumn
-    Friend WithEvents MPcomprometidaKilosAC As DataGridViewTextBoxColumn
-    Friend WithEvents MPimportar As DataGridViewCheckBoxColumn
-    Friend WithEvents MPexistenciaKilosAC As DataGridViewTextBoxColumn
-    Friend WithEvents Llegada0MPKilos As DataGridViewTextBoxColumn
-    Friend WithEvents MPLlega0USS As DataGridViewTextBoxColumn
-    Friend WithEvents Faltant0MPkilos As DataGridViewTextBoxColumn
-    Friend WithEvents LLegada1MPkilosAC As DataGridViewTextBoxColumn
-    Friend WithEvents MPLlega1USS As DataGridViewTextBoxColumn
-    Friend WithEvents Faltante1MPkilos As DataGridViewTextBoxColumn
-    Friend WithEvents Llegada2MPkilosAC As DataGridViewTextBoxColumn
-    Friend WithEvents MPLlega2USS As DataGridViewTextBoxColumn
-    Friend WithEvents Faltante2MPkilos As DataGridViewTextBoxColumn
-    Friend WithEvents Llegada3MPkilosAC As DataGridViewTextBoxColumn
-    Friend WithEvents MPLlega3USS As DataGridViewTextBoxColumn
-    Friend WithEvents Faltante3MPkilos As DataGridViewTextBoxColumn
-    Friend WithEvents ParaTrabajoX1AC As DataGridViewTextBoxColumn
-    Friend WithEvents ParaTrabajoX2AC As DataGridViewTextBoxColumn
-    Friend WithEvents ParaTrabajoX3AC As DataGridViewTextBoxColumn
-    Friend WithEvents Label293 As Label
-    Friend WithEvents Label275 As Label
-    Friend WithEvents Label285 As Label
-    Friend WithEvents Label284 As Label
-    Friend WithEvents Label283 As Label
-    Friend WithEvents Label282 As Label
-    Friend WithEvents TextBox202 As TextBox
-    Friend WithEvents Label276 As Label
-    Friend WithEvents TextBox199 As TextBox
-    Friend WithEvents Label277 As Label
-    Friend WithEvents TextBox200 As TextBox
-    Friend WithEvents TextBox197 As TextBox
-    Friend WithEvents TextBox198 As TextBox
-    Friend WithEvents TextBox192 As TextBox
-    Friend WithEvents TextBox191 As TextBox
-    Friend WithEvents TextBox201 As TextBox
-    Friend WithEvents Panel209 As Panel
-    Friend WithEvents Button112 As Button
-    Friend WithEvents Button144 As Button
-    Friend WithEvents Button148 As Button
-    Friend WithEvents Button147 As Button
-    Friend WithEvents Button146 As Button
-    Friend WithEvents Button145 As Button
-    Friend WithEvents Label314 As Label
-    Friend WithEvents Presupuesto As TabPage
-    Friend WithEvents Panel42 As Panel
-    Friend WithEvents DataGridView4 As DataGridView
-    Friend WithEvents PresupuestoNumer As DataGridViewTextBoxColumn
-    Friend WithEvents MPocNumero As DataGridViewTextBoxColumn
-    Friend WithEvents MPproformaNumero As DataGridViewTextBoxColumn
-    Friend WithEvents MPFacturaNumeroPresupuesto As DataGridViewTextBoxColumn
-    Friend WithEvents MPCodigoCortoPresupuesto As DataGridViewComboBoxColumn
-    Friend WithEvents NombreFabricaMP As DataGridViewComboBoxColumn
-    Friend WithEvents NombreMPFabrica As DataGridViewComboBoxColumn
-    Friend WithEvents MPGramos As DataGridViewComboBoxColumn
-    Friend WithEvents MPumespesor As DataGridViewComboBoxColumn
-    Friend WithEvents FSCPresupuestar As DataGridViewComboBoxColumn
-    Friend WithEvents Certificado As DataGridViewComboBoxColumn
-    Friend WithEvents DiametroBobinaPresupuestar As DataGridViewComboBoxColumn
-    Friend WithEvents ConoDiametroBobinaPresupuestar As DataGridViewComboBoxColumn
-    Friend WithEvents RigidesMPmd As DataGridViewComboBoxColumn
-    Friend WithEvents RigidesMPcd As DataGridViewComboBoxColumn
-    Friend WithEvents ToneladaMP As DataGridViewTextBoxColumn
-    Friend WithEvents ToneladaUSSunitario As DataGridViewTextBoxColumn
-    Friend WithEvents ToneladasTotaluss As DataGridViewTextBoxColumn
-    Friend WithEvents ClienteUtiliza As DataGridViewTextBoxColumn
-    Friend WithEvents Panel43 As Panel
-    Friend WithEvents Label93 As Label
-    Friend WithEvents TextBox207 As TextBox
-    Friend WithEvents TextBox189 As TextBox
-    Friend WithEvents Label263 As Label
-    Friend WithEvents ComboBox30 As ComboBox
-    Friend WithEvents ComboBox31 As ComboBox
-    Friend WithEvents ComboBox32 As ComboBox
-    Friend WithEvents Label72 As Label
-    Friend WithEvents Label73 As Label
-    Friend WithEvents ComboBox46 As ComboBox
-    Friend WithEvents Label153 As Label
-    Friend WithEvents Label157 As Label
-    Friend WithEvents DateTimePicker20 As DateTimePicker
-    Friend WithEvents DateTimePicker22 As DateTimePicker
-    Friend WithEvents Panel44 As Panel
-    Friend WithEvents Label34 As Label
-    Friend WithEvents CheckBox144 As CheckBox
-    Friend WithEvents CheckBox150 As CheckBox
-    Friend WithEvents CheckBox149 As CheckBox
-    Friend WithEvents CheckBox148 As CheckBox
-    Friend WithEvents CheckBox145 As CheckBox
-    Friend WithEvents Label166 As Label
-    Friend WithEvents Panel45 As Panel
-    Friend WithEvents DateTimePicker23 As DateTimePicker
-    Friend WithEvents CheckedListBox4 As CheckedListBox
-    Friend WithEvents DateTimePicker24 As DateTimePicker
-    Friend WithEvents DateTimePicker25 As DateTimePicker
-    Friend WithEvents DateTimePicker27 As DateTimePicker
-    Friend WithEvents Label35 As Label
-    Friend WithEvents CheckBox138 As CheckBox
-    Friend WithEvents CheckBox139 As CheckBox
-    Friend WithEvents CheckBox142 As CheckBox
-    Friend WithEvents CheckBox143 As CheckBox
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Button26 As Button
-    Friend WithEvents Button39 As Button
-    Friend WithEvents Panel46 As Panel
-    Friend WithEvents Label71 As Label
-    Friend WithEvents Panel47 As Panel
-    Friend WithEvents ComboBox51 As ComboBox
-    Friend WithEvents ComboBox50 As ComboBox
-    Friend WithEvents ComboBox49 As ComboBox
-    Friend WithEvents ComboBox29 As ComboBox
-    Friend WithEvents TextBox95 As TextBox
-    Friend WithEvents TextBox85 As TextBox
-    Friend WithEvents TextBox43 As TextBox
-    Friend WithEvents TextBox49 As TextBox
-    Friend WithEvents TextBox93 As TextBox
-    Friend WithEvents TextBox82 As TextBox
-    Friend WithEvents TextBox42 As TextBox
-    Friend WithEvents TextBox50 As TextBox
-    Friend WithEvents Label168 As Label
-    Friend WithEvents TextBox92 As TextBox
-    Friend WithEvents TextBox81 As TextBox
-    Friend WithEvents TextBox41 As TextBox
-    Friend WithEvents TextBox51 As TextBox
-    Friend WithEvents TextBox91 As TextBox
-    Friend WithEvents TextBox90 As TextBox
-    Friend WithEvents TextBox53 As TextBox
-    Friend WithEvents TextBox48 As TextBox
-    Friend WithEvents TextBox31 As TextBox
-    Friend WithEvents TextBox88 As TextBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox45 As TextBox
-    Friend WithEvents TextBox77 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox78 As TextBox
-    Friend WithEvents TextBox79 As TextBox
-    Friend WithEvents Label169 As Label
-    Friend WithEvents Label173 As Label
-    Friend WithEvents Label175 As Label
-    Friend WithEvents Panel49 As Panel
-    Friend WithEvents Label177 As Label
-    Friend WithEvents Panel142 As Panel
-    Friend WithEvents Label179 As Label
-    Friend WithEvents Button49 As Button
-    Friend WithEvents Button43 As Button
-    Friend WithEvents Button47 As Button
-    Friend WithEvents OC As TabPage
-    Friend WithEvents Panel160 As Panel
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents CheckedListBox6 As CheckedListBox
-    Friend WithEvents Panel48 As Panel
-    Friend WithEvents Panel131 As Panel
-    Friend WithEvents Panel151 As Panel
-    Friend WithEvents TextBox184 As TextBox
-    Friend WithEvents CheckBox152 As CheckBox
-    Friend WithEvents CheckBox153 As CheckBox
-    Friend WithEvents CheckBox154 As CheckBox
-    Friend WithEvents CheckBox155 As CheckBox
-    Friend WithEvents TextBox96 As TextBox
-    Friend WithEvents TextBox97 As TextBox
-    Friend WithEvents TextBox99 As TextBox
-    Friend WithEvents TextBox100 As TextBox
-    Friend WithEvents TextBox101 As TextBox
-    Friend WithEvents TextBox127 As TextBox
-    Friend WithEvents TextBox128 As TextBox
-    Friend WithEvents TextBox151 As TextBox
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label158 As Label
-    Friend WithEvents Label159 As Label
-    Friend WithEvents Label160 As Label
-    Friend WithEvents DateTimePicker28 As DateTimePicker
-    Friend WithEvents DateTimePicker29 As DateTimePicker
-    Friend WithEvents Panel145 As Panel
-    Friend WithEvents Label165 As Label
-    Friend WithEvents Panel156 As Panel
-    Friend WithEvents DateTimePicker40 As DateTimePicker
-    Friend WithEvents DateTimePicker41 As DateTimePicker
-    Friend WithEvents DateTimePicker42 As DateTimePicker
-    Friend WithEvents DateTimePicker50 As DateTimePicker
-    Friend WithEvents Label176 As Label
-    Friend WithEvents CheckBox156 As CheckBox
-    Friend WithEvents CheckBox157 As CheckBox
-    Friend WithEvents CheckBox158 As CheckBox
-    Friend WithEvents CheckBox159 As CheckBox
-    Friend WithEvents Button40 As Button
-    Friend WithEvents Button41 As Button
-    Friend WithEvents Button44 As Button
-    Friend WithEvents Button45 As Button
-    Friend WithEvents Panel164 As Panel
-    Friend WithEvents Label186 As Label
-    Friend WithEvents Panel167 As Panel
-    Friend WithEvents ComboBox52 As ComboBox
-    Friend WithEvents TextBox153 As TextBox
-    Friend WithEvents TextBox154 As TextBox
-    Friend WithEvents Panel169 As Panel
-    Friend WithEvents Label94 As Label
-    Friend WithEvents TextBox208 As TextBox
-    Friend WithEvents TextBox94 As TextBox
-    Friend WithEvents Label260 As Label
-    Friend WithEvents ComboBox53 As ComboBox
-    Friend WithEvents ComboBox54 As ComboBox
-    Friend WithEvents ComboBox55 As ComboBox
-    Friend WithEvents Label196 As Label
-    Friend WithEvents Label197 As Label
-    Friend WithEvents ComboBox56 As ComboBox
-    Friend WithEvents Label198 As Label
-    Friend WithEvents Label199 As Label
-    Friend WithEvents CheckBox160 As CheckBox
-    Friend WithEvents CheckBox161 As CheckBox
-    Friend WithEvents CheckBox174 As CheckBox
-    Friend WithEvents CheckBox175 As CheckBox
-    Friend WithEvents CheckBox176 As CheckBox
-    Friend WithEvents Label200 As Label
-    Friend WithEvents TextBox155 As TextBox
-    Friend WithEvents TextBox156 As TextBox
-    Friend WithEvents TextBox157 As TextBox
-    Friend WithEvents TextBox159 As TextBox
-    Friend WithEvents TextBox160 As TextBox
-    Friend WithEvents Label201 As Label
-    Friend WithEvents Label202 As Label
-    Friend WithEvents Label203 As Label
-    Friend WithEvents Label204 As Label
-    Friend WithEvents Panel170 As Panel
-    Friend WithEvents Label207 As Label
-    Friend WithEvents DataGridView2 As DataGridView
-    Friend WithEvents MPocNumer As DataGridViewTextBoxColumn
-    Friend WithEvents AnalisisCompraNumero As DataGridViewTextBoxColumn
-    Friend WithEvents MPproformaNumer As DataGridViewTextBoxColumn
-    Friend WithEvents MPcodigoCortoOC As DataGridViewComboBoxColumn
-    Friend WithEvents MPNonbreFabricante As DataGridViewComboBoxColumn
-    Friend WithEvents MPgramaj As DataGridViewComboBoxColumn
-    Friend WithEvents MPum As DataGridViewComboBoxColumn
-    Friend WithEvents MPpuntos As DataGridViewComboBoxColumn
-    Friend WithEvents MPconFSC As DataGridViewComboBoxColumn
-    Friend WithEvents MPcertificadoOC As DataGridViewComboBoxColumn
-    Friend WithEvents MPdiametroBobinaOC As DataGridViewComboBoxColumn
-    Friend WithEvents MPconoDiametro As DataGridViewComboBoxColumn
-    Friend WithEvents MPtotalToneladas As DataGridViewTextBoxColumn
-    Friend WithEvents MPcostoToneladaUSSoc As DataGridViewTextBoxColumn
-    Friend WithEvents MPtotalUSSoc As DataGridViewTextBoxColumn
-    Friend WithEvents RigidezMD As DataGridViewComboBoxColumn
-    Friend WithEvents MPRigidezCD As DataGridViewComboBoxColumn
-    Friend WithEvents Trabajo1 As DataGridViewTextBoxColumn
-    Friend WithEvents Trabajo2 As DataGridViewTextBoxColumn
-    Friend WithEvents Trabajo3 As DataGridViewTextBoxColumn
-    Friend WithEvents Panel186 As Panel
-    Friend WithEvents Label483 As Label
-    Friend WithEvents Seguimiento As TabPage
-    Friend WithEvents Panel62 As Panel
-    Friend WithEvents Panel70 As Panel
-    Friend WithEvents CheckBox78 As CheckBox
-    Friend WithEvents CheckBox72 As CheckBox
-    Friend WithEvents CheckBox67 As CheckBox
-    Friend WithEvents CheckBox34 As CheckBox
-    Friend WithEvents CheckBox62 As CheckBox
-    Friend WithEvents CheckBox52 As CheckBox
-    Friend WithEvents CheckBox77 As CheckBox
-    Friend WithEvents CheckBox71 As CheckBox
-    Friend WithEvents CheckBox66 As CheckBox
-    Friend WithEvents CheckBox33 As CheckBox
-    Friend WithEvents CheckBox61 As CheckBox
-    Friend WithEvents CheckBox51 As CheckBox
-    Friend WithEvents TextBox182 As TextBox
-    Friend WithEvents TextBox174 As TextBox
-    Friend WithEvents TextBox171 As TextBox
-    Friend WithEvents TextBox187 As TextBox
-    Friend WithEvents TextBox168 As TextBox
-    Friend WithEvents TextBox178 As TextBox
-    Friend WithEvents TextBox173 As TextBox
-    Friend WithEvents TextBox170 As TextBox
-    Friend WithEvents TextBox186 As TextBox
-    Friend WithEvents TextBox167 As TextBox
-    Friend WithEvents TextBox111 As TextBox
-    Friend WithEvents TextBox175 As TextBox
-    Friend WithEvents TextBox172 As TextBox
-    Friend WithEvents TextBox169 As TextBox
-    Friend WithEvents TextBox185 As TextBox
-    Friend WithEvents TextBox162 As TextBox
-    Friend WithEvents TextBox110 As TextBox
-    Friend WithEvents TextBox109 As TextBox
-    Friend WithEvents CheckBox75 As CheckBox
-    Friend WithEvents CheckBox70 As CheckBox
-    Friend WithEvents CheckBox32 As CheckBox
-    Friend WithEvents CheckBox65 As CheckBox
-    Friend WithEvents CheckBox54 As CheckBox
-    Friend WithEvents CheckBox50 As CheckBox
-    Friend WithEvents CheckBox49 As CheckBox
-    Friend WithEvents CheckBox41 As CheckBox
-    Friend WithEvents CheckBox38 As CheckBox
-    Friend WithEvents CheckBox74 As CheckBox
-    Friend WithEvents CheckBox58 As CheckBox
-    Friend WithEvents CheckBox37 As CheckBox
-    Friend WithEvents CheckBox69 As CheckBox
-    Friend WithEvents CheckBox36 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents CheckBox35 As CheckBox
-    Friend WithEvents CheckBox64 As CheckBox
-    Friend WithEvents CheckBox53 As CheckBox
-    Friend WithEvents CheckBox73 As CheckBox
-    Friend WithEvents CheckBox68 As CheckBox
-    Friend WithEvents CheckBox4 As CheckBox
-    Friend WithEvents CheckBox63 As CheckBox
-    Friend WithEvents CheckBox76 As CheckBox
-    Friend WithEvents CheckBox48 As CheckBox
-    Friend WithEvents CheckBox47 As CheckBox
-    Friend WithEvents Label249 As Label
-    Friend WithEvents Label248 As Label
-    Friend WithEvents Label246 As Label
-    Friend WithEvents Label247 As Label
-    Friend WithEvents Label242 As Label
-    Friend WithEvents Label318 As Label
-    Friend WithEvents Panel71 As Panel
-    Friend WithEvents Label319 As Label
-    Friend WithEvents Label320 As Label
-    Friend WithEvents DataGridView5 As DataGridView
-    Friend WithEvents FechaUltimaAutualizacion As DataGridViewTextBoxColumn
-    Friend WithEvents MPpago As DataGridViewCheckBoxColumn
-    Friend WithEvents PresupuestoNumeroSeguimiento As DataGridViewComboBoxColumn
-    Friend WithEvents OrdenCompraNumero As DataGridViewComboBoxColumn
-    Friend WithEvents MPproforma As DataGridViewComboBoxColumn
-    Friend WithEvents BLnumero As DataGridViewTextBoxColumn
-    Friend WithEvents MPllegadatrasbordo As DataGridViewCheckBoxColumn
-    Friend WithEvents MPsalidaTrasbordo As DataGridViewCheckBoxColumn
-    Friend WithEvents MPllegadaAsuncion As DataGridViewCheckBoxColumn
-    Friend WithEvents EntradaNumeroSeguimiento As DataGridViewTextBoxColumn
-    Friend WithEvents FacturaNumeroSeguimiento As DataGridViewTextBoxColumn
-    Friend WithEvents DespachoNumeroSeguimiento As DataGridViewTextBoxColumn
-    Friend WithEvents Estacion As DataGridViewTextBoxColumn
-    Friend WithEvents MPtoneladas As DataGridViewTextBoxColumn
-    Friend WithEvents MPuss As DataGridViewTextBoxColumn
-    Friend WithEvents MPtotalUSS As DataGridViewTextBoxColumn
-    Friend WithEvents MPcodigoCortoSeguimiento As DataGridViewTextBoxColumn
-    Friend WithEvents NombreMPproveedorSeguimiento As DataGridViewTextBoxColumn
-    Friend WithEvents EAN13numeroSeguimiento As DataGridViewTextBoxColumn
-    Friend WithEvents FSCseguimiento As DataGridViewComboBoxColumn
-    Friend WithEvents CertificadoNumeroSeguimiento As DataGridViewComboBoxColumn
-    Friend WithEvents LoteNumeroESeguimiento As DataGridViewTextBoxColumn
-    Friend WithEvents VtoFechaSeguimiento As DataGridViewTextBoxColumn
-    Friend WithEvents DiametoBobina As DataGridViewComboBoxColumn
-    Friend WithEvents ConoDiametro As DataGridViewComboBoxColumn
-    Friend WithEvents OTnumeroSeguimiento As DataGridViewTextBoxColumn
-    Friend WithEvents CheckedListBox7 As CheckedListBox
-    Friend WithEvents Panel63 As Panel
-    Friend WithEvents DateTimePicker51 As DateTimePicker
-    Friend WithEvents DateTimePicker52 As DateTimePicker
-    Friend WithEvents DateTimePicker54 As DateTimePicker
-    Friend WithEvents DateTimePicker55 As DateTimePicker
-    Friend WithEvents CheckBox162 As CheckBox
-    Friend WithEvents CheckBox163 As CheckBox
-    Friend WithEvents CheckBox164 As CheckBox
-    Friend WithEvents CheckBox165 As CheckBox
-    Friend WithEvents Button19 As Button
-    Friend WithEvents Button46 As Button
-    Friend WithEvents Button48 As Button
-    Friend WithEvents Panel64 As Panel
-    Friend WithEvents Label209 As Label
-    Friend WithEvents Panel147 As Panel
-    Friend WithEvents ComboBox57 As ComboBox
-    Friend WithEvents TextBox105 As TextBox
-    Friend WithEvents TextBox108 As TextBox
-    Friend WithEvents Panel148 As Panel
-    Friend WithEvents Label95 As Label
-    Friend WithEvents TextBox209 As TextBox
-    Friend WithEvents ComboBox58 As ComboBox
-    Friend WithEvents ComboBox59 As ComboBox
-    Friend WithEvents ComboBox60 As ComboBox
-    Friend WithEvents Label219 As Label
-    Friend WithEvents Label226 As Label
-    Friend WithEvents ComboBox61 As ComboBox
-    Friend WithEvents Label231 As Label
-    Friend WithEvents Label232 As Label
-    Friend WithEvents CheckBox177 As CheckBox
-    Friend WithEvents CheckBox178 As CheckBox
-    Friend WithEvents TextBox106 As TextBox
-    Friend WithEvents CheckBox179 As CheckBox
-    Friend WithEvents CheckBox180 As CheckBox
-    Friend WithEvents CheckBox181 As CheckBox
-    Friend WithEvents Label245 As Label
-    Friend WithEvents Label238 As Label
-    Friend WithEvents TextBox125 As TextBox
-    Friend WithEvents TextBox134 As TextBox
-    Friend WithEvents TextBox137 As TextBox
-    Friend WithEvents TextBox140 As TextBox
-    Friend WithEvents TextBox161 As TextBox
-    Friend WithEvents Label239 As Label
-    Friend WithEvents Label240 As Label
-    Friend WithEvents Label241 As Label
-    Friend WithEvents Label243 As Label
-    Friend WithEvents Panel171 As Panel
-    Friend WithEvents Label244 As Label
-    Friend WithEvents Panel67 As Panel
-    Friend WithEvents Label317 As Label
-    Friend WithEvents FSCinforme As TabPage
-    Friend WithEvents Panel72 As Panel
     Friend WithEvents Label99 As Label
     Friend WithEvents DataGridView6 As DataGridView
     Friend WithEvents DataGridViewComboBoxColumn1 As DataGridViewComboBoxColumn
@@ -22667,318 +22916,51 @@ Partial Class INSUMO
     Friend WithEvents DataGridViewTextBoxColumn34 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn35 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn36 As DataGridViewTextBoxColumn
-    Friend WithEvents Panel97 As Panel
-    Friend WithEvents DateTimePicker69 As DateTimePicker
-    Friend WithEvents DateTimePicker70 As DateTimePicker
-    Friend WithEvents Panel119 As Panel
-    Friend WithEvents Label104 As Label
-    Friend WithEvents Panel73 As Panel
-    Friend WithEvents Panel74 As Panel
-    Friend WithEvents Panel75 As Panel
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents CheckBox14 As CheckBox
-    Friend WithEvents CheckBox15 As CheckBox
-    Friend WithEvents CheckBox16 As CheckBox
-    Friend WithEvents CheckBox17 As CheckBox
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents TextBox20 As TextBox
-    Friend WithEvents TextBox21 As TextBox
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox23 As TextBox
-    Friend WithEvents TextBox24 As TextBox
-    Friend WithEvents TextBox25 As TextBox
-    Friend WithEvents Label37 As Label
-    Friend WithEvents Label39 As Label
-    Friend WithEvents Label40 As Label
-    Friend WithEvents Label75 As Label
-    Friend WithEvents DateTimePicker59 As DateTimePicker
-    Friend WithEvents DateTimePicker60 As DateTimePicker
-    Friend WithEvents Panel77 As Panel
-    Friend WithEvents Label76 As Label
-    Friend WithEvents Panel78 As Panel
-    Friend WithEvents CheckedListBox9 As CheckedListBox
-    Friend WithEvents DateTimePicker61 As DateTimePicker
-    Friend WithEvents DateTimePicker66 As DateTimePicker
-    Friend WithEvents DateTimePicker67 As DateTimePicker
-    Friend WithEvents DateTimePicker68 As DateTimePicker
-    Friend WithEvents Label77 As Label
-    Friend WithEvents CheckBox18 As CheckBox
-    Friend WithEvents CheckBox19 As CheckBox
-    Friend WithEvents CheckBox20 As CheckBox
-    Friend WithEvents CheckBox21 As CheckBox
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Panel79 As Panel
-    Friend WithEvents Label78 As Label
-    Friend WithEvents Panel80 As Panel
-    Friend WithEvents ComboBox62 As ComboBox
-    Friend WithEvents TextBox143 As TextBox
-    Friend WithEvents TextBox193 As TextBox
-    Friend WithEvents Panel81 As Panel
-    Friend WithEvents Label96 As Label
-    Friend WithEvents TextBox210 As TextBox
-    Friend WithEvents ComboBox63 As ComboBox
-    Friend WithEvents Label79 As Label
-    Friend WithEvents CheckBox22 As CheckBox
-    Friend WithEvents CheckBox23 As CheckBox
-    Friend WithEvents CheckBox25 As CheckBox
-    Friend WithEvents CheckBox26 As CheckBox
-    Friend WithEvents CheckBox27 As CheckBox
-    Friend WithEvents ComboBox65 As ComboBox
-    Friend WithEvents ComboBox69 As ComboBox
-    Friend WithEvents ComboBox70 As ComboBox
-    Friend WithEvents Label80 As Label
-    Friend WithEvents Label81 As Label
-    Friend WithEvents ComboBox71 As ComboBox
-    Friend WithEvents Label82 As Label
-    Friend WithEvents Label83 As Label
-    Friend WithEvents Label84 As Label
-    Friend WithEvents TextBox194 As TextBox
-    Friend WithEvents TextBox195 As TextBox
-    Friend WithEvents TextBox196 As TextBox
-    Friend WithEvents TextBox203 As TextBox
-    Friend WithEvents TextBox204 As TextBox
-    Friend WithEvents Label85 As Label
-    Friend WithEvents Label86 As Label
-    Friend WithEvents Label87 As Label
-    Friend WithEvents Label88 As Label
-    Friend WithEvents Panel82 As Panel
-    Friend WithEvents Label89 As Label
-    Friend WithEvents Panel83 As Panel
-    Friend WithEvents Label90 As Label
-    Friend WithEvents Alerta As TabPage
-    Friend WithEvents Panel98 As Panel
-    Friend WithEvents Panel132 As Panel
-    Friend WithEvents Panel133 As Panel
-    Friend WithEvents TextBox123 As TextBox
-    Friend WithEvents Panel134 As Panel
-    Friend WithEvents Label356 As Label
-    Friend WithEvents Label357 As Label
-    Friend WithEvents Button65 As Button
-    Friend WithEvents Panel121 As Panel
-    Friend WithEvents Panel122 As Panel
-    Friend WithEvents TextBox120 As TextBox
-    Friend WithEvents Panel123 As Panel
-    Friend WithEvents Label350 As Label
-    Friend WithEvents Label351 As Label
-    Friend WithEvents Button62 As Button
-    Friend WithEvents Panel68 As Panel
-    Friend WithEvents Panel69 As Panel
-    Friend WithEvents TextBox188 As TextBox
-    Friend WithEvents Panel152 As Panel
-    Friend WithEvents Label252 As Label
-    Friend WithEvents Label253 As Label
-    Friend WithEvents Button59 As Button
-    Friend WithEvents Panel65 As Panel
-    Friend WithEvents Panel66 As Panel
-    Friend WithEvents TextBox122 As TextBox
-    Friend WithEvents Panel127 As Panel
-    Friend WithEvents Label250 As Label
-    Friend WithEvents Label251 As Label
-    Friend WithEvents Button64 As Button
-    Friend WithEvents Panel94 As Panel
-    Friend WithEvents Panel95 As Panel
-    Friend WithEvents TextBox114 As TextBox
-    Friend WithEvents Panel96 As Panel
-    Friend WithEvents Label338 As Label
-    Friend WithEvents Label339 As Label
-    Friend WithEvents Button56 As Button
-    Friend WithEvents Panel104 As Panel
-    Friend WithEvents Panel105 As Panel
-    Friend WithEvents TextBox116 As TextBox
-    Friend WithEvents Panel106 As Panel
-    Friend WithEvents Label342 As Label
-    Friend WithEvents Label343 As Label
-    Friend WithEvents Button58 As Button
-    Friend WithEvents Button53 As Button
-    Friend WithEvents Panel124 As Panel
-    Friend WithEvents Panel125 As Panel
-    Friend WithEvents TextBox121 As TextBox
-    Friend WithEvents Panel126 As Panel
-    Friend WithEvents Label352 As Label
-    Friend WithEvents Label353 As Label
-    Friend WithEvents Button63 As Button
-    Friend WithEvents Panel113 As Panel
-    Friend WithEvents Panel114 As Panel
-    Friend WithEvents TextBox118 As TextBox
-    Friend WithEvents Panel115 As Panel
-    Friend WithEvents Label346 As Label
-    Friend WithEvents Label347 As Label
-    Friend WithEvents Button60 As Button
-    Friend WithEvents Panel101 As Panel
-    Friend WithEvents Panel102 As Panel
-    Friend WithEvents TextBox115 As TextBox
-    Friend WithEvents Panel103 As Panel
-    Friend WithEvents Label340 As Label
-    Friend WithEvents Label341 As Label
-    Friend WithEvents Button57 As Button
-    Friend WithEvents Panel88 As Panel
-    Friend WithEvents Panel89 As Panel
-    Friend WithEvents TextBox112 As TextBox
-    Friend WithEvents Panel90 As Panel
-    Friend WithEvents Label334 As Label
-    Friend WithEvents Label335 As Label
-    Friend WithEvents Button54 As Button
-    Friend WithEvents Panel135 As Panel
-    Friend WithEvents Panel136 As Panel
-    Friend WithEvents TextBox124 As TextBox
-    Friend WithEvents Panel137 As Panel
-    Friend WithEvents Label358 As Label
-    Friend WithEvents Label359 As Label
-    Friend WithEvents Button66 As Button
-    Friend WithEvents Panel85 As Panel
-    Friend WithEvents Panel86 As Panel
-    Friend WithEvents TextBox107 As TextBox
-    Friend WithEvents Panel87 As Panel
-    Friend WithEvents Label332 As Label
-    Friend WithEvents Label333 As Label
-    Friend WithEvents Button51 As Button
-    Friend WithEvents Panel116 As Panel
-    Friend WithEvents Panel117 As Panel
-    Friend WithEvents TextBox119 As TextBox
-    Friend WithEvents Panel118 As Panel
-    Friend WithEvents Label348 As Label
-    Friend WithEvents Label349 As Label
-    Friend WithEvents Button61 As Button
-    Friend WithEvents Panel91 As Panel
-    Friend WithEvents Panel92 As Panel
-    Friend WithEvents TextBox113 As TextBox
-    Friend WithEvents Panel93 As Panel
-    Friend WithEvents Label336 As Label
-    Friend WithEvents Label337 As Label
-    Friend WithEvents Button55 As Button
-    Friend WithEvents Panel76 As Panel
-    Friend WithEvents Panel111 As Panel
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents Panel143 As Panel
-    Friend WithEvents Label329 As Label
-    Friend WithEvents Label330 As Label
-    Friend WithEvents Button52 As Button
-    Friend WithEvents Panel144 As Panel
-    Friend WithEvents Label376 As Label
-    Friend WithEvents Permiso As TabPage
-    Friend WithEvents Panel57 As Panel
-    Friend WithEvents Panel55 As Panel
-    Friend WithEvents CheckedListBox1 As CheckedListBox
-    Friend WithEvents DateTimePicker3 As DateTimePicker
-    Friend WithEvents DateTimePicker4 As DateTimePicker
-    Friend WithEvents DateTimePicker5 As DateTimePicker
-    Friend WithEvents DateTimePicker6 As DateTimePicker
-    Friend WithEvents Label360 As Label
-    Friend WithEvents Label367 As Label
-    Friend WithEvents CheckBox7 As CheckBox
-    Friend WithEvents CheckBox8 As CheckBox
-    Friend WithEvents CheckBox9 As CheckBox
-    Friend WithEvents CheckBox10 As CheckBox
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button28 As Button
-    Friend WithEvents Button29 As Button
-    Friend WithEvents Button32 As Button
-    Friend WithEvents Panel58 As Panel
-    Friend WithEvents Label389 As Label
-    Friend WithEvents ComboBox195 As ComboBox
-    Friend WithEvents ComboBox177 As ComboBox
-    Friend WithEvents ComboBox194 As ComboBox
-    Friend WithEvents ComboBox174 As ComboBox
-    Friend WithEvents ComboBox193 As ComboBox
-    Friend WithEvents ComboBox171 As ComboBox
-    Friend WithEvents ComboBox192 As ComboBox
-    Friend WithEvents ComboBox168 As ComboBox
-    Friend WithEvents ComboBox209 As ComboBox
-    Friend WithEvents ComboBox191 As ComboBox
-    Friend WithEvents ComboBox165 As ComboBox
-    Friend WithEvents ComboBox208 As ComboBox
-    Friend WithEvents ComboBox190 As ComboBox
-    Friend WithEvents ComboBox163 As ComboBox
-    Friend WithEvents CheckBox127 As CheckBox
-    Friend WithEvents CheckBox103 As CheckBox
-    Friend WithEvents CheckBox126 As CheckBox
-    Friend WithEvents CheckBox99 As CheckBox
-    Friend WithEvents CheckBox125 As CheckBox
-    Friend WithEvents CheckBox95 As CheckBox
-    Friend WithEvents CheckBox124 As CheckBox
-    Friend WithEvents CheckBox91 As CheckBox
-    Friend WithEvents CheckBox147 As CheckBox
-    Friend WithEvents CheckBox123 As CheckBox
-    Friend WithEvents CheckBox87 As CheckBox
-    Friend WithEvents CheckBox146 As CheckBox
-    Friend WithEvents CheckBox122 As CheckBox
-    Friend WithEvents CheckBox83 As CheckBox
-    Friend WithEvents CheckBox121 As CheckBox
-    Friend WithEvents CheckBox102 As CheckBox
-    Friend WithEvents CheckBox120 As CheckBox
-    Friend WithEvents CheckBox98 As CheckBox
-    Friend WithEvents CheckBox119 As CheckBox
-    Friend WithEvents CheckBox94 As CheckBox
-    Friend WithEvents CheckBox118 As CheckBox
-    Friend WithEvents CheckBox90 As CheckBox
-    Friend WithEvents CheckBox141 As CheckBox
-    Friend WithEvents CheckBox117 As CheckBox
-    Friend WithEvents CheckBox57 As CheckBox
-    Friend WithEvents CheckBox86 As CheckBox
-    Friend WithEvents CheckBox140 As CheckBox
-    Friend WithEvents CheckBox116 As CheckBox
-    Friend WithEvents CheckBox115 As CheckBox
-    Friend WithEvents CheckBox101 As CheckBox
-    Friend WithEvents CheckBox114 As CheckBox
-    Friend WithEvents CheckBox97 As CheckBox
-    Friend WithEvents CheckBox113 As CheckBox
-    Friend WithEvents CheckBox93 As CheckBox
-    Friend WithEvents CheckBox112 As CheckBox
-    Friend WithEvents CheckBox89 As CheckBox
-    Friend WithEvents CheckBox135 As CheckBox
-    Friend WithEvents CheckBox111 As CheckBox
-    Friend WithEvents CheckBox85 As CheckBox
-    Friend WithEvents CheckBox134 As CheckBox
-    Friend WithEvents CheckBox110 As CheckBox
-    Friend WithEvents CheckBox81 As CheckBox
-    Friend WithEvents CheckBox109 As CheckBox
-    Friend WithEvents CheckBox100 As CheckBox
-    Friend WithEvents CheckBox108 As CheckBox
-    Friend WithEvents CheckBox96 As CheckBox
-    Friend WithEvents CheckBox107 As CheckBox
-    Friend WithEvents CheckBox92 As CheckBox
-    Friend WithEvents CheckBox106 As CheckBox
-    Friend WithEvents CheckBox88 As CheckBox
-    Friend WithEvents CheckBox129 As CheckBox
-    Friend WithEvents CheckBox105 As CheckBox
-    Friend WithEvents CheckBox84 As CheckBox
-    Friend WithEvents CheckBox128 As CheckBox
-    Friend WithEvents CheckBox104 As CheckBox
-    Friend WithEvents CheckBox80 As CheckBox
-    Friend WithEvents Label384 As Label
-    Friend WithEvents Label385 As Label
-    Friend WithEvents Label383 As Label
-    Friend WithEvents ComboBox189 As ComboBox
-    Friend WithEvents ComboBox188 As ComboBox
-    Friend WithEvents ComboBox176 As ComboBox
-    Friend WithEvents ComboBox187 As ComboBox
-    Friend WithEvents ComboBox175 As ComboBox
-    Friend WithEvents ComboBox186 As ComboBox
-    Friend WithEvents ComboBox173 As ComboBox
-    Friend WithEvents ComboBox185 As ComboBox
-    Friend WithEvents ComboBox172 As ComboBox
-    Friend WithEvents ComboBox184 As ComboBox
-    Friend WithEvents ComboBox170 As ComboBox
-    Friend WithEvents ComboBox183 As ComboBox
-    Friend WithEvents ComboBox169 As ComboBox
-    Friend WithEvents ComboBox182 As ComboBox
-    Friend WithEvents ComboBox199 As ComboBox
-    Friend WithEvents ComboBox167 As ComboBox
-    Friend WithEvents ComboBox181 As ComboBox
-    Friend WithEvents ComboBox198 As ComboBox
-    Friend WithEvents ComboBox166 As ComboBox
-    Friend WithEvents ComboBox180 As ComboBox
-    Friend WithEvents ComboBox197 As ComboBox
-    Friend WithEvents ComboBox164 As ComboBox
-    Friend WithEvents ComboBox179 As ComboBox
-    Friend WithEvents ComboBox196 As ComboBox
-    Friend WithEvents ComboBox161 As ComboBox
-    Friend WithEvents ComboBox178 As ComboBox
-    Friend WithEvents ComboBox162 As ComboBox
-    Friend WithEvents ComboBox138 As ComboBox
-    Friend WithEvents Panel187 As Panel
-    Friend WithEvents Label411 As Label
-    Friend WithEvents Label105 As Label
+    Friend WithEvents PresupuestoNumer As DataGridViewTextBoxColumn
+    Friend WithEvents MPocNumero As DataGridViewTextBoxColumn
+    Friend WithEvents MPproformaNumero As DataGridViewTextBoxColumn
+    Friend WithEvents MPFacturaNumeroPresupuesto As DataGridViewTextBoxColumn
+    Friend WithEvents MPCodigoCortoPresupuesto As DataGridViewComboBoxColumn
+    Friend WithEvents NombreFabricaMP As DataGridViewComboBoxColumn
+    Friend WithEvents NombreMPFabrica As DataGridViewComboBoxColumn
+    Friend WithEvents MPGramos As DataGridViewComboBoxColumn
+    Friend WithEvents MPumespesor As DataGridViewComboBoxColumn
+    Friend WithEvents FSCPresupuestar As DataGridViewComboBoxColumn
+    Friend WithEvents Certificado As DataGridViewComboBoxColumn
+    Friend WithEvents DiametroBobinaPresupuestar As DataGridViewComboBoxColumn
+    Friend WithEvents ConoDiametroBobinaPresupuestar As DataGridViewComboBoxColumn
+    Friend WithEvents RigidesMPmd As DataGridViewComboBoxColumn
+    Friend WithEvents RigidesMPcd As DataGridViewComboBoxColumn
+    Friend WithEvents ToneladaMP As DataGridViewTextBoxColumn
+    Friend WithEvents ToneladaUSSunitario As DataGridViewTextBoxColumn
+    Friend WithEvents ToneladasTotaluss As DataGridViewTextBoxColumn
+    Friend WithEvents ClienteUtiliza As DataGridViewTextBoxColumn
+    Friend WithEvents TextBox265 As TextBox
+    Friend WithEvents TextBox264 As TextBox
+    Friend WithEvents TextBox263 As TextBox
+    Friend WithEvents Label100 As Label
+    Friend WithEvents Label261 As Label
+    Friend WithEvents Label102 As Label
+    Friend WithEvents Panel100 As Panel
+    Friend WithEvents Label108 As Label
+    Friend WithEvents TextBox181 As TextBox
+    Friend WithEvents TextBox211 As TextBox
+    Friend WithEvents TextBox215 As TextBox
+    Friend WithEvents ComboBox41 As ComboBox
+    Friend WithEvents Label91 As Label
+    Friend WithEvents TextBox205 As TextBox
+    Friend WithEvents Label257 As Label
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents CheckBox137 As CheckBox
+    Friend WithEvents CheckBox151 As CheckBox
+    Friend WithEvents ComboBox16 As ComboBox
+    Friend WithEvents ComboBox15 As ComboBox
+    Friend WithEvents ComboBox14 As ComboBox
+    Friend WithEvents Label221 As Label
+    Friend WithEvents Label218 As Label
+    Friend WithEvents ComboBox13 As ComboBox
+    Friend WithEvents Label167 As Label
+    Friend WithEvents Label19 As Label
 End Class

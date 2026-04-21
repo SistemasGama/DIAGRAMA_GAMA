@@ -59,7 +59,6 @@ C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\Inter
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.vbproj.ResolveComReference.cache
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.Herramientas.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT_IMPRESION.resources
-C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.INSUMO.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.MP.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.IMPRIMIR_CC.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.FICHA_TECNICA.resources
@@ -93,3 +92,4 @@ C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGR
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT_TROQUELADO.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT_PLANIFICACION.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT_TROQUEL.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.INSUMOS.resources
