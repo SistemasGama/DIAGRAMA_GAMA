@@ -28,39 +28,6 @@ Partial Class OT_PLANIFICACION
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle36 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle37 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle31 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle32 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle33 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle34 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle35 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle38 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle39 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle63 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -163,6 +130,39 @@ Partial Class OT_PLANIFICACION
         Dim DataGridViewCellStyle135 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle136 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle137 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle31 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle32 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle33 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle34 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle35 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.PLANIFICAR = New System.Windows.Forms.TabPage()
         Me.Panel259 = New System.Windows.Forms.Panel()
@@ -298,39 +298,6 @@ Partial Class OT_PLANIFICACION
         Me.Label696 = New System.Windows.Forms.Label()
         Me.Label596 = New System.Windows.Forms.Label()
         Me.DataGridView3 = New System.Windows.Forms.DataGridView()
-        Me.DataGridViewTextBoxColumn42 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Estacion = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DataGridViewTextBoxColumn16 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DataGridViewCheckBoxColumn25 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.DataGridViewTextBoxColumn15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewComboBoxColumn3 = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.TurnoRecomendadoSubir = New System.Windows.Forms.DataGridViewComboBoxColumn()
-        Me.DataGridViewTextBoxColumn18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TotalHorasOcupadas = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TintaNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewCheckBoxColumn27 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.ColorNegro = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.ColorCyan = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.ColorMagenta = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.ColorAmarillo = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.Am = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.DataGridViewCheckBoxColumn29 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.DataGridViewCheckBoxColumn30 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.DataGridViewCheckBoxColumn31 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.DataGridViewTextBoxColumn37 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn38 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn39 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewCheckBoxColumn32 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.DataGridViewTextBoxColumn40 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn41 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewCheckBoxColumn33 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.DataGridViewCheckBoxColumn34 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.DataGridViewCheckBoxColumn35 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.DataGridViewCheckBoxColumn36 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.MedidaA = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.MedidaB = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel265 = New System.Windows.Forms.Panel()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
@@ -1864,6 +1831,39 @@ Partial Class OT_PLANIFICACION
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Button202 = New System.Windows.Forms.Button()
         Me.Label740 = New System.Windows.Forms.Label()
+        Me.DataGridViewTextBoxColumn42 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Estacion = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewTextBoxColumn16 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewCheckBoxColumn25 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.DataGridViewTextBoxColumn15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewComboBoxColumn3 = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.TurnoRecomendadoSubir = New System.Windows.Forms.DataGridViewComboBoxColumn()
+        Me.DataGridViewTextBoxColumn18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TotalHorasOcupadas = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TintaNumero = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewCheckBoxColumn27 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.ColorNegro = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.ColorCyan = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.ColorMagenta = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.ColorAmarillo = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.Am = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.DataGridViewCheckBoxColumn29 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.DataGridViewCheckBoxColumn30 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.DataGridViewCheckBoxColumn31 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.DataGridViewTextBoxColumn37 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn38 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn39 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewCheckBoxColumn32 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.DataGridViewTextBoxColumn40 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn41 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewCheckBoxColumn33 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.DataGridViewCheckBoxColumn34 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.DataGridViewCheckBoxColumn35 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.DataGridViewCheckBoxColumn36 = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.MedidaA = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.MedidaB = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PLANIFICAR.SuspendLayout
         Me.Panel259.SuspendLayout
         Me.Panel31.SuspendLayout
@@ -3936,7 +3936,7 @@ Partial Class OT_PLANIFICACION
         Me.DataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -3944,7 +3944,7 @@ Partial Class OT_PLANIFICACION
         Me.DataGridView3.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn42, Me.Estacion, Me.DataGridViewTextBoxColumn16, Me.DataGridViewCheckBoxColumn25, Me.DataGridViewTextBoxColumn15, Me.DataGridViewTextBoxColumn17, Me.DataGridViewComboBoxColumn3, Me.TurnoRecomendadoSubir, Me.DataGridViewTextBoxColumn18, Me.TotalHorasOcupadas, Me.DataGridViewTextBoxColumn19, Me.TintaNumero, Me.DataGridViewCheckBoxColumn27, Me.ColorNegro, Me.ColorCyan, Me.ColorMagenta, Me.ColorAmarillo, Me.Am, Me.DataGridViewCheckBoxColumn29, Me.DataGridViewCheckBoxColumn30, Me.DataGridViewCheckBoxColumn31, Me.DataGridViewTextBoxColumn37, Me.DataGridViewTextBoxColumn38, Me.DataGridViewTextBoxColumn39, Me.DataGridViewCheckBoxColumn32, Me.DataGridViewTextBoxColumn40, Me.DataGridViewTextBoxColumn41, Me.DataGridViewCheckBoxColumn33, Me.DataGridViewCheckBoxColumn34, Me.DataGridViewCheckBoxColumn35, Me.DataGridViewCheckBoxColumn36, Me.MedidaA, Me.MedidaB})
-        Me.DataGridView3.Location = New System.Drawing.Point(-52, 417)
+        Me.DataGridView3.Location = New System.Drawing.Point(8, 417)
         Me.DataGridView3.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView3.Name = "DataGridView3"
         DataGridViewCellStyle36.BackColor = System.Drawing.Color.White
@@ -3961,569 +3961,6 @@ Partial Class OT_PLANIFICACION
         Me.DataGridView3.Size = New System.Drawing.Size(1828, 188)
         Me.DataGridView3.TabIndex = 516
         Me.ToolTip1.SetToolTip(Me.DataGridView3, "Cuadro de planificación filtra automaticamente de acuerdo a la MAQUINA CARGADA")
-        '
-        'DataGridViewTextBoxColumn42
-        '
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.Format = "N0"
-        DataGridViewCellStyle3.NullValue = Nothing
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.DataGridViewTextBoxColumn42.DefaultCellStyle = DataGridViewCellStyle3
-        Me.DataGridViewTextBoxColumn42.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn42.HeaderText = "Planif  N°"
-        Me.DataGridViewTextBoxColumn42.MaxInputLength = 10
-        Me.DataGridViewTextBoxColumn42.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn42.Name = "DataGridViewTextBoxColumn42"
-        Me.DataGridViewTextBoxColumn42.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn42.ToolTipText = "PLANIFICACION N° que fue asignado automaticamente."
-        Me.DataGridViewTextBoxColumn42.Width = 150
-        '
-        'Estacion
-        '
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle4.Format = "N0"
-        DataGridViewCellStyle4.NullValue = Nothing
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Blue
-        Me.Estacion.DefaultCellStyle = DataGridViewCellStyle4
-        Me.Estacion.DividerWidth = 5
-        Me.Estacion.HeaderText = "Estación"
-        Me.Estacion.Items.AddRange(New Object() {"Comercial", "PrePrensa", "CC (Legajo Impr y Troq)", "Troquel", "Planificación", "Deposito", "Impresion", "Plastificaficado", "UV", "Stampado", "Troquelado ", "Descartonado", "Selección", "Pegadp 2D", "Pegadp 3D", "Pegado(PM)", "Liberado", "Expedicion", "Mantenimiento"})
-        Me.Estacion.MinimumWidth = 8
-        Me.Estacion.Name = "Estacion"
-        Me.Estacion.ToolTipText = "Elige la ESTACION a PLANIFICAR."
-        Me.Estacion.Width = 150
-        '
-        'DataGridViewTextBoxColumn16
-        '
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle5.Format = "N0"
-        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black
-        Me.DataGridViewTextBoxColumn16.DefaultCellStyle = DataGridViewCellStyle5
-        Me.DataGridViewTextBoxColumn16.DividerWidth = 10
-        Me.DataGridViewTextBoxColumn16.HeaderText = "OT N°"
-        Me.DataGridViewTextBoxColumn16.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn16.Name = "DataGridViewTextBoxColumn16"
-        Me.DataGridViewTextBoxColumn16.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn16.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewTextBoxColumn16.ToolTipText = "Numero de OT a planificar"
-        Me.DataGridViewTextBoxColumn16.Width = 150
-        '
-        'DataGridViewCheckBoxColumn25
-        '
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle6.NullValue = False
-        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewCheckBoxColumn25.DefaultCellStyle = DataGridViewCellStyle6
-        Me.DataGridViewCheckBoxColumn25.DividerWidth = 5
-        Me.DataGridViewCheckBoxColumn25.HeaderText = "Fin"
-        Me.DataGridViewCheckBoxColumn25.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn25.Name = "DataGridViewCheckBoxColumn25"
-        Me.DataGridViewCheckBoxColumn25.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridViewCheckBoxColumn25.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewCheckBoxColumn25.ToolTipText = "Si esta habilitada para PLANIFICAR se encuentra automaticamente TILDADA. "
-        Me.DataGridViewCheckBoxColumn25.Width = 60
-        '
-        'DataGridViewTextBoxColumn15
-        '
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.Format = "N0"
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn15.DefaultCellStyle = DataGridViewCellStyle7
-        Me.DataGridViewTextBoxColumn15.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn15.HeaderText = "Orden N° "
-        Me.DataGridViewTextBoxColumn15.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn15.Name = "DataGridViewTextBoxColumn15"
-        Me.DataGridViewTextBoxColumn15.ReadOnly = True
-        Me.DataGridViewTextBoxColumn15.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn15.ToolTipText = "Orden N° dado para subir en la maquina."
-        Me.DataGridViewTextBoxColumn15.Width = 60
-        '
-        'DataGridViewTextBoxColumn17
-        '
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle8.Format = "g"
-        DataGridViewCellStyle8.NullValue = Nothing
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewTextBoxColumn17.DefaultCellStyle = DataGridViewCellStyle8
-        Me.DataGridViewTextBoxColumn17.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn17.HeaderText = "Sube Fecha"
-        Me.DataGridViewTextBoxColumn17.MaxInputLength = 10
-        Me.DataGridViewTextBoxColumn17.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn17.Name = "DataGridViewTextBoxColumn17"
-        Me.DataGridViewTextBoxColumn17.ReadOnly = True
-        Me.DataGridViewTextBoxColumn17.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn17.ToolTipText = "Planificacón asigno este FECHA"
-        Me.DataGridViewTextBoxColumn17.Width = 150
-        '
-        'DataGridViewComboBoxColumn3
-        '
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.NullValue = Nothing
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Blue
-        Me.DataGridViewComboBoxColumn3.DefaultCellStyle = DataGridViewCellStyle9
-        Me.DataGridViewComboBoxColumn3.DividerWidth = 5
-        Me.DataGridViewComboBoxColumn3.HeaderText = "Maquina"
-        Me.DataGridViewComboBoxColumn3.Items.AddRange(New Object() {"RESMADORA", "POLAR", "GUI CHINA", "", "DIGITAL", "CTP", "ROUTER", "PROTOTIPO", "", "MO66", "SORD", "XL75", "CD102", "UV78", "", "PLATIFICADORA", "YAWA", "SKM", "ESTAMPADOR", "", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "", "H1", "H2", "PL1", "PL2", "MANUAL"})
-        Me.DataGridViewComboBoxColumn3.MinimumWidth = 8
-        Me.DataGridViewComboBoxColumn3.Name = "DataGridViewComboBoxColumn3"
-        Me.DataGridViewComboBoxColumn3.ReadOnly = True
-        Me.DataGridViewComboBoxColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewComboBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewComboBoxColumn3.ToolTipText = "Maquina que fue programada  la carga de trabajo."
-        Me.DataGridViewComboBoxColumn3.Width = 150
-        '
-        'TurnoRecomendadoSubir
-        '
-        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Blue
-        Me.TurnoRecomendadoSubir.DefaultCellStyle = DataGridViewCellStyle10
-        Me.TurnoRecomendadoSubir.DividerWidth = 5
-        Me.TurnoRecomendadoSubir.HeaderText = "Turno Subir"
-        Me.TurnoRecomendadoSubir.Items.AddRange(New Object() {"Día", "Noche", "Fin semana"})
-        Me.TurnoRecomendadoSubir.MinimumWidth = 8
-        Me.TurnoRecomendadoSubir.Name = "TurnoRecomendadoSubir"
-        Me.TurnoRecomendadoSubir.ToolTipText = "Planificador recomendo subir Día(07:00 a 19:00) o Noche(19:00 a 07:00), "
-        Me.TurnoRecomendadoSubir.Width = 150
-        '
-        'DataGridViewTextBoxColumn18
-        '
-        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle11.Format = "N0"
-        DataGridViewCellStyle11.NullValue = Nothing
-        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewTextBoxColumn18.DefaultCellStyle = DataGridViewCellStyle11
-        Me.DataGridViewTextBoxColumn18.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn18.HeaderText = "Tirada"
-        Me.DataGridViewTextBoxColumn18.MaxInputLength = 6
-        Me.DataGridViewTextBoxColumn18.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn18.Name = "DataGridViewTextBoxColumn18"
-        Me.DataGridViewTextBoxColumn18.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn18.ToolTipText = "Cantidad de Hojas de esta OT."
-        Me.DataGridViewTextBoxColumn18.Width = 80
-        '
-        'TotalHorasOcupadas
-        '
-        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle12.Format = "N0"
-        DataGridViewCellStyle12.NullValue = Nothing
-        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TotalHorasOcupadas.DefaultCellStyle = DataGridViewCellStyle12
-        Me.TotalHorasOcupadas.DividerWidth = 10
-        Me.TotalHorasOcupadas.HeaderText = "Total Hs. Ocupadas"
-        Me.TotalHorasOcupadas.MinimumWidth = 8
-        Me.TotalHorasOcupadas.Name = "TotalHorasOcupadas"
-        Me.TotalHorasOcupadas.ToolTipText = "Es el calculo segun lo que PRODUCE esta maquina mas el tiempo de ajuste colocado " &
-    "da el calculo las Horas ocupadas."
-        Me.TotalHorasOcupadas.Width = 80
-        '
-        'DataGridViewTextBoxColumn19
-        '
-        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle13.Format = "N0"
-        DataGridViewCellStyle13.NullValue = Nothing
-        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewTextBoxColumn19.DefaultCellStyle = DataGridViewCellStyle13
-        Me.DataGridViewTextBoxColumn19.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn19.HeaderText = "Kls."
-        Me.DataGridViewTextBoxColumn19.MaxInputLength = 5
-        Me.DataGridViewTextBoxColumn19.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn19.Name = "DataGridViewTextBoxColumn19"
-        Me.DataGridViewTextBoxColumn19.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn19.ToolTipText = "Cantidad de kilos de esta OT."
-        Me.DataGridViewTextBoxColumn19.Width = 80
-        '
-        'TintaNumero
-        '
-        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle14.Format = "N0"
-        DataGridViewCellStyle14.NullValue = Nothing
-        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Blue
-        Me.TintaNumero.DefaultCellStyle = DataGridViewCellStyle14
-        Me.TintaNumero.DividerWidth = 5
-        Me.TintaNumero.HeaderText = "Tinta N° "
-        Me.TintaNumero.MinimumWidth = 8
-        Me.TintaNumero.Name = "TintaNumero"
-        Me.TintaNumero.ToolTipText = "Es la columna N° de tinta. Al ordenar x OT tenes todos los N° de tintas que utili" &
-    "za."
-        '
-        'DataGridViewCheckBoxColumn27
-        '
-        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle15.NullValue = False
-        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewCheckBoxColumn27.DefaultCellStyle = DataGridViewCellStyle15
-        Me.DataGridViewCheckBoxColumn27.DividerWidth = 5
-        Me.DataGridViewCheckBoxColumn27.HeaderText = "CMYK"
-        Me.DataGridViewCheckBoxColumn27.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn27.Name = "DataGridViewCheckBoxColumn27"
-        Me.DataGridViewCheckBoxColumn27.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewCheckBoxColumn27.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewCheckBoxColumn27.ToolTipText = "Esta OT tiene CMYK, o algunos de estos colores."
-        Me.DataGridViewCheckBoxColumn27.Width = 75
-        '
-        'ColorNegro
-        '
-        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle16.NullValue = False
-        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.ColorNegro.DefaultCellStyle = DataGridViewCellStyle16
-        Me.ColorNegro.DividerWidth = 5
-        Me.ColorNegro.HeaderText = "Neg"
-        Me.ColorNegro.MinimumWidth = 8
-        Me.ColorNegro.Name = "ColorNegro"
-        Me.ColorNegro.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.ColorNegro.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.ColorNegro.ToolTipText = "Si tiene negro aparece la letra N, o queda vacia."
-        Me.ColorNegro.Width = 55
-        '
-        'ColorCyan
-        '
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle17.NullValue = False
-        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.ColorCyan.DefaultCellStyle = DataGridViewCellStyle17
-        Me.ColorCyan.DividerWidth = 5
-        Me.ColorCyan.HeaderText = "Cya"
-        Me.ColorCyan.MinimumWidth = 8
-        Me.ColorCyan.Name = "ColorCyan"
-        Me.ColorCyan.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.ColorCyan.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.ColorCyan.ToolTipText = "Si tiene CYAN sale marcada la casilla."
-        Me.ColorCyan.Width = 55
-        '
-        'ColorMagenta
-        '
-        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(177, Byte))
-        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle18.NullValue = False
-        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.ColorMagenta.DefaultCellStyle = DataGridViewCellStyle18
-        Me.ColorMagenta.DividerWidth = 5
-        Me.ColorMagenta.HeaderText = "Mag"
-        Me.ColorMagenta.MinimumWidth = 8
-        Me.ColorMagenta.Name = "ColorMagenta"
-        Me.ColorMagenta.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.ColorMagenta.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.ColorMagenta.ToolTipText = "Si tiene MAGENTA sale marcada la casilla."
-        Me.ColorMagenta.Width = 55
-        '
-        'ColorAmarillo
-        '
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle19.NullValue = False
-        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.ColorAmarillo.DefaultCellStyle = DataGridViewCellStyle19
-        Me.ColorAmarillo.DividerWidth = 5
-        Me.ColorAmarillo.HeaderText = "Ama"
-        Me.ColorAmarillo.MinimumWidth = 8
-        Me.ColorAmarillo.Name = "ColorAmarillo"
-        Me.ColorAmarillo.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.ColorAmarillo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.ColorAmarillo.ToolTipText = "Si tiene AMARILLO sale marcada la casilla."
-        Me.ColorAmarillo.Width = 55
-        '
-        'Am
-        '
-        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle20.NullValue = False
-        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.Am.DefaultCellStyle = DataGridViewCellStyle20
-        Me.Am.DividerWidth = 5
-        Me.Am.HeaderText = "CoA"
-        Me.Am.MinimumWidth = 8
-        Me.Am.Name = "Am"
-        Me.Am.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Am.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.Am.ToolTipText = "Si tiene AZUL sale marcada la casilla."
-        Me.Am.Width = 55
-        '
-        'DataGridViewCheckBoxColumn29
-        '
-        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle21.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle21.NullValue = False
-        DataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewCheckBoxColumn29.DefaultCellStyle = DataGridViewCellStyle21
-        Me.DataGridViewCheckBoxColumn29.DividerWidth = 5
-        Me.DataGridViewCheckBoxColumn29.HeaderText = "CoR"
-        Me.DataGridViewCheckBoxColumn29.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn29.Name = "DataGridViewCheckBoxColumn29"
-        Me.DataGridViewCheckBoxColumn29.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewCheckBoxColumn29.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewCheckBoxColumn29.ToolTipText = "Si tiene Rojo sale marcada la casilla."
-        Me.DataGridViewCheckBoxColumn29.Width = 55
-        '
-        'DataGridViewCheckBoxColumn30
-        '
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle22.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle22.NullValue = False
-        DataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewCheckBoxColumn30.DefaultCellStyle = DataGridViewCellStyle22
-        Me.DataGridViewCheckBoxColumn30.DividerWidth = 5
-        Me.DataGridViewCheckBoxColumn30.HeaderText = "CoV"
-        Me.DataGridViewCheckBoxColumn30.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn30.Name = "DataGridViewCheckBoxColumn30"
-        Me.DataGridViewCheckBoxColumn30.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewCheckBoxColumn30.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewCheckBoxColumn30.ToolTipText = "Si tiene VERDE sale marcada la casilla."
-        Me.DataGridViewCheckBoxColumn30.Width = 55
-        '
-        'DataGridViewCheckBoxColumn31
-        '
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle23.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle23.NullValue = False
-        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewCheckBoxColumn31.DefaultCellStyle = DataGridViewCellStyle23
-        Me.DataGridViewCheckBoxColumn31.DividerWidth = 10
-        Me.DataGridViewCheckBoxColumn31.HeaderText = "CoC"
-        Me.DataGridViewCheckBoxColumn31.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn31.Name = "DataGridViewCheckBoxColumn31"
-        Me.DataGridViewCheckBoxColumn31.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewCheckBoxColumn31.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewCheckBoxColumn31.ToolTipText = "Si tiene CLARO sale marcada la casilla."
-        Me.DataGridViewCheckBoxColumn31.Width = 55
-        '
-        'DataGridViewTextBoxColumn37
-        '
-        DataGridViewCellStyle24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewTextBoxColumn37.DefaultCellStyle = DataGridViewCellStyle24
-        Me.DataGridViewTextBoxColumn37.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn37.HeaderText = "Troq. N° Cliente"
-        Me.DataGridViewTextBoxColumn37.MaxInputLength = 5
-        Me.DataGridViewTextBoxColumn37.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn37.Name = "DataGridViewTextBoxColumn37"
-        Me.DataGridViewTextBoxColumn37.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn37.ToolTipText = "El codigo de troquel del cliente"
-        Me.DataGridViewTextBoxColumn37.Width = 140
-        '
-        'DataGridViewTextBoxColumn38
-        '
-        DataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle25.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle25.Format = "N0"
-        DataGridViewCellStyle25.NullValue = Nothing
-        DataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewTextBoxColumn38.DefaultCellStyle = DataGridViewCellStyle25
-        Me.DataGridViewTextBoxColumn38.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn38.HeaderText = "Troquel N° Gama"
-        Me.DataGridViewTextBoxColumn38.MaxInputLength = 5
-        Me.DataGridViewTextBoxColumn38.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn38.Name = "DataGridViewTextBoxColumn38"
-        Me.DataGridViewTextBoxColumn38.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn38.ToolTipText = "N° del Troquel de Gama."
-        Me.DataGridViewTextBoxColumn38.Width = 140
-        '
-        'DataGridViewTextBoxColumn39
-        '
-        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle26.Format = "N0"
-        DataGridViewCellStyle26.NullValue = Nothing
-        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewTextBoxColumn39.DefaultCellStyle = DataGridViewCellStyle26
-        Me.DataGridViewTextBoxColumn39.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn39.HeaderText = "Boca"
-        Me.DataGridViewTextBoxColumn39.MaxInputLength = 2
-        Me.DataGridViewTextBoxColumn39.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn39.Name = "DataGridViewTextBoxColumn39"
-        Me.DataGridViewTextBoxColumn39.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn39.ToolTipText = "Cantidad de bocas del Troquel."
-        Me.DataGridViewTextBoxColumn39.Width = 40
-        '
-        'DataGridViewCheckBoxColumn32
-        '
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle27.NullValue = False
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewCheckBoxColumn32.DefaultCellStyle = DataGridViewCellStyle27
-        Me.DataGridViewCheckBoxColumn32.DividerWidth = 5
-        Me.DataGridViewCheckBoxColumn32.HeaderText = "Pertinax"
-        Me.DataGridViewCheckBoxColumn32.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn32.Name = "DataGridViewCheckBoxColumn32"
-        Me.DataGridViewCheckBoxColumn32.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewCheckBoxColumn32.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewCheckBoxColumn32.ToolTipText = "Con Pertinax"
-        Me.DataGridViewCheckBoxColumn32.Width = 45
-        '
-        'DataGridViewTextBoxColumn40
-        '
-        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewTextBoxColumn40.DefaultCellStyle = DataGridViewCellStyle28
-        Me.DataGridViewTextBoxColumn40.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn40.HeaderText = "Nombre Cliente"
-        Me.DataGridViewTextBoxColumn40.MaxInputLength = 200
-        Me.DataGridViewTextBoxColumn40.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn40.Name = "DataGridViewTextBoxColumn40"
-        Me.DataGridViewTextBoxColumn40.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn40.ToolTipText = "Nombre del Cliente."
-        Me.DataGridViewTextBoxColumn40.Width = 200
-        '
-        'DataGridViewTextBoxColumn41
-        '
-        DataGridViewCellStyle29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewTextBoxColumn41.DefaultCellStyle = DataGridViewCellStyle29
-        Me.DataGridViewTextBoxColumn41.DividerWidth = 5
-        Me.DataGridViewTextBoxColumn41.HeaderText = "Nombre Trabajo"
-        Me.DataGridViewTextBoxColumn41.MaxInputLength = 300
-        Me.DataGridViewTextBoxColumn41.MinimumWidth = 8
-        Me.DataGridViewTextBoxColumn41.Name = "DataGridViewTextBoxColumn41"
-        Me.DataGridViewTextBoxColumn41.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewTextBoxColumn41.ToolTipText = "Nombre del Trabajo."
-        Me.DataGridViewTextBoxColumn41.Width = 300
-        '
-        'DataGridViewCheckBoxColumn33
-        '
-        DataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle30.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle30.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle30.NullValue = False
-        DataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewCheckBoxColumn33.DefaultCellStyle = DataGridViewCellStyle30
-        Me.DataGridViewCheckBoxColumn33.DividerWidth = 5
-        Me.DataGridViewCheckBoxColumn33.HeaderText = "UV"
-        Me.DataGridViewCheckBoxColumn33.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn33.Name = "DataGridViewCheckBoxColumn33"
-        Me.DataGridViewCheckBoxColumn33.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewCheckBoxColumn33.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewCheckBoxColumn33.ToolTipText = "Esta OT tiene Barniz UV."
-        Me.DataGridViewCheckBoxColumn33.Width = 60
-        '
-        'DataGridViewCheckBoxColumn34
-        '
-        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle31.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle31.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle31.NullValue = False
-        DataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewCheckBoxColumn34.DefaultCellStyle = DataGridViewCellStyle31
-        Me.DataGridViewCheckBoxColumn34.DividerWidth = 5
-        Me.DataGridViewCheckBoxColumn34.HeaderText = "Laminado"
-        Me.DataGridViewCheckBoxColumn34.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn34.Name = "DataGridViewCheckBoxColumn34"
-        Me.DataGridViewCheckBoxColumn34.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewCheckBoxColumn34.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewCheckBoxColumn34.ToolTipText = "Esta OT tiene Barniz Plastificado."
-        Me.DataGridViewCheckBoxColumn34.Width = 60
-        '
-        'DataGridViewCheckBoxColumn35
-        '
-        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle32.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle32.NullValue = False
-        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewCheckBoxColumn35.DefaultCellStyle = DataGridViewCellStyle32
-        Me.DataGridViewCheckBoxColumn35.DividerWidth = 5
-        Me.DataGridViewCheckBoxColumn35.HeaderText = "Sta"
-        Me.DataGridViewCheckBoxColumn35.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn35.Name = "DataGridViewCheckBoxColumn35"
-        Me.DataGridViewCheckBoxColumn35.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewCheckBoxColumn35.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewCheckBoxColumn35.ToolTipText = "Esta OT tiene Barniz Stamping."
-        Me.DataGridViewCheckBoxColumn35.Width = 60
-        '
-        'DataGridViewCheckBoxColumn36
-        '
-        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle33.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle33.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle33.NullValue = False
-        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.DataGridViewCheckBoxColumn36.DefaultCellStyle = DataGridViewCellStyle33
-        Me.DataGridViewCheckBoxColumn36.DividerWidth = 5
-        Me.DataGridViewCheckBoxColumn36.HeaderText = "Rel."
-        Me.DataGridViewCheckBoxColumn36.MinimumWidth = 8
-        Me.DataGridViewCheckBoxColumn36.Name = "DataGridViewCheckBoxColumn36"
-        Me.DataGridViewCheckBoxColumn36.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewCheckBoxColumn36.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        Me.DataGridViewCheckBoxColumn36.ToolTipText = "Esta OT tiene Barniz Relieve."
-        Me.DataGridViewCheckBoxColumn36.Width = 60
-        '
-        'MedidaA
-        '
-        DataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle34.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle34.Format = "N1"
-        DataGridViewCellStyle34.NullValue = Nothing
-        DataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.MedidaA.DefaultCellStyle = DataGridViewCellStyle34
-        Me.MedidaA.DividerWidth = 5
-        Me.MedidaA.HeaderText = "Troquel MeA"
-        Me.MedidaA.MaxInputLength = 5
-        Me.MedidaA.MinimumWidth = 8
-        Me.MedidaA.Name = "MedidaA"
-        Me.MedidaA.ToolTipText = "Medida TROQUEL A es la que no tiene la Fibra"
-        Me.MedidaA.Width = 80
-        '
-        'MedidaB
-        '
-        DataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
-        DataGridViewCellStyle35.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle35.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle35.Format = "N1"
-        DataGridViewCellStyle35.NullValue = Nothing
-        DataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.Magenta
-        Me.MedidaB.DefaultCellStyle = DataGridViewCellStyle35
-        Me.MedidaB.DividerWidth = 5
-        Me.MedidaB.HeaderText = "Troquel  MeB"
-        Me.MedidaB.MaxInputLength = 5
-        Me.MedidaB.MinimumWidth = 8
-        Me.MedidaB.Name = "MedidaB"
-        Me.MedidaB.ToolTipText = "Medida TROQUEL B es la que tiene la Fibra"
-        Me.MedidaB.Width = 80
         '
         'Panel265
         '
@@ -26393,6 +25830,567 @@ Partial Class OT_PLANIFICACION
         Me.Label740.TabIndex = 6
         Me.Label740.Text = "OT PENDIENTE 1/31"
         '
+        'DataGridViewTextBoxColumn42
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.Format = "N0"
+        DataGridViewCellStyle3.NullValue = Nothing
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DataGridViewTextBoxColumn42.DefaultCellStyle = DataGridViewCellStyle3
+        Me.DataGridViewTextBoxColumn42.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn42.HeaderText = "Planif  N°"
+        Me.DataGridViewTextBoxColumn42.MaxInputLength = 10
+        Me.DataGridViewTextBoxColumn42.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn42.Name = "DataGridViewTextBoxColumn42"
+        Me.DataGridViewTextBoxColumn42.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn42.ToolTipText = "PLANIFICACION N° que fue asignado automaticamente."
+        '
+        'Estacion
+        '
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.Format = "N0"
+        DataGridViewCellStyle4.NullValue = Nothing
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Blue
+        Me.Estacion.DefaultCellStyle = DataGridViewCellStyle4
+        Me.Estacion.DividerWidth = 5
+        Me.Estacion.HeaderText = "Estación"
+        Me.Estacion.Items.AddRange(New Object() {"Comercial", "PrePrensa", "CC (Legajo Impr y Troq)", "Troquel", "Planificación", "Deposito", "Impresion", "Plastificaficado", "UV", "Stampado", "Troquelado ", "Descartonado", "Selección", "Pegadp 2D", "Pegadp 3D", "Pegado(PM)", "Liberado", "Expedicion", "Mantenimiento"})
+        Me.Estacion.MinimumWidth = 8
+        Me.Estacion.Name = "Estacion"
+        Me.Estacion.ToolTipText = "Elige la ESTACION a PLANIFICAR."
+        Me.Estacion.Width = 150
+        '
+        'DataGridViewTextBoxColumn16
+        '
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle5.Format = "N0"
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black
+        Me.DataGridViewTextBoxColumn16.DefaultCellStyle = DataGridViewCellStyle5
+        Me.DataGridViewTextBoxColumn16.DividerWidth = 10
+        Me.DataGridViewTextBoxColumn16.HeaderText = "OT N°"
+        Me.DataGridViewTextBoxColumn16.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn16.Name = "DataGridViewTextBoxColumn16"
+        Me.DataGridViewTextBoxColumn16.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn16.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewTextBoxColumn16.ToolTipText = "Numero de OT a planificar"
+        '
+        'DataGridViewCheckBoxColumn25
+        '
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle6.NullValue = False
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewCheckBoxColumn25.DefaultCellStyle = DataGridViewCellStyle6
+        Me.DataGridViewCheckBoxColumn25.DividerWidth = 5
+        Me.DataGridViewCheckBoxColumn25.HeaderText = "Fin"
+        Me.DataGridViewCheckBoxColumn25.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn25.Name = "DataGridViewCheckBoxColumn25"
+        Me.DataGridViewCheckBoxColumn25.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridViewCheckBoxColumn25.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn25.ToolTipText = "Si esta habilitada para PLANIFICAR se encuentra automaticamente TILDADA. "
+        Me.DataGridViewCheckBoxColumn25.Width = 60
+        '
+        'DataGridViewTextBoxColumn15
+        '
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle7.Format = "N0"
+        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn15.DefaultCellStyle = DataGridViewCellStyle7
+        Me.DataGridViewTextBoxColumn15.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn15.HeaderText = "Orden N° "
+        Me.DataGridViewTextBoxColumn15.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn15.Name = "DataGridViewTextBoxColumn15"
+        Me.DataGridViewTextBoxColumn15.ReadOnly = True
+        Me.DataGridViewTextBoxColumn15.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn15.ToolTipText = "Orden N° dado para subir en la maquina."
+        Me.DataGridViewTextBoxColumn15.Width = 60
+        '
+        'DataGridViewTextBoxColumn17
+        '
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle8.Format = "g"
+        DataGridViewCellStyle8.NullValue = Nothing
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewTextBoxColumn17.DefaultCellStyle = DataGridViewCellStyle8
+        Me.DataGridViewTextBoxColumn17.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn17.HeaderText = "Sube Fecha"
+        Me.DataGridViewTextBoxColumn17.MaxInputLength = 10
+        Me.DataGridViewTextBoxColumn17.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn17.Name = "DataGridViewTextBoxColumn17"
+        Me.DataGridViewTextBoxColumn17.ReadOnly = True
+        Me.DataGridViewTextBoxColumn17.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn17.ToolTipText = "Planificacón asigno este FECHA"
+        Me.DataGridViewTextBoxColumn17.Width = 150
+        '
+        'DataGridViewComboBoxColumn3
+        '
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle9.NullValue = Nothing
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.Blue
+        Me.DataGridViewComboBoxColumn3.DefaultCellStyle = DataGridViewCellStyle9
+        Me.DataGridViewComboBoxColumn3.DividerWidth = 5
+        Me.DataGridViewComboBoxColumn3.HeaderText = "Maquina"
+        Me.DataGridViewComboBoxColumn3.Items.AddRange(New Object() {"RESMADORA", "POLAR", "GUI CHINA", "", "DIGITAL", "CTP", "ROUTER", "PROTOTIPO", "", "MO66", "SORD", "XL75", "CD102", "UV78", "", "PLATIFICADORA", "YAWA", "SKM", "ESTAMPADOR", "", "DOBLADORA", "DESCARTONADORA", "SELECTORA", "", "H1", "H2", "PL1", "PL2", "MANUAL"})
+        Me.DataGridViewComboBoxColumn3.MinimumWidth = 8
+        Me.DataGridViewComboBoxColumn3.Name = "DataGridViewComboBoxColumn3"
+        Me.DataGridViewComboBoxColumn3.ReadOnly = True
+        Me.DataGridViewComboBoxColumn3.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewComboBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewComboBoxColumn3.ToolTipText = "Maquina que fue programada  la carga de trabajo."
+        Me.DataGridViewComboBoxColumn3.Width = 150
+        '
+        'TurnoRecomendadoSubir
+        '
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle10.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Blue
+        Me.TurnoRecomendadoSubir.DefaultCellStyle = DataGridViewCellStyle10
+        Me.TurnoRecomendadoSubir.DividerWidth = 5
+        Me.TurnoRecomendadoSubir.HeaderText = "Turno Subir"
+        Me.TurnoRecomendadoSubir.Items.AddRange(New Object() {"Día", "Noche", "Fin semana"})
+        Me.TurnoRecomendadoSubir.MinimumWidth = 8
+        Me.TurnoRecomendadoSubir.Name = "TurnoRecomendadoSubir"
+        Me.TurnoRecomendadoSubir.ToolTipText = "Planificador recomendo subir Día(07:00 a 19:00) o Noche(19:00 a 07:00), "
+        Me.TurnoRecomendadoSubir.Width = 150
+        '
+        'DataGridViewTextBoxColumn18
+        '
+        DataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
+        DataGridViewCellStyle11.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle11.Format = "N0"
+        DataGridViewCellStyle11.NullValue = Nothing
+        DataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewTextBoxColumn18.DefaultCellStyle = DataGridViewCellStyle11
+        Me.DataGridViewTextBoxColumn18.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn18.HeaderText = "Tirada"
+        Me.DataGridViewTextBoxColumn18.MaxInputLength = 6
+        Me.DataGridViewTextBoxColumn18.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn18.Name = "DataGridViewTextBoxColumn18"
+        Me.DataGridViewTextBoxColumn18.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn18.ToolTipText = "Cantidad de Hojas de esta OT."
+        Me.DataGridViewTextBoxColumn18.Width = 80
+        '
+        'TotalHorasOcupadas
+        '
+        DataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle12.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle12.Format = "N0"
+        DataGridViewCellStyle12.NullValue = Nothing
+        DataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TotalHorasOcupadas.DefaultCellStyle = DataGridViewCellStyle12
+        Me.TotalHorasOcupadas.DividerWidth = 10
+        Me.TotalHorasOcupadas.HeaderText = "Total Hs. Ocupadas"
+        Me.TotalHorasOcupadas.MinimumWidth = 8
+        Me.TotalHorasOcupadas.Name = "TotalHorasOcupadas"
+        Me.TotalHorasOcupadas.ToolTipText = "Es el calculo segun lo que PRODUCE esta maquina mas el tiempo de ajuste colocado " &
+    "da el calculo las Horas ocupadas."
+        Me.TotalHorasOcupadas.Width = 80
+        '
+        'DataGridViewTextBoxColumn19
+        '
+        DataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle13.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle13.Format = "N0"
+        DataGridViewCellStyle13.NullValue = Nothing
+        DataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewTextBoxColumn19.DefaultCellStyle = DataGridViewCellStyle13
+        Me.DataGridViewTextBoxColumn19.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn19.HeaderText = "Kls."
+        Me.DataGridViewTextBoxColumn19.MaxInputLength = 5
+        Me.DataGridViewTextBoxColumn19.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn19.Name = "DataGridViewTextBoxColumn19"
+        Me.DataGridViewTextBoxColumn19.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn19.ToolTipText = "Cantidad de kilos de esta OT."
+        Me.DataGridViewTextBoxColumn19.Width = 80
+        '
+        'TintaNumero
+        '
+        DataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle14.Format = "N0"
+        DataGridViewCellStyle14.NullValue = Nothing
+        DataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.Blue
+        Me.TintaNumero.DefaultCellStyle = DataGridViewCellStyle14
+        Me.TintaNumero.DividerWidth = 5
+        Me.TintaNumero.HeaderText = "Tinta N° "
+        Me.TintaNumero.MinimumWidth = 8
+        Me.TintaNumero.Name = "TintaNumero"
+        Me.TintaNumero.ToolTipText = "Es la columna N° de tinta. Al ordenar x OT tenes todos los N° de tintas que utili" &
+    "za."
+        '
+        'DataGridViewCheckBoxColumn27
+        '
+        DataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle15.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle15.NullValue = False
+        DataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewCheckBoxColumn27.DefaultCellStyle = DataGridViewCellStyle15
+        Me.DataGridViewCheckBoxColumn27.DividerWidth = 5
+        Me.DataGridViewCheckBoxColumn27.HeaderText = "CMYK"
+        Me.DataGridViewCheckBoxColumn27.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn27.Name = "DataGridViewCheckBoxColumn27"
+        Me.DataGridViewCheckBoxColumn27.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCheckBoxColumn27.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn27.ToolTipText = "Esta OT tiene CMYK, o algunos de estos colores."
+        Me.DataGridViewCheckBoxColumn27.Width = 75
+        '
+        'ColorNegro
+        '
+        DataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle16.NullValue = False
+        DataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.ColorNegro.DefaultCellStyle = DataGridViewCellStyle16
+        Me.ColorNegro.DividerWidth = 5
+        Me.ColorNegro.HeaderText = "Neg"
+        Me.ColorNegro.MinimumWidth = 8
+        Me.ColorNegro.Name = "ColorNegro"
+        Me.ColorNegro.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.ColorNegro.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.ColorNegro.ToolTipText = "Si tiene negro aparece la letra N, o queda vacia."
+        Me.ColorNegro.Width = 55
+        '
+        'ColorCyan
+        '
+        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle17.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle17.NullValue = False
+        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.ColorCyan.DefaultCellStyle = DataGridViewCellStyle17
+        Me.ColorCyan.DividerWidth = 5
+        Me.ColorCyan.HeaderText = "Cya"
+        Me.ColorCyan.MinimumWidth = 8
+        Me.ColorCyan.Name = "ColorCyan"
+        Me.ColorCyan.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.ColorCyan.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.ColorCyan.ToolTipText = "Si tiene CYAN sale marcada la casilla."
+        Me.ColorCyan.Width = 55
+        '
+        'ColorMagenta
+        '
+        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle18.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(177, Byte))
+        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle18.NullValue = False
+        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.ColorMagenta.DefaultCellStyle = DataGridViewCellStyle18
+        Me.ColorMagenta.DividerWidth = 5
+        Me.ColorMagenta.HeaderText = "Mag"
+        Me.ColorMagenta.MinimumWidth = 8
+        Me.ColorMagenta.Name = "ColorMagenta"
+        Me.ColorMagenta.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.ColorMagenta.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.ColorMagenta.ToolTipText = "Si tiene MAGENTA sale marcada la casilla."
+        Me.ColorMagenta.Width = 55
+        '
+        'ColorAmarillo
+        '
+        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle19.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle19.NullValue = False
+        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.ColorAmarillo.DefaultCellStyle = DataGridViewCellStyle19
+        Me.ColorAmarillo.DividerWidth = 5
+        Me.ColorAmarillo.HeaderText = "Ama"
+        Me.ColorAmarillo.MinimumWidth = 8
+        Me.ColorAmarillo.Name = "ColorAmarillo"
+        Me.ColorAmarillo.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.ColorAmarillo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.ColorAmarillo.ToolTipText = "Si tiene AMARILLO sale marcada la casilla."
+        Me.ColorAmarillo.Width = 55
+        '
+        'Am
+        '
+        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle20.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle20.NullValue = False
+        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.Am.DefaultCellStyle = DataGridViewCellStyle20
+        Me.Am.DividerWidth = 5
+        Me.Am.HeaderText = "CoA"
+        Me.Am.MinimumWidth = 8
+        Me.Am.Name = "Am"
+        Me.Am.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Am.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.Am.ToolTipText = "Si tiene AZUL sale marcada la casilla."
+        Me.Am.Width = 55
+        '
+        'DataGridViewCheckBoxColumn29
+        '
+        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle21.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle21.NullValue = False
+        DataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewCheckBoxColumn29.DefaultCellStyle = DataGridViewCellStyle21
+        Me.DataGridViewCheckBoxColumn29.DividerWidth = 5
+        Me.DataGridViewCheckBoxColumn29.HeaderText = "CoR"
+        Me.DataGridViewCheckBoxColumn29.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn29.Name = "DataGridViewCheckBoxColumn29"
+        Me.DataGridViewCheckBoxColumn29.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCheckBoxColumn29.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn29.ToolTipText = "Si tiene Rojo sale marcada la casilla."
+        Me.DataGridViewCheckBoxColumn29.Width = 55
+        '
+        'DataGridViewCheckBoxColumn30
+        '
+        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle22.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle22.NullValue = False
+        DataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewCheckBoxColumn30.DefaultCellStyle = DataGridViewCellStyle22
+        Me.DataGridViewCheckBoxColumn30.DividerWidth = 5
+        Me.DataGridViewCheckBoxColumn30.HeaderText = "CoV"
+        Me.DataGridViewCheckBoxColumn30.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn30.Name = "DataGridViewCheckBoxColumn30"
+        Me.DataGridViewCheckBoxColumn30.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCheckBoxColumn30.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn30.ToolTipText = "Si tiene VERDE sale marcada la casilla."
+        Me.DataGridViewCheckBoxColumn30.Width = 55
+        '
+        'DataGridViewCheckBoxColumn31
+        '
+        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle23.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle23.NullValue = False
+        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewCheckBoxColumn31.DefaultCellStyle = DataGridViewCellStyle23
+        Me.DataGridViewCheckBoxColumn31.DividerWidth = 10
+        Me.DataGridViewCheckBoxColumn31.HeaderText = "CoC"
+        Me.DataGridViewCheckBoxColumn31.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn31.Name = "DataGridViewCheckBoxColumn31"
+        Me.DataGridViewCheckBoxColumn31.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCheckBoxColumn31.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn31.ToolTipText = "Si tiene CLARO sale marcada la casilla."
+        Me.DataGridViewCheckBoxColumn31.Width = 55
+        '
+        'DataGridViewTextBoxColumn37
+        '
+        DataGridViewCellStyle24.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewTextBoxColumn37.DefaultCellStyle = DataGridViewCellStyle24
+        Me.DataGridViewTextBoxColumn37.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn37.HeaderText = "Troq. N° Cliente"
+        Me.DataGridViewTextBoxColumn37.MaxInputLength = 5
+        Me.DataGridViewTextBoxColumn37.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn37.Name = "DataGridViewTextBoxColumn37"
+        Me.DataGridViewTextBoxColumn37.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn37.ToolTipText = "El codigo de troquel del cliente"
+        Me.DataGridViewTextBoxColumn37.Width = 140
+        '
+        'DataGridViewTextBoxColumn38
+        '
+        DataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle25.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle25.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle25.Format = "N0"
+        DataGridViewCellStyle25.NullValue = Nothing
+        DataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewTextBoxColumn38.DefaultCellStyle = DataGridViewCellStyle25
+        Me.DataGridViewTextBoxColumn38.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn38.HeaderText = "Troquel N° Gama"
+        Me.DataGridViewTextBoxColumn38.MaxInputLength = 5
+        Me.DataGridViewTextBoxColumn38.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn38.Name = "DataGridViewTextBoxColumn38"
+        Me.DataGridViewTextBoxColumn38.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn38.ToolTipText = "N° del Troquel de Gama."
+        Me.DataGridViewTextBoxColumn38.Width = 140
+        '
+        'DataGridViewTextBoxColumn39
+        '
+        DataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle26.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle26.Format = "N0"
+        DataGridViewCellStyle26.NullValue = Nothing
+        DataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewTextBoxColumn39.DefaultCellStyle = DataGridViewCellStyle26
+        Me.DataGridViewTextBoxColumn39.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn39.HeaderText = "Boca"
+        Me.DataGridViewTextBoxColumn39.MaxInputLength = 2
+        Me.DataGridViewTextBoxColumn39.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn39.Name = "DataGridViewTextBoxColumn39"
+        Me.DataGridViewTextBoxColumn39.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn39.ToolTipText = "Cantidad de bocas del Troquel."
+        Me.DataGridViewTextBoxColumn39.Width = 40
+        '
+        'DataGridViewCheckBoxColumn32
+        '
+        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle27.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle27.NullValue = False
+        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewCheckBoxColumn32.DefaultCellStyle = DataGridViewCellStyle27
+        Me.DataGridViewCheckBoxColumn32.DividerWidth = 5
+        Me.DataGridViewCheckBoxColumn32.HeaderText = "Pertinax"
+        Me.DataGridViewCheckBoxColumn32.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn32.Name = "DataGridViewCheckBoxColumn32"
+        Me.DataGridViewCheckBoxColumn32.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCheckBoxColumn32.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn32.ToolTipText = "Con Pertinax"
+        Me.DataGridViewCheckBoxColumn32.Width = 45
+        '
+        'DataGridViewTextBoxColumn40
+        '
+        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle28.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewTextBoxColumn40.DefaultCellStyle = DataGridViewCellStyle28
+        Me.DataGridViewTextBoxColumn40.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn40.HeaderText = "Nombre Cliente"
+        Me.DataGridViewTextBoxColumn40.MaxInputLength = 200
+        Me.DataGridViewTextBoxColumn40.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn40.Name = "DataGridViewTextBoxColumn40"
+        Me.DataGridViewTextBoxColumn40.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn40.ToolTipText = "Nombre del Cliente."
+        Me.DataGridViewTextBoxColumn40.Width = 200
+        '
+        'DataGridViewTextBoxColumn41
+        '
+        DataGridViewCellStyle29.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewTextBoxColumn41.DefaultCellStyle = DataGridViewCellStyle29
+        Me.DataGridViewTextBoxColumn41.DividerWidth = 5
+        Me.DataGridViewTextBoxColumn41.HeaderText = "Nombre Trabajo"
+        Me.DataGridViewTextBoxColumn41.MaxInputLength = 300
+        Me.DataGridViewTextBoxColumn41.MinimumWidth = 8
+        Me.DataGridViewTextBoxColumn41.Name = "DataGridViewTextBoxColumn41"
+        Me.DataGridViewTextBoxColumn41.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewTextBoxColumn41.ToolTipText = "Nombre del Trabajo."
+        Me.DataGridViewTextBoxColumn41.Width = 300
+        '
+        'DataGridViewCheckBoxColumn33
+        '
+        DataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle30.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle30.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle30.NullValue = False
+        DataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewCheckBoxColumn33.DefaultCellStyle = DataGridViewCellStyle30
+        Me.DataGridViewCheckBoxColumn33.DividerWidth = 5
+        Me.DataGridViewCheckBoxColumn33.HeaderText = "UV"
+        Me.DataGridViewCheckBoxColumn33.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn33.Name = "DataGridViewCheckBoxColumn33"
+        Me.DataGridViewCheckBoxColumn33.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCheckBoxColumn33.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn33.ToolTipText = "Esta OT tiene Barniz UV."
+        Me.DataGridViewCheckBoxColumn33.Width = 60
+        '
+        'DataGridViewCheckBoxColumn34
+        '
+        DataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle31.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle31.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle31.NullValue = False
+        DataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewCheckBoxColumn34.DefaultCellStyle = DataGridViewCellStyle31
+        Me.DataGridViewCheckBoxColumn34.DividerWidth = 5
+        Me.DataGridViewCheckBoxColumn34.HeaderText = "Laminado"
+        Me.DataGridViewCheckBoxColumn34.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn34.Name = "DataGridViewCheckBoxColumn34"
+        Me.DataGridViewCheckBoxColumn34.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCheckBoxColumn34.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn34.ToolTipText = "Esta OT tiene Barniz Plastificado."
+        Me.DataGridViewCheckBoxColumn34.Width = 60
+        '
+        'DataGridViewCheckBoxColumn35
+        '
+        DataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle32.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle32.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle32.NullValue = False
+        DataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewCheckBoxColumn35.DefaultCellStyle = DataGridViewCellStyle32
+        Me.DataGridViewCheckBoxColumn35.DividerWidth = 5
+        Me.DataGridViewCheckBoxColumn35.HeaderText = "Sta"
+        Me.DataGridViewCheckBoxColumn35.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn35.Name = "DataGridViewCheckBoxColumn35"
+        Me.DataGridViewCheckBoxColumn35.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCheckBoxColumn35.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn35.ToolTipText = "Esta OT tiene Barniz Stamping."
+        Me.DataGridViewCheckBoxColumn35.Width = 60
+        '
+        'DataGridViewCheckBoxColumn36
+        '
+        DataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle33.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle33.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle33.NullValue = False
+        DataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.DataGridViewCheckBoxColumn36.DefaultCellStyle = DataGridViewCellStyle33
+        Me.DataGridViewCheckBoxColumn36.DividerWidth = 5
+        Me.DataGridViewCheckBoxColumn36.HeaderText = "Rel."
+        Me.DataGridViewCheckBoxColumn36.MinimumWidth = 8
+        Me.DataGridViewCheckBoxColumn36.Name = "DataGridViewCheckBoxColumn36"
+        Me.DataGridViewCheckBoxColumn36.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewCheckBoxColumn36.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        Me.DataGridViewCheckBoxColumn36.ToolTipText = "Esta OT tiene Barniz Relieve."
+        Me.DataGridViewCheckBoxColumn36.Width = 60
+        '
+        'MedidaA
+        '
+        DataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle34.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle34.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle34.Format = "N1"
+        DataGridViewCellStyle34.NullValue = Nothing
+        DataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.MedidaA.DefaultCellStyle = DataGridViewCellStyle34
+        Me.MedidaA.DividerWidth = 5
+        Me.MedidaA.HeaderText = "Troquel MeA"
+        Me.MedidaA.MaxInputLength = 5
+        Me.MedidaA.MinimumWidth = 8
+        Me.MedidaA.Name = "MedidaA"
+        Me.MedidaA.ToolTipText = "Medida TROQUEL A es la que no tiene la Fibra"
+        Me.MedidaA.Width = 80
+        '
+        'MedidaB
+        '
+        DataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight
+        DataGridViewCellStyle35.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle35.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle35.Format = "N1"
+        DataGridViewCellStyle35.NullValue = Nothing
+        DataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.Magenta
+        Me.MedidaB.DefaultCellStyle = DataGridViewCellStyle35
+        Me.MedidaB.DividerWidth = 5
+        Me.MedidaB.HeaderText = "Troquel  MeB"
+        Me.MedidaB.MaxInputLength = 5
+        Me.MedidaB.MinimumWidth = 8
+        Me.MedidaB.Name = "MedidaB"
+        Me.MedidaB.ToolTipText = "Medida TROQUEL B es la que tiene la Fibra"
+        Me.MedidaB.Width = 80
+        '
         'OT_PLANIFICACION
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 14.0!)
@@ -28305,39 +28303,6 @@ Partial Class OT_PLANIFICACION
     Friend WithEvents ComboBox132 As ComboBox
     Friend WithEvents ComboBox131 As ComboBox
     Friend WithEvents ComboBox130 As ComboBox
-    Friend WithEvents DataGridViewTextBoxColumn42 As DataGridViewTextBoxColumn
-    Friend WithEvents Estacion As DataGridViewComboBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn16 As DataGridViewComboBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn25 As DataGridViewCheckBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn15 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn17 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewComboBoxColumn3 As DataGridViewComboBoxColumn
-    Friend WithEvents TurnoRecomendadoSubir As DataGridViewComboBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn18 As DataGridViewTextBoxColumn
-    Friend WithEvents TotalHorasOcupadas As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn19 As DataGridViewTextBoxColumn
-    Friend WithEvents TintaNumero As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn27 As DataGridViewCheckBoxColumn
-    Friend WithEvents ColorNegro As DataGridViewCheckBoxColumn
-    Friend WithEvents ColorCyan As DataGridViewCheckBoxColumn
-    Friend WithEvents ColorMagenta As DataGridViewCheckBoxColumn
-    Friend WithEvents ColorAmarillo As DataGridViewCheckBoxColumn
-    Friend WithEvents Am As DataGridViewCheckBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn29 As DataGridViewCheckBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn30 As DataGridViewCheckBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn31 As DataGridViewCheckBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn37 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn38 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn39 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn32 As DataGridViewCheckBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn40 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn41 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn33 As DataGridViewCheckBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn34 As DataGridViewCheckBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn35 As DataGridViewCheckBoxColumn
-    Friend WithEvents DataGridViewCheckBoxColumn36 As DataGridViewCheckBoxColumn
-    Friend WithEvents MedidaA As DataGridViewTextBoxColumn
-    Friend WithEvents MedidaB As DataGridViewTextBoxColumn
     Friend WithEvents Label29 As Label
     Friend WithEvents Label37 As Label
     Friend WithEvents Label30 As Label
@@ -28441,4 +28406,37 @@ Partial Class OT_PLANIFICACION
     Friend WithEvents Button13 As Button
     Friend WithEvents Panel33 As Panel
     Friend WithEvents Label55 As Label
+    Friend WithEvents DataGridViewTextBoxColumn42 As DataGridViewTextBoxColumn
+    Friend WithEvents Estacion As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn16 As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn25 As DataGridViewCheckBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn15 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn17 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewComboBoxColumn3 As DataGridViewComboBoxColumn
+    Friend WithEvents TurnoRecomendadoSubir As DataGridViewComboBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn18 As DataGridViewTextBoxColumn
+    Friend WithEvents TotalHorasOcupadas As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn19 As DataGridViewTextBoxColumn
+    Friend WithEvents TintaNumero As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn27 As DataGridViewCheckBoxColumn
+    Friend WithEvents ColorNegro As DataGridViewCheckBoxColumn
+    Friend WithEvents ColorCyan As DataGridViewCheckBoxColumn
+    Friend WithEvents ColorMagenta As DataGridViewCheckBoxColumn
+    Friend WithEvents ColorAmarillo As DataGridViewCheckBoxColumn
+    Friend WithEvents Am As DataGridViewCheckBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn29 As DataGridViewCheckBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn30 As DataGridViewCheckBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn31 As DataGridViewCheckBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn37 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn38 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn39 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn32 As DataGridViewCheckBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn40 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn41 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn33 As DataGridViewCheckBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn34 As DataGridViewCheckBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn35 As DataGridViewCheckBoxColumn
+    Friend WithEvents DataGridViewCheckBoxColumn36 As DataGridViewCheckBoxColumn
+    Friend WithEvents MedidaA As DataGridViewTextBoxColumn
+    Friend WithEvents MedidaB As DataGridViewTextBoxColumn
 End Class
