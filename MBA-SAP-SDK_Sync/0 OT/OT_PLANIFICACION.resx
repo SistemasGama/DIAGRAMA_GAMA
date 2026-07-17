@@ -118,8 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1203, 17</value>
+    <value>313, 18</value>
   </metadata>
+  <data name="Button34.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox19.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1065,6 +1073,14 @@ o pueden ser menor a esta medida inidcada.
 Con la condicionande de FIBRA que esta indicada en que lado
 debe ser seleccionada. 
 </value>
+  </data>
+  <data name="Label809.ToolTip" xml:space="preserve">
+    <value>Siempre la Medida B esta la FIBRA.
+Ahorala pedida B puede estar o no la 
+PINZA.
+Si no es exigencia la FIBRA respetar siembre
+la medida B sera el lado correcto de mantener
+la FIBRA, que es el lado PERPENDICULAR al pegado.</value>
   </data>
   <data name="TextBox286.ToolTip" xml:space="preserve">
     <value>Busca condiciones de TROQUELES que cumpla
@@ -3326,6 +3342,9 @@ Debe ser solicitado para aprovechar PRODUCTIVIDAD
   <metadata name="DataGridViewTextBoxColumn19.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="TintaNumero.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="DataGridViewCheckBoxColumn27.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -4006,6 +4025,14 @@ Observaciones: SOMOS UNA ASPIRINA, NO UN DOLOR DE CABEZA.
         QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
 </value>
   </data>
+  <data name="Button6.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
+  </data>
   <metadata name="DataGridViewTextBoxColumn13.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -4093,6 +4120,14 @@ debajo de lo solicitado y esto es muy importante porque determina las
 perdías que se tiene.
 También los días que estuvo en la estación y el retraso total días que 
 paso de la fecha entrega.
+
+</value>
+  </data>
+  <data name="Button11.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
 
 </value>
   </data>
@@ -4244,9 +4279,6 @@ La informacion de de cantidad como de Gs</value>
   <metadata name="Panel280.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1337, 17</value>
-  </metadata>
   <data name="Label866.ToolTip" xml:space="preserve">
     <value>Cantidad que se necesita para esta OT
 Esta comprometido, Si o No y la cantidad
@@ -4256,6 +4288,24 @@ si hay pero se puede desmarcar para seder a otras
 OT mas necesaria por el usuario a mano.
 </value>
   </data>
+  <data name="Panel2.ToolTip" xml:space="preserve">
+    <value>Informacion de parametros de cada mes a cargar.
+Cuenta con informacion promedio de produccion de hora de cada maquina para analisis de planificacion 
+Tambien se puede tener informacion de cada maquinista como esta compuesto la produccion de cada uno
+Todos parametros y promedios son utilizados par `PLANIFICACION para dar resultado en su listado de carga de trabajo.
+</value>
+  </data>
+  <data name="Button3.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
+  </data>
+  <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>407, 21</value>
+  </metadata>
   <metadata name="OTnumer.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -4324,5 +4374,8 @@ OT mas necesaria por el usuario a mano.
   </metadata>
   <metadata name="DebeTerminarseFecha.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>33</value>
   </metadata>
 </root>

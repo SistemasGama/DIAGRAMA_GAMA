@@ -1,0 +1,680 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1203, 17</value>
+  </metadata>
+  <data name="ComboBox4.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox6.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox7.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="Button4.ToolTip" xml:space="preserve">
+    <value>BOTON Solucionado
+Al pulsar el boton Solucionado PIDE LA HUELLA del personal.
+Al activar la huella personal graba la hora solcionada.
+Tambien para la horas que le llevo la solcuion.
+Queda a su lado registrada la hora que le avisaron y la hora 
+que se soluciono.
+Envia un aviso a el celular que le envio el AVISO de PARADA.
+</value>
+  </data>
+  <data name="Button5.ToolTip" xml:space="preserve">
+    <value>Graba el motivo de la parada.
+Dispara un AVISO de parada al
+celular de acuerdo al motivo 
+escojido de parada.
+La unica forma de Frenar las horas
+que corren apretando el boton de
+SOLUCIONADO que siemrpe pide
+la huella dactilar para registrar quien
+paro el cronometro de horas 
+</value>
+  </data>
+  <data name="ComboBox9.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox10.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox12.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox14.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox15.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox16.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox17.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox18.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="Button6.ToolTip" xml:space="preserve">
+    <value>BOTON INICIO
+Al pulsar el boton Inicio PIDE LA HUELLA del personal
+Al activar la huella personal graba el INICIO tomando 
+este desde el fin de  la anterior OT.
+Envia un aviso a el celular indicado el inicio.</value>
+  </data>
+  <data name="Button7.ToolTip" xml:space="preserve">
+    <value>Al pulsar el boton Prueba Libero PIDE LA HUELLA del personal
+Al pulsar el boton Prueba Libero
+comunica a comercial que fue aprobado
+y las horas maquinas que se utilizo.
+Tambien comunica a los celuantes de liberado.
+
+</value>
+  </data>
+  <data name="Button9.ToolTip" xml:space="preserve">
+    <value>BOTON Libero
+Al pulsar el boton Libero PIDE LA HUELLA del personal
+Al activar la huella personal graba el Fin de INICIO.
+Registra el tiempo que la Supervisora le llevo Liberar la OT.
+Envia un aviso al celular el arranque de PRODUCCION de esta OT.
+Con esto desactiva AVISO +HS Indicadas
+Desde esta Liberacion hasta el FIN de la OT queda sumadas 
+las horas de produccion segun las marcaciones de maquinista,
+de todos los turnos que se PESO o registro algun tipo de movimiento
+solo restanto las horas que fueron comunicada por el maquinista 
+que aviso de parada y fin de paraga debio comunicar MANTENIMIENTO
+para que no sume a mantenimiento esta horas y si a produccion que,
+que retorne su responsabilidad de horas produccion.</value>
+  </data>
+  <data name="Button10.ToolTip" xml:space="preserve">
+    <value>BOTON Bajar
+Al pulsar el boton Inicio PIDE LA HUELLA del personal
+Al activar la huella personal graba fecha y hora bajada 
+Tiene Balidación: no acciona el boton si no esta seleccopmadp el area
+y la explicacion del motivo que se bajo.
+Envia avisto a los celulares seleccionados.</value>
+  </data>
+  <data name="ComboBox20.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox22.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox23.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="Label12.ToolTip" xml:space="preserve">
+    <value>Indica que este producto el contrato es para almacenar y entregas mensual.
+Todos los trabajos que son entrega mensual la primera semana de cada mes 
+Saldrá a expedición el recordatorio de entregar.
+
+</value>
+  </data>
+  <data name="CheckBox1.ToolTip" xml:space="preserve">
+    <value>Es marcado por PLANIFICACION que tiene carácter de entrega urgente.
+Pues en cada estación cuando se termina dispara una alerta al supervisor
+De la estación siguiente que su estación le dio FIN, de forma automática.
+
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
+        CQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwM
+        DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABTAF4DASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKo+JNet/C2gXmpXjmO0sIXuJmAyVRVLE478CnGLk+WOrY
+        pSUVzPYvUV5V+y1+1DbftP6Zr93ZaNqGn2eh3/2GO8dhLZ6kduWaCUAb9pyrcDa3GT1r1WujGYOtha0s
+        PiI8s47rt9xz4PGUcVRWIw8uaL2ffWwUUVz3jj4m6b4C+zx3Qurq9vCRbWVnCZrm52/e2IOTgcmvKx+Y
+        YbBUXicXNQgt23ZauyXq20kt29FqdtKlOpJQpq7Z0NFYfgn4h6d4/s5JbEzpJbv5dxBPGYprZ/7roeQe
+        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
+        QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
+</value>
+  </data>
+  <data name="ComboBox24.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox25.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox26.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="Label30.ToolTip" xml:space="preserve">
+    <value>BOTON Kilos
+Al pulsar el boton Kilos o Tirada PIDE LA HUELLA del personal.
+Al activar la huella personal graba los Kilos 
+Avisa a los celulares si el minimo o el maximo 
+esta fuera de parametro para que sea revisado
+</value>
+  </data>
+  <data name="ComboBox27.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox28.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="Button16.ToolTip" xml:space="preserve">
+    <value>BOTON Scrap
+Al pulsar el boton Scrap PIDE LA HUELLA del personal.
+Al activar la huella personal graba los Kilos 
+Avisa a los celulares los kilos enviado SCRAP 
+
+VALIDACION: La debolución nunca puede ser mayor que la cantidad 
+de kilos entregadoque la sumatoria de la estacion anterior. Por tanto
+la sumatoria de KILOS BUENOS + DEVOLUCION, no debe superar esa 
+cantidad de Kilos entregado. 
+Este ERROR debe accionar un envio automatico a CELULARES:
+Los celulares que se enviara este error va ser los indicado en el "Cuadro
+Aviso OT FIN"
+
+</value>
+  </data>
+  <data name="TextBox37.ToolTip" xml:space="preserve">
+    <value>Suma los Kilos BUENOS + SCRAP + DEVOluCIÓN y resta los KILOS que entrego DEPOSITO. Esa es
+el resultado que debe aparecer aqui.
+
+Validación: debe ser "0" (+- %) si no es asi debe enviar un aviso a los celulares.
+Este ERROR debe accionar un envio automatico a CELULARES:
+Los celulares que se enviara este error va ser los indicado en el "Cuadro
+Aviso OT FIN"
+</value>
+  </data>
+  <data name="Button17.ToolTip" xml:space="preserve">
+    <value>BOTON Devolucion
+Al pulsar el boton devolucion PIDE LA HUELLA del personal.
+Al activar la huella personal graba los Kilos 
+Avisa a los celulares los kilos enviado deposito, tipo duplex o 
+triplex y la medida 
+
+VALIDACION: La debolución nunca puede ser mayor que la cantidad 
+de kilos entregadoque la sumatoria de la estacion anterior. Por tanto
+la sumatoria de KILOS BUENOS + DEVOLUCION, no debe superar esa 
+cantidad de Kilos entregado. 
+Este ERROR debe accionar un envio automatico a CELULARES:
+Los celulares que se enviara este error va ser los indicado en el "Cuadro
+Aviso OT FIN"
+</value>
+  </data>
+  <data name="Button18.ToolTip" xml:space="preserve">
+    <value>BOTON Tirada
+Al pulsar el boton Kilos o Tirada PIDE LA HUELLA del personal.
+Al activar la huella personal graba los Kilos 
+Avisa a los celulares si el minimo o el maximo 
+esta fuera de parametro para que sea revisado
+ 
+VALIDACION: Nunca puede ser los KILOS MAYOR QUE LA ESTACION ANTERIOR.
+VALIDACION: no puede ser más de la sumatoria del pedido más demasía que 
+acepta el cliente y la demasía 3% hojas de ajuste 300 unidades
+Debe tener ALERTA que supera las tiradas a ESTACION SUPERVISOR DE LA ES, y debe 
+TENER INDICACION VERIFICAR SUPERVISOR cual es el ERROR.
+Este ERROR debe accionar un envió automático a CELULARES, SUPERVISOR DE LA ESTACION
+
+</value>
+  </data>
+  <data name="Button19.ToolTip" xml:space="preserve">
+    <value>BOTON Kilos
+Al pulsar el boton Kilos o Tirada PIDE LA HUELLA del personal.
+Al activar la huella personal graba los Kilos 
+Avisa a los celulares si el minimo o el maximo 
+esta fuera de parametro para que sea revisado
+
+VALIDACION: Nunca puede ser los KILOS MAYOR QUE LA ESTACION ANTERIOR.
+VALIDACION: no puede ser más de la sumatoria del pedido más demasía que 
+acepta el cliente y la demasía 3% hojas de ajuste 300 unidades
+Debe tener ALERTA que supera los KILOS ESTACION ANTERIOR, y debe 
+TENER INDICACION VERIFICAR SUPERVISOR cual es el ERROR.
+Este ERROR debe accionar un envió automático a CELULARES, SUPERVISOR DE LA ESTACION
+
+</value>
+  </data>
+  <data name="ComboBox30.ToolTip" xml:space="preserve">
+    <value>Cargar el numero de la OT.
+Escoger del listado desplegado.
+Trae todas las OT habilitadas para procesar.
+Todas estas están planificadas para realizar según el ord
+en establecida por PLANIFICACION.
+En este listado desplegado están todas las OT que se deben imprimir.
+Para FILTRAR solamente las de interés de una maquina debe escoger una máquina.
+También cuentan con una planilla Excel a lado que pueden ordenar por troquel, 
+por laminado etc para que sean más productivas otras estaciones.
+
+</value>
+  </data>
+  <data name="ComboBox31.ToolTip" xml:space="preserve">
+    <value>Se elige la máquina que se va imprimir.
+Con la elección de la máquina, filtra todo lo que 
+corresponde lo PLANIFICADO para esta máquina.
+Si hay más coincidencia COLOR y TROQUEL 
+Debe ser solicitado para aprovechar PRODUCTIVIDAD
+
+</value>
+  </data>
+  <metadata name="Panel11.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Panel3.ToolTip" xml:space="preserve">
+    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
+Ingreso por los MAQUINISTAS, y  SUPERVISORES.
+
+Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
+No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
+por no cumplir con su trabajo.
+
+Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
+1- Kilos buenos
+2- Tiradas
+3- Scrap Kilos
+
+Y al terminar darle el FIN de la estación
+Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
+EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
+  </data>
+  <data name="ComboBox8.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
+        CQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwM
+        DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABTAF4DASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKo+JNet/C2gXmpXjmO0sIXuJmAyVRVLE478CnGLk+WOrY
+        pSUVzPYvUV5V+y1+1DbftP6Zr93ZaNqGn2eh3/2GO8dhLZ6kduWaCUAb9pyrcDa3GT1r1WujGYOtha0s
+        PiI8s47rt9xz4PGUcVRWIw8uaL2ffWwUUVz3jj4m6b4C+zx3Qurq9vCRbWVnCZrm52/e2IOTgcmvKx+Y
+        YbBUXicXNQgt23ZauyXq20kt29FqdtKlOpJQpq7Z0NFYfgn4h6d4/s5JbEzpJbv5dxBPGYprZ/7roeQe
+        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
+        QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
+</value>
+  </data>
+  <data name="ComboBox11.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox37.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox38.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox39.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox5.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="PictureBox51.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
+        CQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwM
+        DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABTAF4DASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KKKo+JNet/C2gXmpXjmO0sIXuJmAyVRVLE478CnGLk+WOrY
+        pSUVzPYvUV5V+y1+1DbftP6Zr93ZaNqGn2eh3/2GO8dhLZ6kduWaCUAb9pyrcDa3GT1r1WujGYOtha0s
+        PiI8s47rt9xz4PGUcVRWIw8uaL2ffWwUUVz3jj4m6b4C+zx3Qurq9vCRbWVnCZrm52/e2IOTgcmvKx+Y
+        YbBUXicXNQgt23ZauyXq20kt29FqdtKlOpJQpq7Z0NFYfgn4h6d4/s5JbEzpJbv5dxBPGYprZ/7roeQe
+        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
+        QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
+</value>
+  </data>
+  <data name="ComboBox13.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox21.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="Button3.ToolTip" xml:space="preserve">
+    <value>BOTON INICIO
+Al pulsar el boton Inicio PIDE LA HUELLA del personal
+Al activar la huella personal graba el INICIO.
+En el caso que solito alguna estacion ya esta activado la hora y la fecha solicitada</value>
+  </data>
+  <data name="Button13.ToolTip" xml:space="preserve">
+    <value>BOTON Libero
+Al pulsar el boton Libero PIDE LA HUELLA del personal
+Al activar la huella personal graba el Fin de INICIO.
+Registra el tiempo que la Supervisora le llevo Liberar la OT.
+Envia un aviso al celular el arranque de PRODUCCION de esta OT.
+Con esto desactiva AVISO +HS Indicadas
+Desde esta Liberacion hasta el FIN de la OT queda sumadas 
+las horas de produccion segun las marcaciones de maquinista,
+de todos los turnos que se PESO o registro algun tipo de movimiento
+solo restanto las horas que fueron comunicada por el maquinista 
+que aviso de parada y fin de paraga debio comunicar MANTENIMIENTO
+para que no sume a mantenimiento esta horas y si a produccion que,
+que retorne su responsabilidad de horas produccion.</value>
+  </data>
+  <data name="ComboBox36.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox3.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="Button1.ToolTip" xml:space="preserve">
+    <value>BOTON Solucionado
+Al pulsar el boton Solucionado PIDE LA HUELLA del personal.
+Al activar la huella personal graba la hora solcionada.
+Tambien para la horas que le llevo la solcuion.
+Queda a su lado registrada la hora que le avisaron y la hora 
+que se soluciono.
+Envia un aviso a el celular que le envio el AVISO de PARADA.
+</value>
+  </data>
+  <data name="Button2.ToolTip" xml:space="preserve">
+    <value>Graba el motivo de la parada.
+Dispara un AVISO de parada al
+celular de acuerdo al motivo 
+escojido de parada.
+La unica forma de Frenar las horas
+que corren apretando el boton de
+SOLUCIONADO que siemrpe pide
+la huella dactilar para registrar quien
+paro el cronometro de horas 
+</value>
+  </data>
+  <data name="ComboBox32.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox33.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox34.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox35.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox48.ToolTip" xml:space="preserve">
+    <value>Se elige la máquina que se va imprimir.
+Con la elección de la máquina, filtra todo lo que 
+corresponde lo PLANIFICADO para esta máquina.
+Si hay más coincidencia COLOR y TROQUEL 
+Debe ser solicitado para aprovechar PRODUCTIVIDAD
+
+</value>
+  </data>
+  <metadata name="Panel14.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Panel1.ToolTip" xml:space="preserve">
+    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
+Ingreso por los MAQUINISTAS, y  SUPERVISORES.
+
+Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
+No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
+por no cumplir con su trabajo.
+
+Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
+1- Kilos buenos
+2- Tiradas
+3- Scrap Kilos
+
+Y al terminar darle el FIN de la estación
+Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
+EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
+  </data>
+  <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1337, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+</root>

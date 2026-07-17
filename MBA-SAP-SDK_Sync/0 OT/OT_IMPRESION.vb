@@ -47,7 +47,39 @@
 
     End Sub
 
-    Private Sub CheckBox5_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox5.CheckedChanged
+    Private Sub CheckBox5_CheckedChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Panel147_Paint(sender As Object, e As PaintEventArgs) Handles Panel147.Paint
+
+    End Sub
+
+    Private Sub Panel341_Paint(sender As Object, e As PaintEventArgs) Handles Panel341.Paint
+
+    End Sub
+
+    Private Sub TextBox382_TextChanged(sender As Object, e As EventArgs) Handles TextBox382.TextChanged
+
+    End Sub
+
+    Private Sub Panel190_Paint(sender As Object, e As PaintEventArgs) Handles Panel190.Paint
+
+    End Sub
+
+    Private Sub Panel394_Paint(sender As Object, e As PaintEventArgs) Handles Panel394.Paint
+
+    End Sub
+
+    Private Sub Panel33_Paint(sender As Object, e As PaintEventArgs) Handles Panel33.Paint
+
+    End Sub
+
+    Private Sub TextBox942_TextChanged(sender As Object, e As EventArgs) Handles TextBox942.TextChanged, TextBox943.TextChanged
+
+    End Sub
+
+    Private Sub Label261_Click(sender As Object, e As EventArgs) Handles Label261.Click
 
     End Sub
 End Class

@@ -1,5 +1,5 @@
 ﻿Public Class OT_TROQUEL
-    Private Sub Label154_Click(sender As Object, e As EventArgs) Handles Label154.Click
+    Private Sub Label154_Click(sender As Object, e As EventArgs) Handles Label154.Click, Label102.Click, Label135.Click
 
     End Sub
 
@@ -16,6 +16,18 @@
     End Sub
 
     Private Sub Panel60_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
+    Private Sub TabControl1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles TabControl1.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub RadioButton46_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton46.CheckedChanged
+
+    End Sub
+
+    Private Sub Panel40_Paint(sender As Object, e As PaintEventArgs) Handles Panel40.Paint
 
     End Sub
 End Class

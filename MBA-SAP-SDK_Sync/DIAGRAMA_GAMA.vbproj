@@ -197,10 +197,10 @@
     <Compile Include="0 OT\OT_PLANIFICACION.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 LIBRE\OT18.Designer.vb">
-      <DependentUpon>OT18.vb</DependentUpon>
+    <Compile Include="0 LIBRE\OT_MANTENIMIENTO.Designer.vb">
+      <DependentUpon>OT_MANTENIMIENTO.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 LIBRE\OT18.vb">
+    <Compile Include="0 LIBRE\OT_MANTENIMIENTO.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 LIBRE\OT19.Designer.vb">
@@ -294,8 +294,8 @@
     <EmbeddedResource Include="0 OT\OT_PLANIFICACION.resx">
       <DependentUpon>OT_PLANIFICACION.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 LIBRE\OT18.resx">
-      <DependentUpon>OT18.vb</DependentUpon>
+    <EmbeddedResource Include="0 LIBRE\OT_MANTENIMIENTO.resx">
+      <DependentUpon>OT_MANTENIMIENTO.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 LIBRE\OT19.resx">
       <DependentUpon>OT19.vb</DependentUpon>
