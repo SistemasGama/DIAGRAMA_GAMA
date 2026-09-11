@@ -120,7 +120,81 @@
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1203, 17</value>
   </metadata>
+  <data name="Label61.Text" xml:space="preserve">
+    <value>Lo que son insumos solo barra de consumo CANTIDAD 
+quede cada OT consume, siendo esta mas larga si consume
+mas cantidad.
+Y que seadesplegable o se que no ocupe visualmente la
+pantalla renglones solo si se despliega.</value>
+  </data>
+  <data name="Label57.Text" xml:space="preserve">
+    <value>Cuando se coloca amarillo dispara celular mensaje OT 33000 falta 3 dias
+a varios celulares
+Cuanto tiene FIN desaparece de la linea de PROCESO DE ESTA ESTACION.
+Las estaciones que falta procesar ya SE DEBE VISUALIZAR en el renglon pendiente
+, el primer rectangulo que aparece indica COLORES DE SEMAFORO  la situacion
+para sibir el trabajo
+SI el trabajo amarillo esta en la estacion anterior prepararse
+verde ya esta e esta estacion para procesarse
+rojo no se puede procesar porque falta algo</value>
+  </data>
+  <data name="Label44.Text" xml:space="preserve">
+    <value>Al colocar ensima del rectangulo de tiempo 
+que de informacion de Gs y kilos 
+Tambien la informacion que necesita fatima
+numero OT
+Nombre del producto cliente cantidad tintas 
+troquelado  troquel etc
+la necesario para programar</value>
+  </data>
+  <data name="Label55.ToolTip" xml:space="preserve">
+    <value>Verde si esta habilitada esta OT Liberada
+para PROCESAR.
+ROJO que no se debe procesar pero consultar
+con planificacion si se puede cortar ya que 
+esa medida y gramaje esta en la maquina.
+Al colocar el cursor sobre esta parte da esta info
+y tambien los items que falta procesar para liberar.
+La liberacion o paso color verde Si es automatico
+cuando todos los procesos anteriores tienen fin 
+automaticamente pasa color VERDE.
+AMARILLO que esta en la estacion anterior, preparar.
+</value>
+  </data>
+  <data name="Label54.ToolTip" xml:space="preserve">
+    <value>El color de esta parte indica 
+el color del Cliente.
+Al colocar en esta parte da informacion
+completa de la OT cantidad de kilosm Gs
+precesos que tiene etc etc Fatima puede 
+indicar mejor lo que necesita para planificar
+</value>
+  </data>
+  <data name="Label52.ToolTip" xml:space="preserve">
+    <value>Verde si esta habilitada esta OT Liberada
+para PROCESAR.
+ROJO que no se debe procesar pero consultar
+con planificacion si se puede cortar ya que 
+esa medida y gramaje esta en la maquina.
+Al colocar el cursor sobre esta parte da esta info
+y tambien los items que falta procesar para liberar.
+La liberacion o paso color verde Si es automatico
+cuando todos los procesos anteriores tienen fin 
+automaticamente pasa color VERDE.
+AMARILLO que esta en la estacion anterior, preparar.</value>
+  </data>
+  <data name="Label51.ToolTip" xml:space="preserve">
+    <value>El color de esta parte indica 
+el color del Cliente.
+Al colocar en esta parte da informacion
+completa de la OT cantidad de kilosm Gs
+precesos que tiene etc etc Fatima puede 
+indicar mejor lo que necesita para planificar</value>
+  </data>
   <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>1337, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
 </root>

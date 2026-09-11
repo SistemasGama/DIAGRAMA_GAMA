@@ -1,67 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|c:\\users\\josemondolo\\source\\repos\\diagrama_gama\\mba-sap-sdk_sync\\0 ot\\ot_planificacion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\0 ot\\ot_planificacion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|c:\\users\\josemondolo\\source\\repos\\diagrama_gama\\mba-sap-sdk_sync\\0 prinsipal\\ot_troquel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\0 prinsipal\\ot_troquel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\mba-sap-sdk_sync\\0 ot\\ot_impresion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{CD5F7E2E-F5E5-46A9-AFD6-959954C73AC8}|MBA-SAP-SDK_Sync\\DIAGRAMA_GAMA.vbproj|solutionrelative:mba-sap-sdk_sync\\0 ot\\ot_impresion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OT_TROQUEL.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 PRINSIPAL\\OT_TROQUEL.vb",
-              "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\0 PRINSIPAL\\OT_TROQUEL.vb",
-              "ToolTip": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 PRINSIPAL\\OT_TROQUEL.vb [Dise\u00F1o]",
-              "RelativeToolTip": "MBA-SAP-SDK_Sync\\0 PRINSIPAL\\OT_TROQUEL.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-07-17T17:52:37.507Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OT_PLANIFICACION.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb",
-              "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb",
-              "ToolTip": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb [Dise\u00F1o]",
-              "RelativeToolTip": "MBA-SAP-SDK_Sync\\0 OT\\OT_PLANIFICACION.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-07-17T17:34:55.684Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OT_IMPRESION.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT_IMPRESION.vb",
-              "RelativeDocumentMoniker": "MBA-SAP-SDK_Sync\\0 OT\\OT_IMPRESION.vb",
-              "ToolTip": "C:\\Users\\JoseMondolo\\source\\repos\\DIAGRAMA_GAMA\\MBA-SAP-SDK_Sync\\0 OT\\OT_IMPRESION.vb [Dise\u00F1o]",
-              "RelativeToolTip": "MBA-SAP-SDK_Sync\\0 OT\\OT_IMPRESION.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-06-26T23:38:45.785Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

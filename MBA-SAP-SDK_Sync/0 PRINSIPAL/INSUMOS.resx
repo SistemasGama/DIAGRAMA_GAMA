@@ -120,6 +120,9 @@
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>33, 12</value>
   </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>33, 12</value>
+  </metadata>
   <data name="Button12.ToolTip" xml:space="preserve">
     <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
 Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
@@ -128,6 +131,9 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
 
 </value>
   </data>
+  <metadata name="Panel130.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="ComboBox284.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
@@ -141,6 +147,9 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
   <metadata name="Panel130.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel52.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
@@ -718,6 +727,9 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
         QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
 </value>
   </data>
+  <metadata name="Panel32.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="Button30.ToolTip" xml:space="preserve">
     <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
 Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
@@ -1249,6 +1261,9 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
   <data name="ComboBox13.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
+  <metadata name="Panel184.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="ComboBox290.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
@@ -1406,6 +1421,9 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
     <value>True</value>
   </metadata>
   <metadata name="Panel32.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel165.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="Button9.ToolTip" xml:space="preserve">
@@ -1939,6 +1957,9 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
   <data name="ComboBox320.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
+  <metadata name="Panel61.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="TextBox265.ToolTip" xml:space="preserve">
     <value>Es la cantidad de Kilos que se presupuestó.
 Lo adjudicado da como indicativo el aprovechamiento,
@@ -2042,6 +2063,9 @@ Menos Kilos presupuestado muy eficiente el analista.
     <value>True</value>
   </metadata>
   <metadata name="Panel165.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel35.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Panel35.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -2553,25 +2577,221 @@ Indicación APROBAR</value>
         KACiiigAooooAKKKKACiiigAooooA//Z
 </value>
   </data>
-  <data name="ComboBox17.ToolTip" xml:space="preserve">
-    <value>Código largo de MP 
-Es codificado por CONTABILIDAD al ingreso con estos criterios.
-CONTB Y AMORTIZACION / BOBINA / FABRICA / NOMBRE DEL CARTON TECNICO /
- GRAMAKE / MEDIDA A PRIMERO NO FIBRA / MEDIDA B SIEMPRE FIBRA / FSC /
-PARA EMBALAGE PRIMARIO O SECUNDARIO / PAIS DE ORIGEN /  
-
-B/PAPI/VIT/GRA/000X000/FSC/ISEGA/PRI/333 
-
-La cantidad de caracteres siempre debe ser la misma cantidad y
- es rellenado con X al final para completar la cantidad, pero nunca
- menos cantidad que le corresponde 
-
-</value>
-  </data>
   <metadata name="Panel12.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="PictureBox10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Button46.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
+        CQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwM
+        DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABiAKgDASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9/KzvEHia08OWplupEjQD+I1du5/s1u0hGQgya+Lf2qfjPe6p
+        48/sYXrWtuknzsG6DNaUqTqzUI9TGvWjSg5yPeda/a+8M6VfmL7QrbTgkAnmtjwz+0p4a8SW5kW8iQAe
+        vSvz2+G/xNtvif8AFu+0GzVobDRldJ5nHzSSZG04A9c8ZyRz0r0ZvC2neGJbSJku5muZvJ2RNtBG0uZD
+        jouBgHuzKK96WQSjFJPVnzdLiWErylDRH11rf7U3hrSptgu0YDqRk1Ttf2uPDNxz9pQj6c189eJfBNl4
+        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
+        UUUALRRRQB//2Q==
+</value>
+  </data>
+  <data name="PictureBox22.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        De/ZXXqWBD3zq3DXshveu+rukfY1Prr7ePZth960n2C/u5Pgru3T6/rVJOh1U4X9ys6a9Qc8Vjl6hH3b
+        oTftJ9jv7iS4a/v0un41CXrdVGG/srNm/QGPVY4eYd926E37Cfa7Ownu2j69rl9Ngl43Vdiv7KxZf8Bj
+        laNH2LcdetN+gv3uToK7tk+v61eToNdNFfYrO2vWH/BY5egR9m2H3rSfYL+7k+Cu7dPr+tUk6HVThf3K
+        zpr1BzxWOXqEfduhN+0n2O/uJLhr+/S6fjUJet1UYb+yoxZHbZye+Qn2p3dSEvS6mYK73X32r9qhZ9mB
+        rvIR9hh65ifYn95JSdDrZgrudvfZv2qHnmUHuspH2GPomZ9gf3onJUGvmym4291n/6odepYd6CofYY+h
+        Z36C/emdlAS9bqbgbnef/at26Fl2oKt8hD2GnvkJ9qd3UhL0upmCu9199q/aoWfZga7yEfYYeuYn2J/e
+        SUnQ62YK7nb32b9qh55lB+1VPu6uSdAzP8F+N1XY7+5U4b3pXEn7Gh991yTomZ9gv5sq7Hd3qvDedK6k
+        fY2PvmsS9MxPsN9NFfa7O1V4bzpX0r7GR981CXrmJ9jvpgr73Z0qvDedK2lf46PvmgQ98xPsd1OF/e5O
+        Fd6bzpW0r/HRd02CnvkJ9rupwn53pwrvTedK9BofZ0nQ62Y3vGd36VkS9LpJ0Ov6KVXY7+YM2uYxS4Je
+        N7vhPbtLz5Kg102CXtdPqcJ+N2fQNo9ZEvS62Q3v2V16lgS9bhL0un5KFfa7OYO2ecySoNfNbnjP7tKz
+        JOh1k6DX9VOqsN/NGbTNY5YEvW52w3t2l54lQa+bBL2un1KF/W7OoG0esyTodbMb3rO79CwJet0k6HX9
+        lCrsd3MGbfPYxNEj3P10qrA/nQQ9S4Le03IGbfPYxNEj3P10qrA/nQQ9S4Le03IGbfPYxNEj3P10qrA/
+        nQQ9S4Le03IGbfPYxNEj3P10qrA/nQQ9S4Le03IGbfPYxNEj3P10qrA/nQQ9S4Le03IGbfPYxNEj3P10
+        qrA/nQQ9S4Le03KGc+0HwB/LfjR6XT+lCvuWKux3dxLctSToWVZYsx4MfxT7ceh1/ZQq7FuqsN/dSXDX
+        kqBnWWHNejD8UezHodf1U6qwb6nCfncnwV1Lgp5lhTXrwfBHsR+HXtdPqcK+pQr73Z0Edy0JepYV1qwH
+        wx/Ffhx6XT+lCvuWKux3dxLctSToWVZYsx4MfxT7ceh1/ZQq7FuqsN/dSXDXkqBnWUEtjt41U3DXkqBn
+        mYK73SToXeWnnEHbPHbXTMFdS4KeZQrudpOgd5WfcgZt89hdMwV3LQl6lim4202C3lV+yhm0zWN3zRTc
+        tSToWabgbjcJelf5KWfQNo/dNVNw15KgZ5mCu90k6F3lp5xB2zx210zBXUuCnmUK7naToHeVn3IGbfPY
+        xNEz8B32HnrTfhXuWhL0zE+w391JcLe7z35354i2eWzi6Bn4DnsPvWm/CnctCXrmJ9jv7iS4291nv7tz
+        RNs8NnH0DHyHvYfetF+Fu5YEPfMT7Hd3Etzt7rPf3TmibR6bOHoGvsPeQ2/ar8JdS4Ke+Qn2uzsJ7nb3
+        2e/uHNE2j00cPQPfYe+hN+1X4a4lQc/8BPvdnQR3u/vsd3eOaJvHJo6ege+w99Cb9qtw15KgZ36C/e5O
+        grvdffa7O0e0zWN2lF43CXrmJ9i/aofetF+Fu3fNDnSVj7DH0OsmQc/8BPtX7dCb9qtw967Zga7yEfYY
+        et0k6JmfYP+qHXrTfhXu3jU70FU+wh5Dr5sEPfMT7F+1Q2/ar8Ldu2YHuspH2GPodZOgZ36C/at26E37
+        Vbh71+xAV/kIewy9bhL0zE+wf9UOvWm/Cnfvmh3oKh9hj6HXTYJe109J0JtOFfZth960n2DfkqBn/gra
+        5jE7Sq+bBL2un5KgN50q7NsOvWk/wb4lQc/8FbTNY3aUXjcJel0/JUFvOlXYtx16036CfUuCnvkraJvH
+        7Ci9bhL0un5Kgt50qrBvO/Sm/QT7lgQ981fQNo/ZUXrdJOh1/ZQEvelUYd926E37CfYtCXrmr6BtHrOj
+        9LpJ0Ov6KQl606nCvu3Qm/YT7FsS9MxfQds8ZkfpdZOgN+0/BX6PfRc9858Cv6fyXWpx1MbpdZOgN+0/
+        BX6PfRc9858Cv6fyXWpx1MbpdZOgN+0/BX6PfRc9858Cv6fyXWpx1MbpdZOgN+0/BX6PfRc9858Cv6fy
+        XWpx1MbpdZOgN+0/BX6PfRc9858Cv6fyXWpx1MbpdZOgN+0/BX6PfRc9858Cv6fyXWpxtDK+A77D3kPv
+        adkN71mqsG9J0DN/BW3z2MTRM/Ad9h56T8tueM9ShX1Lgp75K2ibxyaOnoHvsPfQe1p2w3uWKuxbEvTM
+        X0HbPDZx9Ax8h72H3tOyG96zVGHfkqBn/gra5rGJo2fgO+w99J6W3fCepQr7lgQ981fQNo9NHD0D32Hv
+        ofe07Ib3LFXYtyTomb+CtnnsrpmCu5anw++xJOiZX4W7E/va5rG7ZgruWp4Ov8eSoGd+Fe5O7Gubx+6a
+        KbhreTr8HkuCnvlVuDuxr20eu2um4K7l6fB7LAl65lfh7sS+tnnsrpmCu5anw++xJOiZX4W7E/va5rG7
+        ZgruWp4Ov8eSoGd+Fe5O7J9rv7w8mPef/+Vref/5X76W95//5Wt5//lfvpb3n//la3n/+V++lvef/+Vr
+        ef/5X76W/wH9FUgUUTLiNQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="PictureBox23.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
         CQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwM
@@ -2741,10 +2961,37 @@ La cantidad de caracteres siempre debe ser la misma cantidad y
         B4I9jUdnoVjp1009vZ2kE7xpC0kcKq7In3UJAztXJwOgoooA/9k=
 </value>
   </data>
+  <data name="ComboBox17.ToolTip" xml:space="preserve">
+    <value>Código largo de MP 
+Es codificado por CONTABILIDAD al ingreso con estos criterios.
+CONTB Y AMORTIZACION / BOBINA / FABRICA / NOMBRE DEL CARTON TECNICO /
+ GRAMAKE / MEDIDA A PRIMERO NO FIBRA / MEDIDA B SIEMPRE FIBRA / FSC /
+PARA EMBALAGE PRIMARIO O SECUNDARIO / PAIS DE ORIGEN /  
+
+B/PAPI/VIT/GRA/000X000/FSC/ISEGA/PRI/333 
+
+La cantidad de caracteres siempre debe ser la misma cantidad y
+ es rellenado con X al final para completar la cantidad, pero nunca
+ menos cantidad que le corresponde 
+
+</value>
+  </data>
+  <metadata name="Panel12.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel18.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="Panel18.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Panel16.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel16.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel209.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="DataGridViewTextBoxColumn15.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -2838,6 +3085,9 @@ La cantidad de caracteres siempre debe ser la misma cantidad y
     <value>True</value>
   </metadata>
   <metadata name="Panel209.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel142.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="Button15.ToolTip" xml:space="preserve">
@@ -3108,7 +3358,13 @@ Menos Kilos presupuestado muy eficiente el analista.
   <metadata name="Panel49.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="Panel49.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="Panel142.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel186.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="Button1.ToolTip" xml:space="preserve">
@@ -3633,6 +3889,9 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
   <metadata name="Panel170.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="Panel170.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="MPocNumer.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -3696,6 +3955,9 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
   <metadata name="Panel186.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="Panel67.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="Button14.ToolTip" xml:space="preserve">
     <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
 Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
@@ -3704,6 +3966,9 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
 
 </value>
   </data>
+  <metadata name="Panel102.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="Panel102.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -4103,6 +4368,17 @@ Los otros celulares que está indicado detrás de cada cantidad sirven para todo
   <metadata name="Panel67.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="Panel83.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Button4.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
+  </data>
   <data name="PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -4426,7 +4702,13 @@ Los otros celulares que está indicado detrás de cada cantidad sirven para todo
   <metadata name="Panel82.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="Panel82.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="Panel83.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel144.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="ComboBox158.Items" xml:space="preserve">
@@ -5465,6 +5747,9 @@ Los otros celulares que está indicado detrás de cada cantidad sirven para todo
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
   <metadata name="Panel144.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel187.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Panel187.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

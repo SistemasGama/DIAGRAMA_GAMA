@@ -120,10 +120,15 @@
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>8, 7</value>
   </metadata>
-  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>8, 7</value>
-  </metadata>
   <data name="Button12.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
+  </data>
+  <data name="Button3.ToolTip" xml:space="preserve">
     <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
 Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
 
@@ -2593,6 +2598,14 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
         /9k=
 </value>
   </data>
+  <data name="Button18.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
+  </data>
   <data name="TextBox532.ToolTip" xml:space="preserve">
     <value>Codigo Gama del trabajo compuesto por:
 FECHA/N°FT/XL/N°CLIENTE/PLANCHA/A/DIGITALIZADOREsta codificado con este criterio un trabajo.
@@ -3484,14 +3497,6 @@ El objetivo manejar numero en la solapa de trabajo facilitando la identificacion
         ptbj37+nTtXs3/BPPUvEGm/tL29mVnbTZtPuY5965CxhVbIPXHmKg55596++xAB3f/vo0qxBWzyT71+o
         cN+ByyjHUMbDG8zpSUrez5b2e1/aPfbY8jMuPli8LUwzw9uZNX5r2v1tyrYcDkUUUV++H50FFFFABRRR
         QAUEA9aKKAAAAcDFFFFABRRRQAUUUUAf/9k=
-</value>
-  </data>
-  <data name="Button3.ToolTip" xml:space="preserve">
-    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
-Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
-
-Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
-
 </value>
   </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

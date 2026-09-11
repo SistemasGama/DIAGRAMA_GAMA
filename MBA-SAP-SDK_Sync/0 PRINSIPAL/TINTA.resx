@@ -117,6 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="TextBox468.Text" xml:space="preserve">
+    <value>DESCRPCION LITOPLAN
+NOMBRE DEL TRABAJO: ESTUCHES ERGO DOLANET X 20 COMP 
+1.000 Caja comprimido
+a tipo Manual 4x2x4 impresa por una cara 4x0 colores sobre papel Manual: (Ancho: 4,0 / Alto: 2,0 / Fondo: 4,0 / Meidanil Sup: 0,0 / Medianil lat: 0,0 /
+Pegue: 1,0 / Aleta cajon: 1 / Aleta Cruz 1,5)
+ Bond 60 terminado 1 cara barniz A. Brillo+UV </value>
+  </data>
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>744, 17</value>
   </metadata>
@@ -128,27 +136,19 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
 
 </value>
   </data>
-  <data name="Panel19.ToolTip" xml:space="preserve">
-    <value>% Mínimo: es la cantidad de trabajos que se
-entrego el mínimo nada maso sea esta por 
-debajo el promedio en % de la cantidad 
-solicitada por el cliente.
-El promedio de los trabajos que no alcanzaron 
-el pedido es este resultado en % y a bajo esta lo
-que significa en Gs. que se perdio por no 
-entregar lo asignado.
+  <data name="TextBox15.Text" xml:space="preserve">
+    <value>Indicaciones importante de antecedentes de esta TINTA PREPARADA:
+Secado con barniz Brillo tipo: xxxxxxxxxxxxxxxx xxxxxxxxxxxxx
+Secado con barniz Mate tipo: xxxxxxxxxxxxxxxx xxxxxxxxxxxxx
+Anclaje del Barniz UV: xxxxxxxxxxxxxxx xxxxxxxxxxxxx
+Tolerancia a la frixion: xxxxxxxxxxxxxxx xxxxxxxxxxxxx
 
-Tambien tenemos resultado del % Pedido, % maximo
-alcanzado y % por perdida.</value>
-  </data>
-  <data name="TextBox6.ToolTip" xml:space="preserve">
-    <value>Los gramos de consumo de tinta, sale de
-montaje cm2 dividido la cantidad de bocas,
-y calcula el consumo segun el area colocada de 
-% cubierto que puede ser 25% / 50% / 100%
-Con un mínimo de 300 gr de consumo fijo. </value>
+</value>
   </data>
   <metadata name="Panel7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel18.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="TextBox96.ToolTip" xml:space="preserve">
@@ -288,15 +288,73 @@ Tolerancia a la frixion: xxxxxxxxxxxxxxx xxxxxxxxxxxxx
   <metadata name="Panel30.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="Panel24.ToolTip" xml:space="preserve">
-    <value>Atención
-La linea de tinta LIOPACK es para alimento.
-Solamente utilizar para embalajes de alimento.
-Solamente preparar colores utilizando linea LIOPACK,
-no utilizar otra linea para sacar colores.
-Se dispone de 4 colores SELECCION para sacar todos los
-colores para embalajes de alimento.</value>
+  <data name="Button9.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
   </data>
+  <data name="Panel69.ToolTip" xml:space="preserve">
+    <value>% Mínimo: es la cantidad de trabajos que se
+entrego el mínimo nada maso sea esta por 
+debajo el promedio en % de la cantidad 
+solicitada por el cliente.
+El promedio de los trabajos que no alcanzaron 
+el pedido es este resultado en % y a bajo esta lo
+que significa en Gs. que se perdio por no 
+entregar lo asignado.
+
+Tambien tenemos resultado del % Pedido, % maximo
+alcanzado y % por perdida.</value>
+  </data>
+  <data name="TextBox256.ToolTip" xml:space="preserve">
+    <value>Los gramos de consumo de tinta, sale de
+montaje cm2 dividido la cantidad de bocas,
+y calcula el consumo segun el area colocada de 
+% cubierto que puede ser 25% / 50% / 100%
+Con un mínimo de 300 gr de consumo fijo. </value>
+  </data>
+  <metadata name="Panel82.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="TextBox312.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+</value>
+  </data>
+  <metadata name="Panel84.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel85.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="TextBox21.Text" xml:space="preserve">
+    <value>Indicaciones importante de antecedentes de esta TINTA PREPARADA:
+Secado con barniz Brillo tipo: xxxxxxxxxxxxxxxx xxxxxxxxxxxxx
+Secado con barniz Mate tipo: xxxxxxxxxxxxxxxx xxxxxxxxxxxxx
+Anclaje del Barniz UV: xxxxxxxxxxxxxxx xxxxxxxxxxxxx
+Tolerancia a la frixion: xxxxxxxxxxxxxxx xxxxxxxxxxxxx
+
+</value>
+  </data>
+  <metadata name="Panel42.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Button1.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
+  </data>
+  <metadata name="Panel60.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="BindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

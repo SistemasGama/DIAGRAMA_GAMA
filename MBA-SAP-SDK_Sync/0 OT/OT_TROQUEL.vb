@@ -1,5 +1,5 @@
 ﻿Public Class OT_TROQUEL
-    Private Sub Label154_Click(sender As Object, e As EventArgs) Handles Label154.Click, Label102.Click, Label135.Click
+    Private Sub Label154_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -28,6 +28,10 @@
     End Sub
 
     Private Sub Panel40_Paint(sender As Object, e As PaintEventArgs) Handles Panel40.Paint
+
+    End Sub
+
+    Private Sub Panel19_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
 End Class
