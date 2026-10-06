@@ -1,4 +1,4 @@
-﻿Public Class TINTA
+﻿Public Class OT_TINTA
     Private Sub Panel50_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
@@ -28,6 +28,10 @@
     End Sub
 
     Private Sub Panel37_Paint(sender As Object, e As PaintEventArgs) Handles Panel37.Paint
+
+    End Sub
+
+    Private Sub Label121_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

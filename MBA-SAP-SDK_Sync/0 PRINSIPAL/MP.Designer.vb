@@ -558,6 +558,7 @@ Partial Class MP
         Me.Standar = New System.Windows.Forms.TabPage()
         Me.Panel88 = New System.Windows.Forms.Panel()
         Me.Panel89 = New System.Windows.Forms.Panel()
+        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
         Me.Panel109 = New System.Windows.Forms.Panel()
         Me.CheckBox13 = New System.Windows.Forms.CheckBox()
         Me.Panel106 = New System.Windows.Forms.Panel()
@@ -566,8 +567,6 @@ Partial Class MP
         Me.Panel113 = New System.Windows.Forms.Panel()
         Me.Label185 = New System.Windows.Forms.Label()
         Me.Label186 = New System.Windows.Forms.Label()
-        Me.TextBox233 = New System.Windows.Forms.TextBox()
-        Me.Label254 = New System.Windows.Forms.Label()
         Me.TextBox175 = New System.Windows.Forms.TextBox()
         Me.Label174 = New System.Windows.Forms.Label()
         Me.TextBox179 = New System.Windows.Forms.TextBox()
@@ -623,7 +622,9 @@ Partial Class MP
         Me.ComboBox229 = New System.Windows.Forms.ComboBox()
         Me.Label124 = New System.Windows.Forms.Label()
         Me.TextBox151 = New System.Windows.Forms.TextBox()
+        Me.TextBox233 = New System.Windows.Forms.TextBox()
         Me.TextBox162 = New System.Windows.Forms.TextBox()
+        Me.Label254 = New System.Windows.Forms.Label()
         Me.Label145 = New System.Windows.Forms.Label()
         Me.Label146 = New System.Windows.Forms.Label()
         Me.Label147 = New System.Windows.Forms.Label()
@@ -2013,7 +2014,7 @@ Partial Class MP
         Me.Panel187 = New System.Windows.Forms.Panel()
         Me.Label411 = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.PictureBox24 = New System.Windows.Forms.PictureBox()
+        Me.ComboBox230 = New System.Windows.Forms.ComboBox()
         Me.TabControl1.SuspendLayout
         Me.Contabilidad.SuspendLayout
         Me.Panel40.SuspendLayout
@@ -2071,6 +2072,7 @@ Partial Class MP
         Me.Standar.SuspendLayout
         Me.Panel88.SuspendLayout
         Me.Panel89.SuspendLayout
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel109.SuspendLayout
         Me.Panel106.SuspendLayout
         Me.Panel111.SuspendLayout
@@ -2248,7 +2250,6 @@ Partial Class MP
         Me.Panel55.SuspendLayout
         Me.Panel58.SuspendLayout
         Me.Panel187.SuspendLayout
-        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).BeginInit
         Me.SuspendLayout
         '
         'TabControl1
@@ -4500,6 +4501,7 @@ Partial Class MP
         Me.Panel26.Controls.Add(Me.ComboBox38)
         Me.Panel26.Controls.Add(Me.ComboBox44)
         Me.Panel26.Controls.Add(Me.ComboBox35)
+        Me.Panel26.Controls.Add(Me.ComboBox230)
         Me.Panel26.Controls.Add(Me.ComboBox4)
         Me.Panel26.Controls.Add(Me.TextBox225)
         Me.Panel26.Controls.Add(Me.Label29)
@@ -4523,10 +4525,10 @@ Partial Class MP
         '
         Me.TextBox8.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox8.ForeColor = System.Drawing.Color.Black
-        Me.TextBox8.Location = New System.Drawing.Point(1213, 116)
+        Me.TextBox8.Location = New System.Drawing.Point(1246, 116)
         Me.TextBox8.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(101, 20)
+        Me.TextBox8.Size = New System.Drawing.Size(73, 20)
         Me.TextBox8.TabIndex = 727
         Me.TextBox8.Text = "XXXXX000"
         '
@@ -4539,9 +4541,9 @@ Partial Class MP
         Me.ComboBox23.ForeColor = System.Drawing.Color.Black
         Me.ComboBox23.FormattingEnabled = True
         Me.ComboBox23.Items.AddRange(New Object() {"INAN", "ISEGA", "ANVISA", "CETEA", "RDC", "GQSR"})
-        Me.ComboBox23.Location = New System.Drawing.Point(1142, 114)
+        Me.ComboBox23.Location = New System.Drawing.Point(1187, 113)
         Me.ComboBox23.Name = "ComboBox23"
-        Me.ComboBox23.Size = New System.Drawing.Size(66, 22)
+        Me.ComboBox23.Size = New System.Drawing.Size(54, 22)
         Me.ComboBox23.TabIndex = 728
         Me.ComboBox23.Text = "INAN"
         '
@@ -4549,10 +4551,10 @@ Partial Class MP
         '
         Me.TextBox7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox7.ForeColor = System.Drawing.Color.Black
-        Me.TextBox7.Location = New System.Drawing.Point(1213, 91)
+        Me.TextBox7.Location = New System.Drawing.Point(1246, 91)
         Me.TextBox7.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(101, 20)
+        Me.TextBox7.Size = New System.Drawing.Size(73, 20)
         Me.TextBox7.TabIndex = 727
         Me.TextBox7.Text = "XXXXX000"
         '
@@ -4565,9 +4567,9 @@ Partial Class MP
         Me.ComboBox22.ForeColor = System.Drawing.Color.Black
         Me.ComboBox22.FormattingEnabled = True
         Me.ComboBox22.Items.AddRange(New Object() {"INAN", "ISEGA", "ANVISA", "CETEA", "RDC", "GQSR"})
-        Me.ComboBox22.Location = New System.Drawing.Point(1142, 89)
+        Me.ComboBox22.Location = New System.Drawing.Point(1187, 88)
         Me.ComboBox22.Name = "ComboBox22"
-        Me.ComboBox22.Size = New System.Drawing.Size(66, 22)
+        Me.ComboBox22.Size = New System.Drawing.Size(54, 22)
         Me.ComboBox22.TabIndex = 728
         Me.ComboBox22.Text = "INAN"
         '
@@ -4575,10 +4577,10 @@ Partial Class MP
         '
         Me.TextBox9.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox9.ForeColor = System.Drawing.Color.Black
-        Me.TextBox9.Location = New System.Drawing.Point(1213, 36)
+        Me.TextBox9.Location = New System.Drawing.Point(1246, 36)
         Me.TextBox9.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(101, 20)
+        Me.TextBox9.Size = New System.Drawing.Size(73, 20)
         Me.TextBox9.TabIndex = 727
         Me.TextBox9.Text = "XXXXX000"
         '
@@ -4591,9 +4593,9 @@ Partial Class MP
         Me.ComboBox24.ForeColor = System.Drawing.Color.Black
         Me.ComboBox24.FormattingEnabled = True
         Me.ComboBox24.Items.AddRange(New Object() {"INAN", "ISEGA", "ANVISA", "CETEA", "RDC", "GQSR"})
-        Me.ComboBox24.Location = New System.Drawing.Point(1142, 35)
+        Me.ComboBox24.Location = New System.Drawing.Point(1187, 34)
         Me.ComboBox24.Name = "ComboBox24"
-        Me.ComboBox24.Size = New System.Drawing.Size(66, 22)
+        Me.ComboBox24.Size = New System.Drawing.Size(54, 22)
         Me.ComboBox24.TabIndex = 728
         Me.ComboBox24.Text = "INAN"
         '
@@ -4601,10 +4603,10 @@ Partial Class MP
         '
         Me.TextBox3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.ForeColor = System.Drawing.Color.Black
-        Me.TextBox3.Location = New System.Drawing.Point(1213, 66)
+        Me.TextBox3.Location = New System.Drawing.Point(1246, 66)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(101, 20)
+        Me.TextBox3.Size = New System.Drawing.Size(73, 20)
         Me.TextBox3.TabIndex = 727
         Me.TextBox3.Text = "XXXXX000"
         '
@@ -4617,9 +4619,9 @@ Partial Class MP
         Me.ComboBox17.ForeColor = System.Drawing.Color.Black
         Me.ComboBox17.FormattingEnabled = True
         Me.ComboBox17.Items.AddRange(New Object() {"INAN", "ISEGA", "ANVISA", "CETEA", "RDC", "GQSR"})
-        Me.ComboBox17.Location = New System.Drawing.Point(1142, 64)
+        Me.ComboBox17.Location = New System.Drawing.Point(1187, 63)
         Me.ComboBox17.Name = "ComboBox17"
-        Me.ComboBox17.Size = New System.Drawing.Size(66, 22)
+        Me.ComboBox17.Size = New System.Drawing.Size(54, 22)
         Me.ComboBox17.TabIndex = 728
         Me.ComboBox17.Text = "INAN"
         '
@@ -4937,11 +4939,11 @@ Partial Class MP
         Me.ComboBox2.ForeColor = System.Drawing.Color.Black
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"B/PAPI/VIT/GRA/000X000/FSC/ISEGA/PRI/333 ", "B/PAPI/VIT/GRA/000X000/FSC/ISEGA/PRI/333 ", "B/PAPI/VIT/GRA/000X000/FSC/ISEGA/PRI/333 "})
-        Me.ComboBox2.Location = New System.Drawing.Point(684, 64)
+        Me.ComboBox2.Location = New System.Drawing.Point(737, 63)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(265, 22)
         Me.ComboBox2.TabIndex = 167
-        Me.ComboBox2.Text = "B/PAPI/VIT/GRA/000X000/FSC/ISEGA/PRI/333 "
+        Me.ComboBox2.Text = "B/PAPI/VIT/GRA/000X000/FSC/ISEGA/PRI/333/D1,2 "
         Me.ToolTip1.SetToolTip(Me.ComboBox2, resources.GetString("ComboBox2.ToolTip"))
         '
         'ComboBox12
@@ -4953,11 +4955,11 @@ Partial Class MP
         Me.ComboBox12.ForeColor = System.Drawing.Color.Black
         Me.ComboBox12.FormattingEnabled = True
         Me.ComboBox12.Items.AddRange(New Object() {" GRA/000X000/FSC/VIT/PRI", " GRA/000X000/FSC/VIT/PRI ", " GRA/000X000/FSC/VIT/PRI", " GRA/000X000/FSC/VIT/PRI", " GRA/000X000/FSC/VIT/PRI", " GRA/000X000/FSC/VIT/PRI"})
-        Me.ComboBox12.Location = New System.Drawing.Point(959, 64)
+        Me.ComboBox12.Location = New System.Drawing.Point(1008, 63)
         Me.ComboBox12.Name = "ComboBox12"
         Me.ComboBox12.Size = New System.Drawing.Size(173, 22)
         Me.ComboBox12.TabIndex = 167
-        Me.ComboBox12.Text = "GRA/000X000/FSC/VIT/PRI"
+        Me.ComboBox12.Text = "GRA/000X000/FSC/VIT/PRI/D1,2"
         Me.ToolTip1.SetToolTip(Me.ComboBox12, resources.GetString("ComboBox12.ToolTip"))
         '
         'TextBox232
@@ -7578,6 +7580,20 @@ Partial Class MP
         Me.Panel89.TabIndex = 833
         Me.ToolTip1.SetToolTip(Me.Panel89, "Esta pantalla es para ver el estado de compromiso de Insumo, MP y Hora Hombre" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
+        'PictureBox24
+        '
+        Me.PictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox24.ErrorImage = Nothing
+        Me.PictureBox24.Image = CType(resources.GetObject("PictureBox24.Image"), System.Drawing.Image)
+        Me.PictureBox24.Location = New System.Drawing.Point(946, 33)
+        Me.PictureBox24.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox24.Name = "PictureBox24"
+        Me.PictureBox24.Size = New System.Drawing.Size(364, 311)
+        Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox24.TabIndex = 1157
+        Me.PictureBox24.TabStop = False
+        Me.ToolTip1.SetToolTip(Me.PictureBox24, "Indicaciones de Lugares y Nombres " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "utilizados por LITOPLAN.")
+        '
         'Panel109
         '
         Me.Panel109.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
@@ -7726,32 +7742,6 @@ Partial Class MP
         Me.Label186.Size = New System.Drawing.Size(76, 23)
         Me.Label186.TabIndex = 5
         Me.Label186.Text = "CLIENTE"
-        '
-        'TextBox233
-        '
-        Me.TextBox233.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.TextBox233.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox233.ForeColor = System.Drawing.Color.Black
-        Me.TextBox233.Location = New System.Drawing.Point(103, 276)
-        Me.TextBox233.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox233.Name = "TextBox233"
-        Me.TextBox233.Size = New System.Drawing.Size(37, 26)
-        Me.TextBox233.TabIndex = 705
-        Me.TextBox233.Text = "000"
-        Me.TextBox233.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'Label254
-        '
-        Me.Label254.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label254.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label254.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label254.Location = New System.Drawing.Point(16, 275)
-        Me.Label254.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label254.Name = "Label254"
-        Me.Label254.Size = New System.Drawing.Size(81, 26)
-        Me.Label254.TabIndex = 698
-        Me.Label254.Text = "Gramaje:"
-        Me.Label254.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'TextBox175
         '
@@ -8492,6 +8482,19 @@ Partial Class MP
         Me.ToolTip1.SetToolTip(Me.TextBox151, "Ancho de la CAJA." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Fijarse en el diseño cual es el ANCHO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Viene la información d" &
         "e LITOPLAN, se debe poder ajustar." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
+        'TextBox233
+        '
+        Me.TextBox233.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.TextBox233.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox233.ForeColor = System.Drawing.Color.Black
+        Me.TextBox233.Location = New System.Drawing.Point(103, 276)
+        Me.TextBox233.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox233.Name = "TextBox233"
+        Me.TextBox233.Size = New System.Drawing.Size(37, 26)
+        Me.TextBox233.TabIndex = 705
+        Me.TextBox233.Text = "000"
+        Me.TextBox233.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
         'TextBox162
         '
         Me.TextBox162.BackColor = System.Drawing.Color.Lime
@@ -8506,6 +8509,19 @@ Partial Class MP
         Me.TextBox162.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         Me.ToolTip1.SetToolTip(Me.TextBox162, "Alto de la CAJA." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Fijarse en el diseño cual es el ALTO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Viene la información de " &
         "LITOPLAN, se debe poder ajustar." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'Label254
+        '
+        Me.Label254.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label254.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label254.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label254.Location = New System.Drawing.Point(16, 275)
+        Me.Label254.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label254.Name = "Label254"
+        Me.Label254.Size = New System.Drawing.Size(81, 26)
+        Me.Label254.TabIndex = 698
+        Me.Label254.Text = "Gramaje:"
+        Me.Label254.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label145
         '
@@ -27883,19 +27899,21 @@ Partial Class MP
         Me.Label411.Text = "PERMISO INGRESO"
         Me.Label411.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'PictureBox24
+        'ComboBox230
         '
-        Me.PictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox24.ErrorImage = Nothing
-        Me.PictureBox24.Image = CType(resources.GetObject("PictureBox24.Image"), System.Drawing.Image)
-        Me.PictureBox24.Location = New System.Drawing.Point(946, 33)
-        Me.PictureBox24.Margin = New System.Windows.Forms.Padding(2)
-        Me.PictureBox24.Name = "PictureBox24"
-        Me.PictureBox24.Size = New System.Drawing.Size(364, 311)
-        Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox24.TabIndex = 1157
-        Me.PictureBox24.TabStop = False
-        Me.ToolTip1.SetToolTip(Me.PictureBox24, "Indicaciones de Lugares y Nombres " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "utilizados por LITOPLAN.")
+        Me.ComboBox230.BackColor = System.Drawing.Color.White
+        Me.ComboBox230.DropDownWidth = 272
+        Me.ComboBox230.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox230.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox230.ForeColor = System.Drawing.Color.Black
+        Me.ComboBox230.FormattingEnabled = True
+        Me.ComboBox230.Items.AddRange(New Object() {"BRA", "CIL", "USA", "EUR", "CHI", "IND", "NUE", "", "333"})
+        Me.ComboBox230.Location = New System.Drawing.Point(683, 64)
+        Me.ComboBox230.Name = "ComboBox230"
+        Me.ComboBox230.Size = New System.Drawing.Size(48, 22)
+        Me.ComboBox230.TabIndex = 183
+        Me.ComboBox230.Text = "D1,2"
+        Me.ToolTip1.SetToolTip(Me.ComboBox230, "Se el PRIME de la HP es un " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "anilox 1,2 BCM o anilox 1,8 BCM")
         '
         'MP
         '
@@ -27992,6 +28010,7 @@ Partial Class MP
         Me.Panel88.ResumeLayout(False)
         Me.Panel89.ResumeLayout(False)
         Me.Panel89.PerformLayout
+        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel109.ResumeLayout(False)
         Me.Panel109.PerformLayout
         Me.Panel106.ResumeLayout(False)
@@ -28246,7 +28265,6 @@ Partial Class MP
         Me.Panel58.ResumeLayout(False)
         Me.Panel58.PerformLayout
         Me.Panel187.ResumeLayout(False)
-        CType(Me.PictureBox24, System.ComponentModel.ISupportInitialize).EndInit
         Me.ResumeLayout(False)
 
     End Sub
@@ -30083,4 +30101,5 @@ Partial Class MP
     Friend WithEvents TextBox233 As TextBox
     Friend WithEvents Label254 As Label
     Friend WithEvents PictureBox24 As PictureBox
+    Friend WithEvents ComboBox230 As ComboBox
 End Class

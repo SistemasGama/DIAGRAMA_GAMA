@@ -112,6 +112,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="0 EMERGENTE\FrmPantallaEmergente1.Designer.vb">
+      <DependentUpon>FrmPantallaEmergente1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\FrmPantallaEmergente1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\FrmPantallaEmergente2.Designer.vb">
+      <DependentUpon>FrmPantallaEmergente2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\FrmPantallaEmergente2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="0 PRINSIPAL\INSUMOS.Designer.vb">
       <DependentUpon>INSUMOS.vb</DependentUpon>
     </Compile>
@@ -215,10 +227,10 @@
     <Compile Include="0 LIBRE\OT211.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 PRINSIPAL\TINTA.Designer.vb">
-      <DependentUpon>TINTA.vb</DependentUpon>
+    <Compile Include="0 OT\OT_TINTA.Designer.vb">
+      <DependentUpon>OT_TINTA.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 PRINSIPAL\TINTA.vb">
+    <Compile Include="0 OT\OT_TINTA.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 OT\OT_TROQUEL.Designer.vb">
@@ -252,6 +264,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="0 EMERGENTE\FrmPantallaEmergente1.resx">
+      <DependentUpon>FrmPantallaEmergente1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\FrmPantallaEmergente2.resx">
+      <DependentUpon>FrmPantallaEmergente2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="0 PRINSIPAL\INSUMOS.resx">
       <DependentUpon>INSUMOS.vb</DependentUpon>
     </EmbeddedResource>
@@ -303,8 +321,8 @@
     <EmbeddedResource Include="0 LIBRE\OT211.resx">
       <DependentUpon>OT211.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 PRINSIPAL\TINTA.resx">
-      <DependentUpon>TINTA.vb</DependentUpon>
+    <EmbeddedResource Include="0 OT\OT_TINTA.resx">
+      <DependentUpon>OT_TINTA.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 OT\OT_TROQUEL.resx">
       <DependentUpon>OT_TROQUEL.vb</DependentUpon>
@@ -355,8 +373,6 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="0 EMERGENTE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

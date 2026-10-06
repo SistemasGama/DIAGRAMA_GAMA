@@ -66,7 +66,6 @@ C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGR
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.NombreNuevo.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT14.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT15.resources
-C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.TINTA.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT7.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.Resources.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.vbproj.GenerateResource.cache
@@ -93,3 +92,6 @@ C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGR
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.INSUMOS.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT_MANTENIMIENTO.resources
 C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.DIAGRAMA_GANTT.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.OT_TINTA.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.FrmPantallaEmergente1.resources
+C:\Users\JoseMondolo\source\repos\DIAGRAMA_GAMA\MBA-SAP-SDK_Sync\obj\Debug\DIAGRAMA_GAMA.FrmPantallaEmergente2.resources

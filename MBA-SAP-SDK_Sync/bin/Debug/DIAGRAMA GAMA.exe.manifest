@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DIAGRAMA GAMA.exe" size="12464624">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DIAGRAMA GAMA.exe" size="12584944">
       <assemblyIdentity name="DIAGRAMA GAMA" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4phJ/ryPYOp+bn9/xt+f5DBlkGRAtaq4be1c+cUQFQU=</dsig:DigestValue>
+        <dsig:DigestValue>M4k+GGK5G/ticaclrin5iOKKlIXyM+ZyS4CeHUfbeiw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

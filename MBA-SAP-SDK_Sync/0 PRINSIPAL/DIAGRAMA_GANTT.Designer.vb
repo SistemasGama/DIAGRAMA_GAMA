@@ -150,6 +150,91 @@ Partial Class DIAGRAMA_GANTT
         Me.Label22 = New System.Windows.Forms.Label()
         Me.BindingSource1 = New System.Windows.Forms.BindingSource(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.ComboBox230 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox8 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox9 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox10 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox11 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox12 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox13 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox14 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox15 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox16 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox17 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox18 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox19 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox20 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox21 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox22 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox23 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox24 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox25 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox26 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox27 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox28 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox29 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox30 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox31 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox32 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox33 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox34 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox35 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox36 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox37 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox38 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox39 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox40 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox41 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox42 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox43 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox44 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox45 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox46 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox47 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox48 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox49 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox50 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox51 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox52 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox53 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox54 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox55 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox56 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox57 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox58 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox59 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox60 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox61 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox62 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox63 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox64 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox65 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox66 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox67 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox68 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox69 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox70 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox71 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox72 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox73 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox74 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox75 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox76 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox77 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox78 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox79 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox80 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox81 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox82 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox84 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox86 = New System.Windows.Forms.ComboBox()
         Me.Panel147.SuspendLayout()
         Me.Panel314.SuspendLayout()
         Me.Panel148.SuspendLayout()
@@ -176,6 +261,91 @@ Partial Class DIAGRAMA_GANTT
         '
         Me.Panel147.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Panel147.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel147.Controls.Add(Me.ComboBox10)
+        Me.Panel147.Controls.Add(Me.ComboBox79)
+        Me.Panel147.Controls.Add(Me.ComboBox86)
+        Me.Panel147.Controls.Add(Me.ComboBox71)
+        Me.Panel147.Controls.Add(Me.ComboBox78)
+        Me.Panel147.Controls.Add(Me.ComboBox63)
+        Me.Panel147.Controls.Add(Me.ComboBox70)
+        Me.Panel147.Controls.Add(Me.ComboBox55)
+        Me.Panel147.Controls.Add(Me.ComboBox62)
+        Me.Panel147.Controls.Add(Me.ComboBox50)
+        Me.Panel147.Controls.Add(Me.ComboBox77)
+        Me.Panel147.Controls.Add(Me.ComboBox42)
+        Me.Panel147.Controls.Add(Me.ComboBox69)
+        Me.Panel147.Controls.Add(Me.ComboBox84)
+        Me.Panel147.Controls.Add(Me.ComboBox30)
+        Me.Panel147.Controls.Add(Me.ComboBox76)
+        Me.Panel147.Controls.Add(Me.ComboBox61)
+        Me.Panel147.Controls.Add(Me.ComboBox68)
+        Me.Panel147.Controls.Add(Me.ComboBox54)
+        Me.Panel147.Controls.Add(Me.ComboBox60)
+        Me.Panel147.Controls.Add(Me.ComboBox49)
+        Me.Panel147.Controls.Add(Me.ComboBox75)
+        Me.Panel147.Controls.Add(Me.ComboBox41)
+        Me.Panel147.Controls.Add(Me.ComboBox67)
+        Me.Panel147.Controls.Add(Me.ComboBox82)
+        Me.Panel147.Controls.Add(Me.ComboBox29)
+        Me.Panel147.Controls.Add(Me.ComboBox74)
+        Me.Panel147.Controls.Add(Me.ComboBox59)
+        Me.Panel147.Controls.Add(Me.ComboBox66)
+        Me.Panel147.Controls.Add(Me.ComboBox53)
+        Me.Panel147.Controls.Add(Me.ComboBox58)
+        Me.Panel147.Controls.Add(Me.ComboBox81)
+        Me.Panel147.Controls.Add(Me.ComboBox48)
+        Me.Panel147.Controls.Add(Me.ComboBox73)
+        Me.Panel147.Controls.Add(Me.ComboBox40)
+        Me.Panel147.Controls.Add(Me.ComboBox65)
+        Me.Panel147.Controls.Add(Me.ComboBox28)
+        Me.Panel147.Controls.Add(Me.ComboBox57)
+        Me.Panel147.Controls.Add(Me.ComboBox80)
+        Me.Panel147.Controls.Add(Me.ComboBox52)
+        Me.Panel147.Controls.Add(Me.ComboBox72)
+        Me.Panel147.Controls.Add(Me.ComboBox47)
+        Me.Panel147.Controls.Add(Me.ComboBox64)
+        Me.Panel147.Controls.Add(Me.ComboBox39)
+        Me.Panel147.Controls.Add(Me.ComboBox56)
+        Me.Panel147.Controls.Add(Me.ComboBox27)
+        Me.Panel147.Controls.Add(Me.ComboBox51)
+        Me.Panel147.Controls.Add(Me.ComboBox46)
+        Me.Panel147.Controls.Add(Me.ComboBox38)
+        Me.Panel147.Controls.Add(Me.ComboBox26)
+        Me.Panel147.Controls.Add(Me.ComboBox45)
+        Me.Panel147.Controls.Add(Me.ComboBox37)
+        Me.Panel147.Controls.Add(Me.ComboBox25)
+        Me.Panel147.Controls.Add(Me.ComboBox44)
+        Me.Panel147.Controls.Add(Me.ComboBox36)
+        Me.Panel147.Controls.Add(Me.ComboBox43)
+        Me.Panel147.Controls.Add(Me.ComboBox24)
+        Me.Panel147.Controls.Add(Me.ComboBox35)
+        Me.Panel147.Controls.Add(Me.ComboBox23)
+        Me.Panel147.Controls.Add(Me.ComboBox34)
+        Me.Panel147.Controls.Add(Me.ComboBox22)
+        Me.Panel147.Controls.Add(Me.ComboBox33)
+        Me.Panel147.Controls.Add(Me.ComboBox21)
+        Me.Panel147.Controls.Add(Me.ComboBox32)
+        Me.Panel147.Controls.Add(Me.ComboBox31)
+        Me.Panel147.Controls.Add(Me.ComboBox20)
+        Me.Panel147.Controls.Add(Me.ComboBox19)
+        Me.Panel147.Controls.Add(Me.ComboBox18)
+        Me.Panel147.Controls.Add(Me.ComboBox17)
+        Me.Panel147.Controls.Add(Me.ComboBox16)
+        Me.Panel147.Controls.Add(Me.ComboBox15)
+        Me.Panel147.Controls.Add(Me.ComboBox14)
+        Me.Panel147.Controls.Add(Me.ComboBox13)
+        Me.Panel147.Controls.Add(Me.ComboBox12)
+        Me.Panel147.Controls.Add(Me.ComboBox11)
+        Me.Panel147.Controls.Add(Me.ComboBox9)
+        Me.Panel147.Controls.Add(Me.ComboBox5)
+        Me.Panel147.Controls.Add(Me.ComboBox8)
+        Me.Panel147.Controls.Add(Me.ComboBox2)
+        Me.Panel147.Controls.Add(Me.ComboBox7)
+        Me.Panel147.Controls.Add(Me.ComboBox4)
+        Me.Panel147.Controls.Add(Me.ComboBox6)
+        Me.Panel147.Controls.Add(Me.ComboBox1)
+        Me.Panel147.Controls.Add(Me.ComboBox3)
+        Me.Panel147.Controls.Add(Me.ComboBox230)
         Me.Panel147.Controls.Add(Me.Label231)
         Me.Panel147.Controls.Add(Me.Label34)
         Me.Panel147.Controls.Add(Me.Label33)
@@ -296,7 +466,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label231.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label231.ForeColor = System.Drawing.Color.Black
         Me.Label231.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label231.Location = New System.Drawing.Point(11, 1257)
+        Me.Label231.Location = New System.Drawing.Point(145, 1262)
         Me.Label231.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label231.Name = "Label231"
         Me.Label231.Size = New System.Drawing.Size(146, 19)
@@ -310,7 +480,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label34.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.ForeColor = System.Drawing.Color.Blue
         Me.Label34.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label34.Location = New System.Drawing.Point(39, 1372)
+        Me.Label34.Location = New System.Drawing.Point(173, 1377)
         Me.Label34.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(118, 19)
@@ -324,7 +494,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label33.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label33.ForeColor = System.Drawing.Color.Blue
         Me.Label33.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label33.Location = New System.Drawing.Point(39, 1349)
+        Me.Label33.Location = New System.Drawing.Point(173, 1354)
         Me.Label33.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(118, 19)
@@ -338,7 +508,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label31.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.ForeColor = System.Drawing.Color.Blue
         Me.Label31.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label31.Location = New System.Drawing.Point(39, 1326)
+        Me.Label31.Location = New System.Drawing.Point(173, 1331)
         Me.Label31.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(118, 19)
@@ -352,7 +522,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label30.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.ForeColor = System.Drawing.Color.Blue
         Me.Label30.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label30.Location = New System.Drawing.Point(39, 1303)
+        Me.Label30.Location = New System.Drawing.Point(173, 1308)
         Me.Label30.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(118, 19)
@@ -366,7 +536,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label227.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label227.ForeColor = System.Drawing.Color.Blue
         Me.Label227.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label227.Location = New System.Drawing.Point(39, 1280)
+        Me.Label227.Location = New System.Drawing.Point(173, 1285)
         Me.Label227.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label227.Name = "Label227"
         Me.Label227.Size = New System.Drawing.Size(118, 19)
@@ -380,7 +550,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label226.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label226.ForeColor = System.Drawing.Color.Black
         Me.Label226.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label226.Location = New System.Drawing.Point(11, 1395)
+        Me.Label226.Location = New System.Drawing.Point(145, 1400)
         Me.Label226.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label226.Name = "Label226"
         Me.Label226.Size = New System.Drawing.Size(146, 19)
@@ -395,7 +565,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label49.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label49.ForeColor = System.Drawing.Color.Black
         Me.Label49.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label49.Location = New System.Drawing.Point(11, 1096)
+        Me.Label49.Location = New System.Drawing.Point(145, 1101)
         Me.Label49.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(146, 19)
@@ -410,7 +580,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label8.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Green
         Me.Label8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label8.Location = New System.Drawing.Point(26, 766)
+        Me.Label8.Location = New System.Drawing.Point(160, 771)
         Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(131, 19)
@@ -425,7 +595,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label11.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Green
         Me.Label11.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label11.Location = New System.Drawing.Point(26, 720)
+        Me.Label11.Location = New System.Drawing.Point(160, 725)
         Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(131, 19)
@@ -440,7 +610,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label9.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Green
         Me.Label9.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label9.Location = New System.Drawing.Point(26, 789)
+        Me.Label9.Location = New System.Drawing.Point(160, 794)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(131, 19)
@@ -455,7 +625,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label7.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Green
         Me.Label7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label7.Location = New System.Drawing.Point(26, 743)
+        Me.Label7.Location = New System.Drawing.Point(160, 748)
         Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(131, 19)
@@ -470,7 +640,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label6.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Green
         Me.Label6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label6.Location = New System.Drawing.Point(26, 697)
+        Me.Label6.Location = New System.Drawing.Point(160, 702)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(131, 19)
@@ -485,7 +655,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label5.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Green
         Me.Label5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label5.Location = New System.Drawing.Point(26, 674)
+        Me.Label5.Location = New System.Drawing.Point(160, 679)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(131, 19)
@@ -500,7 +670,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label4.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Green
         Me.Label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label4.Location = New System.Drawing.Point(26, 651)
+        Me.Label4.Location = New System.Drawing.Point(160, 656)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(131, 19)
@@ -515,7 +685,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label43.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label43.ForeColor = System.Drawing.Color.Blue
         Me.Label43.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label43.Location = New System.Drawing.Point(71, 1019)
+        Me.Label43.Location = New System.Drawing.Point(205, 1024)
         Me.Label43.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(86, 19)
@@ -530,7 +700,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label29.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.Blue
         Me.Label29.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label29.Location = New System.Drawing.Point(71, 996)
+        Me.Label29.Location = New System.Drawing.Point(205, 1001)
         Me.Label29.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(86, 19)
@@ -545,7 +715,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label28.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.Color.Blue
         Me.Label28.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label28.Location = New System.Drawing.Point(71, 973)
+        Me.Label28.Location = New System.Drawing.Point(205, 978)
         Me.Label28.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(86, 19)
@@ -560,7 +730,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label12.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Blue
         Me.Label12.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label12.Location = New System.Drawing.Point(71, 950)
+        Me.Label12.Location = New System.Drawing.Point(205, 955)
         Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(86, 19)
@@ -575,7 +745,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label10.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Blue
         Me.Label10.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label10.Location = New System.Drawing.Point(71, 927)
+        Me.Label10.Location = New System.Drawing.Point(205, 932)
         Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(86, 19)
@@ -590,7 +760,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label36.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.ForeColor = System.Drawing.Color.Green
         Me.Label36.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label36.Location = New System.Drawing.Point(26, 881)
+        Me.Label36.Location = New System.Drawing.Point(160, 886)
         Me.Label36.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(131, 19)
@@ -605,7 +775,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label35.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.ForeColor = System.Drawing.Color.Green
         Me.Label35.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label35.Location = New System.Drawing.Point(26, 858)
+        Me.Label35.Location = New System.Drawing.Point(160, 863)
         Me.Label35.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(131, 19)
@@ -620,7 +790,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label24.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.Color.Green
         Me.Label24.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label24.Location = New System.Drawing.Point(26, 835)
+        Me.Label24.Location = New System.Drawing.Point(160, 840)
         Me.Label24.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(131, 19)
@@ -635,7 +805,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label25.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.Color.Green
         Me.Label25.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label25.Location = New System.Drawing.Point(26, 536)
+        Me.Label25.Location = New System.Drawing.Point(160, 541)
         Me.Label25.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(131, 19)
@@ -650,7 +820,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label26.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.Color.Green
         Me.Label26.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label26.Location = New System.Drawing.Point(26, 398)
+        Me.Label26.Location = New System.Drawing.Point(160, 403)
         Me.Label26.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(131, 19)
@@ -665,7 +835,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label23.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.ForeColor = System.Drawing.Color.Green
         Me.Label23.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label23.Location = New System.Drawing.Point(26, 559)
+        Me.Label23.Location = New System.Drawing.Point(160, 564)
         Me.Label23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(131, 19)
@@ -680,7 +850,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label21.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ForeColor = System.Drawing.Color.Green
         Me.Label21.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label21.Location = New System.Drawing.Point(26, 513)
+        Me.Label21.Location = New System.Drawing.Point(160, 518)
         Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(131, 19)
@@ -695,7 +865,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label20.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Green
         Me.Label20.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label20.Location = New System.Drawing.Point(26, 812)
+        Me.Label20.Location = New System.Drawing.Point(160, 817)
         Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(131, 19)
@@ -710,7 +880,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label19.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.Green
         Me.Label19.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label19.Location = New System.Drawing.Point(26, 490)
+        Me.Label19.Location = New System.Drawing.Point(160, 495)
         Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(131, 19)
@@ -725,7 +895,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label18.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Green
         Me.Label18.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label18.Location = New System.Drawing.Point(26, 605)
+        Me.Label18.Location = New System.Drawing.Point(160, 610)
         Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(131, 19)
@@ -740,7 +910,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label17.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.Green
         Me.Label17.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label17.Location = New System.Drawing.Point(26, 467)
+        Me.Label17.Location = New System.Drawing.Point(160, 472)
         Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(131, 19)
@@ -755,7 +925,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label16.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.Green
         Me.Label16.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label16.Location = New System.Drawing.Point(26, 582)
+        Me.Label16.Location = New System.Drawing.Point(160, 587)
         Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(131, 19)
@@ -770,7 +940,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label15.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Green
         Me.Label15.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label15.Location = New System.Drawing.Point(26, 444)
+        Me.Label15.Location = New System.Drawing.Point(160, 449)
         Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(131, 19)
@@ -785,7 +955,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label14.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.Green
         Me.Label14.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label14.Location = New System.Drawing.Point(26, 421)
+        Me.Label14.Location = New System.Drawing.Point(160, 426)
         Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(131, 19)
@@ -800,7 +970,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label13.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.Color.Green
         Me.Label13.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label13.Location = New System.Drawing.Point(26, 375)
+        Me.Label13.Location = New System.Drawing.Point(160, 380)
         Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(131, 19)
@@ -815,7 +985,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label3.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Green
         Me.Label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label3.Location = New System.Drawing.Point(26, 628)
+        Me.Label3.Location = New System.Drawing.Point(160, 633)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(131, 19)
@@ -830,7 +1000,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label178.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label178.ForeColor = System.Drawing.Color.Black
         Me.Label178.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label178.Location = New System.Drawing.Point(11, 352)
+        Me.Label178.Location = New System.Drawing.Point(145, 357)
         Me.Label178.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label178.Name = "Label178"
         Me.Label178.Size = New System.Drawing.Size(146, 19)
@@ -844,7 +1014,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label174.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label174.ForeColor = System.Drawing.Color.Black
         Me.Label174.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label174.Location = New System.Drawing.Point(11, 1050)
+        Me.Label174.Location = New System.Drawing.Point(145, 1055)
         Me.Label174.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label174.Name = "Label174"
         Me.Label174.Size = New System.Drawing.Size(146, 19)
@@ -859,7 +1029,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label225.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label225.ForeColor = System.Drawing.Color.Black
         Me.Label225.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label225.Location = New System.Drawing.Point(11, 1211)
+        Me.Label225.Location = New System.Drawing.Point(145, 1216)
         Me.Label225.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label225.Name = "Label225"
         Me.Label225.Size = New System.Drawing.Size(146, 19)
@@ -874,7 +1044,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label175.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label175.ForeColor = System.Drawing.Color.Black
         Me.Label175.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label175.Location = New System.Drawing.Point(11, 191)
+        Me.Label175.Location = New System.Drawing.Point(145, 196)
         Me.Label175.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label175.Name = "Label175"
         Me.Label175.Size = New System.Drawing.Size(146, 19)
@@ -888,7 +1058,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label176.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label176.ForeColor = System.Drawing.Color.Black
         Me.Label176.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label176.Location = New System.Drawing.Point(11, 1073)
+        Me.Label176.Location = New System.Drawing.Point(145, 1078)
         Me.Label176.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label176.Name = "Label176"
         Me.Label176.Size = New System.Drawing.Size(146, 19)
@@ -903,7 +1073,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label177.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label177.ForeColor = System.Drawing.Color.Blue
         Me.Label177.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label177.Location = New System.Drawing.Point(11, 904)
+        Me.Label177.Location = New System.Drawing.Point(145, 909)
         Me.Label177.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label177.Name = "Label177"
         Me.Label177.Size = New System.Drawing.Size(146, 19)
@@ -917,7 +1087,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label61.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label61.ForeColor = System.Drawing.Color.Black
         Me.Label61.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label61.Location = New System.Drawing.Point(161, 467)
+        Me.Label61.Location = New System.Drawing.Point(295, 472)
         Me.Label61.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(275, 111)
@@ -931,7 +1101,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label57.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label57.ForeColor = System.Drawing.Color.Black
         Me.Label57.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label57.Location = New System.Drawing.Point(575, 139)
+        Me.Label57.Location = New System.Drawing.Point(709, 144)
         Me.Label57.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(275, 301)
@@ -945,7 +1115,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label44.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label44.ForeColor = System.Drawing.Color.Black
         Me.Label44.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label44.Location = New System.Drawing.Point(246, 139)
+        Me.Label44.Location = New System.Drawing.Point(380, 144)
         Me.Label44.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(275, 123)
@@ -959,7 +1129,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label50.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label50.ForeColor = System.Drawing.Color.Black
         Me.Label50.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label50.Location = New System.Drawing.Point(923, 115)
+        Me.Label50.Location = New System.Drawing.Point(1057, 120)
         Me.Label50.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label50.Name = "Label50"
         Me.Label50.Size = New System.Drawing.Size(738, 19)
@@ -975,7 +1145,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label48.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label48.ForeColor = System.Drawing.Color.Black
         Me.Label48.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label48.Location = New System.Drawing.Point(923, 92)
+        Me.Label48.Location = New System.Drawing.Point(1057, 97)
         Me.Label48.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(738, 19)
@@ -989,7 +1159,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label47.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label47.ForeColor = System.Drawing.Color.Black
         Me.Label47.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label47.Location = New System.Drawing.Point(181, 115)
+        Me.Label47.Location = New System.Drawing.Point(315, 120)
         Me.Label47.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label47.Name = "Label47"
         Me.Label47.Size = New System.Drawing.Size(738, 19)
@@ -1005,7 +1175,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label46.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label46.ForeColor = System.Drawing.Color.Black
         Me.Label46.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label46.Location = New System.Drawing.Point(181, 92)
+        Me.Label46.Location = New System.Drawing.Point(315, 97)
         Me.Label46.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(738, 19)
@@ -1019,7 +1189,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label45.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label45.ForeColor = System.Drawing.Color.Black
         Me.Label45.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label45.Location = New System.Drawing.Point(181, 61)
+        Me.Label45.Location = New System.Drawing.Point(315, 66)
         Me.Label45.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(1284, 19)
@@ -1033,7 +1203,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label40.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label40.ForeColor = System.Drawing.Color.Black
         Me.Label40.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label40.Location = New System.Drawing.Point(181, 33)
+        Me.Label40.Location = New System.Drawing.Point(315, 38)
         Me.Label40.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(1208, 19)
@@ -1047,7 +1217,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label179.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label179.ForeColor = System.Drawing.Color.Black
         Me.Label179.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label179.Location = New System.Drawing.Point(11, 168)
+        Me.Label179.Location = New System.Drawing.Point(145, 173)
         Me.Label179.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label179.Name = "Label179"
         Me.Label179.Size = New System.Drawing.Size(146, 19)
@@ -1061,7 +1231,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label192.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label192.ForeColor = System.Drawing.Color.Green
         Me.Label192.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label192.Location = New System.Drawing.Point(53, 1920)
+        Me.Label192.Location = New System.Drawing.Point(187, 1925)
         Me.Label192.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label192.Name = "Label192"
         Me.Label192.Size = New System.Drawing.Size(104, 19)
@@ -1075,7 +1245,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label189.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label189.ForeColor = System.Drawing.Color.Green
         Me.Label189.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label189.Location = New System.Drawing.Point(53, 1815)
+        Me.Label189.Location = New System.Drawing.Point(187, 1820)
         Me.Label189.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label189.Name = "Label189"
         Me.Label189.Size = New System.Drawing.Size(104, 19)
@@ -1090,7 +1260,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label190.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label190.ForeColor = System.Drawing.Color.Black
         Me.Label190.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label190.Location = New System.Drawing.Point(11, 1695)
+        Me.Label190.Location = New System.Drawing.Point(145, 1700)
         Me.Label190.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label190.Name = "Label190"
         Me.Label190.Size = New System.Drawing.Size(146, 19)
@@ -1105,7 +1275,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label191.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label191.ForeColor = System.Drawing.Color.Black
         Me.Label191.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label191.Location = New System.Drawing.Point(11, 1670)
+        Me.Label191.Location = New System.Drawing.Point(145, 1675)
         Me.Label191.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label191.Name = "Label191"
         Me.Label191.Size = New System.Drawing.Size(146, 19)
@@ -1120,7 +1290,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label193.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label193.ForeColor = System.Drawing.Color.Black
         Me.Label193.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label193.Location = New System.Drawing.Point(11, 1644)
+        Me.Label193.Location = New System.Drawing.Point(145, 1649)
         Me.Label193.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label193.Name = "Label193"
         Me.Label193.Size = New System.Drawing.Size(146, 19)
@@ -1135,7 +1305,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label194.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label194.ForeColor = System.Drawing.Color.Black
         Me.Label194.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label194.Location = New System.Drawing.Point(11, 1617)
+        Me.Label194.Location = New System.Drawing.Point(145, 1622)
         Me.Label194.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label194.Name = "Label194"
         Me.Label194.Size = New System.Drawing.Size(146, 19)
@@ -1149,7 +1319,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label195.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label195.ForeColor = System.Drawing.Color.Green
         Me.Label195.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label195.Location = New System.Drawing.Point(53, 1945)
+        Me.Label195.Location = New System.Drawing.Point(187, 1950)
         Me.Label195.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label195.Name = "Label195"
         Me.Label195.Size = New System.Drawing.Size(104, 19)
@@ -1165,7 +1335,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label196.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label196.ForeColor = System.Drawing.Color.Black
         Me.Label196.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label196.Location = New System.Drawing.Point(11, 2000)
+        Me.Label196.Location = New System.Drawing.Point(145, 2005)
         Me.Label196.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label196.Name = "Label196"
         Me.Label196.Size = New System.Drawing.Size(146, 19)
@@ -1181,7 +1351,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label197.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label197.ForeColor = System.Drawing.Color.Black
         Me.Label197.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label197.Location = New System.Drawing.Point(11, 2024)
+        Me.Label197.Location = New System.Drawing.Point(145, 2029)
         Me.Label197.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label197.Name = "Label197"
         Me.Label197.Size = New System.Drawing.Size(146, 19)
@@ -1195,7 +1365,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label199.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label199.ForeColor = System.Drawing.Color.Green
         Me.Label199.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label199.Location = New System.Drawing.Point(11, 1970)
+        Me.Label199.Location = New System.Drawing.Point(145, 1975)
         Me.Label199.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label199.Name = "Label199"
         Me.Label199.Size = New System.Drawing.Size(146, 19)
@@ -1210,7 +1380,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label200.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label200.ForeColor = System.Drawing.Color.Black
         Me.Label200.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label200.Location = New System.Drawing.Point(11, 1719)
+        Me.Label200.Location = New System.Drawing.Point(145, 1724)
         Me.Label200.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label200.Name = "Label200"
         Me.Label200.Size = New System.Drawing.Size(146, 19)
@@ -1225,7 +1395,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label201.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label201.ForeColor = System.Drawing.Color.Black
         Me.Label201.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label201.Location = New System.Drawing.Point(11, 1845)
+        Me.Label201.Location = New System.Drawing.Point(145, 1850)
         Me.Label201.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label201.Name = "Label201"
         Me.Label201.Size = New System.Drawing.Size(146, 19)
@@ -1240,7 +1410,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label202.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label202.ForeColor = System.Drawing.Color.Black
         Me.Label202.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label202.Location = New System.Drawing.Point(11, 1870)
+        Me.Label202.Location = New System.Drawing.Point(145, 1875)
         Me.Label202.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label202.Name = "Label202"
         Me.Label202.Size = New System.Drawing.Size(146, 19)
@@ -1254,7 +1424,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label204.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label204.ForeColor = System.Drawing.Color.Black
         Me.Label204.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label204.Location = New System.Drawing.Point(26, 1744)
+        Me.Label204.Location = New System.Drawing.Point(160, 1749)
         Me.Label204.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label204.Name = "Label204"
         Me.Label204.Size = New System.Drawing.Size(131, 19)
@@ -1268,7 +1438,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label208.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label208.ForeColor = System.Drawing.Color.Black
         Me.Label208.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label208.Location = New System.Drawing.Point(26, 1790)
+        Me.Label208.Location = New System.Drawing.Point(160, 1795)
         Me.Label208.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label208.Name = "Label208"
         Me.Label208.Size = New System.Drawing.Size(131, 19)
@@ -1282,7 +1452,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label209.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label209.ForeColor = System.Drawing.Color.Green
         Me.Label209.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label209.Location = New System.Drawing.Point(53, 1767)
+        Me.Label209.Location = New System.Drawing.Point(187, 1772)
         Me.Label209.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label209.Name = "Label209"
         Me.Label209.Size = New System.Drawing.Size(104, 19)
@@ -1296,7 +1466,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label210.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label210.ForeColor = System.Drawing.Color.Green
         Me.Label210.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label210.Location = New System.Drawing.Point(53, 1895)
+        Me.Label210.Location = New System.Drawing.Point(187, 1900)
         Me.Label210.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label210.Name = "Label210"
         Me.Label210.Size = New System.Drawing.Size(104, 19)
@@ -1311,7 +1481,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label211.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label211.ForeColor = System.Drawing.Color.Black
         Me.Label211.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label211.Location = New System.Drawing.Point(11, 1418)
+        Me.Label211.Location = New System.Drawing.Point(145, 1423)
         Me.Label211.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label211.Name = "Label211"
         Me.Label211.Size = New System.Drawing.Size(146, 19)
@@ -1325,7 +1495,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label212.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label212.ForeColor = System.Drawing.Color.Blue
         Me.Label212.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label212.Location = New System.Drawing.Point(26, 1593)
+        Me.Label212.Location = New System.Drawing.Point(160, 1598)
         Me.Label212.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label212.Name = "Label212"
         Me.Label212.Size = New System.Drawing.Size(131, 19)
@@ -1339,7 +1509,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label215.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label215.ForeColor = System.Drawing.Color.Blue
         Me.Label215.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label215.Location = New System.Drawing.Point(26, 1568)
+        Me.Label215.Location = New System.Drawing.Point(160, 1573)
         Me.Label215.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label215.Name = "Label215"
         Me.Label215.Size = New System.Drawing.Size(131, 19)
@@ -1353,7 +1523,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label219.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label219.ForeColor = System.Drawing.Color.Blue
         Me.Label219.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label219.Location = New System.Drawing.Point(26, 1543)
+        Me.Label219.Location = New System.Drawing.Point(160, 1548)
         Me.Label219.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label219.Name = "Label219"
         Me.Label219.Size = New System.Drawing.Size(131, 19)
@@ -1367,7 +1537,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label221.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label221.ForeColor = System.Drawing.Color.Blue
         Me.Label221.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label221.Location = New System.Drawing.Point(26, 1518)
+        Me.Label221.Location = New System.Drawing.Point(160, 1523)
         Me.Label221.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label221.Name = "Label221"
         Me.Label221.Size = New System.Drawing.Size(131, 19)
@@ -1382,7 +1552,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label186.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label186.ForeColor = System.Drawing.Color.Black
         Me.Label186.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label186.Location = New System.Drawing.Point(11, 214)
+        Me.Label186.Location = New System.Drawing.Point(145, 219)
         Me.Label186.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label186.Name = "Label186"
         Me.Label186.Size = New System.Drawing.Size(146, 19)
@@ -1396,7 +1566,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label222.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label222.ForeColor = System.Drawing.Color.Blue
         Me.Label222.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label222.Location = New System.Drawing.Point(26, 1493)
+        Me.Label222.Location = New System.Drawing.Point(160, 1498)
         Me.Label222.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label222.Name = "Label222"
         Me.Label222.Size = New System.Drawing.Size(131, 19)
@@ -1410,7 +1580,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label223.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label223.ForeColor = System.Drawing.Color.Blue
         Me.Label223.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label223.Location = New System.Drawing.Point(26, 1467)
+        Me.Label223.Location = New System.Drawing.Point(160, 1472)
         Me.Label223.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label223.Name = "Label223"
         Me.Label223.Size = New System.Drawing.Size(131, 19)
@@ -1425,7 +1595,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label64.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label64.ForeColor = System.Drawing.Color.Black
         Me.Label64.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label64.Location = New System.Drawing.Point(345, 375)
+        Me.Label64.Location = New System.Drawing.Point(479, 380)
         Me.Label64.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label64.Name = "Label64"
         Me.Label64.Size = New System.Drawing.Size(24, 19)
@@ -1441,7 +1611,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label60.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label60.ForeColor = System.Drawing.Color.Black
         Me.Label60.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label60.Location = New System.Drawing.Point(345, 352)
+        Me.Label60.Location = New System.Drawing.Point(479, 357)
         Me.Label60.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label60.Name = "Label60"
         Me.Label60.Size = New System.Drawing.Size(24, 19)
@@ -1456,7 +1626,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label56.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label56.ForeColor = System.Drawing.Color.Black
         Me.Label56.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label56.Location = New System.Drawing.Point(480, 283)
+        Me.Label56.Location = New System.Drawing.Point(614, 288)
         Me.Label56.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label56.Name = "Label56"
         Me.Label56.Size = New System.Drawing.Size(24, 19)
@@ -1472,7 +1642,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label63.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label63.ForeColor = System.Drawing.Color.Black
         Me.Label63.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label63.Location = New System.Drawing.Point(183, 375)
+        Me.Label63.Location = New System.Drawing.Point(317, 380)
         Me.Label63.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label63.Name = "Label63"
         Me.Label63.Size = New System.Drawing.Size(24, 19)
@@ -1488,7 +1658,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label59.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label59.ForeColor = System.Drawing.Color.Black
         Me.Label59.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label59.Location = New System.Drawing.Point(183, 352)
+        Me.Label59.Location = New System.Drawing.Point(317, 357)
         Me.Label59.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label59.Name = "Label59"
         Me.Label59.Size = New System.Drawing.Size(24, 19)
@@ -1503,7 +1673,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label55.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label55.ForeColor = System.Drawing.Color.Black
         Me.Label55.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label55.Location = New System.Drawing.Point(318, 283)
+        Me.Label55.Location = New System.Drawing.Point(452, 288)
         Me.Label55.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(24, 19)
@@ -1519,7 +1689,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label53.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label53.ForeColor = System.Drawing.Color.Black
         Me.Label53.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label53.Location = New System.Drawing.Point(286, 283)
+        Me.Label53.Location = New System.Drawing.Point(420, 288)
         Me.Label53.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(24, 19)
@@ -1536,7 +1706,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label65.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label65.ForeColor = System.Drawing.Color.Black
         Me.Label65.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label65.Location = New System.Drawing.Point(256, 375)
+        Me.Label65.Location = New System.Drawing.Point(390, 380)
         Me.Label65.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label65.Name = "Label65"
         Me.Label65.Size = New System.Drawing.Size(96, 19)
@@ -1551,7 +1721,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label62.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label62.ForeColor = System.Drawing.Color.White
         Me.Label62.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label62.Location = New System.Drawing.Point(202, 375)
+        Me.Label62.Location = New System.Drawing.Point(336, 380)
         Me.Label62.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label62.Name = "Label62"
         Me.Label62.Size = New System.Drawing.Size(60, 19)
@@ -1567,7 +1737,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label58.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label58.ForeColor = System.Drawing.Color.White
         Me.Label58.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label58.Location = New System.Drawing.Point(202, 352)
+        Me.Label58.Location = New System.Drawing.Point(336, 357)
         Me.Label58.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label58.Name = "Label58"
         Me.Label58.Size = New System.Drawing.Size(150, 19)
@@ -1582,7 +1752,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label54.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label54.ForeColor = System.Drawing.Color.White
         Me.Label54.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label54.Location = New System.Drawing.Point(337, 283)
+        Me.Label54.Location = New System.Drawing.Point(471, 288)
         Me.Label54.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(150, 19)
@@ -1598,7 +1768,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label52.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label52.ForeColor = System.Drawing.Color.Black
         Me.Label52.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label52.Location = New System.Drawing.Point(183, 283)
+        Me.Label52.Location = New System.Drawing.Point(317, 288)
         Me.Label52.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(24, 19)
@@ -1614,7 +1784,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label51.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label51.ForeColor = System.Drawing.Color.White
         Me.Label51.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label51.Location = New System.Drawing.Point(202, 283)
+        Me.Label51.Location = New System.Drawing.Point(336, 288)
         Me.Label51.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label51.Name = "Label51"
         Me.Label51.Size = New System.Drawing.Size(89, 19)
@@ -1630,7 +1800,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label185.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label185.ForeColor = System.Drawing.Color.Black
         Me.Label185.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label185.Location = New System.Drawing.Point(11, 260)
+        Me.Label185.Location = New System.Drawing.Point(145, 265)
         Me.Label185.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label185.Name = "Label185"
         Me.Label185.Size = New System.Drawing.Size(146, 19)
@@ -1645,7 +1815,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label184.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label184.ForeColor = System.Drawing.Color.Black
         Me.Label184.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label184.Location = New System.Drawing.Point(11, 283)
+        Me.Label184.Location = New System.Drawing.Point(145, 288)
         Me.Label184.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label184.Name = "Label184"
         Me.Label184.Size = New System.Drawing.Size(146, 19)
@@ -1660,7 +1830,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label2.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label2.Location = New System.Drawing.Point(71, 329)
+        Me.Label2.Location = New System.Drawing.Point(205, 334)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(86, 19)
@@ -1675,7 +1845,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label183.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label183.ForeColor = System.Drawing.Color.Black
         Me.Label183.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label183.Location = New System.Drawing.Point(71, 306)
+        Me.Label183.Location = New System.Drawing.Point(205, 311)
         Me.Label183.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label183.Name = "Label183"
         Me.Label183.Size = New System.Drawing.Size(86, 19)
@@ -1689,7 +1859,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label27.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.ForeColor = System.Drawing.Color.Black
         Me.Label27.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label27.Location = New System.Drawing.Point(11, 145)
+        Me.Label27.Location = New System.Drawing.Point(145, 150)
         Me.Label27.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(146, 19)
@@ -1703,7 +1873,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label39.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.ForeColor = System.Drawing.Color.Blue
         Me.Label39.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label39.Location = New System.Drawing.Point(47, 1119)
+        Me.Label39.Location = New System.Drawing.Point(181, 1124)
         Me.Label39.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(110, 19)
@@ -1717,7 +1887,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label42.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.ForeColor = System.Drawing.Color.Blue
         Me.Label42.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label42.Location = New System.Drawing.Point(47, 1188)
+        Me.Label42.Location = New System.Drawing.Point(181, 1193)
         Me.Label42.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(110, 19)
@@ -1731,7 +1901,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label41.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.ForeColor = System.Drawing.Color.Blue
         Me.Label41.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label41.Location = New System.Drawing.Point(47, 1165)
+        Me.Label41.Location = New System.Drawing.Point(181, 1170)
         Me.Label41.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(110, 19)
@@ -1745,7 +1915,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label38.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.ForeColor = System.Drawing.Color.Blue
         Me.Label38.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label38.Location = New System.Drawing.Point(47, 1142)
+        Me.Label38.Location = New System.Drawing.Point(181, 1147)
         Me.Label38.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(110, 19)
@@ -1759,7 +1929,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label37.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label37.ForeColor = System.Drawing.Color.Blue
         Me.Label37.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label37.Location = New System.Drawing.Point(37, 1234)
+        Me.Label37.Location = New System.Drawing.Point(171, 1239)
         Me.Label37.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(120, 19)
@@ -1773,7 +1943,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label224.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label224.ForeColor = System.Drawing.Color.Blue
         Me.Label224.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label224.Location = New System.Drawing.Point(26, 1442)
+        Me.Label224.Location = New System.Drawing.Point(160, 1447)
         Me.Label224.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label224.Name = "Label224"
         Me.Label224.Size = New System.Drawing.Size(131, 19)
@@ -1788,7 +1958,7 @@ Partial Class DIAGRAMA_GANTT
         Me.Label181.Font = New System.Drawing.Font("Arial Narrow", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label181.ForeColor = System.Drawing.Color.Black
         Me.Label181.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label181.Location = New System.Drawing.Point(11, 237)
+        Me.Label181.Location = New System.Drawing.Point(145, 242)
         Me.Label181.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label181.Name = "Label181"
         Me.Label181.Size = New System.Drawing.Size(146, 19)
@@ -2091,6 +2261,1366 @@ Partial Class DIAGRAMA_GANTT
         Me.Label1.Size = New System.Drawing.Size(0, 22)
         Me.Label1.TabIndex = 15
         '
+        'ComboBox230
+        '
+        Me.ComboBox230.BackColor = System.Drawing.Color.White
+        Me.ComboBox230.DropDownWidth = 272
+        Me.ComboBox230.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox230.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox230.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox230.FormattingEnabled = True
+        Me.ComboBox230.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox230.Items")})
+        Me.ComboBox230.Location = New System.Drawing.Point(11, 150)
+        Me.ComboBox230.Name = "ComboBox230"
+        Me.ComboBox230.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox230.TabIndex = 884
+        Me.ComboBox230.Text = "+595 981 198526"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.BackColor = System.Drawing.Color.White
+        Me.ComboBox1.DropDownWidth = 272
+        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox1.Items")})
+        Me.ComboBox1.Location = New System.Drawing.Point(11, 173)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox1.TabIndex = 884
+        Me.ComboBox1.Text = "+595 981 198526"
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.BackColor = System.Drawing.Color.White
+        Me.ComboBox2.DropDownWidth = 272
+        Me.ComboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox2.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox2.Items")})
+        Me.ComboBox2.Location = New System.Drawing.Point(11, 196)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox2.TabIndex = 884
+        Me.ComboBox2.Text = "+595 981 198526"
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.BackColor = System.Drawing.Color.White
+        Me.ComboBox3.DropDownWidth = 272
+        Me.ComboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox3.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox3.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox3.Items")})
+        Me.ComboBox3.Location = New System.Drawing.Point(11, 219)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox3.TabIndex = 884
+        Me.ComboBox3.Text = "+595 981 198526"
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.BackColor = System.Drawing.Color.White
+        Me.ComboBox4.DropDownWidth = 272
+        Me.ComboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox4.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox4.Items")})
+        Me.ComboBox4.Location = New System.Drawing.Point(11, 242)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox4.TabIndex = 884
+        Me.ComboBox4.Text = "+595 981 198526"
+        '
+        'ComboBox5
+        '
+        Me.ComboBox5.BackColor = System.Drawing.Color.White
+        Me.ComboBox5.DropDownWidth = 272
+        Me.ComboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox5.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox5.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox5.Items")})
+        Me.ComboBox5.Location = New System.Drawing.Point(11, 265)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox5.TabIndex = 884
+        Me.ComboBox5.Text = "+595 981 198526"
+        '
+        'ComboBox6
+        '
+        Me.ComboBox6.BackColor = System.Drawing.Color.White
+        Me.ComboBox6.DropDownWidth = 272
+        Me.ComboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox6.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox6.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox6.FormattingEnabled = True
+        Me.ComboBox6.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox6.Items")})
+        Me.ComboBox6.Location = New System.Drawing.Point(11, 308)
+        Me.ComboBox6.Name = "ComboBox6"
+        Me.ComboBox6.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox6.TabIndex = 884
+        Me.ComboBox6.Text = "+595 981 198526"
+        '
+        'ComboBox7
+        '
+        Me.ComboBox7.BackColor = System.Drawing.Color.White
+        Me.ComboBox7.DropDownWidth = 272
+        Me.ComboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox7.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox7.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox7.FormattingEnabled = True
+        Me.ComboBox7.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox7.Items")})
+        Me.ComboBox7.Location = New System.Drawing.Point(11, 331)
+        Me.ComboBox7.Name = "ComboBox7"
+        Me.ComboBox7.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox7.TabIndex = 884
+        Me.ComboBox7.Text = "+595 981 198526"
+        '
+        'ComboBox8
+        '
+        Me.ComboBox8.BackColor = System.Drawing.Color.White
+        Me.ComboBox8.DropDownWidth = 272
+        Me.ComboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox8.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox8.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox8.FormattingEnabled = True
+        Me.ComboBox8.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox8.Items")})
+        Me.ComboBox8.Location = New System.Drawing.Point(11, 285)
+        Me.ComboBox8.Name = "ComboBox8"
+        Me.ComboBox8.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox8.TabIndex = 884
+        Me.ComboBox8.Text = "+595 981 198526"
+        '
+        'ComboBox9
+        '
+        Me.ComboBox9.BackColor = System.Drawing.Color.White
+        Me.ComboBox9.DropDownWidth = 272
+        Me.ComboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox9.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox9.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox9.FormattingEnabled = True
+        Me.ComboBox9.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox9.Items")})
+        Me.ComboBox9.Location = New System.Drawing.Point(11, 380)
+        Me.ComboBox9.Name = "ComboBox9"
+        Me.ComboBox9.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox9.TabIndex = 884
+        Me.ComboBox9.Text = "+595 981 198526"
+        '
+        'ComboBox10
+        '
+        Me.ComboBox10.BackColor = System.Drawing.Color.White
+        Me.ComboBox10.DropDownWidth = 272
+        Me.ComboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox10.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox10.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox10.FormattingEnabled = True
+        Me.ComboBox10.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox10.Items")})
+        Me.ComboBox10.Location = New System.Drawing.Point(11, 359)
+        Me.ComboBox10.Name = "ComboBox10"
+        Me.ComboBox10.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox10.TabIndex = 884
+        Me.ComboBox10.Text = "+595 981 198526"
+        '
+        'ComboBox11
+        '
+        Me.ComboBox11.BackColor = System.Drawing.Color.White
+        Me.ComboBox11.DropDownWidth = 272
+        Me.ComboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox11.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox11.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox11.FormattingEnabled = True
+        Me.ComboBox11.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox11.Items")})
+        Me.ComboBox11.Location = New System.Drawing.Point(11, 403)
+        Me.ComboBox11.Name = "ComboBox11"
+        Me.ComboBox11.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox11.TabIndex = 884
+        Me.ComboBox11.Text = "+595 981 198526"
+        '
+        'ComboBox12
+        '
+        Me.ComboBox12.BackColor = System.Drawing.Color.White
+        Me.ComboBox12.DropDownWidth = 272
+        Me.ComboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox12.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox12.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox12.FormattingEnabled = True
+        Me.ComboBox12.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox12.Items")})
+        Me.ComboBox12.Location = New System.Drawing.Point(11, 426)
+        Me.ComboBox12.Name = "ComboBox12"
+        Me.ComboBox12.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox12.TabIndex = 884
+        Me.ComboBox12.Text = "+595 981 198526"
+        '
+        'ComboBox13
+        '
+        Me.ComboBox13.BackColor = System.Drawing.Color.White
+        Me.ComboBox13.DropDownWidth = 272
+        Me.ComboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox13.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox13.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox13.FormattingEnabled = True
+        Me.ComboBox13.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox13.Items")})
+        Me.ComboBox13.Location = New System.Drawing.Point(11, 449)
+        Me.ComboBox13.Name = "ComboBox13"
+        Me.ComboBox13.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox13.TabIndex = 884
+        Me.ComboBox13.Text = "+595 981 198526"
+        '
+        'ComboBox14
+        '
+        Me.ComboBox14.BackColor = System.Drawing.Color.White
+        Me.ComboBox14.DropDownWidth = 272
+        Me.ComboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox14.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox14.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox14.FormattingEnabled = True
+        Me.ComboBox14.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox14.Items")})
+        Me.ComboBox14.Location = New System.Drawing.Point(11, 469)
+        Me.ComboBox14.Name = "ComboBox14"
+        Me.ComboBox14.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox14.TabIndex = 884
+        Me.ComboBox14.Text = "+595 981 198526"
+        '
+        'ComboBox15
+        '
+        Me.ComboBox15.BackColor = System.Drawing.Color.White
+        Me.ComboBox15.DropDownWidth = 272
+        Me.ComboBox15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox15.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox15.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox15.FormattingEnabled = True
+        Me.ComboBox15.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox15.Items")})
+        Me.ComboBox15.Location = New System.Drawing.Point(11, 492)
+        Me.ComboBox15.Name = "ComboBox15"
+        Me.ComboBox15.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox15.TabIndex = 884
+        Me.ComboBox15.Text = "+595 981 198526"
+        '
+        'ComboBox16
+        '
+        Me.ComboBox16.BackColor = System.Drawing.Color.White
+        Me.ComboBox16.DropDownWidth = 272
+        Me.ComboBox16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox16.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox16.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox16.FormattingEnabled = True
+        Me.ComboBox16.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox16.Items")})
+        Me.ComboBox16.Location = New System.Drawing.Point(11, 515)
+        Me.ComboBox16.Name = "ComboBox16"
+        Me.ComboBox16.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox16.TabIndex = 884
+        Me.ComboBox16.Text = "+595 981 198526"
+        '
+        'ComboBox17
+        '
+        Me.ComboBox17.BackColor = System.Drawing.Color.White
+        Me.ComboBox17.DropDownWidth = 272
+        Me.ComboBox17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox17.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox17.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox17.FormattingEnabled = True
+        Me.ComboBox17.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox17.Items")})
+        Me.ComboBox17.Location = New System.Drawing.Point(11, 538)
+        Me.ComboBox17.Name = "ComboBox17"
+        Me.ComboBox17.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox17.TabIndex = 884
+        Me.ComboBox17.Text = "+595 981 198526"
+        '
+        'ComboBox18
+        '
+        Me.ComboBox18.BackColor = System.Drawing.Color.White
+        Me.ComboBox18.DropDownWidth = 272
+        Me.ComboBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox18.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox18.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox18.FormattingEnabled = True
+        Me.ComboBox18.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox18.Items")})
+        Me.ComboBox18.Location = New System.Drawing.Point(11, 561)
+        Me.ComboBox18.Name = "ComboBox18"
+        Me.ComboBox18.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox18.TabIndex = 884
+        Me.ComboBox18.Text = "+595 981 198526"
+        '
+        'ComboBox19
+        '
+        Me.ComboBox19.BackColor = System.Drawing.Color.White
+        Me.ComboBox19.DropDownWidth = 272
+        Me.ComboBox19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox19.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox19.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox19.FormattingEnabled = True
+        Me.ComboBox19.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox19.Items")})
+        Me.ComboBox19.Location = New System.Drawing.Point(11, 587)
+        Me.ComboBox19.Name = "ComboBox19"
+        Me.ComboBox19.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox19.TabIndex = 884
+        Me.ComboBox19.Text = "+595 981 198526"
+        '
+        'ComboBox20
+        '
+        Me.ComboBox20.BackColor = System.Drawing.Color.White
+        Me.ComboBox20.DropDownWidth = 272
+        Me.ComboBox20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox20.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox20.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox20.FormattingEnabled = True
+        Me.ComboBox20.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox20.Items")})
+        Me.ComboBox20.Location = New System.Drawing.Point(11, 610)
+        Me.ComboBox20.Name = "ComboBox20"
+        Me.ComboBox20.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox20.TabIndex = 884
+        Me.ComboBox20.Text = "+595 981 198526"
+        '
+        'ComboBox21
+        '
+        Me.ComboBox21.BackColor = System.Drawing.Color.White
+        Me.ComboBox21.DropDownWidth = 272
+        Me.ComboBox21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox21.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox21.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox21.FormattingEnabled = True
+        Me.ComboBox21.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox21.Items")})
+        Me.ComboBox21.Location = New System.Drawing.Point(11, 633)
+        Me.ComboBox21.Name = "ComboBox21"
+        Me.ComboBox21.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox21.TabIndex = 884
+        Me.ComboBox21.Text = "+595 981 198526"
+        '
+        'ComboBox22
+        '
+        Me.ComboBox22.BackColor = System.Drawing.Color.White
+        Me.ComboBox22.DropDownWidth = 272
+        Me.ComboBox22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox22.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox22.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox22.FormattingEnabled = True
+        Me.ComboBox22.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox22.Items")})
+        Me.ComboBox22.Location = New System.Drawing.Point(11, 656)
+        Me.ComboBox22.Name = "ComboBox22"
+        Me.ComboBox22.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox22.TabIndex = 884
+        Me.ComboBox22.Text = "+595 981 198526"
+        '
+        'ComboBox23
+        '
+        Me.ComboBox23.BackColor = System.Drawing.Color.White
+        Me.ComboBox23.DropDownWidth = 272
+        Me.ComboBox23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox23.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox23.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox23.FormattingEnabled = True
+        Me.ComboBox23.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox23.Items")})
+        Me.ComboBox23.Location = New System.Drawing.Point(11, 679)
+        Me.ComboBox23.Name = "ComboBox23"
+        Me.ComboBox23.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox23.TabIndex = 884
+        Me.ComboBox23.Text = "+595 981 198526"
+        '
+        'ComboBox24
+        '
+        Me.ComboBox24.BackColor = System.Drawing.Color.White
+        Me.ComboBox24.DropDownWidth = 272
+        Me.ComboBox24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox24.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox24.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox24.FormattingEnabled = True
+        Me.ComboBox24.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox24.Items")})
+        Me.ComboBox24.Location = New System.Drawing.Point(11, 702)
+        Me.ComboBox24.Name = "ComboBox24"
+        Me.ComboBox24.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox24.TabIndex = 884
+        Me.ComboBox24.Text = "+595 981 198526"
+        '
+        'ComboBox25
+        '
+        Me.ComboBox25.BackColor = System.Drawing.Color.White
+        Me.ComboBox25.DropDownWidth = 272
+        Me.ComboBox25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox25.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox25.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox25.FormattingEnabled = True
+        Me.ComboBox25.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox25.Items")})
+        Me.ComboBox25.Location = New System.Drawing.Point(11, 722)
+        Me.ComboBox25.Name = "ComboBox25"
+        Me.ComboBox25.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox25.TabIndex = 884
+        Me.ComboBox25.Text = "+595 981 198526"
+        '
+        'ComboBox26
+        '
+        Me.ComboBox26.BackColor = System.Drawing.Color.White
+        Me.ComboBox26.DropDownWidth = 272
+        Me.ComboBox26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox26.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox26.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox26.FormattingEnabled = True
+        Me.ComboBox26.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox26.Items")})
+        Me.ComboBox26.Location = New System.Drawing.Point(11, 750)
+        Me.ComboBox26.Name = "ComboBox26"
+        Me.ComboBox26.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox26.TabIndex = 884
+        Me.ComboBox26.Text = "+595 981 198526"
+        '
+        'ComboBox27
+        '
+        Me.ComboBox27.BackColor = System.Drawing.Color.White
+        Me.ComboBox27.DropDownWidth = 272
+        Me.ComboBox27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox27.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox27.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox27.FormattingEnabled = True
+        Me.ComboBox27.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox27.Items")})
+        Me.ComboBox27.Location = New System.Drawing.Point(11, 774)
+        Me.ComboBox27.Name = "ComboBox27"
+        Me.ComboBox27.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox27.TabIndex = 884
+        Me.ComboBox27.Text = "+595 981 198526"
+        '
+        'ComboBox28
+        '
+        Me.ComboBox28.BackColor = System.Drawing.Color.White
+        Me.ComboBox28.DropDownWidth = 272
+        Me.ComboBox28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox28.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox28.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox28.FormattingEnabled = True
+        Me.ComboBox28.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox28.Items")})
+        Me.ComboBox28.Location = New System.Drawing.Point(11, 792)
+        Me.ComboBox28.Name = "ComboBox28"
+        Me.ComboBox28.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox28.TabIndex = 884
+        Me.ComboBox28.Text = "+595 981 198526"
+        '
+        'ComboBox29
+        '
+        Me.ComboBox29.BackColor = System.Drawing.Color.White
+        Me.ComboBox29.DropDownWidth = 272
+        Me.ComboBox29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox29.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox29.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox29.FormattingEnabled = True
+        Me.ComboBox29.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox29.Items")})
+        Me.ComboBox29.Location = New System.Drawing.Point(11, 816)
+        Me.ComboBox29.Name = "ComboBox29"
+        Me.ComboBox29.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox29.TabIndex = 884
+        Me.ComboBox29.Text = "+595 981 198526"
+        '
+        'ComboBox30
+        '
+        Me.ComboBox30.BackColor = System.Drawing.Color.White
+        Me.ComboBox30.DropDownWidth = 272
+        Me.ComboBox30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox30.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox30.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox30.FormattingEnabled = True
+        Me.ComboBox30.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox30.Items")})
+        Me.ComboBox30.Location = New System.Drawing.Point(11, 834)
+        Me.ComboBox30.Name = "ComboBox30"
+        Me.ComboBox30.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox30.TabIndex = 884
+        Me.ComboBox30.Text = "+595 981 198526"
+        '
+        'ComboBox31
+        '
+        Me.ComboBox31.BackColor = System.Drawing.Color.White
+        Me.ComboBox31.DropDownWidth = 272
+        Me.ComboBox31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox31.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox31.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox31.FormattingEnabled = True
+        Me.ComboBox31.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox31.Items")})
+        Me.ComboBox31.Location = New System.Drawing.Point(11, 861)
+        Me.ComboBox31.Name = "ComboBox31"
+        Me.ComboBox31.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox31.TabIndex = 884
+        Me.ComboBox31.Text = "+595 981 198526"
+        '
+        'ComboBox32
+        '
+        Me.ComboBox32.BackColor = System.Drawing.Color.White
+        Me.ComboBox32.DropDownWidth = 272
+        Me.ComboBox32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox32.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox32.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox32.FormattingEnabled = True
+        Me.ComboBox32.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox32.Items")})
+        Me.ComboBox32.Location = New System.Drawing.Point(11, 884)
+        Me.ComboBox32.Name = "ComboBox32"
+        Me.ComboBox32.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox32.TabIndex = 884
+        Me.ComboBox32.Text = "+595 981 198526"
+        '
+        'ComboBox33
+        '
+        Me.ComboBox33.BackColor = System.Drawing.Color.White
+        Me.ComboBox33.DropDownWidth = 272
+        Me.ComboBox33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox33.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox33.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox33.FormattingEnabled = True
+        Me.ComboBox33.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox33.Items")})
+        Me.ComboBox33.Location = New System.Drawing.Point(11, 907)
+        Me.ComboBox33.Name = "ComboBox33"
+        Me.ComboBox33.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox33.TabIndex = 884
+        Me.ComboBox33.Text = "+595 981 198526"
+        '
+        'ComboBox34
+        '
+        Me.ComboBox34.BackColor = System.Drawing.Color.White
+        Me.ComboBox34.DropDownWidth = 272
+        Me.ComboBox34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox34.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox34.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox34.FormattingEnabled = True
+        Me.ComboBox34.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox34.Items")})
+        Me.ComboBox34.Location = New System.Drawing.Point(11, 930)
+        Me.ComboBox34.Name = "ComboBox34"
+        Me.ComboBox34.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox34.TabIndex = 884
+        Me.ComboBox34.Text = "+595 981 198526"
+        '
+        'ComboBox35
+        '
+        Me.ComboBox35.BackColor = System.Drawing.Color.White
+        Me.ComboBox35.DropDownWidth = 272
+        Me.ComboBox35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox35.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox35.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox35.FormattingEnabled = True
+        Me.ComboBox35.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox35.Items")})
+        Me.ComboBox35.Location = New System.Drawing.Point(11, 953)
+        Me.ComboBox35.Name = "ComboBox35"
+        Me.ComboBox35.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox35.TabIndex = 884
+        Me.ComboBox35.Text = "+595 981 198526"
+        '
+        'ComboBox36
+        '
+        Me.ComboBox36.BackColor = System.Drawing.Color.White
+        Me.ComboBox36.DropDownWidth = 272
+        Me.ComboBox36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox36.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox36.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox36.FormattingEnabled = True
+        Me.ComboBox36.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox36.Items")})
+        Me.ComboBox36.Location = New System.Drawing.Point(11, 976)
+        Me.ComboBox36.Name = "ComboBox36"
+        Me.ComboBox36.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox36.TabIndex = 884
+        Me.ComboBox36.Text = "+595 981 198526"
+        '
+        'ComboBox37
+        '
+        Me.ComboBox37.BackColor = System.Drawing.Color.White
+        Me.ComboBox37.DropDownWidth = 272
+        Me.ComboBox37.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox37.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox37.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox37.FormattingEnabled = True
+        Me.ComboBox37.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox37.Items")})
+        Me.ComboBox37.Location = New System.Drawing.Point(11, 996)
+        Me.ComboBox37.Name = "ComboBox37"
+        Me.ComboBox37.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox37.TabIndex = 884
+        Me.ComboBox37.Text = "+595 981 198526"
+        '
+        'ComboBox38
+        '
+        Me.ComboBox38.BackColor = System.Drawing.Color.White
+        Me.ComboBox38.DropDownWidth = 272
+        Me.ComboBox38.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox38.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox38.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox38.FormattingEnabled = True
+        Me.ComboBox38.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox38.Items")})
+        Me.ComboBox38.Location = New System.Drawing.Point(11, 1022)
+        Me.ComboBox38.Name = "ComboBox38"
+        Me.ComboBox38.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox38.TabIndex = 884
+        Me.ComboBox38.Text = "+595 981 198526"
+        '
+        'ComboBox39
+        '
+        Me.ComboBox39.BackColor = System.Drawing.Color.White
+        Me.ComboBox39.DropDownWidth = 272
+        Me.ComboBox39.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox39.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox39.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox39.FormattingEnabled = True
+        Me.ComboBox39.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox39.Items")})
+        Me.ComboBox39.Location = New System.Drawing.Point(11, 1046)
+        Me.ComboBox39.Name = "ComboBox39"
+        Me.ComboBox39.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox39.TabIndex = 884
+        Me.ComboBox39.Text = "+595 981 198526"
+        '
+        'ComboBox40
+        '
+        Me.ComboBox40.BackColor = System.Drawing.Color.White
+        Me.ComboBox40.DropDownWidth = 272
+        Me.ComboBox40.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox40.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox40.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox40.FormattingEnabled = True
+        Me.ComboBox40.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox40.Items")})
+        Me.ComboBox40.Location = New System.Drawing.Point(11, 1064)
+        Me.ComboBox40.Name = "ComboBox40"
+        Me.ComboBox40.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox40.TabIndex = 884
+        Me.ComboBox40.Text = "+595 981 198526"
+        '
+        'ComboBox41
+        '
+        Me.ComboBox41.BackColor = System.Drawing.Color.White
+        Me.ComboBox41.DropDownWidth = 272
+        Me.ComboBox41.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox41.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox41.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox41.FormattingEnabled = True
+        Me.ComboBox41.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox41.Items")})
+        Me.ComboBox41.Location = New System.Drawing.Point(11, 1088)
+        Me.ComboBox41.Name = "ComboBox41"
+        Me.ComboBox41.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox41.TabIndex = 884
+        Me.ComboBox41.Text = "+595 981 198526"
+        '
+        'ComboBox42
+        '
+        Me.ComboBox42.BackColor = System.Drawing.Color.White
+        Me.ComboBox42.DropDownWidth = 272
+        Me.ComboBox42.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox42.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox42.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox42.FormattingEnabled = True
+        Me.ComboBox42.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox42.Items")})
+        Me.ComboBox42.Location = New System.Drawing.Point(11, 1106)
+        Me.ComboBox42.Name = "ComboBox42"
+        Me.ComboBox42.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox42.TabIndex = 884
+        Me.ComboBox42.Text = "+595 981 198526"
+        '
+        'ComboBox43
+        '
+        Me.ComboBox43.BackColor = System.Drawing.Color.White
+        Me.ComboBox43.DropDownWidth = 272
+        Me.ComboBox43.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox43.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox43.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox43.FormattingEnabled = True
+        Me.ComboBox43.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox43.Items")})
+        Me.ComboBox43.Location = New System.Drawing.Point(11, 1125)
+        Me.ComboBox43.Name = "ComboBox43"
+        Me.ComboBox43.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox43.TabIndex = 884
+        Me.ComboBox43.Text = "+595 981 198526"
+        '
+        'ComboBox44
+        '
+        Me.ComboBox44.BackColor = System.Drawing.Color.White
+        Me.ComboBox44.DropDownWidth = 272
+        Me.ComboBox44.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox44.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox44.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox44.FormattingEnabled = True
+        Me.ComboBox44.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox44.Items")})
+        Me.ComboBox44.Location = New System.Drawing.Point(11, 1148)
+        Me.ComboBox44.Name = "ComboBox44"
+        Me.ComboBox44.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox44.TabIndex = 884
+        Me.ComboBox44.Text = "+595 981 198526"
+        '
+        'ComboBox45
+        '
+        Me.ComboBox45.BackColor = System.Drawing.Color.White
+        Me.ComboBox45.DropDownWidth = 272
+        Me.ComboBox45.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox45.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox45.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox45.FormattingEnabled = True
+        Me.ComboBox45.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox45.Items")})
+        Me.ComboBox45.Location = New System.Drawing.Point(11, 1168)
+        Me.ComboBox45.Name = "ComboBox45"
+        Me.ComboBox45.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox45.TabIndex = 884
+        Me.ComboBox45.Text = "+595 981 198526"
+        '
+        'ComboBox46
+        '
+        Me.ComboBox46.BackColor = System.Drawing.Color.White
+        Me.ComboBox46.DropDownWidth = 272
+        Me.ComboBox46.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox46.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox46.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox46.FormattingEnabled = True
+        Me.ComboBox46.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox46.Items")})
+        Me.ComboBox46.Location = New System.Drawing.Point(11, 1196)
+        Me.ComboBox46.Name = "ComboBox46"
+        Me.ComboBox46.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox46.TabIndex = 884
+        Me.ComboBox46.Text = "+595 981 198526"
+        '
+        'ComboBox47
+        '
+        Me.ComboBox47.BackColor = System.Drawing.Color.White
+        Me.ComboBox47.DropDownWidth = 272
+        Me.ComboBox47.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox47.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox47.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox47.FormattingEnabled = True
+        Me.ComboBox47.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox47.Items")})
+        Me.ComboBox47.Location = New System.Drawing.Point(11, 1220)
+        Me.ComboBox47.Name = "ComboBox47"
+        Me.ComboBox47.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox47.TabIndex = 884
+        Me.ComboBox47.Text = "+595 981 198526"
+        '
+        'ComboBox48
+        '
+        Me.ComboBox48.BackColor = System.Drawing.Color.White
+        Me.ComboBox48.DropDownWidth = 272
+        Me.ComboBox48.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox48.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox48.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox48.FormattingEnabled = True
+        Me.ComboBox48.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox48.Items")})
+        Me.ComboBox48.Location = New System.Drawing.Point(11, 1238)
+        Me.ComboBox48.Name = "ComboBox48"
+        Me.ComboBox48.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox48.TabIndex = 884
+        Me.ComboBox48.Text = "+595 981 198526"
+        '
+        'ComboBox49
+        '
+        Me.ComboBox49.BackColor = System.Drawing.Color.White
+        Me.ComboBox49.DropDownWidth = 272
+        Me.ComboBox49.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox49.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox49.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox49.FormattingEnabled = True
+        Me.ComboBox49.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox49.Items")})
+        Me.ComboBox49.Location = New System.Drawing.Point(11, 1262)
+        Me.ComboBox49.Name = "ComboBox49"
+        Me.ComboBox49.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox49.TabIndex = 884
+        Me.ComboBox49.Text = "+595 981 198526"
+        '
+        'ComboBox50
+        '
+        Me.ComboBox50.BackColor = System.Drawing.Color.White
+        Me.ComboBox50.DropDownWidth = 272
+        Me.ComboBox50.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox50.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox50.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox50.FormattingEnabled = True
+        Me.ComboBox50.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox50.Items")})
+        Me.ComboBox50.Location = New System.Drawing.Point(11, 1280)
+        Me.ComboBox50.Name = "ComboBox50"
+        Me.ComboBox50.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox50.TabIndex = 884
+        Me.ComboBox50.Text = "+595 981 198526"
+        '
+        'ComboBox51
+        '
+        Me.ComboBox51.BackColor = System.Drawing.Color.White
+        Me.ComboBox51.DropDownWidth = 272
+        Me.ComboBox51.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox51.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox51.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox51.FormattingEnabled = True
+        Me.ComboBox51.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox51.Items")})
+        Me.ComboBox51.Location = New System.Drawing.Point(11, 1305)
+        Me.ComboBox51.Name = "ComboBox51"
+        Me.ComboBox51.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox51.TabIndex = 884
+        Me.ComboBox51.Text = "+595 981 198526"
+        '
+        'ComboBox52
+        '
+        Me.ComboBox52.BackColor = System.Drawing.Color.White
+        Me.ComboBox52.DropDownWidth = 272
+        Me.ComboBox52.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox52.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox52.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox52.FormattingEnabled = True
+        Me.ComboBox52.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox52.Items")})
+        Me.ComboBox52.Location = New System.Drawing.Point(11, 1329)
+        Me.ComboBox52.Name = "ComboBox52"
+        Me.ComboBox52.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox52.TabIndex = 884
+        Me.ComboBox52.Text = "+595 981 198526"
+        '
+        'ComboBox53
+        '
+        Me.ComboBox53.BackColor = System.Drawing.Color.White
+        Me.ComboBox53.DropDownWidth = 272
+        Me.ComboBox53.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox53.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox53.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox53.FormattingEnabled = True
+        Me.ComboBox53.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox53.Items")})
+        Me.ComboBox53.Location = New System.Drawing.Point(11, 1347)
+        Me.ComboBox53.Name = "ComboBox53"
+        Me.ComboBox53.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox53.TabIndex = 884
+        Me.ComboBox53.Text = "+595 981 198526"
+        '
+        'ComboBox54
+        '
+        Me.ComboBox54.BackColor = System.Drawing.Color.White
+        Me.ComboBox54.DropDownWidth = 272
+        Me.ComboBox54.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox54.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox54.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox54.FormattingEnabled = True
+        Me.ComboBox54.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox54.Items")})
+        Me.ComboBox54.Location = New System.Drawing.Point(11, 1371)
+        Me.ComboBox54.Name = "ComboBox54"
+        Me.ComboBox54.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox54.TabIndex = 884
+        Me.ComboBox54.Text = "+595 981 198526"
+        '
+        'ComboBox55
+        '
+        Me.ComboBox55.BackColor = System.Drawing.Color.White
+        Me.ComboBox55.DropDownWidth = 272
+        Me.ComboBox55.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox55.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox55.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox55.FormattingEnabled = True
+        Me.ComboBox55.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox55.Items")})
+        Me.ComboBox55.Location = New System.Drawing.Point(11, 1389)
+        Me.ComboBox55.Name = "ComboBox55"
+        Me.ComboBox55.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox55.TabIndex = 884
+        Me.ComboBox55.Text = "+595 981 198526"
+        '
+        'ComboBox56
+        '
+        Me.ComboBox56.BackColor = System.Drawing.Color.White
+        Me.ComboBox56.DropDownWidth = 272
+        Me.ComboBox56.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox56.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox56.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox56.FormattingEnabled = True
+        Me.ComboBox56.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox56.Items")})
+        Me.ComboBox56.Location = New System.Drawing.Point(11, 1471)
+        Me.ComboBox56.Name = "ComboBox56"
+        Me.ComboBox56.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox56.TabIndex = 884
+        Me.ComboBox56.Text = "+595 981 198526"
+        '
+        'ComboBox57
+        '
+        Me.ComboBox57.BackColor = System.Drawing.Color.White
+        Me.ComboBox57.DropDownWidth = 272
+        Me.ComboBox57.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox57.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox57.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox57.FormattingEnabled = True
+        Me.ComboBox57.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox57.Items")})
+        Me.ComboBox57.Location = New System.Drawing.Point(11, 1495)
+        Me.ComboBox57.Name = "ComboBox57"
+        Me.ComboBox57.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox57.TabIndex = 884
+        Me.ComboBox57.Text = "+595 981 198526"
+        '
+        'ComboBox58
+        '
+        Me.ComboBox58.BackColor = System.Drawing.Color.White
+        Me.ComboBox58.DropDownWidth = 272
+        Me.ComboBox58.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox58.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox58.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox58.FormattingEnabled = True
+        Me.ComboBox58.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox58.Items")})
+        Me.ComboBox58.Location = New System.Drawing.Point(11, 1404)
+        Me.ComboBox58.Name = "ComboBox58"
+        Me.ComboBox58.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox58.TabIndex = 884
+        Me.ComboBox58.Text = "+595 981 198526"
+        '
+        'ComboBox59
+        '
+        Me.ComboBox59.BackColor = System.Drawing.Color.White
+        Me.ComboBox59.DropDownWidth = 272
+        Me.ComboBox59.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox59.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox59.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox59.FormattingEnabled = True
+        Me.ComboBox59.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox59.Items")})
+        Me.ComboBox59.Location = New System.Drawing.Point(11, 1513)
+        Me.ComboBox59.Name = "ComboBox59"
+        Me.ComboBox59.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox59.TabIndex = 884
+        Me.ComboBox59.Text = "+595 981 198526"
+        '
+        'ComboBox60
+        '
+        Me.ComboBox60.BackColor = System.Drawing.Color.White
+        Me.ComboBox60.DropDownWidth = 272
+        Me.ComboBox60.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox60.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox60.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox60.FormattingEnabled = True
+        Me.ComboBox60.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox60.Items")})
+        Me.ComboBox60.Location = New System.Drawing.Point(11, 1428)
+        Me.ComboBox60.Name = "ComboBox60"
+        Me.ComboBox60.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox60.TabIndex = 884
+        Me.ComboBox60.Text = "+595 981 198526"
+        '
+        'ComboBox61
+        '
+        Me.ComboBox61.BackColor = System.Drawing.Color.White
+        Me.ComboBox61.DropDownWidth = 272
+        Me.ComboBox61.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox61.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox61.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox61.FormattingEnabled = True
+        Me.ComboBox61.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox61.Items")})
+        Me.ComboBox61.Location = New System.Drawing.Point(11, 1537)
+        Me.ComboBox61.Name = "ComboBox61"
+        Me.ComboBox61.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox61.TabIndex = 884
+        Me.ComboBox61.Text = "+595 981 198526"
+        '
+        'ComboBox62
+        '
+        Me.ComboBox62.BackColor = System.Drawing.Color.White
+        Me.ComboBox62.DropDownWidth = 272
+        Me.ComboBox62.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox62.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox62.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox62.FormattingEnabled = True
+        Me.ComboBox62.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox62.Items")})
+        Me.ComboBox62.Location = New System.Drawing.Point(11, 1446)
+        Me.ComboBox62.Name = "ComboBox62"
+        Me.ComboBox62.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox62.TabIndex = 884
+        Me.ComboBox62.Text = "+595 981 198526"
+        '
+        'ComboBox63
+        '
+        Me.ComboBox63.BackColor = System.Drawing.Color.White
+        Me.ComboBox63.DropDownWidth = 272
+        Me.ComboBox63.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox63.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox63.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox63.FormattingEnabled = True
+        Me.ComboBox63.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox63.Items")})
+        Me.ComboBox63.Location = New System.Drawing.Point(11, 1555)
+        Me.ComboBox63.Name = "ComboBox63"
+        Me.ComboBox63.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox63.TabIndex = 884
+        Me.ComboBox63.Text = "+595 981 198526"
+        '
+        'ComboBox64
+        '
+        Me.ComboBox64.BackColor = System.Drawing.Color.White
+        Me.ComboBox64.DropDownWidth = 272
+        Me.ComboBox64.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox64.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox64.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox64.FormattingEnabled = True
+        Me.ComboBox64.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox64.Items")})
+        Me.ComboBox64.Location = New System.Drawing.Point(11, 1645)
+        Me.ComboBox64.Name = "ComboBox64"
+        Me.ComboBox64.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox64.TabIndex = 884
+        Me.ComboBox64.Text = "+595 981 198526"
+        '
+        'ComboBox65
+        '
+        Me.ComboBox65.BackColor = System.Drawing.Color.White
+        Me.ComboBox65.DropDownWidth = 272
+        Me.ComboBox65.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox65.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox65.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox65.FormattingEnabled = True
+        Me.ComboBox65.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox65.Items")})
+        Me.ComboBox65.Location = New System.Drawing.Point(11, 1669)
+        Me.ComboBox65.Name = "ComboBox65"
+        Me.ComboBox65.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox65.TabIndex = 884
+        Me.ComboBox65.Text = "+595 981 198526"
+        '
+        'ComboBox66
+        '
+        Me.ComboBox66.BackColor = System.Drawing.Color.White
+        Me.ComboBox66.DropDownWidth = 272
+        Me.ComboBox66.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox66.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox66.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox66.FormattingEnabled = True
+        Me.ComboBox66.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox66.Items")})
+        Me.ComboBox66.Location = New System.Drawing.Point(11, 1578)
+        Me.ComboBox66.Name = "ComboBox66"
+        Me.ComboBox66.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox66.TabIndex = 884
+        Me.ComboBox66.Text = "+595 981 198526"
+        '
+        'ComboBox67
+        '
+        Me.ComboBox67.BackColor = System.Drawing.Color.White
+        Me.ComboBox67.DropDownWidth = 272
+        Me.ComboBox67.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox67.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox67.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox67.FormattingEnabled = True
+        Me.ComboBox67.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox67.Items")})
+        Me.ComboBox67.Location = New System.Drawing.Point(11, 1687)
+        Me.ComboBox67.Name = "ComboBox67"
+        Me.ComboBox67.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox67.TabIndex = 884
+        Me.ComboBox67.Text = "+595 981 198526"
+        '
+        'ComboBox68
+        '
+        Me.ComboBox68.BackColor = System.Drawing.Color.White
+        Me.ComboBox68.DropDownWidth = 272
+        Me.ComboBox68.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox68.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox68.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox68.FormattingEnabled = True
+        Me.ComboBox68.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox68.Items")})
+        Me.ComboBox68.Location = New System.Drawing.Point(11, 1602)
+        Me.ComboBox68.Name = "ComboBox68"
+        Me.ComboBox68.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox68.TabIndex = 884
+        Me.ComboBox68.Text = "+595 981 198526"
+        '
+        'ComboBox69
+        '
+        Me.ComboBox69.BackColor = System.Drawing.Color.White
+        Me.ComboBox69.DropDownWidth = 272
+        Me.ComboBox69.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox69.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox69.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox69.FormattingEnabled = True
+        Me.ComboBox69.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox69.Items")})
+        Me.ComboBox69.Location = New System.Drawing.Point(11, 1711)
+        Me.ComboBox69.Name = "ComboBox69"
+        Me.ComboBox69.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox69.TabIndex = 884
+        Me.ComboBox69.Text = "+595 981 198526"
+        '
+        'ComboBox70
+        '
+        Me.ComboBox70.BackColor = System.Drawing.Color.White
+        Me.ComboBox70.DropDownWidth = 272
+        Me.ComboBox70.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox70.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox70.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox70.FormattingEnabled = True
+        Me.ComboBox70.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox70.Items")})
+        Me.ComboBox70.Location = New System.Drawing.Point(11, 1620)
+        Me.ComboBox70.Name = "ComboBox70"
+        Me.ComboBox70.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox70.TabIndex = 884
+        Me.ComboBox70.Text = "+595 981 198526"
+        '
+        'ComboBox71
+        '
+        Me.ComboBox71.BackColor = System.Drawing.Color.White
+        Me.ComboBox71.DropDownWidth = 272
+        Me.ComboBox71.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox71.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox71.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox71.FormattingEnabled = True
+        Me.ComboBox71.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox71.Items")})
+        Me.ComboBox71.Location = New System.Drawing.Point(11, 1729)
+        Me.ComboBox71.Name = "ComboBox71"
+        Me.ComboBox71.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox71.TabIndex = 884
+        Me.ComboBox71.Text = "+595 981 198526"
+        '
+        'ComboBox72
+        '
+        Me.ComboBox72.BackColor = System.Drawing.Color.White
+        Me.ComboBox72.DropDownWidth = 272
+        Me.ComboBox72.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox72.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox72.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox72.FormattingEnabled = True
+        Me.ComboBox72.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox72.Items")})
+        Me.ComboBox72.Location = New System.Drawing.Point(11, 1819)
+        Me.ComboBox72.Name = "ComboBox72"
+        Me.ComboBox72.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox72.TabIndex = 884
+        Me.ComboBox72.Text = "+595 981 198526"
+        '
+        'ComboBox73
+        '
+        Me.ComboBox73.BackColor = System.Drawing.Color.White
+        Me.ComboBox73.DropDownWidth = 272
+        Me.ComboBox73.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox73.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox73.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox73.FormattingEnabled = True
+        Me.ComboBox73.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox73.Items")})
+        Me.ComboBox73.Location = New System.Drawing.Point(11, 1843)
+        Me.ComboBox73.Name = "ComboBox73"
+        Me.ComboBox73.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox73.TabIndex = 884
+        Me.ComboBox73.Text = "+595 981 198526"
+        '
+        'ComboBox74
+        '
+        Me.ComboBox74.BackColor = System.Drawing.Color.White
+        Me.ComboBox74.DropDownWidth = 272
+        Me.ComboBox74.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox74.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox74.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox74.FormattingEnabled = True
+        Me.ComboBox74.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox74.Items")})
+        Me.ComboBox74.Location = New System.Drawing.Point(11, 1752)
+        Me.ComboBox74.Name = "ComboBox74"
+        Me.ComboBox74.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox74.TabIndex = 884
+        Me.ComboBox74.Text = "+595 981 198526"
+        '
+        'ComboBox75
+        '
+        Me.ComboBox75.BackColor = System.Drawing.Color.White
+        Me.ComboBox75.DropDownWidth = 272
+        Me.ComboBox75.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox75.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox75.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox75.FormattingEnabled = True
+        Me.ComboBox75.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox75.Items")})
+        Me.ComboBox75.Location = New System.Drawing.Point(11, 1861)
+        Me.ComboBox75.Name = "ComboBox75"
+        Me.ComboBox75.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox75.TabIndex = 884
+        Me.ComboBox75.Text = "+595 981 198526"
+        '
+        'ComboBox76
+        '
+        Me.ComboBox76.BackColor = System.Drawing.Color.White
+        Me.ComboBox76.DropDownWidth = 272
+        Me.ComboBox76.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox76.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox76.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox76.FormattingEnabled = True
+        Me.ComboBox76.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox76.Items")})
+        Me.ComboBox76.Location = New System.Drawing.Point(11, 1776)
+        Me.ComboBox76.Name = "ComboBox76"
+        Me.ComboBox76.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox76.TabIndex = 884
+        Me.ComboBox76.Text = "+595 981 198526"
+        '
+        'ComboBox77
+        '
+        Me.ComboBox77.BackColor = System.Drawing.Color.White
+        Me.ComboBox77.DropDownWidth = 272
+        Me.ComboBox77.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox77.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox77.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox77.FormattingEnabled = True
+        Me.ComboBox77.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox77.Items")})
+        Me.ComboBox77.Location = New System.Drawing.Point(11, 1885)
+        Me.ComboBox77.Name = "ComboBox77"
+        Me.ComboBox77.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox77.TabIndex = 884
+        Me.ComboBox77.Text = "+595 981 198526"
+        '
+        'ComboBox78
+        '
+        Me.ComboBox78.BackColor = System.Drawing.Color.White
+        Me.ComboBox78.DropDownWidth = 272
+        Me.ComboBox78.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox78.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox78.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox78.FormattingEnabled = True
+        Me.ComboBox78.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox78.Items")})
+        Me.ComboBox78.Location = New System.Drawing.Point(11, 1794)
+        Me.ComboBox78.Name = "ComboBox78"
+        Me.ComboBox78.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox78.TabIndex = 884
+        Me.ComboBox78.Text = "+595 981 198526"
+        '
+        'ComboBox79
+        '
+        Me.ComboBox79.BackColor = System.Drawing.Color.White
+        Me.ComboBox79.DropDownWidth = 272
+        Me.ComboBox79.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox79.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox79.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox79.FormattingEnabled = True
+        Me.ComboBox79.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox79.Items")})
+        Me.ComboBox79.Location = New System.Drawing.Point(11, 1903)
+        Me.ComboBox79.Name = "ComboBox79"
+        Me.ComboBox79.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox79.TabIndex = 884
+        Me.ComboBox79.Text = "+595 981 198526"
+        '
+        'ComboBox80
+        '
+        Me.ComboBox80.BackColor = System.Drawing.Color.White
+        Me.ComboBox80.DropDownWidth = 272
+        Me.ComboBox80.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox80.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox80.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox80.FormattingEnabled = True
+        Me.ComboBox80.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox80.Items")})
+        Me.ComboBox80.Location = New System.Drawing.Point(11, 1997)
+        Me.ComboBox80.Name = "ComboBox80"
+        Me.ComboBox80.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox80.TabIndex = 884
+        Me.ComboBox80.Text = "+595 981 198526"
+        '
+        'ComboBox81
+        '
+        Me.ComboBox81.BackColor = System.Drawing.Color.White
+        Me.ComboBox81.DropDownWidth = 272
+        Me.ComboBox81.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox81.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox81.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox81.FormattingEnabled = True
+        Me.ComboBox81.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox81.Items")})
+        Me.ComboBox81.Location = New System.Drawing.Point(11, 2021)
+        Me.ComboBox81.Name = "ComboBox81"
+        Me.ComboBox81.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox81.TabIndex = 884
+        Me.ComboBox81.Text = "+595 981 198526"
+        '
+        'ComboBox82
+        '
+        Me.ComboBox82.BackColor = System.Drawing.Color.White
+        Me.ComboBox82.DropDownWidth = 272
+        Me.ComboBox82.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox82.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox82.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox82.FormattingEnabled = True
+        Me.ComboBox82.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox82.Items")})
+        Me.ComboBox82.Location = New System.Drawing.Point(11, 1930)
+        Me.ComboBox82.Name = "ComboBox82"
+        Me.ComboBox82.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox82.TabIndex = 884
+        Me.ComboBox82.Text = "+595 981 198526"
+        '
+        'ComboBox84
+        '
+        Me.ComboBox84.BackColor = System.Drawing.Color.White
+        Me.ComboBox84.DropDownWidth = 272
+        Me.ComboBox84.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox84.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox84.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox84.FormattingEnabled = True
+        Me.ComboBox84.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox84.Items")})
+        Me.ComboBox84.Location = New System.Drawing.Point(11, 1954)
+        Me.ComboBox84.Name = "ComboBox84"
+        Me.ComboBox84.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox84.TabIndex = 884
+        Me.ComboBox84.Text = "+595 981 198526"
+        '
+        'ComboBox86
+        '
+        Me.ComboBox86.BackColor = System.Drawing.Color.White
+        Me.ComboBox86.DropDownWidth = 272
+        Me.ComboBox86.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ComboBox86.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox86.ForeColor = System.Drawing.Color.Red
+        Me.ComboBox86.FormattingEnabled = True
+        Me.ComboBox86.Items.AddRange(New Object() {"+595 981 198526", "+595 981 793119 ", "+595 982 159330 ", "+595 985 908572 ", "+595 985 908571 ", "+595 985 930375 ", "+595 984 184130 ", "+595 982 314000 ", "+595 982 221628 ", "+595 981 299705 ", "+595 983 187305 ", "+595 985 593014 ", "+595 992 927237 ", "+595 992 927228 ", "+595 983 188834 ", "+595 982 936196 ", "+595 983 711835 ", "+595 992 927237 ", "+595 986 930877", "+595 985 326271", "+595 985 753864", "+595 982 125480 ", "+595 981 294987 ", "+595 985 723195 ", "+595 985 592171 GUARDIA", "", "(1) Nivel AMARILLO son las horas que tiene para MAQUINISTA para ARRANCAR un traba" &
+                "jo", "Pasadas esta horas y no esta liberado el trabajo ENVIA un aviso a SP solamente.", resources.GetString("ComboBox86.Items")})
+        Me.ComboBox86.Location = New System.Drawing.Point(11, 1972)
+        Me.ComboBox86.Name = "ComboBox86"
+        Me.ComboBox86.Size = New System.Drawing.Size(111, 22)
+        Me.ComboBox86.TabIndex = 884
+        Me.ComboBox86.Text = "+595 981 198526"
+        '
         'DIAGRAMA_GANTT
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2244,4 +3774,89 @@ Partial Class DIAGRAMA_GANTT
     Friend WithEvents Label63 As Label
     Friend WithEvents Label65 As Label
     Friend WithEvents Label62 As Label
+    Friend WithEvents ComboBox10 As ComboBox
+    Friend WithEvents ComboBox50 As ComboBox
+    Friend WithEvents ComboBox42 As ComboBox
+    Friend WithEvents ComboBox30 As ComboBox
+    Friend WithEvents ComboBox49 As ComboBox
+    Friend WithEvents ComboBox41 As ComboBox
+    Friend WithEvents ComboBox29 As ComboBox
+    Friend WithEvents ComboBox48 As ComboBox
+    Friend WithEvents ComboBox40 As ComboBox
+    Friend WithEvents ComboBox28 As ComboBox
+    Friend WithEvents ComboBox47 As ComboBox
+    Friend WithEvents ComboBox39 As ComboBox
+    Friend WithEvents ComboBox27 As ComboBox
+    Friend WithEvents ComboBox46 As ComboBox
+    Friend WithEvents ComboBox38 As ComboBox
+    Friend WithEvents ComboBox26 As ComboBox
+    Friend WithEvents ComboBox45 As ComboBox
+    Friend WithEvents ComboBox37 As ComboBox
+    Friend WithEvents ComboBox25 As ComboBox
+    Friend WithEvents ComboBox44 As ComboBox
+    Friend WithEvents ComboBox36 As ComboBox
+    Friend WithEvents ComboBox43 As ComboBox
+    Friend WithEvents ComboBox24 As ComboBox
+    Friend WithEvents ComboBox35 As ComboBox
+    Friend WithEvents ComboBox23 As ComboBox
+    Friend WithEvents ComboBox34 As ComboBox
+    Friend WithEvents ComboBox22 As ComboBox
+    Friend WithEvents ComboBox33 As ComboBox
+    Friend WithEvents ComboBox21 As ComboBox
+    Friend WithEvents ComboBox32 As ComboBox
+    Friend WithEvents ComboBox31 As ComboBox
+    Friend WithEvents ComboBox20 As ComboBox
+    Friend WithEvents ComboBox19 As ComboBox
+    Friend WithEvents ComboBox18 As ComboBox
+    Friend WithEvents ComboBox17 As ComboBox
+    Friend WithEvents ComboBox16 As ComboBox
+    Friend WithEvents ComboBox15 As ComboBox
+    Friend WithEvents ComboBox14 As ComboBox
+    Friend WithEvents ComboBox13 As ComboBox
+    Friend WithEvents ComboBox12 As ComboBox
+    Friend WithEvents ComboBox11 As ComboBox
+    Friend WithEvents ComboBox9 As ComboBox
+    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents ComboBox8 As ComboBox
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents ComboBox7 As ComboBox
+    Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents ComboBox6 As ComboBox
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents ComboBox230 As ComboBox
+    Friend WithEvents ComboBox79 As ComboBox
+    Friend WithEvents ComboBox86 As ComboBox
+    Friend WithEvents ComboBox71 As ComboBox
+    Friend WithEvents ComboBox78 As ComboBox
+    Friend WithEvents ComboBox63 As ComboBox
+    Friend WithEvents ComboBox70 As ComboBox
+    Friend WithEvents ComboBox55 As ComboBox
+    Friend WithEvents ComboBox62 As ComboBox
+    Friend WithEvents ComboBox77 As ComboBox
+    Friend WithEvents ComboBox69 As ComboBox
+    Friend WithEvents ComboBox84 As ComboBox
+    Friend WithEvents ComboBox76 As ComboBox
+    Friend WithEvents ComboBox61 As ComboBox
+    Friend WithEvents ComboBox68 As ComboBox
+    Friend WithEvents ComboBox54 As ComboBox
+    Friend WithEvents ComboBox60 As ComboBox
+    Friend WithEvents ComboBox75 As ComboBox
+    Friend WithEvents ComboBox67 As ComboBox
+    Friend WithEvents ComboBox82 As ComboBox
+    Friend WithEvents ComboBox74 As ComboBox
+    Friend WithEvents ComboBox59 As ComboBox
+    Friend WithEvents ComboBox66 As ComboBox
+    Friend WithEvents ComboBox53 As ComboBox
+    Friend WithEvents ComboBox58 As ComboBox
+    Friend WithEvents ComboBox81 As ComboBox
+    Friend WithEvents ComboBox73 As ComboBox
+    Friend WithEvents ComboBox65 As ComboBox
+    Friend WithEvents ComboBox57 As ComboBox
+    Friend WithEvents ComboBox80 As ComboBox
+    Friend WithEvents ComboBox52 As ComboBox
+    Friend WithEvents ComboBox72 As ComboBox
+    Friend WithEvents ComboBox64 As ComboBox
+    Friend WithEvents ComboBox56 As ComboBox
+    Friend WithEvents ComboBox51 As ComboBox
 End Class

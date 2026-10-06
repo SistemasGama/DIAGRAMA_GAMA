@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Panel73.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox24.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3684,12 +3681,6 @@ y el real.
         /9k=
 </value>
   </data>
-  <metadata name="Panel42.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel64.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="Panel64.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -3699,19 +3690,6 @@ y el real.
   <metadata name="Panel73.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel281.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="Panel7.ToolTip" xml:space="preserve">
-    <value>Desarrollo Montaje Troquel.
-Todo lo necesario para tener en
-cuenta para realizar un troquel.
-Este calculo MONTAJE es manual.
-Se debe tener en cuenta las medidas 
-estandar, si el aprovechamiento es
-bueno y si la cantidad es menor que
-50 Kilos.</value>
-  </data>
   <data name="PictureBox17.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBD
@@ -11991,12 +11969,28 @@ bueno y si la cantidad es menor que
         KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 </value>
   </data>
+  <data name="Panel7.ToolTip" xml:space="preserve">
+    <value>Desarrollo Montaje Troquel.
+Todo lo necesario para tener en
+cuenta para realizar un troquel.
+Este calculo MONTAJE es manual.
+Se debe tener en cuenta las medidas 
+estandar, si el aprovechamiento es
+bueno y si la cantidad es menor que
+50 Kilos.</value>
+  </data>
   <data name="Button6.ToolTip" xml:space="preserve">
     <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
 Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
 
 Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
 
+</value>
+  </data>
+  <data name="TextBox74.ToolTip" xml:space="preserve">
+    <value>Es el número de estante que se guarda el troquel / luego de la barra esta el número del estante 
+que se guarda el descantonado EXTERNO / Liego de la barra identifica el lugar que
+se guarda el arreglo del troquel / todos con el mismo número del troquel
 </value>
   </data>
   <data name="TextBox1113.Text" xml:space="preserve">
@@ -12204,9 +12198,6 @@ de la bace se agrega al final )
 Trae información de Litoplan.
 </value>
   </data>
-  <metadata name="Panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="PictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -13361,18 +13352,56 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
   <metadata name="Panel17.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel17.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="Panel52.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel52.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="TextBox43.ToolTip" xml:space="preserve">
+    <value>Para tirada de 2.000.000 golpes (50 HRC)  se puede fresar.
+Lo importante que la dureza del fleje sea similar 
+a la dureza de la platina.
+Tambien es importante nivelar la base de la 
+platina y la base del troquel.
+Usar con cuidado la precio par evitar revarbas 
+causadas por el fleje por mal uso o nivel
+esto puede causar polvo y inclusive pelusas 
+importantes en el borde.
+hay niveles de polvo que son aceptables.
+si causa pelusas importante puede causar
+rechasos si son importante.
+50 HRC habla ideal cito para marcado fresado 
+pero, depende mucho de la tirada al final.
+lo que si habla de la rapides conque se ajusta
+es muy rapido</value>
+  </data>
+  <data name="TextBox34.ToolTip" xml:space="preserve">
+    <value>Para tirada de 2.000.000 golpes (35 HRC)  se puede fresar.
+Lo importante que la dureza del fleje sea similar 
+a la dureza de la platina.
+Tambien es importante nivelar la base de la 
+platina y la base del troquel.
+Usar con cuidado la precio par evitar revarbas 
+causadas por el fleje por mal uso o nivel
+esto puede causar polvo y inclusive pelusas 
+importantes en el borde.
+hay niveles de polvo que son aceptables.
+si causa pelusas importante puede causar
+rechasos si son importante.
+</value>
+  </data>
+  <data name="TextBox31.ToolTip" xml:space="preserve">
+    <value>Para tirada de 100.000 golpes (35 HRC) se puede fresar.
+Lo importante que la dureza del fleje sea similar 
+a la dureza de la platina.
+Tambien es importante nivelar la base de la 
+platina y la base del troquel.
+Usar con cuidado la precio par evitar revarbas 
+causadas por el fleje por mal uso o nivel
+esto puede causar polvo y inclusive pelusas 
+importantes en el borde.
+hay niveles de polvo que son aceptables.
+si causa pelusas importante puede causar
+rechasos si son importante.</value>
+  </data>
   <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBD
@@ -17589,12 +17618,6 @@ alto profundida moviendo estas 2 medidas.</value>
   <metadata name="Panel54.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel54.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="Panel34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -20791,12 +20814,6 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
     <value>True</value>
   </metadata>
   <metadata name="Panel50.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel50.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel280.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Panel280.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

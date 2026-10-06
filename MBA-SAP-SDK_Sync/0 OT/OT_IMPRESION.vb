@@ -75,7 +75,7 @@
 
     End Sub
 
-    Private Sub TextBox942_TextChanged(sender As Object, e As EventArgs) Handles TextBox942.TextChanged, TextBox943.TextChanged
+    Private Sub TextBox942_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -83,7 +83,7 @@
 
     End Sub
 
-    Private Sub CheckBox205_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox205.CheckedChanged, CheckBox17.CheckedChanged, CheckBox16.CheckedChanged, CheckBox15.CheckedChanged
+    Private Sub CheckBox205_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -475,5 +475,22 @@
 
     Private Sub TextBox1048_TextChanged(sender As Object, e As EventArgs) Handles TextBox1048.TextChanged, TextBox1044.TextChanged, TextBox1043.TextChanged
 
+    End Sub
+
+    Private Sub OT_IMPRESION_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+
+    End Sub
+
+    Private Sub Panel126_Paint(sender As Object, e As PaintEventArgs) Handles Panel126.Paint
+
+    End Sub
+
+    Private Sub Panel138_Paint(sender As Object, e As PaintEventArgs) Handles Panel138.Paint
+
+    End Sub
+
+    Private Sub Button64_Click(sender As Object, e As EventArgs) Handles Button64.Click
+        FrmPantallaEmergente1.ShowDialog()
     End Sub
 End Class
