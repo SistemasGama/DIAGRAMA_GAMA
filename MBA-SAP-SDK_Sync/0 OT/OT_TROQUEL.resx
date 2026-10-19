@@ -117,6 +117,81 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="TextBox1045.ToolTip" xml:space="preserve">
+    <value>Busca condiciones de TROQUELES que cumpla
+con estas condiciones condiciones.
+
+Que la medida no sea mayor a la MEDIDA "A" indicada.
+Que la medida no sea mayor a la MEDIDA "B" indicada.
+(+-) indica los milimetros que pueden superar esta medida
+o pueden ser menor a esta medida inidcada.
+Con la condicionande de FIBRA que esta indicada en que lado
+debe ser seleccionada. 
+</value>
+  </data>
+  <data name="TextBox1046.ToolTip" xml:space="preserve">
+    <value>Busca condiciones de TROQUELES que cumpla
+con estas condiciones condiciones.
+
+Que la medida no sea mayor a la MEDIDA "A" indicada.
+Que la medida no sea mayor a la MEDIDA "B" indicada.
+(+-) indica los milimetros que pueden superar esta medida
+o pueden ser menor a esta medida inidcada.
+Con la condicionande de FIBRA que esta indicada en que lado
+debe ser seleccionada. 
+</value>
+  </data>
+  <data name="TextBox1047.ToolTip" xml:space="preserve">
+    <value>Busca condiciones de TROQUELES que cumpla
+con estas condiciones condiciones.
+
+Que la medida no sea mayor a la MEDIDA "A" indicada.
+Que la medida no sea mayor a la MEDIDA "B" indicada.
+(+-) indica los milimetros que pueden superar esta medida
+o pueden ser menor a esta medida inidcada.
+Con la condicionande de FIBRA que esta indicada en que lado
+debe ser seleccionada. 
+</value>
+  </data>
+  <data name="TextBox1048.ToolTip" xml:space="preserve">
+    <value>Busca condiciones de TROQUELES que cumpla
+con estas condiciones condiciones.
+
+Que la medida no sea mayor a la MEDIDA "A" indicada.
+Que la medida no sea mayor a la MEDIDA "B" indicada.
+(+-) indica los milimetros que pueden superar esta medida
+o pueden ser menor a esta medida inidcada.
+Con la condicionande de FIBRA que esta indicada en que lado
+debe ser seleccionada. 
+</value>
+  </data>
+  <data name="TextBox1076.ToolTip" xml:space="preserve">
+    <value>"Medida A - Encastre"  se quita uno de los sierres.
+(Medida Alto + 1Fondo + 1Aleta cajon + Medianil Lat.)
+(Fondo + ALeta cajo + Medianil Lat., que no fue cargado
+de la bace se agrega al final )
+Trae información de Litoplan.
+</value>
+  </data>
+  <data name="Panel7.ToolTip" xml:space="preserve">
+    <value>Desarrollo Montaje Troquel.
+Todo lo necesario para tener en
+cuenta para realizar un troquel.
+Este calculo MONTAJE es manual.
+Se debe tener en cuenta las medidas 
+estandar, si el aprovechamiento es
+bueno y si la cantidad es menor que
+50 Kilos.</value>
+  </data>
+  <metadata name="Panel281.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>200, 7</value>
+  </metadata>
+  <metadata name="Panel73.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox24.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3225,9 +3300,6 @@
         KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 </value>
   </data>
-  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>200, 7</value>
-  </metadata>
   <data name="Button24.ToolTip" xml:space="preserve">
     <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
 Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
@@ -3681,6 +3753,12 @@ y el real.
         /9k=
 </value>
   </data>
+  <metadata name="Panel42.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel64.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="Panel64.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -3690,6 +3768,167 @@ y el real.
   <metadata name="Panel73.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="ComboBox325.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="Button96.ToolTip" xml:space="preserve">
+    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
+Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
+
+Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
+
+</value>
+  </data>
+  <data name="ComboBox327.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="Label560.ToolTip" xml:space="preserve">
+    <value>Este ajuste de % del pelicula se da 
+solo en el caso de pasar por las
+lamparas UV, ya que las dimenciones
+se contrae en 2 mm el carton y la 
+imagen, debiendo ampliar a este %
+Para que cuando pasa por la UV y se
+contrae queda a la medida solicitada 
+por el cliente y calca el UV sectorizado 
+con el impreso.
+</value>
+  </data>
+  <data name="Label561.ToolTip" xml:space="preserve">
+    <value>Este ajuste de % del diseño se da 
+solo en el caso de pasar por las
+lamparas UV, ya que las dimenciones
+se contrae en 2 mm el carton y la 
+imagen, debiendo ampliar a este %
+Para que cuando pasa por la UV y se
+contrae queda a la medida solicitada 
+por el cliente.</value>
+  </data>
+  <data name="RadioButton178.ToolTip" xml:space="preserve">
+    <value>Se utiliza IMPRESION 3D para relieve MACHO que sean muy finos. 
+La impresion 3D es echa con una cama de 0,5 mm, no se hace el 
+macho solo la parte del relieve se hace con 2 mm contoreado todo 
+el sector que precisa relieve. Se utiliza una resina elastica que pueda 
+moldearce e ingresar en estos detalles.
+La altura de MACHO 3D de goma dura, debe tener una altura en los
+sectores de relieve de 2mm.
+Debe contar con los agujeros guieas del cuño hembra para pegar 
+en registro.</value>
+  </data>
+  <data name="TextBox1164.ToolTip" xml:space="preserve">
+    <value>Se aumenta el tamaño del trabajo ya que cuando 
+pasa por UV se achica en el centido fibra encojiendo 
+el trabajo en el centido fibra por la alta temperatura. 
+De esta forma coincide con la cruz de registro troquelado
+</value>
+  </data>
+  <data name="TextBox74.ToolTip" xml:space="preserve">
+    <value>Es el número de estante que se guarda el troquel / luego de la barra esta el número del estante 
+que se guarda el descantonado EXTERNO / Liego de la barra identifica el lugar que
+se guarda el arreglo del troquel / todos con el mismo número del troquel
+</value>
+  </data>
+  <data name="TextBox1113.Text" xml:space="preserve">
+    <value>MO: 
+Max 65X48 
+Min  00X00 cm
+
+XL75: 
+Max 75X61
+Min 35X21 cm 
+Copiar a: 5,5 cm 
+Pinza: 1,8 cm
+ 
+CD102:
+Max 102X71 cm 
+Min 00X00 cm
+Copiar a: 5,5 cm 
+Pinza: 1,8 cm 
+
+STAMPAD:
+Max: 75X50 cm   
+Min: 00X00 cm
+
+YAWA:
+Max: 102X71 cm
+Min: 00X00 cm
+
+SKM:
+Max: 102X71 cm
+Min: 00X00 cm
+
+SORD: 
+Max: 90X61
+Min: 00X00 cm
+
+UV: 
+Max: 75X58
+Min: 00X00 cm
+
+REMADORA:
+Max ANCHO: 170 cm  
+Max DIAMET.:180 cm
+
+</value>
+  </data>
+  <data name="TextBox1115.ToolTip" xml:space="preserve">
+    <value>Nuevo Código LARGO de TROQUEL.
+Este Código se forma automaticamente,
+ segun información cargada a bajo.
+
+000000000/4444/L/1111P/2222/33/444/A/R
+000000000: es la medida ANCHO en mm (FIBRA) + ALTO + FONDO.
+Siempre de 3 digitos si es menor se agrega "0" antes.
+9999: "Troquel gama numero con los "0" antes del numero y son 4 digitos.
+L: tipo de pegado LATERAL o AUTOMATICO o MANUAL
+Medida A mm: medida + "P" Pinta si esta indicado que va en esta medida
+Medida B mm: medida + "P" Pinta si esta indicado que va en esta medida
+33: es la cantidad de bocas
+444: gramaje del carton utilizado
+
+ATENCIÓN: IMPORTANTE: LA MEDIDA QUE ESTA LA "P" ES LA PINZA,
+Y ES LA MEDIDA QUE MUERDE EL CARTON CON LAS PINZA, Y ESTA
+MEDIDA DEBE SER COLOCADA SIEMPRE PRIMERO EN EL CODIGO. 
+
+
+
+
+</value>
+  </data>
+  <data name="TextBox1122.ToolTip" xml:space="preserve">
+    <value>Nuevo Código corto de TROQUEL.
+Este Código se forma automaticamente,
+ segun información cargada a bajo.
+
+4444/L/1111P/2222/33/444/A/R
+000000000: es la medida ANCHO en mm (FIBRA) + ALTO + FONDO.
+Siempre de 3 digitos si es menor se agrega "0" antes.
+9999: "Troquel gama numero con los "0" antes del numero y son 4 digitos.
+L: tipo de pegado LATERAL o AUTOMATICO o MANUAL
+Medida A mm: medida + "P" Pinta si esta indicado que va en esta medida
+Medida B mm: medida + "P" Pinta si esta indicado que va en esta medida
+33: es la cantidad de bocas
+444: gramaje del carton utilizado
+
+ATENCIÓN: IMPORTANTE: LA MEDIDA QUE ESTA LA "P" ES LA PINZA,
+Y ES LA MEDIDA QUE MUERDE EL CARTON CON LAS PINZA, Y ESTA
+MEDIDA DEBE SER COLOCADA SIEMPRE PRIMERO EN EL CODIGO.
+
+</value>
+  </data>
+  <data name="TextBox1057.ToolTip" xml:space="preserve">
+    <value>Media A paraleta a la solapa PEGADO,
+Media HOJA para imprimir mínima.
+Si tiene recorte menor a 9 cm agrega
+a la Medida A para tener un pliego mas 
+estable x mayor superficie.
+Dividiento entre las cantidad hojas los
+cm sobrantes scrap.
+Salvo que las tiradas hojas sean mayor que 
+1000 kilos y se pueda cortar a una de las dos 
+medidas de tapitas.
+</value>
+  </data>
   <data name="PictureBox17.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBD
@@ -11969,235 +12208,9 @@ y el real.
         KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//Z
 </value>
   </data>
-  <data name="Panel7.ToolTip" xml:space="preserve">
-    <value>Desarrollo Montaje Troquel.
-Todo lo necesario para tener en
-cuenta para realizar un troquel.
-Este calculo MONTAJE es manual.
-Se debe tener en cuenta las medidas 
-estandar, si el aprovechamiento es
-bueno y si la cantidad es menor que
-50 Kilos.</value>
-  </data>
-  <data name="Button6.ToolTip" xml:space="preserve">
-    <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
-Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
-
-Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con esta botón toda la información que está cargada.
-
-</value>
-  </data>
-  <data name="TextBox74.ToolTip" xml:space="preserve">
-    <value>Es el número de estante que se guarda el troquel / luego de la barra esta el número del estante 
-que se guarda el descantonado EXTERNO / Liego de la barra identifica el lugar que
-se guarda el arreglo del troquel / todos con el mismo número del troquel
-</value>
-  </data>
-  <data name="TextBox1113.Text" xml:space="preserve">
-    <value>MO: 
-Max 65X48 
-Min  00X00 cm
-
-XL75: 
-Max 75X61
-Min 35X21 cm 
-Copiar a: 5,5 cm 
-Pinza: 1,8 cm
- 
-CD102:
-Max 102X71 cm 
-Min 00X00 cm
-Copiar a: 5,5 cm 
-Pinza: 1,8 cm 
-
-STAMPAD:
-Max: 75X50 cm   
-Min: 00X00 cm
-
-YAWA:
-Max: 102X71 cm
-Min: 00X00 cm
-
-SKM:
-Max: 102X71 cm
-Min: 00X00 cm
-
-SORD: 
-Max: 90X61
-Min: 00X00 cm
-
-UV: 
-Max: 75X58
-Min: 00X00 cm
-
-REMADORA:
-Max ANCHO: 170 cm  
-Max DIAMET.:180 cm
-
-</value>
-  </data>
-  <data name="Label560.ToolTip" xml:space="preserve">
-    <value>Este ajuste de % del pelicula se da 
-solo en el caso de pasar por las
-lamparas UV, ya que las dimenciones
-se contrae en 2 mm el carton y la 
-imagen, debiendo ampliar a este %
-Para que cuando pasa por la UV y se
-contrae queda a la medida solicitada 
-por el cliente y calca el UV sectorizado 
-con el impreso.
-</value>
-  </data>
-  <data name="Label561.ToolTip" xml:space="preserve">
-    <value>Este ajuste de % del diseño se da 
-solo en el caso de pasar por las
-lamparas UV, ya que las dimenciones
-se contrae en 2 mm el carton y la 
-imagen, debiendo ampliar a este %
-Para que cuando pasa por la UV y se
-contrae queda a la medida solicitada 
-por el cliente.</value>
-  </data>
-  <data name="TextBox1115.ToolTip" xml:space="preserve">
-    <value>Nuevo Código LARGO de TROQUEL.
-Este Código se forma automaticamente,
- segun información cargada a bajo.
-
-000000000/4444/L/1111P/2222/33/444/A/R
-000000000: es la medida ANCHO en mm (FIBRA) + ALTO + FONDO.
-Siempre de 3 digitos si es menor se agrega "0" antes.
-9999: "Troquel gama numero con los "0" antes del numero y son 4 digitos.
-L: tipo de pegado LATERAL o AUTOMATICO o MANUAL
-Medida A mm: medida + "P" Pinta si esta indicado que va en esta medida
-Medida B mm: medida + "P" Pinta si esta indicado que va en esta medida
-33: es la cantidad de bocas
-444: gramaje del carton utilizado
-
-ATENCIÓN: IMPORTANTE: LA MEDIDA QUE ESTA LA "P" ES LA PINZA,
-Y ES LA MEDIDA QUE MUERDE EL CARTON CON LAS PINZA, Y ESTA
-MEDIDA DEBE SER COLOCADA SIEMPRE PRIMERO EN EL CODIGO. 
-
-
-
-
-</value>
-  </data>
-  <data name="TextBox1131.ToolTip" xml:space="preserve">
-    <value>Este ajuste de % del pelicula se da 
-solo en el caso de pasar por las
-lamparas UV, ya que las dimenciones
-se contrae en 2 mm el carton y la 
-imagen, debiendo ampliar a este %
-Para que cuando pasa por la UV y se
-contrae queda a la medida solicitada 
-por el cliente y calca el UV sectorizado 
-con el impreso.
-</value>
-  </data>
-  <data name="TextBox1130.ToolTip" xml:space="preserve">
-    <value>Este ajuste de % del diseño se da 
-solo en el caso de pasar por las
-lamparas UV, ya que las dimenciones
-se contrae en 2 mm el carton y la 
-imagen, debiendo ampliar a este %
-Para que cuando pasa por la UV y se
-contrae queda a la medida solicitada 
-por el cliente.
-</value>
-  </data>
-  <data name="TextBox1122.ToolTip" xml:space="preserve">
-    <value>Nuevo Código corto de TROQUEL.
-Este Código se forma automaticamente,
- segun información cargada a bajo.
-
-4444/L/1111P/2222/33/444/A/R
-000000000: es la medida ANCHO en mm (FIBRA) + ALTO + FONDO.
-Siempre de 3 digitos si es menor se agrega "0" antes.
-9999: "Troquel gama numero con los "0" antes del numero y son 4 digitos.
-L: tipo de pegado LATERAL o AUTOMATICO o MANUAL
-Medida A mm: medida + "P" Pinta si esta indicado que va en esta medida
-Medida B mm: medida + "P" Pinta si esta indicado que va en esta medida
-33: es la cantidad de bocas
-444: gramaje del carton utilizado
-
-ATENCIÓN: IMPORTANTE: LA MEDIDA QUE ESTA LA "P" ES LA PINZA,
-Y ES LA MEDIDA QUE MUERDE EL CARTON CON LAS PINZA, Y ESTA
-MEDIDA DEBE SER COLOCADA SIEMPRE PRIMERO EN EL CODIGO.
-
-</value>
-  </data>
-  <metadata name="Panel281.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="TextBox1045.ToolTip" xml:space="preserve">
-    <value>Busca condiciones de TROQUELES que cumpla
-con estas condiciones condiciones.
-
-Que la medida no sea mayor a la MEDIDA "A" indicada.
-Que la medida no sea mayor a la MEDIDA "B" indicada.
-(+-) indica los milimetros que pueden superar esta medida
-o pueden ser menor a esta medida inidcada.
-Con la condicionande de FIBRA que esta indicada en que lado
-debe ser seleccionada. 
-</value>
-  </data>
-  <data name="TextBox1046.ToolTip" xml:space="preserve">
-    <value>Busca condiciones de TROQUELES que cumpla
-con estas condiciones condiciones.
-
-Que la medida no sea mayor a la MEDIDA "A" indicada.
-Que la medida no sea mayor a la MEDIDA "B" indicada.
-(+-) indica los milimetros que pueden superar esta medida
-o pueden ser menor a esta medida inidcada.
-Con la condicionande de FIBRA que esta indicada en que lado
-debe ser seleccionada. 
-</value>
-  </data>
-  <data name="TextBox1047.ToolTip" xml:space="preserve">
-    <value>Busca condiciones de TROQUELES que cumpla
-con estas condiciones condiciones.
-
-Que la medida no sea mayor a la MEDIDA "A" indicada.
-Que la medida no sea mayor a la MEDIDA "B" indicada.
-(+-) indica los milimetros que pueden superar esta medida
-o pueden ser menor a esta medida inidcada.
-Con la condicionande de FIBRA que esta indicada en que lado
-debe ser seleccionada. 
-</value>
-  </data>
-  <data name="TextBox1048.ToolTip" xml:space="preserve">
-    <value>Busca condiciones de TROQUELES que cumpla
-con estas condiciones condiciones.
-
-Que la medida no sea mayor a la MEDIDA "A" indicada.
-Que la medida no sea mayor a la MEDIDA "B" indicada.
-(+-) indica los milimetros que pueden superar esta medida
-o pueden ser menor a esta medida inidcada.
-Con la condicionande de FIBRA que esta indicada en que lado
-debe ser seleccionada. 
-</value>
-  </data>
-  <data name="TextBox1057.ToolTip" xml:space="preserve">
-    <value>Media A paraleta a la solapa PEGADO,
-Media HOJA para imprimir mínima.
-Si tiene recorte menor a 9 cm agrega
-a la Medida A para tener un pliego mas 
-estable x mayor superficie.
-Dividiento entre las cantidad hojas los
-cm sobrantes scrap.
-Salvo que las tiradas hojas sean mayor que 
-1000 kilos y se pueda cortar a una de las dos 
-medidas de tapitas.
-</value>
-  </data>
-  <data name="TextBox1076.ToolTip" xml:space="preserve">
-    <value>"Medida A - Encastre"  se quita uno de los sierres.
-(Medida Alto + 1Fondo + 1Aleta cajon + Medianil Lat.)
-(Fondo + ALeta cajo + Medianil Lat., que no fue cargado
-de la bace se agrega al final )
-Trae información de Litoplan.
-</value>
-  </data>
   <data name="PictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -13352,56 +13365,24 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
   <metadata name="Panel17.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="Panel17.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="Panel52.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="TextBox43.ToolTip" xml:space="preserve">
-    <value>Para tirada de 2.000.000 golpes (50 HRC)  se puede fresar.
-Lo importante que la dureza del fleje sea similar 
-a la dureza de la platina.
-Tambien es importante nivelar la base de la 
-platina y la base del troquel.
-Usar con cuidado la precio par evitar revarbas 
-causadas por el fleje por mal uso o nivel
-esto puede causar polvo y inclusive pelusas 
-importantes en el borde.
-hay niveles de polvo que son aceptables.
-si causa pelusas importante puede causar
-rechasos si son importante.
-50 HRC habla ideal cito para marcado fresado 
-pero, depende mucho de la tirada al final.
-lo que si habla de la rapides conque se ajusta
-es muy rapido</value>
-  </data>
-  <data name="TextBox34.ToolTip" xml:space="preserve">
-    <value>Para tirada de 2.000.000 golpes (35 HRC)  se puede fresar.
-Lo importante que la dureza del fleje sea similar 
-a la dureza de la platina.
-Tambien es importante nivelar la base de la 
-platina y la base del troquel.
-Usar con cuidado la precio par evitar revarbas 
-causadas por el fleje por mal uso o nivel
-esto puede causar polvo y inclusive pelusas 
-importantes en el borde.
-hay niveles de polvo que son aceptables.
-si causa pelusas importante puede causar
-rechasos si son importante.
-</value>
-  </data>
-  <data name="TextBox31.ToolTip" xml:space="preserve">
-    <value>Para tirada de 100.000 golpes (35 HRC) se puede fresar.
-Lo importante que la dureza del fleje sea similar 
-a la dureza de la platina.
-Tambien es importante nivelar la base de la 
-platina y la base del troquel.
-Usar con cuidado la precio par evitar revarbas 
-causadas por el fleje por mal uso o nivel
-esto puede causar polvo y inclusive pelusas 
-importantes en el borde.
-hay niveles de polvo que son aceptables.
-si causa pelusas importante puede causar
-rechasos si son importante.</value>
-  </data>
+  <metadata name="Panel52.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBD
@@ -17618,7 +17599,17 @@ alto profundida moviendo estas 2 medidas.</value>
   <metadata name="Panel54.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Panel34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="TextBox103.ToolTip" xml:space="preserve">
+    <value>La altuta del fleje MARCA va en relacion a las micras del carton.
+Hasta 350 micras usar 23,60 perfilado
+Hasta 500 micras se puede usar 23,30 mm
+De 550 micras usar 23,40 mm de altura
+Para usar PLATINA debe usar 23,50 mm altura
+
+
+</value>
+  </data>
+  <metadata name="Panel54.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -20814,6 +20805,12 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
     <value>True</value>
   </metadata>
   <metadata name="Panel50.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel50.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Panel280.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Panel280.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

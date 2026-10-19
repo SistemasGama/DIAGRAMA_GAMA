@@ -30,4 +30,8 @@
     Private Sub Panel45_Paint(sender As Object, e As PaintEventArgs) Handles Panel45.Paint
 
     End Sub
+
+    Private Sub TextBox455_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

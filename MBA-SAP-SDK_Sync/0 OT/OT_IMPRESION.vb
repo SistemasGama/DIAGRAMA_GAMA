@@ -79,7 +79,7 @@
 
     End Sub
 
-    Private Sub Label261_Click(sender As Object, e As EventArgs) Handles Label261.Click
+    Private Sub Label261_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -87,15 +87,15 @@
 
     End Sub
 
-    Private Sub Label32_Click(sender As Object, e As EventArgs) Handles Label32.Click
+    Private Sub Label32_Click(sender As Object, e As EventArgs) Handles Label513.Click
 
     End Sub
 
-    Private Sub Label30_Click(sender As Object, e As EventArgs) Handles Label30.Click
+    Private Sub Label30_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label29_Click(sender As Object, e As EventArgs) Handles Label29.Click
+    Private Sub Label29_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -405,19 +405,19 @@
 
     End Sub
 
-    Private Sub CheckBox82_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox82.CheckedChanged
+    Private Sub CheckBox82_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub CheckBox83_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox83.CheckedChanged
+    Private Sub CheckBox83_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub CheckBox145_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox145.CheckedChanged
+    Private Sub CheckBox145_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub CheckBox158_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox158.CheckedChanged
+    Private Sub CheckBox158_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -445,35 +445,35 @@
 
     End Sub
 
-    Private Sub Label805_Click(sender As Object, e As EventArgs) Handles Label805.Click
+    Private Sub Label805_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label806_Click(sender As Object, e As EventArgs) Handles Label806.Click, Label605.Click, Label604.Click
+    Private Sub Label806_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub TextBox1045_TextChanged(sender As Object, e As EventArgs) Handles TextBox1045.TextChanged
+    Private Sub TextBox1045_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub TextBox1046_TextChanged(sender As Object, e As EventArgs) Handles TextBox1046.TextChanged
+    Private Sub TextBox1046_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label807_Click(sender As Object, e As EventArgs) Handles Label807.Click
+    Private Sub Label807_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label808_Click(sender As Object, e As EventArgs) Handles Label808.Click
+    Private Sub Label808_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub TextBox1047_TextChanged(sender As Object, e As EventArgs) Handles TextBox1047.TextChanged
+    Private Sub TextBox1047_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub TextBox1048_TextChanged(sender As Object, e As EventArgs) Handles TextBox1048.TextChanged, TextBox1044.TextChanged, TextBox1043.TextChanged
+    Private Sub TextBox1048_TextChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -482,7 +482,7 @@
 
     End Sub
 
-    Private Sub Panel126_Paint(sender As Object, e As PaintEventArgs) Handles Panel126.Paint
+    Private Sub Panel126_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
 
@@ -492,5 +492,17 @@
 
     Private Sub Button64_Click(sender As Object, e As EventArgs) Handles Button64.Click
         FrmPantallaEmergente1.ShowDialog()
+    End Sub
+
+    Private Sub Panel16_Paint(sender As Object, e As PaintEventArgs) Handles Panel16.Paint
+
+    End Sub
+
+    Private Sub Label49_Click(sender As Object, e As EventArgs) Handles Label49.Click
+
+    End Sub
+
+    Private Sub ComboBox241_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox241.SelectedIndexChanged
+
     End Sub
 End Class
