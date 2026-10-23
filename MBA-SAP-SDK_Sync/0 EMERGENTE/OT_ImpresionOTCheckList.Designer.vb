@@ -22,8 +22,8 @@ Partial Class EmergenteChecklist
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(EmergenteChecklist))
         Dim CheckedListBox13 As System.Windows.Forms.CheckedListBox
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(EmergenteChecklist))
         Me.Panel162 = New System.Windows.Forms.Panel()
         Me.Panel43 = New System.Windows.Forms.Panel()
         Me.Button158 = New System.Windows.Forms.Button()
@@ -189,6 +189,18 @@ Partial Class EmergenteChecklist
         Me.Panel168.SuspendLayout()
         Me.SuspendLayout()
         '
+        'CheckedListBox13
+        '
+        CheckedListBox13.BackColor = System.Drawing.Color.White
+        CheckedListBox13.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        CheckedListBox13.ForeColor = System.Drawing.Color.Black
+        CheckedListBox13.FormattingEnabled = True
+        CheckedListBox13.Items.AddRange(New Object() {"Descartonado", "Seleccionado", "     Adhesivo Friao ---", "Cinta para enfajar", "     Caja corrugada ---", "     Cinta Adhesiva ---", "     Pallet Base  -------", "     Pallet Tapa  -------", "Lamina polietileno", "Film strip", "Suncho ", "Evilla", "Rotulo", "     Adhesivo Barra ----"})
+        CheckedListBox13.Location = New System.Drawing.Point(9, 35)
+        CheckedListBox13.Name = "CheckedListBox13"
+        CheckedListBox13.Size = New System.Drawing.Size(123, 214)
+        CheckedListBox13.TabIndex = 23
+        '
         'Panel162
         '
         Me.Panel162.BackColor = System.Drawing.Color.Lime
@@ -206,7 +218,7 @@ Partial Class EmergenteChecklist
         Me.Panel162.Location = New System.Drawing.Point(0, 0)
         Me.Panel162.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel162.Name = "Panel162"
-        Me.Panel162.Size = New System.Drawing.Size(1041, 489)
+        Me.Panel162.Size = New System.Drawing.Size(1364, 664)
         Me.Panel162.TabIndex = 18
         '
         'Panel43
@@ -1790,18 +1802,6 @@ Partial Class EmergenteChecklist
         Me.Button52.Text = "FIN"
         Me.Button52.UseVisualStyleBackColor = False
         '
-        'CheckedListBox13
-        '
-        CheckedListBox13.BackColor = System.Drawing.Color.White
-        CheckedListBox13.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        CheckedListBox13.ForeColor = System.Drawing.Color.Black
-        CheckedListBox13.FormattingEnabled = True
-        CheckedListBox13.Items.AddRange(New Object() {"Descartonado", "Seleccionado", "     Adhesivo Friao ---", "Cinta para enfajar", "     Caja corrugada ---", "     Cinta Adhesiva ---", "     Pallet Base  -------", "     Pallet Tapa  -------", "Lamina polietileno", "Film strip", "Suncho ", "Evilla", "Rotulo", "     Adhesivo Barra ----"})
-        CheckedListBox13.Location = New System.Drawing.Point(9, 35)
-        CheckedListBox13.Name = "CheckedListBox13"
-        CheckedListBox13.Size = New System.Drawing.Size(123, 214)
-        CheckedListBox13.TabIndex = 23
-        '
         'Button47
         '
         Me.Button47.AutoSize = True
@@ -2123,7 +2123,7 @@ Partial Class EmergenteChecklist
         Me.Panel168.Location = New System.Drawing.Point(0, 0)
         Me.Panel168.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel168.Name = "Panel168"
-        Me.Panel168.Size = New System.Drawing.Size(1037, 31)
+        Me.Panel168.Size = New System.Drawing.Size(1360, 31)
         Me.Panel168.TabIndex = 0
         '
         'Button17
@@ -2345,7 +2345,7 @@ Partial Class EmergenteChecklist
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1041, 489)
+        Me.ClientSize = New System.Drawing.Size(1364, 664)
         Me.Controls.Add(Me.Panel162)
         Me.Name = "EmergenteChecklist"
         Me.Text = "EmergenteChecklist"

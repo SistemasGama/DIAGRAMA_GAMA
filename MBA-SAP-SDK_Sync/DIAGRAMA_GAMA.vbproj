@@ -112,6 +112,72 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="0 EMERGENTE\10.Designer.vb">
+      <DependentUpon>10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\11.Designer.vb">
+      <DependentUpon>11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\11.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\12.Designer.vb">
+      <DependentUpon>12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\13.Designer.vb">
+      <DependentUpon>13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\13.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\4.Designer.vb">
+      <DependentUpon>4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\5.Designer.vb">
+      <DependentUpon>5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\7.Designer.vb">
+      <DependentUpon>7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\8.Designer.vb">
+      <DependentUpon>8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\9.Designer.vb">
+      <DependentUpon>9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\EmergenteChecklist.Designer.vb">
+      <DependentUpon>EmergenteChecklist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\EmergenteChecklist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\EmergentePlanificacion.Designer.vb">
+      <DependentUpon>EmergentePlanificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\EmergentePlanificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="0 EMERGENTE\FrmPantallaEmergente1.Designer.vb">
       <DependentUpon>FrmPantallaEmergente1.vb</DependentUpon>
     </Compile>
@@ -264,6 +330,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="0 EMERGENTE\EmergenteChecklist.resx">
+      <DependentUpon>EmergenteChecklist.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="0 EMERGENTE\FrmPantallaEmergente1.resx">
       <DependentUpon>FrmPantallaEmergente1.vb</DependentUpon>
     </EmbeddedResource>
