@@ -73,6 +73,7 @@ Partial Class OT_TROQUEL
         Me.Panel32 = New System.Windows.Forms.Panel()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel26 = New System.Windows.Forms.Panel()
+        Me.PictureBox19 = New System.Windows.Forms.PictureBox()
         Me.ComboBox17 = New System.Windows.Forms.ComboBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Panel76 = New System.Windows.Forms.Panel()
@@ -124,6 +125,7 @@ Partial Class OT_TROQUEL
         Me.Label157 = New System.Windows.Forms.Label()
         Me.Label163 = New System.Windows.Forms.Label()
         Me.Panel64 = New System.Windows.Forms.Panel()
+        Me.PictureBox20 = New System.Windows.Forms.PictureBox()
         Me.Label164 = New System.Windows.Forms.Label()
         Me.TextBox124 = New System.Windows.Forms.TextBox()
         Me.Panel9 = New System.Windows.Forms.Panel()
@@ -155,6 +157,7 @@ Partial Class OT_TROQUEL
         Me.RadioButton25 = New System.Windows.Forms.RadioButton()
         Me.RadioButton26 = New System.Windows.Forms.RadioButton()
         Me.Panel42 = New System.Windows.Forms.Panel()
+        Me.PictureBox22 = New System.Windows.Forms.PictureBox()
         Me.Label103 = New System.Windows.Forms.Label()
         Me.ComboBox9 = New System.Windows.Forms.ComboBox()
         Me.ComboBox13 = New System.Windows.Forms.ComboBox()
@@ -318,6 +321,7 @@ Partial Class OT_TROQUEL
         Me.TextBox1132 = New System.Windows.Forms.TextBox()
         Me.TextBox1098 = New System.Windows.Forms.TextBox()
         Me.TextBox1099 = New System.Windows.Forms.TextBox()
+        Me.TextBox53 = New System.Windows.Forms.TextBox()
         Me.TextBox1100 = New System.Windows.Forms.TextBox()
         Me.Label470 = New System.Windows.Forms.Label()
         Me.Label471 = New System.Windows.Forms.Label()
@@ -431,6 +435,7 @@ Partial Class OT_TROQUEL
         Me.TextBox1093 = New System.Windows.Forms.TextBox()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Panel138 = New System.Windows.Forms.Panel()
+        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
         Me.TextBox47 = New System.Windows.Forms.TextBox()
         Me.TextBox48 = New System.Windows.Forms.TextBox()
         Me.Label46 = New System.Windows.Forms.Label()
@@ -484,6 +489,7 @@ Partial Class OT_TROQUEL
         Me.TextBox1140 = New System.Windows.Forms.TextBox()
         Me.Label48 = New System.Windows.Forms.Label()
         Me.Panel281 = New System.Windows.Forms.Panel()
+        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
         Me.Button39 = New System.Windows.Forms.Button()
         Me.Button40 = New System.Windows.Forms.Button()
         Me.Button41 = New System.Windows.Forms.Button()
@@ -526,34 +532,8 @@ Partial Class OT_TROQUEL
         Me.Label200 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Panel51 = New System.Windows.Forms.Panel()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.Panel52 = New System.Windows.Forms.Panel()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label45 = New System.Windows.Forms.Label()
-        Me.Label223 = New System.Windows.Forms.Label()
-        Me.ComboBox33 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox25 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox8 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Label225 = New System.Windows.Forms.Label()
-        Me.ComboBox7 = New System.Windows.Forms.ComboBox()
-        Me.Label190 = New System.Windows.Forms.Label()
-        Me.Label189 = New System.Windows.Forms.Label()
-        Me.Label183 = New System.Windows.Forms.Label()
-        Me.Label224 = New System.Windows.Forms.Label()
-        Me.Label181 = New System.Windows.Forms.Label()
-        Me.Label278 = New System.Windows.Forms.Label()
-        Me.Label279 = New System.Windows.Forms.Label()
-        Me.TextBox80 = New System.Windows.Forms.TextBox()
-        Me.TextBox81 = New System.Windows.Forms.TextBox()
-        Me.TextBox82 = New System.Windows.Forms.TextBox()
-        Me.TextBox132 = New System.Windows.Forms.TextBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label55 = New System.Windows.Forms.Label()
         Me.Panel33 = New System.Windows.Forms.Panel()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.TextBox36 = New System.Windows.Forms.TextBox()
         Me.Panel34 = New System.Windows.Forms.Panel()
         Me.Label67 = New System.Windows.Forms.Label()
@@ -562,6 +542,38 @@ Partial Class OT_TROQUEL
         Me.TextBox49 = New System.Windows.Forms.TextBox()
         Me.TextBox45 = New System.Windows.Forms.TextBox()
         Me.TextBox44 = New System.Windows.Forms.TextBox()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Label61 = New System.Windows.Forms.Label()
+        Me.Label60 = New System.Windows.Forms.Label()
+        Me.Label50 = New System.Windows.Forms.Label()
+        Me.Label51 = New System.Windows.Forms.Label()
+        Me.TextBox43 = New System.Windows.Forms.TextBox()
+        Me.TextBox70 = New System.Windows.Forms.TextBox()
+        Me.TextBox69 = New System.Windows.Forms.TextBox()
+        Me.TextBox71 = New System.Windows.Forms.TextBox()
+        Me.TextBox26 = New System.Windows.Forms.TextBox()
+        Me.Panel52 = New System.Windows.Forms.Panel()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label57 = New System.Windows.Forms.Label()
+        Me.Label56 = New System.Windows.Forms.Label()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label223 = New System.Windows.Forms.Label()
+        Me.TextBox67 = New System.Windows.Forms.TextBox()
+        Me.TextBox63 = New System.Windows.Forms.TextBox()
+        Me.TextBox61 = New System.Windows.Forms.TextBox()
+        Me.TextBox59 = New System.Windows.Forms.TextBox()
+        Me.TextBox62 = New System.Windows.Forms.TextBox()
+        Me.TextBox55 = New System.Windows.Forms.TextBox()
+        Me.TextBox60 = New System.Windows.Forms.TextBox()
+        Me.TextBox54 = New System.Windows.Forms.TextBox()
+        Me.TextBox58 = New System.Windows.Forms.TextBox()
+        Me.TextBox80 = New System.Windows.Forms.TextBox()
+        Me.TextBox81 = New System.Windows.Forms.TextBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel8 = New System.Windows.Forms.Panel()
         Me.Label258 = New System.Windows.Forms.Label()
@@ -634,14 +646,6 @@ Partial Class OT_TROQUEL
         Me.Label289 = New System.Windows.Forms.Label()
         Me.ComboBox201 = New System.Windows.Forms.ComboBox()
         Me.Button16 = New System.Windows.Forms.Button()
-        Me.Label220 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.Label55 = New System.Windows.Forms.Label()
-        Me.Label51 = New System.Windows.Forms.Label()
-        Me.TextBox102 = New System.Windows.Forms.TextBox()
-        Me.TextBox43 = New System.Windows.Forms.TextBox()
-        Me.TextBox103 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
         Me.Label118 = New System.Windows.Forms.Label()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
@@ -1212,7 +1216,8 @@ Partial Class OT_TROQUEL
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox53 = New System.Windows.Forms.TextBox()
+        Me.Label62 = New System.Windows.Forms.Label()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.TabControl1.SuspendLayout
         Me.Troquel.SuspendLayout
         Me.Panel22.SuspendLayout
@@ -1220,18 +1225,21 @@ Partial Class OT_TROQUEL
         Me.Panel25.SuspendLayout
         Me.Panel32.SuspendLayout
         Me.Panel26.SuspendLayout
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel76.SuspendLayout
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel41.SuspendLayout
         Me.Panel63.SuspendLayout
         Me.Panel64.SuspendLayout
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel9.SuspendLayout
         Me.Panel13.SuspendLayout
         Me.Panel40.SuspendLayout
         Me.Panel16.SuspendLayout
         Me.Panel68.SuspendLayout
         Me.Panel42.SuspendLayout
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel73.SuspendLayout
         Me.Montaje.SuspendLayout
         Me.Panel6.SuspendLayout
@@ -1253,6 +1261,7 @@ Partial Class OT_TROQUEL
         Me.Panel159.SuspendLayout
         Me.Panel7.SuspendLayout
         Me.Panel138.SuspendLayout
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel19.SuspendLayout
         Me.Panel291.SuspendLayout
         Me.Panel129.SuspendLayout
@@ -1264,6 +1273,7 @@ Partial Class OT_TROQUEL
         Me.Panel161.SuspendLayout
         Me.Panel282.SuspendLayout
         Me.Panel281.SuspendLayout
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Insumos.SuspendLayout
         Me.Panel4.SuspendLayout
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit
@@ -1273,10 +1283,10 @@ Partial Class OT_TROQUEL
         Me.Panel14.SuspendLayout
         Me.Panel17.SuspendLayout
         Me.Panel51.SuspendLayout
-        Me.Panel52.SuspendLayout
-        Me.Panel1.SuspendLayout
         Me.Panel33.SuspendLayout
         Me.Panel34.SuspendLayout
+        Me.Panel52.SuspendLayout
+        Me.Panel1.SuspendLayout
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit
         Me.Panel8.SuspendLayout
         Me.Panel18.SuspendLayout
@@ -1618,8 +1628,9 @@ Partial Class OT_TROQUEL
         '
         'Panel26
         '
-        Me.Panel26.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel26.BackColor = System.Drawing.Color.Silver
         Me.Panel26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel26.Controls.Add(Me.PictureBox19)
         Me.Panel26.Controls.Add(Me.ComboBox17)
         Me.Panel26.Controls.Add(Me.Label14)
         Me.Panel26.Controls.Add(Me.Panel76)
@@ -1648,6 +1659,19 @@ Partial Class OT_TROQUEL
         Me.Panel26.Size = New System.Drawing.Size(238, 416)
         Me.Panel26.TabIndex = 766
         '
+        'PictureBox19
+        '
+        Me.PictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox19.ErrorImage = Nothing
+        Me.PictureBox19.Image = CType(resources.GetObject("PictureBox19.Image"), System.Drawing.Image)
+        Me.PictureBox19.Location = New System.Drawing.Point(207, 0)
+        Me.PictureBox19.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox19.Name = "PictureBox19"
+        Me.PictureBox19.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox19.TabIndex = 866
+        Me.PictureBox19.TabStop = False
+        '
         'ComboBox17
         '
         Me.ComboBox17.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -1665,7 +1689,7 @@ Partial Class OT_TROQUEL
         '
         'Label14
         '
-        Me.Label14.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label14.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label14.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.Location = New System.Drawing.Point(16, 59)
@@ -1678,7 +1702,7 @@ Partial Class OT_TROQUEL
         '
         'Panel76
         '
-        Me.Panel76.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel76.BackColor = System.Drawing.Color.Gray
         Me.Panel76.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel76.Controls.Add(Me.Label812)
         Me.Panel76.Controls.Add(Me.Label813)
@@ -1712,7 +1736,7 @@ Partial Class OT_TROQUEL
         '
         'Label813
         '
-        Me.Label813.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label813.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label813.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label813.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label813.Location = New System.Drawing.Point(4, 109)
@@ -1725,7 +1749,7 @@ Partial Class OT_TROQUEL
         '
         'Label2
         '
-        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(4, 83)
@@ -1738,7 +1762,7 @@ Partial Class OT_TROQUEL
         '
         'Label10
         '
-        Me.Label10.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label10.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label10.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(4, 57)
@@ -1751,7 +1775,7 @@ Partial Class OT_TROQUEL
         '
         'Label106
         '
-        Me.Label106.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label106.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label106.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label106.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label106.Location = New System.Drawing.Point(4, 32)
@@ -1850,7 +1874,7 @@ Partial Class OT_TROQUEL
         '
         'Label15
         '
-        Me.Label15.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label15.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label15.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.Location = New System.Drawing.Point(16, 34)
@@ -1863,7 +1887,7 @@ Partial Class OT_TROQUEL
         '
         'Label19
         '
-        Me.Label19.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label19.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label19.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.Location = New System.Drawing.Point(16, 83)
@@ -1876,7 +1900,7 @@ Partial Class OT_TROQUEL
         '
         'Label23
         '
-        Me.Label23.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label23.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label23.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.Location = New System.Drawing.Point(16, 251)
@@ -1889,7 +1913,7 @@ Partial Class OT_TROQUEL
         '
         'Label24
         '
-        Me.Label24.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label24.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label24.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.Location = New System.Drawing.Point(16, 227)
@@ -1902,7 +1926,7 @@ Partial Class OT_TROQUEL
         '
         'Label31
         '
-        Me.Label31.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label31.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label31.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.Location = New System.Drawing.Point(16, 203)
@@ -1915,7 +1939,7 @@ Partial Class OT_TROQUEL
         '
         'Label32
         '
-        Me.Label32.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label32.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label32.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label32.Location = New System.Drawing.Point(16, 179)
@@ -1928,7 +1952,7 @@ Partial Class OT_TROQUEL
         '
         'Label41
         '
-        Me.Label41.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label41.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label41.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.Location = New System.Drawing.Point(16, 155)
@@ -1941,7 +1965,7 @@ Partial Class OT_TROQUEL
         '
         'Label42
         '
-        Me.Label42.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label42.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label42.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.Location = New System.Drawing.Point(16, 131)
@@ -1956,7 +1980,7 @@ Partial Class OT_TROQUEL
         '
         'Label43
         '
-        Me.Label43.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label43.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label43.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label43.Location = New System.Drawing.Point(16, 107)
@@ -2387,6 +2411,7 @@ Partial Class OT_TROQUEL
         '
         Me.Panel64.BackColor = System.Drawing.Color.Green
         Me.Panel64.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel64.Controls.Add(Me.PictureBox20)
         Me.Panel64.Controls.Add(Me.Label164)
         Me.Panel64.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel64.Location = New System.Drawing.Point(0, 0)
@@ -2394,6 +2419,19 @@ Partial Class OT_TROQUEL
         Me.Panel64.Name = "Panel64"
         Me.Panel64.Size = New System.Drawing.Size(541, 29)
         Me.Panel64.TabIndex = 0
+        '
+        'PictureBox20
+        '
+        Me.PictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox20.ErrorImage = Nothing
+        Me.PictureBox20.Image = CType(resources.GetObject("PictureBox20.Image"), System.Drawing.Image)
+        Me.PictureBox20.Location = New System.Drawing.Point(510, -2)
+        Me.PictureBox20.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox20.Name = "PictureBox20"
+        Me.PictureBox20.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox20.TabIndex = 617
+        Me.PictureBox20.TabStop = False
         '
         'Label164
         '
@@ -2614,10 +2652,10 @@ Partial Class OT_TROQUEL
         Me.Label176.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label176.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label176.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label176.Location = New System.Drawing.Point(7, 65)
+        Me.Label176.Location = New System.Drawing.Point(7, 66)
         Me.Label176.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label176.Name = "Label176"
-        Me.Label176.Size = New System.Drawing.Size(115, 22)
+        Me.Label176.Size = New System.Drawing.Size(115, 20)
         Me.Label176.TabIndex = 907
         Me.Label176.Text = "Troquel Gama N°:"
         Me.Label176.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -2815,6 +2853,7 @@ Partial Class OT_TROQUEL
         '
         Me.Panel42.BackColor = System.Drawing.Color.Green
         Me.Panel42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel42.Controls.Add(Me.PictureBox22)
         Me.Panel42.Controls.Add(Me.Label103)
         Me.Panel42.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel42.Location = New System.Drawing.Point(0, 0)
@@ -2822,6 +2861,19 @@ Partial Class OT_TROQUEL
         Me.Panel42.Name = "Panel42"
         Me.Panel42.Size = New System.Drawing.Size(557, 29)
         Me.Panel42.TabIndex = 0
+        '
+        'PictureBox22
+        '
+        Me.PictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox22.ErrorImage = Nothing
+        Me.PictureBox22.Image = CType(resources.GetObject("PictureBox22.Image"), System.Drawing.Image)
+        Me.PictureBox22.Location = New System.Drawing.Point(526, 0)
+        Me.PictureBox22.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox22.Name = "PictureBox22"
+        Me.PictureBox22.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox22.TabIndex = 617
+        Me.PictureBox22.TabStop = False
         '
         'Label103
         '
@@ -3461,6 +3513,7 @@ Partial Class OT_TROQUEL
         '
         Me.Panel140.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Panel140.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel140.Controls.Add(Me.CheckBox2)
         Me.Panel140.Controls.Add(Me.TextBox1130)
         Me.Panel140.Controls.Add(Me.Panel296)
         Me.Panel140.Controls.Add(Me.ComboBox333)
@@ -3478,6 +3531,7 @@ Partial Class OT_TROQUEL
         Me.Panel140.Controls.Add(Me.Panel309)
         Me.Panel140.Controls.Add(Me.Panel166)
         Me.Panel140.Controls.Add(Me.Panel303)
+        Me.Panel140.Controls.Add(Me.Label62)
         Me.Panel140.Controls.Add(Me.Label578)
         Me.Panel140.Controls.Add(Me.TextBox1164)
         Me.Panel140.Controls.Add(Me.TextBox1165)
@@ -3569,7 +3623,7 @@ Partial Class OT_TROQUEL
         Me.Button94.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Button94.Size = New System.Drawing.Size(113, 38)
         Me.Button94.TabIndex = 982
-        Me.Button94.Text = "Detalle"
+        Me.Button94.Text = "Info"
         Me.ToolTip1.SetToolTip(Me.Button94, "Boto pantalla emergente." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Consulta sobre puntos de esta página.")
         Me.Button94.UseVisualStyleBackColor = False
         '
@@ -3600,7 +3654,7 @@ Partial Class OT_TROQUEL
         Me.Button95.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Button95.Size = New System.Drawing.Size(113, 38)
         Me.Button95.TabIndex = 982
-        Me.Button95.Text = "Detalle"
+        Me.Button95.Text = "Texto"
         Me.ToolTip1.SetToolTip(Me.Button95, "Boto pantalla emergente" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Información que se envia a los celulares.")
         Me.Button95.UseVisualStyleBackColor = False
         '
@@ -3738,7 +3792,7 @@ Partial Class OT_TROQUEL
         Me.ComboBox333.ForeColor = System.Drawing.Color.Red
         Me.ComboBox333.FormattingEnabled = True
         Me.ComboBox333.Items.AddRange(New Object() {"SLB 0,3X1,3 FIBER NEGRO", "SLB 0,4X1,4 FIBER NEGRO", "SLB 0,5X1,4 FIBER NEGRO", "SLB 0,5X1,5 FIBER NEGRO", "SLB 0,8X1,7 FIBER NEGRO"})
-        Me.ComboBox333.Location = New System.Drawing.Point(74, 393)
+        Me.ComboBox333.Location = New System.Drawing.Point(74, 421)
         Me.ComboBox333.Name = "ComboBox333"
         Me.ComboBox333.Size = New System.Drawing.Size(192, 23)
         Me.ComboBox333.TabIndex = 953
@@ -3753,7 +3807,7 @@ Partial Class OT_TROQUEL
         Me.ComboBox107.ForeColor = System.Drawing.Color.Red
         Me.ComboBox107.FormattingEnabled = True
         Me.ComboBox107.Items.AddRange(New Object() {"SLB 0,3X1,3 FIBER NEGRO", "SLB 0,4X1,4 FIBER NEGRO", "SLB 0,5X1,4 FIBER NEGRO", "SLB 0,5X1,5 FIBER NEGRO", "SLB 0,8X1,7 FIBER NEGRO"})
-        Me.ComboBox107.Location = New System.Drawing.Point(74, 393)
+        Me.ComboBox107.Location = New System.Drawing.Point(74, 421)
         Me.ComboBox107.Name = "ComboBox107"
         Me.ComboBox107.Size = New System.Drawing.Size(192, 23)
         Me.ComboBox107.TabIndex = 953
@@ -3768,7 +3822,7 @@ Partial Class OT_TROQUEL
         Me.ComboBox332.ForeColor = System.Drawing.Color.Red
         Me.ComboBox332.FormattingEnabled = True
         Me.ComboBox332.Items.AddRange(New Object() {"SLB 0,3X1,3 FIBER NEGRO", "SLB 0,4X1,4 FIBER NEGRO", "SLB 0,5X1,4 FIBER NEGRO", "SLB 0,5X1,5 FIBER NEGRO", "SLB 0,8X1,7 FIBER NEGRO"})
-        Me.ComboBox332.Location = New System.Drawing.Point(74, 365)
+        Me.ComboBox332.Location = New System.Drawing.Point(74, 393)
         Me.ComboBox332.Name = "ComboBox332"
         Me.ComboBox332.Size = New System.Drawing.Size(192, 23)
         Me.ComboBox332.TabIndex = 952
@@ -3783,7 +3837,7 @@ Partial Class OT_TROQUEL
         Me.ComboBox309.ForeColor = System.Drawing.Color.Red
         Me.ComboBox309.FormattingEnabled = True
         Me.ComboBox309.Items.AddRange(New Object() {"SLB 0,3X1,3 FIBER NEGRO", "SLB 0,4X1,4 FIBER NEGRO", "SLB 0,5X1,4 FIBER NEGRO", "SLB 0,5X1,5 FIBER NEGRO", "SLB 0,8X1,7 FIBER NEGRO"})
-        Me.ComboBox309.Location = New System.Drawing.Point(74, 365)
+        Me.ComboBox309.Location = New System.Drawing.Point(74, 393)
         Me.ComboBox309.Name = "ComboBox309"
         Me.ComboBox309.Size = New System.Drawing.Size(192, 23)
         Me.ComboBox309.TabIndex = 952
@@ -3798,7 +3852,7 @@ Partial Class OT_TROQUEL
         Me.ComboBox330.ForeColor = System.Drawing.Color.Red
         Me.ComboBox330.FormattingEnabled = True
         Me.ComboBox330.Items.AddRange(New Object() {"SLB 0,3X1,3 FIBER NEGRO", "SLB 0,4X1,4 FIBER NEGRO", "SLB 0,5X1,4 FIBER NEGRO", "SLB 0,5X1,5 FIBER NEGRO", "SLB 0,8X1,7 FIBER NEGRO"})
-        Me.ComboBox330.Location = New System.Drawing.Point(74, 337)
+        Me.ComboBox330.Location = New System.Drawing.Point(74, 365)
         Me.ComboBox330.Name = "ComboBox330"
         Me.ComboBox330.Size = New System.Drawing.Size(192, 23)
         Me.ComboBox330.TabIndex = 951
@@ -3813,7 +3867,7 @@ Partial Class OT_TROQUEL
         Me.ComboBox308.ForeColor = System.Drawing.Color.Red
         Me.ComboBox308.FormattingEnabled = True
         Me.ComboBox308.Items.AddRange(New Object() {"SLB 0,3X1,3 FIBER NEGRO", "SLB 0,4X1,4 FIBER NEGRO", "SLB 0,5X1,4 FIBER NEGRO", "SLB 0,5X1,5 FIBER NEGRO", "SLB 0,8X1,7 FIBER NEGRO"})
-        Me.ComboBox308.Location = New System.Drawing.Point(74, 337)
+        Me.ComboBox308.Location = New System.Drawing.Point(74, 365)
         Me.ComboBox308.Name = "ComboBox308"
         Me.ComboBox308.Size = New System.Drawing.Size(192, 23)
         Me.ComboBox308.TabIndex = 951
@@ -3869,7 +3923,7 @@ Partial Class OT_TROQUEL
         Me.Label562.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label562.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label562.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label562.Location = New System.Drawing.Point(10, 480)
+        Me.Label562.Location = New System.Drawing.Point(10, 508)
         Me.Label562.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label562.Name = "Label562"
         Me.Label562.Size = New System.Drawing.Size(59, 25)
@@ -3885,7 +3939,7 @@ Partial Class OT_TROQUEL
         Me.Panel163.Controls.Add(Me.RadioButton161)
         Me.Panel163.Controls.Add(Me.RadioButton162)
         Me.Panel163.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel163.Location = New System.Drawing.Point(74, 479)
+        Me.Panel163.Location = New System.Drawing.Point(74, 507)
         Me.Panel163.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel163.Name = "Panel163"
         Me.Panel163.Size = New System.Drawing.Size(193, 26)
@@ -3908,12 +3962,14 @@ Partial Class OT_TROQUEL
         '
         Me.RadioButton161.AutoSize = True
         Me.RadioButton161.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton161.Checked = True
         Me.RadioButton161.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton161.ForeColor = System.Drawing.Color.Black
         Me.RadioButton161.Location = New System.Drawing.Point(63, 3)
         Me.RadioButton161.Name = "RadioButton161"
         Me.RadioButton161.Size = New System.Drawing.Size(62, 18)
         Me.RadioButton161.TabIndex = 627
+        Me.RadioButton161.TabStop = True
         Me.RadioButton161.Text = "Esterno"
         Me.ToolTip1.SetToolTip(Me.RadioButton161, "Cuando se descartona en la maquina externa.")
         Me.RadioButton161.UseVisualStyleBackColor = False
@@ -3922,13 +3978,11 @@ Partial Class OT_TROQUEL
         '
         Me.RadioButton162.AutoSize = True
         Me.RadioButton162.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton162.Checked = True
         Me.RadioButton162.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton162.Location = New System.Drawing.Point(4, 3)
         Me.RadioButton162.Name = "RadioButton162"
         Me.RadioButton162.Size = New System.Drawing.Size(58, 18)
         Me.RadioButton162.TabIndex = 628
-        Me.RadioButton162.TabStop = True
         Me.RadioButton162.Text = "Interno"
         Me.ToolTip1.SetToolTip(Me.RadioButton162, "Cuando se prepara el descartonado " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "dentro de la maquina troqueladora.")
         Me.RadioButton162.UseVisualStyleBackColor = False
@@ -3940,7 +3994,7 @@ Partial Class OT_TROQUEL
         Me.Panel325.Controls.Add(Me.RadioButton169)
         Me.Panel325.Controls.Add(Me.RadioButton177)
         Me.Panel325.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel325.Location = New System.Drawing.Point(74, 449)
+        Me.Panel325.Location = New System.Drawing.Point(74, 477)
         Me.Panel325.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel325.Name = "Panel325"
         Me.Panel325.Size = New System.Drawing.Size(192, 26)
@@ -3983,7 +4037,7 @@ Partial Class OT_TROQUEL
         Me.Panel309.Controls.Add(Me.RadioButton167)
         Me.Panel309.Controls.Add(Me.RadioButton168)
         Me.Panel309.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel309.Location = New System.Drawing.Point(74, 419)
+        Me.Panel309.Location = New System.Drawing.Point(74, 447)
         Me.Panel309.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel309.Name = "Panel309"
         Me.Panel309.Size = New System.Drawing.Size(192, 26)
@@ -4006,11 +4060,13 @@ Partial Class OT_TROQUEL
         '
         Me.RadioButton167.AutoSize = True
         Me.RadioButton167.BackColor = System.Drawing.Color.Transparent
+        Me.RadioButton167.Checked = True
         Me.RadioButton167.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton167.Location = New System.Drawing.Point(73, 4)
         Me.RadioButton167.Name = "RadioButton167"
         Me.RadioButton167.Size = New System.Drawing.Size(82, 18)
         Me.RadioButton167.TabIndex = 628
+        Me.RadioButton167.TabStop = True
         Me.RadioButton167.Text = "Pertinax 1,5"
         Me.ToolTip1.SetToolTip(Me.RadioButton167, "Se utiliza PERTINAX MACHO de 1,5 mm para relieve " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "cuando el CUÑO MACHO directo s" &
         "obre la PLATINA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
@@ -4020,13 +4076,11 @@ Partial Class OT_TROQUEL
         '
         Me.RadioButton168.AutoSize = True
         Me.RadioButton168.BackColor = System.Drawing.Color.Transparent
-        Me.RadioButton168.Checked = True
         Me.RadioButton168.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton168.Location = New System.Drawing.Point(3, 4)
         Me.RadioButton168.Name = "RadioButton168"
         Me.RadioButton168.Size = New System.Drawing.Size(73, 18)
         Me.RadioButton168.TabIndex = 628
-        Me.RadioButton168.TabStop = True
         Me.RadioButton168.Text = "Pertinax 1"
         Me.ToolTip1.SetToolTip(Me.RadioButton168, "Se utiliza PERTINAX MACHO de 1 mm para relieve " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "cuando el CUÑO MACHO se pega sob" &
         "re " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "un trabajo hecho con PERTINAX MARCADO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
@@ -4039,7 +4093,7 @@ Partial Class OT_TROQUEL
         Me.Panel166.Controls.Add(Me.RadioButton163)
         Me.Panel166.Controls.Add(Me.RadioButton164)
         Me.Panel166.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel166.Location = New System.Drawing.Point(74, 449)
+        Me.Panel166.Location = New System.Drawing.Point(74, 477)
         Me.Panel166.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel166.Name = "Panel166"
         Me.Panel166.Size = New System.Drawing.Size(192, 26)
@@ -4079,7 +4133,7 @@ Partial Class OT_TROQUEL
         Me.Panel303.Controls.Add(Me.RadioButton155)
         Me.Panel303.Controls.Add(Me.RadioButton156)
         Me.Panel303.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Panel303.Location = New System.Drawing.Point(74, 419)
+        Me.Panel303.Location = New System.Drawing.Point(74, 447)
         Me.Panel303.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel303.Name = "Panel303"
         Me.Panel303.Size = New System.Drawing.Size(192, 26)
@@ -4118,7 +4172,7 @@ Partial Class OT_TROQUEL
         Me.Label578.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label578.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label578.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label578.Location = New System.Drawing.Point(10, 336)
+        Me.Label578.Location = New System.Drawing.Point(10, 364)
         Me.Label578.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label578.Name = "Label578"
         Me.Label578.Size = New System.Drawing.Size(59, 25)
@@ -4157,7 +4211,7 @@ Partial Class OT_TROQUEL
         Me.Label563.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label563.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label563.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label563.Location = New System.Drawing.Point(10, 449)
+        Me.Label563.Location = New System.Drawing.Point(10, 477)
         Me.Label563.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label563.Name = "Label563"
         Me.Label563.Size = New System.Drawing.Size(59, 26)
@@ -4170,7 +4224,7 @@ Partial Class OT_TROQUEL
         Me.Label590.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label590.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label590.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label590.Location = New System.Drawing.Point(10, 419)
+        Me.Label590.Location = New System.Drawing.Point(10, 447)
         Me.Label590.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label590.Name = "Label590"
         Me.Label590.Size = New System.Drawing.Size(59, 26)
@@ -4183,7 +4237,7 @@ Partial Class OT_TROQUEL
         Me.Label592.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label592.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label592.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label592.Location = New System.Drawing.Point(10, 393)
+        Me.Label592.Location = New System.Drawing.Point(10, 421)
         Me.Label592.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label592.Name = "Label592"
         Me.Label592.Size = New System.Drawing.Size(59, 23)
@@ -4196,7 +4250,7 @@ Partial Class OT_TROQUEL
         Me.Label601.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label601.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label601.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label601.Location = New System.Drawing.Point(10, 365)
+        Me.Label601.Location = New System.Drawing.Point(10, 393)
         Me.Label601.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label601.Name = "Label601"
         Me.Label601.Size = New System.Drawing.Size(59, 23)
@@ -5244,6 +5298,22 @@ Partial Class OT_TROQUEL
         Me.ToolTip1.SetToolTip(Me.TextBox1099, "Bobinas hay existencia esta" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "El N en ROSADO." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "La que escogio el calculo la" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "medid" &
         "a de la bobina esta en ROJO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
+        'TextBox53
+        '
+        Me.TextBox53.BackColor = System.Drawing.Color.White
+        Me.TextBox53.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox53.ForeColor = System.Drawing.Color.Green
+        Me.TextBox53.Location = New System.Drawing.Point(378, 0)
+        Me.TextBox53.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox53.Name = "TextBox53"
+        Me.TextBox53.Size = New System.Drawing.Size(36, 22)
+        Me.TextBox53.TabIndex = 958
+        Me.TextBox53.Text = "000"
+        Me.TextBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.ToolTip1.SetToolTip(Me.TextBox53, "Resultado de proceso de calculo Standarizado." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "El proceso de calculo en MP se r" &
+        "ealizo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " con todos los troqueles para ver cual " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "medida Standarizada daba mejor " &
+        "resultado.")
+        '
         'TextBox1100
         '
         Me.TextBox1100.BackColor = System.Drawing.Color.White
@@ -6259,13 +6329,13 @@ Partial Class OT_TROQUEL
         'Button32
         '
         Me.Button32.AutoSize = True
-        Me.Button32.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button32.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Button32.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.Button32.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
         Me.Button32.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.Button32.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button32.ForeColor = System.Drawing.Color.Green
+        Me.Button32.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Button32.Location = New System.Drawing.Point(5, 4)
         Me.Button32.Name = "Button32"
         Me.Button32.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -6851,6 +6921,7 @@ Partial Class OT_TROQUEL
         '
         Me.Panel138.BackColor = System.Drawing.Color.Silver
         Me.Panel138.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel138.Controls.Add(Me.PictureBox18)
         Me.Panel138.Controls.Add(Me.TextBox47)
         Me.Panel138.Controls.Add(Me.TextBox48)
         Me.Panel138.Controls.Add(Me.Label46)
@@ -6888,6 +6959,19 @@ Partial Class OT_TROQUEL
         Me.Panel138.Size = New System.Drawing.Size(160, 582)
         Me.Panel138.TabIndex = 1158
         '
+        'PictureBox18
+        '
+        Me.PictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox18.ErrorImage = Nothing
+        Me.PictureBox18.Image = CType(resources.GetObject("PictureBox18.Image"), System.Drawing.Image)
+        Me.PictureBox18.Location = New System.Drawing.Point(133, 0)
+        Me.PictureBox18.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox18.Name = "PictureBox18"
+        Me.PictureBox18.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox18.TabIndex = 1194
+        Me.PictureBox18.TabStop = False
+        '
         'TextBox47
         '
         Me.TextBox47.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
@@ -6918,7 +7002,7 @@ Partial Class OT_TROQUEL
         '
         'Label46
         '
-        Me.Label46.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label46.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label46.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label46.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label46.ForeColor = System.Drawing.Color.Black
@@ -6933,7 +7017,7 @@ Partial Class OT_TROQUEL
         '
         'Label47
         '
-        Me.Label47.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label47.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label47.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label47.Font = New System.Drawing.Font("Arial", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label47.ForeColor = System.Drawing.Color.Black
@@ -7617,6 +7701,7 @@ Partial Class OT_TROQUEL
         '
         Me.Panel281.BackColor = System.Drawing.Color.Green
         Me.Panel281.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel281.Controls.Add(Me.PictureBox16)
         Me.Panel281.Controls.Add(Me.Button39)
         Me.Panel281.Controls.Add(Me.Button40)
         Me.Panel281.Controls.Add(Me.Button41)
@@ -7630,6 +7715,19 @@ Partial Class OT_TROQUEL
         Me.Panel281.Name = "Panel281"
         Me.Panel281.Size = New System.Drawing.Size(1340, 29)
         Me.Panel281.TabIndex = 0
+        '
+        'PictureBox16
+        '
+        Me.PictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBox16.ErrorImage = Nothing
+        Me.PictureBox16.Image = CType(resources.GetObject("PictureBox16.Image"), System.Drawing.Image)
+        Me.PictureBox16.Location = New System.Drawing.Point(1308, 0)
+        Me.PictureBox16.Margin = New System.Windows.Forms.Padding(2)
+        Me.PictureBox16.Name = "PictureBox16"
+        Me.PictureBox16.Size = New System.Drawing.Size(25, 25)
+        Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox16.TabIndex = 616
+        Me.PictureBox16.TabStop = False
         '
         'Button39
         '
@@ -8239,30 +8337,35 @@ Partial Class OT_TROQUEL
         '
         Me.Panel51.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Panel51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel51.Controls.Add(Me.CheckBox4)
-        Me.Panel51.Controls.Add(Me.CheckBox3)
-        Me.Panel51.Controls.Add(Me.CheckBox2)
+        Me.Panel51.Controls.Add(Me.Label55)
+        Me.Panel51.Controls.Add(Me.Panel33)
+        Me.Panel51.Controls.Add(Me.Button12)
+        Me.Panel51.Controls.Add(Me.Label61)
+        Me.Panel51.Controls.Add(Me.Label60)
+        Me.Panel51.Controls.Add(Me.Label50)
+        Me.Panel51.Controls.Add(Me.Label51)
+        Me.Panel51.Controls.Add(Me.TextBox43)
+        Me.Panel51.Controls.Add(Me.TextBox70)
+        Me.Panel51.Controls.Add(Me.TextBox69)
+        Me.Panel51.Controls.Add(Me.TextBox71)
+        Me.Panel51.Controls.Add(Me.TextBox26)
         Me.Panel51.Controls.Add(Me.Panel52)
         Me.Panel51.Controls.Add(Me.Label26)
+        Me.Panel51.Controls.Add(Me.Label57)
+        Me.Panel51.Controls.Add(Me.Label56)
         Me.Panel51.Controls.Add(Me.Label45)
         Me.Panel51.Controls.Add(Me.Label223)
-        Me.Panel51.Controls.Add(Me.ComboBox33)
-        Me.Panel51.Controls.Add(Me.ComboBox25)
-        Me.Panel51.Controls.Add(Me.ComboBox8)
-        Me.Panel51.Controls.Add(Me.ComboBox1)
-        Me.Panel51.Controls.Add(Me.Label225)
-        Me.Panel51.Controls.Add(Me.ComboBox7)
-        Me.Panel51.Controls.Add(Me.Label190)
-        Me.Panel51.Controls.Add(Me.Label189)
-        Me.Panel51.Controls.Add(Me.Label183)
-        Me.Panel51.Controls.Add(Me.Label224)
-        Me.Panel51.Controls.Add(Me.Label181)
-        Me.Panel51.Controls.Add(Me.Label278)
-        Me.Panel51.Controls.Add(Me.Label279)
+        Me.Panel51.Controls.Add(Me.TextBox67)
+        Me.Panel51.Controls.Add(Me.TextBox63)
+        Me.Panel51.Controls.Add(Me.TextBox61)
+        Me.Panel51.Controls.Add(Me.TextBox59)
+        Me.Panel51.Controls.Add(Me.TextBox62)
+        Me.Panel51.Controls.Add(Me.TextBox55)
+        Me.Panel51.Controls.Add(Me.TextBox60)
+        Me.Panel51.Controls.Add(Me.TextBox54)
+        Me.Panel51.Controls.Add(Me.TextBox58)
         Me.Panel51.Controls.Add(Me.TextBox80)
         Me.Panel51.Controls.Add(Me.TextBox81)
-        Me.Panel51.Controls.Add(Me.TextBox82)
-        Me.Panel51.Controls.Add(Me.TextBox132)
         Me.Panel51.Location = New System.Drawing.Point(12, 278)
         Me.Panel51.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel51.Name = "Panel51"
@@ -8270,50 +8373,271 @@ Partial Class OT_TROQUEL
         Me.Panel51.TabIndex = 760
         Me.ToolTip1.SetToolTip(Me.Panel51, "Esta información viene de MP " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "y puede ser modificada. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
-        'CheckBox4
+        'Label55
         '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox4.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox4.ForeColor = System.Drawing.Color.Black
-        Me.CheckBox4.Location = New System.Drawing.Point(288, 38)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(38, 18)
-        Me.CheckBox4.TabIndex = 808
-        Me.CheckBox4.Text = "50"
-        Me.ToolTip1.SetToolTip(Me.CheckBox4, "La dureza del flejen HRC." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "La dureza debe ser similar a la dela platina " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "o termi" &
-        "na dañando la platina si es mu superior" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.CheckBox4.UseVisualStyleBackColor = False
+        Me.Label55.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label55.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label55.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label55.Location = New System.Drawing.Point(7, 155)
+        Me.Label55.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label55.Name = "Label55"
+        Me.Label55.Size = New System.Drawing.Size(77, 19)
+        Me.Label55.TabIndex = 1012
+        Me.Label55.Text = "Fleje 90°:"
+        Me.Label55.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'CheckBox3
+        'Panel33
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox3.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox3.ForeColor = System.Drawing.Color.Black
-        Me.CheckBox3.Location = New System.Drawing.Point(249, 38)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(38, 18)
-        Me.CheckBox3.TabIndex = 808
-        Me.CheckBox3.Text = "35"
-        Me.ToolTip1.SetToolTip(Me.CheckBox3, "La dureza del flejen HRC." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "La dureza debe ser similar a la dela platina " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "o termi" &
-        "na dañando la platina si es mu superior" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        Me.CheckBox3.UseVisualStyleBackColor = False
+        Me.Panel33.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Panel33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel33.Controls.Add(Me.TextBox36)
+        Me.Panel33.Controls.Add(Me.Panel34)
+        Me.Panel33.Controls.Add(Me.TextBox2)
+        Me.Panel33.Controls.Add(Me.TextBox46)
+        Me.Panel33.Controls.Add(Me.TextBox49)
+        Me.Panel33.Controls.Add(Me.TextBox45)
+        Me.Panel33.Controls.Add(Me.TextBox44)
+        Me.Panel33.Location = New System.Drawing.Point(8, 279)
+        Me.Panel33.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel33.Name = "Panel33"
+        Me.Panel33.Size = New System.Drawing.Size(317, 81)
+        Me.Panel33.TabIndex = 433
+        Me.ToolTip1.SetToolTip(Me.Panel33, "Esta información es cargada por TROQUEL, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "es solo informativa." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
-        'CheckBox2
+        'TextBox36
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox2.ForeColor = System.Drawing.Color.Black
-        Me.CheckBox2.Location = New System.Drawing.Point(210, 38)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(38, 18)
-        Me.CheckBox2.TabIndex = 808
-        Me.CheckBox2.Text = "20"
-        Me.ToolTip1.SetToolTip(Me.CheckBox2, "La dureza del flejen HRC." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "La dureza debe ser similar a la dela platina " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "o termi" &
-        "na dañando la platina si es mu superior")
-        Me.CheckBox2.UseVisualStyleBackColor = False
+        Me.TextBox36.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox36.ForeColor = System.Drawing.Color.Black
+        Me.TextBox36.Location = New System.Drawing.Point(9, 32)
+        Me.TextBox36.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox36.Name = "TextBox36"
+        Me.TextBox36.Size = New System.Drawing.Size(90, 20)
+        Me.TextBox36.TabIndex = 557
+        Me.TextBox36.Text = "Amar. 35 chore"
+        Me.TextBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Panel34
+        '
+        Me.Panel34.BackColor = System.Drawing.Color.Green
+        Me.Panel34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel34.Controls.Add(Me.Label67)
+        Me.Panel34.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel34.Location = New System.Drawing.Point(0, 0)
+        Me.Panel34.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel34.Name = "Panel34"
+        Me.Panel34.Size = New System.Drawing.Size(313, 29)
+        Me.Panel34.TabIndex = 0
+        '
+        'Label67
+        '
+        Me.Label67.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label67.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.ForeColor = System.Drawing.Color.White
+        Me.Label67.Location = New System.Drawing.Point(117, -2)
+        Me.Label67.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(82, 23)
+        Me.Label67.TabIndex = 6
+        Me.Label67.Text = "GOMA"
+        Me.Label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.White
+        Me.TextBox2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.ForeColor = System.Drawing.Color.Red
+        Me.TextBox2.Location = New System.Drawing.Point(213, 57)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(95, 20)
+        Me.TextBox2.TabIndex = 554
+        Me.TextBox2.Text = "Tira blancas 120"
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ToolTip1.SetToolTip(Me.TextBox2, "Tira blancas de Goma dura colocar en los lugares críticos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Esto ayuda a que no se" &
+        " tranque y que no tenga rebarba." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "No abusar con tanta cantidad porque no le da l" &
+        "a presión de la máquina," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        '
+        'TextBox46
+        '
+        Me.TextBox46.BackColor = System.Drawing.Color.White
+        Me.TextBox46.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox46.ForeColor = System.Drawing.Color.DimGray
+        Me.TextBox46.Location = New System.Drawing.Point(213, 32)
+        Me.TextBox46.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox46.Name = "TextBox46"
+        Me.TextBox46.Size = New System.Drawing.Size(95, 20)
+        Me.TextBox46.TabIndex = 554
+        Me.TextBox46.Text = "GRIS 55 chore"
+        Me.TextBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox49
+        '
+        Me.TextBox49.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox49.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.TextBox49.Location = New System.Drawing.Point(106, 32)
+        Me.TextBox49.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox49.Name = "TextBox49"
+        Me.TextBox49.Size = New System.Drawing.Size(90, 20)
+        Me.TextBox49.TabIndex = 555
+        Me.TextBox49.Text = "Verde 40 chore"
+        Me.TextBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox45
+        '
+        Me.TextBox45.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox45.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox45.Location = New System.Drawing.Point(106, 57)
+        Me.TextBox45.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox45.Name = "TextBox45"
+        Me.TextBox45.Size = New System.Drawing.Size(95, 20)
+        Me.TextBox45.TabIndex = 556
+        Me.TextBox45.Text = "Azul 55 chore"
+        Me.TextBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox44
+        '
+        Me.TextBox44.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox44.ForeColor = System.Drawing.Color.Gold
+        Me.TextBox44.Location = New System.Drawing.Point(9, 57)
+        Me.TextBox44.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox44.Name = "TextBox44"
+        Me.TextBox44.Size = New System.Drawing.Size(90, 20)
+        Me.TextBox44.TabIndex = 558
+        Me.TextBox44.Text = "Naran. 45 chore"
+        Me.TextBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Button12
+        '
+        Me.Button12.AutoSize = True
+        Me.Button12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button12.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button12.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button12.ForeColor = System.Drawing.Color.Black
+        Me.Button12.Location = New System.Drawing.Point(232, 240)
+        Me.Button12.Name = "Button12"
+        Me.Button12.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button12.Size = New System.Drawing.Size(92, 31)
+        Me.Button12.TabIndex = 983
+        Me.Button12.Text = "Info"
+        Me.Button12.UseVisualStyleBackColor = False
+        '
+        'Label61
+        '
+        Me.Label61.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label61.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label61.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.Location = New System.Drawing.Point(8, 252)
+        Me.Label61.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label61.Name = "Label61"
+        Me.Label61.Size = New System.Drawing.Size(132, 19)
+        Me.Label61.TabIndex = 1013
+        Me.Label61.Text = "???"
+        Me.Label61.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label60
+        '
+        Me.Label60.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label60.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label60.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label60.Location = New System.Drawing.Point(8, 228)
+        Me.Label60.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label60.Name = "Label60"
+        Me.Label60.Size = New System.Drawing.Size(132, 19)
+        Me.Label60.TabIndex = 1013
+        Me.Label60.Text = "???"
+        Me.Label60.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label50
+        '
+        Me.Label50.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label50.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Location = New System.Drawing.Point(8, 203)
+        Me.Label50.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label50.Name = "Label50"
+        Me.Label50.Size = New System.Drawing.Size(132, 19)
+        Me.Label50.TabIndex = 1013
+        Me.Label50.Text = "???"
+        Me.Label50.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label51
+        '
+        Me.Label51.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label51.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label51.Location = New System.Drawing.Point(8, 179)
+        Me.Label51.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label51.Name = "Label51"
+        Me.Label51.Size = New System.Drawing.Size(132, 19)
+        Me.Label51.TabIndex = 1013
+        Me.Label51.Text = "Fleje Ventana Perforada:"
+        Me.Label51.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'TextBox43
+        '
+        Me.TextBox43.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox43.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox43.ForeColor = System.Drawing.Color.Black
+        Me.TextBox43.Location = New System.Drawing.Point(90, 156)
+        Me.TextBox43.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox43.Name = "TextBox43"
+        Me.TextBox43.Size = New System.Drawing.Size(68, 20)
+        Me.TextBox43.TabIndex = 1016
+        Me.TextBox43.Text = "23,50 / nada"
+        Me.ToolTip1.SetToolTip(Me.TextBox43, "Fondo automatico Fleje 90°, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "4mm Corte (Altura 23,80)  " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "4mm Marca (Altura 23,50" &
+        ") . ")
+        '
+        'TextBox70
+        '
+        Me.TextBox70.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox70.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox70.ForeColor = System.Drawing.Color.Black
+        Me.TextBox70.Location = New System.Drawing.Point(144, 252)
+        Me.TextBox70.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox70.Name = "TextBox70"
+        Me.TextBox70.Size = New System.Drawing.Size(80, 20)
+        Me.TextBox70.TabIndex = 1017
+        Me.TextBox70.Text = "???"
+        '
+        'TextBox69
+        '
+        Me.TextBox69.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox69.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox69.ForeColor = System.Drawing.Color.Black
+        Me.TextBox69.Location = New System.Drawing.Point(144, 228)
+        Me.TextBox69.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox69.Name = "TextBox69"
+        Me.TextBox69.Size = New System.Drawing.Size(80, 20)
+        Me.TextBox69.TabIndex = 1017
+        Me.TextBox69.Text = "???"
+        '
+        'TextBox71
+        '
+        Me.TextBox71.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox71.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox71.ForeColor = System.Drawing.Color.Black
+        Me.TextBox71.Location = New System.Drawing.Point(144, 203)
+        Me.TextBox71.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox71.Name = "TextBox71"
+        Me.TextBox71.Size = New System.Drawing.Size(80, 20)
+        Me.TextBox71.TabIndex = 1017
+        Me.TextBox71.Text = "???"
+        '
+        'TextBox26
+        '
+        Me.TextBox26.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox26.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox26.ForeColor = System.Drawing.Color.Black
+        Me.TextBox26.Location = New System.Drawing.Point(144, 179)
+        Me.TextBox26.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox26.Name = "TextBox26"
+        Me.TextBox26.Size = New System.Drawing.Size(80, 20)
+        Me.TextBox26.TabIndex = 1017
+        Me.TextBox26.Text = "23,80 / nada"
+        Me.ToolTip1.SetToolTip(Me.TextBox26, "Altura fleje perforado." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Para venta usar Perforada 2x2, traspasar" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Corte + Nada")
         '
         'Panel52
         '
@@ -8353,17 +8677,43 @@ Partial Class OT_TROQUEL
         Me.Label26.Text = "Fleje CORTE:"
         Me.Label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
+        'Label57
+        '
+        Me.Label57.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label57.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label57.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.Location = New System.Drawing.Point(7, 131)
+        Me.Label57.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label57.Name = "Label57"
+        Me.Label57.Size = New System.Drawing.Size(77, 20)
+        Me.Label57.TabIndex = 20
+        Me.Label57.Text = "Fleje MARCA:"
+        Me.Label57.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label56
+        '
+        Me.Label56.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label56.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label56.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Location = New System.Drawing.Point(7, 107)
+        Me.Label56.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label56.Name = "Label56"
+        Me.Label56.Size = New System.Drawing.Size(77, 20)
+        Me.Label56.TabIndex = 20
+        Me.Label56.Text = "Fleje MARCA:"
+        Me.Label56.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'Label45
         '
         Me.Label45.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label45.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(127, 36)
+        Me.Label45.Location = New System.Drawing.Point(7, 83)
         Me.Label45.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(77, 20)
         Me.Label45.TabIndex = 20
-        Me.Label45.Text = "Dureza HRC:"
+        Me.Label45.Text = "Fleje MARCA:"
         Me.Label45.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label223
@@ -8371,188 +8721,121 @@ Partial Class OT_TROQUEL
         Me.Label223.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Label223.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label223.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label223.Location = New System.Drawing.Point(13, 125)
+        Me.Label223.Location = New System.Drawing.Point(7, 59)
         Me.Label223.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label223.Name = "Label223"
-        Me.Label223.Size = New System.Drawing.Size(196, 20)
+        Me.Label223.Size = New System.Drawing.Size(77, 20)
         Me.Label223.TabIndex = 20
-        Me.Label223.Text = "Fleje MARCA Altura mm:"
+        Me.Label223.Text = "Fleje MARCA:"
         Me.Label223.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
-        'ComboBox33
+        'TextBox67
         '
-        Me.ComboBox33.BackColor = System.Drawing.Color.White
-        Me.ComboBox33.DropDownWidth = 272
-        Me.ComboBox33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox33.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox33.FormattingEnabled = True
-        Me.ComboBox33.Items.AddRange(New Object() {"Corte 23,6 mm 2 X Nada 23,0 mm 2", "Corte 23,6 mm 4 X Marca 23,6 mm 4", "Corte 23,8 mm 5 X marca 23,6 mm 5", "Corte 23,8 mm 10 X marca 23,6 mm 10"})
-        Me.ComboBox33.Location = New System.Drawing.Point(129, 342)
-        Me.ComboBox33.Name = "ComboBox33"
-        Me.ComboBox33.Size = New System.Drawing.Size(184, 22)
-        Me.ComboBox33.TabIndex = 171
-        Me.ToolTip1.SetToolTip(Me.ComboBox33, "Escojer el adecuado segun experiencia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con este tipo de MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.TextBox67.BackColor = System.Drawing.Color.White
+        Me.TextBox67.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox67.ForeColor = System.Drawing.Color.Black
+        Me.TextBox67.Location = New System.Drawing.Point(162, 154)
+        Me.TextBox67.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox67.Name = "TextBox67"
+        Me.TextBox67.Size = New System.Drawing.Size(156, 20)
+        Me.TextBox67.TabIndex = 23
+        Me.TextBox67.Text = "???"
         '
-        'ComboBox25
+        'TextBox63
         '
-        Me.ComboBox25.BackColor = System.Drawing.Color.White
-        Me.ComboBox25.DropDownWidth = 272
-        Me.ComboBox25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox25.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox25.FormattingEnabled = True
-        Me.ComboBox25.Items.AddRange(New Object() {"Corte 23,6 mm 2 X Nada 23,0 mm 2", "Corte 23,6 mm 4 X Marca 23,6 mm 4", "Corte 23,8 mm 5 X marca 23,6 mm 5", "Corte 23,8 mm 10 X marca 23,6 mm 10"})
-        Me.ComboBox25.Location = New System.Drawing.Point(129, 311)
-        Me.ComboBox25.Name = "ComboBox25"
-        Me.ComboBox25.Size = New System.Drawing.Size(184, 22)
-        Me.ComboBox25.TabIndex = 171
-        Me.ToolTip1.SetToolTip(Me.ComboBox25, "Escojer el adecuado segun experiencia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con este tipo de MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.TextBox63.BackColor = System.Drawing.Color.White
+        Me.TextBox63.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox63.ForeColor = System.Drawing.Color.Black
+        Me.TextBox63.Location = New System.Drawing.Point(129, 131)
+        Me.TextBox63.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox63.Name = "TextBox63"
+        Me.TextBox63.Size = New System.Drawing.Size(189, 20)
+        Me.TextBox63.TabIndex = 23
+        Me.TextBox63.Text = "Emplacado"
         '
-        'ComboBox8
+        'TextBox61
         '
-        Me.ComboBox8.BackColor = System.Drawing.Color.White
-        Me.ComboBox8.DropDownWidth = 272
-        Me.ComboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox8.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox8.FormattingEnabled = True
-        Me.ComboBox8.Items.AddRange(New Object() {"Corte 23,6 mm 2 X Nada 23,0 mm 2", "Corte 23,6 mm 4 X Marca 23,6 mm 4", "Corte 23,8 mm 5 X marca 23,6 mm 5", "Corte 23,8 mm 10 X marca 23,6 mm 10"})
-        Me.ComboBox8.Location = New System.Drawing.Point(129, 283)
-        Me.ComboBox8.Name = "ComboBox8"
-        Me.ComboBox8.Size = New System.Drawing.Size(184, 22)
-        Me.ComboBox8.TabIndex = 171
-        Me.ToolTip1.SetToolTip(Me.ComboBox8, "Escojer el adecuado segun experiencia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con este tipo de MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.TextBox61.BackColor = System.Drawing.Color.White
+        Me.TextBox61.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox61.ForeColor = System.Drawing.Color.Black
+        Me.TextBox61.Location = New System.Drawing.Point(129, 107)
+        Me.TextBox61.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox61.Name = "TextBox61"
+        Me.TextBox61.Size = New System.Drawing.Size(189, 20)
+        Me.TextBox61.TabIndex = 23
+        Me.TextBox61.Text = "550 um / Redondeada"
         '
-        'ComboBox1
+        'TextBox59
         '
-        Me.ComboBox1.BackColor = System.Drawing.Color.White
-        Me.ComboBox1.DropDownWidth = 272
-        Me.ComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox1.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Corte 23,6 mm 2 X Nada 23,0 mm 2", "Corte 23,6 mm 4 X Marca 23,6 mm 4", "Corte 23,8 mm 5 X marca 23,6 mm 5", "Corte 23,8 mm 10 X marca 23,6 mm 10"})
-        Me.ComboBox1.Location = New System.Drawing.Point(129, 255)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(184, 22)
-        Me.ComboBox1.TabIndex = 171
-        Me.ToolTip1.SetToolTip(Me.ComboBox1, "Escojer el adecuado segun experiencia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con este tipo de MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
+        Me.TextBox59.BackColor = System.Drawing.Color.White
+        Me.TextBox59.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox59.ForeColor = System.Drawing.Color.Black
+        Me.TextBox59.Location = New System.Drawing.Point(129, 83)
+        Me.TextBox59.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox59.Name = "TextBox59"
+        Me.TextBox59.Size = New System.Drawing.Size(189, 20)
+        Me.TextBox59.TabIndex = 23
+        Me.TextBox59.Text = "500 um / Redondeada"
         '
-        'Label225
+        'TextBox62
         '
-        Me.Label225.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label225.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label225.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label225.Location = New System.Drawing.Point(11, 342)
-        Me.Label225.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label225.Name = "Label225"
-        Me.Label225.Size = New System.Drawing.Size(113, 22)
-        Me.Label225.TabIndex = 20
-        Me.Label225.Text = "Perforado:"
-        Me.Label225.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.TextBox62.BackColor = System.Drawing.Color.White
+        Me.TextBox62.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox62.ForeColor = System.Drawing.Color.Black
+        Me.TextBox62.Location = New System.Drawing.Point(90, 132)
+        Me.TextBox62.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox62.Name = "TextBox62"
+        Me.TextBox62.Size = New System.Drawing.Size(34, 20)
+        Me.TextBox62.TabIndex = 23
+        Me.TextBox62.Text = "23,0"
         '
-        'ComboBox7
+        'TextBox55
         '
-        Me.ComboBox7.BackColor = System.Drawing.Color.White
-        Me.ComboBox7.DropDownWidth = 272
-        Me.ComboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ComboBox7.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox7.FormattingEnabled = True
-        Me.ComboBox7.Items.AddRange(New Object() {"Corte 23,6 mm 2 X Nada 23,0 mm 2", "Corte 23,6 mm 4 X Marca 23,6 mm 4", "Corte 23,8 mm 5 X marca 23,6 mm 5", "Corte 23,8 mm 10 X marca 23,6 mm 10"})
-        Me.ComboBox7.Location = New System.Drawing.Point(129, 229)
-        Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(184, 22)
-        Me.ComboBox7.TabIndex = 171
-        Me.ToolTip1.SetToolTip(Me.ComboBox7, "Escojer el adecuado segun experiencia" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con este tipo de MP.")
+        Me.TextBox55.BackColor = System.Drawing.Color.White
+        Me.TextBox55.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox55.ForeColor = System.Drawing.Color.Black
+        Me.TextBox55.Location = New System.Drawing.Point(129, 59)
+        Me.TextBox55.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox55.Name = "TextBox55"
+        Me.TextBox55.Size = New System.Drawing.Size(189, 20)
+        Me.TextBox55.TabIndex = 23
+        Me.TextBox55.Text = "perfilado 350 um / Redondeada "
         '
-        'Label190
+        'TextBox60
         '
-        Me.Label190.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label190.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label190.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label190.Location = New System.Drawing.Point(11, 311)
-        Me.Label190.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label190.Name = "Label190"
-        Me.Label190.Size = New System.Drawing.Size(113, 22)
-        Me.Label190.TabIndex = 20
-        Me.Label190.Text = "P/remplaso marcado:"
-        Me.Label190.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.TextBox60.BackColor = System.Drawing.Color.White
+        Me.TextBox60.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox60.ForeColor = System.Drawing.Color.Black
+        Me.TextBox60.Location = New System.Drawing.Point(90, 108)
+        Me.TextBox60.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox60.Name = "TextBox60"
+        Me.TextBox60.Size = New System.Drawing.Size(34, 20)
+        Me.TextBox60.TabIndex = 23
+        Me.TextBox60.Text = "23,2"
         '
-        'Label189
+        'TextBox54
         '
-        Me.Label189.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label189.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label189.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label189.Location = New System.Drawing.Point(11, 283)
-        Me.Label189.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label189.Name = "Label189"
-        Me.Label189.Size = New System.Drawing.Size(113, 23)
-        Me.Label189.TabIndex = 20
-        Me.Label189.Text = "Fondo 90 grados:"
-        Me.Label189.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.TextBox54.BackColor = System.Drawing.Color.White
+        Me.TextBox54.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox54.ForeColor = System.Drawing.Color.Black
+        Me.TextBox54.Location = New System.Drawing.Point(129, 36)
+        Me.TextBox54.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox54.Name = "TextBox54"
+        Me.TextBox54.Size = New System.Drawing.Size(189, 20)
+        Me.TextBox54.TabIndex = 23
+        Me.TextBox54.Text = "Dureza HRC 45 / Base redondeada"
         '
-        'Label183
+        'TextBox58
         '
-        Me.Label183.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label183.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label183.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label183.Location = New System.Drawing.Point(11, 255)
-        Me.Label183.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label183.Name = "Label183"
-        Me.Label183.Size = New System.Drawing.Size(113, 24)
-        Me.Label183.TabIndex = 20
-        Me.Label183.Text = "P/arrancar exibidor:"
-        Me.Label183.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label224
-        '
-        Me.Label224.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label224.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label224.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label224.ForeColor = System.Drawing.Color.Black
-        Me.Label224.Location = New System.Drawing.Point(12, 204)
-        Me.Label224.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label224.Name = "Label224"
-        Me.Label224.Size = New System.Drawing.Size(302, 22)
-        Me.Label224.TabIndex = 20
-        Me.Label224.Text = "FLEJE PERFORADO SE UTILIZA"
-        Me.Label224.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label181
-        '
-        Me.Label181.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label181.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label181.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label181.Location = New System.Drawing.Point(11, 229)
-        Me.Label181.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label181.Name = "Label181"
-        Me.Label181.Size = New System.Drawing.Size(113, 23)
-        Me.Label181.TabIndex = 20
-        Me.Label181.Text = "P/ventana:"
-        Me.Label181.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label278
-        '
-        Me.Label278.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label278.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label278.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label278.Location = New System.Drawing.Point(13, 174)
-        Me.Label278.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label278.Name = "Label278"
-        Me.Label278.Size = New System.Drawing.Size(196, 20)
-        Me.Label278.TabIndex = 20
-        Me.Label278.Text = "PLATINA 1mm Marca profundidad mm:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label278.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label279
-        '
-        Me.Label279.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label279.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label279.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label279.Location = New System.Drawing.Point(13, 149)
-        Me.Label279.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label279.Name = "Label279"
-        Me.Label279.Size = New System.Drawing.Size(196, 20)
-        Me.Label279.TabIndex = 20
-        Me.Label279.Text = "PLATINA 1mm Marca Altura mm:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        Me.Label279.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.TextBox58.BackColor = System.Drawing.Color.White
+        Me.TextBox58.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox58.ForeColor = System.Drawing.Color.Black
+        Me.TextBox58.Location = New System.Drawing.Point(90, 84)
+        Me.TextBox58.Margin = New System.Windows.Forms.Padding(2)
+        Me.TextBox58.Name = "TextBox58"
+        Me.TextBox58.Size = New System.Drawing.Size(34, 20)
+        Me.TextBox58.TabIndex = 23
+        Me.TextBox58.Text = "23,3 "
         '
         'TextBox80
         '
@@ -8572,44 +8855,13 @@ Partial Class OT_TROQUEL
         Me.TextBox81.BackColor = System.Drawing.Color.White
         Me.TextBox81.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox81.ForeColor = System.Drawing.Color.Black
-        Me.TextBox81.Location = New System.Drawing.Point(211, 125)
+        Me.TextBox81.Location = New System.Drawing.Point(90, 60)
         Me.TextBox81.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox81.Name = "TextBox81"
-        Me.TextBox81.Size = New System.Drawing.Size(43, 20)
+        Me.TextBox81.Size = New System.Drawing.Size(34, 20)
         Me.TextBox81.TabIndex = 23
         Me.TextBox81.Text = "23,3 "
         Me.ToolTip1.SetToolTip(Me.TextBox81, "Esta información viene de LA BASE de datos," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " de MATERIA PRIMA." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Según lo selecci" &
-        "onado el CATON SELECCIONADO, Cod Gama MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Trae de MP pero tiene que tener opció" &
-        "n de modificar." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        '
-        'TextBox82
-        '
-        Me.TextBox82.BackColor = System.Drawing.Color.White
-        Me.TextBox82.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox82.ForeColor = System.Drawing.Color.Black
-        Me.TextBox82.Location = New System.Drawing.Point(211, 174)
-        Me.TextBox82.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox82.Name = "TextBox82"
-        Me.TextBox82.Size = New System.Drawing.Size(44, 20)
-        Me.TextBox82.TabIndex = 23
-        Me.TextBox82.Text = "0,2"
-        Me.TextBox82.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.ToolTip1.SetToolTip(Me.TextBox82, "Esta información viene de LA BASE de datos," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " de MATERIA PRIMA." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Según lo selecci" &
-        "onado el CATON SELECCIONADO, Cod Gama MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Trae de MP pero tiene que tener opció" &
-        "n de modificar." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        '
-        'TextBox132
-        '
-        Me.TextBox132.BackColor = System.Drawing.Color.White
-        Me.TextBox132.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox132.ForeColor = System.Drawing.Color.Black
-        Me.TextBox132.Location = New System.Drawing.Point(211, 149)
-        Me.TextBox132.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox132.Name = "TextBox132"
-        Me.TextBox132.Size = New System.Drawing.Size(43, 20)
-        Me.TextBox132.TabIndex = 23
-        Me.TextBox132.Text = "23,50 "
-        Me.ToolTip1.SetToolTip(Me.TextBox132, "Esta información viene de LA BASE de datos," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " de MATERIA PRIMA." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Según lo selecci" &
         "onado el CATON SELECCIONADO, Cod Gama MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Trae de MP pero tiene que tener opció" &
         "n de modificar." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         '
@@ -8617,7 +8869,9 @@ Partial Class OT_TROQUEL
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel1.Controls.Add(Me.Panel33)
+        Me.Panel1.Controls.Add(Me.Button6)
+        Me.Panel1.Controls.Add(Me.Button15)
+        Me.Panel1.Controls.Add(Me.Button13)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Panel8)
         Me.Panel1.Controls.Add(Me.Panel18)
@@ -8631,25 +8885,6 @@ Partial Class OT_TROQUEL
         Me.Panel1.Size = New System.Drawing.Size(819, 378)
         Me.Panel1.TabIndex = 759
         '
-        'Panel33
-        '
-        Me.Panel33.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Panel33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel33.Controls.Add(Me.Button6)
-        Me.Panel33.Controls.Add(Me.TextBox36)
-        Me.Panel33.Controls.Add(Me.Panel34)
-        Me.Panel33.Controls.Add(Me.TextBox2)
-        Me.Panel33.Controls.Add(Me.TextBox46)
-        Me.Panel33.Controls.Add(Me.TextBox49)
-        Me.Panel33.Controls.Add(Me.TextBox45)
-        Me.Panel33.Controls.Add(Me.TextBox44)
-        Me.Panel33.Location = New System.Drawing.Point(542, 48)
-        Me.Panel33.Margin = New System.Windows.Forms.Padding(2)
-        Me.Panel33.Name = "Panel33"
-        Me.Panel33.Size = New System.Drawing.Size(145, 229)
-        Me.Panel33.TabIndex = 433
-        Me.ToolTip1.SetToolTip(Me.Panel33, "Esta información es cargada por TROQUEL, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "es solo informativa." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        '
         'Button6
         '
         Me.Button6.AutoSize = True
@@ -8660,133 +8895,66 @@ Partial Class OT_TROQUEL
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.Button6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.Black
-        Me.Button6.Location = New System.Drawing.Point(19, 193)
+        Me.Button6.Location = New System.Drawing.Point(612, 36)
         Me.Button6.Name = "Button6"
         Me.Button6.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Button6.Size = New System.Drawing.Size(107, 29)
         Me.Button6.TabIndex = 983
         Me.Button6.Text = "Info"
-        Me.ToolTip1.SetToolTip(Me.Button6, "Boton Amaillo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Información de la ventana actual." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Ventana: TROQUEL/INSUMO/GOMA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         Me.Button6.UseVisualStyleBackColor = False
         '
-        'TextBox36
+        'Button15
         '
-        Me.TextBox36.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox36.ForeColor = System.Drawing.Color.Black
-        Me.TextBox36.Location = New System.Drawing.Point(9, 32)
-        Me.TextBox36.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(125, 20)
-        Me.TextBox36.TabIndex = 557
-        Me.TextBox36.Text = "Amar. 35 chore"
-        Me.TextBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Button15.AutoSize = True
+        Me.Button15.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button15.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button15.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button15.ForeColor = System.Drawing.Color.Black
+        Me.Button15.Location = New System.Drawing.Point(330, 36)
+        Me.Button15.Name = "Button15"
+        Me.Button15.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button15.Size = New System.Drawing.Size(107, 29)
+        Me.Button15.TabIndex = 983
+        Me.Button15.Text = "Info"
+        Me.Button15.UseVisualStyleBackColor = False
         '
-        'Panel34
+        'Button13
         '
-        Me.Panel34.BackColor = System.Drawing.Color.Green
-        Me.Panel34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Panel34.Controls.Add(Me.Label67)
-        Me.Panel34.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel34.Location = New System.Drawing.Point(0, 0)
-        Me.Panel34.Margin = New System.Windows.Forms.Padding(2)
-        Me.Panel34.Name = "Panel34"
-        Me.Panel34.Size = New System.Drawing.Size(141, 29)
-        Me.Panel34.TabIndex = 0
-        '
-        'Label67
-        '
-        Me.Label67.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label67.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.ForeColor = System.Drawing.Color.White
-        Me.Label67.Location = New System.Drawing.Point(30, 1)
-        Me.Label67.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(82, 23)
-        Me.Label67.TabIndex = 6
-        Me.Label67.Text = "GOMA"
-        Me.Label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.Color.White
-        Me.TextBox2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.ForeColor = System.Drawing.Color.Red
-        Me.TextBox2.Location = New System.Drawing.Point(9, 152)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(125, 20)
-        Me.TextBox2.TabIndex = 554
-        Me.TextBox2.Text = "Tira blancas de Goma "
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.ToolTip1.SetToolTip(Me.TextBox2, "Tira blancas de Goma dura colocar en los lugares críticos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Esto ayuda a que no se" &
-        " tranque y que no tenga rebarba." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "No abusar con tanta cantidad porque no le da l" &
-        "a presión de la máquina," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        '
-        'TextBox46
-        '
-        Me.TextBox46.BackColor = System.Drawing.Color.White
-        Me.TextBox46.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox46.ForeColor = System.Drawing.Color.DimGray
-        Me.TextBox46.Location = New System.Drawing.Point(9, 128)
-        Me.TextBox46.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox46.Name = "TextBox46"
-        Me.TextBox46.Size = New System.Drawing.Size(125, 20)
-        Me.TextBox46.TabIndex = 554
-        Me.TextBox46.Text = "GRIS 55 chore"
-        Me.TextBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox49
-        '
-        Me.TextBox49.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox49.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox49.Location = New System.Drawing.Point(9, 80)
-        Me.TextBox49.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox49.Name = "TextBox49"
-        Me.TextBox49.Size = New System.Drawing.Size(125, 20)
-        Me.TextBox49.TabIndex = 555
-        Me.TextBox49.Text = "Verde 40 chore"
-        Me.TextBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox45
-        '
-        Me.TextBox45.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox45.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox45.Location = New System.Drawing.Point(9, 104)
-        Me.TextBox45.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox45.Name = "TextBox45"
-        Me.TextBox45.Size = New System.Drawing.Size(125, 20)
-        Me.TextBox45.TabIndex = 556
-        Me.TextBox45.Text = "Azul 55 chore"
-        Me.TextBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox44
-        '
-        Me.TextBox44.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox44.ForeColor = System.Drawing.Color.Gold
-        Me.TextBox44.Location = New System.Drawing.Point(9, 56)
-        Me.TextBox44.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox44.Name = "TextBox44"
-        Me.TextBox44.Size = New System.Drawing.Size(125, 20)
-        Me.TextBox44.TabIndex = 558
-        Me.TextBox44.Text = "Naran. 45 chore"
-        Me.TextBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Button13.AutoSize = True
+        Me.Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
+        Me.Button13.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.ForeColor = System.Drawing.Color.Black
+        Me.Button13.Location = New System.Drawing.Point(289, 162)
+        Me.Button13.Name = "Button13"
+        Me.Button13.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.Button13.Size = New System.Drawing.Size(107, 29)
+        Me.Button13.TabIndex = 983
+        Me.Button13.Text = "Info"
+        Me.Button13.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.PictureBox1.ErrorImage = Nothing
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(11, 31)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 31)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(400, 160)
+        Me.PictureBox1.Size = New System.Drawing.Size(299, 160)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 783
         Me.PictureBox1.TabStop = False
         '
         'Panel8
         '
-        Me.Panel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel8.BackColor = System.Drawing.Color.Silver
         Me.Panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel8.Controls.Add(Me.Label258)
         Me.Panel8.Controls.Add(Me.Label248)
@@ -8831,7 +8999,7 @@ Partial Class OT_TROQUEL
         '
         'Label258
         '
-        Me.Label258.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label258.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label258.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label258.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label258.Location = New System.Drawing.Point(9, 151)
@@ -8844,7 +9012,7 @@ Partial Class OT_TROQUEL
         '
         'Label248
         '
-        Me.Label248.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label248.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label248.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label248.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label248.Location = New System.Drawing.Point(9, 127)
@@ -8857,7 +9025,7 @@ Partial Class OT_TROQUEL
         '
         'Label257
         '
-        Me.Label257.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label257.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label257.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label257.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label257.Location = New System.Drawing.Point(123, 151)
@@ -8870,7 +9038,7 @@ Partial Class OT_TROQUEL
         '
         'Label197
         '
-        Me.Label197.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label197.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label197.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label197.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label197.Location = New System.Drawing.Point(123, 127)
@@ -8883,7 +9051,7 @@ Partial Class OT_TROQUEL
         '
         'Label245
         '
-        Me.Label245.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label245.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label245.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label245.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label245.Location = New System.Drawing.Point(9, 104)
@@ -8896,7 +9064,7 @@ Partial Class OT_TROQUEL
         '
         'Label196
         '
-        Me.Label196.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label196.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label196.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label196.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label196.Location = New System.Drawing.Point(123, 104)
@@ -8909,7 +9077,7 @@ Partial Class OT_TROQUEL
         '
         'Label199
         '
-        Me.Label199.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label199.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label199.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label199.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label199.Location = New System.Drawing.Point(9, 81)
@@ -8922,7 +9090,7 @@ Partial Class OT_TROQUEL
         '
         'Label195
         '
-        Me.Label195.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label195.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label195.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label195.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label195.Location = New System.Drawing.Point(123, 81)
@@ -8935,7 +9103,7 @@ Partial Class OT_TROQUEL
         '
         'Label256
         '
-        Me.Label256.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label256.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label256.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label256.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label256.Location = New System.Drawing.Point(232, 151)
@@ -8948,7 +9116,7 @@ Partial Class OT_TROQUEL
         '
         'Label255
         '
-        Me.Label255.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label255.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label255.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label255.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label255.Location = New System.Drawing.Point(276, 127)
@@ -8961,7 +9129,7 @@ Partial Class OT_TROQUEL
         '
         'Label253
         '
-        Me.Label253.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label253.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label253.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label253.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label253.Location = New System.Drawing.Point(276, 105)
@@ -8974,7 +9142,7 @@ Partial Class OT_TROQUEL
         '
         'Label252
         '
-        Me.Label252.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label252.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label252.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label252.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label252.Location = New System.Drawing.Point(276, 82)
@@ -8987,7 +9155,7 @@ Partial Class OT_TROQUEL
         '
         'Label251
         '
-        Me.Label251.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label251.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label251.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label251.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label251.Location = New System.Drawing.Point(276, 57)
@@ -9000,7 +9168,7 @@ Partial Class OT_TROQUEL
         '
         'Label250
         '
-        Me.Label250.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label250.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label250.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label250.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label250.Location = New System.Drawing.Point(276, 28)
@@ -9013,7 +9181,7 @@ Partial Class OT_TROQUEL
         '
         'Label99
         '
-        Me.Label99.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label99.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label99.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label99.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label99.Location = New System.Drawing.Point(100, 57)
@@ -9041,7 +9209,7 @@ Partial Class OT_TROQUEL
         '
         'Label101
         '
-        Me.Label101.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label101.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label101.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label101.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label101.Location = New System.Drawing.Point(9, 57)
@@ -9054,7 +9222,7 @@ Partial Class OT_TROQUEL
         '
         'Label194
         '
-        Me.Label194.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label194.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label194.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label194.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label194.Location = New System.Drawing.Point(10, 28)
@@ -9294,7 +9462,7 @@ Partial Class OT_TROQUEL
         '
         'Panel18
         '
-        Me.Panel18.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel18.BackColor = System.Drawing.Color.Silver
         Me.Panel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel18.Controls.Add(Me.CheckBox9)
         Me.Panel18.Controls.Add(Me.Label71)
@@ -9345,7 +9513,7 @@ Partial Class OT_TROQUEL
         '
         'Label231
         '
-        Me.Label231.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label231.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label231.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label231.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label231.Location = New System.Drawing.Point(10, 138)
@@ -9358,7 +9526,7 @@ Partial Class OT_TROQUEL
         '
         'Label186
         '
-        Me.Label186.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label186.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label186.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label186.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label186.Location = New System.Drawing.Point(10, 110)
@@ -9371,7 +9539,7 @@ Partial Class OT_TROQUEL
         '
         'Label25
         '
-        Me.Label25.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label25.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label25.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.Location = New System.Drawing.Point(10, 85)
@@ -9384,7 +9552,7 @@ Partial Class OT_TROQUEL
         '
         'Label3
         '
-        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label3.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(10, 53)
@@ -9397,7 +9565,7 @@ Partial Class OT_TROQUEL
         '
         'Label17
         '
-        Me.Label17.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label17.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label17.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(10, 27)
@@ -9528,7 +9696,7 @@ Partial Class OT_TROQUEL
         '
         'Panel87
         '
-        Me.Panel87.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Panel87.BackColor = System.Drawing.Color.Silver
         Me.Panel87.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel87.Controls.Add(Me.Label198)
         Me.Panel87.Controls.Add(Me.Label191)
@@ -9549,7 +9717,7 @@ Partial Class OT_TROQUEL
         '
         'Label198
         '
-        Me.Label198.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label198.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label198.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label198.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label198.Location = New System.Drawing.Point(9, 103)
@@ -9562,7 +9730,7 @@ Partial Class OT_TROQUEL
         '
         'Label191
         '
-        Me.Label191.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label191.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label191.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label191.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label191.Location = New System.Drawing.Point(9, 79)
@@ -9575,7 +9743,7 @@ Partial Class OT_TROQUEL
         '
         'Label232
         '
-        Me.Label232.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label232.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label232.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label232.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label232.Location = New System.Drawing.Point(9, 131)
@@ -9589,7 +9757,7 @@ Partial Class OT_TROQUEL
         '
         'Label192
         '
-        Me.Label192.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label192.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label192.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label192.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label192.Location = New System.Drawing.Point(9, 55)
@@ -9631,7 +9799,7 @@ Partial Class OT_TROQUEL
         '
         'Label16
         '
-        Me.Label16.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label16.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Label16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label16.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.Location = New System.Drawing.Point(9, 29)
@@ -9730,14 +9898,6 @@ Partial Class OT_TROQUEL
         Me.Panel53.Controls.Add(Me.Label289)
         Me.Panel53.Controls.Add(Me.ComboBox201)
         Me.Panel53.Controls.Add(Me.Button16)
-        Me.Panel53.Controls.Add(Me.Label220)
-        Me.Panel53.Controls.Add(Me.Label50)
-        Me.Panel53.Controls.Add(Me.Label55)
-        Me.Panel53.Controls.Add(Me.Label51)
-        Me.Panel53.Controls.Add(Me.TextBox102)
-        Me.Panel53.Controls.Add(Me.TextBox43)
-        Me.Panel53.Controls.Add(Me.TextBox103)
-        Me.Panel53.Controls.Add(Me.TextBox26)
         Me.Panel53.Controls.Add(Me.Label118)
         Me.Panel53.Controls.Add(Me.Label52)
         Me.Panel53.Controls.Add(Me.Label53)
@@ -9805,7 +9965,7 @@ Partial Class OT_TROQUEL
         Me.Button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.Button16.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button16.ForeColor = System.Drawing.Color.Black
-        Me.Button16.Location = New System.Drawing.Point(492, 178)
+        Me.Button16.Location = New System.Drawing.Point(496, 178)
         Me.Button16.Name = "Button16"
         Me.Button16.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Button16.Size = New System.Drawing.Size(92, 45)
@@ -9813,113 +9973,6 @@ Partial Class OT_TROQUEL
         Me.Button16.Text = "Info"
         Me.ToolTip1.SetToolTip(Me.Button16, "Boton Amaillo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Información de la ventana actual." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Ventana: TROQUEL/INSUMO/CUÑO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
         Me.Button16.UseVisualStyleBackColor = False
-        '
-        'Label220
-        '
-        Me.Label220.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label220.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label220.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label220.Location = New System.Drawing.Point(421, 34)
-        Me.Label220.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label220.Name = "Label220"
-        Me.Label220.Size = New System.Drawing.Size(122, 19)
-        Me.Label220.TabIndex = 1004
-        Me.Label220.Text = "Fleje CORTE:"
-        Me.Label220.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label50
-        '
-        Me.Label50.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label50.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(421, 59)
-        Me.Label50.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(122, 17)
-        Me.Label50.TabIndex = 1005
-        Me.Label50.Text = "Fleje MARCA:"
-        Me.Label50.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label55
-        '
-        Me.Label55.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label55.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label55.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(421, 83)
-        Me.Label55.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(122, 19)
-        Me.Label55.TabIndex = 1006
-        Me.Label55.Text = "Fondo auto Fleje 90°:"
-        Me.Label55.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label51
-        '
-        Me.Label51.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label51.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(421, 107)
-        Me.Label51.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(122, 19)
-        Me.Label51.TabIndex = 1006
-        Me.Label51.Text = "Ventana Perforada:"
-        Me.Label51.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'TextBox102
-        '
-        Me.TextBox102.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox102.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox102.ForeColor = System.Drawing.Color.Black
-        Me.TextBox102.Location = New System.Drawing.Point(554, 33)
-        Me.TextBox102.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox102.Name = "TextBox102"
-        Me.TextBox102.Size = New System.Drawing.Size(34, 20)
-        Me.TextBox102.TabIndex = 1007
-        Me.TextBox102.Text = "23,8 "
-        Me.ToolTip1.SetToolTip(Me.TextBox102, "Esta información viene de LA BASE de datos," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " de MATERIA PRIMA." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Según lo selecci" &
-        "onado el CATON SELECCIONADO, Cod Gama MP." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Trae de MP pero tiene que tener opció" &
-        "n de modificar." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10))
-        '
-        'TextBox43
-        '
-        Me.TextBox43.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox43.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox43.ForeColor = System.Drawing.Color.Black
-        Me.TextBox43.Location = New System.Drawing.Point(554, 82)
-        Me.TextBox43.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox43.Name = "TextBox43"
-        Me.TextBox43.Size = New System.Drawing.Size(34, 20)
-        Me.TextBox43.TabIndex = 1009
-        Me.TextBox43.Text = "23,80 "
-        Me.ToolTip1.SetToolTip(Me.TextBox43, "Fondo automatico Fleje 90°, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "4mm Corte (Altura 23,80)  " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "4mm Marca (Altura 23,50" &
-        ") . ")
-        '
-        'TextBox103
-        '
-        Me.TextBox103.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox103.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox103.ForeColor = System.Drawing.Color.Black
-        Me.TextBox103.Location = New System.Drawing.Point(554, 57)
-        Me.TextBox103.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox103.Name = "TextBox103"
-        Me.TextBox103.Size = New System.Drawing.Size(34, 20)
-        Me.TextBox103.TabIndex = 1008
-        Me.TextBox103.Text = "23,3 "
-        Me.ToolTip1.SetToolTip(Me.TextBox103, resources.GetString("TextBox103.ToolTip"))
-        '
-        'TextBox26
-        '
-        Me.TextBox26.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.TextBox26.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox26.ForeColor = System.Drawing.Color.Black
-        Me.TextBox26.Location = New System.Drawing.Point(554, 106)
-        Me.TextBox26.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(34, 20)
-        Me.TextBox26.TabIndex = 1009
-        Me.TextBox26.Text = "23,80 "
-        Me.ToolTip1.SetToolTip(Me.TextBox26, "Altura fleje perforado." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Para venta usar Perforada 2x2, traspasar" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Corte + Nada")
         '
         'Label118
         '
@@ -10038,7 +10091,7 @@ Partial Class OT_TROQUEL
         Me.TextBox31.Name = "TextBox31"
         Me.TextBox31.Size = New System.Drawing.Size(409, 20)
         Me.TextBox31.TabIndex = 996
-        Me.TextBox31.Text = "Fresa corte 120°/Agujero 6 mm, X 180° / canaleta doble pasada"
+        Me.TextBox31.Text = "Fresa corte 120°/Agujero Cabeza 8 mm, X 180° / canaleta doble pasada"
         '
         'TextBox139
         '
@@ -10093,7 +10146,7 @@ Partial Class OT_TROQUEL
         Me.TextBox152.Location = New System.Drawing.Point(115, 107)
         Me.TextBox152.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox152.Name = "TextBox152"
-        Me.TextBox152.Size = New System.Drawing.Size(285, 20)
+        Me.TextBox152.Size = New System.Drawing.Size(473, 20)
         Me.TextBox152.TabIndex = 990
         Me.TextBox152.Text = "Espesor 1 mm / Desbastado 0,7 / en cuño hembra"
         Me.ToolTip1.SetToolTip(Me.TextBox152, "El cuño Macho Stamping el cuerpo es de 1 mm." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "El desvastado de 0,7 mm por lo gene" &
@@ -10145,7 +10198,7 @@ Partial Class OT_TROQUEL
         Me.TextBox11.Location = New System.Drawing.Point(114, 34)
         Me.TextBox11.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(284, 20)
+        Me.TextBox11.Size = New System.Drawing.Size(472, 20)
         Me.TextBox11.TabIndex = 986
         Me.TextBox11.Text = "Espesor 4 mm / Profundidad 1,2 mm / borde redondeado"
         '
@@ -10156,7 +10209,7 @@ Partial Class OT_TROQUEL
         Me.TextBox145.Location = New System.Drawing.Point(115, 83)
         Me.TextBox145.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox145.Name = "TextBox145"
-        Me.TextBox145.Size = New System.Drawing.Size(284, 20)
+        Me.TextBox145.Size = New System.Drawing.Size(472, 20)
         Me.TextBox145.TabIndex = 987
         Me.TextBox145.Text = "Espesor 4 mm sobre / profundidad desvaste 2 mm"
         '
@@ -10167,7 +10220,7 @@ Partial Class OT_TROQUEL
         Me.TextBox52.Location = New System.Drawing.Point(114, 58)
         Me.TextBox52.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(284, 20)
+        Me.TextBox52.Size = New System.Drawing.Size(472, 20)
         Me.TextBox52.TabIndex = 988
         Me.TextBox52.Text = "Espesor 1 mm sobre Pertinax / 1,5 mm sobre platina"
         '
@@ -10189,7 +10242,7 @@ Partial Class OT_TROQUEL
         Me.Label280.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Label280.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label280.ForeColor = System.Drawing.Color.White
-        Me.Label280.Location = New System.Drawing.Point(55, 0)
+        Me.Label280.Location = New System.Drawing.Point(165, 0)
         Me.Label280.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label280.Name = "Label280"
         Me.Label280.Size = New System.Drawing.Size(171, 23)
@@ -10201,13 +10254,14 @@ Partial Class OT_TROQUEL
         '
         Me.TextBox50.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox50.ForeColor = System.Drawing.Color.Black
-        Me.TextBox50.Location = New System.Drawing.Point(230, 2)
+        Me.TextBox50.Location = New System.Drawing.Point(340, 2)
         Me.TextBox50.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox50.Name = "TextBox50"
         Me.TextBox50.Size = New System.Drawing.Size(35, 20)
         Me.TextBox50.TabIndex = 23
         Me.TextBox50.Text = "400"
         Me.TextBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.ToolTip1.SetToolTip(Me.TextBox50, "Este troquel fue realizado con los" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " elementos adecuados para estas" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " micras.")
         '
         'Panel5
         '
@@ -17678,18 +17732,34 @@ Partial Class OT_TROQUEL
         Me.Panel2.Size = New System.Drawing.Size(1364, 705)
         Me.Panel2.TabIndex = 2
         '
-        'TextBox53
+        'Label62
         '
-        Me.TextBox53.BackColor = System.Drawing.Color.White
-        Me.TextBox53.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox53.ForeColor = System.Drawing.Color.Green
-        Me.TextBox53.Location = New System.Drawing.Point(378, 0)
-        Me.TextBox53.Margin = New System.Windows.Forms.Padding(2)
-        Me.TextBox53.Name = "TextBox53"
-        Me.TextBox53.Size = New System.Drawing.Size(36, 22)
-        Me.TextBox53.TabIndex = 958
-        Me.TextBox53.Text = "000"
-        Me.TextBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.Label62.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label62.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label62.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label62.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label62.Location = New System.Drawing.Point(11, 337)
+        Me.Label62.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label62.Name = "Label62"
+        Me.Label62.Size = New System.Drawing.Size(106, 20)
+        Me.Label62.TabIndex = 947
+        Me.Label62.Text = "Registro T:"
+        Me.Label62.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox2.Checked = True
+        Me.CheckBox2.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox2.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox2.ForeColor = System.Drawing.Color.Black
+        Me.CheckBox2.Location = New System.Drawing.Point(124, 339)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(119, 18)
+        Me.CheckBox2.TabIndex = 962
+        Me.CheckBox2.Text = "Todos deben llevar."
+        Me.CheckBox2.UseVisualStyleBackColor = False
         '
         'OT_TROQUEL
         '
@@ -17709,6 +17779,7 @@ Partial Class OT_TROQUEL
         Me.Panel32.ResumeLayout(False)
         Me.Panel26.ResumeLayout(False)
         Me.Panel26.PerformLayout
+        CType(Me.PictureBox19, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel76.ResumeLayout(False)
         Me.Panel76.PerformLayout
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit
@@ -17718,6 +17789,7 @@ Partial Class OT_TROQUEL
         Me.Panel63.ResumeLayout(False)
         Me.Panel63.PerformLayout
         Me.Panel64.ResumeLayout(False)
+        CType(Me.PictureBox20, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout
         Me.Panel13.ResumeLayout(False)
@@ -17729,6 +17801,7 @@ Partial Class OT_TROQUEL
         Me.Panel68.ResumeLayout(False)
         Me.Panel68.PerformLayout
         Me.Panel42.ResumeLayout(False)
+        CType(Me.PictureBox22, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel73.ResumeLayout(False)
         Me.Panel73.PerformLayout
         Me.Montaje.ResumeLayout(False)
@@ -17767,6 +17840,7 @@ Partial Class OT_TROQUEL
         Me.Panel7.ResumeLayout(False)
         Me.Panel138.ResumeLayout(False)
         Me.Panel138.PerformLayout
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel19.ResumeLayout(False)
         Me.Panel19.PerformLayout
         Me.Panel291.ResumeLayout(False)
@@ -17784,6 +17858,7 @@ Partial Class OT_TROQUEL
         Me.Panel282.ResumeLayout(False)
         Me.Panel282.PerformLayout
         Me.Panel281.ResumeLayout(False)
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit
         Me.Insumos.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit
@@ -17796,11 +17871,12 @@ Partial Class OT_TROQUEL
         Me.Panel17.ResumeLayout(False)
         Me.Panel51.ResumeLayout(False)
         Me.Panel51.PerformLayout
-        Me.Panel52.ResumeLayout(False)
-        Me.Panel1.ResumeLayout(False)
         Me.Panel33.ResumeLayout(False)
         Me.Panel33.PerformLayout
         Me.Panel34.ResumeLayout(False)
+        Me.Panel52.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit
         Me.Panel8.ResumeLayout(False)
         Me.Panel8.PerformLayout
@@ -18144,23 +18220,8 @@ Partial Class OT_TROQUEL
     Friend WithEvents Panel52 As Panel
     Friend WithEvents Label33 As Label
     Friend WithEvents Label223 As Label
-    Friend WithEvents ComboBox33 As ComboBox
-    Friend WithEvents ComboBox25 As ComboBox
-    Friend WithEvents ComboBox8 As ComboBox
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Label225 As Label
-    Friend WithEvents ComboBox7 As ComboBox
-    Friend WithEvents Label190 As Label
-    Friend WithEvents Label189 As Label
-    Friend WithEvents Label183 As Label
-    Friend WithEvents Label224 As Label
-    Friend WithEvents Label181 As Label
-    Friend WithEvents Label278 As Label
-    Friend WithEvents Label279 As Label
     Friend WithEvents TextBox80 As TextBox
     Friend WithEvents TextBox81 As TextBox
-    Friend WithEvents TextBox82 As TextBox
-    Friend WithEvents TextBox132 As TextBox
     Friend WithEvents Panel14 As Panel
     Friend WithEvents Panel17 As Panel
     Friend WithEvents Label30 As Label
@@ -18780,7 +18841,6 @@ Partial Class OT_TROQUEL
     Friend WithEvents Button44 As Button
     Friend WithEvents Button45 As Button
     Friend WithEvents Label599 As Label
-    Friend WithEvents Label45 As Label
     Friend WithEvents Panel9 As Panel
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
@@ -19076,9 +19136,6 @@ Partial Class OT_TROQUEL
     Friend WithEvents Label596 As Label
     Friend WithEvents Label598 As Label
     Friend WithEvents TextBox50 As TextBox
-    Friend WithEvents CheckBox4 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents Button7 As Button
     Friend WithEvents Label54 As Label
     Friend WithEvents Label281 As Label
@@ -19090,7 +19147,6 @@ Partial Class OT_TROQUEL
     Friend WithEvents TextBox152 As TextBox
     Friend WithEvents Button16 As Button
     Friend WithEvents Panel33 As Panel
-    Friend WithEvents Button6 As Button
     Friend WithEvents TextBox36 As TextBox
     Friend WithEvents Panel34 As Panel
     Friend WithEvents Label67 As Label
@@ -19099,12 +19155,6 @@ Partial Class OT_TROQUEL
     Friend WithEvents TextBox49 As TextBox
     Friend WithEvents TextBox45 As TextBox
     Friend WithEvents TextBox44 As TextBox
-    Friend WithEvents Label220 As Label
-    Friend WithEvents Label50 As Label
-    Friend WithEvents Label51 As Label
-    Friend WithEvents TextBox102 As TextBox
-    Friend WithEvents TextBox103 As TextBox
-    Friend WithEvents TextBox26 As TextBox
     Friend WithEvents Label118 As Label
     Friend WithEvents Label52 As Label
     Friend WithEvents Label53 As Label
@@ -19120,7 +19170,38 @@ Partial Class OT_TROQUEL
     Friend WithEvents Label289 As Label
     Friend WithEvents ComboBox201 As ComboBox
     Friend WithEvents TextBox35 As TextBox
-    Friend WithEvents Label55 As Label
-    Friend WithEvents TextBox43 As TextBox
     Friend WithEvents TextBox53 As TextBox
+    Friend WithEvents TextBox54 As TextBox
+    Friend WithEvents Label57 As Label
+    Friend WithEvents Label56 As Label
+    Friend WithEvents Label45 As Label
+    Friend WithEvents TextBox63 As TextBox
+    Friend WithEvents TextBox61 As TextBox
+    Friend WithEvents TextBox59 As TextBox
+    Friend WithEvents TextBox62 As TextBox
+    Friend WithEvents TextBox55 As TextBox
+    Friend WithEvents TextBox60 As TextBox
+    Friend WithEvents TextBox58 As TextBox
+    Friend WithEvents Label55 As Label
+    Friend WithEvents Label51 As Label
+    Friend WithEvents TextBox43 As TextBox
+    Friend WithEvents TextBox26 As TextBox
+    Friend WithEvents TextBox67 As TextBox
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button15 As Button
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Label61 As Label
+    Friend WithEvents Label60 As Label
+    Friend WithEvents Label50 As Label
+    Friend WithEvents TextBox70 As TextBox
+    Friend WithEvents TextBox69 As TextBox
+    Friend WithEvents TextBox71 As TextBox
+    Friend WithEvents Button6 As Button
+    Friend WithEvents PictureBox18 As PictureBox
+    Friend WithEvents PictureBox16 As PictureBox
+    Friend WithEvents PictureBox19 As PictureBox
+    Friend WithEvents PictureBox20 As PictureBox
+    Friend WithEvents PictureBox22 As PictureBox
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents Label62 As Label
 End Class

@@ -118,10 +118,10 @@
     <Compile Include="0 EMERGENTE\FrmPantallaEmergente1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\FrmPantallaEmergente2.Designer.vb">
-      <DependentUpon>FrmPantallaEmergente2.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\EmergenteTinta.Designer.vb">
+      <DependentUpon>EmergenteTinta.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\FrmPantallaEmergente2.vb">
+    <Compile Include="0 EMERGENTE\EmergenteTinta.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 PRINSIPAL\INSUMOS.Designer.vb">
@@ -267,8 +267,8 @@
     <EmbeddedResource Include="0 EMERGENTE\FrmPantallaEmergente1.resx">
       <DependentUpon>FrmPantallaEmergente1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 EMERGENTE\FrmPantallaEmergente2.resx">
-      <DependentUpon>FrmPantallaEmergente2.vb</DependentUpon>
+    <EmbeddedResource Include="0 EMERGENTE\EmergenteTinta.resx">
+      <DependentUpon>EmergenteTinta.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 PRINSIPAL\INSUMOS.resx">
       <DependentUpon>INSUMOS.vb</DependentUpon>
