@@ -51,15 +51,15 @@
 
     End Sub
 
-    Private Sub Panel147_Paint(sender As Object, e As PaintEventArgs) Handles Panel147.Paint
+    Private Sub Panel147_Paint(sender As Object, e As PaintEventArgs) 
 
     End Sub
 
-    Private Sub Panel341_Paint(sender As Object, e As PaintEventArgs) Handles Panel341.Paint
+    Private Sub Panel341_Paint(sender As Object, e As PaintEventArgs) 
 
     End Sub
 
-    Private Sub TextBox382_TextChanged(sender As Object, e As EventArgs) Handles TextBox382.TextChanged
+    Private Sub TextBox382_TextChanged(sender As Object, e As EventArgs) 
 
     End Sub
 

@@ -1,4 +1,4 @@
-﻿Public Class OT_PLANIFICACION
+﻿Public Class OT_PLANIFICA
     Private Sub Panel147_Paint(sender As Object, e As PaintEventArgs) Handles Panel147.Paint
 
     End Sub

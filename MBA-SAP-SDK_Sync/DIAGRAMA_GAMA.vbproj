@@ -112,82 +112,94 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="0 EMERGENTE\10.Designer.vb">
-      <DependentUpon>10.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprePrePrePano.Designer.vb">
+      <DependentUpon>OT_ImprePrePrePano.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\10.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprePrePrePano.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\11.Designer.vb">
-      <DependentUpon>11.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprParteDiarioDocumto.Designer.vb">
+      <DependentUpon>OT_ImprParteDiarioDocumto.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\11.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprParteDiarioDocumto.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\12.Designer.vb">
-      <DependentUpon>12.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprParteDiarioRastreabilidad.Designer.vb">
+      <DependentUpon>OT_ImprParteDiarioRastreabilidad.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\12.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprParteDiarioRastreabilidad.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\13.Designer.vb">
-      <DependentUpon>13.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprOtPegado.Designer.vb">
+      <DependentUpon>OT_ImprOtPegado.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\13.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprOtPegado.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\4.Designer.vb">
-      <DependentUpon>4.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprOtSeleccion.Designer.vb">
+      <DependentUpon>OT_ImprOtSeleccion.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\4.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprOtSeleccion.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\5.Designer.vb">
-      <DependentUpon>5.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprOTDescarton.Designer.vb">
+      <DependentUpon>OT_ImprOTDescarton.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\5.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprOTDescarton.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\7.Designer.vb">
-      <DependentUpon>7.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprOtTroquelado.Designer.vb">
+      <DependentUpon>OT_ImprOtTroquelado.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\7.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprOtTroquelado.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\8.Designer.vb">
-      <DependentUpon>8.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImpreOtPlanific.Designer.vb">
+      <DependentUpon>OT_ImpreOtPlanific.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\8.vb">
+    <Compile Include="0 EMERGENTE\OT_ImpreOtPlanific.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\9.Designer.vb">
-      <DependentUpon>9.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprOtUV.Designer.vb">
+      <DependentUpon>OT_ImprOtUV.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\9.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprOtUV.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\EmergenteChecklist.Designer.vb">
-      <DependentUpon>EmergenteChecklist.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprOtimpres.Designer.vb">
+      <DependentUpon>OT_ImprOtimpres.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\EmergenteChecklist.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprOtimpres.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\EmergentePlanificacion.Designer.vb">
-      <DependentUpon>EmergentePlanificacion.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprOtPlastific.Designer.vb">
+      <DependentUpon>OT_ImprOtPlastific.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\EmergentePlanificacion.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprOtPlastific.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\FrmPantallaEmergente1.Designer.vb">
-      <DependentUpon>FrmPantallaEmergente1.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprOtCheckList.Designer.vb">
+      <DependentUpon>OT_ImprOtCheckList.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\FrmPantallaEmergente1.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprOtCheckList.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\EmergenteTinta.Designer.vb">
-      <DependentUpon>EmergenteTinta.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprOtCorte.Designer.vb">
+      <DependentUpon>OT_ImprOtCorte.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\EmergenteTinta.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprOtCorte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprOtResmado.Designer.vb">
+      <DependentUpon>OT_ImprOtResmado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprOtResmado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprOtTinta.Designer.vb">
+      <DependentUpon>OT_ImprOtTinta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprOtTinta.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 PRINSIPAL\INSUMOS.Designer.vb">
@@ -269,10 +281,10 @@
     <Compile Include="DIAGRAMA GAMA JLMB\RRHH.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 OT\OT_PLANIFICACION.Designer.vb">
-      <DependentUpon>OT_PLANIFICACION.vb</DependentUpon>
+    <Compile Include="0 OT\OT_PLANIFICA.Designer.vb">
+      <DependentUpon>OT_PLANIFICA.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 OT\OT_PLANIFICACION.vb">
+    <Compile Include="0 OT\OT_PLANIFICA.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 OT\OT_MANTENIMIENTO.Designer.vb">
@@ -330,14 +342,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="0 EMERGENTE\EmergenteChecklist.resx">
-      <DependentUpon>EmergenteChecklist.vb</DependentUpon>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprePrePrePano.resx">
+      <DependentUpon>OT_ImprePrePrePano.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 EMERGENTE\FrmPantallaEmergente1.resx">
-      <DependentUpon>FrmPantallaEmergente1.vb</DependentUpon>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtCheckList.resx">
+      <DependentUpon>OT_ImprOtCheckList.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 EMERGENTE\EmergenteTinta.resx">
-      <DependentUpon>EmergenteTinta.vb</DependentUpon>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprParteDiarioDocumto.resx">
+      <DependentUpon>OT_ImprParteDiarioDocumto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImpresionOTRastreabilidad.resx">
+      <DependentUpon>OT_ImprParteDiarioRastreabilidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtTinta.resx">
+      <DependentUpon>OT_ImprOtTinta.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 PRINSIPAL\INSUMOS.resx">
       <DependentUpon>INSUMOS.vb</DependentUpon>
@@ -378,8 +396,8 @@
     <EmbeddedResource Include="DIAGRAMA GAMA JLMB\RRHH.resx">
       <DependentUpon>RRHH.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="0 OT\OT_PLANIFICACION.resx">
-      <DependentUpon>OT_PLANIFICACION.vb</DependentUpon>
+    <EmbeddedResource Include="0 OT\OT_PLANIFICA.resx">
+      <DependentUpon>OT_PLANIFICA.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 OT\OT_MANTENIMIENTO.resx">
       <DependentUpon>OT_MANTENIMIENTO.vb</DependentUpon>
