@@ -120,18 +120,6 @@
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="Panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="Panel4.ToolTip" xml:space="preserve">
-    <value>Esta oreja esta destina principalmente al MAQUINISTA 
-para que cargue la información que le va llevar a la cuantificación 
-de su premio.
-Lo que no se carga correctamente el programa no puede calcular
-su premio.
-
-</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="PictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2089,26 +2077,6 @@ su premio.
         KKKKAP/Z
 </value>
   </data>
-  <metadata name="Panel156.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="Panel7.ToolTip" xml:space="preserve">
-    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
-Ingreso por los MAQUINISTAS, y  SUPERVISORES.
-
-Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
-No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
-por no cumplir con su trabajo.
-
-Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
-1- Kilos buenos
-2- Tiradas
-3- Scrap Kilos
-
-Y al terminar darle el FIN de la estación
-Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
-EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
-  </data>
   <data name="ComboBox239.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
@@ -2279,21 +2247,35 @@ Aviso OT FIN"
   <metadata name="Panel156.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="Panel7.ToolTip" xml:space="preserve">
+    <value>Parte diaria que debe ser ingresado en todos los TIEMPOS.
+Ingreso por los MAQUINISTAS, y  SUPERVISORES.
+
+Si no tiene INICIO, LIBERACION, orden de BAJAR o DEBOLUCION registrado,
+No sera contemplado en el premio estos KILOS y tendran amonestacion por escrito
+por no cumplir con su trabajo.
+
+Tambien forma parte de su RESPONSABILIDAD cargar 3 INFORMACIONES:
+1- Kilos buenos
+2- Tiradas
+3- Scrap Kilos
+
+Y al terminar darle el FIN de la estación
+Todas estas responsabilidades del impresor, que si no son realizadas NO SE TENDRA EN
+EN CUENTA DE FORMA AUTOMATICA en el premio y se le AMONESTARA POR ESCRITO AL RESPONSABLE.</value>
+  </data>
   <metadata name="Panel5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="OT.ToolTip" xml:space="preserve">
-    <value> OT Digital
-Aquí está toda la información sobre la OT que se debe tener en cuenta,
- el trabajo y sobre todo LEER LAS INDICACIONES.
-Tanto por los MAQUINISTAS como por los SUPERVISORES y JEFATURAS
- para seguir correctamente las indicaciones
+  <data name="Panel4.ToolTip" xml:space="preserve">
+    <value>Esta oreja esta destina principalmente al MAQUINISTA 
+para que cargue la información que le va llevar a la cuantificación 
+de su premio.
+Lo que no se carga correctamente el programa no puede calcular
+su premio.
 
 </value>
   </data>
-  <metadata name="Panel131.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="Panel46.ToolTip" xml:space="preserve">
     <value>Es el estado la la OC y su composición.
 Indica si es una sola entrega o son varias entregas.
@@ -2309,9 +2291,6 @@ a tipo Manual 4x2x4 impresa por una cara 4x0 colores sobre papel Manual: (Ancho:
 Pegue: 1,0 / Aleta cajon: 1 / Aleta Cruz 1,5)
  Bond 60 terminado 1 cara barniz A. Brillo+UV </value>
   </data>
-  <metadata name="Panel34.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="TextBox269.ToolTip" xml:space="preserve">
     <value>EL troquel Gama N°  es el N° que se
 le dio al trasado del TROQUEL.
@@ -2868,9 +2847,6 @@ Trae de litoplan.
         KKKKAP/Z
 </value>
   </data>
-  <metadata name="Panel30.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="PictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcI
@@ -3968,6 +3944,21 @@ Habre esta ventana emergente para tener una OT RESUMIDA
 Si necesita informacion detallada recurre a la pantalla principal.
 </value>
   </data>
+  <data name="OT.ToolTip" xml:space="preserve">
+    <value> OT Digital
+Aquí está toda la información sobre la OT que se debe tener en cuenta,
+ el trabajo y sobre todo LEER LAS INDICACIONES.
+Tanto por los MAQUINISTAS como por los SUPERVISORES y JEFATURAS
+ para seguir correctamente las indicaciones
+
+</value>
+  </data>
+  <data name="ComboBox328.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
+  <data name="ComboBox329.Items" xml:space="preserve">
+    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
+  </data>
   <data name="ComboBox236.ToolTip" xml:space="preserve">
     <value>Código del Insumo LAVADOR DE RODILLO 
 Esta fijo para todos los trabajos impresión OFFSET
@@ -3992,15 +3983,6 @@ OT de acuerdo a la última entrega a IMPRESION para
 cada IMPRESORA.
 </value>
   </data>
-  <metadata name="Panel87.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="ComboBox328.Items" xml:space="preserve">
-    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
-  </data>
-  <data name="ComboBox329.Items" xml:space="preserve">
-    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
-  </data>
   <data name="Button81.ToolTip" xml:space="preserve">
     <value>FICHA TECNICA es toda la información sobre el trabajo almacenada que es importada
 Si es nuevo graba la información de la OT en la FICHA TECNICA al apretando el botón
@@ -4009,7 +3991,7 @@ Cuando carga COMERCIAL INGRESO TRABAJO, y es repetición se carga el ingreso con
 
 </value>
   </data>
-  <metadata name="Panel278.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="Panel87.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="TextBox34.Text" xml:space="preserve">
@@ -4967,9 +4949,6 @@ ATENCIÓN
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
   <metadata name="Panel278.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Panel415.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="ComboBox105.Items" xml:space="preserve">
@@ -6653,16 +6632,6 @@ se hace en una nueva maquina.</value>
         w/8Arm+lWnoFhlzOYLdWG6UluQvbg1JHq0aoBulH1o/5hkv+6K57UP8Aj7f8P5VSZEtD/9k=
 </value>
   </data>
-  <data name="Panel83.ToolTip" xml:space="preserve">
-    <value>Desarrollo Montaje Troquel.
-Todo lo necesario para tener en
-cuenta para realizar un troquel.
-Este calculo MONTAJE es manual.
-Se debe tener en cuenta las medidas 
-estandar, si el aprovechamiento es
-bueno y si la cantidad es menor que
-50 Kilos.</value>
-  </data>
   <data name="ComboBox10.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
@@ -6698,6 +6667,16 @@ GRAVA FECHA ENVIADA y envia
 mensaje CELULAR que ya envio, 
 Con el TEXTO enviado DISEÑO
 de la OT 0000000.</value>
+  </data>
+  <data name="Panel83.ToolTip" xml:space="preserve">
+    <value>Desarrollo Montaje Troquel.
+Todo lo necesario para tener en
+cuenta para realizar un troquel.
+Este calculo MONTAJE es manual.
+Se debe tener en cuenta las medidas 
+estandar, si el aprovechamiento es
+bueno y si la cantidad es menor que
+50 Kilos.</value>
   </data>
   <data name="TextBox1045.ToolTip" xml:space="preserve">
     <value>Busca condiciones de TROQUELES que cumpla
@@ -6879,9 +6858,6 @@ Max DIAMET.:180 cm
 
 </value>
   </data>
-  <metadata name="Panel281.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="Panel281.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -8183,6 +8159,6 @@ CKB/ 430Gr / Espesor 0,44um / Canaleta 0,6 x 1,9
 </value>
   </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
+    <value>57</value>
   </metadata>
 </root>
