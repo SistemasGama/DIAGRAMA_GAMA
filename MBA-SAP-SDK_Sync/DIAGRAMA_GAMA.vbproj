@@ -112,10 +112,34 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="0 EMERGENTE\OT_ImprePrePrePano.Designer.vb">
-      <DependentUpon>OT_ImprePrePrePano.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImprParteDiarioComercial.Designer.vb">
+      <DependentUpon>OT_ImprParteDiarioComercial.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\OT_ImprePrePrePano.vb">
+    <Compile Include="0 EMERGENTE\OT_ImprParteDiarioComercial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprParteDiarioMantenimiento.Designer.vb">
+      <DependentUpon>OT_ImprParteDiarioMantenimiento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprParteDiarioMantenimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprParteDiarioCargaImpresion.Designer.vb">
+      <DependentUpon>OT_ImprParteDiarioCargaImpresion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprParteDiarioCargaImpresion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprOtTinta.Designer.vb">
+      <DependentUpon>OT_ImprOtTinta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprOtTinta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprePrePreInfoPano.Designer.vb">
+      <DependentUpon>OT_ImprePrePreInfoPano.vb</DependentUpon>
+    </Compile>
+    <Compile Include="0 EMERGENTE\OT_ImprePrePreInfoPano.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 EMERGENTE\OT_ImprParteDiarioDocumto.Designer.vb">
@@ -154,10 +178,10 @@
     <Compile Include="0 EMERGENTE\OT_ImprOtTroquelado.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="0 EMERGENTE\OT_ImpreOtPlanific.Designer.vb">
-      <DependentUpon>OT_ImpreOtPlanific.vb</DependentUpon>
+    <Compile Include="0 EMERGENTE\OT_ImpreOtPlanifica.Designer.vb">
+      <DependentUpon>OT_ImpreOtPlanifica.vb</DependentUpon>
     </Compile>
-    <Compile Include="0 EMERGENTE\OT_ImpreOtPlanific.vb">
+    <Compile Include="0 EMERGENTE\OT_ImpreOtPlanifica.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 EMERGENTE\OT_ImprOtUV.Designer.vb">
@@ -194,12 +218,6 @@
       <DependentUpon>OT_ImprOtResmado.vb</DependentUpon>
     </Compile>
     <Compile Include="0 EMERGENTE\OT_ImprOtResmado.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="0 EMERGENTE\OT_ImprOtTinta.Designer.vb">
-      <DependentUpon>OT_ImprOtTinta.vb</DependentUpon>
-    </Compile>
-    <Compile Include="0 EMERGENTE\OT_ImprOtTinta.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="0 PRINSIPAL\INSUMOS.Designer.vb">
@@ -342,20 +360,59 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="0 EMERGENTE\OT_ImprePrePrePano.resx">
-      <DependentUpon>OT_ImprePrePrePano.vb</DependentUpon>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprParteDiarioComercial.resx">
+      <DependentUpon>OT_ImprParteDiarioComercial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprParteDiarioMantenimiento.resx">
+      <DependentUpon>OT_ImprParteDiarioMantenimiento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImpreOtPlanifica.resx">
+      <DependentUpon>OT_ImpreOtPlanifica.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprePrePreInfoPano.resx">
+      <DependentUpon>OT_ImprePrePreInfoPano.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtCheckList.resx">
       <DependentUpon>OT_ImprOtCheckList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtCorte.resx">
+      <DependentUpon>OT_ImprOtCorte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOTDescarton.resx">
+      <DependentUpon>OT_ImprOTDescarton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtimpres.resx">
+      <DependentUpon>OT_ImprOtimpres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtPegado.resx">
+      <DependentUpon>OT_ImprOtPegado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtPlastific.resx">
+      <DependentUpon>OT_ImprOtPlastific.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtResmado.resx">
+      <DependentUpon>OT_ImprOtResmado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtSeleccion.resx">
+      <DependentUpon>OT_ImprOtSeleccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtTinta.resx">
+      <DependentUpon>OT_ImprOtTinta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtTroquelado.resx">
+      <DependentUpon>OT_ImprOtTroquelado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprParteDiarioCargaImpresion.resx">
+      <DependentUpon>OT_ImprParteDiarioCargaImpresion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtUV.resx">
+      <DependentUpon>OT_ImprOtUV.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 EMERGENTE\OT_ImprParteDiarioDocumto.resx">
       <DependentUpon>OT_ImprParteDiarioDocumto.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 EMERGENTE\OT_ImpresionOTRastreabilidad.resx">
       <DependentUpon>OT_ImprParteDiarioRastreabilidad.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="0 EMERGENTE\OT_ImprOtTinta.resx">
-      <DependentUpon>OT_ImprOtTinta.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="0 PRINSIPAL\INSUMOS.resx">
       <DependentUpon>INSUMOS.vb</DependentUpon>

@@ -24,13 +24,13 @@ Partial Class OT_ImprOtCheckList
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'OT_ImpresionOTCheckList
+        'OT_ImprOtCheckList
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1364, 749)
-        Me.Name = "OT_ImpresionOTCheckList"
-        Me.Text = "Form1"
+        Me.Name = "OT_ImprOtCheckList"
+        Me.Text = "CheckList"
         Me.ResumeLayout(False)
 
     End Sub

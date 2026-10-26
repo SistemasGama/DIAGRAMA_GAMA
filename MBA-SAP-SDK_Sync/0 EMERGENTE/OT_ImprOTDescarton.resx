@@ -117,10 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ComboBox316.Items" xml:space="preserve">
-    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
-  </data>
-  <data name="ComboBox317.Items" xml:space="preserve">
-    <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
-  </data>
 </root>

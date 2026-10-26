@@ -11,7 +11,7 @@
 
     End Sub
 
-    Private Sub Panel151_Paint(sender As Object, e As PaintEventArgs) Handles Panel151.Paint
+    Private Sub Panel151_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
 
@@ -39,11 +39,11 @@
 
     End Sub
 
-    Private Sub CheckBox114_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox114.CheckedChanged
+    Private Sub CheckBox114_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub CheckBox118_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox118.CheckedChanged
+    Private Sub CheckBox118_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -63,7 +63,7 @@
 
     End Sub
 
-    Private Sub Panel190_Paint(sender As Object, e As PaintEventArgs) Handles Panel190.Paint
+    Private Sub Panel190_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
 
@@ -490,7 +490,7 @@
 
     End Sub
 
-    Private Sub Button64_Click(sender As Object, e As EventArgs) Handles Button64.Click
+    Private Sub Button64_Click(sender As Object, e As EventArgs)
         FrmPantallaEmergente1.ShowDialog()
     End Sub
 

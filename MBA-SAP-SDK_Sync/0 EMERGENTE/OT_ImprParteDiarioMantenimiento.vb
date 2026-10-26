@@ -1,0 +1,3 @@
+﻿Public Class OT_ImprParteDiarioMantenimiento
+
+End Class

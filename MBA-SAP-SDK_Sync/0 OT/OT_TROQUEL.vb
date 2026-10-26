@@ -23,15 +23,22 @@
 
     End Sub
 
-    Private Sub RadioButton46_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton46.CheckedChanged, RadioButton4.CheckedChanged, RadioButton2.CheckedChanged
+    Private Sub RadioButton46_CheckedChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Panel40_Paint(sender As Object, e As PaintEventArgs) Handles Panel40.Paint, Panel9.Paint, Panel13.Paint
+    Private Sub Panel40_Paint(sender As Object, e As PaintEventArgs)
 
     End Sub
 
     Private Sub Panel19_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
+    Private Sub Panel24_Paint(sender As Object, e As PaintEventArgs) Handles Panel24.Paint
+
+
+
 
     End Sub
 End Class
