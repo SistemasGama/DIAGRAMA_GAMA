@@ -22,6 +22,7 @@ Partial Class OT_ImprOtCheckList
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim CheckedListBox13 As System.Windows.Forms.CheckedListBox
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OT_ImprOtCheckList))
         Me.Panel162 = New System.Windows.Forms.Panel()
@@ -164,6 +165,7 @@ Partial Class OT_ImprOtCheckList
         Me.Button168 = New System.Windows.Forms.Button()
         Me.Button170 = New System.Windows.Forms.Button()
         Me.Button169 = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         CheckedListBox13 = New System.Windows.Forms.CheckedListBox()
         Me.Panel162.SuspendLayout()
         Me.Panel43.SuspendLayout()
@@ -1500,7 +1502,7 @@ Partial Class OT_ImprOtCheckList
         Me.CheckedListBox3.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckedListBox3.ForeColor = System.Drawing.Color.Black
         Me.CheckedListBox3.FormattingEnabled = True
-        Me.CheckedListBox3.Items.AddRange(New Object() {"TROQUEL", "     Corposai MONTAJE UV + Regis. T", "     Corposai Relieve regisro boca.", "     Corposai Contenido CLIENTE", "     Engomado no toque Pertinax", "     3 Corte lateral las 4 caras", "REGISTRO T", "CANALETAS", "     Lijar marca y angulos.", "PERTINAX", "     Llegada, Ancho y Profundidad.", "     Pertinax Lijar canaleta y angulos", "CORPOSAI RELIEVE FONDO AGUA", "     Zona colo CYAN / lineas negras", "PLATINA", "TRASADO ARREGLO", "     Corposai Montaje, diseño dorso", "RELIEVE HEMBRA", "     Lijar / Borde Redondeado", "RELIEVE MACHO", "     Lijar bordes filosos", "     Corte Perimetro 120º", "     Espesor 1,50 mm Platina", "     Espesor 1,00 mm Pertinax", "     Probar Perno sujeta?", "     Probar perno Madera", "RELIEVE MACHO 3D", "     3D cubre todo Corposai ", "STAMPING HEMBRA", "     Corposai Montaje registro", "     Con centrador", "STAMPING MACHO.", "DESCARTONADO INTERNO", "DESCARTONADO EXTERNO"})
+        Me.CheckedListBox3.Items.AddRange(New Object() {"TROQUEL", "     Registro centro 1,6 x 1,0 cm , con reaya en el centro. ", "               61 cm del borde rama al centro.", "                 5 cm borde externo de la rama primer filo.", "     Corposai MONTAJE UV + Registro T (Papel vegetal)", "     Corposai Relieve regisro boca. (Papel vegetal)", "     Corposai Contenido Fiche tecnica CLIENTE", "     GOMA queno toque Pertinax", "     3 Corte lateral las 4 caras, para facilitar DESCARTONADO.", "REGISTRO T", "CANALETAS", "     Lijar marca y angulos.", "PERTINAX", "     Llegada, Ancho y Profundidad.", "     Pertinax Lijar canaleta y angulos", "CORPOSAI RELIEVE FONDO AGUA", "     Zona colo CYAN / lineas negras", "PLATINA", "TRASADO ARREGLO", "     Corposai Montaje, con diseño dorso.", "RELIEVE HEMBRA", "     Lijar / Borde Redondeado", "RELIEVE MACHO", "     Lijar bordes filosos", "     Corte Perimetro 120º", "     Espesor 1,50 mm Platina", "     Espesor 1,00 mm Pertinax", "     Probar Perno sujeta?", "     Probar perno Madera", "RELIEVE MACHO 3D", "     3D cubre todo Corposai ", "STAMPING HEMBRA", "     Corposai Montaje registro", "     Con centrador", "STAMPING MACHO.", "DESCARTONADO INTERNO", "DESCARTONADO EXTERNO"})
         Me.CheckedListBox3.Location = New System.Drawing.Point(8, 33)
         Me.CheckedListBox3.Name = "CheckedListBox3"
         Me.CheckedListBox3.Size = New System.Drawing.Size(221, 214)
@@ -2341,13 +2343,13 @@ Partial Class OT_ImprOtCheckList
         Me.Button169.Text = "Calcula"
         Me.Button169.UseVisualStyleBackColor = False
         '
-        'FrmEmergenteCheckList
+        'OT_ImprOtCheckList
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1340, 660)
         Me.Controls.Add(Me.Panel162)
-        Me.Name = "FrmEmergenteCheckList"
+        Me.Name = "OT_ImprOtCheckList"
         Me.Text = "FrmEmergenteCheckList"
         Me.Panel162.ResumeLayout(False)
         Me.Panel43.ResumeLayout(False)
@@ -2535,4 +2537,5 @@ Partial Class OT_ImprOtCheckList
     Friend WithEvents Button168 As Button
     Friend WithEvents Button170 As Button
     Friend WithEvents Button169 As Button
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

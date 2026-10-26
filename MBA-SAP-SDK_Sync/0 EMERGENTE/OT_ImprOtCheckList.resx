@@ -220,4 +220,7 @@
   <data name="ComboBox334.Items" xml:space="preserve">
     <value>el NARANJA es la segunda alerta que tiene el SP solamente y ultima que debe tomar una decision y la tercera y ultima es las ROJA que recibe el supervisor y LA JEFATURA DE PLANTA, INDICANDO QUE SP no toma decisiones correcta  </value>
   </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
